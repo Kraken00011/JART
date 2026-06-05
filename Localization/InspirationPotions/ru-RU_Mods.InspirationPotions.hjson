@@ -1,0 +1,75 @@
+/*Buffs: {
+	InspirationWeakness: {
+		DisplayName: Художественный ступор
+		Description: Симфонический урон снижен на {0}%
+	}
+}
+
+Items: {
+	InspirationFlower: {
+		DisplayName: Вдохновляющий цветок
+		Tooltip:
+			'''
+			Увеличивает симфонический урон на 8%
+			Автоматически использует зелья вдохновения при необходимости
+			'''
+	}
+
+	LesserInspirationPotion.DisplayName: Малое зелье вдохновения
+	InspirationPotion.DisplayName: Зелье вдохновения
+	GreaterInspirationPotion.DisplayName: Большое зелье вдохновения
+	SuperInspirationPotion.DisplayName: Превосходное зелье вдохновения
+	SupremeInspirationPotion.DisplayName: Высшее зелье вдохновения
+	DecorativeGreaterInspirationPotion.DisplayName: Большое декоративное зелье вдохновения
+	DecorativeInspirationPotion.DisplayName: Декоративное зелье вдохновения
+	DecorativeLesserInspirationPotion.DisplayName: Малое декоративное зелье вдохновения
+	DecorativeSuperInspirationPotion.DisplayName: Превосходное декоративное зелье вдохновения
+	DecorativeSupremeInspirationPotion.DisplayName: Высшее декоративное зелье вдохновения
+}
+
+PotionTooltip: Восстанавливает {0} {^0:очко;очка;очков} вдохновения
+Keybinds.QuickInspiration.DisplayName: Восстановить вдохновение
+
+Configs: {
+	InspirationPotionsConfig: {
+		DisplayName: Общая конфигурация
+
+		CrateDrops: {
+			Label: Выпадение с ящиков
+			Tooltip: Меняет способ получения зелий вдохновения с ящиков
+		}
+	}
+
+	InspirationPotionsClientConfig: {
+		DisplayName: Клиентская конфигурация
+
+		DungeonBottles: {
+			Label: Бутылки в темнице
+			Tooltip: Whether inspiration potions should spawn as tiles in the Dungeon during world generation
+		}
+	}
+
+	CrateLoot: {
+		Tooltip: Типы выпадения с ящиков
+
+		Mixed: {
+			Label: Объединённый
+			Tooltip:
+				'''
+				Inspiration potions are added as a third possibility with equal weight for potion drops (healing and mana) from crates
+				This technically reduces the chance for other drops as it is added into the same pool
+				'''
+		}
+
+		Separate: {
+			Label: Отдельный
+			Tooltip: Inspiration potions have a separate chance (1/8) of being obtained from crates, keeping other potion drops normal
+		}
+
+		None: {
+			Label: Никакой
+			Tooltip: Inspiration potions are never obtained from crates
+		}
+	}
+}
+*/

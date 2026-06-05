@@ -1,0 +1,965 @@
+ModNotInstalled: Данный мод не установлен!
+
+Modes: {
+	Revengeance: "[Месть]"
+	Death: "[Смерть]"
+	Eternity: "[Вечность]"
+	EterniDeath: "[Вечность+Смерть]"
+}
+
+SupportedMods: {
+	Tooltip:
+		'''
+		Подсказка: Нажмите {0} или {1}, чтобы выбрать босса
+		Удерживайте {2}, чтобы увидеть изменения в их ИИ
+
+		Поддерживаемые боссы:
+		'''
+	Consolaria:
+		'''
+		-<Lepus>{$Mods.Consolaria.NPCs.Lepus.DisplayName}
+		-<Turkor>{$Mods.Consolaria.NPCs.TurkortheUngrateful.DisplayName}
+		-<Ocram>{$Mods.Consolaria.NPCs.Ocram.DisplayName}
+		'''
+	ContinentOfJourney:
+		'''
+		-<BigDipper>{$Mods.ContinentOfJourney.NPCs.BigDipper.DisplayName}
+		-<GoblinChariot>{$Mods.ContinentOfJourney.NPCs.GoblinChariot.DisplayName}
+		-<Motherbrain>{$Mods.ContinentOfJourney.NPCs.TheMotherbrain.DisplayName}
+		-<ScarabBelief>{$Mods.ContinentOfJourney.NPCs.ScarabBelief.DisplayName}
+		'''
+	Redemption:
+		'''
+		-<Thorn>{$Mods.Redemption.NPCs.Thorn.DisplayName}
+		-<Erhan>{$Mods.Redemption.NPCs.Erhan.DisplayName}
+		-<Keeper>{$Mods.Redemption.NPCs.Keeper.DisplayName}
+		-<SeedofInfection>{$Mods.Redemption.NPCs.SoI.DisplayName}
+		-<KingSlayer>{$Mods.Redemption.NPCs.KS3.DisplayName}
+		-<Gigapora>{$Mods.Redemption.NPCs.Gigapora.DisplayName}
+		-<OmegaObliterator>{$Mods.Redemption.NPCs.OO.DisplayName}
+		-<PatientZero>{$Mods.Redemption.NPCs.PZ.DisplayName}
+		-<Nebuleus>{$Mods.Redemption.NPCs.Nebuleus.DisplayName}
+		'''
+	SOTS:
+		'''
+		-<Glowmoth>{$Mods.SOTS.NPCs.Glowmoth.DisplayName}
+		-<PutridPinky>{$Mods.SOTS.NPCs.PutridPinkyPhase2.DisplayName}
+		-<PharaohsCurse>{$Mods.SOTS.NPCs.PharaohsCurse.DisplayName}
+		-<Advisor>{$Mods.SOTS.NPCs.TheAdvisorHead.DisplayName}
+		-<Polaris>{$Mods.SOTS.NPCs.NewPolaris.DisplayName}
+		-<Lux>{$Mods.SOTS.NPCs.Lux.DisplayName}
+		-<SubspaceSerpent>{$Mods.SOTS.NPCs.SubspaceSerpentHead.DisplayName}
+		'''
+	Spooky:
+		'''
+		-<RotGourd>{$Mods.Spooky.NPCs.RotGourd.DisplayName}
+		-<SpookySpirit>{$Mods.Spooky.NPCs.SpookySpirit.DisplayName}
+		-<Moco>{$Mods.Spooky.NPCs.Moco.DisplayName}
+		-<Daffodil>{$Mods.Spooky.NPCs.DaffodilEye.DisplayName}
+		-<OrroBoro>{$Mods.Spooky.NPCs.OrroHead.DisplayName} & {$Mods.Spooky.NPCs.BoroHead.DisplayName}
+		-<BigBone>{$Mods.Spooky.NPCs.BigBone.DisplayName}
+		'''
+	Split:
+		'''
+		-<Spirit>{$Mods.Split.NPCs.TheSpirit.DisplayName}
+		-<OneShot>{$Mods.Split.NPCs.OneShot.DisplayName}
+		-<Paraffin>{$Mods.Split.NPCs.Paraffin.DisplayName}
+		-<Insurgent>{$Mods.Split.NPCs.Insurgent.DisplayName}
+		-<Seth>{$Mods.Split.NPCs.Seth.DisplayName}
+		'''
+}
+
+AIChanges: {
+	Lepus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Пасхальные зайцы двигаются быстрее
+		-Враги из маленьких яиц вылупляются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Маленькие яйца невозможно уничтожить
+		-Враги из маленьких яиц вылупляются ещё быстрее
+		-Враги из больших яиц вылупляются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Во время ускоренного падения создаёт 2 падающих клинка
+		-Во время слабых прыжков создаёт 4 падающих клинка
+		-Во время заряженной атаки выбрасывает пару взрывных яиц
+		-Лепус иногда останавливается и блюёт
+		-Пасхальные зайцы накладывают дебафф «Виновный» при попадании
+		-Большинство атак накладывают либо дебафф «Оглушённый», либо «Гниение», либо «Беззащитный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Количество падающих клинков во время ускоренного падения увеличивается до 4
+		-Количество падающих клинков во время слабых прыжков увеличивается до 5
+		-Выстрелы взрывными яйцами стали гораздо быстрее
+		'''
+	Turkor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Рывки и атаки снарядами имеют свои альтернативные варианты
+		-Ножи летят чуть дальше обычного
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Иногда одновременно совершает и атаки ближнего, и дальнего боя
+		-Ножи летят куда дальше обычного
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Время от времени тело создаёт ножевые спирали
+		-Большинство атак накладывают либо дебафф «Виновный», либо «Гниение», либо «Оглушённый»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Ножевые спирали появляются только на уровне здоровья ниже 75%
+		'''
+	Ocram:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Дальность рывков увеличена
+		-Во 2-й фазе дальность рывка увеличивается ещё сильнее
+		-Не получает урон во время перехода во вторую и третью фазы
+		-В 1-й фазе после шквала лазеров стреляет черепами
+		-Во 2-й фазе во время шквала лазеров стреляет черепами
+		-Большинство атак накладывают дебаффы «Пылающая кровь» или «Гниение мозга»
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Дальность рывков увеличивается куда сильнее
+		-В 1-й фазе во время шквала стреляет тремя линиями лазеров вместо одной
+		-Стреляет куда большим количеством черепов
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Прислужники стреляют самонаводящимся спектральным пламенем
+		-Рывки немного искривляются и оставляют за собой след из кос
+		-Получает новые атаки в 3-й фазе
+		-Большинство атак накладывают различные дебаффы
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Количество кос в 3-й фазе увеличено
+		-В 3-й фазе Окрам раскручивается быстрее
+		'''
+	Thorn:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Колючие шары сопровождаются зарядом колючек
+		-Пиявочные лозы призываются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Колючие шары взрываются на большое количество колючек
+		-Пиявочные лозы призываются ещё быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Колючие шары недолго преследуют игрока
+		-Большинство атак накладывают дебаффы «Заражённый» и «Гниение»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Erhan:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-В 1-й фазе стреляет самонаводящимся светом во время атаки дождём из световых лучей
+		-В 1-й фазе создаёт в 2 раза больше световых мечей
+		-Во 2-й фазе метает копья даже во время атаки Библией
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Эрхан не устаёт
+		-Входит в более поздние фазы куда раньше
+		-В 1-й фазе метает копья даже во время атаки Библией
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Большинство атак накладывают дебафф «Кара»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Keeper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Большинство атак накладывают дебафф «Пылающая кровь»
+		-Кровавые волны двигаются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Во 2-й фазе черепа выстреливают одновременно при некоторых атаках
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-В 1-й фазе рывки сопровождаются зарядом кровавых волн
+		-Во 2-й фазе рывки оставляют след из ускоряющихся клешней
+		-Большинство атак накладывают дебаффы «Гниение», «Летаргия», «Берсерк» или «Теневое пламя»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	SeedofInfection:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Осколки двигаются быстрее
+		-Рывки становятся быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Большинство атак накладывают дебафф «Облучённый»
+		-Рывки становятся ещё быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Оставляет след заражающих кос во время совершения рывка
+		-Во 2-й фазе при выстреле лазер создаёт стену из снарядов
+		-Изменения Calamity выключены
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	KingSlayer:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Дроны-ракеты атакуют быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Дроны-ракеты атакуют ещё быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы «Громоотвод» и «Наноинъекция»
+		-Световые гранаты могут обездвижить игрока
+		-Изменения Calamity выключены
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Gigapora:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Гигалуч стреляет стеной лазеров, подобно Танатосу
+
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Защитный модуль предугадывает движения игрока
+		-Лазеры Гигасверла целятся в сторону игрока, если тот слишком далеко
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Все атаки накладывают дебаффы «Громоотвод» и «Наноинъекция»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Уменьшает предсказуемость защитного модуля
+		'''
+	OmegaObliterator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Все атаки накладывают дебаффы «Громоотвод» и «Наноинъекция»
+		-Обездвиживающий луч может оглушить игрока
+		'''
+	PatientZero:
+		'''
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Большинство атак накладывают дебафф «Облучённый»
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебафф «Гниение»
+		'''
+	Nebuleus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Некоторые пронзающие туманные атаки дублируются
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Пронзающие туманные атаки дублируются ещё чаще
+		-Атака цепей космоса пропускается
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Атаки цепей космоса заменены звездным залпом
+		-Большинство атак накладывают дебаффы «Кара» и «Очищенный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены (кроме замены цепей космоса)
+		'''
+	Glowmoth:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Каскадный эффект светобомб распространяется на большее расстояние
+		-Мотылёк тратить меньше времени на преследование игрока
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-После совершения рывка стреляет 16 шарами, вместо 8
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-В 1-й фазе появляется новая атака, в которой он встаёт на месте и выстреливает множеством самонаводящихся искр
+		-Во 2-й фазе появляется новая атака, в которой он начинает кружится вокруг игрока и стрелять искрами
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Количество снарядов в новых атаках режима Вечность увеличено
+		'''
+	PutridPinky:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Интервалы между лазерными залпами сокращены
+		-Атака лазерным лучом сопровождается стрельбой двойными спиралями
+		-После совершения невидимой атаки делает пару быстрых рывков
+		-Стреляет самонаводящимися снарядами во время атаки крутящимися крюками
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Скорость атак увеличена
+		-Интервалы между лазерными залпами сокращены ещё сильнее
+		-Дальность рывка стала значительно больше
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Первая фаза имеет уникальный набор атак, являющихся ослабленными версиями атак 2-й фазы
+		-Стреляет гигантским гелевым сгустком, разделяющимся на 6 меньших сгустков, после стреляет лазерным лучом
+		-После невидимой атаки зависает за игроком, после чего выстреливает самонаводящимися сгустками вместе с одиночными спиралями
+		-Большинство атак накладывают дебафф «Летаргия»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены (кроме увеличения скорости атак)
+		-Гигантские гелевые сгустки имеют небольшую самонаводку и разделяются на 8 частей, вместо 6-и
+		-Совершает рывки после одиночной спиральной атаки, вместо невидимости
+		-Двойные спирали разлетаются куда быстрее
+		'''
+	PharaohsCurse:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-В 1-й фазе стреляет снарядами даже во время атаки щупальцами
+		-После спиральной атаки раскручивается вокруг игрока и стреляет в него
+		-После атаки руками стреляет залпом красных снарядов
+		-Большинство атак накладывают дебафф «Проклятие»
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-В 1-й фазе стреляет большим количеством снарядов во время атаки щупальцами
+		-Стреляет снарядом шести проклятий,ы после чего совершает рывок
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены (кроме того, что атаки накладывают дебафф «Проклятие»)
+		-Берёт некоторые атаки у Проклятого саркофага (ударные волны и костяные кресты)
+		-Большинство атак накладывают дебафф «Гниение» или «Проклятие»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Ослаблена залповая атака (ибо она начинается во время стрельбы костяными крестами)
+		-Проклятые руки немного исцеляют босса, как у Чемпиона души
+		'''
+	Advisor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Ракеты летят дальше и разворачиваются быстрее
+		-Получает сниженный урон, если находится прямо над игроком
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Снаряды молний летят быстрее, но их время существования сокращено
+		-Фиолетовые сферы разделяются на 16 снарядов, вместо 8
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Стреляет большим количеством спиральных лучей, но их время существования сокращено
+		-Во время спиральной атаки стреляет парой электросфер
+		-Большинство атак накладывают либо дебафф «Кара», либо «Громоотвод»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Перед спиральной атакой стреляет большим количеством электросфер
+
+		'''
+	Excavator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы «Запал», «Громоотвод» или «Беззащитный»
+		'''
+	Polaris:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы «Летаргия» или «Беззащитный»
+		-Лазерные лучи накладывают дебаффы «Кара» и «Беззащитный»
+		'''
+	Lux:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Количество снарядов во время крестовой атаки лазерами увеличено
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Количество снарядов во время крестовой атаки лазерами увеличено ещё сильнее
+		-Количество снарядов во время телепортирующей атаки с выбросом шаров увеличено
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Заимствует пару атак у Света жизни (световое поле)
+		-Вторая стена снарядов формируется во время атакой лазерными стенами
+		-Большинство атак накладывают либо дебафф «Кара», либо «Очищенный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	SubspaceSerpent:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Во время кольцевой атаки стреляет красными и зелёными пеллетами
+		-Каждый рывок стреляет отложенным залпом красных пеллет
+		-Во 2-й фазе во время погони за игроком стреляет красными пеллетами
+		-Красные пеллеты и фаерболы во 2-й фазе накладывают дебафф «Серные огни»
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Во время кольцевой атаки стреляет большим количеством пеллет
+		-В 1-й фазе во время погони за игроком стреляет зелёными пеллетами
+		-Залп красными пеллетами совершается с меньшей задержкой
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Кольцевая атака фаерболами происходит до рывка дождя пламени 2-й фазы
+		-Совершает атаку огненным дыханием каждый рывок дождя пламени
+		-Большинство атак накладывают либо дебафф «Кара», либо «Громоотвод», либо «Запал»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	RotGourd:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Выпускает споры после приземления от высокого прыжка
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-После поднятия мушками выпускает множество спор
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Создаёт ударные волны во время приземления
+		-Большинство атак накладывают либо дебафф «Гниение», либо «Заражённый», либо «Ошеломление»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	SpookySpirit:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Совершает рывок 1 дополнительный раз
+		-Интервал между рывками уменьшен
+		-Телепортируется быстрее
+		-Глазной луч накладывает дебафф «Облучённый»
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Совершает рывок 2 дополнительных раза вместо 1
+		-Интервал между рывками уменьшен ещё сильнее
+		-Телепортируется гораздо быстрее
+		-Количество жёлтых глазоболтов увеличено
+		-Атаки в целом становятся быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Глазоболты накладывают дебафф «Кара»
+		-Продолжает стрелять глазоболтами даже во время атаки глазолучом
+		-Во время рывка выстреливает залпом из кос
+		-Во время дождя из черепов стреляет наведёнными в сторону игрока косами
+		-Во 2-й фазе испускает огни во время преследования игрока
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Увеличено количество снарядов для атак режима Вечность
+		'''
+	Moco:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Длительность дебаффа «Оклеен» увеличена
+		-Дальность рывков увеличена
+		-Совершает рывок 1 дополнительный раз
+		-Стреляет гигантской козявкой дважды
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Длительность дебаффа «Оклеен» увеличена ещё сильнее
+		-Дальность рывка увеличена ещё сильнее
+		-Совершает рывок 2 дополнительных раза вместо 1-го
+		-Стреляет гигантской козявкой трижды
+		-Атаки в целом становятся быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Во время рывка оставляет за собой след падающих соплей
+		-Каждая сопля накладывает дебафф «Летаргия» и «Заражённый»
+		-Гигантские козявки накладывают дебафф «Беззащитный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Daffodil:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Все шиповые атаки накладывают дебафф «Заражение»
+		-Цветки накладывают дебафф «Заражение»
+		-Мухи накладывают дебафф «Гниение»
+		-Сметающий лазер накладывает дебафф «Запал»
+		'''
+	OrroBoro:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-До удлинённого рывка оба совершают плевковую атаку с определённым разбросом
+		-Все плевковые атаки и кровавые сгустки Орро накладывают дебафф «Гниение мозга»
+		-Столбы плоти и кровавые сгустки Боро накладывают дебафф «Пылающая кровь»
+		-Во время ярости Боро сплёвывает залп из 3-х ударов во время рывка
+		-Во время ярости вскоре после совершения рывка Орро создаёт несколько бомб
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Снаряды, выплюнутые до совершения удлинённого рывка летят гораздо быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Глазные плевки накладывают дебаффы «Летаргия» и «Беззащитный»
+		-Кровавые сгустки и столбы плоти накладывают дебаффы «Гниение»
+		-Во время удлинённого рывка Боро оставляет за собой след из пиявок
+		-Орро создаёт стены ленточных червей во время удлинённого рывка
+		-Боро выпускает самонаводящиеся зубы во время атаки языком
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	BigBone:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Стреляет самонаводящимися цветками во время взращивания прыгучих цветков
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Стреляет цветками гораздо быстрее и чаще
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Огненные атаки накладывают дебафф «Запал»
+		-Споровые атаки и атаки колючками накладывают дебафф «Заражённый»
+		-Цветковые и костяные атаки накладывают дебафф «Гниение»
+		-Бритвенные атаки накладывают дебаффы «Заражённый» и «Беззащитный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	BigDipper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Дальность рывка увеличена
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Дальность рывка увеличена ещё сильнее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Стреляет кольцом снарядов пока одиночный лазерный луч активен
+		-Стреляет разбросом из снарядов пока двойной лазерный луч активен
+		-Большинство атак накладывают дебаффы «Кара» и «Громоотвод»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Увеличено количество снарядов у кольца снарядов
+		-Изменения Calamity снова включены
+		'''
+	GoblinChariot:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Количество снарядов во время дождя ядер увеличено
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Колесница совершает атаку гигантским шаром, как только встанет над игроком
+		-Количество снарядов во время дождя ядер увеличено ещё сильнее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Большинство атак накладывают дебаффы «Беззащитный», «Оглушённый» и «Запал»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Motherbrain:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Сетковая атака проныр используется дважды
+		-Спираль из проныр используется 1 дополнительный раз
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Спираль из проныр используется 2 дополнительных раза вместо 1-го
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Проныры накладывают дебаффы «Громоотвод» и «Беззащитный»
+		-Голограммы Линки накладывают дебаффы режима Вечности, точно такие же, как скопированные ими существа
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	ScarabBelief:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Лучевая атака сопровождается световыми лучами, летящими по случайной траектории
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Световые лучи, летящие по случайной траектории выстреливаются разбросом из 3-х
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Все атаки накладывают дебаффы «Кара» и «Очищенный»
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+	Spirit:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-All spirit ball attack projectiles no longer fall
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Spirit balls are faster
+		-All spirit ball attack projectiles are shot faster
+		'''
+	OneShot:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Teleportation is faster
+		-Snow cloud has a much shorter wind-up
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Regular bullets travel faster
+		-Bombs fall faster
+		'''
+	Paraffin:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Recovers from dizziness much sooner
+		-Fists have slight homing
+		-Fire notes and homing bolts inflict brimstone flames
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-No longer gets dizzy
+		-Projectiles are faster
+		'''
+	Insurgent:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Uses phase 2 attacks much sooner
+		-Green wave attack now always shoots a total of 4 projectiles
+		-Bones, green waves and contact damage inflict the plague
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Increased aggression below 33% health
+		-Bone explosion and green waves have shorter wind-ups
+		-Projectiles are faster
+		'''
+	Seth:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Heat snap attack rotates faster
+		-Heat snap now has a minimum rotation speed cap
+		-Heat snap inflicts dragon fire if the player somehow survives it
+		-Sword spin attack inflicts brimstone flames
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Heat snap attack rotates even faster
+		-Heat snap is no longer consistent and the initial direction is always random
+		'''
+}
+
+InfernumTitle: {
+	Lepus:
+		'''
+		КАТАСТРОФИЧЕСКИЙ ЗАЯЦ
+		ЛЕПУС
+		'''
+	TurkortheUngrateful:
+		'''
+		НЕБЛАГОДАРНЫЙ
+		ТУРКОР
+		'''
+	Ocram:
+		'''
+		ПОТЕРЯННЫЙ СОСУД
+		ОКРАМ
+		'''
+	Glowmoth:
+		'''
+		ЛЮМИНИСЦЕНТНЫЙ ЛЕТУН
+		СВЕТЫЛЁК
+		'''
+	PutridPinkyPhase2:
+		'''
+		ЖЕЛЕЙНЫЙ ЛЮБИТЕЛЬ АРАХИСА
+		ГНИЛОСТНЫЙ ПИНКИ
+		'''
+	PharaohsCurse:
+		'''
+		ПРОКЛЯТЬЕ РА
+		ПРОКЛЯТЬЕ ФАРАОНА
+		'''
+	TheAdvisorHead:
+		'''
+		ИНОМИРНЫЙ ДУХ
+		АНАЛИТИК
+		'''
+	Excavator:
+		'''
+		РАЗРЫВАТЕЛЬ МИРА
+		ЭКСКАВАТОР
+		'''
+	Polaris:
+		'''
+		ЗВЕЗДА СЕВЕРА
+		ПОЛЯРИС
+		'''
+	Lux:
+		'''
+		ДУХ ХАОСА
+		ЛЮКС
+		'''
+	SubspaceSerpentHead:
+		'''
+		ЗМЕЙ МУДРОСТИ
+		СУБПРОСТРАНСТВЕННЫЙ ЗМЕЙ
+		'''
+	RotGourd:
+		'''
+		ГНИЮЩИЙ ЗАЩИТНИК
+		ГНИЛАЯ ТЫКВА
+		'''
+	SpookySpirit:
+		'''
+		НЕЗВАННЫЙ ГОСТЬ
+		ЖУТКИЙ ДУХ
+		'''
+	Moco:
+		'''
+		СВЕРХАЛЛЕРГИК
+		МОКО
+		'''
+	DaffodilEye:
+		'''
+		ЦВЕТОЧНЫЙ ЗАЩИТНИК
+		НАРЦИСС
+		'''
+	OrroHeadP1:
+		'''
+		ПРОЖОРЛИВЫЕ БЛИЗНЕЦЫ
+		ОРРО И БОРО
+		'''
+	BigBone:
+		'''
+		ЗАБЫТЫЙ В КАТАКОМБАХ
+		ИСПОЛИНСКИЙ ЧЕРЕП
+		'''
+	BigDipper:
+		'''
+		ВЕСТНИК СЕВЕРНОЙ ЗВЕЗДЫ
+		БОЛЬШАЯ МЕДВЕДИЦА
+		'''
+	GoblinChariot:
+		'''
+		НЕОСТАНОВИМАЯ МАШИНА
+		ГОБЛИНСКАЯ КОЛЕСНИЦА
+		'''
+	PupperOpera:
+		'''
+		ДРУГАЯ КУКЛА
+		ПРИЗРАК ОПЕРЫ
+		'''
+	TheMotherbrain:
+		'''
+		ПОТЕРЯННЫЙ РАЗУМ
+		МАТЕРИНСКИЙ МОЗГ
+		'''
+	WallofShadow:
+		'''
+		ДРЕВНИЙ ДУХ ТЬМЫ
+		СТЕНА ТЕНЕЙ
+		'''
+	ScarabBelief:
+		'''
+		ДРЕВНИЙ ДУХ СВЕТА
+		ВЕРА СКАРАБЕЯ
+		'''
+	TheLifebringerHead:
+		'''
+		ЗМЕЙ ЖИЗНИ
+		ЖИЗНЕНОСЕЦ
+		'''
+	TheMaterealizer:
+		'''
+		БОЖЕСТВО ВЫСШИХ МАТЕРИЙ
+		МАТЕРИАЛИЗАТОР
+		'''
+	TheOverwatcher:
+		'''
+		ЧАС ПИК
+		ЧАСОВОЙ
+		'''
+	SlimeGod:
+		'''
+		БЕЗРАССУДНОЕ СОЛНЕЧНОЕ БОЖЕСТВО
+		БОГ СЛИЗНЕЙ
+		'''
+	WorldsEndEverlastingFallingWhale:
+		'''
+		ВЕЧНО ПАДАЮЩИЙ
+		КИТ КОНЦА СВЕТА
+		'''
+	TheSpirit:
+		'''
+		              
+		СПИРИТ
+		'''
+	Menace:
+		'''
+		ОДЕРЖИМЫЙ ЗВЕЗДОЧЁТ
+		УГРОЗА
+		'''
+	OneShot:
+		'''
+		РАЗБОЙНИЧИЙ КОСМОПИРАТ
+		ОСКАР ЛАНШОТ
+		'''
+	Paraffin:
+		'''
+		(НЕ ТАКАЯ УЖ И) ВЕЛИКАЯ
+		ПАРАФИН
+		'''
+	Insurgent:
+		'''
+		ДУХ НЕВОЛИ
+		ВОССТАВШИЙ
+		'''
+	Mirage:
+		'''
+		ПУСТЫННЫЙ СТРАННИК
+		МИРАЖ
+		'''
+	CommandoBoss:
+		'''
+		ПРАВИТЕЛЬ МАРСИАН
+		КОММАНДОС
+		'''
+	Seth:
+		'''
+		ВОПИЮЩИЙ СОЛНЕЧНЫЙ ШТОРМ
+		СЕТ
+		'''
+}
+
+Projectiles: {
+	AchingTooth.DisplayName: Больной зубик
+	BossRushTeleporter.DisplayName: Портал в Босс-раш
+	CurseCrossbone.DisplayName: Проклятый костяной крест
+	CurseShockwave.DisplayName: Проклятая ударная волна
+	ExplosiveEasterEgg.DisplayName: Взрывное пасхальное яйцо
+	FallingPetal.DisplayName: Падающий лепесток
+	FakeLux.DisplayName: Хаотичная иллюзия
+	GourdSlam.DisplayName: Гниющий удар
+	InfectiousScythe.DisplayName: Заражённая коса
+	InfectiousShard.DisplayName: Заражённый осколок
+	KeeperClaw.DisplayName: Клешня хранительницы
+	Leech.DisplayName: Пиявка
+	LesserPhaseBolt.DisplayName: Меньший фазовый болт
+	ManaDrain.DisplayName: Высасывание маны
+	NullPointer.DisplayName: Неизвестный указатель
+	OcramBeam.DisplayName: Луч Окрама
+	OcramBeamTelegraph.DisplayName: Луч Окрама
+	OcramRay.DisplayName: Смертельный взор
+	PinkBomb.DisplayName: Розовая бомба
+	PinkHelix.DisplayName: Розовая спираль
+	PinkPellet.DisplayName: Розовая пеллета
+	PinkSplat.DisplayName: Розовый хлопок
+	ScarabBeam.DisplayName: Скарабейный луч
+	Sceyethe.DisplayName: Глазорез
+	SeventhSeraphStar.DisplayName: Седьмая звезда Серафима
+	SpookyFlames.DisplayName: Жуткие огни
+	SubspaceFireBreath.DisplayName: Субпространственное дыхание
+	Tapeworm.DisplayName: Ленточный червь
+}
+
+Configs: {
+	DebugConfig: {
+		DisplayName: Конфигурация отладки
+
+		calamityDifficulty: {
+			Label: Тестировщик режимов Calamity
+			Tooltip:
+				'''
+				Заставляет игру думать, что включена определённая сложность Calamity
+				Не работает, если Calamity включён
+				0 - Никакая
+				1 - Месть
+				2 - Смерть
+				3 - Злоба или Босс-раш
+				'''
+		}
+
+		eternityMode: {
+			Label: Тестировщик режима Вечность
+			Tooltip:
+				'''
+				Заставляет игру думать, что включен режим Вечности
+				Не работает, если Fargo's Souls включён
+				'''
+		}
+
+		forceHJAltSprites: {
+			Label: Постоянное отображение альтернативных спрайтов Homeward Journey
+			Tooltip:
+				'''
+				У некоторых боссов из Homeward Journey могут быть альтернативные спрайты
+				Это конфигурация включает их, чтобы протестировать сломает ли это что-либо
+				'''
+		}
+	}
+
+	SupportedModsConfig: {
+		DisplayName: Конфигурация поддержки модов
+
+		Calamity: {
+			Label: "[i/s1:1281] Новые ИИ режима Месть"
+			Tooltip: Добавляет новые ИИ поддерживаемым боссам в режиме Месть.
+		}
+
+		Eternity: {
+			Label: "[i/s1:3577] Новые ИИ режима Вечность"
+			Tooltip: Добавляет новые ИИ поддерживаемым боссам в режиме Вечность.
+		}
+
+		Infernum: {
+			Label: "[i/s1:2701] Инфернум считается режимом Вечность"
+			Tooltip: Инфернум считается за режим Злоба + Вечность для боссов из поддерживаемых модов, у которых нет нового ИИ.
+		}
+
+		BossRush: {
+			Label: "[i/s1:43] Поддержка Босс-раша"
+			Tooltip:
+				'''
+				Добавляет поддерживаемых боссов в Босс-раш.
+				ПРИМЕЧАНИЕ: Для добавления боссов необходимо включить соответствующие настройки поддержки модов ниже!
+				'''
+		}
+
+		DefenseDamage: {
+			Label: "[i/s1:442] Поддержка урона по защите"
+			Tooltip: Позволяет врагам из поддерживаемых модов наносить урон по защите.
+		}
+
+		Consolaria: {
+			Label: "[g:2] Consolaria"
+			Tooltip: <Revengeance+>Consolaria
+		}
+
+		Homeward: {
+			Label: "[i/s1:4765] Homeward Journey"
+			Tooltip: <Revengeance+>ContinentOfJourney
+		}
+
+		Redemption: {
+			Label: "[i/s1:554] Redemption"
+			Tooltip: <Revengeance+>Redemption
+		}
+
+		SOTS: {
+			Label: "[i/s1:3581] Secret of the Shadows"
+			Tooltip: <Revengeance+>SOTS
+		}
+
+		Spooky: {
+			Label: "[i/s1:1725] Spooky"
+			Tooltip: <Revengeance+>Spooky
+		}
+	}
+}

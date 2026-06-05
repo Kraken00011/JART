@@ -1,0 +1,27 @@
+Configs: {
+	Config: {
+		BlackListPillars: {
+			Tooltip: Включает/Выключает отображение курсоров для небесных башен.
+			Label: Небесные башни
+		}
+
+		CursorSize: {
+			Tooltip: Устанавливает размер курсора.
+			Label: Размер курсора
+		}
+
+		CursorDistance: {
+			Tooltip: Дистанция от игрока до курсора.
+			Label: Дистанция до курсора
+		}
+
+		HideOnScreen: {
+			Tooltip: Скрывает курсор боссов, если тот находиться в пределах видимости игрока.
+			Label: Скрывать курсор, если босс на экране
+		}
+
+		DisplayName: Конфигурация
+	}
+}
+
+"Keybinds.Toggle Boss Cursor.DisplayName": Вкл./Выкл. боссовый курсор

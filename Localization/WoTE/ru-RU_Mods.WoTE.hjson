@@ -1,0 +1,63 @@
+NPCs: {
+	EmpressOfLight.DisplayName: Императрица света
+	Lacewing.DisplayName: Златоглазка
+}
+
+Projectiles: {
+	PrismaticBolt.DisplayName: Призматический болт
+	LightLance.DisplayName: Световое копьё
+	AcceleratingLightLance.DisplayName: Световое копьё
+	AcceleratingRainbow.DisplayName: Радуга
+	SpinningTerraprisma.DisplayName: Террапризма
+	DazzlingPetal.DisplayName: Сверкающий лепесток
+	StarBolt.DisplayName: Звёздный болт
+	PrismaticBurst.DisplayName: Призматический всплеск
+	DazzlingTornado.DisplayName: Сверкающее торнадо
+	EmpressOrbitingTerraprisma.DisplayName: Террапризма
+	ConvergingMoonlight.DisplayName: Сходящийся лунный свет
+	DazzlingDeathray.DisplayName: Сверкающий убийственный луч
+	MagicCircle.DisplayName: Волшебный круг
+	HomingLacewing.DisplayName: Златоглазка
+	LanceWallTelegraph.DisplayName: Стена из копий телеграфирование
+	RainbowRiftArrow.DisplayName: Стрела радужного раската
+	SilverReleaseLanternProj.DisplayName: Серебряный выпускаемый фонарь
+	GlowingAurora.DisplayName: Свечение северного сияния
+}
+
+Configs: {
+	WoTEConfig: {
+		DisplayName: Клиентская конфигурация
+
+		PhotosensitivityMode: {
+			Label: Режим светочувствительности
+			Tooltip: Делает некоторые эффекты во время битвы с Императрицей света более тусклыми
+		}
+	}
+}
+
+Buffs: {
+	GracedWings: {
+		DisplayName: Возвышенные крылья
+		Description: Императрица света позволяет вам станцевать с ней
+	}
+}
+
+Items: {
+	SilverReleaseLantern: {
+		DisplayName: Серебряный выпускаемый фонарь
+		Tooltip: Приводит Императрицу света в ярость во время битвы
+	}
+}
+
+Dialogue: {
+	BaseIntroduction: Благословлённый... Давай станцуем при свете этого чарующего лунного света.
+	DayIntroduction: Благословлённый... Давай станцуем под светом этого невероятно прекрасного солнца.
+	BloodMoonIntroduction: Благословлённый... В эту ночь луна такая алая. Не взирая на этого, мы всё равно станцуем.
+	EclipseIntroduction: Благословлённый... Этот день - гармония солнца и луны. Давай станцуем под этот свет.
+	AngryIntroduction: ТЫ - БЕСТОЛКОВЫЙ ИДИОТ!
+}
+
+MenuThemes: {
+	GloriousDawnMainMenu.DisplayName: Красивый рассвет
+	GlimmerdewBlessedMoonlightMainMenu.DisplayName: Блаженный мерцающий лунный свет
+}

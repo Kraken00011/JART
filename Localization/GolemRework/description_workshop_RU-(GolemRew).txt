@@ -1,0 +1,29 @@
+[b]Jungle Bosses Rework[/b] - мод, перерабатывающий Голема и Плантеру.
+Раньше назывался «Golem Rework», но был переименован по очевидной причине.
+
+Особые благодарности Flandre Scarlet и Moonblast- за перевод на традиционный китайский
+
+Поддерживает моды ENNWAY's Music Pack, ProvEdition и Infernum Mode Music, а также мультиплеер.
+ПРЕДУПРЕЖДЕНИЕ: Версия мода для 1.4.3 больше не поддерживается!
+
+Совместимости:
+- Генерация мира с Remnants
+- Сложности Calamity (Месть/Смерть, а также Босс-раш) и урон по броне
+- Режимы Fargo's Souls (Вечность/Мазохист)
+- Система элементального урона из Mod of Redemption
+ПРИМЕЧАНИЕ: Паттерны атак комбинируются, не заменяются. Это значит, что вы будете видеть атаки из обоих модов! (например: При включении режима Вечность вокруг Плантеры начинает летать хлорофитовое кольцо)
+
+Основные изменения:
+- Переработка яхщеров, обитающих в храме.
+- Переработка некоторых предметов от тира Пре-Плантеры до Пост-Голема.
+- Plantera has a new friend that assists her in battle.
+- Golem now uses a 2D Model as supposed to a static sprite. Each attack has a custom animation.
+- Golem's chamber room has been changed to be more rectangular and as well as have some lighting.
+- Golem now walks as supposed to jumping to move around. They only jump if their target is too high.
+
+Известные баги:
+- Golem's grab attack and extended punch have mild visual desyncs in multiplayer (very likely caused by ping issues). Nonetheless, the attacks are still fully functional.
+- Golem sometimes falls through the world, but they fly towards you anyways. Very likely caused by naturally occuring hoik in world generation.
+
+Известные несовместимости:
+- Eternity mode's spear buffs break the rework to the Chlorophyte Partisan.

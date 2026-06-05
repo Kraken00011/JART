@@ -1,0 +1,34 @@
+Configs: {
+	CompactConfig: {
+		DisplayName: Конфигурация
+
+		ScaleFactor: {
+			Tooltip: ""
+			Label: Размер
+		}
+	}
+
+	Sizes: {
+		Big: {
+			Label: Обычный
+			Tooltip: ""
+		}
+
+		Small: {
+			Label: Средний
+			Tooltip: ""
+		}
+
+		Tiny: {
+			Label: Мелкий
+			Tooltip: ""
+		}
+
+		Tooltip: Некоторые надписи могут немного съехать
+
+		Line: {
+			Label: Линия
+			Tooltip: ""
+		}
+	}
+}

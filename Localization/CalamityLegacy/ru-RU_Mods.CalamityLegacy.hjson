@@ -1,0 +1,2274 @@
+# This file will automatically update with entries for new content after a build and reload.
+/*
+Items: {
+	AncientCrusher: {
+		DisplayName: Ancient Crusher
+		Tooltip: Summons fossil spikes on enemy hits
+	}
+
+	AccelerationRoundItem: {
+		Tooltip: Gains speed over time
+		DisplayName: Acceleration Round
+	}
+
+	AncientShiv: {
+		DisplayName: Ancient Shiv
+		Tooltip: Creates another stab on enemy hits
+	}
+
+	Animus: {
+		DisplayName: Animus
+		Tooltip: Randomizes its damage on enemy hits
+	}
+
+	BladeofEnmity: {
+		DisplayName: Blade of Enmity
+		Tooltip: ""
+	}
+
+	ArcticArrowItem: {
+		DisplayName: Арктическая стрела
+		Tooltip: Ненадолго замораживает врагов
+	}
+
+	Mariana: {
+		DisplayName: Марьяна
+		Tooltip:
+			'''
+			Тропическая и смертельно опасная
+			При попадании враги разрываются водяными сферами
+			'''
+	}
+
+	AquaticDissolution: {
+		Tooltip:
+			'''
+			Fires whaling spears from the sky that bounce off tiles 
+			After bouncing, the spears lose damage, but home onto targets
+			'''
+		DisplayName: Aquatic Dissolution
+	}
+
+	ArmageddonFruit: {
+		DisplayName: Запретный плод Армагеддона
+		Tooltip:
+			'''
+			Включает/Выключает Армагеддон, его можно включить на любом уровне сложности
+			While active, any hit while a boss is alive will instantly kill you
+			If you defeat a boss for the first time with this mode active, they will drop 5 extra treasure bags
+			These extra bags will drop even if you are not in Expert Mode
+			<right> with this item to toggle whether your dodges are disabled
+			Dodges can be disabled independently of whether or not Armageddon is not enabled
+			'''
+	}
+
+	ColdheartIcicle: {
+		Tooltip:
+			'''
+			Drains a percentage of enemy health on hit
+			Cannot inflict critical hits
+			'''
+		DisplayName: Сосулька холодного сердца
+	}
+
+	Bazooka: {
+		Tooltip:
+			'''
+			Uses Grenade Shells
+			Can be used twice per boss battle
+			'''
+		DisplayName: Базука
+	}
+
+	GrenadeRounds: {
+		Tooltip: ""
+		DisplayName: Гранатные оболочки
+	}
+
+	BittercoldStaff: {
+		DisplayName: Bittercold Staff
+		Tooltip: Fires a spread of homing ice spikes
+	}
+
+	BloodClotStaff: {
+		DisplayName: Посох кровавых сгустков
+		Tooltip: Призывает тромбика вам на помощь
+	}
+
+	BloodFountainofRevengeance: {
+		DisplayName: Кровавый фонтан Мести
+		Tooltip:
+			'''
+			Enables/disables Revengeance Mode, can only be used in Expert Mode
+			Enables the Rage mechanic. When Rage is maxed press the Rage Mode keybind to activate Rage Mode
+			You gain Rage when in proximity of enemies or by using special items
+			Enables the Adrenaline mechanic. When Adrenaline is maxed press the Adrenaline Mode keybind to activate Adrenaline Mode
+			You gain Adrenaline whenever a boss is alive. Getting hit drops Adrenaline back to 0
+			All enemies spawn 17.65% more frequently
+			Certain non-boss enemies ands deal between 10% and 25% more damage
+			Makes certain enemies block life steal and nerfs the effectiveness of life steal
+			Nerfs the effectiveness of the Titanium Armor set bonus
+			All boss minions no longer drop hearts
+			Changes all boss AIs and some enemy AIs
+			Increases the health and damage of all bosses
+			'''
+	}
+
+	SatanicScepterofDeath: {
+		DisplayName: Сатанинский скипетр Смерти
+		Tooltip:
+			'''
+			Enables/disables Death Mode, can only be used in Revengeance Mode
+			All effects from Revengeance Mode are enabled, including the following:
+			Greatly boosts enemy spawn rates during the Blood Moon
+			Makes the Abyss more treacherous to navigate
+			Certain non-boss enemies ands deal between 6% and 15% more damage
+			Nerfs the effectiveness of life steal a bit more
+			The Nurse no longer heals you while a boss is alive
+			Increases damage done by 50% for several debuffs and all alcohols that reduce life regen
+			Changes all boss AIs and most enemy AIs
+			Increases the damage of all bosses a bit more
+			'''
+	}
+
+	TormentedMindofMalice: {
+		Tooltip:
+			'''
+			Enables/disables Malice Mode, can only be used in Death Mode
+			[c/c01818:This mode is subjective, play how you want, don't expect to live]
+			All effects from Death Mode are enabled, including the following:
+			Nerfs the effectiveness of life steal a bit more
+			Enrages all bosses and gives them far more aggressive AI
+			'''
+		DisplayName: Измученный разум Злобы
+	}
+
+	IronHeart: {
+		Tooltip:
+			'''
+			Enables/disables the Iron Heart, can be used in any difficulty mode
+			Healing with potions and all positive life regen is disabled
+			Enemy damage scales with your max health
+			'''
+		DisplayName: Железное сердце презервации
+	}
+
+	DefiledFeatherofLucifer: {
+		Tooltip:
+			'''
+			It's a long way down from a mountain...
+			Enables/disables Defiled Mode, can only be used in Revengeance and Death Mode
+			Wing flight is disabled and enemies can critically hit you
+			Increases most rare item drop chances and enemies drop 50% more cash
+			Favorite this item only to disable wings
+			'''
+		DisplayName: Defiled Feather of Lucifer
+	}
+
+	MagnumRounds: {
+		DisplayName: Патроны магнума
+		Tooltip: ""
+	}
+
+	Magnum: {
+		DisplayName: Магнум
+		Tooltip:
+			'''
+			Uses Magnum Rounds
+			Can be used thrice per boss battle
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	Weapons: {
+		Rogue: {
+			BouncingBetty: {
+				DisplayName: Прыгучая Бетти
+				Tooltip:
+					'''
+					Throws a grenade which bounces after exploding
+					Stealth strikes explode into a violent blast of fire and shrapnel when it bounces
+					'''
+			}
+
+			SylvanSlasher: {
+				DisplayName: Sylvaner
+				Tooltip:
+					'''
+					Summons a attack at the cursor's position
+					Enemy hits build stealth and cause sword waves to fire from all sides toward the target
+					Does not consume stealth and cannot stealth strike
+					'''
+			}
+
+			DuneHopper: {
+				DisplayName: Dune Hopper
+				Tooltip:
+					'''
+					Throws a spear that bounces a little 
+					Stealth strikes throw three high speed spears
+					'''
+			}
+
+			Quasar: {
+				DisplayName: Квазар
+				Tooltip:
+					'''
+					Сос
+					Stealth strikes spawn more explosions
+					'''
+			}
+
+			LegacyScourgeoftheDesert: {
+				DisplayName: Бич пустынных песков
+				Tooltip:
+					'''
+					Gains velocity over time
+					Stealth strikes gain damage as they damage enemies
+					'''
+			}
+
+			PhantomLance: {
+				DisplayName: Phantom Lance
+				Tooltip:
+					'''
+					Fires a spectral javelin that rapidly releases lost souls
+					Fades away and slows down over time
+					Lost souls released later deal less damage
+					Stealth strikes don't slow down and souls always deal full damage
+					'''
+			}
+
+			BrimstoneBoomfish: {
+				Tooltip:
+					'''
+					Sticks to enemies and sears them with brimstone
+					Only three can be stuck to one enemy at a time
+					After a while, the fish explode into a brimstone inferno
+					Stealth strikes cause the fish to drip brimstone and explode into larger blasts that release extra flames
+					'Fire is a living being'
+					'''
+				DisplayName: Brimstone Dartfish
+			}
+
+			CoralskinFoolfish: {
+				DisplayName: Coralskin Foolfish
+				Tooltip:
+					'''
+					Throws a fish that has a chance to confuse enemies
+					Provides camouflage that increases stealth generation and reduces enemy aggro
+					Stealth stirkes cause the fish to pierce targets, and spit water at nearby enemies
+					The duration of the camouflage is increased when using a stealth strike
+					'Camouflage is one of nature's best defenses'
+					'''
+			}
+
+			ScarredAngelfish: {
+				DisplayName: Scarred Angelfish
+				Tooltip:
+					'''
+					Throws an angelfish that sticks to enemies and bursts into stars and sunken orbs
+					Only two can be stuck to one enemy at a time
+					On ground contact, the orbs turn into small waves that surf along the terrain
+					Waves that touch water grow larger and move much faster
+					Fish stuck to enemies call down stars from the sky instead of bursting
+					Stealth strikes make the fish burst into more fish
+					Stealth strikes while stuck cause stars to rain down much more rapidly
+					'The mark of a fallen angel'
+					'''
+			}
+
+			LatcherMine: {
+				DisplayName: Latcher Mine
+				Tooltip: ""
+			}
+		}
+
+		Magic: {
+			StormSpray: {
+				DisplayName: Storm Spray
+				Tooltip: Fires a spray of water that drips extra trails of water
+			}
+		}
+	}
+
+	BloodRelic: {
+		DisplayName: Blood Relic
+		Tooltip: Currently does nothing
+	}
+
+	BloodyEdge: {
+		DisplayName: Bloody Edge
+		Tooltip:
+			'''
+			Chance to heal the player on enemy hits
+			Inflicts Burning Blood
+			'''
+	}
+
+	TrueBloodyEdge: {
+		DisplayName: True Bloody Edge
+		Tooltip:
+			'''
+			Chance to heal the player on enemy hits
+			Inflicts Burning Blood
+			'''
+	}
+
+	VeinRupture: {
+		DisplayName: Vein Rupture
+		Tooltip: Makes your enemies bleed
+	}
+
+	BurdenBreaker: {
+		DisplayName: Burden Breaker
+		Tooltip:
+			'''
+			The good time
+			Go fast
+			WARNING: May have disastrous results
+			Increases horizontal movement speed beyond comprehension
+			Does not work while a boss is alive
+			'''
+	}
+
+	DemonTrophyofDimise: {
+		DisplayName: Demon Trophy of Demise
+		Tooltip:
+			'''
+			Enables/disables Prepare To Die, can be used in any difficulty mode
+			Bosses have their health and damage mutilplied to varying degrees.
+			Some bosses drop extra, more powerful loot on Death.
+			Enemy spawn rates and maximum enemy spawns is increased by 1.25 times
+			'''
+	}
+
+	ExoGladius: {
+		DisplayName: Экзо-гладиус
+		Tooltip:
+			'''
+			True melee hits summon blades that fly toward your enemy
+			True melee also causes an Exo Explosion after enough hits
+			'Do not underestimate the power of Exoblade`s younger brother'
+			'''
+	}
+
+	AstrageldonBag: {
+		DisplayName: Мешок Астрагельдона
+		Tooltip: ""
+	}
+
+	AquaticParasiteBanner: {
+		DisplayName: Aquatic Parasite Banner
+		Tooltip: Nearby players get a bonus against: Aquatic Parasite
+	}
+
+	AquaticAberrationBanner: {
+		DisplayName: Aquatic Aberration Banner
+		Tooltip: Nearby players get a bonus against: Aquatic Aberration
+	}
+
+	BlightedEyeBanner: {
+		Tooltip: Nearby players get a bonus against: Blighted Eye
+		DisplayName: Знамя гниющего глаза
+	}
+
+	BlightedLens: {
+		DisplayName: Гниющие линзы
+		Tooltip: ""
+	}
+
+	AquaticSeekerBanner: {
+		DisplayName: Знамя акватического искателя
+		Tooltip: Nearby players get a bonus against: Aquatic Seeker
+	}
+
+	CocoFeather: {
+		DisplayName: Coco's Feather
+		Tooltip:
+			'''
+			Do people like this deserve vanity? No.
+			But do I, and many others appreciate consistency? Yes.
+			'''
+	}
+
+	GrandDad: {
+		DisplayName: Старик
+		Tooltip:
+			'''
+			Lowers enemy defense to 0 when they are struck
+			Yeets enemies across space and time
+			ФЛИНТСТОУНЫ?!
+			'''
+	}
+
+	BrimlashBuster: {
+		DisplayName: Brimlash Buster
+		Tooltip:
+			'''
+			50% chance to do triple damage on enemy hits
+			Fires a brimstone bolt that explodes into more bolts on death
+			Дизайн : 'Beyond'
+			'''
+	}
+
+	BrimstoneFlameblaster: {
+		Tooltip: Fires bouncing brimstone fireballs
+		DisplayName: Brimstone Flameblaster
+	}
+
+	CarnageRay: {
+		Tooltip:
+			'''
+			Fires a wretched, bloody ray
+			The farther along the ray hit enemies are, the more damage they take
+			Chance to heal the player on enemy hits
+			'''
+		DisplayName: Carnage Ray
+	}
+
+	CadencePotion: {
+		Tooltip:
+			'''
+			Gives the cadance buff which increases life regen and heart pickup range
+			Increases max life by 25%
+			While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled
+			Not to be confused with 'Candice Potion'
+			'''
+		DisplayName: Cadence Potion
+	}
+
+	ChargedDartBlaster: {
+		Tooltip:
+			'''
+			Fires a shotgun spread of darts and a splitting energy blast
+			<right> to fire a more powerful exploding energy blast that bounces
+			'''
+		DisplayName: Charged Dart Blaster
+	}
+
+	DraconicElixir: {
+		Tooltip:
+			'''
+			Greatly increases wing flight time and speed and increases defense by 16
+			Silva invincibility heals you to half HP when triggered
+			If you trigger the above heal you cannot drink this potion again for 60 seconds and you gain 30 seconds of potion sickness
+			'''
+		DisplayName: Драконий элексир
+	}
+
+	ConclaveCrossfire: {
+		DisplayName: Conclave Crossfire
+		Tooltip:
+			'''
+			50% chance to not consume ammo
+			Fires two spreads of bullets, one from the gun and one from the sky
+			'''
+	}
+
+	DemonshadeHood: {
+		DisplayName: Demonshade Hood
+		Tooltip:
+			'''
+			Functions exactly like a Demonshade Helmet
+			30% increased damage and 15% increased critical strike chance
+			'''
+	}
+
+	CorruptedCrusherBlade: {
+		DisplayName: Corrupted Crusher Blade
+		Tooltip: Inflicts cursed inferno and critical hits reduce enemy defense by 10
+	}
+
+	Crimsaber: {
+		DisplayName: Багросабля
+		Tooltip: A sword fused with the blood of the gods
+	}
+
+	CrimsonCrusherBlade: {
+		DisplayName: Crimson Crusher Blade
+		Tooltip: Inflicts ichor and critical hits lower enemy contact damage
+	}
+
+	CrimsonCrusherBladeLegacy: {
+		DisplayName: Crimson Crusher Blade Legacy
+		Tooltip: ""
+	}
+
+	HadopelagicEcho: {
+		DisplayName: Гадопелагическое эхо
+		Tooltip:
+			'''
+			Fires a string of bouncing sound waves that become stronger as they travel
+			Sound waves echo additional sound waves on enemy hits
+			'''
+	}
+
+	StratusSphere: {
+		DisplayName: Stratus Sphere
+		Tooltip:
+			'''
+			Fires an energy orb containing the essence of our stratosphere
+			Up to six of these can be active at a time
+			'''
+	}
+
+	EutrophicShank: {
+		DisplayName: Eutrophic Shank
+		Tooltip:
+			'''
+			Shoots electric sparks
+			Stabing an enemy enough causes the blade to shatter
+			The shattered blade bursts into prism shards 
+			'''
+	}
+
+	HellflameShank: {
+		Tooltip: Stabbing enemies causes a small hellfire explosion
+		DisplayName: Hellfire Shank
+	}
+
+	ThornDagger: {
+		Tooltip: Stabbing enemies enough casues a burst of spores
+		DisplayName: Spore Shank
+	}
+
+	SkullMasher: {
+		DisplayName: Сдавливатель черепов
+		Tooltip:
+			'''
+			Converts musket balls into .50 caliber sniper rounds that rip apart enemy defense and DR
+			.50 caliber sniper round also split into additional bullets upon hitting an enemy
+			'Makes their brain hurt'
+			'''
+	}
+
+	LeechingDagger: {
+		DisplayName: Leeching Dagger
+		Tooltip: Enemies release homing leech orbs on hit
+	}
+
+	YanmeisKnife: {
+		DisplayName: Yanmei's Knife
+		Tooltip:
+			'''
+			Enemies you hit are crippled
+			Hits will also give you enhanced movement speed and damage for 10 seconds
+			'A knife from an unknown world
+			An owner whose heart is pure and free of taint
+			A heart of iron and valor'
+			'''
+	}
+
+	AlicornonaStick: {
+		DisplayName: Аликорн на палочке
+		Tooltip:
+			'''
+			'Congratulations, you're winner! Here's my head on a stick.'
+
+			'''
+	}
+
+	DrewsWings: {
+		DisplayName: Крылья Дрю
+		Tooltip:
+			'''
+			Horizontal speed: 11.50
+			Acceleration multiplier: 2.9
+			Excellent vertical speed
+			Flight time: 359
+			'Absolutely Fabulous.'
+			'''
+	}
+
+	DivineRetribution: {
+		DisplayName: Divine Retribution
+		Tooltip: Mage is superior to rogue; look, we got a donor weapon to prove it!
+	}
+
+	DodusHandcannon: {
+		DisplayName: Dodu's Handcannon
+		Tooltip:
+			'''
+			Fires high explosive peanut shells, literally
+			'The power of the nut rests in your hands'
+			'''
+	}
+
+	CirrusDress: {
+		DisplayName: Платье Циррус
+		Tooltip:
+			'''
+			5% increased magic damage and critical strike chance
+			20% decreased movement speed and increases maximum fall speed to 61 mph
+			Allows for drinking 5 alcohols before your liver is poisoned
+			[c/B00BA5:'Here, this should help you drink a lot more than usual!']
+			'You feel thick...'
+			'''
+	}
+
+	Fabsol: {
+		DisplayName: Princess Spirit in a Bottle
+		Tooltip:
+			'''
+			Summons the spirit of Cirrus, the Drunk Princess, in her alicorn form
+			Mounting will transform Cirrus, dismounting transforms her back
+			'''
+	}
+
+	CirrusCouchItem: {
+		DisplayName: Cirrus Couch
+		Tooltip: This shouldn't exist...
+	}
+
+	Accessories: {
+		CrystalHeartVodka: {
+			DisplayName: Crystal Heart Vodka
+			Tooltip: "'Tastes like strawberry cream liqueur (and estrogen)'"
+		}
+	}
+
+	Zapper: {
+		DisplayName: Лазинатор
+		Tooltip: "'Разряд'"
+	}
+
+	SpectreRifle: {
+		DisplayName: Spectre Rifle
+		Tooltip: Converts musket balls into powerful homing souls
+	}
+
+	CrystalHeartVodka: {
+		DisplayName: Crystal Heart Vodka
+		Tooltip: "'Tastes like strawberry cream liqueur (and estrogen)'"
+	}
+
+	Verdant: {
+		Tooltip:
+			'''
+			Fires energy leaves when enemies are near
+			Крайне манёвренное йо-йо
+			'''
+		DisplayName: Возрост
+	}
+
+	TerraShiv: {
+		Tooltip: "'Don't underestimate the power of shivs'"
+		DisplayName: Terra Shiv
+	}
+
+	NightStabber: {
+		Tooltip: "'Don't underestimate the power of stabby knives'"
+		DisplayName: Night's Stabber
+	}
+
+	TrueNightStabber: {
+		Tooltip: "'Don't underestimate the power of stabby knives'"
+		DisplayName: True Night's Stabber
+	}
+
+	Excalidagger: {
+		DisplayName: Excalidagger
+		Tooltip: Don't underestimate the power of shortswords
+	}
+
+	TerraEdge: {
+		DisplayName: Грань терры
+		Tooltip:
+			'''
+			Fires a beam that inflicts ichor for a short time
+			Heals the player on enemy hits
+			'''
+	}
+
+	Terrasomere: {
+		DisplayName: Террасомир
+		Tooltip:
+			'''
+			Fires several piercing energy bolts that rapidly seek targets
+			Heals the player on enemy hits
+			'Произносится как "Тарас-О-мир"'
+			'''
+	}
+
+	QuasiStarCannon: {
+		DisplayName: Квази-звездострел
+		Tooltip: Fires a mix of normal, starfury, super, and astral stars
+	}
+
+	WulfrumAxe: {
+		DisplayName: Wulfrum Axe
+		Tooltip:
+			'''
+			After chopping down 20 trees, <right> to active an overclock
+			Overclocking increases copping speed by 3x
+			Overclocking last for 15 seconds, and pauses when holding another item
+			'''
+	}
+
+	WulfrumHammer: {
+		DisplayName: Wulfrum Hammer
+		Tooltip:
+			'''
+			After breaking 20 walls, <right> to active an overclock
+			Overclocking increases breaking speed by 3x
+			Overclocking last for 15 seconds, and pauses when holding another item
+			'''
+	}
+
+	WulfrumPickaxe: {
+		DisplayName: Wulfrum Pickaxe
+		Tooltip:
+			'''
+			After mining 100 blocks, <right> to active an overclock
+			Overclocking increases mining speed by 3x
+			Overclocking last for 15 seconds, and pauses when holding another item
+			'''
+	}
+
+	WulfrumArmor: {
+		DisplayName: Wulfrum Armor
+		Tooltip: 3% increased critical strike chance
+	}
+
+	WulfrumHeadgear: {
+		DisplayName: Wulfrum Headgear
+		Tooltip: 10% increased melee damage
+		SetBonus:
+			'''
+			+3 defense
+			+5 defense when below 50% life
+			While charged,s that hit you are reflected
+			Projectiles still deal full damage to you
+			'''
+	}
+
+	WulfrumHelm: {
+		DisplayName: Wulfrum Visor
+		Tooltip: 10% increased ranged damage
+		SetBonus:
+			'''
+			Allows you to zoom out (Hold <right>)
+			Zooming out increases ranged critical strike by 15%
+			While charged, ranged waepons gain +20% shoot velocity
+			'''
+	}
+
+	WulfrumHelmet: {
+		DisplayName: Wulfrum Antenna
+		Tooltip: 10% increased summon damage
+		SetBonus:
+			'''
+			+1 minion slot
+			Creates a aura of wulfrum energy around you
+			Enemies in this aura are zapped with electricity
+			Everyone in this aura gains the wulfrum charge buff for 15 seconds
+			Wulfrum charge grants +10% critical strike chance and +1 HP/s life regen
+			Wulfrum charge also improves the set bonuses of other wulfrum aromr sets
+			'''
+	}
+
+	WulfrumHood: {
+		DisplayName: Wulfrum Capsule
+		Tooltip: 10% increased magic damage
+		SetBonus:
+			'''
+			Fires a homing laser when enemies area near
+			While charged, the laser's fire rate and range is increased
+			'''
+	}
+
+	WulfrumLeggings: {
+		DisplayName: Wulfrum Leggings
+		Tooltip: Movement speed increased by 5%
+	}
+
+	WulfrumMask: {
+		DisplayName: Wulfrum Mask
+		Tooltip: 10% increased rogue damage
+		SetBonus:
+			'''
+			While at maximum stealth, you gain an additional +20% movement
+			While charged and at maximum stealth, you gain an additional +30% movement
+			Rogue stealth builds while not attacking and slower while moving, up to a max of 50
+			Once you have built max stealth, you will be able to perform a Stealth Strike
+			Rogue stealth only reduces when you attack, it does not reduce while moving
+			The higher your rogue stealth the higher your rogue damage, crit, and movement speed
+			'''
+	}
+
+	WulfrumBow: {
+		DisplayName: Wulfrum Bow
+		Tooltip:
+			'''
+			Converts wooden arrows into charged wulfrum arrows
+			Charged wulfrum arrows lightly home onto targets
+			'''
+	}
+
+	WulfrumBlade: {
+		DisplayName: Wulfrum Blade
+		Tooltip: ""
+	}
+
+	WulfrumSlimeBanner: {
+		DisplayName: Wulfrum Slime Banner
+		Tooltip: Nearby players get a bonus against: Wulfrum Slime
+	}
+
+	Lul: {
+		DisplayName: Lul
+		Tooltip: Grants invulnerability to almost everything
+	}
+
+	PurifiedJam: {
+		DisplayName: Purified Jam
+		Tooltip:
+			'''
+			Makes you immune to all damage and most debuffs for 10 seconds
+			Causes potion sickness when consumed
+			Cannot be consumed while potion sickness is active
+			'Might be an Invincible reference??'
+			'''
+	}
+
+	YharimsStimulants: {
+		DisplayName: Yharim's Stimulants
+		Tooltip:
+			'''
+			Gives decent buffs to ALL offensive and defensive stats
+			'Man, that needle hurts! Try not to overdose'
+			'''
+	}
+
+	LeadWizard: {
+		DisplayName: Lead Wizard
+		Tooltip:
+			'''
+			Something's not right...
+			33% chance to not consume ammo
+			'''
+	}
+
+	WulfrumStaff: {
+		DisplayName: Wulfrum EMP Scepter
+		Tooltip: Creates weak wulfrum EMP pulses at the cursor
+	}
+
+	ElementalBlaster: {
+		DisplayName: Elemental Blaster
+		Tooltip:
+			'''
+			Fires a storm of rainbow blasts
+			Does not consume ammo
+			'''
+	}
+
+	PenumbraPotion: {
+		DisplayName: Penumbra Potion
+		Tooltip: Rogue stealth generates 10% faster while moving and 15% faster while standing still
+	}
+
+	ProfanedRagePotion: {
+		DisplayName: Profaned Rage Potion
+		Tooltip:
+			'''
+			Increases critical strike chance by 12%
+			While this potion's buff is active the Rage Potion's buff is disabled
+			'''
+	}
+
+	ProfanedWrathPotion: {
+		DisplayName: Profaned Wrath Potion
+		Tooltip:
+			'''
+			Increases all damage by 12%
+			While this potion's buff is active the wrath Potion's buff is disabled
+			'''
+	}
+
+	RevivifyPotion: {
+		DisplayName: Revivify Potion
+		Tooltip: Causes enemy attacks to heal you for a fraction of their damage
+	}
+
+	ShatteringPotion: {
+		DisplayName: Shattering Potion
+		Tooltip:
+			'''
+			Increases melee and rogue damage and critical strike chance by 8%
+			Melee and rogue attacks break enemy armor
+			While this potion's buff is active, the Crumbling Potion's buff are disabled
+			'''
+	}
+
+	TitanScalePotion: {
+		DisplayName: Titan Scale Potion
+		Tooltip:
+			'''
+			Increases knockback, defense by 5 and damage reduction by 5%
+			Increases defense by 20 and damage reduction by 5% for a few seconds after a true melee strike
+			'''
+	}
+
+	TriumphPotion: {
+		DisplayName: Triumph Potion
+		Tooltip: Enemy contact damage is reduced, the lower their health the more it is reduced
+	}
+
+	PhoenixBlade: {
+		DisplayName: Phoenix Blade
+		Tooltip: Enemies explode and emit healing flames on death
+	}
+
+	Fabstaff: {
+		DisplayName: Fabstaff
+		Tooltip: Casts a bouncing beam that splits when enemies are near it
+	}
+
+	AquaticDischarge: {
+		DisplayName: Aquatic Discharge
+		Tooltip: Enemies release electric sparks on death
+	}
+
+	Dunecharge: {
+		DisplayName: Dunecharge
+		Tooltip: Converts wooden arrows into electric bolt arrows that explode
+	}
+
+	ParticleAcceleratorItem: {
+		DisplayName: Particle Accelerator
+		Tooltip: Accelerates particles into their past forms
+	}
+
+	SeaboundStaff: {
+		DisplayName: Seabound Staff
+		Tooltip: Summons a brittle star to fight for you
+	}
+
+	CosmicElementalBanner: {
+		DisplayName: Cosmic Elemental Banner
+		Tooltip: Nearby players get a bonus against: Cosmic Elemental
+	}
+
+	FrigidBarItem: {
+		DisplayName: Frigid Bar
+		Tooltip: Cold to the touch
+	}
+
+	BundleOfCandlesItem: {
+		DisplayName: Bundle of Candles
+		Tooltip:
+			'''
+			<right> when placed to:
+			Make defense block 10% more damage
+			Deal 1.07x damage to all enemies
+			Regenerate 0.4% of your maximum health per second
+			Gain 10% increased movement speed, wing time and acceleration
+			'Neither rain nor wind can snuff its undying flame, whose floating glow uplifts your spirit, suffuses those nearby with hope, and flickers with a hateful ire'
+			'''
+	}
+
+	FrostsparkBullet: {
+		DisplayName: Frostspark Bullet
+		Tooltip:
+			'''
+			Has a chance to freeze enemies and explode into electricity
+			Enemies that are immune to being frozen take more damage from these bullets
+			'''
+	}
+
+	EnhancedNanoRound: {
+		DisplayName: Enhanced Nano Round
+		Tooltip: Confuses enemies and releases a cloud of nanites when enemies die
+	}
+
+	SuperballBullet: {
+		DisplayName: Superball Bullet
+		Tooltip: Bounces at extreme speeds
+	}
+
+	WulfrumElecrtoStaff: {
+		Tooltip: Creates EMP pulses and electric bolts at the cursor
+		DisplayName: Wulfrum Electro Staff
+	}
+
+	DuneAssassinHat: {
+		DisplayName: Dune Assassin Hat
+		Tooltip: 4% increased ranged critical strike chance and 20% chance to not consume ammo
+		SetBonus:
+			'''
+			Ranged attacks deal an extra 1 flat damage
+			Ranged crits can rarely whip up a sandstorm
+			'''
+	}
+
+	DuneAssassinPants: {
+		DisplayName: Dune Assassin Pants
+		Tooltip: 10% increased movement speed and immunity to the Mighty Wind debuff
+	}
+
+	DuneAssassinShirt: {
+		DisplayName: Dune Assassin Shirt
+		Tooltip: 5% increased ranged critical strike chance
+	}
+
+	DesertFeather: {
+		DisplayName: Desert Feather
+		Tooltip: ""
+	}
+
+	ReaverHelmet: {
+		DisplayName: Reaver Helmet
+		Tooltip:
+			'''
+			+10% damage and +18% critical strike chance
+			+25% increased projectile velocity
+			12% decreased item use time
+			'''
+		SetBonus: Weapons ands gain 25% extra size
+	}
+
+	ReaverMask: {
+		DisplayName: Reaver Mask
+		Tooltip:
+			'''
+			Increases max minions and sentries by 2
+			+80 max mana and 12% reduced mana cost
+			25% chance not to consume ammo
+			'''
+		SetBonus: When enemies are near, you emit spore gas around you
+	}
+
+	ElephantKiller: {
+		DisplayName: Elephant Killer
+		Tooltip:
+			'''
+			Uses Magnum Rounds
+			Can be used thrice per boss battle
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	LightningHawk: {
+		DisplayName: Lightning Hawk
+		Tooltip:
+			'''
+			Uses Magnum Rounds
+			Can be used thrice per boss battle
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	MarkedMagnum: {
+		Tooltip:
+			'''
+			Shots reduce enemy protection
+			This weapon scales with all your damage stats at once
+			'''
+		DisplayName: Marked Magnum
+	}
+
+	LegacyMurasama: {
+		DisplayName: Rekindled Murasama
+		Tooltip:
+			'''
+			A high-frequency blade that can cleanly slice through even the mightiest foe
+			Prove your worth by slaying Yharon, Dragon of Rebirth to unsheath this sword
+			'perfectly balanced'
+			'''
+	}
+
+	Terracotta: {
+		DisplayName: Terra-cotta
+		Tooltip:
+			'''
+			Causes enemies to erupt into healing orbs on death
+			Enemies explode on hit
+			'''
+	}
+
+	GoldenGun: {
+		DisplayName: Golden Gun
+		Tooltip:
+			'''
+			Shoots a straight line of pure ichor
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	MandibleBow: {
+		DisplayName: Mandible Bow
+		Tooltip: ""
+	}
+
+	MandibleClaws: {
+		DisplayName: Mandible Claws
+		Tooltip: ""
+	}
+
+	TrueExcalidagger: {
+		DisplayName: True Excalidagger
+		Tooltip: Don't underestimate the power of shortswords
+	}
+
+	Dualpoon: {
+		Tooltip:
+			'''
+			Launches two harpoons
+			Harpoons stick onto enemies and inflict riptide
+			'''
+		DisplayName: Dualpoon
+	}
+
+	Triploon: {
+		Tooltip:
+			'''
+			Launches three harpoons
+			Harpoons stick onto enemies and inflict crush depth 
+			'''
+		DisplayName: Triploon
+	}
+
+	TenebrisItem: {
+		DisplayName: Tenebris
+		Tooltip: ""
+	}
+
+	CrystalFlareStaff: {
+		DisplayName: Crystal Flare Staff
+		Tooltip: Fires blue frost flames that explode
+	}
+
+	DemonicPitchfork: {
+		DisplayName: Demonic Pitchfork
+		Tooltip: Fires a demonic pitchfork
+	}
+
+	DeterminationBreaker: {
+		DisplayName: Determination Breaker
+		Tooltip:
+			'''
+			Removes immunity frames
+			If you want a crazy challenge, equip this
+			Touching lava kills you instantly
+			'Do you wanna have a bad time'
+			'''
+	}
+
+	WyvernFeather: {
+		DisplayName: Wyvern Feather
+		Tooltip:
+			'''
+			Increases aerial movement speed and flight time by 25%
+			Grants immunity to the low gravity effects of space
+			'''
+	}
+
+	SpectralFeather: {
+		DisplayName: Spectral Feather
+		Tooltip:
+			'''
+			Increases aerial movement speed and flight time by 30%
+			Allows you to turn into a ghost to phase through walls
+			This effect has a 2 minute cooldown
+			Press and hold [KEY] to activate
+			This effect lasts a maximum of 10 seconds, or as long as you hold the key
+			Grants immunity to the low gravity effects of space
+			'''
+	}
+
+	LivingDewDroplet: {
+		DisplayName: Living Dew Droplet
+		Tooltip:
+			'''
+			+20 maximum health
+			+0.5 HP/s life regeneration
+			+50% natural life regen speed while below 50% HP
+			Increases duration of potion-based regeneration effects by 25%
+			While stationary, gain additional +0.5 HP/s and +100% natural regen speed
+			Reduces damage from burning and poison debuffs by 10%
+			'''
+	}
+
+	ChaosSerpentShard: {
+		DisplayName: Chaos Serpent Shard
+		Tooltip:
+			'''
+			Prevents damage from On Fire!, Burning, Hellfire, and Brimstone Flames
+			While afflicted by these debuffs, gain +15% damage and rapid life regeneration
+			Taking damage releases high damage thermal steam
+			'''
+	}
+
+	Crystallite: {
+		DisplayName: Crystallite
+		Tooltip:
+			'''
+			Summons two orbiting astral crystals  
+			Taking damage breaks one crystal, confusing nearby enemies  
+			Broken crystals heal health and mana and reduce damage taken by 10%  
+			Each crystal regenerates after 15 seconds  
+			Press [KEY] to launch a crystal at your cursor
+			'''
+	}
+
+	DiamondDust: {
+		DisplayName: Diamond Dust
+		Tooltip:
+			'''
+			Increases mining and building speed by 15% 
+			Increases buliding and mining range by 1 tile
+			Using tools releases diamond glowing sparkles
+			'''
+	}
+
+	GypsyPowder: {
+		DisplayName: Gypsy Powder
+		Tooltip:
+			'''
+			Increases mining and building speed by 20% 
+			Increases buliding and mining range by 2 tiles
+			Periodically release gypsy dust around you
+			Gypsy dust inflicts acid venom and poison
+			'''
+	}
+
+	Ectoblood: {
+		DisplayName: Ectoblood
+		Tooltip:
+			'''
+			Allows you to turn into a ghost to phase through walls
+			This effect has a 2 minute cooldown
+			Press and hold [KEY] to activate
+			This effect lasts a maximum of 10 seconds, or as long as you hold the key
+			'How do ghosts bleed?'
+			'''
+	}
+
+	OMEGALUL: {
+		DisplayName: OMEGALUL
+		Tooltip:
+			'''
+			Grants invulnerability to almost everything
+			+2,147,483,647 increased damage
+			'ha ha, big number'
+			'''
+	}
+
+	TemporalFloeSword: {
+		DisplayName: Temporal Floe Sword
+		Tooltip:
+			'''
+			The iceman cometh...
+			Fires a frozen sword beam that splits into two more beams
+			The direction of the beams depends on in game time
+			True melee strikes have a chance to spawn clocks
+			Collecting the clocks increases movement speed and acceleration by 5% for each clock collected
+			This stacks up to 3 times and each level wears off after 5 seconds
+			'''
+	}
+
+	ShadowdropStaff: {
+		DisplayName: Shadowdrop Staff
+		Tooltip:
+			'''
+			Summons dark aura rain from the sky
+			<right> with this weapon fires a shade storm cloud
+			'''
+	}
+
+	BeetleJuice: {
+		DisplayName: Beetle Juice
+		Tooltip:
+			'''
+			Increases melee damage and melee speed by 10%
+			Grants an additional 5% damage reduction
+			'Thick, bitter, and strangely invigorating'
+			'''
+	}
+
+	EnergyOrb: {
+		DisplayName: Solar Energy Core
+		Tooltip:
+			'''
+			Grants a wide range of effects during the day
+			These effects include :
+			+6 defense
+			+3 HP/s life regeneration
+			+20% increased mana regeneration rate
+			+10% damage reduction
+			'Once just an energy orb'
+			'''
+	}
+
+	AncientFeather: {
+		DisplayName: Ancient Feather
+		Tooltip:
+			'''
+			Increases aerial movement speed and flight time by 25%
+			Increases mining and building speed by 20% 
+			Increases buliding and mining range by 2 tiles
+			Periodically release gypsy dust around you
+			Gypsy dust inflicts acid venom and poison
+			Prevents damage from On Fire!, Burning, Hellfire, and Brimstone Flames
+			While afflicted by these debuffs, gain +15% damage and rapid life regeneration
+			Taking damage releases high damage thermal steam
+			Allows you to turn into a ghost to phase through walls
+			This effect has a 2 minute cooldown
+			Press and hold [KEY] to activate
+			This effect lasts a maximum of 10 seconds, or as long as you hold the key
+			Grants immunity to the low gravity effects of space
+			'''
+	}
+
+	FrigidBulwark: {
+		DisplayName: Frigid Bulwark
+		Tooltip:
+			'''
+			Absorbs 25% of damage done to players on your team
+			Only active above 25% life
+			Grants immunity to knockback
+			Puts a shell around the owner when below 50% life that reduces damage
+			The shell becomes more powerful when below 15% life and reduces damage even further
+			'''
+	}
+
+	LegacyDesertMedallion: {
+		DisplayName: Deserted Locket
+		Tooltip:
+			'''
+			Summons the Desert Scourge when used in the Desert
+			Enrages outside the Desert
+			Not consumable
+			'The Scourge seeks for another meal.'
+			'''
+	}
+
+	LegacyDesertScourgeRelic: {
+		DisplayName: Deserted Scourge Relic
+		Tooltip: ""
+	}
+
+	LegacyDesertScourgeMask: {
+		DisplayName: Deserted Scourge Mask
+		Tooltip: ""
+	}
+
+	LegacyDesertScourgeTrophy: {
+		DisplayName: Deserted Scourge Trophy
+		Tooltip: ""
+	}
+
+	GlacialCrusher: {
+		Tooltip:
+			'''
+			Striking enemies creates powerful glaciers, dealing tremendous damage to frozen enemies
+			Glaciers shatter into homing ice shards
+			'''
+		DisplayName: Glacial Crusher
+	}
+
+	PsychoticAmulet: {
+		Tooltip:
+			'''
+			Boosts rogue and ranged damage and critical strike chance by 5%
+			Grants a massive boost to these stats if you aren't moving
+			'''
+		DisplayName: Psychotic Amulet
+	}
+
+	WaterLeechBanner: {
+		DisplayName: Water Leech Banner
+		Tooltip: Nearby players get a bonus against: Water Leech
+	}
+
+	PrimordialFinality: {
+		DisplayName: Primordial Finality
+		Tooltip:
+			'''
+			[c/DAA520:<left> to perform a 5-swing combo that ends by throwing the blade]
+			[c/DAA520:The thrown blade will follow your cursor]
+			[c/DAA520:Releasing while the blade is out will cause an exploding snap]
+			[c/00BFFF:<right> to snip out the scissor blades in front of you]
+			[c/00BFFF:Hitting an enemy with it will parry them, granting you brief invulnerability]
+			[c/00BFFF:You can parry projectiles to make them deal 160 less damage for a short period]
+			[c/00BFFF:Parrying anything will empower the next 15s of the sword]
+			[c/DC143C:Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges]
+			[c/DC143C:If more than 5 charges were used, you can dash across the rip by holding UP]
+			[c/82f0c3:When five blade of infinte power meet, the mythical Sword of the Beginning will descend again]
+			[c/e89468:It ended a century ago,]
+			[c/ffe260:And now it will exert its great power in your hands]
+			[c/ffffff:It is the sword of creation]
+			[c/221111:It is the sword of destruction]
+			[c/dd0d0d:The Ultimate Meaning of Sword that truly returns gods to zero is flowing in your hands]
+			[c/ef4f4f:Editing the Birth and Death of Everything in Breath!]
+			'''
+	}
+
+	ProporsePistol: {
+		DisplayName: Proporse Pistol
+		Tooltip: Fires a blue energy blast that bounces
+	}
+
+	RaidersGlory: {
+		DisplayName: Raiders Glory
+		Tooltip:
+			'''
+			Fires ichor arrows with increased velocity
+			These arrows also cause enemies to drop more money
+			'''
+	}
+
+	PlagueHive: {
+		DisplayName: Plague Hive
+		Tooltip:
+			'''
+			All attacks inflict the Plague and grants immunity to the Plague
+			Increases the strength of friendly bees
+			Projectiles spawn plague seekers on enemy hits
+			Releases plague bees when damaged and douses you in honey
+			'''
+	}
+
+	ManeaterBulb: {
+		DisplayName: Maneater Bulb
+		Tooltip: ""
+	}
+
+	MarniteSpear: {
+		DisplayName: Marnite Spear
+		Tooltip: ""
+	}
+
+	MarniteBayonet: {
+		DisplayName: Marnite Bayonet
+		Tooltip: ""
+	}
+
+	SeaShell: {
+		DisplayName: Sea Shell
+		Tooltip:
+			'''
+			Increased defense and damage reduction while submerged in liquid
+			Greatly increased movement speed while submerged in liquid
+			Slightly decreased acceleration while on land
+			'''
+	}
+
+	FungalCarapace: {
+		DisplayName: Fungal Carapace
+		Tooltip: You emit a mushroom spore explosion when you are hit
+	}
+
+	ArcanumoftheVoid: {
+		DisplayName: Arcanum of the Void
+		Tooltip:
+			'''
+			You absorbs when they hit you  
+			Absorbed projectiles heal you for 10% of their damage  
+			Absorb has a cooldown shared with all dodges and reflects, scaling from 15s to 90s based on damage taken  
+			Does not trigger against hits dealing less than 5% of your max health  
+			Taking a second hit from the same type during cooldown deals 15% less damage 
+			'''
+	}
+
+	Trinity: {
+		DisplayName: Trinity
+		Tooltip: Fires a spread of energy bolts
+	}
+
+	Waraxe: {
+		DisplayName: Waraxe
+		Tooltip: Critical hits cleave enemy armor, reducing their defense by 15 and protection by 15%
+	}
+
+	Warblade: {
+		DisplayName: Warblade
+		Tooltip: Critical hits cleave enemy armor, reducing their defense by 15 and protection by 15%
+	}
+
+	MiraculumPike: {
+		DisplayName: Stardriver
+		Tooltip:
+			'''
+			<left> to stab the spear forward for a true melee attack
+			<right> to charge up the spear, and release to throw the spear quickly
+			Up to three thrown spears can be out at a time
+			Hitting enemies with the tip of the spear deals much more damage
+			'''
+	}
+
+	Gehenna: {
+		Tooltip:
+			'''
+			12% increase to all damage and critical strike chance
+			All attacks inflict Brimstone Flames
+			Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
+			Occasionally drop brimstone fireballs from the sky
+			Brimstone fire rains down after getting hit
+			Grants immunity to lava, Burning, On Fire!, Brimstone Flames and Searing Lava
+			'''
+		DisplayName: Gehenna
+	}
+
+	EnchantedMetal: {
+		Tooltip: ""
+		DisplayName: Enchanted Metal
+	}
+
+	DraedonRemote: {
+		Tooltip:
+			'''
+			Mayhem...
+			Not consumable
+			'''
+		DisplayName: Draedon Remote
+	}
+
+	EnchantedMetal_Water: {
+		Tooltip: ""
+		DisplayName: Eternitide Steel
+	}
+
+	EnchantedMetal_Sickness: {
+		Tooltip: ""
+		DisplayName: Eterniblight Steel
+	}
+
+	EnchantedMetal_Ice: {
+		Tooltip: ""
+		DisplayName: Eternifrost Steel
+	}
+
+	EnchantedMetal_Fire: {
+		Tooltip: ""
+		DisplayName: Eterniflame Steel
+	}
+
+	EnchantedMetal_Electric: {
+		Tooltip: ""
+		DisplayName: Eternisurge Steel
+	}
+
+	CloakingGland: {
+		Tooltip:
+			'''
+			Enemies are less likely to target you
+			Grants Abyssal Cloaking, reducing creatures' ability to detect you in the abyss
+			The effect doesn't wear off while you're outside the Abyss
+			Exiting the Abyss restores the effect's full duration
+			'''
+		DisplayName: Cloaking Gland
+	}
+
+	ShroomiteVisage: {
+		Tooltip:
+			'''
+			10% increased ranged damage
+			20% chance not to consume ammo
+			'''
+		SetBonus:
+			'''
+			Not moving puts you in stealth,
+			increasing ranged ability and reducing chance for enemies to target you
+			'''
+		DisplayName: Shroomite Visage
+	}
+
+	MurkySludge: {
+		DisplayName: Murky Sludge
+		Tooltip:
+			'''
+			+1 max minions  
+			Minion attacks inflict Murky Infection  
+			Murky Infection decreases enemy defense 10, and movement speed by 15%
+			+1.5 HP/s life regen while Slimed  
+			10% incerased damage reduction below 50% HP
+			'It's still moving'
+			'''
+	}
+
+	HostileChip: {
+		Tooltip:
+			'''
+			Turret directive override module
+			Install this driver to change the turret's target onto players
+			'''
+		DisplayName: D.O.M. Hostile Turret Driver
+	}
+
+	Impaler: {
+		Tooltip: ""
+		DisplayName: Impaler
+	}
+
+	KumaTerraDev_Legacy: {
+		DisplayName: Tranquil Tempest
+		Tooltip:
+			'''
+			Fires lightning bolts from the sky towards the cursor
+			Lightning bolts have a chance to generate whirlpools where they strike
+			Whirlpools will spin outwards, before redirecting towards enemies
+			<right> tosses the sword toward the cursor which constantly sprays water energy
+			Once the blade begins falling, it will redirect itself towards enemies with increased velocity and 2x damage
+			[c/FF86FF:Gods and their battles often brew the most violent of storms]
+			[c/DDB997:Yet, the most dangerous weapon of all is gentle and swift]
+			[c/2D5185:A torrent of waves from the most serene of seas]
+			[c/ff00ff:This item is dedicated to KumaTerra]
+			'''
+	}
+
+	KumaTerraDev: {
+		DisplayName: Tranquil Tempest
+		Tooltip:
+			'''
+			Fires crashing waves that drench enemies
+			Dissipated waves create homing seafoam
+			After a few swings, a divine bolt strikes from the sky, bouncing off tiles towards nearby enemies
+			Striking an enemy with true melee spawns a lingering typhoon, which sucks in enemies
+			Right Click tosses the sword which constantly sprays water energy
+			Once the blade begins falling, it will redirect itself towards enemies
+			[c/FF86FF:Gods and their battles often brew the most violent of storms]
+			[c/DDB997:Yet, the most dangerous weapon of all is gentle and swift]
+			[c/2D5185:A torrent of waves from the most serene of sea]
+			'''
+	}
+
+	HellBurst: {
+		DisplayName: Hell Burst
+		Tooltip: Casts a beam of flame
+	}
+
+	Omega: {
+		DisplayName: Omega
+		Tooltip:
+			'''
+			Fires a continuous array of homing lasers
+			Spawns two Omega Wingmen which orbit you and fire homing lasers at your cursor
+			Omega Wingmen will occasionally launch a pair of grenades 
+			Spawns six additional Mini Omega Wingmen which orbit in a circle around you and fire homing lasers at your cursor
+			Press <right> when firing to shoot an Omega Beam that splits upon hitting an enemy
+			After firing an Omega Beam your Omega Wingmen will launch their own Omega Beams 
+			Mini Omega Wingmen fire grenades at the cursor after firing the Omega Beam
+			Hitting an enemy with an Omega Beam right as it is fired will increase the damage done substantially and stop it from splitting
+			'''
+	}
+}
+
+Projectiles: {
+	FossilSpike.DisplayName: Fossil Spike
+	AccelerationRoundProjectile.DisplayName: Acceleration Round
+	AncientShivProjectile.DisplayName: Ancient Shiv
+	ArcticArrowProj.DisplayName: Arctic Arrow
+	MarianaBubble.DisplayName: Mariana Bubble
+	AquaticDissolutionSpear.DisplayName: Aquatic Dissolution Spear
+	UnstableSpark.DisplayName: Unstable Spark
+	GrenadeRound.DisplayName: Grenade Round
+	ColdheartIcicleProjectile.DisplayName: Coldheart Icicle
+	IceSpike.DisplayName: Ice Spike
+	BloodClotSentry.DisplayName: Blood Clot
+	BloodSpray.DisplayName: Blood Spray
+	TheDeadlyMicrobeProjectile.DisplayName: The Deadly Microbe
+	BettyExplosion.DisplayName: Betty Explosion
+	BouncingBettyProjectile.DisplayName: Bouncing Betty
+	BouncingBettyShrapnel.DisplayName: Bouncing Betty Shrapnel
+	MagnumRound.DisplayName: Magnum Round
+	SylvanSlash.DisplayName: Sylvan
+	SylvanSlashAttack.DisplayName: Sylvan
+	TotalityFire.DisplayName: Totality Fire
+
+	Melee: {
+		AncientShivProjectile.DisplayName: Ancient Shiv
+		ColdheartIcicleProjectile.DisplayName: Coldheart Icicle
+		VeinRuptureProjectile.DisplayName: Vein Rupture
+		ExoGladiusStab.DisplayName: Exo Gladius
+		EutrophicShankStab.DisplayName: Eutrophic Shank
+		HellflameShankStab.DisplayName: Hellflame Shank
+		ThornDaggerStab.DisplayName: Thorn Dagger
+		LeechingDaggerStab.DisplayName: Leeching Dagger
+		TerraShivStab.DisplayName: Terra Shiv
+		TerraShivStabVisuals.DisplayName: Terra Shiv
+		NightStabberStab.DisplayName: Night Stabber
+		TrueNightStabberStab.DisplayName: True Night Stabber
+		ExcalidaggerStab.DisplayName: Excalidagger
+		SwordsmithsPride.DisplayName: Swordsmiths Pride
+		AquaticDischargeProj.DisplayName: Aquatic Discharge
+		ExcalidaggerBeam.DisplayName: Excalidagger Beam
+		TrueExcalidaggerStab.DisplayName: True Excalidagger
+		PrimordialBlast.DisplayName: Primordial Blast
+		MarniteBayonetProj.DisplayName: Marnite Bayonet
+		MarniteSpearProj.DisplayName: Marnite Spear
+	}
+
+	BloodyEdgeSlash.DisplayName: Bloody Edge
+	TrueBloodyEdgeSlash.DisplayName: True Bloody Edge
+	BloodyBlade.DisplayName: Bloody Blade
+	ExoGladiusBeam.DisplayName: Exo Gladius Beam
+	ExoGladiusComet.DisplayName: Exo Gladius Comet
+	ExoGladiusProjectile.DisplayName: Exo Gladius
+	ExoGladiusSpears.DisplayName: Exo Gladius Spears
+	ExoGladiusSilhouette.DisplayName: Exo Gladius Silhouette
+	BrimlashBusterSwing.DisplayName: Brimlash Buster
+	AncientCrusherSwing.DisplayName: Ancient Crusher
+	BrimstoneFireball.DisplayName: Brimstone Fireball
+	BloodRay.DisplayName: Blood Ray
+	ChargedDartExplosion.DisplayName: Charged Dart Explosion
+	ChargedBlast3.DisplayName: Charged Blast
+	CorruptedCrusherBladeSlash.DisplayName: Corrupted Crusher Blade
+	IchorSplash.DisplayName: Ichor Splash
+	CrimsonCrusherBladeSlash.DisplayName: Crimson Crusher Blade
+	HadopelagicSoundwave.DisplayName: Hadopelagic Soundwave
+	HadopelagicSoundwave2.DisplayName: Hadopelagic Soundwave
+	Crescent.DisplayName: Crescent
+	StratusSphereProj.DisplayName: Stratus Sphere
+	StratusSphere_Holdout.DisplayName: Stratus Sphere
+	LeafStab.DisplayName: Leaf Stab
+	Leech.DisplayName: Leech
+	BadApple.DisplayName: Bad Apple
+	YanmeisKnifeSlash.DisplayName: Yanmeis Knife
+	DivineRetributionSpear.DisplayName: Divine Retribution Spear
+	HighExplosivePeanutShell.DisplayName: High Explosive Peanut Shell
+	FabBolt.DisplayName: Fab Bolt
+	FabRay.DisplayName: Fab Ray
+	VerdantYoyo.DisplayName: Verdant Yoyo
+	VerdantYoyoDamageRange.DisplayName: Verdant Yoyo Damage Range
+	VerdantYoyoVFXs.DisplayName: Verdant Yoyo
+	TerraShivBeam.DisplayName: Terra Shiv Beam
+	TerraShivVisuals.DisplayName: Terra Shiv Visuals
+	NightsEdgeBeam.DisplayName: Nights Edge Beam
+	TrueNightsStabberBeam2.DisplayName: True Nights Stabber Beam
+	TrueNightsStabberBeam1.DisplayName: True Nights Stabber Beam
+	NightsStabberBeam.DisplayName: Nights Stabber Beam
+	ExcalidaggerBeam.DisplayName: Excalidagger Beam
+	TerraEdgeSlash.DisplayName: Terra Edge
+	TerraEdgeMeleeSlash.DisplayName: Terra Edge Melee
+	TerraEdgeBeam.DisplayName: Terra Edge Beam
+	TerrasomereBeam.DisplayName: Terrasomere Beam
+	QuasiStarProjectile.DisplayName: Quasi Star
+	WulfrumZap.DisplayName: Wulfrum Zap
+	WulfrumZapBolt.DisplayName: Wulfrum Zap Bolt
+	WulfrumArrowProj.DisplayName: Wulfrum Arrow
+	AquaticDissolutionSlash.DisplayName: Aquatic Dissolution
+	ThrowingNeedle.DisplayName: Throwing Needle
+	DuneHopperProjectile.DisplayName: Dune Hopper
+	Quasar2.DisplayName: Quasar2
+	QuasarKnife.DisplayName: Quasar Knife
+	EMPPulse.DisplayName: EMP Pulse
+	RainbowBlast.DisplayName: Rainbow Blast
+	PhoenixBladeProjectile.DisplayName: Phoenix Blade
+	PhoenixHeal.DisplayName: Phoenix Heal
+	WaterStream.DisplayName: Water Stream
+	WaterStream2.DisplayName: Water Stream
+	BrittleStarMinion.DisplayName: Brittle Star Minion
+	DunechargeCharge.DisplayName: Dunecharge Charge
+	FrostsparkBulletProjectile.DisplayName: Frostspark Bullet
+	EnhancedNanoRoundProj.DisplayName: Enhanced Nano Round
+	Nanomachine.DisplayName: Nanomachine
+	SuperballBulletProj.DisplayName: Superball Bullet
+	Nothing.DisplayName: Nothing
+	EMPPulseZappy.DisplayName: EMP Pulse
+	DesertTornado.DisplayName: Desert Tornado
+	WulfrumAura.DisplayName: Wulfrum Aura
+	MarkRound.DisplayName: Mark Round
+	MurasamaSlash.DisplayName: Murasama
+	LegacyMurasamaSlash.DisplayName: Legacy Murasama
+	TerracottaExplosion.DisplayName: Terracotta Explosion
+	TerracottaProj.DisplayName: Terracotta
+	GoldenGunProj.DisplayName: Golden Gun
+	GrandDadSlash.DisplayName: Grand Dad
+	ExcalidaggerSparkleHitbox.DisplayName: Excalidagger Sparkle
+	DualpoonProj.DisplayName: Dualpoon
+	TriploonProj.DisplayName: Triploon
+	CorruptedCrusherBladeProj.DisplayName: Corrupted Crusher Blade
+	CrimsonCrusherBladeProj.DisplayName: Crimson Crusher Blade
+	ExplodingFrostFlame.DisplayName: Exploding Frost Flame
+	FrostFlame.DisplayName: Frost Flame
+	DemonicPitchforkProj.DisplayName: Demonic Pitchfork
+	ThermalSteam.DisplayName: Thermal Steam
+	OrbitingCrystal.DisplayName: Orbiting Crystal
+	SoulofFlightSoul.DisplayName: Soulof Flight Soul
+	DiamondSparkle.DisplayName: Diamond Sparkle
+	TemporalFloeSlash.DisplayName: Temporal Floe
+	TemporalFloeNumberTwo.DisplayName: Temporal Floe Number Two
+	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Sword
+	ShadeNimbus.DisplayName: Shade Nimbus
+	ShadeNimbusCloud.DisplayName: Shade Nimbus Cloud
+	Shaderain.DisplayName: Shaderain
+	GypsyDust.DisplayName: Gypsy Dust
+	LegacyDesertScourgeDiveSplash.DisplayName: Legacy Desert Scourge Dive Splash
+	LegacyScourgeoftheDesertProj.DisplayName: Legacy Scourgeofthe Desert
+	Iceberg.DisplayName: Iceberg
+	GlacialCrusherSlash.DisplayName: Glacial Crusher
+	PrimordialFinality_SwungBlade.DisplayName: Primordial Finality_ Swung Blade
+	PrimordialBolt.DisplayName: Primordial Bolt
+	PrimordialNeedle.DisplayName: Primordial Needle
+	PrimordialParry.DisplayName: Primordial Parry
+	ProBolt.DisplayName: Pro Bolt
+	PhantomLanceProj.DisplayName: Phantom Lance
+	ManeaterBulbHook.DisplayName: Maneater Bulb Hook
+	BrimstoneBoomfishProj.DisplayName: Brimstone Boomfish
+	CoralskinFoolfishProj.DisplayName: Coralskin Foolfish
+	CoralPop.DisplayName: Coral Pop
+	ScarredAngelfishProj.DisplayName: Scarred Angelfish
+	VoidPulse.DisplayName: Void Pulse
+	TrinitySlash.DisplayName: Trinity
+	MiraculumPikeProj.DisplayName: Miraculum Pike
+	MiraculumPikeStab.DisplayName: Miraculum Pike Stab
+	ExoChainLightning.DisplayName: Exo Chain Lightning
+	AstralStorm.DisplayName: Astral Storm
+	AstralStormBig.DisplayName: Astral Storm Big
+	AstralStormSmall.DisplayName: Astral Storm Small
+	AstralLightning.DisplayName: Astral Lightning
+	LatcherMineProjectile.DisplayName: Latcher Mine
+	MineShrapnel.DisplayName: Mine Shrapnel
+	FlamingStake.DisplayName: Flaming Stake
+	ExplodingStake.DisplayName: Exploding Stake
+	KumaTerraDevSwing.DisplayName: Kuma Terra Dev Swing
+	KumaTerraDevThrow.DisplayName: Kuma Terra Dev Throw
+	KumaTerraDevLightning.DisplayName: Kuma Terra Dev Lightning
+	KumaTerraDevWhirl.DisplayName: Kuma Terra Dev Whirl
+	KumaTerraDevSwing2.DisplayName: Kuma Terra Dev Swing2
+	FlameBeamTip.DisplayName: Flame Beam Tip
+	FlameBeamTip2.DisplayName: Flame Beam Tip2
+	FlameBurstBoom.DisplayName: Flame Burst Boom
+	HellBurstPulse.DisplayName: Hell Burst Pulse
+	HellBurstExplosion.DisplayName: Hell Burst Explosion
+	HellBurstEruption.DisplayName: Hell Burst Eruption
+	BigBeamofDeath.DisplayName: Big Beamof Death
+	BigBeamofDeath2.DisplayName: Big Beamof Death2
+	ParticleBeamofDoom.DisplayName: Particle Beamof Doom
+	OmegaBeam.DisplayName: Omega Beam
+	WingmanShot.DisplayName: Wingman Shot
+	OmegaGrenade.DisplayName: Omega Grenade
+	MiniOmegaBeam.DisplayName: Mini Omega Beam
+	BladeofEnmityProj.DisplayName: Bladeof Enmity Proj
+	KumaTerraWave.DisplayName: Kuma Terra Wave
+}
+
+Buffs: {
+	DraconicSurgeBuff: {
+		Description: The power of a dragon courses through your veins
+		DisplayName: Draconic Surge
+	}
+
+	Cadence: {
+		Description: Your heart is pure
+		DisplayName: Cadence
+	}
+
+	HeartAttack: {
+		Description: Reduces your damage by 30% during the day, you are one with the dark...
+		DisplayName: Heart Attack
+	}
+
+	KamiFlu: {
+		DisplayName: Kami Flu
+		Description: Defenseless and dying
+	}
+
+	KamiBuff: {
+		DisplayName: Kami Injection
+		Description: 15% increased max movement speed, acceleration and damage
+	}
+
+	AlicornBuff: {
+		DisplayName: Alicorn
+		Description: You beat DoG in Malice mode, you are truly fabulous!
+	}
+
+	Invincible: {
+		DisplayName: Invincible
+		Description: Immune to damage and most debuffs. 'Omniman is with you'
+	}
+
+	YharimPower: {
+		DisplayName: Yharim Power
+		Description: You feel like you can break the world in two...with your bare hands!
+	}
+
+	Penumbra: {
+		DisplayName: Penumbra
+		Description: Stealth regenerates 10% faster while moving and 15% faster while standing still
+	}
+
+	TitanScale: {
+		DisplayName: Titan Scale
+		Description: You feel tanky
+	}
+
+	ProfanedRageBuff: {
+		DisplayName: Profaned Rage
+		Description: The power of the sun fules your critical strike chance
+	}
+
+	ProfanedWrathBuff: {
+		DisplayName: Profaned Wrath
+		Description: The power of the sun fules your damage
+	}
+
+	ArmorShattering: {
+		DisplayName: Armor Shattering
+		Description: Melee and rogue attacks break enemy armor
+	}
+
+	Revivify: {
+		DisplayName: Revivify
+		Description: You are healed by a fraction of the damage you take
+	}
+
+	TriumphBuff: {
+		DisplayName: Triumph Buff
+		Description: Enemy contact damage is reduced, the lower their health the greater the reduction
+	}
+
+	BrittleStar: {
+		DisplayName: Brittle Star
+		Description: The brittle star will protect you
+	}
+
+	WulfrumCharge: {
+		DisplayName: Wulfrum Charge
+		Description: Wulfrum energy courses through your veins...
+	}
+
+	PhaseCooldown: {
+		DisplayName: Phase Cooldown
+		Description: Phasing is on cooldown...
+	}
+
+	BeetleJuiceBuff: {
+		DisplayName: Beetle Juiced
+		Description: Increased melee damage and speed by 10%, and increased damage reduction by 5%
+	}
+
+	FoolfishCamo: {
+		DisplayName: Foolfish Camo
+		Description: Enemies are less likely to target you, and stealth generation is increased
+	}
+
+	MurkyInfection: {
+		DisplayName: Murky Infection
+		Description: Ugh! It's so gross! Get it off!
+	}
+}
+
+MaliceDeactivationTextKey: Злоба деактивирована, какая жалость.
+MaliceActivationTextKey: Злоба активирована; настоящий кошмар начался!
+MaliceShortDescription: "[c/FFDC143C:Игра в этот режим может нести за собой необратимые последствия для вашей психики, играйте как хотите, но не думайте, что долго проживёте.]"
+MaliceName: Злоба
+MaliceLongDescription:
+	'''
+	[c/FFDC143C:Все усложнения режима Месть активны, включая:] 
+	[c/FFDC143C:Усиленное ослабление эффективности вампиризма.] 
+	[c/FFDC143C:Все боссы в постоянной ярости и имеют куда более агрессивный ИИ.]
+	[c/FF0000:Боль и страдания, вот что описывает сложность режима Злоба...]
+	'''
+
+Mods: {
+	CalamityLegacy: {
+		DeathText2: из глубин бездны.
+		DeathText3: стал едой для змиев.
+		DeathText4: был(а) повержен(а).
+		DeathText5: провалил испытание.
+		DeathText6: был уничтожен неизвестной силой.
+		disabledDodges: Все ваш уклонения отключена.
+		enabledDodges: Все ваши уклонения снова активны.
+
+		Condition: {
+			PostdownedProvidence: После победы над Провиденс
+			HasBazooka: Пока в вашем инвентаре находится базука
+		}
+	}
+}
+
+Condition: {
+	PostdownedProvidence: После победы над Провиденс
+	HasBazooka: Пока в вашем инвентаре находится базука
+	HasGun: While having a waepon that uses magnum rounds as ammo in your inventory
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: Клиентская конфигурация
+
+		DifficultyItemsInStarterBag: {
+			Label: Предметы сложностей в стартовом мешке
+			Tooltip:
+				'''
+				[i:CalamityLegacy/BloodFountainofRevengeance][i:CalamityLegacy/SatanicScepterofDeath][i:CalamityLegacy/TormentedMindofMalice] Puts the items that change the world difficulty in the starting bag. [i:CalamityLegacy/ArmageddonFruit][i:CalamityLegacy/DefiledFeatherofLucifer][i:CalamityLegacy/IronHeart]
+				Items Include :
+				[i:CalamityLegacy/BloodFountainofRevengeance] [c/DC143C:Blood Fountain of Revengeance]
+				[i:CalamityLegacy/SatanicScepterofDeath] [c/FF9370DB:Satanic Scepter of Death]
+				[i:CalamityLegacy/TormentedMindofMalice] [c/FFE9967A:Tormented Mind of Malice]
+				[i:CalamityLegacy/ArmageddonFruit] [c/FF9400D3:Forbidden Fruit of Armageddon]
+				[i:CalamityLegacy/DefiledFeatherofLucifer] [c/FF90EE90:Defiled Feather of Lucifer]
+				[i:CalamityLegacy/IronHeart] [c/FF87CEFA:Iron Heart of Preservation]
+				[i:CalamityLegacy/DemonTrophyofDemise] [c/FFFF0000:Demon Trophy of Demise]
+				'''
+		}
+
+		DifficultyUIStyle: {
+			Label: Legacy Difficulty UI
+			Tooltip: Use the legacy difficulty UI style, rather than the modern version.
+		}
+
+		DifficultyUIXLocation: {
+			Label: Difficulty UI X Position
+			Tooltip:
+				'''
+				The X location, (Left/Right) of the difficulty UI. 
+				Does not effect legacy UI.
+				'''
+		}
+
+		DifficultyUIYLocation: {
+			Label: Difficulty UI Y Position
+			Tooltip:
+				'''
+				The Y location, (Up/Down) of the difficulty UI. 
+				Does not effect legacy UI.
+				'''
+		}
+
+		Headers: {
+			Mods: {
+				CalamityLegacy: {
+					DifficultySettings: Difficulty UI Settings
+					StressSettings: Шкала стресса
+					LegacyTextures: Mods. Calamity Legacy. Legacy Textures Header
+				}
+			}
+		}
+
+		StressUIXLocation: {
+			Label: Stress Bar X Position
+			Tooltip: "The X location, (Left/Right) of the stress bar UI. "
+		}
+
+		StressUIYLocation: {
+			Label: Stress Bar Y Position
+			Tooltip: "The Y location, (Up/Down) of the stress bar UI. "
+		}
+
+		StressUIAudio: {
+			Tooltip: Enables or disables the heart beat sound effect at maximum stress.
+			Label: Stress Bar Audio
+		}
+
+		RemoveVersion: {
+			Label: Remove Version
+			Tooltip: Coming Soon...
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: Server Config
+
+		DifficultyItemsInStarterBag: {
+			Label: Difficulty Items In Starter Bag
+			Tooltip:
+				'''
+				[i:CalamityLegacy/BloodFountainofRevengeance][i:CalamityLegacy/SatanicScepterofDeath][i:CalamityLegacy/TormentedMindofMalice] Puts the items that change the world difficulty in the starting bag. [i:CalamityLegacy/ArmageddonFruit][i:CalamityLegacy/DefiledFeatherofLucifer][i:CalamityLegacy/IronHeart]
+				Items Include :
+				[i:CalamityLegacy/BloodFountainofRevengeance] [c/DC143C:Blood Fountain of Revengeance]
+				[i:CalamityLegacy/SatanicScepterofDeath] [c/FF9370DB:Satanic Scepter of Death]
+				[i:CalamityLegacy/TormentedMindofMalice] [c/FFE9967A:Tormented Mind of Malice]
+				[i:CalamityLegacy/ArmageddonFruit] [c/FF9400D3:Forbidden Fruit of Armageddon]
+				[i:CalamityLegacy/DefiledFeatherofLucifer] [c/FF90EE90:Defiled Feather of Lucifer]
+				[i:CalamityLegacy/IronHeart] [c/FF87CEFA:Iron Heart of Preservation]
+				[i:CalamityLegacy/DemonTrophyofDemise] [c/FFFF0000:Demon Trophy of Demise]
+				'''
+		}
+
+		EnableStressBar: {
+			Label: Включить шкалу стресса
+			Tooltip:
+				'''
+				Enables or disables the stress mechanic.
+				Stress can be increased or decreased in many ways.
+				High stress give bonuses to damage and critical strike chance, but lowers defence and damage reduction.
+				Pressing the Activate Stress Key gives the player a heart attack.
+				The heart attack deals 100 damage, but proives a slew of positive effects at night time.
+				'''
+		}
+
+		Fabsol: {
+			Label: Включить контент Fabsol'а
+			Tooltip: Disable to remove Fabsol content from your world.
+		}
+
+		Bird: {
+			Label: Enable Mr. Small / bird Content
+			Tooltip: Disable to remove Mr. Small / bird content from your world.
+		}
+
+		Proficiency: {
+			Label: Пророчество
+			Tooltip: Скоро выйдет...
+		}
+
+		SpamClickMura: {
+			Label: Спам-атака Мурасамой
+			Tooltip:
+				'''
+				The return of the legendary spam click Murasama
+				Use the Rekindled Murasama to apply this effect
+				'Some my say it's, "perfectly balanced"'
+				'''
+		}
+
+		MuraStyle: {
+			Label: Rekindled Murasama Damage
+			Tooltip:
+				'''
+				Choose the damage of the Rekindled Murasama to best fit your balancing
+				'Keep it lower to GitGud, or high for it to be, "perfectly balanced"'
+				'''
+		}
+
+		Headers: {
+			Mods: {
+				CalamityLegacy: {
+					Controversial: Спорный контент
+					Murasama: Восстановленная Мурасама
+					Mechanics: Механики
+				}
+			}
+		}
+	}
+}
+
+NPCs: {
+	Astrageldon.DisplayName: Астрагельдоский слизень
+	AquaticParasite.DisplayName: Акватический паразит
+	BlightedEye.DisplayName: Увядший глаз
+	AquaticSeekerBody.DisplayName: Акватический искатель
+	AquaticSeekerHead.DisplayName: Акватический искатель
+	AquaticSeekerTail.DisplayName: Акватический искатель
+	MinionAstralSlime.DisplayName: Искажённый астральный слизень
+
+	FAP: {
+		DisplayName: Пьяная принцесса
+		Census.SpawnCondition: Имейте у себя в инвентаре {$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka] в Хардмоде
+		Name.Cirrus: Циррус
+
+		Chat: {
+			BossAlive: Why are you talking to me right now? Shouldn't you be bumbling around and dying for my amusement?
+			Homeless1: I could smell my vodka from MILES away!
+			Homeless2: Have any spare rooms available? Preferably candle-lit with a hefty supply of booze?
+			BloodMoon1: I'm gonna make some Bloody Marys to relax, celery included. Want one?
+			BloodMoon2: If you're too lazy to craft potions normally, try Blood Orbs. Blood is fuel, dumbass.
+			BloodMoon3: I'm trying to not be bitchy tonight, but it's hard when everyone else won't shut up.
+			BloodMoonSlap: Sorry, I have no moral compass at the moment.
+			Normal1: I HATE WALMART! ...Anyway, what do you want this time?
+			Normal2: Drink something that turns you into a magical flying unicorn so you can be just like me.
+			Normal3: Deals so good I'll [$$!$] myself! ...Sorry, just had a minor stroke!
+			Normal4: Did anyone ever tell you that large assets cause back pain? Well, they were right.
+			Archmage: "{0} can share a drink with me any time! ...Or maybe not, I'm not sure his old heart could take it."
+			BrimstoneWitch: The abuse {0} went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.
+			Tavernkeep1: My booze will always be better than {0}'s, and nobody can convince me otherwise.
+			Tavernkeep2: Tell {0} to stop calling me. He's not wanted.
+			Tavernkeep3: I've had to tell baldie where my eyes are so many times that I've lost count.
+			Stylist1: Ever since {0} moved in I haven't been drinking as much... a strange but not unwelcome feeling.
+			Stylist2: You can't stop me from trying to move in with {0}.
+			Stylist3: I love it when {0}'s hands get sticky from all that... wax.
+			Day1: I'm literally balls drunk off my sass right now, what do you want?
+			Day2: I'm either laughing because I'm drunk or because I've lost my mind, probably both.
+			Day3: When I'm drunk I'm way happier... at least until the talking worms start to appear.
+			Day4: I should reprogram the whole mod, while drunk, then send it back to the testers.
+			DayStylist1: "{0} helped me learn to accept my past. It's been rough, but I think I'm on the right track now."
+			DayStylist2: Might go out for a jog later with {0}. Nice day for it.
+			DayDrunk1: I drink to forget certain... things. What things, you might ask? Well, the point is to forget them, isn't it?
+			DayDrunk2: What a great day! Might just drink so much that I get poisoned again.
+			Night1: A perfect night to light some candles, drink some wine and relax.
+			Night2: Here's a challenge... take a shot for every time you've had to look at the wiki. Oh wait, you'd die.
+			Night3: Yes, everyone knows the mechworm is buggy. Well, not anymore, but still.
+			Night4: You lost or something? I don't mind company, but I'd rather be left alone at night.
+			Night5: Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.
+			NightStylist: I should watch some movies with {0} tonight. You could come too, but only if you bring snacks for us.
+			Party: You'll always find me at parties where booze is involved... well, you'll always find BOOZE where I'M involved!
+			AcidRain: I'm melting! Put a stop to this inclement weather this instant before it ruins my hair!
+			Martians: You should probably deal with those ayy lmaos before anything else, but whatever.
+			CryogenDefeated: God I can't wait to smash some ice again! ...For drinks, of course.
+			LeviathanDefeated: How could you murder such a beautiful creature!? ...The blue one, not the obese cucumber.
+			MoonLordDefeated: Ever wondered why the Moon Lord needed so many tentacles? Uh... on second thought, I won't answer that.
+			PolterghastDefeated: I saw a ghost down by the old train tracks back at my homeland once, flailing wildly at the lily pads... frightening times those were.
+			DoGDefeated: I hear it's amazing when the famous Devourer of Gods out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!
+			HasChibii: The hell is that? Looks like something I'd carry around if I was 5 years old.
+			HasAnahitaTrans: Nice scales... is it hot in here or is it just me?
+			HasVodka: Do you like my vodka? I created it by mixing fairy dust, crystallized cave sweat and other magical crap.
+			HasAlicorn1: So... you found my special bottle. Hope you enjoy it, I know I will.
+			HasAlicorn2: Be sure to dismount me once in a while, I get tired. And besides, I can't rip you off-I mean offer you excellent deals you won't find anywhere else if you're riding me 24/7.
+			HasAlicorn3: Before you ask, no, I do NOT have a heart on my butt while in human form. Don't question my transformation preferences!
+		}
+
+		//Death Count stuffs
+		DeathCountButton: Количество смертей + Покровители
+		DeathCount: Ты умирал {0} {^0:раз;раза}.
+		Death10000: Поздравляю! Теперь ты - самый большой лузер в истории Террарии! Кто-же под номером 2? Ещё б я знала.
+		Death5000: I'm not sure what to say this time. That you're bad and should feel bad? That much was known already.
+		Death2500: Bless your heart. I could dodge better than you even if I were drunk high.
+		Death1000: It is said the average Terrarian has a lifespan of 2 minutes or less. ...Well, not really, but I feel like you'd be part of that statistic.
+		Death500: Your inability to avoid dying to even the most basic of attacks is astonishing to me.
+		Death250: I admire your tenacity. Keep it up, your enemies are racking up quite the kill count!
+		Death100: Consider lowering the difficulty. If you found that statement irritating, good.0
+		DonorShoutout: Йоу {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} и {24}! Вы реально крутые!
+
+		TownNPCMood: {
+			Content: Сейчас где-то 5 утра.
+			NoHome: I need a place to crash! My drinks need to be properly cooled before they can be served!
+			LoveSpace: Finally, some peace and quiet. Large quantities of people tend to piss me off.
+			FarFromHome: I'm used to running away from home, but this is a little ridiculous.
+			DislikeCrowded: If one more person tells me 'it's happy hour somewhere' to try and get a discount, I'm going to snap!
+			HateCrowded: No amount of alcohol can drown out the noise these people make!
+			LoveBiome: Other unicorns? Never thought I'd see the day! This place is incredible!
+			LikeBiome: A good breeze to cool some heads, that's the way to deal with customers who've had a few too many drinks!
+			DislikeBiome: This dry air and heat isn't good for my hair, or my drinks.
+			HateBiome: You think I can fix this mess with a magical friendship rainbow? That's not how it works, dumbass! Get me out of here already!
+			LoveNPC_Stylist: "{NPCName} works wonders for my hair... among other things, hehe."
+			LoveNPC_BestiaryGirl: "{NPCName} is so fluffy and squishy! She also says my alicorn form is 'mega rad'."
+			LikeNPC_Truffle: "{NPCName} makes me so hungry... I wonder how great of a trip he'd give..."
+			LikeNPC_PartyGirl: "{NPCName} would make for a great bartender some day. She really knows how to liven the mood!"
+			DislikeNPC_DD2Bartender: "{NPCName} is so bald."
+			DislikeNPC_TaxCollector: "{NPCName} had best keep his distance... he wouldn't want to wake up one morning with a pipe bomb in his mailbox."
+			HateNPC_GoblinTinkerer: "{NPCName} was so terrible that I had to FORCE him to have a better reforge system. Why would you house me next to him? Do you enjoy watching me relive the stress he gave me!?"
+			HateNPC_Angler: "{NPCName} never stops blabbering about his inane fishing quests. Get me away from him before I stomp him into the ground!"
+			LikeNPC_Princess: You think I'd dislike {NPCName} because we're too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks of course.
+			Princess_LovesNPC: "{NPCName} has really interesting stories to tell, I've learned a lot from her already!"
+			HateNPC: I hate {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+		}
+	}
+
+	WulfrumSlime.DisplayName: Wulfrum Slime
+	DriedSeekerBody.DisplayName: Dried Seeker
+	DriedSeekerHead.DisplayName: Dried Seeker
+	DriedSeekerTail.DisplayName: Dried Seeker
+	SirenClone.DisplayName: Siren Clone
+	CosmicElemental.DisplayName: Cosmic Elemental
+	LegacyDesertNuisanceHead.DisplayName: Desert Nuisance
+	LegacyDesertScourgeHead.DisplayName: Desert Scourge
+	Bumblefuck.DisplayName: Bumblefuck
+	Bumblefuck2.DisplayName: Bumblefuck2
+	LegacyDesertNuisanceBody.DisplayName: Desert Nuisance
+	LegacyDesertNuisanceTail.DisplayName: Desert Nuisance
+	LegacyDesertScourgeBody.DisplayName: Desert Scourge
+	LegacyDesertScourgeTail.DisplayName: Desert Scourge
+	WaterLeech.DisplayName: Water Leech
+	DarkEnergyLoreNPC.DisplayName: Dark Energy Lore N P C
+}
+
+Keybinds: {
+	"Activate Stress.DisplayName": Активировать стресс
+	Phase.DisplayName: Фаза
+	"Fire Crystal.DisplayName": Запустить кристалл
+}
+
+ArmageddonName: Mods.CalamityLegacy.ArmageddonName
+ArmageddonShortDescription: Mods.CalamityLegacy.ArmageddonShortDescription
+ArmageddonActivationTextKey: Mods.CalamityLegacy.ArmageddonActivationTextKey
+ArmageddonDeactivationTextKey: Mods.CalamityLegacy.ArmageddonDeactivationTextKey
+*/

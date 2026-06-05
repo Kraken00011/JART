@@ -1,0 +1,11 @@
+Items: {
+	HoodOfCalamity: {
+		DisplayName: Капюшон бедствия
+		Tooltip: ""
+	}
+
+	RobesOfCalamity: {
+		DisplayName: Одеяние бедствия
+		Tooltip: ""
+	}
+}

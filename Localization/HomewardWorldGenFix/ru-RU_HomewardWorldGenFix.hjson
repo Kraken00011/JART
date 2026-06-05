@@ -1,0 +1,11 @@
+Biomes: {
+	Maze: {
+		Title: Лабиринт
+		SubTitle: Homeward Journey
+	}
+
+	Abyss: {
+		Title: Глубоководье
+		SubTitle: Homeward Journey
+	}
+}

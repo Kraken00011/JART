@@ -1,0 +1,1088 @@
+Items: {
+	ChromaticDye: {
+		Name: Хроматический краситель: {0}
+        Tooltip: ""
+        Variant0: Масло
+        Variant1: Ядерный
+        Variant2: Золото
+        Variant3: Чёрно-белый
+        Variant4: Мёд
+        Variant5: Мастерство
+        Variant6: Тёмная энергия
+        Variant7: Кальмар
+        Variant8: Тританопия
+        Variant9: Пасмурный
+        Variant10: ZX Спектрум
+        Variant11: Зло
+        Variant12: Теневое пламя
+        Variant13: Догма
+        Variant14: FIREBLU
+        Variant15: Искажение
+        Variant16: Электричество
+        Variant17: Полтерплазма
+        Variant18: Наполнение
+        Variant19: Восторг
+        Variant20: Iban-унтый
+        Variant21: Кислотная радуга
+        Variant22: Рубикон
+        Variant23: Двойная радуга
+        Variant24: Неприятность
+        Variant25: Океаническая яшма
+        Variant26: Ракушка
+        Variant27: Светильник джека
+        Variant28: Сахарная вата
+        Variant29: Зелёный нахал
+        Variant30: Калибровка цветов
+        Variant31: Зачарование
+        Variant32: Сизиф
+        Variant33: Вавилон
+        Variant34: Судный день
+        Variant35: Руганианец
+        Variant36: Какашки
+        Variant37: Фестиваль
+        Variant38: Грязный ковёр
+        Variant39: Хайн
+        Variant40: Зеромус
+        Variant41: Вода
+        Variant42: Звёзды
+        Variant43: Багрянец
+        Variant44: Порча
+        Variant45: Освящение
+        Variant46: Дракон
+        Variant47: Злорость
+        Variant48: Гиперреалистичная кровь
+        Variant49: Ауритовая тесла
+        Variant50: Пикмин
+        Variant51: Пламя
+        Variant52: Польша
+        Variant53: Детский сад
+        Variant54: Даниэль
+        Variant55: Осень
+        Variant56: Подмир
+        Variant57: Крабовый салат
+        Variant58: Гаррот
+        .Tooltip: ""
+        0.Tooltip: ""
+        1.Tooltip: ""
+        2.Tooltip: ""
+        3.Tooltip: ""
+        4.Tooltip: ""
+        5.Tooltip: ""
+        6.Tooltip: ""
+        7.Tooltip: ""
+        8.Tooltip: ""
+        9.Tooltip: ""
+	}
+
+	OverloadedSludge: {
+		DisplayName: Перегруженная слякоть
+		Tooltip:
+			'''
+			Призывает Бога слизней
+			Не расходуется
+			'Извивается, раздувшись гноем богов давно мёртвых'
+			'''
+	}
+
+	StormCatcher: {
+		DisplayName: Ловец штормов
+		Tooltip: ""
+	}
+
+	GoopDye: {
+		DisplayName: Склизкий краситель
+		Tooltip: ""
+	}
+
+	ChromaticMass: {
+		DisplayName: Хроматическая масса
+		Tooltip: "'На ощупь как холодная плазма'"
+	}
+
+	ShatteredHeartOfDarkness: {
+		DisplayName: Разбитое сердце тьмы
+		Tooltip: ""
+	}
+
+	GoozmaRelicItem: {
+		DisplayName: Реликвия Гузмы
+		Tooltip: ""
+	}
+
+	GoozmaRelic: {
+		DisplayName: Реликвия Гузмы
+		Tooltip: ""
+	}
+
+	GoozmaLore: {
+		DisplayName: История (Гузма)
+		Tooltip: ""
+	}
+	
+	Goozmolisher: {
+		DisplayName: Гузподрыватель
+		Tooltip: ""
+	}
+
+	Goozmortar: {
+		DisplayName: Гузмортира
+		Tooltip: ""
+	}
+
+	GoozMonolith: {
+		DisplayName: Монолит муссона
+		Tooltip: ""
+	}
+
+	TreasureTrunk: {
+		DisplayName: Кофр с сокровищами
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	GoozmaMask: {
+		DisplayName: Маска Гузмы
+		Tooltip: ""
+	}
+
+	TreasureBucket: {
+		DisplayName: Ведро с сокровищами
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	GoozmaTrophyItem: {
+		DisplayName: Трофей Гузмы
+		Tooltip: ""
+	}
+
+	GoozmaTrophy: {
+		DisplayName: Трофей Гузмы
+		Tooltip: ""
+	}
+
+	ImperialGelato: {
+		DisplayName: Имперское желето
+		Tooltip:
+			'''
+			Призывает раздутого малыша-каплю
+			'Десерт под стать императору!'
+			'''
+	}
+
+	GoozmaMusicBoxP1: {
+		DisplayName: Музыкальная шкатулка (Гузма)
+		Tooltip: ""
+	}
+
+	GoozmaMusicBoxP2: {
+		DisplayName: Музыкальная шкатулка (Отчаянный Гузма)
+		Tooltip: ""
+	}
+
+	GoozmaSoulMusicBox: {
+		DisplayName: Музыкальная шкатулка (Хроматическая душа)
+		Tooltip: ""
+	}
+
+	GoozmaSoul: {
+		DisplayName: Хроматическая ауритовая душа
+		Tooltip: Поглотите, чтобы обрести необъятные, скользкие силы
+	}
+
+	YharonSoulMusicBox: {
+		DisplayName: Музыкальная шкатулка (Драконическая душа)
+		Tooltip: ""
+	}
+
+	YharonSoul: {
+		DisplayName: Ауритовая душа возрождения
+		Tooltip: Поглотите, чтобы обрести необъятные силы возрождения
+	}
+
+	SlimeMonsoonMonolith: {
+		DisplayName: Монолит слизневого муссона
+		Tooltip: "'Вызывает достаточно большое количество слизи'"
+	}
+
+	CrimulanMask: {
+		DisplayName: Багротановая маска
+		Tooltip: ""
+	}
+
+	DivineMask: {
+		DisplayName: Божественная маска
+		Tooltip: ""
+	}
+
+	EbonianMask: {
+		DisplayName: Эбонитовая маска
+		Tooltip: ""
+	}
+
+	StellarMask: {
+		DisplayName: Звёздная маска
+		Tooltip: ""
+	}
+
+	Goozmaga: {
+		DisplayName: Гузмастерство
+		Tooltip:
+			'''
+			Бросает планеты, вращающиеся вокруг поражённого врага
+			Попадание во врага, вокруг которого уже крутится планета, увеличивает её скорость
+			Данный эффект складывается до 8 раз
+			Скрытные удары создают два дополнительных планетоида, также вращающихся вокруг врага
+			Нажмите ПКМ, чтобы уничтожить все существующие планеты и планетоиды
+			'''
+	}
+
+	ShogunChestplate: {
+		DisplayName: Нагрудник скользкого сёгуна
+		Tooltip:
+			'''
+			Увеличивает урон на 20%
+			Увеличивает сопротивление урону на 9% и значительно увеличивает регенерацию здоровья
+			Увеличивает максимальный запас здоровья и маны на 150
+			'''
+	}
+
+	ShogunHelm: {
+		DisplayName: Шлем скользкого сёгуна
+		Tooltip:
+			'''
+			Увеличивает урон на 20%
+			Увеличивает шанс критического удара на 15%
+			Увеличивает скорость ближнего боя на 15%
+			'''
+	}
+
+	ShogunPants: {
+		DisplayName: Штаны скользкого сёгуна
+		Tooltip:
+			'''
+			Увеличивают урон на 20%
+			Увеличивают скорость передвижения на 50%
+			Значительно увеличивают ускорение и манёвренность
+			'''
+	}
+
+	AuricSole: {
+		DisplayName: Ауритовая подошва
+		Tooltip:
+			'''
+			Нажмите ПКМ, чтобы отключить 
+			Позволяет скользить по любым поверхностям
+			Предупреждение: Возможно достижение чрезвычайно больших скоростей
+			'Ярим бы возненавидел тебя за это'
+			'''
+	}
+
+	DischargedAuricSole: {
+		DisplayName: Разряженная ауритовая подошва
+		Tooltip:
+			'''
+			Нажмите ПКМ, чтобы включить
+			Позволяет скользить по любым поверхностям
+			Предупреждение: Возможно достижение чрезвычайно больших скоростей
+			'Ярим бы возненавидел тебя за это'
+			'''
+	}
+
+	EbonianBehemuckTrophyItem: {
+		DisplayName: Трофей Эбонитового гряземота
+		Tooltip: ""
+	}
+
+	EbonianBehemuckTrophy: {
+		DisplayName: Трофей Эбонитового гряземота
+		Tooltip: ""
+	}
+
+	DivineGargooptuarTrophyItem: {
+		DisplayName: Трофей Божественного бурдантюа
+		Tooltip: ""
+	}
+
+	DivineGargooptuarTrophy: {
+		DisplayName: Трофей Божественного бурдантюа
+		Tooltip: ""
+	}
+
+	CrimulanGlopstrosityTrophyItem: {
+		DisplayName: Трофей Багротанового каплища
+		Tooltip: ""
+	}
+
+	CrimulanGlopstrosityTrophy: {
+		DisplayName: Трофей Багротанового каплища
+		Tooltip: ""
+	}
+
+	StellarGeliathTrophyItem: {
+		DisplayName: Трофей Звёздного гелиафа
+		Tooltip: ""
+	}
+
+	StellarGeliathTrophy: {
+		DisplayName: Трофей Звёздного гелиафа
+		Tooltip: ""
+	}
+
+	PumpActionSwampgun: {
+		DisplayName: Помповый болотовик
+		Tooltip: Стреляет относительно безобидным всплеском слизи
+	}
+
+	Parasanguine: {
+		DisplayName: Парасангвинник
+		Tooltip:
+			'''
+			Пока вы держите ЛКМ или наносите урон врагам, накапливаются излишки крови
+			Нажмите ПКМ, когда шкала крови заполнена, чтобы выплеснуть излишки
+			Нажмите ЛКМ после выплеска крови, чтобы совершить разрушительный взмах
+			'Что получается при кормёжке слизня? Слизень побольше.'
+			'''
+	}
+
+	Gobflogger: {
+		DisplayName: Слизьтатель
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Бейте противников, чтобы получить небольшой бонус к скорости атаки кнутом
+			'Тише едешь - дальше будешь'
+			'''
+	}
+
+	CrystalGauntlets: {
+		DisplayName: Кристаллические перчатки
+		Tooltip:
+			'''
+			Удерживайте ЛКМ, чтобы собирать энергию, формируя мощный шар из молний
+			Полностью сформировав шар, отпустите ЛКМ, чтобы выпустить его на встречу своим противникам
+			Нажмите ПКМ, чтобы хлопнуть в ладоши, взрывая все выпущенные шары из молний 
+			'Безграничная власть!'
+			'''
+	}
+
+	SplendorJam: {
+		DisplayName: Варенье великолепия
+		Tooltip:
+			'''
+			Активирует шкалу стресса
+			Стресс постепенно накапливается, однако возле противников стресс накапливается быстрее
+			Вы излучаете свет, сила которого зависит от уровня стресса
+			При достижении 0%, 25%, 50%, 75%, и 100% стресса даёт спецтакли
+			При достижении 25% стресса, ваше оружие начнёт создавать взрывы
+			При достижении 75% стресса, ваши взрывы становятся больше и сильнее
+			Дважды нажмите ВНИЗ, пока уровень стресса выше 25%, чтобы войти в режим злобы
+			Режим злобы значительно увеличивает ваш урон, а также даёт фиксированную прибавку к нему, пробиванию брони и шансу критического удара
+			Бонусы и их длительность масштабируются с количеством вашего стресса
+			'Близится что-то ужасающее...'
+			'''
+	}
+
+	TheSlimer: {
+		DisplayName: Слизневик
+		Tooltip:
+			'''
+			Стреляет существенной суспензией слипающейся слизи
+			Во время стрельбы слизь застревает, образуя пробку
+			Нажмите ПКМ, пока орудие забито, чтобы выпустить желчную бомбу
+			'Не путать с Багровым слизнем'
+			'''
+	}
+
+	PureAuricSoul: {
+		DisplayName: Ауритовая душа
+		Tooltip: Поглотите, чтобы получить силы поверженного врага
+	}
+
+	SludgeShaker: {
+		DisplayName: Сотрясатель слякоти
+		Tooltip:
+			'''
+			Стреляет существенной суспензией слипающейся слизи
+			Во время стрельбы слизь прилипает к строениям
+			'Встряхнуть, не размешивать'
+			'''
+	}
+
+	SupremeRestorationPotion: {
+		RestoreLifeText: ""
+		DisplayName: Омега зелье восстановления
+		Tooltip: Снижено время перезарядки зелий
+	}
+
+	ChromaticTorch: {
+		DisplayName: Хроматический факел
+		Tooltip: ""
+	}
+
+	StickyHand: {
+		DisplayName: Мерзкая рука
+		Tooltip:
+			'''
+			Автоматически отцепляется, когда вы достаточно близки к крюку
+			Удерживайте клавишу использования крюка, чтобы прикрепиться к блоку
+			{$}
+			'Уверяю вас — она не порвётся'
+			'''
+	}
+
+	Trailblazer: {
+		DisplayName: Следожёг
+		Tooltip:
+			'''
+			Использует гель в качестве боеприпаса
+			Игнорирует 15 ед. защиты
+			80% шанс не потратить боеприпасы
+			'''
+	}
+
+	SlimeCane: {
+		DisplayName: Слизневая трость
+		Tooltip:
+			'''
+			Призывает команду из 4 слизней-оруженосцев, защищающих вас
+			Повторное использование оружия усиливает слизней, используя 1 слот миньонов
+			Слизней можно усилить вплоть до 4 раз
+			Окончательно усилив команду слизней, призывает Гузмоэм, стреляющий термоядерными лучами
+			'Если б я мог избавиться от всей грязи да сделать мир прекрасным, по моему образу и подобию'
+			'''
+	}
+
+	FissionFlyer: {
+		DisplayName: Расщепляющий резак
+		Tooltip:
+			'''
+			Бросает чакрам, разделяющийся на 3 прыгучих кольца
+			При скрытном ударе разделяется на большее количество колец и оставляет огромный клинок
+			'''
+	}
+
+	ScytheOfTheOldGod: {
+		DisplayName: Коса старого бога
+		Tooltip:
+			'''
+			Взмахивает огромной косой, разрезающей врагов тройным комбо
+			'Не путать с косой Старого герцога... 
+			и ни чем больше.'
+			'''
+	}
+
+	Goomoire: {
+		DisplayName: Гузмуар
+		Tooltip:
+			'''
+			Колдует сковывающий вихрь, всасывающий в себя противников
+			'Только не яма! Я ТАМ СГОРЮ!'
+			'''
+	}
+
+	SlimeNinjaStatue: {
+		DisplayName: Статуя слизневого ниндзя
+		Tooltip:
+			'''
+			Окружите 4-я статуями слизня, после чего используйте желейный катализатор, чтобы вызвать дождь из слизней
+			Значительно ускоряет сбор слизней при активации
+			'Собственно, а кто он такой?'
+			'''
+	}
+
+	GelatinousCatalyst: {
+		DisplayName: Желейный катализатор
+		Tooltip: Используйте на статуе слизневого ниндзя, находящейся возле 4 статуй слизня, чтобы вызвать дождь из слизней
+	}
+
+	PluripotentSpawnEgg: {
+		DisplayName: Плюрипотентное яйцо призыва
+		Tooltip:
+			'''
+			Используйте на статуе слизневого ниндзя, находящейся возле 4 статуй слизня, чтобы призвать Гузму без дождя
+			Не расходуется
+			'''
+	}
+
+	PaladinPalanquin: {
+		DisplayName: Паланкин паладина
+		Tooltip:
+			'''
+			Призывает ездовой масляной шарик
+			'Почувствуйте себя императором!'
+			'''
+	}
+
+	ChromaticBomb: {
+		DisplayName: Хроматическая бомба
+		Tooltip: Бросает игнорирующую гравитацию чёрную дыру, уничтожающую блоки
+	}
+
+	ChromaticGooztick: {
+		DisplayName: Хроматическая светящаяся липучка
+		Tooltip: Игнорирует гравитацию и отскакивает от блоков
+	}
+
+	DynamoRod: {
+		DisplayName: Динамо динамит
+		Tooltip: Взрывается в виде огромной, разрушающей блоки чёрной дыры
+	}
+
+	BadApple: {
+		DisplayName: Плохое яблоко
+		Tooltip:
+			'''
+			'Яблоко, упавшее с древа, что пострадало от очередной вспышки ярости Гузмы. 
+			По виду фрукт перевоплотился во что-то относительно новое, скорее всего ужасное на вкус.
+			Но если на зуб яблочко покажется нормальным — запах вас расстроит...'
+			'''
+	}
+
+	ThrowingStars: {
+		DisplayName: Метательные звёзды
+		Tooltip: ""
+	}
+
+	CometKunai: {
+		DisplayName: Кометный кунай
+		Tooltip:
+			'''
+			Выпускает шквал из кунаев и звёзд, создающих собственные копии при успешном попадании
+			При скрытном ударе вызывает звёздный дождь при столкновении с чем-либо
+			'Мощь звёзд у меня в руках...'
+			'''
+	}
+
+	GoopHairDye: {
+		DisplayName: Склизкая краска для волос
+		Tooltip: ""
+	}
+
+	AncientSlimeMonsoonMonolith: {
+		DisplayName: Монолит древнего муссонового слизня
+		Tooltip: ""
+	}
+
+	AntiMassAccumulator: {
+		DisplayName: Аккумулятор анти-массы
+		Tooltip:
+			'''
+			Выстреливает шарами сгруппированных протонов и болтами заряженных электронов друг за другом
+			Шары протонов заряжают всё, чего касаются и могут наносить урон врагам в определённом радиусе
+			Болты электронов наносят дополнительный урон положительно заряженным врагам
+			'Не смотрите непосредственно на рабочий конец устройства.'
+			'''
+	}
+
+	GoozmaBoulderItem: {
+		DisplayName: Пёстрый шарик
+		Tooltip: "'Чрезвычайно опасен'"
+	}
+
+	IOUASoul: {
+		DisplayName: I O U A душа
+		Tooltip: УДАЛЁННЫЙ контент ЛООООООООЛ
+	}
+
+	StrangeManPortrait: {
+		DisplayName: Портрет странного мужчины
+		Tooltip: ""
+	}
+
+	TendrilCursorAttachment: {
+		DisplayName: Мутаген курсора
+		Tooltip:
+			'''
+			Прикрепляет к вашему курсору мыши свисающие хроматические усики
+			Количество усиков зависит от слота, в котором находится аксессуар
+			'Эти усики имеют невероятные познания в вопросе не запутанности'
+			'''
+	}
+
+	FissionFlayer: {
+		DisplayName: требует определения
+		Tooltip: ""
+	}
+
+	TrailblazerGoggles: {
+		DisplayName: Очки первопроходца
+		Tooltip: "'Чтобы провести кого-то, нужно увидеть путь. С ними вы ничего не увидите.'"
+	}
+
+	TrailblazerBackpack: {
+		DisplayName: Тактический рюкзачок первопроходца
+		Tooltip: "''Быть первопроходцем — значит быть готовым. К счастью, в этом рюкзаке одно лишь топливо.'"
+	}
+
+	ShogunWings: {
+		Tooltip: "'Лучшее им применение — немного себя остудить'"
+		DisplayName: Тысячекратно сложенные бумажные веера
+	}
+
+	NuclearLemonade: {
+		DisplayName: Ядерный лимонад
+		Tooltip:
+			'''
+			Значительно увеличивает все характеристики
+			Может убить вас
+			'Холоден, словно ядерная зима!'
+			'''
+	}
+
+	ChromaticCampfire: {
+		DisplayName: Хроматический костёр
+		Tooltip: ""
+	}
+
+	GoozmaInfernumRelic: {
+		DisplayName: Инфернальная реликвия Гузмы
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Goozma: {
+		DisplayName: Гузма
+
+		BossChecklistIntegration: {
+			EntryName: Гузма
+			SpawnInfo: Бросьте [i:CalamityMod/OverloadedSludge] в Короля слизней во время дождя слизней или используйте [i:CalamityHunt/PluripotentSpawnEgg] на заряженной статуи слизневого ниндзя.
+			DespawnMessage: "[c/7a7a7a:{0} {1} дезинтегрируется...]"
+		}
+
+		InfernumTitle:
+			'''
+			ТОЧКА СЛИЗНЕВОГО ВОЗГОРАНИЯ
+			ГУЗМА
+			'''
+		
+		Tiles: {
+			Adjective1: Божество
+			Adjective2: Монстр
+			Adjective3: Угроза
+			Adjective4: Император
+			Adjective5: Лорд
+			Adjective6: Прародитель
+			Adjective7: Сущность
+			Adjective8: Создатель
+			Adjective9: Верховенство
+			Adjective10: Желатин
+			Adjective11: Монарх
+			Adjective12: Слизняк
+			Adjective13: Повелитель
+			Adjective14: Слизистая
+			Adjective15: Первобытный
+			Adjective16: Сборище
+			Adjective17: Тина
+			Adjective18: Правитель
+			Adjective19: Амальгамация
+			Adjective20: Собрание
+			Adjective21: Гузно
+			Adjective22: Медуза
+			Adjective23: Брюхоног
+			Adjective24: Опухоль
+			Adjective25: Сингулярность
+			Adjective26: Слизнесуд
+			Adjective27: Источник
+			Adjective28: Выгребальня
+			Adjective29: Слияние
+			Adjective30: Конгломерат
+			Adjective31: Судный гель
+			Adjective32: Катализатор
+			Adjective33: Субстанция
+			Adjective34: Ужас летящий на крыльях
+			Noun1: клейкости
+			Noun2: желатина
+			Noun3: бесформенности
+			Noun4: судногелевого дня 
+			Noun5: слизней
+			Noun6: скользкости
+			Noun7: слизи
+			Noun8: липкости
+			Noun9: густоты
+			Noun10: пересобранности 
+			Noun11: слизистой
+			Noun12: первобытности
+			Noun13: примитивности
+			Noun14: склизкости
+			Noun15: мерзости
+			Noun16: ила
+			Noun17: вязкости
+			Noun18: древности
+			Noun19: первозданности
+			Noun20: собранности
+			Noun21: плюрипотентности
+			Noun22: цветов
+			Noun23: желе
+			Noun24: мокроты
+			Noun25: слякоти
+			Noun26: глютена
+			Noun27: радуги
+			Noun28: опалесцентности
+			Noun29: раздутости
+			Specific1: Божество слизней
+			Specific2: Истинный Бог слизней
+			Specific3: Медуза мудрости
+			Specific4: Божество-сгусток
+			Specific5: Коллективное бессознание
+			Specific6: Жижистый бог
+			Specific7: Зловещая жижа
+			Specific8: Божественная слякоть
+			Specific9: Иловый шторм
+			Specific10: Слайм
+			Specific11: Слизефикация
+			Specific12: Наивысшая форма жизни
+			Specific13: Желейное ассорти
+			Specific14: Амальгельмация
+			Specific15: Крёстный отец
+			Specific16: Запрещённый
+			Specific17: Выживший
+		}
+	}
+
+	CrimulanGlopstrosity.DisplayName: Багротановое каплище
+	DivineGargooptuar.DisplayName: Божественный бурдантюа
+	EbonianBehemuck.DisplayName: Эбонитовый гряземот
+	StellarGeliath.DisplayName: Звёздный гелиаф
+	Goozmite.DisplayName: Гузмит
+	GelatinousSpawn.DisplayName: Желатиновый отросток
+	PluripotentSpawn.DisplayName: Плюрипотентный отросток
+}
+
+Projectiles: {
+	EbonstonePillar.DisplayName: Эбонитовый столб
+	EbonstoneTooth.DisplayName: Эбонитовый зуб
+	FoulSlime.DisplayName: Скверный слизень
+	PureSlimeball.DisplayName: Чистая слизь
+	SlimeShot.DisplayName: Слизневый выстрел
+	ToxicSludge.DisplayName: Токсичный ил
+	TrailingStar.DisplayName: Trailing Star
+	Wormhole.DisplayName: Кротовая нора
+	GoozmaSpawn.DisplayName: Слизневая снгулярность
+	GooLightning.DisplayName: Молния слизи
+	RainbowBall.DisplayName: Радужный шар
+	PrismDestroyer.DisplayName: Разрушитель призмы
+	BloatedBlast.DisplayName: Вздутый взрыв
+	PixieBall.DisplayName: Шар пикси
+	GelCrystalShard.DisplayName: Осколок гелевого кристалла
+	EbonianBehemuckClone.DisplayName: Клон Эбонитового гряземота
+	HolyExplosion.DisplayName: Святой взрыв
+	CrimulanSmasher.DisplayName: Багротановый сокрушитель
+	FusionRay.DisplayName: Термоядерный луч
+	GoozmaDeathGodrays.DisplayName: Боголучи
+	BloatBabyProj.DisplayName: Малыш-раздутыш
+	ShootingStar.DisplayName: Летящая звезда
+	GoozmagaBomb.DisplayName: Планетарная капля
+	GoozmagaShrapnel.DisplayName: Микропланетарная капля
+	StellarGelatine.DisplayName: Звёздный желатин
+	ConstellationStar.DisplayName: Звезда созвездия
+	ConstellationLine.DisplayName: Отрезок созвездия
+	SlimeBomb.DisplayName: Слизнебомба с часовым механизмом
+	SpaceRock.DisplayName: Космический камень
+	StellarDebris.DisplayName: Звёздные обломки
+	BlackHoleBlender.DisplayName: Дробитель черная дыра
+	CosmicDust.DisplayName: Космическая пыль
+	InterstellarFlame.DisplayName: Межзвёздное пламя
+	ThrowableChunk.DisplayName: Бросаемые куски
+	MiniRainbowBall.DisplayName: Маленький радужный мячик
+	RainbowLaser.DisplayName: Радужный лазер
+	PumpActionSwampgunHeld.DisplayName: Помповый болотовик
+	ParasanguineHeld.DisplayName: Парасангвинник
+	ParasanguineBlood.DisplayName: Кровь Парасангвинника
+	SwampBall.DisplayName: Болотный шар
+	GobfloggerProj.DisplayName: Слизьтатель
+	CrystalGauntletBall.DisplayName: Шаровая молния
+	CrystalLightning.DisplayName: Кристальная молния
+	CrystalGauntletBallThrown.DisplayName: Шаровая молния
+	CrystalPiercer.DisplayName: Кристальный пронзатель
+	CrystalBoom.DisplayName: Хлопок
+	CrimulanShockwave.DisplayName: Багротановая ударная волна
+	SludgeShakerHeld.DisplayName: Сотрясатель слякоти
+	DarkSludge.DisplayName: Тёмная слякоть
+	SludgeLighter.DisplayName: Зажигатель слякоти
+	StickyHandProj.DisplayName: Мерзкая рука
+	TrailblazerFlame.DisplayName: Пламя первопроходца
+	FissionFlyerProj.DisplayName: Расщепляющий резак
+	FissionFlyerMiniRing.DisplayName: Колкое кольцо
+	ScytheOfTheOldGodHeld.DisplayName: Коса старого бога
+	StressExplosion.DisplayName: Стрессовый взрыв
+	GoomoireSuck.DisplayName: Всасывание Гумуара
+	SplendorTentacle.DisplayName: Спецтакль
+	SlimeCaneGemCounter.DisplayName: Самоцветный счётчик трости слизней
+	ChromaticBombProjectile.DisplayName: Хроматическая бомба
+	ChromaticGooztickProjectile.DisplayName: Хроматическая светящаяся липалка
+	DynamoRodProjectile.DisplayName: Динамо динамит
+	CrimulanClyde.DisplayName: Багротановый Клайд
+	DivinePinky.DisplayName: Божественная Пинки
+	EbonianBlinky.DisplayName: Эбонитовый Блинки
+	StellarInky.DisplayName: Звёздный Инки
+	CometKunaiCritProjectile.DisplayName: Кометный кунай
+	CometKunaiGhostProjectile.DisplayName: Кометный кунай
+	CometKunaiProjectile.DisplayName: Кометный кунай
+	CometKunaiStealthProjectile.DisplayName: Кометный кунай
+	CometKunaiStarfall.DisplayName: Кометный кунай
+	Goozmoem.DisplayName: Гузмоэма
+	BlinkySpikeBall.DisplayName: Шипастый шар Блинки
+	PinkyLight.DisplayName: Свет Пинки
+	GoozmoemRay.DisplayName: Термоядерный луч
+	AntiMassBioBall.DisplayName: Биошар анти-массы
+	AntiMassColliderProj.DisplayName: Содрагатель анти-массы
+	AntiMassMacroLaser.DisplayName: Макро лазер анти-массы
+	AntiMassDeathLaser.DisplayName: Луч смерти анти-массы
+	AntiMassBioStrike.DisplayName: Био удар анти-массы
+	AntiMassAccumulatorProj.DisplayName: Аккумулятор анти-массы снар
+	ShakerSludge.DisplayName: Трясущаяся слякоть
+	GoozmaBoulderProjectile.DisplayName: Пёстрый шарик
+	StellarBlackHole.DisplayName: Звёздная чёрная дыра
+	FissionFlyerProjectile.DisplayName: Расщепляющий резак
+	CometKunaiSuperProjectile.DisplayName: Кометный кунай супер
+	FissionFlayerProjectile.DisplayName: требует определения
+}
+
+Chat: {
+	SlimeMonsoon: Слизневый муссон начался...
+	NinjaShrineFailure: Святилище не будет завершённым без нужного количества статуй слизня.
+	NinjaShrineFailureFunny: Вы возлагаете дары на святилище, но ничего не получаете.
+}
+
+Bestiary: {
+	Goozma: Разумное, отклоняющееся от нормы единство, образованное от слияния всех слизневых созданий.
+	CrimulanGlopstrosity: Инстинктивно гниющий паладин, защищающий своего мастера с искривлённым пылом. Паладины Гузмы специально пощажены от уподобления.
+	DivineGargooptuar: Блестяще божественный паладин, охраняющий своего мастера с ослепительной страстью. Паладины Гузмы обладают сильно ограниченной самостоятельностью.
+	EbonianBehemuck: Ядовито порченный паладин, заступающийся за своего мастера с беспощадным задором. Паладины Гузмы нуждаются в уникально сильных ядрах.
+	StellarGeliath: Космический небесный паладин, оберегающий своего мастера с неземной силой. Оставь всё на самотёк, и Гузма мог бы уподобить целую вселенную.
+	Goozmite: Привесок, который усредняет материю вблизи в самовосстанавливающегося слизня. Тело Гузмы невероятно вязкое, но при этом обладает противоречивой текучестью.
+}
+
+Buffs: {
+	BloatBabyBuff: {
+		DisplayName: Малыш-раздутыш
+		Description: Кажется, он любит тебя так же, как и других
+	}
+
+	Gobbed: {
+		DisplayName: Заслизневелый
+		Description: Вы страдаете
+	}
+
+	Swamped: {
+		DisplayName: Затопленник
+		Description: Вас затопило!
+	}
+
+	Absorption: {
+		DisplayName: Заслизневелый
+		Description: Скорость атаки хлыстов увеличена слегка, совсем немного; она увеличена на незначительное значение, скорее всего вы и не увидите разницы, настолько мал этот эффект
+	}
+
+	FusionBurn: {
+		DisplayName: Термоядерный ожог
+		Description: Мне больно, Варик
+	}
+
+	PaladinPalanquinBuff: {
+		DisplayName: Паланкин паладина
+		Description: Почти как внутри настоящего слизня
+	}
+
+	SplendorJamBuff: {
+		DisplayName: Режим злобы
+		Description: Вы в неописуемом стрессе
+	}
+
+	SlimeCaneBuff: {
+		DisplayName: Склизкая вечеринка
+		Description: Инки, Блинки, Пинки и Клайд защищают вас
+	}
+
+	Doomed: {
+		DisplayName: Обречённый
+		Description: Всё кончено...
+	}
+}
+
+Tiles: {
+	GoozmaMusicBoxP1Tile.MapEntry: Музыкальная шкатулка
+	GoozmaMusicBoxP2Tile.MapEntry: Музыкальная шкатулка
+	GoozmaSoulMusicBoxTile.MapEntry: Музыкальная шкатулка
+	YharonSoulMusicBoxTile.MapEntry: Музыкальная шкатулка
+	ChromaticCampfirePlaced.MapEntry: Хроматический костёр
+}
+
+Config: {
+	VisualHeader: Визуал
+	StressHeader: Шкала стресса
+
+	HolyExplosionToggle: {
+		Label: Тряска экрана от святого взрыва
+		Tooltip: Выключите, чтобы снизить визуальные эффекты святого взрыва Божественного бурдантюа.
+	}
+
+	StressPosX: {
+		Label: Позиция шкалы стресса по X
+		Tooltip: Выставляет горизонтальную позицию шкалы стресса.
+	}
+
+	StressPosY: {
+		Label: Позиция шкалы стресса по Y
+		Tooltip: Выставляет вертикальную позицию шкалы стресса.
+	}
+
+	StressShake: {
+		Label: Тряска шкалы стресса
+		Tooltip: Регулирует силу эффекта тряски шкалы стресса.
+	}
+
+	Distortion: {
+		Label: Сила искажения муссона
+		Tooltip: Регулирует силу эффекта искажения муссона слизней.
+	}
+
+	LightningToggle: {
+		Label: Гроза муссона
+		Tooltip: Включает эффект грозы во время муссона слизней.
+	}
+
+	Infernum: {
+		Label: ИИ режима Инфернум
+		Tooltip: Заставляет Гузму использовать свой ИИ режима Смерть при игре с режимом Инфернум.
+	}
+
+	ContentHeader: Контент
+}
+
+LoreGeneric:
+	'''
+	[c/E3AF40:До ваших ушей доносится далекий шёпот...]
+	[c/BEBEBE:Удерживайте Shift, чтобы прислушаться]
+	'''
+LoreGoozma:
+	'''
+	Самое устрашающее разочарование в иерархическом владении всего живущего.
+	Только подумать, что кульминация нижайших существ смогла бы несмотря ни на что обладать Ауритовой душой, не имея при этом драконьего происхождения...
+	Оно стало чем-то великим, приблизилось к идеальной сущности, состоящей из ничего, кроме неидеальных частей... 
+	Возможно, истинный источник божественной силы навсегда останется загадкой.
+	В противовес моим опасениям насчёт твоей культивации этого гротескного чудища стоит интерес в его сторону.
+	Что могло бы привести его к такой форме? Его внешность разоблачает хитрость и изысканность манипуляции над его подчинёнными. 
+	Какая же жалость, что плоды усилий его по итогу ни к чему не привели. Неустанный узор цикличных анналов истории.
+	Может быть, в перспективе мира Террарии, все наши достижения так же малозначимы, как и бессильные страдания слизней.
+	'''
+	InfernalRelicText: Окружено инфернальными огнями поверженного врага
+	InfernumOnly: Только на сложности Инфернум
+
+Configs: {
+	Config: {
+		DisplayName: Конфигурация
+
+		epilepsy: {
+			Label: "{$Mods.CalamityHunt.Config.HolyExplosionToggle.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.HolyExplosionToggle.Tooltip}"
+		}
+
+		stressX: {
+			Label: "{$Mods.CalamityHunt.Config.StressPosX.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressPosX.Tooltip}"
+		}
+
+		stressY: {
+			Label: "{$Mods.CalamityHunt.Config.StressPosY.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressPosY.Tooltip}"
+		}
+
+		stressShake: {
+			Label: "{$Mods.CalamityHunt.Config.StressShake.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressShake.Tooltip}"
+		}
+
+		monsoonDistortion: {
+			Label: "{$Mods.CalamityHunt.Config.Distortion.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.Distortion.Tooltip}"
+		}
+
+		monsoonLightning: {
+			Tooltip: "{$Mods.CalamityHunt.Config.LightningToggle.Tooltip}"
+			Label: "{$Mods.CalamityHunt.Config.LightningToggle.Label}"
+		}
+
+		shadowspecCurse: {
+			Label: Тенефазовое проклятье
+			Tooltip: Накладывает проклятье на все предметы, создающиеся тенефазового слитка, из-за чего их невозможно использовать, пока Гузма не побеждён.
+		}
+
+		oldsky: {
+			Label: oldsky
+			Tooltip: ""
+		}
+
+		overrideVanillaBalance: {
+			Label: override Vanilla Balance
+			Tooltip: ""
+		}
+
+		photosensitiveToggle: {
+			Label: Переключить светочувствительные эффекты
+			Tooltip: Включает/Выключает некоторые эффекты, которые могут вызвать эпилепсию.
+		}
+
+		debugMode: {
+			Label: Режим отладки
+			Tooltip:
+				'''
+				Включает/Выключает разные штуки, оптимизированные для тестирования игровых механик.
+				Не рекомендуется для использования обычными игроками.
+				'''
+		}
+
+		infernum: {
+			Label: ИИ Инфернума
+			Tooltip: Заставляет Гузму использовать свой ИИ режима Смерть при игре с режимом Инфернум
+		}
+	}
+}
+
+OrRev: " или Месть"
+SetBonuses.Shogun:
+	'''
+	Увеличивает урон на 17% и максимальное количество прислужников на 5
+	{$CommonItemTooltip.FlightAndSlowfall}
+	Ношение других крыльев перекрывает данный полёт
+	{$CommonItemTooltip.PressDownToHover}
+	Позволяет делать рывок и совершенствует другие рывки
+	Зажмите ВНИЗ, чтобы падать быстрее
+	Увеличивает скорость прыжка 
+	Даёт иммунитет к большинству дебаффов конца игры и дебаффам, связанным с передвижением
+	'''
+StickyHandStats:
+	'''
+	Длина: 56
+	Скорость выпуска: 25
+	Скорость отброса: 10
+	Скорость притягивания: 17
+	'''
+GoozmaShadowspecCurse: "[c/462545:Слизневое проклятье покрыло этот предмет и не позволяет им воспользоваться...]"
+AnyEvilBlock: Люб. блок зла
+SludgeWarning: Нельзя использовать для призыва Бога слизней
+
+CalamityModName: {
+	Display: Calamity Mod
+	Internal: CalamityMod
+}
+
+Emotes.GoozmaEmote.Command: goozma
+Draeting.Goozma:
+	'''
+	THIS WAS DELIBERATELY LEFT UNTRANSLATED DUE TO FONT LIMITATIONS. PLEASE DO NOT BOTHER NEITHER CALAMITY NOR HUNT OF THE OLD GOD TEAMS WITH IT.
+
+	A living paradox, and a shock to everything I believed fact about the nature of the Auric soul.
+	The Godseeker seemed so certain that the nature of the god was fundamentally tied to ritual. Though that is a thoroughly unscientific prospect, I had no choice but to accept it: he knew better than I, being linked to one of the few remaining auric dragons, and to invoke his wrath would put a quick end to my work.  It is not a surprise that I did not have the whole story, and even now, I am still missing many pieces. 
+
+	I have been tirelessly analyzing the replay of that battle since the moment it concluded. Though a natural phenomena has seemingly created a new Auric soul, I know very little about the nature of the process that occurred; just as quickly as it was created, it was returned to the primordial soup it was forged from. 
+
+	I have two prevailing theories, though my confidence in their accuracy is shaky at best. 
+	The first is related to the method in which it was born. The natural process of pressurization is not altogether difficult for even the most basic of scientists to grasp. For an easily understood example, however, consider carbon; its makeup will shift when compressed with extreme force, transforming it into diamond. Considering this fact, it may not be altogether unlikely that a spiritual equivalent to this phenomena exists; a mundane soul, forced into a single point by many other similarly basic souls, could very well shift in such a way that it grows exponentially in power.
+
+	The other I am less certain of, but must still consider: It is possible the 'Slime God', as you called it, is but a splinter of a much older, more venerated deity, and the ritual you performed simply granted it its original form back. This would mean that its soul was not spontaneously created, as I currently believe, but was splintered instead- creating the illusion of mundanity from sparks of a greater power.
+
+	Either theory, should one be proven true, provides new, investing paths of study. 
+	Though your naming ability leaves much to be desired, I must commend your ability to leave nothing unstudied, no matter how well documented said creature may be- I never could have anticipated that such a massive scientific breakthrough could have been hiding in the most common pest of all. 
+	'''

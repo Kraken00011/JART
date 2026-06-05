@@ -1,0 +1,51 @@
+        Wings: Крылья
+		SocialWings: Внешний вид: Крылья
+
+		Configs: {
+			WingSlotConfig: {
+				DisplayName: Конфигурация
+
+				SlotLocation: {
+					Label: Позиция слота
+					Tooltip: ""
+				}
+
+				ShowCustomLocationPanel: {
+					Label: Передвижная панель вокруг слота
+					Tooltip: 
+					'''
+					Создаёт передвижную панель вокруг слота, только если выбрана пользовательская позиция
+					Если опция выключена, то передвижение слота будет невозможным
+					'''
+				}
+
+				ResetCustomSlotLocation: {
+					Label: Сбросить позицию слота
+					Tooltip: Сбрасывает пользовательскую позицию слота крыльев. Используйте, если слот случайно пропал с экрана
+				}
+
+				AllowEquippingInOtherSlots: {
+					Label: Возможность надевать крылья в другие слоты
+					Tooltip: ""
+				}
+
+				Headers: {
+					SlotLocation: Позиция слота
+					OtherOptions: Разное
+				}
+			}
+
+			Location: {
+				Default: {
+					Label: Базовая
+					Tooltip: ""
+				}
+
+				Custom: {
+					Label: Пользовательская
+					Tooltip: ""
+				}
+
+				Tooltip: ""
+			}
+		}

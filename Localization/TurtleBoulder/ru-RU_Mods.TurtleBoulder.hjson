@@ -1,0 +1,731 @@
+    Misc: {
+        Chuckster: I'm a Chuckster!
+        WraithLunchOrders: Lunch orders recieved!
+        ConfigOnCondition: Включается в конфигурации
+
+        DrankLavaDeath: {
+            Msg0: Игрок {0} попытался отхлебнуть лавы
+            Msg1: Органы игрока {0} расплавились
+            Msg2: Игрок {0}, вероятно, был не настолько догадливым
+            Msg3: Органы игрока {0} не имели достаточно высокой температуры плавления
+            Msg4: Игрок {0} не предвидел такого
+            Msg5: Игрок {0} принял лаву за очень горячую газировку
+            Msg6: Игрок {0} не смог переварить запретный апельсиновый сок
+            Msg7: Игрок {0} хотел сделать именно это. Верно?
+            Msg8: Игрок {0} не был готов к настолько ядрёному напитку
+            Msg9: Игрок {0} либо хотел сдохнуть, либо просто придурок
+        }
+    }
+
+    Items: {
+        TurtleBoulderItem: {
+            DisplayName: Валун из черепашьего панциря
+            Tooltip: "'Какого чёрта...'"
+        }
+
+        FrozenTurtleBoulderItem: {
+            DisplayName: Замороженный валун из черепашьего панциря
+            Tooltip:
+                '''
+                'Какая большая у тебя полоска здоровья...
+                Будет неприятно, если с ней что-нибудь произойдет...'
+                '''
+        }
+
+        BeeHiveStatueItem: {
+            DisplayName: Статуя пчелиного улья
+            Tooltip: ""
+        }
+
+        BouncyBoulderStatueItem: {
+            DisplayName: Статуя прыгучего валуна
+            Tooltip: ""
+        }
+
+        FrozenTurtleBoulderStatueItem: {
+            DisplayName: Статуя замороженного валуна из черепашьего панциря
+            Tooltip: ""
+        }
+
+        MoonBoulderStatueItem: {
+            DisplayName: Статуя лунного валуна
+            Tooltip: ""
+        }
+
+        RollingCactusStatueItem: {
+            DisplayName: Статуя перекати-кактуса
+            Tooltip: ""
+        }
+
+        TurtleBoulderStatueItem: {
+            DisplayName: Статуя валуна из черепашьего панциря
+            Tooltip: ""
+        }
+
+        GoopWand: {
+            DisplayName: Липкий стержень
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                *Звуки чего-то склизкого*
+                '''
+        }
+
+        JellyPole: {
+            DisplayName: Желеденец
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                'Не ешь меня, я тебе пригожусь!'
+                '''
+        }
+
+        MuckScepter: {
+            DisplayName: Ослизнённый скипетр
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                'Это будет нечто...'
+                '''
+        }
+
+        OozeCane: {
+            DisplayName: Липкая трость
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                'Ну что, похимичим?'
+                '''
+        }
+
+        SlimeRod: {
+            DisplayName: Слизневый посох
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                'Этой штукой можно ДРАТЬСЯ?'
+                '''
+        }
+
+        SludgeStick: {
+            DisplayName: Палочка со слякотью
+            Tooltip:
+                '''
+                Призывает слизняка вам на помощь
+                'Ты тряси-тряси её...'
+                '''
+        }
+
+        Pothead: {
+            DisplayName: Голшок
+            Tooltip:
+                '''
+                'Голшок - горшок на голову!'
+                '''
+        }
+
+        Potpack: {
+            DisplayName: Горшковый ранец
+            Tooltip:
+                '''
+                Позволяет летать и плавно парить
+                'Take it for a joyride!'
+                '''
+        }
+
+        TheDirtiestHat: {
+            DisplayName: Самая грязная шляпа
+            Tooltip: "'A highly valued piece of fashion overseas'"
+        }
+
+        ZenithStone: {
+            DisplayName: Зенит-камень
+            Tooltip:
+                '''
+                'Зенит-камни'
+                'И впрямь, камни'
+                '''
+        }
+
+        ZenithToilet: {
+            DisplayName: Зенит-унитаз
+            Tooltip: "'Невероятная цена... за невероятный унитаз (and the ultimate dump)'"
+        }
+
+        ZenithBoulderItem: {
+            DisplayName: Зенит-валун
+            Tooltip: "'Очень мощный'"
+        }
+
+        ZenithBoulderStatueItem: {
+            DisplayName: Статуя зенит-валуна
+            Tooltip: "'Смысла в использовании этого конечно мало. Но, ладно, это уже твоё дело'"
+        }
+
+        MoonBoulderItem: {
+            DisplayName: Лунный валун
+            Tooltip: "'Now you don't even have to get fixed, boi!'"
+        }
+
+        BottledLava: {
+            DisplayName: Bottled Lava
+            Tooltip:
+                '''
+                You can probably imagine what happens if you drink this
+                'Don't say you wern't warned'
+                '''
+        }
+
+        BottledShimmer: {
+            DisplayName: Bottled Shimmer
+            Tooltip: "'There's probably a good reason this isn't supposed to be a thing'"
+        }
+
+        SteakLauncher: {
+            DisplayName: Стейкострел
+            Tooltip:
+                '''
+                Стреляет стейками (НЕ стеками)
+                May attract nearby predators on-hit
+                90% шанс не потратить боеприпас
+                'Замяси своего творцаMeat your maker'
+                '''
+        }
+
+        FartGun: {
+            DisplayName: Пушка-пердушка
+            Tooltip:
+                '''
+                Fires stinky farts that make your enemies smell bad
+                Smelly foes poison all nearby enemies (including themselves)
+                'Nefarious... despicable even!'
+                '''
+        }
+
+        BoulderGun: {
+            DisplayName: Валунная пушка
+            Tooltip:
+                '''
+                Делает как раз то, о чём вы могли подумать
+                Предупреждение: Дружественный огонь ВКЛЮЧЁН
+                50% шанс не потратить боеприпас
+                '''
+        }
+
+        BrownRage: {
+            DisplayName: Коричневый гнев
+            Tooltip:
+                '''
+                Использует какашки в качестве боеприпасов
+                Makes targets smelly and humiliated
+                'Wha... ugh, why? ew? no.'
+                '''
+        }
+
+        Potshot: {
+            DisplayName: Горшкострел
+            Tooltip:
+                '''
+                Uses clay blocks as ammunition to fire pots
+                When broken, pots may release their contents, causing extra damage
+                '''
+        }
+    }
+
+    Projectiles: {
+        TurtleBoulderProj.DisplayName: Валун из черепашьего панциря
+        FrozenTurtleBoulderProj.DisplayName: Замороженный валун из черепашьего панциря
+        GoopWandGoon.DisplayName: Молодой слизняк
+        JellyPoleGoon.DisplayName: Мелкий слаймик
+        MuckScepterGoon.DisplayName: Мелк слизень
+        OozeCaneGoon.DisplayName: Слизь-подросток
+        SlimeRodGoon.DisplayName: Оружие ближнего боя
+        SludgeStickGoon.DisplayName: Ленивый слизень
+        StaffTurtleBoulder.DisplayName: Валун из черепашьего панциря
+        ZenithBoulderProj.DisplayName: Зенит-валун
+        ZenithBoulderBlast.DisplayName: Зенит-валун
+        SteakProj.DisplayName: Стейк
+        TigerProj.DisplayName: Тигр
+        FartProj.DisplayName: Пердёж
+        PooProj.DisplayName: Какашка
+        PotTorch.DisplayName: Факел
+        PotStick.DisplayName: Светящаяся палочка
+        PotRope.DisplayName: Верёвка
+        PotProj.DisplayName: Горшок
+        PotPotion.DisplayName: Зелье
+        PotPortal.DisplayName: Монетный портал
+        PotCoin.DisplayName: Монета
+        PotBomb.DisplayName: Бомба
+    }
+
+    Tiles: {
+        TurtleBoulderTile.MapEntry: Валун из черепашьего панциря
+        FrozenTurtleBoulderTile.MapEntry: Замороженный валун из черепашьего панциря
+        ZenithStoneTile.MapEntry: Зенит-камень
+        ZenithToiletTile.MapEntry: Зенит-унитаз
+        ZenithBoulderTile.MapEntry: Зенит-валун
+        MoonBoulderTile.MapEntry: Лунный валун
+    }
+
+    Configs: {
+        ConfigServer: {
+            DisplayName: Серверная конфигурация
+
+            Headers: {
+                World-Gen: Генерация мира
+                Items: Предметы
+                Enemies/NPCs: Враги/НИПы
+                Noises: Шум
+                Misc: Разное
+                Visuals: Эффекты
+                Weapons: Оружие
+            }
+
+            TurtleBoulders: {
+                Label: Возможность генерации валунов из черепашьего панциря
+                Tooltip:
+                    '''
+                    Заставляет мод во время генерации мира пробовать заменить валуны, находящиеся в джунглях на валуны из черепашьего панциря
+                    Валуны из черепашьего панциря наносят чуть больше урона и имеет ужасающую способность, раскрывающуюся только в воде
+                    Но, и без включения этой настройки такие валуны можно получить просто объединив их с обычным валуном и черепашьим панцирем
+                    '''
+            }
+
+            FrozenTurtleBoulders: {
+                Label: Возможность генерации замороженных валунов из черепашьего панциря
+                Tooltip:
+                    '''
+                    Заставляет мод во время генерации мира пробовать заменить валуны, находящиеся в снежном биоме на замороженные валуны из черепашьего панциря
+                    Замороженные валуны из черепашьего панциря наносят больше урона и имеет ужасающую способность, раскрывающуюся только когда вы находитесь прямо перед ними
+                    Но, и без включения этой настройки такие валуны можно получить просто объединив их с валуном из черепашьего панциря и блоками льда
+                    Примечание: Скорее всего, даже при включении этой настройки эти валуны не появятся у вас в мире, так как ловушки просто не генерируются в снежном биоме
+                    '''
+            }
+
+            AllTurtleBoulder: {
+                Label: Убрать валуны из черепашьего панциря?
+                Tooltip:
+                    '''
+                    Заставляет мод заменить некоторые валуны во ВСЁМ мире на валуны из черепашьего панциря во время генерации мира!
+                    Если настройка «Возможность генерации замороженных валунов из черепашьего панциря» включена, то замороженные варианты продолжат генерироваться в снегах
+                    Но, если настройка «Возможность генерации валунов из черепашьего панциря» отключена, а «Возможность генерации замороженных валунов из черепашьего панциря» включена,
+                    то ВСЕ валуны заменятся на замороженные!
+                    Не даёт никакого эффекта, если обе настройки отключены
+                    '''
+            }
+
+            BoulderStatues: {
+                Label: Больше статуй валунов
+                Tooltip:
+                    '''
+                    Позволяет создавать новые статуи валунов, позволяя создавать больше разных ловушек, связанных с валунами:
+                    из черепашьего панциря, замороженного черепашьего панциря, зенит-валуна,
+                    перекати-кактуса, прыгучего валуна, лунного валуна и пчелиного улья.
+                    Все они создаются из своего соответствующего варианта валуна и 50 булыжника на тяжёлом верстаке на кладбище, но с 2 исключениями:
+                    Статуя замороженного валуна из черепашьего панциря создаётся из льда, а не булыжника, а также с использованием обычного валуна из черепашьего панциря
+                    Статуя лунного валуна создаётся из статуи обычного валуна и 5 люминита на манипуляторе древних на кладбище
+                    Статуя зенит-валуна создаётся из The Zenith Boulder Statue is made at an Ancient Manipulator using the other boulder statues, plus a bunch of Zenith Boulders
+                    '''
+            }
+
+            SlimeRods: {
+                Label: Новые посохи слизней
+                Tooltip:
+                    '''
+                    Добавляет 6 новых вариантов (ленивых перекрасов, если проще) для посоха слизней, которые по функционалу идентичны с оригиналом
+                    У каждого из посохов есть свой уникальный шанс выпадения, точно такой же как и у посоха слизней
+                    Варианты можно менять между собой, преобразовывая их в мерцании
+                    Включение этой настройки значительно увеличивает шанс на получение хотя-бы одного из посохов слизней
+                    '''
+            }
+
+            BoulderTurtles: {
+                Label: Черепахи-валуны
+                Tooltip:
+                    '''
+                    Перерабатывает ИИ Гигантских черепах и Ледяных черепах в генерации мира «Get Fixed Boi»
+                    Когда черепаха падает на голову игрока она дополнительно бросает на вас черепаший валун!
+                    Ледяные, как и гигантские тоже создают валуны, но уже замороженные
+                    Эти изменения работают в любых мирах, отмеченных как генерация «For The Worthy» или «Drunk»
+                    '''
+            }
+
+            AllBoulderTurtle: {
+                Label: Черепахи-валуны навсегда
+                Tooltip:
+                    '''
+                    Заставляет эффекты опции «Черепахи-валуны» работать при любой генерации мира
+                    Ничего не делает, если опция «Черепахи-валуны» отключена
+                    '''
+            }
+
+            TurtleBoulderStaff: {
+                Label: Посох черепахи
+                Tooltip:
+                    '''
+                    Если включено, заставляет Посох земли стрелять валунами из черепашьего панциря вместо обычных, грязевых
+                    Но будьте осторожны, такая атака способна наносить урон не только по врагам, но и по игрокам, и по вам тоже!
+                    '''
+            }
+
+            ChucksterPower: {
+                Label: Chuckster Power
+                Tooltip:
+                    '''
+                    Determines the force with which Chuckster enemies chuck stuff
+                    Use high values at your own peril
+                    '''
+            }
+
+            ChucksterChance: {
+                Label: Chuckster Chance
+                Tooltip:
+                    '''
+                    All enemies have a % chance - as set here - to be a Chuckster
+                    Upon inflicting contact damage, Chucksters launch their victims skyward with great force
+                    Be warned, it is impossible to identify a Chuckster until it launches someone!
+                    '''
+            }
+
+            PotHatChance: {
+                Label: Шанс выпадения голшка
+                Tooltip:
+                    '''
+                    All pots have a 1 in X chance to drop the Headpot, with X being determined by this setting
+                    The Headpot is a pot for your head. Ya know... for wearing.
+                    Or you can throw into Shimmer to turn it into a jetpack!
+                    If this is set to 0, the Headpot will stop dropping altogether
+                    '''
+            }
+
+            DirtHatChance: {
+                Label: Шанс выпадения самой грязной шляпы
+                Tooltip:
+                    '''
+                    Dirt blocks have a 1 in X chance to also drop The Dirtiest Hat when broken, with X being determined by this setting
+                    The Dirtiest Hat is a vanity item, in case you want to wear a dirt block on your head
+                    You can also use Shimmer to cycle between it and The Dirtiest Block
+                    If this is set to 0, The Dirtiest Hat will stop dropping altogether
+                    '''
+            }
+
+            CustomNPCNames: {
+                Label: Уникальные мена НИПов
+                Tooltip:
+                    '''
+                    Makes it so that all newly spawned Town NPCs have a given name (Existing NPCs are unaffected)
+                    You can choose the name with the 'Everyone's Name' setting
+                    Be warned that names set by this feature will NOT revert when it is turned off!
+                    '''
+            }
+
+            CustomEnemyNames: {
+                Label: Уникальные имена врагов
+                Tooltip:
+                    '''
+                    Makes it so that all newly spawned enemies have a given name
+                    You can choose the name with the 'Everyone's Name' setting
+                    '''
+            }
+
+            EveryonesName: {
+                Label: Общее имя
+                Tooltip:
+                    '''
+                    Sets what NPCs/Enemies will be renamed to when using the 'Override NPC/Enemy Names' setting
+                    Can't be set to a blank name, though
+                    '''
+            }
+
+            DoCaveNoise: {
+                Label: Minecraft Cave Noises
+                Tooltip: Makes the cave noises from Minecraft play while in the dark
+            }
+
+            CaveNoiseRate: {
+                Label: Cave Noise Rate
+                Tooltip:
+                    '''
+                    Determines how often cave noises are played; higher values result in sounds more often
+                    Note that - like in Minecraft - the frequency of cave noises is also affected by how dark it is
+                    For refernce, in full darkness, sounds play every 5 minutes with this option set to a value of 1
+                    '''
+            }
+
+            CaveNoiseOnSurface: {
+                Label: Allow Cave Noises Aboveground
+                Tooltip:
+                    '''
+                    If enabled, cave noises can play while above the surface
+                    Note that it still must be dark for noises to trigger (ex: during the night)
+                    '''
+            }
+
+            CaveSoundVolume: {
+                Label: Cave Noise Volume
+                Tooltip: Adjusts the volume of cave noises
+            }
+
+            CaveSoundPitch: {
+                Label: Cave Noise Pitch Variance
+                Tooltip: Adds pitch randomization to cave noises
+            }
+
+            Showtime: {
+                Label: SHOWTIME
+                Tooltip:
+                    '''
+                    Makes it so that whenever you start a bossfight, Bowser says "SHOWTIME!"
+                    It's just like Mario & Luigi: Bowser's Inside Story!
+                    '''
+            }
+
+            showtimeWhitelist: {
+                Label: SHOWTIME Whitelist
+                Tooltip: Additional enemies to trigger the SHOWTIME sound effect
+            }
+
+            showtimeItems: {
+                Label: SHOWTIME Items
+                Tooltip: Using any of these items will trigger the SHOWTIME sound effect
+            }
+
+            ShowtimeVolume: {
+                Label: SHOWTIME Volume
+                Tooltip: Adjusts the volume of the SHOWTIME sound effect
+            }
+
+            AmogusCloudChance: {
+                Label: Suspicious Clouds
+                Tooltip:
+                    '''
+                    Rarely, something rather suspicious may appear among the clouds...
+                    This setting determines the frequency of this event
+                    '''
+            }
+
+            KaraxPylons: {
+                Label: Pure Solarite
+                Tooltip:
+                    '''
+                    Retextures your pylons' crystals so that they're made of PURE SOLARITE!
+                    Karax approved!
+                    Disclaimer: Only affects vanilla pylons
+                    '''
+            }
+
+            ZenithToilet: {
+                Label: Зенит-унитаз
+                Tooltip:
+                    '''
+                    Зенит - очень переоценённая штука, так что это настройка позволяет вам создать намного более классный, богоподобный зенит-унитаз!
+                    Зенит-унитаз можно создать манипуляторе древних, используя Зенит и каждый унитаз в игре (give or take a few).
+                    Создано фан-клубом Терра-унитаза.
+                    '''
+            }
+
+            ZenithZenithStones: {
+                Label: Создание Зенита требует Зенит-камни
+                Tooltip:
+                    '''
+                    Зенит слишком силён, так что эта настройка ограничивает его силы, добавляя в его рецепт создания Зенит-камни.
+                    И действительно, камни.
+                    '''
+            }
+
+            ArtanisZenithStones: {
+                Label: Зенит-камни
+                Tooltip:
+                    '''
+                    Lets you craft Zenith Stones, because stones.
+                    They are made at an Ancient Manipulator, using one of every kind of stone in Terraria (give or take a few)
+                    Note: Yes, it's a lazy recolor of the Luminite Brick
+                    '''
+            }
+
+            ZenithBoulders: {
+                Label: Generate Zenith Boulders
+                Tooltip:
+                    '''
+                    Makes the mod attempt to replace roughly 50% of all (normal) boulders in Get Fixed Boi worlds with Zenith Boulders during world-gen
+                    Zenith Boulders deal more damage than other boulder types, and are quite chaotic...
+                    If 'Generate Turtle Boulders' and/or 'Generate Frozen Turtle Boulders' are on, they will take priority over Zenith Boulders
+                    Regardless of this setting, they can be crafted from normal boulders and Zenith Stones (See Items section of config for details on these)
+                    '''
+            }
+
+            BossMusicDuration: {
+                Label: Boss Music Duration
+                Tooltip:
+                    '''
+                    Affects how long Boss 1 will be played when this mod randomly plays it
+                    For reference, the default value (1) will play the track for roughly 1 minute on average
+                    That said, there is built in variance that causes the duration to vary wildly (50% shorter to 50% longer)
+                    Also, be warned that autopause causes janky behavior since music seemingly cannot transition while paused
+                    The druation timer will still count down if paused, but the music will not end until you unpause
+                    '''
+            }
+
+            BossMusicChance: {
+                Label: Boss Music Chance
+                Tooltip:
+                    '''
+                    Sets the chance (1 in X) of Boss 1 being randomly played
+                    This chance is checked against once per second, as long as the trick music isn't playing
+                    There is also a 5 second cooldown between triggers
+                    For reference, the default value (2500) causes music roughly every 40 minutes on average
+                    Also, be warned that autopause causes janky behavior since music seemingly cannot transition while paused
+                    This means music will never trigger while paused
+                    '''
+            }
+
+            DoBossMusic: {
+                Label: Do You Hear Boss Music?
+                Tooltip:
+                    '''
+                    When active, the mod will rarely make Boss 1 play for a little while
+                    The chance for the event can be customized by the 'Boss Music Chance' setting
+                    The duration of the event can be customized by the 'Boss Music Duration' setting
+                    Note that most other boss music will take priority over the trick music
+                    '''
+            }
+
+            LunchOrders: {
+                Label: Lunch Orders
+                Tooltip:
+                    '''
+                    Sets the loot pool for what items a Wraith can drop as lunch orders
+                    This is intended to be just food items or food-related items, but you can technically add any item to the list
+                    '''
+            }
+
+            LunchOrderChance: {
+                Label: Lunch Order Chance
+                Tooltip:
+                    '''
+                    Sets the chance (1 in X) of slain Wraiths dropping a lunch order item
+                    Note that Wraiths will NEVER drop lunch orders if spawned from a statue
+                    '''
+            }
+
+            WraithAwaitingLunchOrders: {
+                Label: Wraiths Await Lunch Orders
+                Tooltip:
+                    '''
+                    When active, Wraiths will sometimes drop your lunch order when killed
+                    The drop chance can be customized by the 'Lunch Order Chance' setting
+                    The potential item drops can be customized by the 'Lunch Orders' setting
+                    WARNING: May not function properly in multiplayer (May outright fail to occur)
+                    '''
+            }
+
+            MoreBottledStuff: {
+                Label: More Bottled Stuff
+                Tooltip:
+                    '''
+                    Allows you to put lava and shimmer into bottles
+                    Nothing good can come of this, but it's here anyways
+                    '''
+            }
+
+            Potshot: {
+                Label: Горшкострел
+                Tooltip:
+                    '''
+                    Allows you to obtain the Potshot weapon
+                    Once Skeletron is defeated, the Skeleton Merchant will sell it
+                    Uses clay to shoot pots
+                    Dunno if this is truly meme-worthy, but it's here regardless
+                    WARNING: May not function properly in multiplayer! (Pot contents may not be synced between players)
+                    '''
+            }
+
+            FartGun: {
+                Label: Uh-Oh, Stinky...
+                Tooltip:
+                    '''
+                    Allows you to obtain some rather unsanitary weapons; the Fart Gun, and Brown Fury
+                    The Fart Gun is crafted from a Gas Trap, Illegal Gun Parts, and Tungsten Bars (or Silver Bars) at an anvil
+                    Throw the Fart Gun into shimmer to get Brown Fury
+                    '''
+            }
+
+            SteakLauncher: {
+                Label: Режим зверя
+                Tooltip:
+                    '''
+                    Allows you to obtain the Steak Launcher weapon (for beasts only, of course)
+                    Not to be confused with the Stake Launcher (belongs in Shimmer)
+                    '''
+            }
+
+            BoulderGun: {
+                Label: Boulder Cannon
+                Tooltip:
+                    '''
+                    Allows you to craft the Boulder Cannon weapon
+                    It is made from Illegal Gun Parts, Boulders, and a few Luminite Bars at an Ancient Manipulator
+                    Not as overpowered as you might think it is (But that's a different story if you use it on a player...)
+                    WARNING: May not function properly in multiplayer! (Boulders may only appear on the user's end)
+                    '''
+            }
+
+            SummonerFlamethrowers: {
+                Label: Flamethrower Consistency
+                Tooltip:
+                    '''
+                    You know how 1.4.5 added the Foxsparks flamethrower for Summoners?
+                    Don't you think it's kind of strange that all the other flamethrowers are Ranged instead?
+                    Well, enabling this setting will fix that inconsistency for you
+                    Отлично совмещается с модом Summoner Flamethrower Subclass от mgsts!
+                    Предупреждение: Тип урона от снарядов может варьироваться. Извините, но исправлять это слишком трудозатратно. Projectile damage types may still be inconsistent. Sorry about that
+                    '''
+            }
+
+            ArmDealer: {
+                Label: Arm Dealer
+                Tooltip:
+                    '''
+                    You know how the Arms Dealer is called the ARMS Dealer but only sells guns? And no arms?
+                    Enabling this setting will fix this discrepency by making an appropriate addition to the Arms Dealer's shop
+                    '''
+            }
+        }
+    }
+
+    Buffs: {
+        OozeCaneBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+
+        MuckScepterBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+
+        JellyPoleBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+
+        GoopWandBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+        
+        SlimeRodBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+
+        SludgeStickBuff: {
+            DisplayName: Слязнячок
+            Description: Слязняк-малютка защищает вас
+        }
+
+        ToxicStink: {
+            DisplayName: Токсичная вонь
+            Description: Враг пахнет настолько отвратно, что ближайшие враги могут отравиться от такого
+        }
+    }

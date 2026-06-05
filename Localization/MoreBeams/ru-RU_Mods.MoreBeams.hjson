@@ -1,0 +1,216 @@
+Items: {
+	AshWoodBeamItem: {
+		DisplayName: Балка из пепельного дерева
+		Tooltip: ""
+	}
+
+	EbonwoodBeamItem: {
+		DisplayName: Балка из эбонитового дерева
+		Tooltip: ""
+	}
+
+	ShadewoodBeamItem: {
+		DisplayName: Балка из мрачного дерева
+		Tooltip: ""
+	}
+
+	PalmWoodBeamItem: {
+		DisplayName: Балка из пальмового дерева
+		Tooltip: ""
+	}
+
+	DynastyWoodBeamItem: {
+		DisplayName: Древняя балка из восточного дерева
+		Tooltip: "[c/fe77fd:Можно трансмутировать в более новый вариант!]"
+	}
+
+	PearlwoodBeamItem: {
+		DisplayName: Балка из жемчужного дерева
+		Tooltip: ""
+	}
+
+	SpookyWoodBeamItem: {
+		DisplayName: Старинная балка из жуткого дерева
+		Tooltip: "[c/fe77fd:Можно трансмутировать в более новый вариант!]"
+	}
+
+	FancyDynastyWoodBeamItem: {
+		DisplayName: Украшенная балка из восточного дерева
+		Tooltip: ""
+	}
+
+	NewDynastyWoodBeamItem: {
+		DisplayName: Балка из восточного дерева
+		Tooltip: "[c/fe77fd:Можно трансмутировать в более старый вариант!]"
+	}
+
+	NewSpookyWoodBeamItem: {
+		DisplayName: Балка из жуткого дерева
+		Tooltip: "[c/fe77fd:Можно преобразовать в мерцании в более старый вариант!]"
+	}
+
+	GrayBrickBeamItem: {
+		DisplayName: Колонна из серого кирпича
+		Tooltip: ""
+	}
+
+	StoneSlabBeamItem: {
+		DisplayName: Колонна из каменных плиток
+		Tooltip: ""
+	}
+
+	LaserBeamItem: {
+		DisplayName: Лазерный столб
+		Tooltip: ""
+	}
+
+	CopperBrickBeamItem: {
+		DisplayName: Колонна из медного кирпича
+		Tooltip: ""
+	}
+
+	GoldBrickBeamItem: {
+		DisplayName: Колонна из золотого кирпича
+		Tooltip: ""
+	}
+
+	LeadBrickBeamItem: {
+		DisplayName: Колонна из свинцового кирпича
+		Tooltip: ""
+	}
+
+	IronBrickBeamItem: {
+		DisplayName: Колонна из железного кирпича
+		Tooltip: ""
+	}
+
+	ObsidianBrickBeamItem: {
+		DisplayName: Колонна из обсидиана
+		Tooltip: ""
+	}
+
+	PlatinumBrickBeamItem: {
+		DisplayName: Колонна из платинового кирпича
+		Tooltip: ""
+	}
+
+	SilverBrickBeamItem: {
+		DisplayName: Колонна из серебряного кирпича
+		Tooltip: ""
+	}
+
+	TinBrickBeamItem: {
+		DisplayName: Колонна из оловянного кирпича
+		Tooltip: ""
+	}
+
+	TungstenBrickBeamItem: {
+		DisplayName: Колонна из вольфрамового кирпича
+		Tooltip: ""
+	}
+
+	TitanstoneBeamItem: {
+		DisplayName: Столб из титанового камня
+		Tooltip: ""
+	}
+
+	StoneBeamItem: {
+		Tooltip: ""
+		DisplayName: Столб из камня
+	}
+
+	IceBeamItem: {
+		DisplayName: Замороженный столб
+		Tooltip: ""
+	}
+
+	GlassBeamItem: {
+		DisplayName: Балка из стекла
+		Tooltip: ""
+	}
+
+	BubblegumBeamItem: {
+		DisplayName: Балка из жвачки
+		Tooltip: ""
+	}
+
+	LivingLeafBeamItem: {
+		DisplayName: Балка из живых листьев
+		Tooltip: ""
+	}
+
+	LivingWoodBeamItem: {
+		DisplayName: Балка из живого дерева
+		Tooltip: ""
+	}
+
+	LivingMahoganyBeamItem: {
+		DisplayName: Балка из красного дерева
+		Tooltip: ""
+	}
+
+	MahoganyLeafBeamItem: {
+		DisplayName: Балка из листьев красного дерева
+		Tooltip: ""
+	}
+
+	MeteoriteBrickBeamItem: {
+		DisplayName: Балка из метеорита
+		Tooltip: ""
+	}
+
+	CobaltBrickBeamItem: {
+		DisplayName: Колонна из кобальтового кирпича
+		Tooltip: ""
+	}
+
+	MythrilBrickBeamItem: {
+		DisplayName: Колонна из мифрилового кирпича
+		Tooltip: ""
+	}
+
+	AdamantiteBeamBeamItem: {
+		DisplayName: Колонна из адамантитового кирпича
+		Tooltip: ""
+	}
+
+	PalladiumColumnBeamItem: {
+		DisplayName: Колонна из палладиевого кирпича
+		Tooltip: ""
+	}
+
+	ChlorophyteBrickBeamItem: {
+		DisplayName: Колонна из хлорофитового кирпича
+		Tooltip: ""
+	}
+
+	LuminiteBrickBeamItem: {
+		DisplayName: Колонна из люминитового кирпича
+		Tooltip: ""
+	}
+
+	CrimtaneBrickBeamItem: {
+		DisplayName: Колонна из багротанового кирпича
+		Tooltip: ""
+	}
+
+	DemoniteBrickBeamItem: {
+		DisplayName: Колонна из демонитового кирпича
+		Tooltip: ""
+	}
+
+	EaterofBeamItem: {
+		DisplayName: Пожиратель колонн
+		Tooltip: ""
+	}
+
+	SpinalBeamItem: {
+		DisplayName: Позвонковая колонна
+		Tooltip: ""
+	}
+
+	ShroomitePlatingBeamItem: {
+		DisplayName: Колонна из обшитого грибнита
+		Tooltip: ""
+	}
+}

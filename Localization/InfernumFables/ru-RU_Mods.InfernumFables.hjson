@@ -1,0 +1,57 @@
+Mods.InfernumFables.Config.DoGIntroSettings: Пожиратель богов
+
+Configs: {
+	CutsceneSkipMode: {
+		Tooltip: ""
+
+		None: {
+			Label: Не пропускать
+			Tooltip: Всегда полностью проигрывает вступительную анимацию.
+		}
+
+		Short: {
+			Label: Укорочение
+			Tooltip: Пропускает часть анимации для более быстрого начала битвы.
+		}
+
+		Skip: {
+			Label: Полный пропуск
+			Tooltip: Пропускает или вообще не проигрывает большинство вступлений (зависит от босса).
+		}
+	}
+
+	DoGConfig: {
+		Tooltip: ""
+
+		SkipAfterTries: {
+			Label: Количество попыток для пропуска
+			Tooltip: Устанавливает количество попыток, нужных для включения пропуска вступительной анимации.
+		}
+
+		SkipMode: {
+			Label: Тип пропуска анимации
+			Tooltip: Когда количество попыток дойдёт до определённой отметки, выбранный тип пропуска анимации будет наложен на вступление соответствующего босса.
+		}
+
+		DoGTriesCountDisplay: {
+			Label: Количество попыток (В работе)
+			Tooltip: ""
+		}
+	}
+
+	InfernumFablesConfig: {
+		DisplayName: Конфигурация Experimental Infernum Extension
+
+		DoG: {
+			Label: Пожиратель богов
+			Tooltip: Конфигурация Пожирателя богов
+		}
+	}
+}
+
+Config.DoGIntroSettings: Пожиратель богов
+
+Projectiles: {
+	CosmicWormCinematicProjectile.DisplayName: Космический червь вступление
+	DoGPortalVisualProjectile.DisplayName: Портал
+}

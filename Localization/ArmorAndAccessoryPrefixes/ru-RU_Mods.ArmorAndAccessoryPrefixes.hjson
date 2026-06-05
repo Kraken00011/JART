@@ -1,0 +1,73 @@
+Prefixes: {
+	Spellbound.DisplayName: Заколдованный
+	Extended.DisplayName: Расширенный
+	Bountiful.DisplayName: Экономный
+	Sturdy.DisplayName: Стойкий
+	Colossal.DisplayName: Колоссальный
+	Extending.DisplayName: Удлинённый
+	Reaching.DisplayName: Достающий
+	Pulling.DisplayName: Притягивающий
+	Gravitating.DisplayName: Магнитный
+	Speedy.DisplayName: Скоростной
+	Turbo.DisplayName: Раскопочный
+	Vital.DisplayName: Жизненный
+	Hearty.DisplayName: Сердечный
+	Blessed.DisplayName: Благословлённый
+	Exalted.DisplayName: Благородный
+	Seething.DisplayName: Гневный
+	Tranquil.DisplayName: Сонный
+	Divine.DisplayName: Божественный
+	Holy.DisplayName: Освящённый
+	Leaping.DisplayName: Прыгучий
+	Vaulting.DisplayName: Скачущий
+	Piercing.DisplayName: Пробивающий
+	Shattering.DisplayName: Кромсающий
+	Casters.DisplayName: Заклинающий
+	Defenders.DisplayName: Страждущий
+	Fortified.DisplayName: Укреплённый
+	Bulky.DisplayName: Твёрдый
+	Lofty.DisplayName: Летучий
+	Soaring.DisplayName: Парящий
+	Treated.DisplayName: Лечащий
+	Medicated.DisplayName: Целебный
+}
+
+PrefixTooltips: {
+	MinionKnockbackTooltip: +{0} к отбрасыванию миньонов
+	TileReachTooltip: +{0} к дальности установки блоков
+	PickupRangePrefix: +{0} к дальности подбора предметов
+	MiningSpeedTooltip: +{0}% к скорости добычи блоков
+	MaxHPTooltip: +{0} ед. здоровья
+	CritDamageTooltip: +{0}% к критическому урону
+	IncreaseAggroTooltip: Увеличивает агрессивность врагов
+	ReducedAggroTooltip: Снижает агрессивность врагов
+	LifeRegenTooltip: Восстанавливает {0} ед. здоровья в секунду
+	JumpSpeedBoostTooltip: +{0}% к скорости прыжка
+	ArmorPenTooltip: +{0} ед. к пробиванию брони
+	IncreaseMinionSlotsTooltip: +{0} к максимальному количеству миньонов
+	IncreaseSentrySlotsTooltip: +{0} к максимальному количеству стражей
+	DamageReductionTooltip: +{0}% к сопротивлению урону
+	FlightTimeTooltip: +{0} {^0:секунда;секунды;секунд} к длительности полёта
+	BuffDurationTooltip: +{0}% к длительности баффов
+}
+
+Configs: {
+	ServerConfig: {
+		DisplayName: Серверная конфигурация
+
+		EnableArmorPrefixes: {
+			Label: Префиксы брони
+			Tooltip: ""
+		}
+
+		EnableNewAccessoryPrefixes: {
+			Label: Новые префиксы аксессуаров
+			Tooltip: ""
+		}
+
+		RemoveOddTierPrefixes: {
+			Label: Убрать префиксы с нечётным бонусом
+			Tooltip: Убирает возможность получения префиксов «{$Prefix.Armored}», «{$Prefix.Jagged}», «{$Prefix.Angry}», «{$Prefix.Brisk}», «{$Prefix.Hasty}», «{$Prefix.Wild}» и «{$Prefix.Intrepid}» на ваши аксессуары.
+		}
+	}
+}

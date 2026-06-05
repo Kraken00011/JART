@@ -1,0 +1,71 @@
+Items: {
+	GrassWhipItem: {
+		DisplayName: Травяной хлыст
+		Tooltip:
+			'''
+			Нажмите ПКМ, чтобы раскачиваться на платформах и деревьях
+			'Кажется, это просто две палки, объединённые лианой'
+			'''
+	}
+
+	StickGunItem: {
+		DisplayName: Палка-стрелялка
+		Tooltip:
+			'''
+			Нажмите ПКМ, чтобы выстрелить древесной пеллетой, кратковременно увеличивающей урон и дающей самонаводку
+			Снаряды связываются между собой
+			'Заряжена радостными воспоминаниями из детства'
+			'''
+	}
+
+	WoodenDaggerItem: {
+		DisplayName: Древесный кинжал
+		Tooltip:
+			'''
+			При попадании отскакивает в ближайшего врага
+			'Самый острый обрубок дерева, который вы когда-либо найдёте'
+			'''
+	}
+
+	WandOfPlantingItem: {
+		DisplayName: Жезл роста
+		Tooltip:
+			'''
+			Листья прилипают к врагам, нажмите ПКМ, чтобы вырвать листья от врагов и временно управлять ими
+			Отпустите ПКМ, чтобы создать мощный лиственный взрыв
+			'Раньше это бы считалось аналогом денежного пистолета...'
+			'''
+	}
+
+	WoodenStickItem: {
+		DisplayName: Деревянная палка
+		Tooltip:
+			'''
+			Раскручивается и оглушает врагов при атаке
+			'Она похоже на те, которыми мы когда-то играли в детстве'
+			'''
+	}
+	
+	TheNail: {
+		DisplayName: Древесный гвоздь
+		Tooltip:
+			'''
+			Использует силу воображения, чтобы 'пружинить' над врагами
+			'Я бы назвал его «Жизнь уносящий»!'
+			'''
+	}
+}
+
+Projectiles: {
+	StickGunProjectile.DisplayName: Палка-стрелялка
+	StickGunRicochetProjectile.DisplayName: Древесный рикошет
+	WoodenDaggerProjectile.DisplayName: Древесный клинок
+	WoodenStickSwingProjectile.DisplayName: Деревянная палка
+	WoodenStickSlamProjectile.DisplayName: Деревянная палка
+	GrassWhipProjectile.DisplayName: Травяной хлыст
+	GrassHookProjectile.DisplayName: Травяной крюк
+	WandOfPlantingProjectile.DisplayName: Жезл роста
+	WandOfPlantingExplosionProjectile.DisplayName: Жезл роста
+	WoodenStickProjectile.DisplayName: Деревянная палка
+	Rogue.WoodenDaggerProjectile.DisplayName: Древесный клинок
+}

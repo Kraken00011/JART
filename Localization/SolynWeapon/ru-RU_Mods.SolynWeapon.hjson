@@ -1,0 +1,71 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Solyn: {
+		DisplayName: Солин
+		Tooltip: ""
+	}
+
+	CosmicDestroyer: {
+		DisplayName: Безымянный опустошитель
+		Tooltip: ""
+	}
+
+	ExoElectricDisintegrator: {
+		DisplayName: Электрический экзо-дезинтегратор
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	SolynBeam.DisplayName: Луч Солин
+	SolynChargeUp.DisplayName: Заряд луча Солин
+	CosmicBeam.DisplayName: Космический луч
+	CosmicChargeUp.DisplayName: Заряд космического луча
+	ExoelectricChargeUp.DisplayName: Заряд дезинтеграции
+	ExoelectricBeam.DisplayName: Дезинтегрирующий луч
+}
+
+Configs: {
+	SolynConfig: {
+		DisplayName: Конфигурация лучей
+
+		Headers: {
+			SolynBeam: Луч Солин
+			SolynFlight: Полёт Солин
+			ArmorPenetration: Пробивание брони
+			CosmicDestroyer: Безымянный опустошитель
+			ExoelectricDisintegrator: Электрический экзо-дезинтегратор
+		}
+
+		BeamDamage: {
+			Label: Урон луча
+			Tooltip: Базовый урон луча Солин (Стандартное значение: 900)
+		}
+
+		FlightSpeed: {
+			Label: Скорость полёта
+			Tooltip: Скорость во время полёта с Солин (Стандартное значение: 16)
+		}
+
+		ArmorPenetration: {
+			Label: Пробивание брони
+			Tooltip: Сколько брони игнорируют лучи (Стандартное значение: 500)
+		}
+
+		CosmicBeamDamage: {
+			Label: Урон опустошающего луча
+			Tooltip: Урон опустошающего космического луча (Стандартное значение: 250)
+		}
+
+		ExoelectricBeamDamage: {
+			Tooltip: Урон электрического дезинтегрирующего экзо-луча (Стандартное значение: 2000)
+			Label: Урон дезинтегрирующего экзо-луча
+		}
+
+		SolynBeamDamage: {
+			Label: Урон луча
+			Tooltip: Базовый урон урон луча Солин (Стандартное значение: 900)
+		}
+	}
+}

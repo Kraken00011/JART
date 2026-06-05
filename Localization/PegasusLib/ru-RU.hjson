@@ -1,0 +1,59 @@
+/*ItemTooltip: {
+	FlaskofVenom: Melee and Whip attacks inflict [buffhint:Venom] on enemies
+	FlaskofCursedFlames: Melee and Whip attacks inflict enemies with [buffhint/dncursed flames:CursedInferno]
+	FlaskofFire: Melee and Whip attacks set enemies [buffhint/dnon fire:OnFire]
+	FlaskofGold: Melee and Whip attacks make enemies [buffhint/dndrop more gold:Midas]
+	FlaskofIchor: Melee and Whip attacks [buffhint/dndecrease enemies defense:Ichor]
+	FlaskofNanites: Melee and Whip attacks [buffhint/dnconfuse:Confused] enemies
+	FlaskofPoison: Melee and Whip attacks [buffhint/dnpoison:Poisoned] enemies
+	VenomArrow: Накладывает дебафф [buffhint:Venom]
+	VenomBullet: При попадании накладывает дебафф [buffhint:Venom]
+	NanoBullet: Накладывает дебафф «[buffhint/dnconfusion:Confused]» и отскакивает от стен
+	GoldenBullet: С убитых врагов выпадает [buffhint/dndrop more money:Midas]
+	ShadowFlameKnife: При попадании накладывает дебафф «[buffhint:ShadowFlame]»
+	BeeKeeper:
+		'''
+		При попадании по врагу призывает пчёл-убийц
+		Даёт небольшой шанс наложить дебафф [buffhint/dnconfusion:Confused]
+		'''
+	DaoofPow:
+		'''
+		Может с небольшим шансом наложить дебафф «[buffhint/dnconfuse:Confused]»
+		'Найдите свои иные части'
+		'''
+	FireGauntlet:
+		'''
+		Increases melee knockback and melee attacks set enemies [buffhint/dnon fire:OnFire3]
+		12% increased melee damage and speed
+		Enables auto swing for melee weapons
+		Increases the size of melee weapons
+		'''
+	InfernoPotion: "[buffhint/dnIgnites:OnFire3] ближайших"
+	MagmaStone: Атаки ближнего боя накладывают дебафф «[buffhint/dnon fire:OnFire3]»
+	MolotovCocktail:
+		'''
+		Создаёт небольшой взрыв, накладывающий дебафф «[buffhint/dnon fire:OnFire3]»
+		Ненадолго поджигает ближайшую местность
+		'''
+	PoisonDart: Накладывает на врагов дебафф «[buffhint/dnpoison:Poisoned]» 
+}
+
+ArmorSetBonus: {
+	Frost:
+		'''
+		Атаки ближнего боя и стрелковые атаки накладывают «[buffhint:Frostburn2]»
+		Увеличивает урон ближнего боя и стрелковый урон ан 10%
+		'''
+	HuntressTier2:
+		'''
+		Увеличивает максимальный количество стражей
+		Взрывные ловушки перезаряжаются быстрее и [buffhint/dnoil:Oiled] врагов
+		Поджог врагов с наложенным на них дебаффом «Промасленный» нанесёт дополнительный урон
+		'''
+	HuntressTier3:
+		'''
+		Увеличивает максимальный количество стражей
+		Значительно [buffhint/dn :Oiled] увеличивает эффективность взрывных ловушек
+		'''
+}
+*/

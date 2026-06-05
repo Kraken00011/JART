@@ -1,0 +1,11 @@
+UI: {
+	VanityCursor: Внешний вид: Курсор
+	VanityCursorTrail: След курсора
+
+	VanityCursorAppliesTo: {
+		None: Ни на что
+		Cursor: Курсор
+		Outline: Контур
+		Both: Оба
+	}
+}

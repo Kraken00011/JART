@@ -1,0 +1,15 @@
+Configs: {
+	Common: {
+		EnableLifeFruitLight: {
+			Tooltip: ""
+			Label: "[i/s1:1291] Свечение фрукта жизни"
+		}
+
+		EnableHeartCrystalLight: {
+			Tooltip: ""
+			Label: "[i/s1:29] Свечение кристала жизни"
+		}
+	}
+
+	LifeSourcesLightConfig.DisplayName: Конфигурация
+}

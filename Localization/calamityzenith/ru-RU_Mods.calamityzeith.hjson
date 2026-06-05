@@ -1,0 +1,31 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	a: {
+	}
+
+	CloneZenith: {
+		DisplayName: Клонирование
+		Tooltip: ""
+	}
+
+	ZenithSeal: {
+		DisplayName: Звёздное огниво
+		Tooltip:
+			'''
+			Улучшает ваш Зенит
+			[c/b537ff:'Раскройте его истинный потенциал!']
+			'''
+	}
+}
+
+Configs: {
+	ZenithSealConfig: {
+		DisplayName: Конфигурация звёздного огнива
+
+		RequireRockInRecipe: {
+			Label: "[i/s1:CalamityMod/Rock] Создание огнива требует камень"
+			Tooltip: При включении добавляет 1 камень в рецепт создания звёздного огнива
+		}
+	}
+}

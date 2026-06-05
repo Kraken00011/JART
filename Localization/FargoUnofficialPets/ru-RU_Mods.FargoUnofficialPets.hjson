@@ -1,0 +1,113 @@
+Buffs: {
+	BabyLifeChampionBuff: {
+		DisplayName: Крошка Чемпион жизни
+		Description: ""
+	}
+
+	BabyRockBuff: {
+		DisplayName: Крошка Чемпион земли
+		Description: ""
+	}
+
+	BiteSizeBabyFishronBuff: {
+		DisplayName: Малыш Изгнанный барон
+		Description: ""
+	}
+
+	EridinisChildofCosmosBuff: {
+		DisplayName: Эридин, Дитя космоса
+		Description: ""
+	}
+
+	MiniCoffinBuff: {
+		DisplayName: Миниатюрный саркофаг
+		Description: ""
+	}
+
+	MiniTimberChampionBuff: {
+		DisplayName: Крошка Чемпион леса
+		Description: ""
+	}
+
+	NaturePetBuff: {
+		DisplayName: Крошка Чемпион природы
+		Description: ""
+	}
+
+	TrojanSquirrelBuff: {
+		DisplayName: Крошка Троянская белка
+		Description: ""
+	}
+}
+
+Items: {
+	BiteSizeBait: {
+		DisplayName: Наживка с бит
+		Tooltip: Призывает малыша Изгнанного барона
+	}
+
+	CharredStone: {
+		DisplayName: Обугленный камень
+		Tooltip: Призывает крохотного Чемпиона земли
+	}
+
+	MiniTopHat: {
+		DisplayName: Маленький цилиндр
+		Tooltip: Призывает Эридина, Дитя космоса
+	}
+
+	MysticRings: {
+		DisplayName: Загадочные кольца
+		Tooltip: Призывает крохотного Чемпиона жизни
+	}
+
+	NaturePetItem: {
+		DisplayName: Предмет Чемпиона природы
+		Tooltip: Призывает крохотного Чемпиона природы
+	}
+
+	ToolKitForBeginners: {
+		DisplayName: Ящик инструментов по дереву
+		Tooltip: Призывает крохотного Чемпиона леса
+	}
+
+	ToyScepter: {
+		DisplayName: Игрушечный скипетр
+		Tooltip: Призывает миниатюрный саркофаг
+	}
+
+	TrojanSquirrelItem: {
+		DisplayName: Беличий цилиндр
+		Tooltip: Призывает крохотную Троянскую белку
+	}
+}
+
+Projectiles: {
+	BabyLifeChampionProjectile.DisplayName: Крошка Чемпион жизни
+	BabyRockProjectile.DisplayName: Крошка Чемпион земли
+	BiteSizeBabyFishronProjectile.DisplayName: Малыш Изгнанный барон
+	EridinisChildofCosmos.DisplayName: Эридин, Дитя космоса
+	MiniCoffinProjectile.DisplayName: Крошка Проклятый саркофаг
+	MiniTimberChampionProjectile.DisplayName: Крошка Чемпион леса
+	NatureHeadPetProjectile.DisplayName: Крошка Чемпион природы
+	NaturePetProjectile.DisplayName: Крошка Чемпион природы
+	TrojanSquirrelPetProjectile.DisplayName: Крошка Троянская белка
+	MiniCoffinSpirit.DisplayName: Крошка проклятая душа
+}
+
+Configs: {
+	PetConfig: {
+		DisplayName: Конфигурация
+		Headers.Tweaks: "[i:603] Изменения питомцев"
+
+		BabyLifelightTweaks: {
+			Label: "[i:FargowiltasSouls/LifelightMasterPet] Небольшие изменения в питомце Золочёного пера"
+			Tooltip: ""
+		}
+
+		AccursedSarcophagusTweaks: {
+			Label: "[i:FargowiltasSouls/AccursedRags] Небольшие изменения в питомце Проклятых лохмотьев"
+			Tooltip: ""
+		}
+	}
+}

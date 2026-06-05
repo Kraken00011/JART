@@ -1,0 +1,135 @@
+[b]Если вам понравился мод, пожалуйста, поставьте ему лайк, так вы поможете продвинуть его в массы[/b]
+[img]https://i.imgur.com/W2c5CX6.gif[/img]
+
+[b][h2]Немного про мод[/h2][/b]
+Just Another RU Translator (JART) - очередной мод-русификатор, переводящий самые разные моды, у которых этого самого перевода либо нет вовсе, либо он мне просто не понравился.
+
+Хотите предложить мод на перевод? Напишите в комментариях, какой мод хотите, и если он мне понравится, я добавлю его в планы и позже переведу.
+[h3]Крупные моды[/h3]
+[list]
+[*] Corruption Core Boss
+[*] Infernal Eclipse of Ragnarok (требуется обновление, проблемы с отображением историй)
+[*] Mech Bosses Rework
+[/list]
+
+[h3]Средние моды[/h3]
+[list]
+[*] Enchanted Moons
+[*] Evil Bosses Rework
+[*] Fargo Rush Mod
+[*] Homeward Ragnarok (требуется обновление)
+[*] HP Awareness
+[*] Jungle Bosses Rework
+[*] Ophioid - A Boss fight mod
+[*] Revengeance+ (требуется обновление)
+[*] Calamity Simple Whip Addon (требуется обновление)
+[*] Spirit Classic Bosses Rework
+[*] Unofficial SOTS Bard, Thrower and Healer
+[/list]
+
+[h3]Небольшие моды[/h3]
+[list]
+[*] 7 Useful Items from Minecraft
+[*] Abyssal Subworld
+[*] Armor and Accessory Prefixes
+[*] Armor Buffs
+[*] Armor Modifiers & Reforging (А точнее склонение брони из некоторых модов)
+[*] Better Zenith in Calamity
+[*] Boss Cursor
+[*] Calamity Crossmod Vulnerabilities
+[*] Calamity Future Bosses Revived
+[*] Calamity Treads
+[*] Clamity Music
+[*] Cosmic Elemental Returns
+[*] Discordya
+[*] Extra Beginnings
+[*] Extra World Sizes
+[*] Everware (помощь с официальным переводом, до выхода обновления советую отключить мой перевод в настройках)
+[*] Fancy Whips
+[*] Hollow Knight!
+[*] Holospark Boots
+[*] Homeward Crossmod Worldgen Fix
+[*] Hypnos Mod
+[*] Infernal Eclipse Balancing
+[*] Infernum Master Patch
+[*] Item Relics
+[*] Javyz' Music Mod
+[*] Masochist Mode EX
+[*] Miscellanaria
+[*] More Beams
+[*] More Pylons
+[*] Munchies - Consumables Checklist
+[*] Munchies - Calamity Addon
+[*] Munchies - Homeward Journey Addon
+[*] Munchies All-Calamity Addon
+[*] Munchies SOTS Addon
+[*] Music Box Slot
+[*] Ore Helmets for Summoner
+[*] Petrified Voodoo Doll
+[*] Playthrough Modlist Loader
+[*] Polyphemalus (Calamity Fandom Boss)
+[*] Reforged
+[*] Robes Of Calamity
+[*] Shimmer Gun
+[*] Shroomaria
+[*] Some Worm Bosses Actually Destroy Tiles
+[*] Starting Class Weapons Reborn
+[*] Steam Achievement Fix
+[*] Talisman of Friendship
+[*] Thorium Class Tags Consistency
+[*] Turtle Boulder & Friends (требуется обновление)
+[*] Unofficial Fargo's Souls Pets
+[*] Vanilla Calamity Mod Music
+[*] WADTU (What Ammo Does This Use)
+[*] Whip Accessories
+[*] Wing Slot
+[*] Wrath of the Beams
+[*] Wrath of the Empress
+[*] You
+[/list]
+
+[h3]Также в моде есть фиксы уже имеющихся официальных локализаций[/h3]
+[list]
+[*] Calamity - Fargo's Souls DLC
+[*] Calamity: Hunt of the Old God
+[*] Clamity Addon (требуется обновление)
+[*] Compact Mods (For TML)
+[*] Thrower Unification (Встройка)
+[*] Tools Prefixes
+[/list]
+
+[h3]Планы на ближайшие пару обновлений[/h3]
+[list]
+[*] Выпустить встройку Coralite
+[*] Перевести [VSC Framework] Dialect и Unofficial Calamity Bard & Healer
+[*] Улучшить старые переводы
+[*] Добавить предосмотр бонусов комплектов брони
+[/list]
+
+[h3]В планах на потом[/h3]
+Переводы:
+[list]
+[*] GaMeTerraria
+[*] Forgotten Evils
+[*] Cerebral Mod
+[*] MrPlague's Authentic Races
+[*] Calamity Ranger Expansion
+[*] Demolisher Class Mod
+[*] Critical Strikes Overhaul
+[*] Quality of Life Compendium
+[*] Macrocosm
+[*] Terraria RPG Reborn
+[*] Все моды от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
+[*] Весь модпак [url=https://steamcommunity.com/workshop/filedetails/?id=3456508757]IEoR[/url]
+[/list]
+
+[h3]Дополнительный контент кроме переводов[/h3]
+[list]
+[*] Совместимость с Project tRU (Склонение предметов/перековок, цветной урон).
+Кстати, рекомендую играть именно с ним, ведь свои переводы я делал опираясь на них!
+[*] Дополнительные классовые метки (Те, что появляются над описанием предмета)
+[*] Конфигурация, в которой вы можете отключить ненужные/не понравившиеся переводы и не только
+[/list]
+
+[h3][b]Послесловие[/b][/h3]
+Переводы сделаны лишь одним человеком, а в одиночку довольно-таки сложно рассматривать разные проблемы в своих же переводах, так что если вы найдёте какие-либо ошибки, неточности, опечатки и т.д., то можете написать либо в комментарии, либо мне в личку Discord: [spoiler]white_background[/spoiler] (так я ВОЗМОЖНО быстрее отвечу)

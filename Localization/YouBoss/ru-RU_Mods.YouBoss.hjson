@@ -1,0 +1,43 @@
+NPCs: {
+	TerraBladeBoss: {
+		DisplayName: Терра-клинок
+
+		BossChecklistIntegration: {
+			SpawnInfo: Используйте [i:YouBoss/CursedMirror] где угодно
+			DespawnMessage: "[c/0EA85D:Ваш клон распадается.]"
+		}
+	}
+}
+
+Projectiles: {
+	AcceleratingTerraBeam.DisplayName: Терра-луч
+	ArcingLightBeam.DisplayName: Светлый луч
+	ArcingNightBeam.DisplayName: Тёмный луч
+	ArcingTerraBeam.DisplayName: Терра-луч
+	TelegraphedTerraBeam.DisplayName: Терра-луч
+	TerraBladeSplit.DisplayName: Компонент Терра-клинка
+	TerraGroundShock.DisplayName: Терра-шоковой удар
+	FirstFractalHoldout.DisplayName: Первый фрактал
+	HomingTerraBeam.DisplayName: Терра-луч
+	TerraSlash.DisplayName: Терра-разрез
+	PlayerShadowClone.DisplayName: Теневой клон
+}
+
+Buffs: {
+	GracedWings: {
+		DisplayName: Возвышенные крылья
+		Description: Подвижность во время полёта улучшена
+	}
+}
+
+Items: {
+	CursedMirror: {
+		DisplayName: Проклятое зеркало
+		Tooltip: Призывает ваше отражение
+	}
+
+	FirstFractal: {
+		DisplayName: Первый фрактал
+		Tooltip: ""
+	}
+}

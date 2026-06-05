@@ -1,0 +1,286 @@
+Configs: {
+	MusicConfig: {
+		DisplayName: Конфигурация музыки
+
+		Headers: {
+			Tracks: Треки
+			Biomes: Биомы
+			Events: События
+			Bosses: Боссы
+		}
+
+		Lieflight: {
+			Label: Свет жизни
+			Tooltip: ""
+		}
+
+		SkeletronPrime: {
+			Label: Скелетрон прайм
+			Tooltip: ""
+		}
+
+		Skeletron: {
+			Label: Скелетрон
+			Tooltip: ""
+		}
+
+		MoonLord: {
+			Label: Лунный лорд
+			Tooltip: ""
+		}
+
+		Betsy: {
+			Label: Бэтси
+			Tooltip: ""
+		}
+
+		ChampionOfShadow: {
+			Label: Чемпион теней
+			Tooltip: ""
+		}
+
+		Golem: {
+			Label: Голем
+			Tooltip: ""
+		}
+
+		Town: {
+			Label: Город
+			Tooltip: ""
+		}
+
+		EmpressOfLight: {
+			Label: Императрица света
+			Tooltip: ""
+		}
+
+		WallOfFlesh: {
+			Label: Стена плоти
+			Tooltip: ""
+		}
+
+		Eridanus: {
+			Label: Эридан
+			Tooltip: ""
+		}
+
+		Abom: {
+			Label: Мерзостть
+			Tooltip: ""
+		}
+
+		Mutant: {
+			Label: Мутант
+			Tooltip: ""
+		}
+
+		EyeOfCthulhu: {
+			Label: Глаз Ктулху
+			Tooltip: ""
+		}
+
+		BrainOfCthulhu: {
+			Label: Мозг Ктулху
+			Tooltip: ""
+		}
+
+		MechBosses: {
+			Label: Механическое трио
+			Tooltip: ""
+		}
+
+		QueenBee: {
+			Label: Королева пчёл
+			Tooltip: ""
+		}
+
+		EaterOfWorlds: {
+			Label: Пожиратель миров
+			Tooltip: ""
+		}
+
+		Deviantt: {
+			Label: Девиантт
+			Tooltip: ""
+		}
+
+		Plantera: {
+			Label: Плантера
+			Tooltip: ""
+		}
+
+		Purity: {
+			Label: Лес
+			Tooltip: ""
+		}
+
+		Jungle: {
+			Label: Джунгли
+			Tooltip: ""
+		}
+
+		UndergroundJungle: {
+			Label: Подземные джунгли
+			Tooltip: ""
+		}
+
+		Crimson: {
+			Label: Багрянец
+			Tooltip: ""
+		}
+
+		Corruption: {
+			Label: Искажение
+			Tooltip: ""
+		}
+
+		Space: {
+			Label: Космос
+			Tooltip: ""
+		}
+
+		Desert: {
+			Label: Пустыня
+			Tooltip: ""
+		}
+
+		Tundra: {
+			Label: Тундра
+			Tooltip: ""
+		}
+
+		Hallow: {
+			Label: Освящение
+			Tooltip: ""
+		}
+
+		Ocean: {
+			Label: Океан
+			Tooltip: ""
+		}
+
+		Baron: {
+			Label: Барон
+			Tooltip: ""
+		}
+
+		Dungeon: {
+			Label: Темница
+			Tooltip: ""
+		}
+
+		Mushroom: {
+			Label: Грибные пустоши
+			Tooltip: ""
+		}
+
+		UndergroundHallow: {
+			Label: Подземное Освящение
+			Tooltip: ""
+		}
+
+		Underground: {
+			Label: Подземелье
+			Tooltip: ""
+		}
+
+		PirateInvasion: {
+			Label: Вторжение пиратов
+			Tooltip: ""
+		}
+
+		LunarPillars: {
+			Label: Небесные башни
+			Tooltip: ""
+		}
+
+		DukeFishron: {
+			Label: Герцог рыброн
+			Tooltip: ""
+		}
+
+		UndergroundDesert: {
+			Label: Подземная пустыня
+			Tooltip: ""
+		}
+
+		UndergroundCorruption: {
+			Label: Подземное Искажение
+			Tooltip: ""
+		}
+
+		UndergroundCrimson: {
+			Label: Подземный Багрянец
+			Tooltip: ""
+		}
+
+		Forest: {
+			Label: Лес
+			Tooltip: ""
+		}
+
+		UndergroundTundra: {
+			Label: Подземная тундра
+			Tooltip: ""
+		}
+
+		Underworld: {
+			Label: Преисподняя
+			Tooltip: ""
+		}
+
+		Rain: {
+			Label: Дождь
+			Tooltip: ""
+		}
+
+		KingSlime: {
+			Label: Король слизней
+			Tooltip: ""
+		}
+
+		Sandstorm: {
+			Label: Песчаная буря
+			Tooltip: ""
+		}
+
+		Blizzard: {
+			Label: Метель
+			Tooltip: ""
+		}
+
+		Temple: {
+			Label: Храм джунглей
+			Tooltip: ""
+		}
+
+		Cultist: {
+			Label: Культист-лунатик
+			Tooltip: ""
+		}
+
+		NowPlayingEnum: {
+			Label: Сообщение «Сейчас играет: »
+			Tooltip: ""
+		}
+	}
+
+	NowPlayingID: {
+		Tooltip: ""
+
+		None: {
+			Label: Не выводить
+			Tooltip: ""
+		}
+
+		Chat: {
+			Label: Выводить в чат
+			Tooltip: ""
+		}
+
+		Notification: {
+			Label: Выводить оповещением
+			Tooltip: ""
+		}
+	}
+}

@@ -1,0 +1,12 @@
+Items: {
+	ShimmerGun: {
+		DisplayName: Мерцающий пистолет
+		Tooltip:
+			'''
+			Стреляет маленькой струёй мерцания
+			[c/FFFF69:Заставь их всех сиять!]
+			'''
+	}
+}
+
+Projectiles.ShimmerGunProjectile.DisplayName: Мерцающая струя

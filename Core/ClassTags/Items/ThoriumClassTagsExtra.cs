@@ -1,0 +1,175 @@
+using System.Collections.Generic;
+using Terraria.ID;
+using Terraria.Localization;
+using Terraria.ModLoader;
+using System.Linq;
+using JAtRT.Common;
+using JAtRT.Common.Utilities;
+using JAtRT.Core.Config;
+using JAtRT.Core.ClassTags;
+
+namespace JAtRT.Core.ClassTags.Items;
+
+public class ThoriumModClassTagsExtra : ItemTagsAdder
+{
+    public bool IsEnabled => ModLoader.HasMod("ThoriumMod") && Language.ActiveCulture.Name == "ru-RU";
+
+    public List<(int ItemType, string TagName)> TaggedItems
+    {
+        get
+        {
+            var result = new List<(int, string)>();
+
+            // Special Tags
+            if (ModLoader.HasMod("SOTSBardHealer"))
+            {
+                string[] VoidTag =
+                {
+                    "DemonTongue",
+                };
+
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(VoidTag, "VoidTag", "ThoriumMod"));
+            }
+
+            // Class Tags
+            string[] Warrior =
+            {
+                "RubyRing",
+                "GardenersSheath",
+                "JetstreamSheath",
+                "DreadChestPlate",
+                "DreadGreaves",
+                "DreadSkull",
+                "TitanHelmet",
+                //
+                "TideTurnerBreastplate",
+                "TideTurnerGreaves",
+                "TideTurnerHelmet"
+            };
+
+            string[] Ranger =
+            {
+                "EmeraldRing",
+                "TitanMask"
+            };
+
+            string[] Sorcerer =
+            {
+                "ManaBauble",
+                "MurkyCatalyst",
+                "TideStone",
+                "SapphireRing",
+                "ManaInjectionKit",
+                "HungeringBlossom",
+                "SilkHat",
+                "SilkLeggings",
+                "SilkTabard",
+                "AquamarineRobe",
+                "OpalRobe",
+                "TitanHeadgear",
+                //
+                "PyromancerCowl",
+                "PyromancerLeggings",
+                "PyromancerTabard"
+            };
+
+            string[] Summoner =
+            {
+                "AmberRing",
+                "ArtilleryPotion",
+                //
+                "MagmaSeersMask",
+                "PyromancerLeggings",
+                "PyromancerTabard"
+            };
+
+            string[] Thrower =
+            {
+                "TopazRing",
+                "AncientHallowedGuise",
+                "HallowedGuise",
+                //
+                "TideTurnersGaze",
+                "TideTurnerBreastplate",
+                "TideTurnerGreaves"
+            };
+
+            if (ModLoader.HasMod("ThrowerUnification"))
+            {
+                string[] UnifiedThrower =
+                {
+                    "ShinobiSigil",
+                    "PiratesPurse",
+                    "ThrowingGuide",
+                    "ThrowingGuideVolume2",
+                    "ThrowingGuideVolume3",
+                    "PaddedGrip",
+                    "PlagueLordFlask",
+                    "BoneGrip",
+                    "Canteen",
+                    "DeadEyePatch",
+                    "MagnetoGrip",
+                    "MermaidCanteen",
+                    "OlympicTorch",
+                    "FlightBoots",
+                    "FlightMail",
+                    "FlightMask",
+                    "SandStoneGreaves",
+                    "SandStoneHelmet",
+                    "SandStoneMail",
+                    "FungusGuard",
+                    "FungusHat",
+                    "FungusLeggings",
+                    "PlagueDoctorsGarb",
+                    "PlagueDoctorsLeggings",
+                    "PlagueDoctorsMask",
+                    "ShadeMasterGarb",
+                    "ShadeMasterMask",
+                    "ShadeMasterTreads",
+                    "SpartanSandles",
+                    "ThiefsWallet",
+                    "WhiteDwarfGreaves",
+                    "WhiteDwarfGuard",
+                    "WhiteDwarfMask",
+                    "Wreath",
+                    "BronzeHelmet",
+                    "BronzeGreaves",
+                    "BronzeBreastplate",
+                    "LichCarapace",
+                    "LichCowl",
+                    "LichTalon"
+                };
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(UnifiedThrower, "ThrowerTag", "ThoriumMod"));
+            }
+
+            string[] Bard =
+            {
+                "OpalRing",
+                "MusiciansHandbook",
+                "AncientHallowedChapeau",
+                "HallowedChapeau"
+            };
+
+            string[] Healer =
+            {
+                "AquamarineRing",
+                "Altar",
+                "AncientHallowedCowl",
+                "HallowedCowl"
+            };
+
+            if (ModLoader.HasMod("ThoriumMod"))
+            {
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Warrior, "WarriorTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Sorcerer, "SorcererTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Thrower, "ThrowerTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Bard, "BardTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Healer, "HealerTag", "ThoriumMod"));
+            }
+
+            return result;
+        }
+    }
+}

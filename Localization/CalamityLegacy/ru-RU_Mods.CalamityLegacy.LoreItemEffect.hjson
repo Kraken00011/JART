@@ -1,0 +1,177 @@
+/*LoreKingSlime:
+	'''
+	[c/caffff:Gain 10% increased movement speed and 2% increased jump speed]
+	[c/caffff:If you have auto-jump, the jump speed bonus is disabled]
+	[c/caffff:However, your defense is reduced by 2 due to your gelatinous body]
+	'''
+LoreDesertScourge:
+	'''
+	[c/caffff:Gain an extra 5 defense while in the desert or sunken sea]
+	[c/caffff:However, you will deal 2.5% less damage while in these areas due to being a husk of your former self]
+	'''
+LoreEyeofCthulhu: "[c/caffff:Grants increased vision at night. However, your vision is reduced during the day from not being used to the birght light]"
+LoreCrabulon:
+	'''
+	[c/caffff:Gain the Mushy buff while underground or in the mushroom biome]
+	[c/caffff:However, your movement speed will be decreased by 10% while in these areas due to you being covered in fungi]	
+	'''
+LoreCrimson:
+	'''
+	[c/caffff:Your attacks have a chance to life steal when hitting an enemy]
+	[c/caffff:However, your life regen will be halfed due to your devotion to the crimson]
+	'''
+LoreCorruption:
+	'''
+	[c/caffff:Getting hit has a chance to spawn a bunch of tiny eaters of souls that home onto your enemies]
+	[c/caffff:However, you lose 3% critical strike chance & 2 defense]
+	'''
+LoreBrainofCthulhu:
+	'''
+	[c/caffff:Allows you to teleport similar to the Rod of Discord while in the crimson]
+	[c/caffff:However, you become confused for 2.5 seconds after you use it due to your overwhelming brain power]
+	[c/caffff:Use the bind for the normality relocator. Currently: ]
+	'''
+LoreEaterofWorlds:
+	'''
+	[c/caffff:Deadly microbes now spawn around that inflict cursed inferno]
+	[c/caffff:However, you will have halfed life regen due to your skin rotting off]
+	'''
+LorePerforators:
+	'''
+	[c/caffff:All of your projectiles inflict ichor while in the crimson]
+	[c/caffff:However, enemy spawn rates are increased by 42% while in the crimson due to your body excreting a sweet-smelling pus]
+	'''
+LoreHiveMind:
+	'''
+	[c/caffff:"All of your projectiles inflict cursed inferno while in the corruption]
+	[c/caffff:However, enemy spawn rates are reduced by 23% while in the corruption due to your overwhelmingly-putrid odor]
+	'''
+LoreQueenBee: "[c/caffff:Bees and weak hornets become friendly, and will not attack you]"
+LoreSkeletron:
+	'''
+	[c/caffff:Gain 10% damage and 5% critical strike chance while in the dungeon]
+	[c/caffff:However, your max health is decreased by 10% due to Skeletron's curse]
+	'''
+LoreSlimeGod:
+	'''
+	[c/caffff:Become slimed and able to slide around on tiles quickly, at the cost of 10 less defense]
+	[c/caffff:While sliding, your movement speed increases by 10%]
+	[c/caffff:This effect does not work with mounts]
+	'''
+LoreUnderworld: "[c/caffff:Prevents Voodoo Demons from dropping Guide Voodoo Dolls]"
+LoreWallofFlesh: "[c/caffff:Увеличивает радиус подбора предметов на 50%]"
+LoreArchmage: "[c/caffff:Gain a frost dash that freezes enemies, at the cost of 10 less defense due to your brittle body]"
+LoreTwins:
+	'''
+	[c/caffff:Gain invisibility and 5% increased rogue damage and critical strike chance during night] 
+	[c/caffff:However, your defense is reduced by 10 while above 50% life due to you feeling softer]
+	[c/caffff:Your max acceleration is reduced while below 50% life due to you feeling heavier]
+	'''
+LoreBrimstoneElemental: "[c/caffff:Кольцо зелья инферно накладывает дебафф «Серные огни»]"
+LoreDestroyer:
+	'''
+	[c/caffff:Gain a 5% boost to your mining speed]
+	[c/caffff:However, your max acceleration is decreased by 5% due to you feeling heavier]
+	'''
+LoreAquaticScourge:
+	'''
+	[c/caffff:Gain immunity to the sulphurous waters and increase the stat gains from the Well Fed buff]
+	[c/caffff:However, without the Well Fed buff your stats will decrease due to your insatiable hunger]
+	[c/caffff:Stat Changes:]
+	[c/caffff:1% critical strike chance]
+	[c/caffff:2.5% damage]
+	[c/caffff:1 defense]
+	[c/caffff:2.5% melee speed]
+	[c/caffff:25% minion knockback]
+	[c/caffff:10% movement speed]
+	'''
+LoreSkeletronPrime:
+	'''
+	[c/caffff:Gain 5 armor penetration]
+	[c/caffff:However, your max acceleration is decreased by 5% due to you feeling heavier]
+	'''
+LoreCalamitasClone: "[c/caffff:Gain 2 extra minion slots but at the cost of 25% reduced max health]"
+LorePlantera: "[c/caffff:100% increased item grab range]"
+LoreLeviathanAnahita:
+	'''
+	[c/caffff:Gain 5% increased max health while wearing the aquatic heart and treasure detect while wearing the strange orb] 
+	[c/caffff:Allows the young Ocean Spirit light pet to move normally while outside of liquids]
+	[c/caffff:However, if you're not submerged in liquid you will have 8 less defense and 5% less damage reduction]
+	'''
+LoreAstrumAureus: "[c/caffff:Увеличивает скорость прыжка Gain 50% increased jump speed while in space]"
+LoreGolem: "[c/caffff:Gain 10 defense while standing still]"
+LorePlaguebringerGoliath:
+	'''
+	[c/caffff:Gain 25% increased wing flight time, but at the cost of halfed life regen]
+	[c/caffff:Flight time is not affected while under the effects of the] [i:CalamityLegacy/DefiledFeatherofLucifer] [c/caffff:Defiled Feather of Lucifer]
+	'''
+LoreDukeFishron:
+	'''
+	[c/caffff:Gain a 5% increase to all damage and critical strike chance, and 15% increased movement speed while submerged in liquid]
+	[c/caffff:However, while not submerged in liquid you will have 1% decreased damage, 2% critical strike chance and 4% movement speed]
+	'''
+LoreRavager: "[c/caffff:Gain a 10% increase to all damage, but at the cost of halfed wing flight time]"
+LorePrelude:
+	'''
+	[c/caffff:Gain 4% damage reduction, 4 defense, 4% damage and critical strike chance, 50% minion knockback and 10% movement speed during the lunar event]
+	[c/caffff:However, your vision is decreased due to eldritch knowledge damaging your mind]
+	'''
+LoreAstrumDeus: "[c/caffff:Gain 20% increased movement speed while in space]"
+LoreRequiem:
+	'''
+	[c/caffff:When you have the Gravity Globe equipped and you have flipped gravity, you gain a plethora of stat boosts]
+	[c/caffff:Stat Changes:]
+	[c/caffff:5% damage reduction]
+	[c/caffff:10 defense]
+	[c/caffff:10% damage and critical strike chance]
+	[c/caffff:150% minion knockback]
+	[c/caffff:15% movement speed]
+	[c/caffff:However, while not upside down you have permanent featherfall]
+	'''
+LoreProvidence:
+	'''
+	[c/caffff:All projectiles are now imbued with profaned flames, causing them to inflict an extra 10% damage]
+	[c/caffff:However, your max life is decreased by 20% due to a part of your soul being required to fuel the profaned flames]
+	'''
+LoreCeaselessVoid:
+	'''
+	[c/caffff:Summons a dark energy ord that floats around you]
+	[c/caffff:The dark energy respawns every 45 seconds]
+	[c/caffff:While the dark energy is active, your defence is doubled] 
+	[c/caffff:While the dark energy has been destroyed, your defence is halfed]
+	'''
+LorePolterghast: "[c/caffff:150% increased item grab range]"
+LoreOldDuke: "[c/caffff:When inflicted with Irradiated, you gain 10 defense and 10% damage reduction]"
+LoreDevourerofGods:
+	'''
+	[c/caffff:Gain a 25% damage boost for your true melee strikes]
+	[c/caffff:However, due to your reckless nature you will take 10% increased damage]
+	'''
+LoreYharon:
+	'''
+	[c/caffff:Gain nearly-infinite wing flight time, but at the cost of a 25% decrease to all damage]
+	[c/caffff:Flight time is not affected while under the effects of the] [i:CalamityLegacy/DefiledFeatherofLucifer] [c/caffff:Defiled Feather of Lucifer]
+	'''
+LoreCalamitas: "[c/caffff:Gain a 250% increase to all damage, but you die instantly from every hit]"
+LoreAwakening: "[c/caffff:Без дополнительных эффектов]"
+LoreAzafure: "[c/caffff:Grants immunity to brimstone flames, but 10% decreased damage due to your unheding sence of regret]"
+LoreAbyss:
+	'''
+	[c/caffff:Immune the buff CrushDepth]
+	[c/caffff:When in the Crimson,the player gains 5 defence and 5% endurance]
+	[c/caffff:However,while in other areas,the effect will be the opposite]
+	'''
+LoreBloodMoon: "[c/caffff:Gain a 10% increase to your critical strike chance, at the cost of 100% enemy spawn rates. ]"
+LoreEmpressofLight: "[c/caffff:Gain a 25% increase to all damage during the day, but at the cost of a 25% decrease to all damage at night]"
+LoreQueenSlime:
+	'''
+	[c/caffff:Увеличивает скорость передвижения на 10%, скорость прыжка на 5% и время полёта на 15%]
+	[c/caffff:Но, из-за того, что ваше тело стало желеобразным ваша защита снижается на 5 ед.]
+	'''
+LoreExoMechs: "[c/caffff:Без дополнительных эффектов]"
+LoreMechanicalTrio: "[c/caffff:Без дополнительных эффектов]"
+LoreCynosure: "[c/caffff:Без дополнительных эффектов]"
+LoreSulphurSea: "[c/caffff:Gain 10% increased damage at the cost of being irradiated due to long-term exposure]"
+LoreAstralInfection: "[c/caffff:Become uneffected by the low gravity effects of space at the cost of being inflicted with atral infection while in space]"
+LoreItemToolTip1: "[c/b4b4b4:Пометьте как избранное, чтобы получить дополнительный эффект]"
+*/

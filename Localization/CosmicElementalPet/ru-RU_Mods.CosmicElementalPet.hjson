@@ -1,0 +1,35 @@
+Buffs: {
+	CosmicElementalPetBuff: {
+		DisplayName: Космический элементаль
+		Description: Сколько времени прошло, а остался таким же, каким был когда-то
+	}
+
+	LilCosmicElementalPetBuff: {
+		DisplayName: Мелкий космо
+		Description: Ну не милашка ли?
+	}
+}
+
+Items: {
+	CosmicElementalPetItem: {
+		DisplayName: Космический кристалл
+		Tooltip: Призывает питомца космического элементаля
+	}
+
+	CosmicElementalBanner: {
+		DisplayName: Знамя космического элементаля
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.CosmicElemental.DisplayName}"
+	}
+
+	LilCosmicElementalPetItem: {
+		DisplayName: Космическое мороженное
+		Tooltip: Призывает крошку космического элементаля
+	}
+}
+
+Projectiles: {
+	CosmicElementalPetProjectile.DisplayName: Космический элементаль
+	LilCosmicElementalPetProjectile.DisplayName: Мелкий космо
+}
+
+NPCs.CosmicElemental.DisplayName: Космический элементаль

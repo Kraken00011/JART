@@ -1,0 +1,83 @@
+Buffs: {
+	GodSlayerInferno: {
+		DisplayName: Инферно богоискателя
+		Description: Ваша плоть сгорает
+	}
+
+	ExtremeGrav: {
+		DisplayName: Экстремальная гравитация
+		Description: Время полёта снижено на 66%, бесконечный полёт отключён
+	}
+
+	Warped: {
+		DisplayName: Заторможенность
+		Description: Передвижение ограничено
+	}
+
+	HolyLight: {
+		DisplayName: Божественный свет
+		Description: Вас поглощает божественный свет
+	}
+}
+
+NPCs: {
+	AncientDoomsayer.DisplayName: Древний вестник рока
+	AncientDoomsayerClone.DisplayName: Древний вестник рока
+	DoomsayerDoom.DisplayName: Смерть вестника рока
+	DevourerofUniversesBody.DisplayName: Пожиратель вселенных
+	DevourerofUniversesHead.DisplayName: Пожиратель вселенных
+	DevourerofUniversesTail.DisplayName: Пожиратель вселенных
+	DetonatingFlare4.DisplayName: Гневное пламя
+	YharonDragonGod.DisplayName: Драконий бог, Ярон
+	Bumblefuck4.DisplayName: Птичька
+}
+
+Projectiles: {
+	DoomsayerRitual.DisplayName: Ритуал вестника рока
+	DoGBeam.DisplayName: Луч
+	DoGBeamPortal.DisplayName: Портал
+	DoGDeath.DisplayName: Смерть
+	DoGFire.DisplayName: Космическое пламя
+	DoGNebulaShot.DisplayName: Выстрел туманности
+	BigFlare.DisplayName: Большая вспышка
+	Flare.DisplayName: Вспышка
+	FlareBomb.DisplayName: Flare Bomb
+	FlareDust.DisplayName: Пыль вспышки
+	FlareDust2.DisplayName: Пыль вспышки
+	Flarenado.DisplayName: Пламенадо
+	GigaFlare.DisplayName: Гигавспышка
+	Infernado.DisplayName: Инфернадо
+	InfernadoRevenge.DisplayName: Инфернадо
+	SkyFlareRevenge.DisplayName: Небесная вспышка
+	YharonFireball.DisplayName: Фаербол
+	YharonFireball2.DisplayName: Фаербол
+	YharonFireballHoming.DisplayName: Фаербол
+	YharonFireballHomingUp.DisplayName: Фаербол
+}
+
+Items: {
+	EldritchSoulArtifact: {
+		DisplayName: Жуткий артефакт душ
+		Tooltip: Знания
+	}
+
+	Death: {
+		DisplayName: Смерть
+		Tooltip: Ещё сильнее увеличивает силу боссов будущего
+	}
+
+	Revenge: {
+		DisplayName: Месть
+		Tooltip: Увеличивает силу боссов будущего
+	}
+
+	DimensionalSoulArtifact: {
+		DisplayName: Пространственный артефакт душ
+		Tooltip: Сила
+	}
+
+	GodlySoulArtifact: {
+		DisplayName: Божественный артефакт душ
+		Tooltip: Верность
+	}
+}

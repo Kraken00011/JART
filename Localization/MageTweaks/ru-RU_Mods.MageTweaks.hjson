@@ -1,0 +1,291 @@
+/*ReworkedManaFlowerTooltip: Призывает звезду маны {^0:каждую;каждые} {0} {^0:секунду;секунды;секунд}
+AutoManaPotionTooltip: Автоматически используется при необходимости
+ManaRegenerationBandTooltip: Увеличивает скорость восстановления маны
+ManaRegenPotionIsUselessTooltip:
+	'''
+	[c/828282:Похоже, этот предмет сломан...]
+	[c/828282:Вместо этого, попробуйте использовать] [i:294][c/9696ff:зелье магической силы]
+	'''
+ArcaneFlowerBuffTooltipDamage: Увеличивает магический урон на 5%
+ArcaneFlowerBuffTooltipCrit: Увеличивает шанс магического критического удара на 5%
+ArcaneFlowerBuffTooltipBoth: Увеличивает магический урон и шанс критического удара на 5%
+
+Configs: {
+	Config: {
+		DisplayName: Конфигурация
+
+		Headers: {
+			Reworks: Переработки
+			Balance: Балансировка
+			Recipes: Рецепты
+		}
+
+		StarDespawnTime: {
+			Label: "[i:709] Время существования звёзд маны"
+			Tooltip:
+				'''
+				Определяет, сколько времени будет у [i:184][c/5559ff:звёзды маны] перед её исчезновением в секундах.
+				Если значение выставлено на 0, [i:184][c/5559ff:звёзды маны] перестанут пропадать.
+				[c/828282:Значение по умолчанию: 30]
+				'''
+		}
+
+		NoWastedStars: {
+			Label: "[i:109] Сниженное использование звёзд маны"
+			Tooltip:
+				'''
+				Даёт возможность подбирать [i:184][c/5559ff:звёзды маны] только, если у вас недостаёт более чем 20 ед. маны
+				Особенно полезно при игре в мультиплеере и во время прохождения событий
+				[c/828282:Значение по умолчанию: Вкл]
+				'''
+		}
+
+		ManaPotionStatChange: {
+			Label: "[i:189] Ослабление зелий маны"
+			Tooltip:
+				'''
+				Определяет силу ослаблений для [i:189][c/3d66ff:зелий маны].
+				[c/828282:Значение по умолчанию: Среднее]
+				'''
+		}
+
+		ReworkedManaFlowerCooldown: {
+			Label: "[i:17] Перезарядка цветка маны"
+			Tooltip:
+				'''
+				Устанавливает количество секунд, нужных для перезарядки новой характеристики, включаемой настройкой [c/e7c725:«Переработка цветка маны»] для [i:555][c/8fd71d:цветка маны]
+				[c/828282:Значение по умолчанию: 8]
+				'''
+		}
+
+		ManaFlowerRework: {
+			Label: "[i:555] Переработка цветка маны"
+			Tooltip:
+				'''
+				The [i:555][c/8fd71d:Mana Flower's] ability to consume [i:189][c/3d66ff:Mana Potions] automatically is now always active.
+				It will gain a new stat, spawning a [i:MageTweaks/FloweringManaStar][c/5559ff:Mana Star] on hit with a set cooldown.
+				[c/828282:Значение по умолчанию: On]
+				'''
+		}
+
+		MagicPotionChange: {
+			Label: "[i:293] Mage potion changes"
+			Tooltip:
+				'''
+				The [i:293][c/f6229f:Mana Regeneration Potion] will become dysfunctional.
+				The [i:294][c/a35fff:Magic Power Potion] will grant a weaker version of the buff instead.
+				Unlike before, standing still boosts mana regeneration even with the buff active.
+				[c/828282:Значение по умолчанию: On]
+				'''
+		}
+
+		MagicPowerPotionDuration: {
+			Label: "[i:294] Magic Power Potion duration"
+			Tooltip:
+				'''
+				Determines the duration of the [i:294][c/a35fff:Magic Power Potion's] buff, in minutes.
+				[c/828282:Значение по умолчанию: 8]
+				'''
+		}
+
+		ExtraCelestialMagnetSource: {
+			Label: "[i:2219] Дополнительный способ получить неземной магнит"
+			Tooltip:
+				'''
+				Добавляет дополнительный способ получить [i:2219][c/00f2fa:неземной магнит].
+				[c/828282:Значение по умолчанию: Обсидиан]
+				'''
+		}
+
+		ArcaneFlowerBuff: {
+			Label: "[i:3991] Arcane Flower buff"
+			Tooltip:
+				'''
+				Adds additional damage stats to the [i:3991][c/8fd71d:Arcane Flower].
+				[c/b25140:It should be noted that] [c/ff872b:Calamity Mod] [c/b25140:already adds +5% magic damage.]
+				[c/828282:Значение по умолчанию: Критический удар]
+				'''
+		}
+
+		MagicCuffsChange: {
+			Label: "[i:1595] Magic Cuffs change"
+			Tooltip:
+				'''
+				The [i:1595][c/9696ff:Magic Cuffs] and [i:2221][c/00f2fa:Celestial Cuffs] lose the ability to restore mana when hit.
+				They will instead inherit the [i:982][c/d2a0ff:Mana Regeneration Band's] stats and give 2 defense.
+				[c/828282:Default: On]
+				'''
+		}
+
+		AltOreGemStaffRecipes: {
+			Label: "[i:706] Alternate ore Gem Staff recipes"
+			Tooltip:
+				'''
+				Adds recipes for the Gem Staves allowing them to be crafted with the alternate variant of their usual ore.
+				For example, this allows obtaining the [i:744][c/b5c2d9:Diamond Staff] in a world that generated with [i:13][c/e5d67f:Gold].
+				[c/828282:(Ex. ][i/s10:20][c/828282:+][i/s8:180][c/828282:@][i:35] [c/828282:->] [i:740][c/828282:)]
+				[c/828282:Default: On]
+				'''
+		}
+
+		WandOfSparkingRecipe: {
+			Label: "[i:8] Wand of Sparking recipe"
+			Tooltip:
+				'''
+				Adds a recipe to allow the Wand of Sparking to be obtained more easily.
+				[i/s99:8][c/828282:+][i:75][c/828282:@][i:35] [c/828282:->] [i:3069]
+				[c/828282:Default: On]
+				'''
+		}
+
+		EvilOrbMageWeaponSwapRecipes: {
+			Label: "[i:115] Vilethorn and Crimson Rod swap recipe"
+			Tooltip:
+				'''
+				Adds recipes to swap between the Vilethorn and Crimson Rod.
+				Also adds a shimmer transmutation between the items.
+				[i:1256][c/828282:+][i/s8:1257][c/828282:@] [c/ff6666:Crimson Altar] [c/828282:->] [i:64]
+				[i:64][c/828282:+][i/s8:57][c/828282:@] [c/797197:Demon Altar] [c/828282:->] [i:1256]
+				[c/828282:Default: Off]
+				'''
+		}
+	}
+
+	ManaPotionNerfs: {
+		None: {
+			Label: Никакое
+			Tooltip: Зелья маны никак не изменятся.
+		}
+
+		Mild: {
+			Label: "[i:489][c/ffe283:Незначительное]"
+			Tooltip:
+				'''
+				[i:110][c/9696ff:+50] [c/828282:->] [c/9696ff:+50 маны] [c/828282:(без изменений)]
+				[i:189][c/9696ff:+100] [c/828282:->] [c/9696ff:+90 маны]
+				[i:500][c/9696ff:+200] [c/828282:->] [c/9696ff:+175 маны]
+				[i:2209][c/9696ff:+300] [c/828282:->] [c/9696ff:+250 маны]
+				'''
+		}
+
+		Moderate: {
+			Label: "[i:935][c/e5835a:Умеренное]"
+			Tooltip:
+				'''
+				[i:110][c/9696ff:+50] [c/828282:->] [c/9696ff:+40 маны]
+				[i:189][c/9696ff:+100] [c/828282:->] [c/9696ff:+80 маны]
+				[i:500][c/9696ff:+200] [c/828282:->] [c/9696ff:+150 маны]
+				[i:2209][c/9696ff:+300] [c/828282:->] [c/9696ff:+200 маны]
+				'''
+		}
+
+		Major: {
+			Label: "[i:1248][c/ff0c0c:Значительное]"
+			Tooltip:
+				'''
+				[i:110][c/9696ff:50 ед.] [c/828282:->] [c/9696ff:30 ед. маны]
+				[i:189][c/9696ff:100 ед.] [c/828282:->] [c/9696ff:50 ед. маны]
+				[i:500][c/9696ff:200 ед.] [c/828282:->] [c/9696ff:100 ед. маны]
+				[i:2209][c/9696ff:300 ед.] [c/828282:->] [c/9696ff:150 ед. маны]
+				'''
+		}
+
+		Tooltip: ""
+	}
+
+	ExtraMagnetSource: {
+		Tooltip: ""
+
+		None: {
+			Label: Никакой
+			Tooltip: Неземной магнит будет получаться обычным способом.
+		}
+
+		Gold: {
+			Label: "[i:19][c/e5d67f:Золото]"
+			Tooltip:
+				'''
+				Неземной магнит можно будет создать, используя [i:19][c/e5d67f:золотые] или [i:706][c/b5c2d9:платиновые] слитки.
+				[i/s20:19][c/828282:+][i/s8:320][c/828282:+][i:109][c/828282:@][i:35] [c/828282:->] [i:2219]
+				'''
+		}
+
+		Obsidian: {
+			Label: "[i:173][c/6b5da9:Обсидиан]"
+			Tooltip:
+				'''
+				Неземной магнит можно будет создать, используя [i:173][c/6b5da9:обсидиан].
+				[i/s40:173][c/828282:+][i/s8:320][c/828282:+][i:109][c/828282:@][i:35] [c/828282:->] [i:2219]
+				'''
+		}
+
+		Hellstone: {
+			Label: "[i:175][c/e27438:Адский камень]"
+			Tooltip:
+				'''
+				Неземной магнит можно будет создать, используя слитка [i:175][c/e27438:адского камня].
+				[i/s14:175][c/828282:+][i/s8:320][c/828282:+][i:109][c/828282:@][i:35] [c/828282:->] [i:2219]
+				'''
+		}
+
+		Cobalt: {
+			Label: "[i:381][c/8fd2fd:Кобальт]"
+			Tooltip:
+				'''
+				Неземной магнит можно будет создать используя [i:381][c/8fd2fd:кобальтовые] или [i:1184][c/f8a67d:палладиевые] слитки.
+				[i/s10:381][c/828282:+][i/s8:320][c/828282:+][i:109][c/828282:@][i:35] [c/828282:->] [i:2219]
+				'''
+		}
+
+		TravellingMerchant: {
+			Label: "[i:5343][c/7b8cc1:Стр. торговец]"
+			Tooltip:
+				'''
+				Неземной магнит можно будет купить у [i:5343][c/7b8cc1:странствующего торговца] с 20% шансом.
+				[c/828282:Магнит добавляется в самый конец списка предметов и не заменяет собой другие предметы.]
+				'''
+		}
+
+		Wizard: {
+			Label: "[i:1739][c/ad60e2:Волшебник]"
+			Tooltip: Неземной магнит можно будет купить у [i:1739][c/ad60e2:волшебника].
+		}
+
+		ShimmerMagnet: {
+			Label: "[i:5010][c/e7b21c:Мерцание]"
+			Tooltip: Неземной магнит можно будет получить при трансмутации [i:5010][c/e7b21c:магнита сокровищ] в мерцании.
+		}
+	}
+
+	ArcaneFlowerBuffType: {
+		None: {
+			Label: Никакое
+			Tooltip: Магический цветок останется без изменений.
+		}
+
+		Damage: {
+			Label: "[i:178][c/ee3335:Урон]"
+			Tooltip: The Arcane Flower will gain [i:178][c/ee3335:+5% magic damage].
+		}
+
+		Crit: {
+			Label: "[i:180][c/ffdd3e:Критический удар]"
+			Tooltip: The Arcane Flower will gain [i:180][c/ffdd3e:+5% magic critical strike chance].
+		}
+
+		Both: {
+			Label: "[i:999][c/fc7916:Оба]"
+			Tooltip: The Arcane Flower wil gain [i:999][c/fc7916:+5% magic damage and critical strike chance].
+		}
+
+		Tooltip: ""
+	}
+}
+
+Items: {
+	FloweringManaStar: {
+		DisplayName: Звезда
+		Tooltip: ""
+	}
+}
+*/

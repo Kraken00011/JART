@@ -1,0 +1,31 @@
+Prefixes: {
+	InfinitePrefix.DisplayName: Бесконечный
+	CrateHunterFishing.DisplayName: Ящиколовный
+	DualHookFishing.DisplayName: Двойной
+	LightFishing.DisplayName: Лёгкий
+	LuredFishing.DisplayName: Сардинный
+	QuestHunterFishing.DisplayName: Квестоловный
+	SeaBlessedFishing.DisplayName: Воднословлённый
+	TemptingFishing.DisplayName: Приманивающий
+	MasterFishing.DisplayName: Мастерский
+	CrushingPrefix.DisplayName: Сокрушающий
+	EfficiencyPrefix.DisplayName: Эффективный
+	ExplorerPrefix.DisplayName: Исследовательский
+	ExtendedPrefix.DisplayName: Удлинённый
+	PlunderingPrefix.DisplayName: Расхищающий
+}
+
+PrefixTooltip: {
+	FishingPower: +{0} к силе наживки
+	BaitReduction: +{0}% к шансу не использовать наживку
+	RarityImprove: +{0}% к шансу увеличить редкость улова
+	CrateChance: +{0}% к шансу выловить рыбацкий ящик
+	QuestFish: +{0}% к шансу выловить рыбу для задания
+	ExtraHooks: +{0} {^0:дополнительный поплавок; дополнительных поплавка; дополнительных поплавков}
+	HookSpeed: +{0} к скорости забрасывания поплавка
+	InfiniteAmmo: Не расходует боеприпасы
+	PlunderingEffect: +{0}% к шансу выловить удвоенную добычу
+	Crushing: Непрерывное использование увеличивает скорость добычи блоков
+	TileBoost: +{0} к дальности добычи блоков
+	HoldingLight: При удержании в руке источает свет
+}

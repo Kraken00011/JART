@@ -1,0 +1,91 @@
+//This music box contains a placeholder song
+Items: {
+	Placeables: {
+		MusicBoxes: {
+			ClamityTitleMusicBox: {
+				Tooltip: Проигрывает «Unnamed Theme» за авторством Sidetracker
+				DisplayName: Музыкальная шкатулка (Заглавная тема Clamity)
+			}
+
+			ClamitasMusicBox: {
+				Tooltip: Проигрывает «Clamitas Theme» за авторством StarvoXD
+				DisplayName: Музыкальная шкатулка (Каламидия)
+			}
+
+			PyrogenMusicBox: {
+				Tooltip: Проигрывает «Searing Ferocity» за авторством Brimston Premium
+				DisplayName: Музыкальная шкатулка (Пироген)
+			}
+
+			AcidRainT2MusicBox: {
+				Tooltip: Проигрывает «Sulfuric Cloudbrust» за авторством AstroGel
+				DisplayName: Музыкальная шкатулка (Кислотный дождь - 2 ранг)
+			}
+
+			WoBMusicBox: {
+				DisplayName: Музыкальная шкатулка (Стена бронзы)
+				Tooltip:
+					'''
+					Проигрывает «Diabolus Ex Machina» за авторством Perturbator
+					Эта шкатулка содержит песню-заглушку
+					'''
+			}
+
+			FrozenHellMusicBox: {
+				DisplayName: Музыкальная шкатулка (Замёрзшая Преисподняя)
+				Tooltip:
+					'''
+					Проигрывает «Alternative Underworld Theme» за авторством Soundbin
+					Эта шкатулка содержит песню-заглушку
+					'''
+			}
+
+			PyrogenGFBMusicBox: {
+				DisplayName: Музыкальная шкатулка (Криоген?)
+				Tooltip: Проигрывает «Antarctic Ferocity» за авторством Brimston Premium
+			}
+		}
+	}
+}
+
+Tiles: {
+	GiantClamMusicBoxTile.MapEntry: Музыкальная шкатулка (Гигантский моллюск)
+	ClamityTitleMusicBoxTile.MapEntry: Музыкальная шкатулка (Заглавная тема Clamity)
+	ClamitasMusicBoxTile.MapEntry: Музыкальная шкатулка (Каламидия)
+	PyrogenMusicBoxTile.MapEntry: Музыкальная шкатулка (Пироген)
+}
+
+Configs: {
+	ClamityMusicConfig: {
+		DisplayName: Конфигурация музыки Clamity
+
+		PyrogenPrototypeTheme: {
+			Label: Прототип темы Пирогена
+			Tooltip: ""
+		}
+
+		UsesT2AcidRainTheme: {
+			Label: Использовать новую тему 2-го ранга Кислотного дождя
+			Tooltip: ""
+		}
+	}
+
+	PyroMusic: {
+		Tooltip: ""
+
+		CryogenPlaceholder: {
+			Label: Песня-заглушка Криогена
+			Tooltip: ""
+		}
+
+		AstroGels: {
+			Label: AstroGel'я
+			Tooltip: ""
+		}
+
+		BrimstonePremiums: {
+			Label: Brimston Premium'а
+			Tooltip: ""
+		}
+	}
+}

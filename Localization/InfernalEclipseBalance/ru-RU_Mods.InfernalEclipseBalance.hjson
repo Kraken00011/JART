@@ -1,0 +1,50 @@
+Configs: {
+	BalanceConfig: {
+		ConsolariaBalanceChanges: {
+			Label: Изменения баланса Consolaria
+			Tooltip: ""
+		}
+
+		Headers: {
+			BalanceChanges: Изменения баланса
+			Miscellaneous: Разное
+		}
+
+		DisplayName: Конфигурация баланса
+
+		VanillaBalanceChanges: {
+			Label: Изменения баланса ваниллы
+			Tooltip: ""
+		}
+
+		YouBossBalanceChanges: {
+			Label: Изменения баланса You
+			Tooltip: ""
+		}
+
+		AdjustFargosSoulsEnchantemnts: {
+			Label: Изменения усилений из Fargo's Souls
+			Tooltip: ""
+		}
+
+		AdditonalVanillaBossAdjustments: {
+			Label: Дополнительные изменения баланса боссов ваниллы
+			Tooltip: ""
+		}
+
+		ThoriumBalanceChanges: {
+			Label: Изменения баланса Thorium
+			Tooltip: ""
+		}
+
+		CalamityBalanceChanges: {
+			Label: Изменения баланса Calamity
+			Tooltip: ""
+		}
+
+		SOTSBalanceChanges: {
+			Label: Изменения баланса Secrets of the Shadows
+			Tooltip: ""
+		}
+	}
+}

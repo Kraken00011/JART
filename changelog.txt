@@ -1,0 +1,6 @@
+v1.5.0.0
+- Добавлены переводы Pinnacle Reforges, Vanity + Dyable Cursors API, Celestial Shield, Movement Speed Fix и Experimental Infernum Extension
+- Обновлены переводы Calamity Simple Whips Addon, Armor Buffs и Revengeance+ до последней версии
+- Многочисленные исправления в разных переводах
+- Добавлен цветной урон для классов из Bombus Apis, а также аксессуаров из Unofficial Calamity Bard & Healer и Consolaria
+- Добавлены классовые теги для Thorium Helheim, Unofficial Calamity Bard & Healer, Ragnarok Mod, Whip Accessories, Canisters, Celestial Shield, Better Zenith in Calamity и Infernal Arsenal

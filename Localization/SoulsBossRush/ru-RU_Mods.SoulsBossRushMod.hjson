@@ -1,0 +1,61 @@
+ModReferences: {
+	BossChecklist: {
+		EventName: Босс-раш
+		EventSpawnCondition: Используйте [i:SoulsBossRushMod/VoidEnterer], чтобы начать Босс-раш.
+	}
+}
+
+Items: {
+	VoidEnterer: {
+		DisplayName: Карманная вселенная
+		Tooltip:
+			'''
+			Удерживайте ЛКМ, держа предмет в руках, чтобы начать Босс-раш
+			Но обратите внимание:
+			Предмет создаёт карманное измерение для проведения Босс-раша
+			[c/ff474e:Из-за этого все выпадающие предметы, накладываемые баффы и т.д. будут стираться]
+			'Судьба неотвратима'
+			'''
+	}
+
+	MainframePaint: {
+		DisplayName: Картина Мейнфрейма
+		Tooltip: "'Награда за славную резню'"
+	}
+
+	EternalMonolith: {
+		DisplayName: Монолит вечности
+		Tooltip: "'Содержит немного вечной энергии'"
+	}
+}
+
+Conditions.BossRushCondition: Босс-раш был пройден
+
+Tiles: {
+	FakeCoffinArenaTile.MapEntry: Фальшивый блок арены Саркофага
+	FakeGolemArenaTile.MapEntry: Фальшивый блок арены Голема
+	FakeJungleArenaTile.MapEntry: Фальшивый блок арены джунглей
+	CoffinArenaTile.MapEntry: Блок арены Саркофага
+}
+
+Achievements: {
+	DefeatedBossRushAchievement: {
+		FriendlyName: Убийца вечных
+		Description: Завершить Босс-раш.
+	}
+}
+
+BossRush.DisplayName: Босс-раш
+Projectiles.VoidEntererProjectile.DisplayName: Пустотный портал
+
+Configs: {
+	BossRushConfig: {
+		DisplayName: Конфигурация Босс-раша
+		Headers.Bosses: Боссы
+
+		EnergizedVariants: {
+			Label: "[i:Fargowiltas/Overloader] Перегрузка"
+			Tooltip: Включает/Выключает перегрузку для боссов из Босс-раша
+		}
+	}
+}

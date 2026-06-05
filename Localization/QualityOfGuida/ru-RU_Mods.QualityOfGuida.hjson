@@ -1,0 +1,123 @@
+# This file will automatically update with entries for new content after a build and reload.
+Items: {
+	PaperItem: {
+		DisplayName: Бумага
+		BlankDisplayName: Чистая бумага
+		Tooltip: "[c/AAAAAA:Нажмите ПКМ, чтобы изменить описание]"
+	}
+
+	FlintItem: {
+		DisplayName: Огниво
+		Tooltip: Используется для активации портала в ад
+	}
+
+	TorcherinoItem: {
+		DisplayName: Факельник
+		Tooltip: Ускоряет скорость тикового обновления блоков в определённом радиусе
+	}
+
+	BoneMealItem: {
+		DisplayName: Костная мука
+		Tooltip: Ускоряет рост растений
+	}
+
+	SpawnEggItem: {
+		DisplayName: Яйцо призыва
+		EmptyDisplayName: Пустое яйцо призыва
+		FilledDisplayName: "Яйцо призыва: {0}"
+		UnknownEnemy: Неизвестный враг
+		CaptureUsage: Используйте на врагах, у которых есть знамя, чтобы поймать их
+		SpawnUsage: Призывает: {0}
+		CanCapture: Можно поймать
+		Tooltip: Призывает пойманных врагов
+	}
+
+	SpawnerItem: {
+		DisplayName: Рассадник
+		Tooltip: Чтобы активировать, разместите его на поверхность и положите внутрь яйцо призыва
+		SetSpawner: Призывает: {0}
+	}
+
+	NameTagItem: {
+		DisplayName: Бирка
+		Tooltip:
+			'''
+			Нажмите ЛКМ, чтобы переименовать любого НИПа
+			Переименованные враги не смогут самостоятельно исчезнуть
+			Не работает на боссах
+			Нажмите ПКМ, чтобы изменить содержание бирки
+			Не расходуется
+			'''
+	}
+}
+
+Tiles: {
+	NetherPortal.MapEntry: Портал в ад
+	SpawnerTile.MapEntry: Рассадник
+}
+
+WorldGen: {
+	NetherPortalPassMessage: Создание портала в ад
+	SpawnerPassMessage: Создание Рассадников
+	SpawnEggPassMessage: Разбрасывание яиц призыва
+}
+
+PaperText: {
+	NetherPortal:
+		'''
+		Окружён обсидианом
+		Используйте огниво в центре структуры
+		'''
+	NameTag:
+		'''
+		Правильно выбранные имена могут изменять врагов:
+		Giant
+		Mini
+		King
+		Hitbox
+		Boulder
+		Rainbow
+		Reverse
+		'''
+}
+
+Configs: {
+	ItemToggleConfig: {
+		EnablePaper: {
+			Label: "[i:QualityOfGuida/PaperItem] Бумага"
+			Tooltip: И её генерация в мире.
+		}
+
+		DisplayName: Конфигурация предметов
+
+		EnableFlint: {
+			Label: "[i:QualityOfGuida/FlintItem] Огниво"
+			Tooltip: И его генерация в мире.
+		}
+
+		EnableNameTag: {
+			Label: "[i:QualityOfGuida/NameTagItem] Бирка"
+			Tooltip: И её генерация в мире.
+		}
+
+		EnableBoneMeal: {
+			Label: "[i:QualityOfGuida/BoneMealItem] Костная мука"
+			Tooltip: ""
+		}
+
+		EnableSpawnEgg: {
+			Label: "[i:QualityOfGuida/SpawnEggItem] Яйца призыва"
+			Tooltip: И их генерация в мире.
+		}
+
+		EnableTorcherino: {
+			Label: "[i:QualityOfGuida/TorcherinoItem] Факельник"
+			Tooltip: ""
+		}
+
+		EnableSpawner: {
+			Label: "[i:QualityOfGuida/SpawnerItem] Рассадник"
+			Tooltip: И его генерация в мире.
+		}
+	}
+}

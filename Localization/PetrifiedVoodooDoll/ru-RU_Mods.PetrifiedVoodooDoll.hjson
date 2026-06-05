@@ -1,0 +1,17 @@
+Configs: {
+	ServerConfig: {
+		DisplayName: Серверная конфигурация
+
+		guideDollUseAnvil: {
+			Label: "[i:35] Рецепт создания куклы вуду гида требует наковальню"
+			Tooltip: ""
+		}
+	}
+}
+
+Items: {
+	PetrifiedVoodooDoll: {
+		Tooltip: ""
+		DisplayName: Окаменевшая кукла вуду
+	}
+}

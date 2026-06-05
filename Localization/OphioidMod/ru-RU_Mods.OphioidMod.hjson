@@ -1,0 +1,198 @@
+		Buffs: {
+			BabyOphioflyBuff: {
+				DisplayName: Крохотная Офиоидная мушка
+				Description: Мерзко, но по-своему миленько
+			}
+
+			BabyOphiopedeBuff: {
+				DisplayName: Крохотная Офиоидная личинка
+				Description: Мерзко, но по-своему миленько
+			}
+		}
+
+		Items: {
+			OphiopedeMask: {
+				DisplayName: Маска Офиопиды
+				Tooltip: ""
+			}
+
+			SporeInfestedEgg: {
+				DisplayName: Инфицированное спорами яйцо
+				Tooltip:
+					'''
+					Призывает питомца Офиоидную мушку
+					'Похоже, это яйцо ещё не успело вылупится, чтобы начать атаковать меня...'
+					'''
+			}
+
+			Ophiopedetrophyitem: {
+				DisplayName: Трофей Офиопиды
+				Tooltip: ""
+			}
+
+			TreasureBagOphioid: {
+				DisplayName: Мешок с сокровищами (Офиоид)
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			OphioidLarva: {
+				DisplayName: Офиоидная личинка
+				Tooltip:
+					'''
+					Призывает крошечную дружественную Офиопиду
+					'Маленькая Офиопида'
+					'''
+			}
+
+			MusicBoxMetamorphosis: {
+				DisplayName: Музыкальная шкатулка (Офиопида)
+				Tooltip: Проигрывает «Metamorphosis» за авторством Badassbunnyz
+			}
+
+			MusicBoxTheFly: {
+				DisplayName: Музыкальная шкатулка (Офиомуха)
+				Tooltip: Проигрывает «The Fly» за авторством Badassbunnyz
+			}
+
+			OphiopedeRelic: {
+				DisplayName: Реликвия Офиопиды
+				Tooltip: ""
+			}
+
+			OphioflyRelic: {
+				DisplayName: Реликвия Офиомухи
+				Tooltip: ""
+			}
+
+			DeadFungusbug: {
+				DisplayName: Мёртвая грибомуха
+				Tooltip:
+					'''
+					'Этот отвратный запах гнили исходящий от вашего творения может привлечь чьё-нибудь внимание...'
+					Призывает Офиопиду
+					'''
+			}
+
+			InfestedCompost: {
+				DisplayName: Заражённое удобрение
+				Tooltip:
+					'''
+					'Слияние органики и... чего-то мерзкого'
+					Призывает Офиопиду?
+					'''
+				SummonMessage: В воздухе осела влага и чувство беспокойства.
+			}
+
+			LivingCarrion: {
+				DisplayName: Живые останки
+				Tooltip:
+					'''
+					'Этот отвратный запах гнили исходящий от вашего творения может привлечь чьё-нибудь внимание...'
+					Призывает Офиопиду
+					'''
+			}
+		}
+
+		NPCs: {
+			EvenMoreVileSpit.DisplayName: Ещё более мерзкий плевок
+
+			FlyMinion: {
+				DisplayName: Офиоидный летающий миньон
+				Bestiary: Мелкие Офиоидные мушки
+			}
+
+			FlyMinionCacoon: {
+				DisplayName: Держатели кокона
+				Bestiary: Эти Офиоидные мушки охраняют Офиококон для защиты Офиомухи
+			}
+
+			Ophiocoon: {
+				DisplayName: Офиококон
+				Bestiary: Офиопида превращается в Офиомуху!
+				DeathMessage: Офиомуха вырывается из кокона!
+			}
+
+			MetaOphiocoon.DisplayName: Офиококон
+
+			Ophiofly: {
+				DisplayName: Офиомуха
+				Bestiary: Битва против Офиомухи.
+
+				BossChecklistIntegration: {
+					EntryName: Офиопида и Офиомуха
+					SpawnInfo: Используйте [i:OphioidMod/InfestedCompost] в любое время после победы над Офиопидой
+					DespawnMessage: Офиоид вновь сбегает в своё скрытое гнездо
+				}
+
+				DeathMessage: "{0} и его отвратная мерзость больше не чувствуется, Офиоид был повержен!"
+			}
+
+			OphiopedeHead: {
+				DisplayName: Офиопида
+				Bestiary: Первая битва против Офиопиды.
+
+				BossChecklistIntegration: {
+					SpawnInfo: Используйте [i:OphioidMod/DeadFungusbug] или [i:OphioidMod/LivingCarrion] в любое время
+					DespawnMessage: Офиопида скрывается в глубинах пещер
+					EntryName: Офиопида
+				}
+
+				DeathMessage: Заражённый червь повержен, но вы всё ещё чувствуете присутствие мерзкой энергии биома {0}.
+			}
+
+			OphiopedeBody.DisplayName: Офиопида
+			OphiopedeTail.DisplayName: Офиопида
+
+			OphiopedeHead2: {
+				DisplayName: Офиопида
+				Bestiary: Вторая битва против Офиопиды.
+				SummonMessage: Офиопида начинает свою метаморфозу!
+			}
+
+			OphSporeCloud.DisplayName: Офиоидное споровое облако
+
+			TheSeeing: {
+				DisplayName: Глазище
+				Bestiary: Разложившиеся глаза Офиопиды
+			}
+		}
+
+		Projectiles: {
+			BabyFlyPet.DisplayName: Мерзкая, но чертовски милая мушка
+			BabyOphiopedePet.DisplayName: Кроха Офиопида
+			Ophiobeam.DisplayName: Офиолуч
+			Ophiobeamichor.DisplayName: Ихоровый луч
+			PoisonCloud.DisplayName: Отравленное облако
+			ProjectileLaserBase.DisplayName: Основа лазера
+		}
+
+		Tiles: {
+			BossRelics.DisplayName: Реликвия босса
+
+			MusicBoxMetamorphosis: {
+				DisplayName: Музыкальная шкатулка
+				MapEntry: Музыкальная шкатулка (Офиопида)
+			}
+
+			MusicBoxTheFly: {
+				DisplayName: Музыкальная шкатулка
+				MapEntry: Музыкальная шкатулка (Офиомуха)
+			}
+
+			OphiodBossTrophy: {
+				DisplayName: Трофей босса
+				MapEntry: Трофей Офиоида
+			}
+		}
+
+		Achievements: {
+			OphiopedeKilled: {
+				FriendlyName: Эпидемия Офиоида
+				Description: Одержать победу над Офиопидой, первой стадией заражения мира злостными Офиоидами.
+			}
+
+			OphioflyKilled: {
+				FriendlyName: Метаморфоза
+				Description: Одержать победу над Офиомухой, последней стадией заражения мира мерзкими Офиоидами.
+			}
+		}

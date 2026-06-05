@@ -1,0 +1,179 @@
+/*		Configs: {
+			OreTypeConfig: {
+				Headers: {
+					PreHardmodeOres: Пре-Хардмодные руды
+					HardmodeOres: Хардмодные руды
+				}
+
+				DisplayName: Конфигурация типов руды
+
+				CopperOre: {
+					Label: Медный уровень
+					Tooltip: ""
+				}
+
+				IronOre: {
+					Label: Железный уровень
+					Tooltip: ""
+				}
+
+				SilverOre: {
+					Label: Серебряный уровень
+					Tooltip: ""
+				}
+
+				GoldOre: {
+					Label: Золотой уровень
+					Tooltip: ""
+				}
+
+				CobaltOre: {
+					Label: Кобальтовый уровень
+					Tooltip: ""
+				}
+
+				MythrilOre: {
+					Label: Мифриловый уровень
+					Tooltip: ""
+				}
+
+				AdamantiteOre: {
+					Label: Адамантитовый уровень
+					Tooltip: ""
+				}
+			}
+
+			CopperType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный тип
+					Tooltip: ""
+				}
+
+				Copper: {
+					Label: Медь
+					Tooltip: ""
+				}
+
+				Tin: {
+					Label: Олово
+					Tooltip: ""
+				}
+			}
+
+			IronType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный тип
+					Tooltip: ""
+				}
+
+				Iron: {
+					Label: Железо
+					Tooltip: ""
+				}
+
+				Lead: {
+					Label: Свинец
+					Tooltip: ""
+				}
+			}
+
+			SilverType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный тип
+					Tooltip: ""
+				}
+
+				Silver: {
+					Label: Серебро
+					Tooltip: ""
+				}
+
+				Tungsten: {
+					Label: Вольфрам
+					Tooltip: ""
+				}
+			}
+
+			GoldType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный тип
+					Tooltip: ""
+				}
+
+				Gold: {
+					Label: Золото
+					Tooltip: ""
+				}
+
+				Platinum: {
+					Label: Платина
+					Tooltip: ""
+				}
+			}
+
+			CobaltType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный тип
+					Tooltip: ""
+				}
+
+				Cobalt: {
+					Label: Кобальт
+					Tooltip: ""
+				}
+
+				Palladium: {
+					Label: Палладий
+					Tooltip: ""
+				}
+			}
+
+			MythrilType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный выбор
+					Tooltip: ""
+				}
+
+				Mythril: {
+					Label: Мифрил
+					Tooltip: ""
+				}
+
+				Orichalcum: {
+					Label: Орихалк
+					Tooltip: ""
+				}
+			}
+
+			AdamantiteType: {
+				Tooltip: ""
+
+				Random: {
+					Label: Случайный выбор
+					Tooltip: ""
+				}
+
+				Adamantite: {
+					Label: Адамантит
+					Tooltip: ""
+				}
+
+				Titanium: {
+					Label: Титан
+					Tooltip: ""
+				}
+			}
+		}
+		*/

@@ -1,0 +1,62 @@
+UI: {
+	WorldSizeTiny: Крошечный
+	WorldSizeHuge: Огромный
+	WorldSizeHMedium: Средний
+	WorldDescriptionSizeTiny: Мелкий и крайне компактный мир, идеален для проведения различных испытаний и тестов.
+	WorldDescriptionSizeHuge: Гигантский мир для долгих исследований или крупных серверов.
+}
+
+Configs: {
+	ExtraConfig: {
+		DisplayName: Дополнительная конфигурация
+
+		EnableTinyWorldSize: {
+			Label: Размер мира «Крошечный»
+			Tooltip: ""
+		}
+
+		EnableHugeWorldSize: {
+			Label: Размер мира «Огромный»
+			Tooltip: ""
+		}
+
+		DefaultWorldSize: {
+			Label: Стандартный размер мира
+			Tooltip: ""
+		}
+
+		EnableCompactMediumWorldTitle: {
+			Label: Сократить название среднего мира
+			Tooltip: ""
+		}
+	}
+
+	WorldSizeID: {
+		Tooltip: ""
+
+		Tiny: {
+			Label: Крошечный
+			Tooltip: ""
+		}
+
+		Small: {
+			Label: Маленький
+			Tooltip: ""
+		}
+
+		Medium: {
+			Label: Средний
+			Tooltip: ""
+		}
+
+		Large: {
+			Label: Большой
+			Tooltip: ""
+		}
+
+		Huge: {
+			Label: Огромный
+			Tooltip: ""
+		}
+	}
+}

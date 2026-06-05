@@ -1,0 +1,105 @@
+		Items: {
+			ImpurePaleOre: {
+				DisplayName: Нечистая бледная руда
+				Tooltip: ""
+			}
+
+			ImpurePaleOreFragment: {
+				DisplayName: Нечистый фрагмент бледной руды
+				Tooltip: ""
+			}
+
+			PaleOre: {
+				DisplayName: Бледная руда
+				Tooltip: ""
+			}
+
+			PaleOreFragment: {
+				DisplayName: Фрагмент бледной руды
+				Tooltip: ""
+			}
+
+			PurePaleOre: {
+				DisplayName: Чистая бледная руда
+				Tooltip: ""
+			}
+
+			SemiPurePaleOre: {
+				DisplayName: Наполовину чистая бледная руда
+				Tooltip: ""
+			}
+
+			ChannelledNail: {
+				DisplayName: Изборождённый гвоздь
+				Tooltip: ""
+			}
+
+			CoiledNail: {
+				DisplayName: Витой гвоздь
+				Tooltip: ""
+			}
+
+			OldNail: {
+				DisplayName: Старый гвоздь
+				Tooltip: ""
+			}
+
+			PureNail: {
+				DisplayName: Чистый гвоздь
+				Tooltip: ""
+			}
+
+			SharpenedNail: {
+				DisplayName: Заточенный гвоздь
+				Tooltip: ""
+			}
+
+			LittleGhostMask: {
+				Tooltip: ""
+				DisplayName: Маска маленького призрака
+				"20% bonus to magic and melee damage": Увеличивает магический урон и урон ближнего боя на 20%
+				SetBonus: ""
+			}
+
+			LittleGhostLegs: {
+				Tooltip: ""
+				DisplayName: Ноги маленького призрака
+			}
+
+			LittleGhostCloak: {
+				Tooltip: ""
+				DisplayName: Мантия маленького призрака
+			}
+
+			GhostsCloak: {
+				Tooltip: ""
+				DisplayName: Мантия призрака
+			}
+
+			LittleGhostsLegs: {
+				DisplayName: Ноги маленького призрака
+				Tooltip: ""
+			}
+
+			LittleGhostsMask: {
+				SetBonus: Mods.MudgysHollowKnightMod.Items.LittleGhostsMask.SetBonus
+				DisplayName: Маска маленького призрака
+				Tooltip: ""
+			}
+
+			HornetNeedle: {
+				DisplayName: Игла Хорнет
+				Tooltip: ""
+			}
+		}
+
+		NPCs.Shade.DisplayName: Тень
+
+		Projectiles: {
+			ChannelledNailProjectile.DisplayName: Изборождённый гвоздь
+			CoiledNailProjectile.DisplayName: Витой гвоздь
+			OldNailProjectile.DisplayName: Старый гвоздь
+			PureNailProjectile.DisplayName: Чистый гвоздь
+			SharpenedNailProjectile.DisplayName: Заточенный гвоздь
+			HornetNeedleProjectile.DisplayName: Игла Хорнет
+		}

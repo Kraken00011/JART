@@ -1,0 +1,88 @@
+"Keybinds.Polypebral Dash.DisplayName": Полипебральный рывок
+
+Items: {
+	chainSaw: {
+		DisplayName: Бензо-пила
+		Tooltip:
+			'''
+			Попадание по врагу накапливает заряд, постепенно ослепляющий вас, но увеличивающий шанс критического удара.
+			Нажмите ПКМ с хотя бы каким-то уровнем заряда, чтобы выстрелить несколькими глазами и использовать весь заряд
+			Не увеличивает шанс критического удара от соответствующих бонусов
+			'Бензо-ПИЛА!.. ну вы типа поняли, ПИЛА!.....'
+			'''
+	}
+
+	FusedEye: {
+		DisplayName: Сросшийся глаз
+		Tooltip:
+		'''
+		Призывает Полифемала 
+		Впадает в ярость днём
+		'''
+	}
+
+	Heterochromia: {
+		DisplayName: Гетерохромия
+		Tooltip:
+			'''
+			90% шанс не потратить боеприпасы
+			'Я выгляжу очень уважаемо'
+			'''
+	}
+
+	Homochromia: {
+		DisplayName: Гомохромия
+		Tooltip:
+			'''
+			90% шанс не потратить боеприпасы
+			'Никак не связанно с вашей гомосексуальностью'
+			'''
+	}
+
+	Nystagmus: {
+		DisplayName: Нистагм
+		Tooltip:
+			'''
+			Выпускает спирали самонаводящихся глаз
+			'Я учусь, только с буквами 'К' и 'Р' в начале'
+			'''
+	}
+
+	PolypebralShield: {
+		DisplayName: Полипебральный щит
+		Tooltip: ""
+	}
+
+	Prismachromancy: {
+		DisplayName: Призмахромия
+		Tooltip: Ослепи их!
+	}
+
+	Tetrachromancy: {
+		DisplayName: Тетрахромия
+		Tooltip:
+			'''
+			Призывает управляемого Полифе-мини
+			При прекращении атаки или контакте с любым блоком полифе-мини разделяется на 4 самонаводящихся глаза
+			'Теперь в HD цветах!'
+			'''
+	}
+}
+
+NPCs: {
+	Astigmageddon.DisplayName: Астигмагедон
+	Cataractacomb.DisplayName: Катарктобомба
+	Conjunctivirus.DisplayName: Конъюнктивирус
+	Exotrexia.DisplayName: Экзотрексия
+	polyphemalus.DisplayName: Полифемал
+}
+
+Projectiles: {
+	chainSawProjectile.DisplayName: Бензо-пила
+	NystagmusProjectileBlue.DisplayName: Синий самонаводящийся глаз
+	NystagmusProjectileGray.DisplayName: Серый самонаводящийся глаз
+	NystagmusProjectileGreen.DisplayName: Зелёный самонаводящийся глаз
+	NystagmusProjectileRed.DisplayName: Красный самонаводящийся глаз
+	PrismachromancyProjectile.DisplayName: Призмахромия
+	TetrachromancyProjectile.DisplayName: Тетрахромия
+}

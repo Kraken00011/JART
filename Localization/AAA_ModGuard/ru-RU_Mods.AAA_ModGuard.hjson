@@ -1,0 +1,108 @@
+/*Configs: {
+	GuardConfig: {
+		DisplayName: Конфигурация tModGuard
+
+		ShowInfoMessageOnLoad: {
+			Label: Показывать сообщение при загрузке игры
+			Tooltip: Если включено, an informational message will be shown each time tModGuard loads.
+		}
+
+		MonitorWebRequests: {
+			Label: Monitor Web Requests
+			Tooltip: Если включено, all web requests made by mods will be monitored and prompt for user approval.
+		}
+
+		AllowLocalWebRequests: {
+			Label: Allow Local Web Requests
+			Tooltip: Если включено, requests to your own computer (localhost) will be allowed automatically. These are typically safe and used by apps to communicate with each other on your PC.
+		}
+
+		PlaySoundNotifications: {
+			Label: Play Sound Notifications
+			Tooltip: Если включено, sound notifications will play when a mod attempts a monitored action.
+		}
+
+		MonitorProcessStarts: {
+			Label: Monitor Process Starts
+			Tooltip: Если включено, all attempts by mods to start external processes will be monitored and prompt for user approval.
+		}
+
+		MonitorFileReads: {
+			Label: Monitor File Reads
+			Tooltip: Если включено, all file read attempts by mods outside of safe directories will be monitored and prompt for user approval.
+		}
+
+		Headers: {
+			General: General Settings
+			Monitoring: Настройки слежки
+			Whitelist: Whitelists
+		}
+
+		WebRequestWhitelist: {
+			Label: Web Request Whitelist
+			Tooltip:
+				'''
+				List of URL prefixes that are automatically allowed without prompting. Web requests starting with these URLs will bypass monitoring.
+				The default entries are curated and considered safe. Only add your own entries if you understand the security implications.
+				'''
+		}
+
+		ProcessStartWhitelist: {
+			Label: Process Start Whitelist
+			Tooltip:
+				'''
+				List of full executable paths or directories that are automatically allowed without prompting. Process starts matching these entries will bypass monitoring.
+				Пример: "C:\Program Files\MyApp\app.exe" or "C:\Program Files\TrustedFolder\"
+				WARNING: This list is empty by default for security. Process names alone (e.g., "notepad.exe") are NOT supported - use full paths only.
+				'''
+		}
+
+		FileReadWhitelist: {
+			Label: File Read Whitelist
+			Tooltip:
+				'''
+				List of directory paths that are automatically allowed for file reading without prompting. File reads within these directories will bypass monitoring.
+				Пример: "C:\MyCustomData\"
+				Note: Terraria's save directory, content directories, and workshop paths are already allowed by default.
+				'''
+		}
+	}
+}
+
+UI: {
+	InfoMessage:
+		'''
+		tModGuard включён! Ваша игра была защищена во время загрузки игры Your game was protected during mod loading and is protected while you play.
+
+		This mod works quietly in the background to keep your game safe while using mods. It monitors for unusual behavior and will alert you whenever a mod tries to do something potentially risky, like connecting to the internet, accessing files it shouldn't, or running other programs. This way, you stay in control of what mods can do. You can also customize its behavior anytime through the Mod Config.
+
+		To disable this startup message: Open Mod Config > Select "tModGuard Config" > Uncheck "Show Info Message on Load"
+		'''
+
+	UnrecognizedWebRequest: {
+		Title: Запрос по неизвестной ссылке
+		FromTML: Похоже, tModLoader пытается совершить запрос по ссылке:
+		FromMod: Мод «{0}» пытается совершить запрос по ссылке:
+		Prompt: Разрешить выполнение этого запроса?
+		BlockedExceptionMessage: Запрос по ссылке был заблокирован пользователем
+	}
+
+	ProcessStart: {
+		Title: Попытка совершить действие
+		FromMod: Мод «{0}» пытается совершить действие:
+		Prompt: Разрешить выполнение этого действия?
+		BlockedExceptionMessage: Действие было заблокировано пользователем
+	}
+
+	FileRead: {
+		Title: Попытка открыть файл
+		FromTML: Похоже, tModLoader пытается открыть файл с названием:
+		FromMod: Мод «{0}» пытается открыть файл с названием:
+		Prompt: Разрешить открытие этого файла?
+		BlockedExceptionMessage: Просмотр файла был заблокирован пользователем
+	}
+
+	SecurityShutdownTriggeredByMod: The mod "{0}" attempted to tamper with tModGuard and has been blocked. The game has been closed and the mod disabled for your safety. See client.log for details.
+	SecurityShutdownTriggeredGeneric: A malicious assembly ({0}) attempted to tamper with tModGuard and has been blocked. The game has been closed for your safety. See client.log for details.
+}
+*/

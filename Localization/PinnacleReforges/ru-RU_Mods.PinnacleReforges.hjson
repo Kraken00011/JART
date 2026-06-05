@@ -1,0 +1,47 @@
+Items: {
+	Rune: {
+		DisplayName: Руна
+		Tooltip: Нажмите ПКМ по предмету в инвентаре во время ношения какого-либо предмета в руках, чтобы сменить его перековку
+	}
+}
+
+Prefixes: {
+	Accurate.DisplayName: Точный
+	Automatic.DisplayName: Автоматизированный
+	Burst.DisplayName: Шквальный
+	Candid.DisplayName: Прямолинейный
+	Consistent.DisplayName: Постоянный
+	Desperate.DisplayName: Отчаянный
+	Disciplined.DisplayName: Организованный
+	Disruptive.DisplayName: Разрушительный
+	Efficient.DisplayName: Эффективный
+	Energetic.DisplayName: Энергичный
+	Explosive.DisplayName: Взрывной
+	Extended.DisplayName: Продлённый
+	Fatal.DisplayName: Фатальный
+	Inaccurate.DisplayName: Кривой
+	Inefficient.DisplayName: Неэффективный
+	Juxtaposing.DisplayName: Несравненный
+	Long.DisplayName: Дальний
+	Mad.DisplayName: Разъярённый
+	Meditating.DisplayName: Успокаивающий
+	Modified.DisplayName: Модифицированный
+	Monstrous.DisplayName: Зверский
+	Optimized.DisplayName: Оптимизированный
+	Protective.DisplayName: Оберегающий
+	Rejuvenating.DisplayName: Восстанавливающийся
+	Scoped.DisplayName: Прицельный
+	Sentient.DisplayName: Разумный
+	Tamed.DisplayName: Укрощённый
+	Unerring.DisplayName: Верный
+	Unrelenting.DisplayName: Свирепый
+	Unstoppable.DisplayName: Неудержимый
+	Vorpal.DisplayName: Разящий
+	Worthless.DisplayName: Бесполезный
+	Zany.DisplayName: Забавный
+}
+
+Projectiles: {
+	Explosion.DisplayName: Взрыв
+	Missile.DisplayName: Ракета
+}

@@ -1,0 +1,115 @@
+		Items: {
+			CorruptionKeyMold: {
+				DisplayName: Слепок искажённого ключа
+				Tooltip: Используется в создании искажённого ключа
+			}
+
+			CrimsonKeyMold: {
+				DisplayName: Слепок багряного ключа
+				Tooltip: Используется в создании искажённого ключа
+			}
+
+			FrozenKeyMold: {
+				DisplayName: Слепок замороженного ключа
+				Tooltip: Используется в создании замороженного ключа
+			}
+
+			HallowedKeyMold: {
+				DisplayName: Слепок освящённого ключа
+				Tooltip: Используется в создании освящённого ключа
+			}
+
+			JungleKeyMold: {
+				DisplayName: Слепок ключа джунглей
+				Tooltip: Используется в создании ключа джунглей
+			}
+
+			OrbOfLight: {
+				DisplayName: Сфера света
+				Tooltip: Призывает магическую сферу света
+			}
+
+			SolarCultistMask: {
+				DisplayName: Маска солнечного культиста
+				Tooltip: ""
+			}
+
+			GoblinMask: {
+				Tooltip: ""
+				DisplayName: Маска гоблина
+			}
+
+			EtherianGoblinMask: {
+				DisplayName: Маска этерианского гоблина
+				Tooltip: ""
+			}
+
+			EtherianGoblinBomberCap: {
+				Tooltip: ""
+				DisplayName: Кепка этерианского гоблина-подрывника
+			}
+
+			DreadnautilusTrophy: {
+				Tooltip: ""
+				DisplayName: Трофей Дреднаутилуса
+			}
+
+			DesertKeyMold: {
+				Tooltip: Используется в создании пустынного ключа
+				DisplayName: Слепок пустынного ключа
+			}
+
+			MutatedOgreMask: {
+				DisplayName: Маска мутировавшего огра
+				Tooltip: ""
+			}
+
+			KoboldDynamiteBackpack: {
+				DisplayName: Рюкзак кобольда с динамитом
+				Tooltip: ""
+			}
+
+			Scythe: {
+				DisplayName: Коса
+				Tooltip: "'Если забыть свои страхи, можно и обезуметь...'"
+			}
+
+			Icemourne: {
+				DisplayName: Леденящая скорбь
+				Tooltip:
+					'''
+					Стреляет ледяными сгустками энергии
+					'Как клинок рвёт плоть, так и разум должен душу калечить.'
+					'''
+			}
+
+			SoulScythe: {
+				DisplayName: Коса душ
+				Tooltip: "'MAKA CHOP!'"
+			}
+
+			LesserRestorationPotion: {
+				Tooltip: Имеет сниженную длительность послезельевой болезни в сравнении с обычными зельями
+				DisplayName: Малое зелье восстановления
+			}
+		}
+
+		DropConditions: {
+			CorruptionKeyMold: Mods.Miscellanaria.DropConditions.CorruptionKeyMold
+			CrimsonKeyMold: Mods.Miscellanaria.DropConditions.CrimsonKeyMold
+			FrozenKeyMold: Mods.Miscellanaria.DropConditions.FrozenKeyMold
+			HallowedKeyMold: Mods.Miscellanaria.DropConditions.HallowedKeyMold
+			JungleKeyMold: Mods.Miscellanaria.DropConditions.JungleKeyMold
+			DesertKeyMold: Mods.Miscellanaria.DropConditions.DesertKeyMold
+		}
+
+		Buffs: {
+			OrbOfLightBuff: {
+				DisplayName: Сфера света
+				Description: Магическая сфера освещает ваш путь
+			}
+		}
+
+		Projectiles.OrbOfLightProjectile.DisplayName: Сфера света
+
+ItemName.FirstFractal: Первый фрактал

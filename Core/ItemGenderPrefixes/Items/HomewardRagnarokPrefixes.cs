@@ -1,0 +1,28 @@
+using Terraria.Localization;
+using Terraria.ModLoader;
+
+internal class HomewardRagnarokPrefixes : ModSystem
+{
+    public override bool IsLoadingEnabled(Mod mod)
+    {
+        return ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
+    }
+    public override void PostSetupContent()
+    {
+        ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
+        ModLoader.TryGetMod("HomewardRagnarok", out Mod homewardRagnarok);
+
+        if (tru != null && homewardRagnarok != null)
+        {
+            tru.Call("AddFeminineItems", homewardRagnarok, new string[]
+            {
+                "TheBibleOfTheThrowerVol4",
+                "EvilFlask"
+            });
+            tru.Call("AddNeuterItems", homewardRagnarok, new string[]
+            {
+                "BabyOil"
+            });
+        }
+    }
+}

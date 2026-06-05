@@ -1,0 +1,412 @@
+Configs: {
+	ProgressionTier: {
+		Tooltip: ""
+
+		None: {
+			Label: None
+			Tooltip: ""
+		}
+
+		PreBoss: {
+			Label: Пре-босс
+			Tooltip: ""
+		}
+
+		PostGoblinInvasion: {
+			Label: Пост-нашествие гоблинов
+			Tooltip: ""
+		}
+
+		PostDesertScourge: {
+			Label: Пост-Пустынный бич
+			Tooltip: ""
+		}
+
+		PostEyeOfCthulhu: {
+			Label: Пост-Глаз Ктулху
+			Tooltip: ""
+		}
+
+		PostEaterOfWorlds: {
+			Label: Пост-Пожиратель миров
+			Tooltip: ""
+		}
+
+		PostBrainOfCthulhu: {
+			Label: Пост-Мозг Ктулху
+			Tooltip: ""
+		}
+
+		PostEvilBoss: {
+			Label: Пост-Босс зла
+			Tooltip: ""
+		}
+
+		PostHiveMind: {
+			Label: Пост-Разум улья
+			Tooltip: ""
+		}
+
+		PostPerforators: {
+			Label: Пост-улей Перфораторов
+			Tooltip: ""
+		}
+
+		PostHiveMindOrPerforators: {
+			Label: Пост-Разум улья или улей Перфораторов
+			Tooltip: ""
+		}
+
+		PostQueenBee: {
+			Label: Пост-Королева пчёл
+			Tooltip: ""
+		}
+
+		PostSkeletron: {
+			Label: Пост-Скелетрон
+			Tooltip: ""
+		}
+
+		PostSlimeGod: {
+			Label: Пост-Бог слизней
+			Tooltip: ""
+		}
+
+		Hardmode: {
+			Label: Хардмод
+			Tooltip: ""
+		}
+
+		PostCryogen: {
+			Label: Пост-Криоген
+			Tooltip: ""
+		}
+
+		PostAquaticScourge: {
+			Label: Пост-Акватический бич
+			Tooltip: ""
+		}
+
+		PostMechanicalBosses: {
+			Label: Пост-Механические боссы
+			Tooltip: ""
+		}
+
+		PostPlantera: {
+			Label: Пост-Плантера
+			Tooltip: ""
+		}
+
+		PostGolem: {
+			Label: Пост-Голем
+			Tooltip: ""
+		}
+
+		PostLunaticCultist: {
+			Label: Пост-Культист-лунатик
+			Tooltip: ""
+		}
+
+		PostMoonLord: {
+			Label: Пост-Лунный лорд
+			Tooltip: ""
+		}
+
+		PostProvidence: {
+			Label: Пост-Провиденс
+			Tooltip: ""
+		}
+	}
+
+	ProgressionConfig: {
+		DisplayName: Конфигурация прогрессии
+		Headers.PlayerCustomization: Игровая кастомизация
+
+		CustomItemOverrides: {
+			Label: Custom Item Overrides
+			Tooltip:
+				'''
+				Select an item and choose a new tier to overwrite its default progression.
+				Changes require a mod reload!
+				'''
+		}
+
+		Overrides: {
+			Label: Open Custom Item Overrides Menu
+			Tooltip: Click here to open the full-screen menu to edit progression tiers!
+		} 
+	}
+
+	UITier: {
+		PreBoss: {
+			Label: Пре-босс
+			Tooltip: Ванилла
+		}
+
+		PostGoblinInvasion: {
+			Label: Пост-нашествие гоблинов
+			Tooltip: Ванилла
+		}
+
+		PostKingSlime: {
+			Label: Пост-Король слизней
+			Tooltip: Ванилла
+		}
+
+		PostEyeOfCthulhu: {
+			Label: Пост-Глаз Ктулху
+			Tooltip: Ванилла
+		}
+
+		PostEaterOfWorlds: {
+			Label: Пост-Пожиратель миров
+			Tooltip: Ванилла
+		}
+
+		PostBrainOfCthulhu: {
+			Label: Пост-Мозг Ктулху
+			Tooltip: Ванилла
+		}
+
+		PostQueenBee: {
+			Label: Пост-Королева пчёл
+			Tooltip: Ванилла
+		}
+
+		PostSkeletron: {
+			Label: Пост-Скелетрон
+			Tooltip: Ванилла
+		}
+
+		Hardmode: {
+			Label: Хардмод
+			Tooltip: Ванилла
+		}
+
+		PostMechanicalBosses: {
+			Label: Пост-Механические боссы
+			Tooltip: Ванилла
+		}
+
+		PostPlantera: {
+			Label: Пост-Плантера
+			Tooltip: Ванилла
+		}
+
+		PostGolem: {
+			Label: Пост-Голем
+			Tooltip: Ванилла
+		}
+
+		PostLunaticCultist: {
+			Label: Пост-Культист-лунатик
+			Tooltip: Ванилла
+		}
+
+		PostMoonLord: {
+			Label: Пост-Лунный лорд
+			Tooltip: Ванилла
+		}
+
+		Tooltip: ""
+		PostDesertScourge: {
+			Label: "[c/FFA500:Пост-Пустынный бич]"
+			Tooltip: Calamity Mod
+		}
+
+		PostHiveMind: {
+			Label: "[c/FFA500:Пост-Разум улья]"
+			Tooltip: Calamity Mod
+		}
+
+		PostPerforators: {
+			Label: "[c/FFA500:Пост-улей Перфораторов]"
+			Tooltip: Calamity Mod
+		}
+
+		PostSlimeGod: {
+			Label: "[c/FFA500:Пост-Бог слизней]"
+			Tooltip: Calamity Mod
+		}
+
+		PostCryogen: {
+			Label: "[c/FFA500:Пост-Криоген]"
+			Tooltip: Calamity Mod
+		}
+
+		PostAquaticScourge: {
+			Label: "[c/FFA500:Пост-Акватический бич]"
+			Tooltip: Calamity Mod
+		}
+
+		PostCalamitasClone: {
+			Label: "[c/FFA500:Пост-Клон Каламитас]"
+			Tooltip: Calamity Mod
+		}
+
+		PostLeviathanandAnahita: {
+			Label: "[c/FFA500:Пост-Левиафан и Анахита]"
+			Tooltip: Calamity Mod
+		}
+
+		PostAstrumAureus: {
+			Label: "[c/FFA500:Пост-Аструм Ареус]"
+			Tooltip: Calamity Mod
+		}
+
+		PostAstrumDeus: {
+			Label: "[c/FFA500:Пост-Аструм Деус]"
+			Tooltip: Calamity Mod
+		}
+
+		PostProvidence: {
+			Label: "[c/FFA500:Пост-Провиденс]"
+			Tooltip: Calamity Mod
+		}
+
+		PostLeviathanAndAnahita: {
+			Label: "[c/FFA500:Пост-Левиафан и Анахита]"
+			Tooltip: Calamity Mod
+		}
+
+		PostPolterghast: {
+			Label: "[c/FFA500:Пост-Полтергаст]"
+			Tooltip: Calamity Mod
+		}
+
+		PostDevourerOfGods: {
+			Label: "[c/FFA500:Пост-Пожиратель богов]"
+			Tooltip: Calamity Mod
+		}
+
+		PostYharon: {
+			Label: "[c/FFA500:Пост-Ярон]"
+			Tooltip: Calamity Mod
+		}
+
+		PostExoMechs: {
+			Label: "[c/FFA500:Пост-Экзо-механизмы]"
+			Tooltip: Calamity Mod
+		}
+
+		PostSupremeCalamitas: {
+			Label: "[c/FFA500:Пост-Высшая Каламитас]"
+			Tooltip: Calamity Mod
+		}
+
+
+		PostOneShot: {
+			Label: "[c/BA55D3:Пост-Ван-шот]"
+			Tooltip: Split Mod
+		}
+
+		PostSpirit: {
+			Label: "[c/BA55D3:Пост-Спирит]"
+			Tooltip: Split Mod
+		}
+
+		PostMenace: {
+			Label: "[c/BA55D3:Пост-Угроза]"
+			Tooltip: Split Mod
+		}
+
+		PostBreathTaker: {
+			Label: "[c/BA55D3:Post Breath Taker]"
+			Tooltip: Split Mod
+		}
+
+		PostParaffin: {
+			Label: "[c/BA55D3:Пост-Парафин]"
+			Tooltip: Split Mod
+		}
+
+		PostMirage: {
+			Label: "[c/BA55D3:Пост-Мираж]"
+			Tooltip: Split Mod
+		}
+
+		PostInsurgent: {
+			Label: "[c/BA55D3:Пост-Восставший]"
+			Tooltip: Split Mod
+		}
+
+		PostSeth: {
+			Label: "[c/BA55D3:Пост-Сет]"
+			Tooltip: Split Mod
+		}
+
+
+		PostGrandThunderBird: {
+			Label: Пост-Великая громовая птица
+			Tooltip: Thorium Mod
+		}
+
+		PostBuriedChampion: {
+			Label: "[c/20B2AA:Пост-Погребённый чемпион]"
+			Tooltip: Thorium Mod
+		}
+
+		PostStarScouter: {
+			Label: "[c/20B2AA:Пост-Звёздный странник]"
+			Tooltip: Thorium Mod
+		}
+
+		PostBoreanStrider: {
+			Label: "[c/20B2AA:Пост-Борейский шагатель]"
+			Tooltip: Thorium Mod
+		}
+
+		PostFallenBeholder: {
+			Label: "[c/20B2AA:Пост-Падший созерцатель]"
+			Tooltip: Thorium Mod
+		}
+
+		PostThePrimordials: {
+			Label: "[c/20B2AA:Пост-Первородные]"
+			Tooltip: Thorium Mod
+		}
+	}
+
+	OverridePage: {
+		CustomItemOverrides: {
+			Label: Custom Item Overrides
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+	}
+
+	OverrideEntry: {
+		Tooltip: ""
+
+		Item: {
+			Label: Предмет
+			Tooltip: Выберите предмет, который хотите изменить.
+		}
+
+		Tier: {
+			Label: Тир
+			Tooltip: Выберите новый тир прогрессии.
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: Серверная конфигурация
+		Headers.PlayerCustomization: Игровая кастомизация
+
+		CustomItemOverrides: {
+			Label: Custom Item Overrides
+			Tooltip: Add items here to override their default progression tier.
+		}
+	}
+
+	ClientConfig: {
+		CustomItemOverrides: {
+			Tooltip: Add items here to override their default progression tier.
+			Label: Custom Item Overrides
+		}
+
+		Headers.PlayerCustomization: Игровая кастомизация
+		DisplayName: Клиентская конфигурация
+	}
+}

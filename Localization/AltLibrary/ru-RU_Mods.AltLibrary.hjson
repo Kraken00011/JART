@@ -1,0 +1,521 @@
+/*		MoonEclipse: Началось лунное затмение!
+		Analysis: Анализ
+		AnalysisNext: Следующая страница
+		AnalysisPage: (Страница #{0})
+		AnalysisDone: Hey {0}, I've been running some data on {1}. Take a look!
+		BiomeOrOreModSecret: It's a secret to everybody
+
+		CLI: {
+			SelectOres: "Выбрать руды? ({0}/{1}): "
+			ChooseEvil: Выберите мировое зло:
+			ChooseHallow: Выберите мировое Освящение:
+			ChooseHell: Выберите мировой ад:
+			ChooseJungle: Выберите мировые джунгли:
+			ChooseOre: Выберите мировое {0}:
+		}
+
+		TownNPCMood: {
+			PieChartTownNPC: {
+				Content: Nothing much to report.
+				NoHome: I'm no stranger to the dangers of this world, but it would be nice to have a home base.
+				LoveSpace: I have just enough room to not be interrupted!
+				FarFromHome: This expedition has been fascinating, but I would like to go home now.
+				DislikeCrowded: It's distracting having this many people around.
+				HateCrowded: Give me some space, people! I can't function like this!
+				LikeBiome: The cool breeze of {BiomeName} keeps my tech at tip-top performance!
+				LoveBiome: Organizing my files is a breeze here in {BiomeName}!
+				DislikeBiome: I can't say I like {BiomeName}, my equipment overheats far too easily.
+				HateBiome: While {BiomeName} makes for a great research trip, I really would rather not stay here.
+				LikeNPC: I could collect so much data using {NPCName}!
+				LoveNPC: "{NPCName} makes me feel things I don't understand!"
+				DislikeNPC: "{NPCName} just will not leave me alone."
+				HateNPC: I need {NPCName} out of my life. ASAP.
+			}
+		}
+
+		BlessBase: Ваш мир благословлён {0}!
+		WorldBreak: Один из биомов, с которым был создан этот мир, был удален, это может привести к серьезной поломке!
+		AddedBy: Добавлено:
+		ChooseBiome: Биомы
+		ChooseOre: Руды пре-хардмода
+		ChooseHardmodeOre: Руды хардмода
+
+		Config: {
+			Randomization: Рандомизация
+
+			PreviewVisible: {
+				Label: Предосмотр создания мира
+				Tooltip: Какие слои будут прогружены в превью создания мира
+			}
+
+			BiomeIconsVisibleOutsideBiomeUI: {
+				Label: Видимость иконок биома вне интерфейса биома
+				Tooltip: Когда включено, вы сможете видеть иконки биома всегда при создании мира
+			}
+
+			OreIconsVisibleOutsideOreUI: {
+				Label: Видимость иконок руд вне интерфейса руд
+				Tooltip: Когда включено, вы сможете видеть иконки руд всегда при создании мира
+			}
+
+			SpecialSeedWorldPreview: {
+				Label: Предосмотр особых генераций
+				Tooltip: Когда включено, иконка мира будет изменяться в зависимости от того, в каком секретном сиде вы находитесь
+			}
+
+			VanillaShowUpIfOnlyAltVarExist: {
+				Label: Biomes show up only if have alternative
+				Tooltip: When true, you won't be able to see some vanilla biomes if they don't have Alternative Biome
+			}
+
+			HardmodeGenRandom: {
+				Label: Generates random biomes on Hardmode generation in Drunk Worlds
+				Tooltip: When true, there will be a chance for hallow be replaced with random jungle alt and for evil to be replaced with random underworld alt
+			}
+
+			SecretFeatures: {
+				Label: Secret Features
+				Tooltip: When false, none secret features will show up nor loaded
+			}
+		}
+
+		OreHelpTextBase: Try combining a Hellforge with some {0} ore. I bet you could make some really powerful stuff with that!
+		HallowBunnyCageTooltip: "'Я клянусь, ты за это поплатишься!'"
+
+		AltOreName: {
+			RandomCopper: Случайный вариант меди
+			RandomIron: Случайный вариант железа
+			RandomSilver: Случайный вариант серебра
+			RandomGold: Случайный вариант золота
+			RandomCobalt: Случайный вариант кобальта
+			RandomMythril: Случайный вариант мифрила
+			RandomAdamantite: Случайный вариант адамантита
+			Copper: Медь
+			Tin: Олово
+			Iron: Железо
+			Lead: Свинец
+			Silver: Серебро
+			Tungsten: Вольфрам
+			Gold: Золото
+			Platinum: Платина
+			Cobalt: Кобальт
+			Palladium: Палладиум
+			Mythril: Мифрил
+			Orichalcum: Орихалк
+			Adamantite: Адамантит
+			Titanium: Титан
+		}
+
+		AltOreDescription: {
+			RandomCopper: Выбираем медную руду за вас!
+			RandomIron: Выбираем железную руду за вас!
+			RandomSilver: Выбираем серебряную руду за вас!
+			RandomGold: Выбираем золотую руду за вас!
+			RandomCobalt: Выбираем кобальтовую руду за вас!
+			RandomMythril: Выбираем мифриловую руду за вас!
+			RandomAdamantite: Выбираем адамантитовую руду за вас!
+		}
+
+		AltBiomeName: {
+			Evil: зло
+			Hallow: Освящение
+			Jungle: Джунгли
+			Hell: Преисподняя
+			CorruptBiome: Искажение
+			CrimsonBiome: Багрянец
+			HallowBiome: Освящение
+			JungleBiome: Джунгли
+			UnderworldBiome: Преисподняя
+		}
+
+		AltBiomeDescription: {
+			RandomEvilBiome: Выбираем мировое зло за вас!
+			RandomHallowBiome: Выбираем мировое добро за вас!
+			RandomJungleBiome: Выбираем тропический биом за вас!
+			RandomUnderworldBiome: Выбираем биом преисподней за вас!
+			CorruptBiome: Фиолетовый биом, состоящий из гниющих врагов, которые будут защищать свой ландшафт любой ценой.
+			CrimsonBiome: Кроваво-красный биом, состоящий из кровавых существ, проявленных землей, которые будут защищать биом любой ценой.
+			HallowBiome: Освященный пейзаж, наполненный надеждой, мечтами с настоящими единорогами и феями.
+			JungleBiome: Процветающее место, полное густых деревьев и множеством пчел. Глубоко под поверхностью джунглей располагается древний храм.
+			UnderworldBiome: Раскаленный до предела ландшафт, разрушенный временем, наполненный лавой и демонами, бродящими по разрушенным пустошам.
+		}
+
+		Warn: {
+			VanillaBiome: Этот биом из Ваниллы
+			ModdedBiome: Этот биом из мода {0}
+			VanillaOre: Эта руда из Ваниллы
+			ModdedOre: Эта руда из мода {0}
+		}
+
+		RecipeGroups: {
+			EvilOres: Руда зла
+			EvilBars: Слиток зла
+			HallowBars: Святой слиток
+			HellBars: Слиток из преисподней
+			JungleBars: Тропический слиток
+			MushroomBars: Грибной слиток
+			EvilSwords: Злой меч
+			HallowSwords: Святой меч
+			HellSwords: Меч из преисподней
+			JungleSwords: Тропический меч
+			ComboSwords: Меч комбинации
+			TrueComboSwords: Истинный меч комбинации
+			TrueHallowSwords: Истинный святой меч
+			RottenChunks: Пороченный внутренности
+			PixieDusts: Святой остаток
+			UnicornHorns: Святые внутренности
+			CrystalShards: Святые компоненты
+			CursedFlames: Пороченные компоненты
+			ShadowScales: Материал с босса зла
+			JungleSpores: Тропический компонент
+			Deathweed: Злое растение
+			Fireblossom: Растение из преисподней
+			Moonglow: Тропическое растение
+			Hellforges: Адская кузня
+			CopperBars: Медный слиток
+			IronBars: Железный слиток
+			SilverBars: Серебряный слиток
+			GoldBars: Золотой слиток
+			CobaltBars: Кобальтовый слиток
+			MythrilBars: Мифриловый слиток
+			AdamantiteBars: Адамантитовый слиток
+			GoldCandles: Золотая свеча
+			CopperWatches: Медные часы
+			SilverWatches: Серебряные часы
+			GoldWatches: Золотые часы
+			IronOres: Железная руда
+			GoldOres: Золотая руда
+		}
+
+		DryadSpecialText: {
+			WorldStatusGoodEvil: "Мир {0} - на {1}% свят и на {2}% заражён."
+			WorldStatusGood: "Мир {0} - на {1}% свят."
+			WorldStatusEvil: "Мир {0} - на {1}% заражён."
+			WorldStatusCorrupt: искажение
+			WorldStatusCrimson: багрянец
+			WorldStatusHallow: освящение
+			WorldStatusPart: "{0}% {1}"
+			WorldStatusConnection: ", "
+			WorldStatusLastConnection: ", и "
+			WorldStatus: "{0} это {1}."
+		}
+
+		DropRule.Base: Выпадает в мирах с биомом {0}
+
+		Condition: {
+			Base: В мирах с биомом {0}
+			NotBase: В мирах без биома {0}
+		}
+
+		Common: {
+			DevTooltip: 'Отлично подходит для подражания внешности разработчиков!'
+			FormerDevTooltip: Отлично подходит для подражания внешности бывших разработчиков Alternatives Library!
+			FoxTooltip: Отлично подходит для подражания внешности Katastrophenmacheren!
+		}
+
+		BunReason: {
+			0: Игрока {0} сожрали кролики.
+			1: "{0} был уничтожен жестокими правилами игры."
+			2: "{0} был уничтожен кроликами."
+			3: "{0} упал в кроличью нору."
+			4: У игрока {0} была перегрузка милоты.
+			5: "{0} был убит собственным творением."
+			6: Игрока {0} жестоко бупкнули.
+		}
+
+		Items: {
+			CaceEars: {
+				DisplayName: Cace Ears
+				Tooltip: "{$Common.FormerDevTooltip}"
+			}
+
+			FoxMask: {
+				DisplayName: Маска лисы
+				Tooltip: "{$Common.FoxTooltip}"
+			}
+
+			FoxPants: {
+				DisplayName: Штаны лисы
+				Tooltip: "{$Common.FoxTooltip}"
+			}
+
+			FoxShirt: {
+				DisplayName: Рубашка лисы
+				Tooltip: "{$Common.FoxTooltip}"
+			}
+		}
+
+		Configs: {
+			AltLibraryConfig: {
+				DisplayName: Конфигурация
+
+				VanillaShowUpIfOnlyAltVarExist: {
+					Label: Biomes show up only if have alternative
+					Tooltip: When true, you won't be able to see some vanilla biomes if they don't have Alternative Biome
+				}
+
+				SpecialSeedWorldPreview: {
+					Label: Иконки особых генераций
+					Tooltip: When true, the world preview image will change depending on any secret seed you enter
+				}
+
+				PreviewVisible: {
+					Label: Предпросмотр генерации мира
+					Tooltip: Which layers should be rendered on World Creation Preview
+				}
+
+				BiomeIconsVisible: {
+					Label: Отображение иконок биомов
+					Tooltip: When disabled, biome selection icons will use the "base" version of the biome
+				}
+
+				OreIconsVisible: {
+					Label: Отображение иконок руд
+					Tooltip: When disabled, ore selection icons will use the "base" version of the ore
+				}
+
+				ZenithIconJank: {
+					Label: Дополнительная глючность иконки генерации «Zenith»
+					Tooltip: ""
+				}
+
+				OldWorldCreationUI: {
+					Label: Старый интерфейс создания мира
+					Tooltip: ""
+				}
+
+				DrunkMaxBiomes: {
+					Label: Drunk World Max Evil Biomes
+					Tooltip: Set to 0 to not limit the number of evil biomes which can generate in drunk worlds
+				}
+			}
+
+			AltLibraryServerConfig: {
+				DisplayName: Серверная конфигурация
+
+				SecretFeatures: {
+					Label: Скрытые функции
+					Tooltip: When false, no secret features will be loaded
+				}
+
+				HardmodeGenRandom: {
+					Label: Generates random biomes on Hardmode generation in Drunk Worlds
+					Tooltip: When true, there will be a chance for hallow be replaced with random jungle alt and for evil to be replaced with random underworld alt
+				}
+			}
+		}
+
+		AltBiomes: {
+			CrimsonBiome: {
+				DisplayName: Багрянец
+				Description: "{$UI.WorldDescriptionEvilCrimson}"
+				GenPassName: Биом Багрянца
+			}
+
+			CorruptBiome: {
+				DisplayName: Искажение
+				Description: "{$UI.WorldDescriptionEvilCorrupt}"
+				GenPassName: Биом Искажения
+			}
+
+			DebuggingHallowBiome: {
+				DisplayName: Биом Освящения отладки
+				Description: Биом Освящения отладки
+				GenPassName: Биом Освящения отладки
+				DryadTextDescriptor: Биом Освящения отладки
+			}
+
+			DebuggingHellBiome: {
+				DisplayName: AltLibrary
+				Description: Биом преисподней отладки
+				GenPassName: Биом преисподней отладки
+				DryadTextDescriptor: Биом преисподней отладки
+			}
+
+			DebuggingJungleBiome: {
+				DisplayName: Биом джунглей отладки
+				Description: Биом джунглей отладки
+				GenPassName: Биом джунглей отладки
+				DryadTextDescriptor: Биом джунглей отладки
+			}
+
+			Deconvert: {
+				DisplayName: Деконвертация
+				Description: Деконвертация
+				GenPassName: Деконвертация
+				DryadTextDescriptor: Деконвертация
+			}
+
+			DesertBiome: {
+				DisplayName: Биом пустыни
+				Description: Биом пустыни
+				GenPassName: Биом пустыни
+				DryadTextDescriptor: Биом пустыни
+			}
+
+			ForestBiome: {
+				DisplayName: Биом леса
+				Description: Биом леса
+				GenPassName: Биом леса
+				DryadTextDescriptor: Биом леса
+			}
+
+			HallowBiome: {
+				DisplayName: Освящение
+				Description: Биом освящения
+				GenPassName: Биом освящения
+			}
+
+			JungleBiome: {
+				DisplayName: Джунгли
+				Description: Биом джунглей
+				GenPassName: Биом джунглей
+				DryadTextDescriptor: Биом джунглей
+			}
+
+			Mushroom: {
+				DisplayName: Грибы
+				Description: Грибы
+				GenPassName: Грибы
+				DryadTextDescriptor: Грибы
+			}
+
+			SnowBiome: {
+				DisplayName: Снежный биом
+				Description: Снежный биом
+				GenPassName: Снежный биом
+				DryadTextDescriptor: Снежный биом
+			}
+
+			UnderworldBiome: {
+				DisplayName: Преисподняя
+				Description: Биом преисподней
+				GenPassName: Биом преисподней
+				DryadTextDescriptor: Биом преисподней
+			}
+
+			RandomOptionBiome: {
+				DisplayName: Случайное {0}
+				Description: Выбирает случайное {0} за вас
+			}
+
+			DebuggingNoneBiome: {
+				DisplayName: Биом ничего отладки
+				Description: Биом ничего отладки
+				GenPassName: Биом ничего отладки
+				DryadTextDescriptor: Биом ничего отладки
+			}
+
+			DebuggingNoneBiome2: {
+				DisplayName: Биом ничего отладки2
+				Description: Биом ничего отладки2
+				GenPassName: Биом ничего отладки2
+				DryadTextDescriptor: Биом ничего отладки2
+			}
+		}
+
+		AltOres: {
+			RandomOptionOre: {
+				DisplayName: Случайная {0}
+				Description: Выбирает за вас случайную {0}
+			}
+
+			AdamantiteAltOre: {
+				DisplayName: Адамантит
+				Description: ""
+				BlessMessage: "[c/DD5598:Ваш мир благословлён {0}!]"
+			}
+
+			CobaltAltOre: {
+				DisplayName: Кобальт
+				Description: ""
+				BlessMessage: "[c/1A69A1:Ваш мир благословлён {0}!]"
+			}
+
+			CopperAltOre: {
+				DisplayName: Медь
+				Description: ""
+			}
+
+			GoldAltOre: {
+				DisplayName: Золото
+				Description: ""
+			}
+
+			IronAltOre: {
+				DisplayName: Железо
+				Description: ""
+			}
+
+			LeadAltOre: {
+				DisplayName: Свинец
+				Description: ""
+			}
+
+			MythrilAltOre: {
+				DisplayName: Мифрил
+				Description: ""
+				BlessMessage: "[c/5D9358:Ваш мир благословлён {0}!]"
+			}
+
+			OrichalcumAltOre: {
+				DisplayName: Орихалк
+				Description: ""
+				BlessMessage: "[c/A3169E:Ваш мир благословлён {0}!]"
+			}
+
+			PalladiumAltOre: {
+				DisplayName: Палладий
+				Description: ""
+				BlessMessage: "[c/EB572F:Ваш мир благословлён {0}!]"
+			}
+
+			PlatinumAltOre: {
+				DisplayName: Платина
+				Description: ""
+			}
+
+			SilverAltOre: {
+				DisplayName: Серебро
+				Description: ""
+			}
+
+			TinAltOre: {
+				DisplayName: Олово
+				Description: ""
+			}
+
+			TitaniumAltOre: {
+				DisplayName: Титан
+				Description: ""
+				BlessMessage: "[c/B9C2D7:Ваш мир благословлён {0}!]"
+			}
+
+			TungstenAltOre: {
+				DisplayName: Вольфрам
+				Description: ""
+			}
+		}
+
+		AltOreSlot: {
+			AdamantiteOreSlot.DisplayName: руда адамантитового ранга
+			CobaltOreSlot.DisplayName: руда кобальтового ранга
+			CopperOreSlot.DisplayName: руда медного ранга
+			GoldOreSlot.DisplayName: руда золотого ранга
+			IronOreSlot.DisplayName: руда железного ранга
+			MythrilOreSlot.DisplayName: руда мифрилового ранга
+			SilverOreSlot.DisplayName: руда серебряного ранга
+		}
+
+Conditions.DownedBoss2: После победы над любым пре-хардмодным боссом злого биома
+
+BardItems.Add(ModContent.ItemType<BardBadge>());
+
+            ThrowerItems.Add(ModContent.ItemType<RogueBadge>());
+            ThrowerItems.Add(ModContent.ItemType<TheBibleOfTheThrowerVol4>());
+            
+
+            WarriorItems.Add(ModContent.ItemType<HerbalistPouch>());
+
+            RangerItems.Add(ModContent.ItemType<EvilFlask>());
+*/

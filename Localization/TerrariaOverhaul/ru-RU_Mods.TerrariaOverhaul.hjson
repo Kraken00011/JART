@@ -1,0 +1,394 @@
+/*// Copyright (c) 2020-2026 Mirsario & Contributors.
+// Released under the GNU General Public License 3.0.
+// See LICENSE.md for details.
+
+MainMenu: {
+	Configuration: "Конфигурация"
+	DiscordServer: "Наш Discord-сервер"
+	ForumPage: "Страница на форуме мода"
+	WikiPage: "Overhaul вики"
+	Github: "GitHub репозиторий"
+
+	MusicPack: {
+		Get: "Get the Music Pack"
+		Enable: "Включить пак музыки"
+	}
+}
+
+Notifications: {
+	AudioFilteringTestFailure: "Предупреждение: TerrariaOverhaul was unable to activate some of its audio filtering effects. Make sure that your audio drivers are up to date."
+}
+
+DifficultyLevels: {
+	# Vanilla translation.
+	Creative: "Путешествие"
+	# The English text is a Terraria/Mining-related pun on "I'm Too Young to Die" from DOOM 1.
+	# Alternatively this can be something along the lines of "Mineshafts Scare Me", if that sounds more melodic.
+	# Basically, the translation must a Terraria-related pun on something making light-hearted fun of players not yet being ready for more - "Hey, Not Too Rough!".
+	Normal: "Я слишком молод, чтобы копать"
+	# The English text was originally "Bone Me Plenty", a Terraria/Skeleton-related pun on "Hurt Me Plenty" from DOOM 1, but got renamed to "Turn Me Undead" since then due to unintended sexual connotations.
+	# If translating that can be done without them - that's valid.
+	# Otherwise, the translation must be a Terraria-related pun on something slightly fearless or badass, along the lines of "Come At Me!", or "Give Me Pain".
+	Expert: "Воплоти меня в нежить"
+	# The English text is a Terraria-related pun on "I Am Death Incarnate" of Wolfenstein (which quoted 'Babylon 5').
+	# Basically, the translation must be a Terraria-related pun on something super empowering like "I AM A GOD", or exciting for dangers the way "Ultra Nightmare!" sounds.
+	Master: "Я - воплощение Ктулху!"
+	WorldDescriptionCreative: "The Creative / Accessibility mode (For those who want to be in control)"
+	WorldDescriptionNormal: "Less damage from enemies, but same rewards (For the easy-going)"
+	WorldDescriptionExpert: "The new standard experience (For those who like a fair challenge)"
+	WorldDescriptionMaster: "Extreme punishment and new rewards (For the truly ruthless)"
+}
+
+Seasons: {
+	SelectSeason: "Выберите начальный сезон:"
+	CalendarCurrentSeason: "Сейчас у вас сезон {SeasonName}."
+	CalendarNextSeasonDays: "Сезон {SeasonName} начнётся через {NumDays} {^NumDays:день;дня;дней}."
+	CalendarNextSeasonTomorrow: "Сезон {SeasonName} начнётся завтра!"
+
+	Spring: {
+		Name: "Весна"
+	}
+
+	Summer: {
+		Name: "Лето"
+	}
+
+	Autumn: {
+		Name: "Осень"
+	}
+
+	Winter: {
+		Name: "Зима"
+	}
+}
+
+Banners: {
+	BannerBuffDescription: "Удвоенная добыча и количество выпадаемых монет со следующих врагов:"
+	BannerItemDescription: "Ближайшие игроки удваивают получаемую добычу и количество выпадаемых монет со следующего врага:"
+}
+
+Bosses: {
+	# Numbered localizations may not include less entries than the base English set contains, but can include more!
+	# If you can't think of at least a matching amount of translations - please just repeat some entries to fill the space!
+	
+	Common: {
+		# Gendered semicolon-separated lines, with the zero-starting ID coming from GenderId values below.
+		# Example in a gendered language: "Уничтожен;Уничтожена;Уничтожено;Уничтожены" (male/female/neuter/plural).
+		Defeated1: "Побеждён;Побеждена;Побеждено;Побеждены"
+		Defeated2: "Убит;Убита;Убито;Убиты"
+		Defeated3: "Разорван;Разорвана;Разорвано;Разорваны"
+		Defeated4: "Уничтожен;Уничтожена;Уничтожено;Уничтожены"
+		Defeated5: "Искоренён;Искоренена;Искоренено;Искоренены"
+		Defeated6: "Казнён;Казнена;Казнено;Казнены"
+		Defeated7: "Забит;Избита;Избито;Избиты"
+		Defeated8: "Истреблён;Истреблена;Истреблено;Истреблены"
+		Defeated9: "Завоёван;Завоёвана;Завоёвано;Завоёваны"
+		Defeated10: "Покорён;Покорена;Покорено;Покорены"
+		Defeated11: "Раздавлен;Раздавлена;Раздавлено;Раздавлены"
+		Defeated12: "Устранён;Устранена;Устранено;Устранены"
+		Defeated13: "Погиб;Погибла;Погибло;Погибли"
+		Defeated14: "Избит;Избита;Избито;Избиты"
+		Defeated15: "Унижен;Унижена;Унижено;Унижены"
+	}
+
+	KingSlime: {
+		Name: "Король слизней"
+		GenderId: "0"
+		SubLine1: "Гелевый монарх"
+		SubLine2: "Слизневый улей"
+		SubLine3: "Тысяча и вся в одном"
+		SubLine4: "Гелевое чудовище"
+	}
+
+	EyeOfCthulhu: {
+		Name: "The Eye of Cthulhu"
+		GenderId: "0"
+		SubLine1: "Sight of Terror"
+		SubLine2: "Night Stalker"
+	}
+
+	EaterOfWorlds: {
+		Name: "The Eater of Worlds"
+		GenderId: "0"
+		SubLine1: "Corruption's Hive Mind"
+		SubLine2: "Fractal Abomination"
+	}
+
+	BrainOfCthulhu: {
+		Name: "The Brain of Cthulhu"
+		GenderId: "0"
+		SubLine1: "Heart of Madness"
+		SubLine2: "Psychic Flesh"
+	}
+
+	QueenBee: {
+		Name: "The Queen Bee"
+		GenderId: "1"
+		SubLine1: "Swarm's Matriarch"
+		SubLine2: "Stinging Predator"
+		SubLine3: "Her Majesty"
+	}
+
+	Skeletron: {
+		Name: "Skeletron"
+		GenderId: "0"
+		SubLine1: "The Curse Embodied"
+		SubLine2: "Dungeon Guardian"
+		SubLine3: "Master of Puppets"
+	}
+
+	WallOfFlesh: {
+		Name: "The Wall of Flesh"
+		GenderId: "1"
+		SubLine1: "Demonic Peacekeeper"
+		SubLine2: "Ceaseless Hunger"
+	}
+
+	TheTwins: {
+		Name: "The Twins"
+		GenderId: "3"
+		SubLine1: "Спазматизм и Ретинайзер"
+		SubLine2: "Tracking Your Every Move"
+	}
+
+	TheDestroyer: {
+		Name: "The Destroyer"
+		GenderId: "0"
+		SubLine1: "Planetary Menace"
+		SubLine2: "Metallic Rampage"
+	}
+
+	SkeletronPrime: {
+		Name: "Skeletron Prime"
+		GenderId: "0"
+		SubLine1: "Cursed Killing Machine"
+		SubLine2: "Weapons of Massacre"
+	}
+
+	Plantera: {
+		Name: "Плантера"
+		GenderId: "1"
+		SubLine1: "Uprooted Fury"
+		SubLine2: "Nature's Last Resort"
+	}
+
+	Golem: {
+		Name: "Голем"
+		GenderId: "0"
+		SubLine1: "Потресканный защитник"
+		SubLine2: "Древний слуга"
+	}
+
+	DukeFishron: {
+		Name: "Герцог рыброн"
+		GenderId: "0"
+		SubLine1: "Холодно поданный"
+		SubLine2: "Преступление против природы"
+		SubLine3: "Безумная мутация"
+	}
+
+	EmpressOfLight: {
+		Name: "Императрица света"
+		GenderId: "1"
+		SubLine1: "Фальшивый идол"
+		SubLine2: "Ослепительная дева"
+	}
+
+	LunaticCultist: {
+		Name: "Культист-лунатик"
+		GenderId: "0"
+		SubLine1: "Предвестник конца"
+	}
+
+	MoonLord: {
+		Name: "Лунный лорд"
+		GenderId: "0"
+		SubLine1: "Ужас из космоса"
+		SubLine2: "Конец всего и вся"
+		SubLine3: "Твой истинный бог"
+	}
+}
+
+ItemOverhauls: {
+	Archery: {
+		HoverShots:
+			'''
+			[[Hover in the air]] by charging your weapon as you're jumping
+			Perform a [[hover-shot]] to get even more velocity
+			'''
+		ManualCharging:
+			'''
+			Hold right click to [[manually charge]] your weapon
+			Release it at any time to [[fine-tune]] the shot speed & damage
+			'''
+	}
+
+	Melee: {
+		AirCombatInfo:
+			'''
+			[[Атакуйте врагов в воздухе]] to gain speed, stay elevated, or to retreat!
+			Use the movement keys during a strike to control the velocity you gain!
+			'''
+		PowerStrikeInfo: "Charge up [[усиленный удар]] via alternate use!"
+		VelocityBasedDamageInfo:
+			'''
+			[[The faster you move - the harder you strike!]]
+			Combine your attacks with dashes and even use gravity to your advantage!
+			'''
+
+		Broadsword: {
+			KillingBlow: "Смертельный удар!"
+			KillingBlowInfo:
+				'''
+				Perform [[Killing Blows]] by [[power striking]] already hurt foes,
+				multiplying damage by [[x{0}]] whenever that would finish the enemy
+				'''
+		}
+	}
+}
+
+CommonTooltips: {
+	ShowCombatInfo: "[Удерживайте клавишу {Key}, чтобы отобразить боевую информацию]"
+	CombatInfo: "[Боевая информация]"
+	RightClickAudioCuesToggle: "Right click on item to toggle audio cues"
+	RightClickAudioCuesEnabled: "Audio cues are now enabled"
+	RightClickAudioCuesDisabled: "Audio cues are now disabled"
+
+	CriticalDamage: {
+		Tooltip: "{0} ед. критического урона"
+		# These are (case insensitive) regular expressions used to replace '{...}% critical chance' lines with '+X% critical damage'.
+		# If you aren't familiar with regex - please ask the developers for help!
+		# Always provide a 'value' capture!
+		
+		Expression: '''(?<value>[\d.]+)(?<sign>%)?(?<operation>[ ]+(?:increased|bonus|additional)+)?(?<misc>.+)?(?:critical|crit)[ ]+(?:strike[ ]+)?chance'''
+		Replacement: "${value}${sign}${operation}${misc}critical damage"
+		# Do not alter unless necessary:
+		ExpressionFallback: '''(?<value>[\d.]+)(?<sign>%)?(?<operation>[ ]+(?:increased|bonus|additional)+)?(?<misc>.+)?(?:critical|crit)[ ]+(?:strike[ ]+)?chance'''
+		# Do not alter unless necessary:
+		ReplacementFallback: "${value}${sign}${operation}${misc}critical damage"
+	}
+
+	GrapplingHooks: {
+		ClassicPullTip: "Hold the grappling hook key for a classic pull"
+	}
+}
+
+DeathText: {
+	Zombified: "И затем игрок {PlayerName} стал зомби."
+	ZombifiedScreenText: "Вы стали зомби..."
+	ZombifiedName: "Игрок {PlayerName} теперь зомби"
+	Lightning: "В игрока {PlayerName} попала молния. Какая жалость!"
+}
+
+Keybinds: {
+	Dodgeroll: {
+		DisplayName: "Перекат"
+	}
+}
+
+Tiles: {
+	Calendar: {
+		MapEntry: "{$Mods.TerrariaOverhaul.Items.Calendar.DisplayName}"
+	}
+
+	Gramophone: {
+		MapEntry: "{$Mods.TerrariaOverhaul.Items.Gramophone.DisplayName}"
+	}
+}
+
+Buffs: {
+	CriticalJudgement: {
+		DisplayName: "Критический суд"
+		Description:
+			'''
+			Their assault was proven futile
+			Unleash your judgement with a critical strike
+			'''
+	}
+
+	HackAndSlash: {
+		DisplayName: "Рвать и кромсать"
+		Description:
+			'''
+			Чем быстрее вы двигаетесь, тем больнее бьёте
+			Множитель урона ближнего боя: x{Multiplier}
+			'''
+	}
+
+	ManaAbsorption: {
+		DisplayName: "Поглощение маны"
+		Description:
+			'''
+			При беге вы поглощаете энергию со всего вокруг
+			Базовый множитель регенерации маны: x{Multiplier}
+			'''
+	}
+}
+
+Items: {
+	BunnyPaw: {
+		DisplayName: "Кроличья лапка"
+		Tooltip:
+			'''
+			[c/fca9ea:Увеличивает скорость распрыжки с каждым последующим успешным прыжком]
+			[c/fca9ea:Комбинируйте распрыжку с перекатами для лучшего эффекта]
+			[c/8a2730:{$Mods.TerrariaOverhaul.CommonTooltips.RightClickAudioCuesToggle}]
+			'''
+	}
+
+	Charcoal: {
+		DisplayName: "Древесный уголь"
+		Tooltip: "Он всё ещё тёплый"
+	}
+
+	Calendar: {
+		DisplayName: "Календарь"
+		Tooltip:
+			'''
+			Counts amount of days left until the next season
+			Right click after placing to use it
+			'''
+	}
+
+	Gramophone: {
+		DisplayName: "Граммофон"
+		Tooltip: "Проигрывает музыкальные диски"
+	}
+
+	MusicDisc: {
+		DisplayName: "Музыкальный диск"
+		Tooltip: "Можно вставить в граммофон для проигрывания музыки"
+	}
+
+	Mop: {
+		DisplayName: "Швабра"
+		Tooltip: "Keeps your house clean of guts and shredded eyeballs"
+	}
+
+	StoneAxe: {
+		DisplayName: "Каменный топор"
+		Tooltip: "Даже дерево будет посильнее это"
+	}
+
+	StonePickaxe: {
+		DisplayName: "Каменная кирка"
+		Tooltip: "Крайне хороша для добычи земли!"
+	}
+}
+
+NPCs: {
+	AshSlime: {
+		DisplayName: "Сгусток пепла"
+	}
+
+	AshZombie: {
+		DisplayName: "Ходячий пепел"
+	}
+}
+
+Projectiles: {
+	MopProjectile: {
+		DisplayName: "{$Mods.TerrariaOverhaul.Items.Mop.DisplayName}"
+	}
+}
+*/

@@ -1,0 +1,166 @@
+Buffs: {
+	FungalFever: {
+		DisplayName: Грибной недуг
+		Description: Ваши лёгкие разлагаются!
+	}
+
+	Chromascient: {
+		DisplayName: Паноптик
+		Description: Вы можете видеть всё!
+	}
+
+	ShroomStringDebuff: {
+		DisplayName: Дебафф грибной нити
+		Description: Отмечен!
+	}
+}
+
+Items: {
+	ShiitakeSlicer: {
+		Tooltip: Стреляет прыгучими грибами
+		DisplayName: Грибной резак
+	}
+
+	SporeWeaverBossBag: {
+		DisplayName: Мешок с сокровищами (Споровый ткач)
+		Tooltip: Нажмите ПКМ, чтобы открыть
+	}
+
+	SporeSprayer: {
+		DisplayName: Споровый распылитель
+		Tooltip: Поражает врагов грибным недугом
+	}
+
+	FungiFlinger: {
+		DisplayName: Грибной швырятель
+		Tooltip: Бросает разрывающимся на множество спор грибом
+	}
+
+	TruffleOil: {
+		DisplayName: Трюфельное масло
+		Tooltip: Имеет уникальные медикаментозные свойства
+	}
+
+	EncrustedWorm: {
+		DisplayName: Покрытый коркой червь
+		Tooltip:
+			'''
+			Используйте, чтобы привлечь внимание Спорового ткача в наземном биоме грибных пустошей
+			Ключ от храма затаён у Спорового ткача
+			'''
+	}
+
+	ShroomiteOre: {
+		DisplayName: Грибнитовая руда
+		Tooltip: ""
+	}
+
+	TruffleBrew: {
+		DisplayName: Трюфельное варево
+		Tooltip: Даёт невосприимчивость к дебаффу «Грибной недуг»; улучшает ночное зрение
+	}
+
+	SporeStingerItem: {
+		DisplayName: Споровый Стингер
+		Tooltip: Болт Стингера, до краёв наполненный токсичными спорами
+	}
+
+	ShroomString: {
+		DisplayName: Грибная нить
+		Tooltip:
+			'''
+			50 ед. урона от метки призывателя
+			Удваивает урон миньонов
+			'Боже, оно ещё и дышит.'
+			'''
+	}
+
+	SporeWeaverTrophy: {
+		DisplayName: Трофей Спорового ткача
+		Tooltip: ""
+	}
+
+	SporeWeaverRelic: {
+		DisplayName: Реликвия Спорового ткача
+		Tooltip: ""
+	}
+
+	SporeShot: {
+		DisplayName: Споровая пуля
+		Tooltip: ""
+	}
+
+	MushyHeart: {
+		DisplayName: Грибовидное сердце
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	TruffleSnakeBody.DisplayName: Трюфельная змея
+	TruffleSnakeHead.DisplayName: Трюфельная змея
+	TruffleSnakeTail.DisplayName: Трюфельная змея
+	SporeWeaverBody.DisplayName: Споровый ткач
+
+	SporeWeaverHead: {
+		DisplayName: Споровый ткач
+		BossChecklistIntegration.EntryName: Споровый ткач
+		SpawnInfo: Используйте [i:Shroomaria/EncrustedWorm] во время нахождения в наземных грибных пустошах. Иногда может появиться сам, странствуя по тому же биому.
+	}
+
+	SporeWeaverTail.DisplayName: Споровый ткач
+	PlanteraDummy.DisplayName: Плантера
+	ShroomHook.DisplayName: ???
+	Cordynet.DisplayName: Кордижало
+	StagnantFungiBulb.DisplayName: Наземный грибной бутон
+	Sporeshell.DisplayName: Спорепаха
+	SporeSpawner.DisplayName: Споровый рассадник
+	HangingFungiBulb.DisplayName: Свисающий грибной бутон
+}
+
+Projectiles: {
+	ShroomSpore.DisplayName: Грибная спора
+	BouncingShroom.DisplayName: Прыгучий гриб
+	ShroomSporeFriendly.DisplayName: Грибная спора
+	FlungFungi.DisplayName: Разрывной гриб
+	SporeStinger.DisplayName: Споровый стингер
+	ShroomStringProjectile.DisplayName: Взмах грибной нитью
+	SporeShot.DisplayName: Споровая пуля
+}
+
+Bestiary: {
+	SporeWeaverHead: Ужасающий результат пожирания огромного количества грибнита трюфельной змеёй. Споровый ткач сделает всё, чтобы заполучить как можно больше грибнита, включая его кражу у других существ.
+	TruffleSnakeHead: Некоторые трюфельные черви вырастают больше остальных, а трюфельные змеи в свою очередь - самый крупный их вид. Трюфельные змеи выпускают токсичные споры, вызывающие лёгочную недостаточность.
+	Cordynet: Грибы полностью овладели разумом шершня, теперь вместо яда они используют споры и ведут себя как часть одного большого улья.
+	StagnantFungiBulb: Эта ошибка природы загрязняет воздух, распыляя в него споры, помогающие грибам овладевать над всё большим и большим количеством существ.
+	SporeShell: Проголодавшиеся гигантские черепахи, решившие, что поедание светящихся грибов - отличная идея. Вот и всё, вы и сами видите, что с ними стало.
+}
+
+Tiles.ShroomiteOre.MapEntry: Грибнитовая руда
+
+WorldGen: {
+	ShroomiteOrePassMessage: Добавление грибного металла
+	BlessedWithShroomiteOreMessage: Грибная сила украла ключ от храма!
+}
+
+Configs: {
+	ShroomariaConfig: {
+		DisplayName: Конфигурация Shroomaria
+		Headers.Tweaks: Изменения
+
+		ColouredRelic: {
+			Label: Цветная реликвия
+			Tooltip: Делает реликвию Спорового ткача цветной для соответствия с окрашивающими реликвии пакетами ресурсов.
+		}
+
+		PlanteraDoesNotDropTempleKey: {
+			Label: Изменение требования для получения ключа от храма
+			Tooltip: Если включено, ключ от храма перестанет выпадать с Плантеры, вместо этого он будет выпадать со Спорового ткача.
+		}
+
+		PlanteraDeathAnimation: {
+			Label: Дополнительная анимация победы над Плантерой
+			Tooltip: Отключите, если анимация конфликтует с другими модами.
+		}
+	}
+}

@@ -1,0 +1,32 @@
+Buffs: {
+	SpectralFlame: {
+		DisplayName: Спектральное пламя
+		Description: Потеря жизни
+	}
+}
+
+Items: {
+	AncientTonbogiri: {
+		DisplayName: Древнее Тонгбориги
+		Tooltip:
+			'''
+			Атака с небольшим шансом может наложить дебафф «Спектральное пламя»
+			'Легендарное японское копьё, окутанное ядом'
+			'Слабеет в преисподней'
+			'''
+	}
+
+	CursedFang: {
+		DisplayName: Проклятый клык
+		Tooltip:
+			'''
+			Атаки накладывают дебафф «Спектральное пламя»
+			Убийство врагов восстанавливает немного здоровья и маны
+			'''
+	}
+}
+
+Projectiles: {
+	TonbogiriSpear.DisplayName: Копьё Тонгбориги
+	TonbogiriSpiritSpear.DisplayName: Призрачное копьё Тонгбориги
+}

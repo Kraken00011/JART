@@ -1,0 +1,2151 @@
+Mods: {
+	TheDepths: {
+		GameTips: {
+			DepthsTip0: Неизвестный НИП заточён в глубинах, обращённый в кристалл. Если бы только был способ его очистить...
+			DepthsTip1: Если вы, в правильном мире, копнёте достаточно глубоко, вы сможете оказаться в глубинах!
+			DepthsTip2: Победите тёмнокаменную гигантку Чазм, чтобы изменить весь мир навсегда. Используйте Рубиновую Реликвию на Самоцветной Кузне, чтобы призвать её...
+			DepthsTip3: Аркьюрит крайне ядовит! Создайте хрустальный череп, чтобы защитить себя от отравления.
+			DepthsTip4: Не пытайтесь купаться в ртути, пока не выпьете зелье кристальной кожи!
+			DepthsTip5: При правильном снаряжении, вы можете без последствий плавать в ртути до 16 секунд!
+			DepthsTip6: Во время битвы с Чазм, между глубинами и подземельем создаётся магический барьер, преодоление которого позволяет безопасно сбежать с боя.
+		}
+
+		common: {
+			Banner: Знамя
+			Banner2: Ближайшие игроки получают бонус против:
+		}
+
+		SetBonus: {
+			GeodeHelmet: Призывает 4 кристальной жеоды, наносящие 20 ед. урона.
+			MercuryHelmet:
+				'''
+				Увеличивает защиту на 3 ед.
+				Ртуть перестанет отравлять вас
+				'''
+			NightwoodHelmet:
+				'''
+				Удваивает продолжительность безопасной ходьбы по ртути
+				Снижает продолжительность отравления ртутью
+				'''
+			QuartzArmor:
+				'''
+				Увеличивает дальность хлыстов на 35%
+				Увеличивает скорость хлыстов на 35%
+				'''
+			OnyxRobeWizard:
+				'''
+				Увеличивает защиту на 2 ед.
+				Увеличивает шанс магического критического удара на 18%
+				'''
+			OnyxRobeMagic:
+				'''
+				Увеличивает защиту на 3 ед.
+				Увеличивает максимальный запас маны на 100
+				'''
+			PetrifiedWoodHelmet: Увеличивает сопротивление урона на 10%
+		}
+
+		Quest: {
+			Description: {
+				Chasmefish: Ходит старая легенда, гласящая о том, как королевская рыба родилась во время солнечного затмения и была проклята в глубинах этого мира. Я хочу, чтобы ты нашёл её. Посмотрю насколько она сильна на самом деле.
+				Relicarp: Ты наверное знаешь о ритуалах, которые геоманты проводят со множеством различных объектов, вне зависимости от того, живые они или нет. Так они один раз прокляли рыбу и реликвию, соединив их вместе, чтобы получилась рыба-реликвия. Принеси её мне, чтобы я мог посмотреть на результат её посадки в горшок.
+				GlimmerDepthFish: Как-то раз, я играл на слое кварца и один кусок отломился и попал в ртуть, потом он отрастил плавники и уплыл. Мне всегда хотелось попробовать на вкус кварц, поэтому принеси эту рыбу мне, чтобы я первым это сделал.
+			}
+
+			CaughtLocation: {
+				Chasmefish: Ловить в пещерах
+				Relicarp: Ловить в пещерах
+				GlimmerDepthFish: Ловить в пещерах
+			}
+		}
+
+		Recipes.NearQuicksilver: Нужна ртуть
+
+		ShaleConfig: {
+			SlateBlock: Блок аспидия
+			ShaleBlock: Блок сланца
+			SlateBricks: Кирпичи аспидия
+			ShaleBricks: Кирпичи сланца
+			Slatestone: Аспидий
+			Shalestone: Сланец
+		}
+
+		Bestiary: {
+			# Enemies
+			AlbinoBat: Став жертвой редкой пигментной мутации, эта летучая мышь летает в более глубоких сетях пещер, чтобы замаскироваться за ртутью и выжить.
+			Archroma: Кузен Пинки с такой же плотностью, что делает его очень сильным. Любит есть деньги.
+			CrystalKing: Король всей геомантии. Не может ходить, но умеет телепортироваться, как и большинство других магов.
+			Ferroslime: Этот слизень может казаться угрожающим, но на деле его железные шипы состоят из жидкости и не представляют большой опасности
+			Geomancer: Верный участник культа, хорошо владеющий геомантией. Легенды гласят, что они поклоняются существу из теневого пламени.
+			GoldBat: Редкая летучая мышь, обитающая в глубинах, которую геоманты превратили во что-то похожее на драгоценный камень. Несмотря на название, она того же цвета, что и топаз.
+			KingCoal: Он не весёлый старина, он брат-соперник кристального короля. Он рождён в огне и сделает всё, чтобы победить тебя.
+			DepthsWorm: Сапфиро-каменная змея, в жилах которой течёт вода. Ей богу, ведёт себя как лопата.
+			Shade: Существа из чистой тьмы, дрейфующие в глубинах со способностью летать. Их стадо зовётся затенением.
+			ShadowBat: Эта наполовину чёрная, наполовину изумрудная летучая мышь - усиленный вариант летучих мышей в глубинах. Это тень летучей мыши или летучая мышь из тени?
+			ShadowSlime: Подлинно чёрный слизень, обитающий в глубинах. Пожалейте глаза свои, прежде чем поддаваться ему.
+			EnchantedNightmareWorm: Черви, проникшие в глубокую даль, рано или поздно попадают в Кошмарную Рощу. Там они вынуждены сливаться с окружающей средой, приобретая фиолетовый оттенок.
+			QuartzCrawler: Чёрная улитка с раковиной, напоминающей кварц. Лакомство для рыб, затаившихся в ртути.
+			AlbinoRat: Редкая пигментная крыса, попытавшаяся замаскироваться с окружающим кварцем и ртутью. И как этим можно ловить рыбу?
+			Chasme: Гигантка из чистого тёмного сланца. Несмотря на то, что её зовут Чазм, это лишь её глубинный инструмент разрушения и безопасности. Чазм была очень сильной, но никогда не хотела этого боя. Быть может, это было недоразумением и кто-то слишком сильно верит в легенды про неё?
+			ChasmeHands: Образования из тёмного сланца, созданные Чазм, чтобы придать глубинам то, что вы видите сейчас. Не голодайте, тогда они не будут ассоциироваться с руками Циклопа-Оленя. Вы уничтожили её и её дом ради освобождения древних духов. За счастье придётся платить, слово "Древние Духи" и слово "Апокалипсис" для вас означает одно и тоже
+			ChasmeSoul: Чазм родилась во время полного солнечного затмения и была проклята тем, что вы видели тогда. Её заключили в глубоком подземелье, которое она превратила в вечно-тёмную бездну. Иногда задаешься вопросом, можно ли снять с неё проклятье?
+			CrystalBoundTaxCollector: Кристаллическое образование, оставшееся от старика, жившего во время хаоса, которого Чазм принесла на поверхность. Годы спустя, амбиции заманили его в глубины, где культ геомантов Чазма обратил его в кварц.
+		}
+
+		PlayerDeathReason: {
+			Gemforge: {
+				0: Игрок {0} попытался вызвать культ в чистом свете
+				1: Игрок {0} перенёс самоцветную кузню далеко от того дома
+				2: Игрок {0} пытался сжечь реликвию на поверхности
+			}
+
+			MercuryPoisoning: {
+				0: Игрок {0} не смог найти противоядие
+				1: Игрок {0} поддался своей болезни
+				2: Игрок {0} выпил содержимое лампочки
+				3: Игрок {0} лизнул не тот камень
+			}
+
+			ChasmeHead: {
+				0: Игрока {0} сожрала Чазм
+				1: Игрок {0} поднялся к люку
+				2: Игрок {0} попал в яблочко
+			}
+		}
+
+		Tiles: {
+			ArqueriteOre.MapEntry: Аркьюрит
+			BlackTorch.MapEntry: Факел
+			CoreBuilderTile.MapEntry: Строитель Ядра
+			DepthsBanners.MapEntry: Знамя
+			DepthsMusicBox.MapEntry: Музыкальная шкатулка
+			DepthsPot.MapEntry: Горшок
+			EmberUpdated.MapEntry: Уголёк
+			Gemforge.MapEntry: Самоцветная кузня
+			GemlockTile.MapEntry: Блок самоцветного замка
+			GeoTorch.MapEntry: Факел
+			LargeCrystal.MapEntry: Большой кристалл
+			OnyxShalestone.MapEntry: Оникс
+			Quartz.MapEntry: Кварц
+			QuartzChair.MapEntry: Стул
+			QuartzDoorClosed.MapEntry: Дверь
+			QuartzDoorOpen.MapEntry: Дверь
+			QuartzTable.MapEntry: Стол
+			QuartzWorkbench.MapEntry: Верстак
+			QuicksilverDropletSource.MapEntry: Капающая ртуть
+			ShadowShrub.MapEntry: Теневой росток
+			Shalestone.MapEntry: Аспидий
+			ShalestoneAmethyst.MapEntry: Аметист
+			ShalestoneDiamond.MapEntry: Алмаз
+			ShalestoneEmerald.MapEntry: Изумруд
+			ShalestoneRuby.MapEntry: Рубин
+			ShalestoneSapphire.MapEntry: Сапфир
+			ShalestoneTopaz.MapEntry: Топаз
+			PetrifiedSapling.MapEntry: Окаменевший саженец
+			NightSapling.MapEntry: Ночной саженец
+			QuicksilverSensor.MapEntry: Датчик жидкости (Ртуть)
+			OtherPortal.MapEntry: Другой портал
+			NightwoodBath.MapEntry: Ванна из ночной древесины
+			NightwoodBed.MapEntry: Кровать из ночной древесины
+			NightwoodBookcase.MapEntry: Книжный шкаф из ночной древесины
+			NightwoodCandelabra.MapEntry: Подсвечник из ночной древесины
+			NightwoodCandle.MapEntry: Свеча из ночной древесины
+			NightwoodChair.MapEntry: Стул из ночной древесины
+			NightwoodChandelier.MapEntry: Люстра из ночной древесины
+			NightwoodChest.MapEntry: Сундук из ночной древесины
+			NightwoodClock.MapEntry: Часы из ночной древесины
+			NightwoodDoorClosed.MapEntry: Дверь из ночной древесины
+			NightwoodDoorOpen.MapEntry: Дверь из ночной древесины
+			NightwoodDresser.MapEntry: Комод из ночной древесины
+			NightwoodLamp.MapEntry: Лампа из ночной древесины
+			NightwoodLantern.MapEntry: Фонарь из ночной древесины
+			NightwoodPiano.MapEntry: Пианино из ночной древесины
+			NightwoodSink.MapEntry: Раковина из ночной древесины
+			NightwoodSofa.MapEntry: Диван из ночной древесины
+			NightwoodTable.MapEntry: Стол из ночной древесины
+			NightwoodToilet.MapEntry: Унитаз из ночной древесины
+			NightwoodWorkbench.MapEntry: Верстак из ночной древесины
+			QuartzToilet.MapEntry: Кварцевый унитаз
+			QuartzSofa.MapEntry: Кварцевый диван
+			QuartzSink.MapEntry: Кварцевая раковина
+			QuartzPiano.MapEntry: Кварцевое пианино
+			QuartzLantern.MapEntry: Кварцевый фонарь
+			QuartzLamp.MapEntry: Кварцевая лампа
+			QuartzDresser.MapEntry: Кварцевый комод
+			QuartzClock.MapEntry: Кварцевые часы
+			QuartzChest.MapEntry: Кварцевый сундук
+			QuartzChandelier.MapEntry: Кварцевая люстра
+			QuartzCandle.MapEntry: Кварцевая свеча
+			QuartzCandelabra.MapEntry: Кварцевый подсвечник
+			QuartzBookcase.MapEntry: Кварцевый книжный шкаф
+			QuartzBed.MapEntry: Кварцевая кровать
+			QuartzBath.MapEntry: Кварцевая ванна
+			DepthsVanityBanners.MapEntry: Декоративные Знамёна Глубин
+			DepthsOtherworldlyMusicBox.MapEntry: Музыкальная шкатулка
+			AltarOfGems.MapEntry: Алтарь самоцветов
+			ForTheSakeOfMakingGadgets.MapEntry: Ради создания гаджетов
+			ImPurrSonation.MapEntry: Я-Мур-лычу
+			Mercury.MapEntry: Ртуть
+			MusiciansBestFriend.MapEntry: Лучшие друзья музыкантов
+			ChaosCat.MapEntry: Кошка Хаоса
+			DONOTDRINK.MapEntry: НЕ ПИТЬ
+			WaterGeyser.MapEntry: Водный гейзер
+			PlacedGems.MapEntry: Размещённые самоцветы
+			PlacedOnyx.MapEntry: Размещённый оникс
+			OnyxStone.MapEntry: Оникс в камне
+			OnyxGemtree.MapEntry: Ониксовое самоцветное дерево
+			PetrifiedTree.MapEntry: Окаменелое дерево
+			TheUnknownDepthsBelow.MapEntry: Неизвестные нижние глубины
+			NightwoodTree.MapEntry: Ночное дерево
+			NightwoodTrappedChest.MapEntry: Сундук из ночной древесины
+			QuartzTrappedChest.MapEntry: Кварцевый сундук
+			HangingShadowShrub.MapEntry: Висячий теневой росток
+			PetrifiedWoodBath.MapEntry: Ванна из окаменевшей древесины
+			PetrifiedWoodBookcase.MapEntry: Книжный шкаф из окаменевшей древесины
+			PetrifiedWoodCandelabra.MapEntry: Подсвечник из окаменевшей древесины
+			PetrifiedWoodCandle.MapEntry: Свеча из окаменевшей древесины
+			PetrifiedWoodChair.MapEntry: Стул из окаменевшей древесины
+			PetrifiedWoodChandelier.MapEntry: Люстра из окаменевшей древесины
+			PetrifiedWoodChest.MapEntry: Сундук из окаменевшей древесины
+			PetrifiedWoodClock.MapEntry: Часы из окаменевшей древесины
+			PetrifiedWoodDresser.MapEntry: Комод из окаменевшей древесины
+			PetrifiedWoodLamp.MapEntry: Лампа из окаменевшей древесины
+			PetrifiedWoodLantern.MapEntry: Фонарь из окаменевшей древесины
+			PetrifiedWoodBedShaleSheetsAreImpossible.MapEntry: Кровать из окаменевшей древесины
+			PetrifiedWoodPiano.MapEntry: Пианино из окаменевшей древесины
+			PetrifiedWoodSink.MapEntry: Раковина из окаменевшей древесины
+			PetrifiedWoodSofa.MapEntry: Диван из окаменевшей древесины
+			PetrifiedWoodTable.MapEntry: Стол из окаменевшей древесины
+			PetrifiedWoodToilet.MapEntry: Унитаз из окаменевшей древесины
+			PetrifiedWoodTrappedChest.MapEntry: Сундук-ловушка из окаменевшей древесины
+			PetrifiedWoodWorkbench.MapEntry: Верстак из окаменевшей древесины
+			FelineTombstone.MapEntry: Кошачье надгробие
+		}
+
+		Buffs: {
+			CrystalSkin: {
+				DisplayName: Кристальная кожа
+				Description: Невосприимчивость к ртути
+			}
+
+			FlaskofMercury: {
+				DisplayName: Смазанное оружие: ртуть
+				Description: Ближние атаки, а также хлысты накладывают дебафф «Ртутное отравление»
+			}
+
+			FreezingWater: {
+				DisplayName: Замораживающая вода
+				Description: Передвижение значительно осложнено
+			}
+
+			LivingShadowSummonBuff: {
+				DisplayName: Силуэт
+				Description: За вас будет сражаться фигура, похожая на вас
+			}
+
+			MercuryBoiling: {
+				DisplayName: Ртутное отравление
+				Description: Медленная потеря здоровья
+			}
+
+			MercuryFooting: {
+				DisplayName: Ртутная ходьба
+				Description: Скорость передвижения увеличена на 15%
+			}
+
+			MercuryPoisoning: {
+				DisplayName: Ртутная радиация
+				Description: Потеря здоровья и сниженная скорость передвижения
+			}
+
+			RelicsCurse: {
+				DisplayName: Проклятье реликвий
+				Description: Использование реликвий ограничено
+			}
+
+			SilverSphereBuff: {
+				DisplayName: Серебристая сфера
+				Description: Вокруг вас вращаются четыре серебристые сферы
+			}
+
+			ShadePetBuff: {
+				DisplayName: Питомец-тень
+				Description: Рядом с вами плавает тень
+			}
+
+			ShadowCatBuff: {
+				DisplayName: Теневая кошка
+				Description: Это кошка от тени или тень от кошки?
+			}
+
+			PurpleflameJellyBuff: {
+				DisplayName: Медуза фиолетового пламени
+				Description: Уникальный, но редкий и пассивный вид медуз, обитающий в ртути
+			}
+
+			MercuryContagion: {
+				DisplayName: Ртутная эпидемия
+				Description: Когда враги сталкиваются, их болезнь распространяется
+			}
+
+			PhantomFirecartBuff.DisplayName: Вагонетка
+			OnyxMinecartBuff.DisplayName: Вагонетка
+
+			NightmareHorseBuff: {
+				DisplayName: Кошмарная лошадь
+				Description: Ужасно выглядящая лошадь из сланца, созданная самой Чазм.
+			}
+
+			BuffofaThousandYears: {
+				DisplayName: Чазмини
+				Description: Чазмини использует свои руки, чтобы сражаться за вас
+			}
+		}
+
+		Items: {
+			AmalgamAmulet: {
+				DisplayName: Слившийся амулет
+				Tooltip: Даёт 4 секунды невосприимчивости к ртути
+			}
+
+			AquaGlove: {
+				DisplayName: Аква-перчатка
+				Tooltip:
+					'''
+					Атаки ближнего боя накладывают дебафф «Замораживающая вода»
+					Увеличивает отбрасывание ближнего боя
+					Увеличивает урон и скорость ближнего боя на 12%
+					Включает автоатаку для оружия ближнего боя
+					'''
+			}
+
+			AquaStone: {
+				DisplayName: Аква-камень
+				Tooltip: Атаки ближнего боя накладывают дебафф «Замораживающая вода»
+			}
+
+			CrystalShield: {
+				DisplayName: Хрустальный щит
+				Tooltip:
+					'''
+					Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
+					Максимальный бонус к сопротивлению урону: 50%
+					Даёт 25% шанс отразить большинство вражеских снарядов
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					'''
+			}
+
+			CrystalSkull: {
+				DisplayName: Хрустальный череп
+				Tooltip: Даёт невосприимчивость к дебаффу «Ртутная радиация»
+			}
+
+			CrystalWaterWalkingBoots: {
+				DisplayName: Хрустальные ботинки-водоходы
+				Tooltip:
+					'''
+					Даёт возможность ходить по воде и мёду
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					'''
+			}
+
+			LodeStone: {
+				DisplayName: Магнит
+				Tooltip: Увеличивает дальность подбора предметов
+			}
+
+			QuickSilverSurfboard: {
+				DisplayName: Ртутная доска для сёрфинга
+				Tooltip: Позволяет плавно парить в воздухе в течении нескольких секунд
+			}
+
+			SanctusShield: {
+				DisplayName: Щит Санктуса
+				Tooltip:
+					'''
+					Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
+					Максимальный бонус к сопротивлению урону: 50%
+					Даёт 25% шанс отразить большинство вражеских снарядов
+					Даёт невосприимчивость к большинству дебаффов, включая «Ртутная радиация»
+					'''
+			}
+
+			SilverSlippers: {
+				DisplayName: Серебряные тапочки
+				Tooltip:
+					'''
+					Даёт возможность ходить по воде и мёду, а также лаве и ртути
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					Даёт 4 секунды невосприимчивости к ртути
+					'''
+			}
+
+			StoneRose: {
+				DisplayName: Каменная роза
+				Tooltip: Снижает урон от дебаффов, связанных с ртутью
+			}
+
+			CharredCrown: {
+				DisplayName: Обугленная корона
+				Tooltip: Увеличивает магический урон на 18%
+			}
+
+			CrystalCrown: {
+				DisplayName: Хрустальная корона
+				Tooltip: Увеличивает шанс магического критического удара на 20%
+			}
+
+			GeodeChestplate: {
+				DisplayName: Жеодовый нагрудник
+				Tooltip: Увеличивает максимальное количество миньонов на 1
+			}
+
+			GeodeHelmet: {
+				DisplayName: Жеодовый шлем
+				Tooltip: Увеличивает максимальное количество миньонов на 1
+			}
+
+			GeodeLeggings: {
+				DisplayName: Жеодовые поножи
+				Tooltip: Увеличивает максимальное количество миньонов на 1
+			}
+
+			Geode: {
+				DisplayName: Жеода
+				Tooltip: ""
+			}
+
+			MercuryChestplate: {
+				DisplayName: Ртутный нагрудник
+				Tooltip: Увеличивает урон на 19%
+			}
+
+			MercuryGreaves: {
+				DisplayName: Ртутные поножи
+				Tooltip: Увеличивает скорость передвижения на 10%
+			}
+
+			MercuryHelmet: {
+				DisplayName: Ртутный шлем
+				Tooltip: Увеличивает шанс критического удара на 6%
+			}
+
+			OnyxRobe: {
+				DisplayName: Ониксовое одеяние
+				Tooltip:
+					'''
+					Снижает расход маны на 22%
+					Увеличивает максимальный запас маны на 60
+					'''
+			}
+
+			PurplePlumbersHat: {
+				DisplayName: Шляпа фиолетового водопроводчика
+				Tooltip: ""
+			}
+
+			PurplePlumbersPants: {
+				DisplayName: Штаны фиолетового водопроводчика
+				Tooltip: ""
+			}
+
+			PurplePlumbersShirt: {
+				DisplayName: Рубашка фиолетового водопроводчика
+				Tooltip: ""
+			}
+
+			AchromaBanner: {
+				DisplayName: Знамя ахромы
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Archroma.DisplayName}"
+			}
+
+			AlbinoBatBanner: {
+				DisplayName: Знамя летучей мыши-альбиноса
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}"
+			}
+
+			CrystalKingBanner: {
+				DisplayName: Знамя кристального короля
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.CrystalKing.DisplayName}"
+			}
+
+			FerroslimeBanner: {
+				DisplayName: Знамя желейного слизня
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Ferroslime.DisplayName}"
+			}
+
+			GeomancerBanner: {
+				DisplayName: Знамя геоманта
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Geomancer.DisplayName}"
+			}
+
+			GoldBatBanner: {
+				DisplayName: Знамя золотой летучей мыши
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.GoldBat.DisplayName}"
+			}
+
+			KingCoalBanner: {
+				DisplayName: Знамя угольного короля
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.KingCoal.DisplayName}"
+			}
+
+			SapphireSerpentBanner: {
+				DisplayName: Знамя сапфирового змея
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}"
+			}
+
+			ShadeBanner: {
+				DisplayName: Знамя тени
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Shade.DisplayName}"
+			}
+
+			ShadowBatBanner: {
+				DisplayName: Знамя теневой летучей мыши
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowBat.DisplayName}"
+			}
+
+			ShadowSlimeBanner: {
+				DisplayName: Знамя теневого слизня
+				Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}"
+			}
+
+			CrystalSkinPotion: {
+				DisplayName: Зелье кристальной кожи
+				Tooltip: Даёт невосприимчивость к ртути
+			}
+
+			FlaskofMercury: {
+				DisplayName: Флакон с ртутью
+				Tooltip: Ближние атаки, а также хлысты накладывают дебафф «Ртутное отравление»
+			}
+
+			LargeOnyx: {
+				DisplayName: Большой оникс
+				Tooltip: Использует в режиме «Захват самоцвета». Выпадает после смерти
+			}
+
+			OnyxHook: {
+				DisplayName: Ониксовый крюк
+				Tooltip: ""
+			}
+
+			Onyx: {
+				DisplayName: Оникс
+				Tooltip: ""
+			}
+
+			ArqueriteBar: {
+				DisplayName: Аркьюритовый слиток
+				Tooltip: "'Тошнотворный на ощупь'"
+			}
+
+			ArqueriteBricks: {
+				DisplayName: Аркьюритовые кирпичи
+				Tooltip: ""
+			}
+
+			ArqueriteBrickWall: {
+				DisplayName: Стена из аркьюритовых кирпичей
+				Tooltip: ""
+			}
+
+			ArqueriteOre: {
+				DisplayName: Аркьюритовая руда
+				Tooltip: ""
+			}
+
+			BlackGemspark: {
+				DisplayName: Ониксовый блок
+				Tooltip: ""
+			}
+
+			BlackTorch: {
+				DisplayName: Чёрный факел
+				Tooltip: ""
+			}
+
+			CoreBuilder: {
+				DisplayName: Строитель ядра
+				Tooltip:
+					'''
+					Позволяет конвертировать материалы из ада в материалы из глубин и наоборот.
+					'Легендарная кузня, в которой, по слухам, создавалось само ядро мира.'
+					'''
+			}
+
+			DepthsMusicBox: {
+				DisplayName: Музыкальная шкатулка (Глубины)
+				Tooltip: ""
+			}
+
+			DiamondDust: {
+				DisplayName: Алмазный порошок
+				Tooltip: ""
+			}
+
+			Ember: {
+				DisplayName: Уголёк
+				Tooltip: ""
+			}
+
+			Gemforge: {
+				DisplayName: Самоцветная кузня
+				Tooltip: ""
+			}
+
+			GeoTorch: {
+				DisplayName: Гео-факел
+				Tooltip: ""
+			}
+
+			LargeCrystal: {
+				DisplayName: Большой кристалл
+				Tooltip: ""
+			}
+
+			LivingFog: {
+				DisplayName:Блок живого тумана
+				Tooltip: ""
+			}
+
+			MagicQuicksilverDropper: {
+				DisplayName: Магическая пипетка ртути
+				Tooltip: ""
+			}
+
+			OnyxGemLock: {
+				DisplayName: Ониксовый самоцветный замок
+				Tooltip: Нажмите ПКМ, чтобы вставить или вытащить большой оникс
+			}
+
+			PetrifiedWood: {
+				DisplayName: Окаменевшая древесина
+				Tooltip: ""
+			}
+
+			Quartz: {
+				DisplayName: Кварц
+				Tooltip: ""
+			}
+
+			QuartzBlock: {
+				DisplayName: Кварцевый блок
+				Tooltip: ""
+			}
+
+			QuartzBricks: {
+				DisplayName: Кварцевые кирпичи
+				Tooltip: ""
+			}
+
+			QuartzBrickWall: {
+				DisplayName: Стена из кварцевых кирпичей
+				Tooltip: ""
+			}
+
+			QuartzChair: {
+				DisplayName: Кварцевый стул
+				Tooltip: ""
+			}
+
+			QuartzDoor: {
+				DisplayName: Кварцевая дверь
+				Tooltip: ""
+			}
+
+			QuartzPillar: {
+				DisplayName: Кварцевая колонна
+				Tooltip: ""
+			}
+
+			QuartzPlatform: {
+				DisplayName: Кварцевая платформа
+				Tooltip: ""
+			}
+
+			QuartzTable: {
+				DisplayName: Кварцевый стул
+				Tooltip: ""
+			}
+
+			QuartzWorkbench: {
+				DisplayName: Кварцевый верстак
+				Tooltip: ""
+			}
+
+			ShadowBrick: {
+				DisplayName: Теневой кирпич
+				Tooltip: ""
+			}
+
+			ShadowShrubPlanterBox: {
+				DisplayName: Кадка для теневого ростка
+				Tooltip: ""
+			}
+
+			ShadowShrubSeeds: {
+				DisplayName: Семена теневого ростка
+				Tooltip: ""
+			}
+
+			ShadowShrub: {
+				DisplayName: Теневой росток
+				Tooltip: ""
+			}
+
+			ShaleBlock.Tooltip: ""
+			ShaleBricks.Tooltip: ""
+			Shalestone.Tooltip: ""
+
+			SilverfallBlock: {
+				DisplayName: Блок с рутотопадом
+				Tooltip: ""
+			}
+
+			SilverfallWall: {
+				DisplayName: Стена с ртутопадом
+				Tooltip: ""
+			}
+
+			RubyRelic: {
+				DisplayName: Рубиновая реликвия
+				Tooltip:
+					'''
+					'Ты что-то слышал?'
+					Возможно, помещать это в самоцветную кузню - не лучшая идея
+					'''
+			}
+
+			SilverSpherePotion: {
+				DisplayName: Зелье серебристых сфер
+				Tooltip: Призывает 4 серебристые сферы, вращающиеся вокруг игрока и наносящие им урон
+			}
+
+			BlackPhaseblade: {
+				DisplayName: Чёрный лазерный меч
+				Tooltip: ""
+			}
+
+			BlackPhasesaber: {
+				DisplayName: Чёрная лазерная сабля
+				Tooltip: ""
+			}
+
+			BlueSphere: {
+				DisplayName: Синяя сфера
+				Tooltip: Собери их всех!
+			}
+
+			DiamondArrow: {
+				DisplayName: Алмазная стрела
+				Tooltip: При столкновении разбивается на 3 кристалла, летящих в случайном направлении
+			}
+
+			DiamondBolt: {
+				DisplayName: Алмазный скипетр
+				Tooltip: ""
+			}
+
+			LivingShadowStaff: {
+				DisplayName: Посох живой тени
+				Tooltip: Вызывает силуэт, сражающийся за вас
+			}
+
+			MercuryHamaxe: {
+				DisplayName: Ртутный молотопор
+				Tooltip: ""
+			}
+
+			MercuryPickaxe: {
+				DisplayName: Ртутная кирка
+				Tooltip: ""
+			}
+
+			Mercury: {
+				DisplayName: Ртуть
+				Tooltip: "'L. Cake'"
+			}
+
+			NightFury: {
+				DisplayName: Ярость ночи
+				Tooltip: ""
+			}
+
+			OnyxSepter: {
+				DisplayName: Ониксовый посох
+				Tooltip: ""
+			}
+
+			POWHammer: {
+				DisplayName: P.O.W молот
+				Tooltip: "'Высокая прибОльность'"
+			}
+
+			QuartzCannon: {
+				DisplayName: Кварцевая пушка
+				Tooltip: ""
+			}
+
+			RubyBolt: {
+				DisplayName: Рубиновый скипетр
+				Tooltip: ""
+			}
+
+			SapphireShovel: {
+				DisplayName: Сапфировая лопата
+				Tooltip: При попадании по врагу кратковременно обездвиживает его
+			}
+
+			ShadeBlade: {
+				DisplayName: Теневое лезвие
+				Tooltip: ""
+			}
+
+			Shaderang: {
+				DisplayName: Тенеранг
+				Tooltip: ""
+			}
+
+			ShadowClaw: {
+				DisplayName: Теневые когти
+				Tooltip: Выпускает тёмную энергию
+			}
+
+			ShadowSphere: {
+				DisplayName: Теневая сфера
+				Tooltip: ""
+			}
+
+			Silverado: {
+				DisplayName: Сильверадо
+				Tooltip: Стреляет мощной, высокоскоростной пулей
+			}
+
+			SilverStar: {
+				DisplayName: Серебряная звезда
+				Tooltip: ""
+			}
+
+			Skyfall: {
+				DisplayName: Небопад
+				Tooltip: После броска иногда выпускает несколько ртутных капель
+			}
+
+			Steelocanth: {
+				DisplayName: Сталекант
+				Tooltip: ""
+			}
+
+			WhiteLightning: {
+				DisplayName: Белая молния
+				Tooltip: Создаёт 3 молниевых сферы, соединяющиеся между собой
+			}
+
+			Terminex: {
+				DisplayName: Терминекс
+				Tooltip: ""
+			}
+
+			ShadePetItem: {
+				DisplayName: Сыр и крекер
+				Tooltip: Вызывает теневого питомца, следующего за вами
+			}
+
+			GlitterBlock: {
+				DisplayName: Сверкающий блок
+				Tooltip: ""
+			}
+
+			QuicksilverBucket: {
+				DisplayName: Ведро ртути
+				Tooltip:
+					'''
+					Содержит небольшое количество ртути
+					Можно вылить
+					'''
+			}
+
+			CoreGlobe: {
+				DisplayName: Ядро в шаре
+				Tooltip:
+					'''
+					Бросьте его, чтобы сменить внешний вид ядра!
+					'Самое время сменить обстановку'
+					'''
+			}
+
+			NightmareSeeds: {
+				DisplayName: Кошмарные семена
+				Tooltip: ""
+			}
+
+			QuicksilverSensor: {
+				DisplayName: Датчик жидкости (Ртуть)
+				Tooltip: Активируется при контакте с ртутью, иначе неактивен
+			}
+
+			QuicksilverBomb: {
+				DisplayName: Ртутная бомба
+				Tooltip: Вызывает небольшой взрыв, разбрызгивающий ртуть
+			}
+
+			QuicksilverRocket: {
+				DisplayName: Ртутная ракета
+				Tooltip: Разбрызгивает ртуть при столкновении
+			}
+
+			QuartzCrate: {
+				DisplayName: Кварцевый ящик
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			QuartzFeeder: {
+				DisplayName: Кварцевый питатель
+				Tooltip: ""
+			}
+
+			ShadowFightingFish: {
+				DisplayName: Теневая боевая рыба
+				Tooltip: ""
+			}
+
+			SilverLiner: {
+				DisplayName: Серебряная удочка
+				Tooltip: Позволяет ловить рыбу в ртути
+			}
+
+			ArqueriteCrate: {
+				DisplayName: Аркьюритовый ящик
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			QuicksilverproofFishingHook: {
+				DisplayName: Ртутонепроницаемый рыболовный крючок
+				Tooltip: Позволяет ловить рыбу в ртути
+			}
+
+			QuartzLockBox: {
+				DisplayName: Кварцевая коробка
+				Tooltip:
+					'''
+					{$CommonItemTooltip.RightClickToOpen}
+					Для открытия требуется теневой ключ
+					'''
+			}
+
+			FluorescentLightBulb: {
+				DisplayName: Люминесцентная лампочка
+				Tooltip: ""
+			}
+
+			GiantFluorescentLightBulb: {
+				DisplayName: Гигантская люминесцентная лампочка
+				Tooltip: "'Она слишком тяжела, чтобы вешать её на хоть какую-то крышу'"
+			}
+
+			OtherPortal: {
+				DisplayName: Другой портал
+				Tooltip:
+					'''
+					'Стоит всего лишь бриллиант'
+					'L. Cake'
+					'''
+			}
+
+			PottedMercuryTendrils: {
+				DisplayName: Ртутный побег в горшке
+				Tooltip: ""
+			}
+
+			PottedNightmarePalm: {
+				DisplayName: Кошмарная пальма в горшке
+				Tooltip: ""
+			}
+
+			PottedNightterrorBush: {
+				DisplayName: Куст ночного ужаса в горшке
+				Tooltip: ""
+			}
+
+			PottedPurplestarBrambles: {
+				DisplayName: Фиолетово-звёздная ежевика в горшке
+				Tooltip: ""
+			}
+
+			PottedShadowflameBulb: {
+				DisplayName: Бутон теневого пламени в горшке
+				Tooltip: ""
+			}
+
+			ShadowFightingFishBowl: {
+				DisplayName: Аквариум с теневой боевой рыбой
+				Tooltip: "'Я не думаю, что тебе хотелось бы носить на голове аквариум с ртутью'"
+			}
+
+			ShadowflameEmberedTreads: {
+				DisplayName: Обугленные ботинки теневого пламени
+				Tooltip: "'Довольно большие, чтобы называть их угольками, не так ли?'"
+			}
+
+			NightmareFlareTreads: {
+				DisplayName: Ботинки кошмарной вспышки
+				Tooltip:
+					'''
+					Позволяет летать
+					Позволяет очень быстро бегать
+					Во время бега ботинки оставляют след из угольков теневого пламени
+					'''
+			}
+
+			QuicksilverproofTackleBag: {
+				DisplayName: Ртуть непроницаемая сумка снастей
+				Tooltip:
+					'''
+					Леска никогда не рвётся, снижает шанс потери наживки, увеличивает навык рыбной ловли на 10
+					Позволяет ловить рыбу в ртути
+					'''
+			}
+
+			PurpleflameNecklace: {
+				DisplayName: Ожерелье фиолетового пламени
+				Tooltip:
+					'''
+					Призывает ездовую медузу фиолетового пламени
+					'Она точно не ударит меня током, точно?'
+					'''
+			}
+
+			EnchantedNightmareWorm: {
+				DisplayName: Кошмарный червь
+				Tooltip: ""
+			}
+
+			QuartzCrawler: {
+				DisplayName: Кварцевая улитка
+				Tooltip: ""
+			}
+
+			AlbinoRat: {
+				DisplayName: Крыса-альбинос
+				Tooltip: ""
+			}
+
+			QuicksilverproofBugNet: {
+				DisplayName: Ртуть непроницаемый сачок
+				Tooltip: "'Для тех существ, которых просто так в сачок не положить из-за своей ядовитости'"
+			}
+
+			AlbinoRatCage: {
+				DisplayName: Террариум с крысой-альбиносом
+				Tooltip: ""
+			}
+
+			EnchantedNightmareWormCage: {
+				DisplayName: Террариум с кошмарным червём
+				Tooltip: ""
+			}
+
+			QuartzCrawlerCage: {
+				DisplayName: Террариум с кварцевой улиткой
+				Tooltip: ""
+			}
+
+			GeodeLazerPointer: {
+				DisplayName: Жеодовая лазерная указка
+				Tooltip:
+					'''
+					Призывает теневую кошку, следующую за вами
+					'Могут ли тени ходить?'
+					'''
+			}
+
+			Chasmefish: {
+				DisplayName: Чазморыба
+				Tooltip: "'Водится в пещерах'"
+			}
+
+			GlimmerDepthFish: {
+				DisplayName: Мерцающая глубинная рыба
+				Tooltip: "'Водится в пещерах'"
+			}
+
+			Relicarp: {
+				DisplayName: Реликарп
+				Tooltip: "'Водится в пещерах'"
+			}
+
+			ShalestoneConch: {
+				DisplayName: Сланцевая ракушка
+				Tooltip: "'Если приложить к уху, можно услышать ритуальное пение'"
+			}
+
+			ShellPhoneDepths: {
+				DisplayName: Ракушкофон (Глубины)
+				Tooltip:
+					'''
+					Отображает всё
+					Телепортирует в глубины в любое время
+					Нажмите ПКМ, чтобы переключить место назначения
+					'Если приложить к уху, можно услышать предложения по ипотеке'
+					'''
+			}
+
+			AncientShadowBrick: {
+				DisplayName: Древний теневой кирпич
+				Tooltip: ""
+			}
+
+			NightWood: {
+				DisplayName: Ночная древесина
+				Tooltip: ""
+			}
+
+			NightwoodBath: {
+				DisplayName: Ванна из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodBed: {
+				DisplayName: Кровать из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodBookcase: {
+				DisplayName: Книжный шкаф из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodCandelabra: {
+				DisplayName: Подсвечник из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodCandle: {
+				DisplayName: Свеча из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodChair: {
+				DisplayName: Стул из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodChandelier: {
+				DisplayName: Люстра из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodChest: {
+				DisplayName: Сундук из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodClock: {
+				DisplayName: Часы из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodDoor: {
+				DisplayName: Дверь из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodDresser: {
+				DisplayName: Комод из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodLamp: {
+				DisplayName: Лампа из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodLantern: {
+				DisplayName: Фонарь из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodPiano: {
+				DisplayName: Пианино из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodPlatform: {
+				DisplayName: Платформа из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodSink: {
+				DisplayName: Раковина из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodSofa: {
+				DisplayName: Диван из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodTable: {
+				DisplayName: Стол из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodToilet: {
+				DisplayName: Унитаз из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodWorkbench: {
+				DisplayName: Верстак из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodWall: {
+				DisplayName: Стена из ночной древесины
+				Tooltip: ""
+			}
+
+			ChasmeBag: {
+				DisplayName: Мешок с сокровищами (Чазм)
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			ChasmeSoulMask: {
+				DisplayName: Маска души Чазм
+				Tooltip: ""
+			}
+
+			ShadowChasmeMask: {
+				DisplayName: Маска тени Чазм
+				Tooltip: ""
+			}
+
+			ChasmeTrophy: {
+				DisplayName: Трофей Чазм
+				Tooltip: ""
+			}
+
+			ChasmeMusicBox: {
+				DisplayName: Музыкальная шкатулка (Чазм)
+				Tooltip: ""
+			}
+
+			ChasmeRelic: {
+				DisplayName: Реликвия Чазм
+				Tooltip: ""
+			}
+
+			PhantomFirecart: {
+				DisplayName: Пламенетка геоманта
+				Tooltip: Даёт 4 секунды невосприимчивости к ртути
+			}
+
+			QuartzCandelabra: {
+				DisplayName: Кварцевый подсвечник
+				Tooltip: ""
+			}
+
+			QuartzBookcase: {
+				DisplayName: Кварцевый книжный шкаф
+				Tooltip: ""
+			}
+
+			QuartzBed: {
+				DisplayName: Кварцевая кровать
+				Tooltip: ""
+			}
+
+			QuartzBath: {
+				DisplayName: Кварцевая ванна
+				Tooltip: ""
+			}
+
+			QuartzCandle: {
+				DisplayName: Кварцевая свеча
+				Tooltip: ""
+			}
+
+			QuartzChandelier: {
+				DisplayName: Кварцевая люстра
+				Tooltip: ""
+			}
+
+			QuartzChest: {
+				DisplayName: Кварцевый сундук
+				Tooltip: ""
+			}
+
+			QuartzClock: {
+				DisplayName: Кварцевые часы
+				Tooltip: ""
+			}
+
+			QuartzDresser: {
+				DisplayName: Кварцевый комод
+				Tooltip: ""
+			}
+
+			QuartzLamp: {
+				DisplayName: Кварцевая лампа
+				Tooltip: ""
+			}
+
+			QuartzLantern: {
+				DisplayName: Кварцевый фонарь
+				Tooltip: ""
+			}
+
+			QuartzPiano: {
+				DisplayName: Кварцевое пианино
+				Tooltip: ""
+			}
+
+			QuartzSink: {
+				DisplayName: Кварцевая раковина
+				Tooltip: ""
+			}
+
+			QuartzSofa: {
+				DisplayName: Кварцевый диван
+				Tooltip: ""
+			}
+
+			QuartzToilet: {
+				DisplayName: Кварцевый унитаз
+				Tooltip: ""
+			}
+
+			QuartzVase: {
+				DisplayName: Кварцевая ваза
+				Tooltip: ""
+			}
+
+			GemforgeBanner: {
+				DisplayName: Знамя самоцветной кузни
+				Tooltip: ""
+			}
+
+			GlowingQuicksilverBanner: {
+				DisplayName: Знамя светящейся ртути
+				Tooltip: ""
+			}
+
+			LostHeartBanner: {
+				DisplayName: Знамя потерянного сердца
+				Tooltip: ""
+			}
+
+			QuartzStackBanner: {
+				DisplayName: Знамя кучки кварца
+				Tooltip: ""
+			}
+
+			RackedCollectionBanner: {
+				DisplayName: Знамя полной коллекции
+				Tooltip: ""
+			}
+
+			RelicBanner: {
+				DisplayName: Знамя реликвии
+				Tooltip: ""
+			}
+
+			SwordOfTheCavesBanner: {
+				DisplayName: Знамя меча пещер
+				Tooltip: ""
+			}
+
+			NightwoodFence: {
+				DisplayName: Забор из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodSword: {
+				DisplayName: Меч из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodHammer: {
+				DisplayName: Молот из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodBow: {
+				DisplayName: Лук из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodHelmet: {
+				DisplayName: Шлем из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodGreaves: {
+				DisplayName: Поножи из ночной древесины
+				Tooltip: ""
+			}
+
+			NightwoodBreastplate: {
+				DisplayName: Нагрудник из ночной древесины
+				Tooltip: ""
+			}
+
+			Ciamito: {
+				DisplayName: Циамито
+				Tooltip: "{$CommonItemTooltip.MinorStats}"
+			}
+
+			BlackOlive: {
+				DisplayName: Чёрная оливка
+				Tooltip: "{$CommonItemTooltip.MinorStats}"
+			}
+
+			DepthsOtherworldlyMusicBox: {
+				DisplayName: Иномирная музыкальная шкатулка (Глубины)
+				Tooltip: ""
+			}
+
+			AltarOfGems: {
+				DisplayName: Алтарь самоцветов
+				Tooltip: "'L. Cake'"
+			}
+
+			ForTheSakeOfMakingGadgets: {
+				DisplayName: Ради создания гаджетов
+				Tooltip: "'L. Cake'"
+			}
+
+			ImPurrSonation: {
+				DisplayName: Я-Мур-лычу
+				Tooltip: "'L. Cake & W. Sephi'"
+			}
+
+			MusiciansBestFriend: {
+				DisplayName: Лучшие друзья музыкантов
+				Tooltip: "'L. Cake'"
+			}
+
+			ChaosCat: {
+				DisplayName: Кошка хаоса
+				Tooltip: "'L. Cake & B. Cat'"
+			}
+
+			DONOTDRINK: {
+				DisplayName: НЕ ПИТЬ
+				Tooltip: "'L. Cake'"
+			}
+
+			LivingFogDye: {
+				DisplayName: Краситель живого тумана
+				Tooltip: ""
+			}
+
+			IntenseShadowDye: {
+				DisplayName: Краситель интенсивной тени
+				Tooltip: ""
+			}
+
+			CrystalHorseshoe: {
+				DisplayName: Хрустальная подкова
+				Tooltip:
+					'''
+					Защищает от урона при падении
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					'''
+			}
+
+			SilverCharm: {
+				DisplayName: Амулет серебра
+				Tooltip:
+					'''
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					Даёт 4 секунды невосприимчивости к ртути
+					'''
+			}
+
+			AzuriteRose: {
+				DisplayName: Азуритная роза
+				Tooltip:
+					'''
+					Даёт 4 секунды невосприимчивости к ртути
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					Снижает урон от дебаффов, связанных с ртутью
+					'''
+			}
+
+			CryingSkull: {
+				DisplayName: Плачущий череп
+				Tooltip:
+					'''
+					Даёт 4 секунды невосприимчивости к ртути
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					'''
+			}
+
+			CrystalRose: {
+				DisplayName: Хрустальная роза
+				Tooltip:
+					'''
+					Даёт невосприимчивость к дебаффу «Ртутная радиация»
+					Снижает урон от дебаффов, связанных с ртутью
+					'''
+			}
+
+			MercuryMoss: {
+				DisplayName: Ртутный мох
+				Tooltip: "'Вид, на который можно смотреть вечно и никогда не забудешь'"
+			}
+
+			MercuryMossFishingBobber: {
+				DisplayName: Поплавок ртутного мха
+				Tooltip:
+					'''
+					Увеличивает навык рыбной ловли на 10
+					Ваш поплавок теперь светится
+					'''
+			}
+
+			MercuryMossBricks: {
+				DisplayName: Кирпичи ртутного мха
+				Tooltip: ""
+			}
+
+			MercuryMossBrickWall: {
+				DisplayName: Стены из кирпичей ртутного мха
+				Tooltip: ""
+			}
+
+			QuartzStackWall: {
+				DisplayName: Стена из кучи кварца
+				Tooltip: ""
+			}
+
+			LeakyMercuryWall: {
+				DisplayName: Стена текущей ртути
+				Tooltip: ""
+			}
+
+			MercuryBubbleWall: {
+				DisplayName: Стена ртутных пузырей
+				Tooltip: ""
+			}
+
+			DottedQuicksilverWall: {
+				DisplayName: Стена пунктирной ртути
+				Tooltip: ""
+			}
+
+			WaterGeyser: {
+				DisplayName: Водный гейзер
+				Tooltip: ""
+			}
+
+			AquaQuiver: {
+				DisplayName: Аква-колчан
+				Tooltip:
+					'''
+					Увеличивает урон от стрел на 10%
+					Значительно увеличивает скорость стрел
+					Даёт 20% шанс не потратить стрелу
+					Деревянные стрелы накладывают дебафф «Замораживающая вода»
+					'ЗАМОРОЗИТЬ!'
+					'''
+			}
+
+			PalladiumShield: {
+				DisplayName: Палладиевый щит
+				Tooltip:
+					'''
+					Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
+					Максимальный бонус к сопротивлению урона: 50%
+					Даёт 25% шанс отразить большинство вражеских снарядов
+					'''
+			}
+
+			OnyxMinecart: {
+				DisplayName: Ониксовая вагонетка
+				Tooltip: ""
+			}
+
+			OnyxStoneBlock: {
+				DisplayName: Блок ониксового камня
+				Tooltip: ""
+			}
+
+			OnyxStoneWall: {
+				DisplayName: Стена ониксового камня
+				Tooltip: ""
+			}
+
+			BlackGemsparkWall: {
+				DisplayName: Стена из ониксовых блоков
+				Tooltip: ""
+			}
+
+			BlackGemsparkWallOffline: {
+				DisplayName: Неактивная стена из ониксовых блоков
+				Tooltip: ""
+			}
+
+			OnyxSquirrel: {
+				DisplayName: Ониксовая белка
+				Tooltip: ""
+			}
+
+			OnyxBunny: {
+				DisplayName: Ониксовый кролик
+				Tooltip: ""
+			}
+
+			OnyxBunnyCage: {
+				DisplayName: Клетка с ониксовым кроликом
+				Tooltip: ""
+			}
+
+			OnyxSquirrelCage: {
+				DisplayName: Клетка с ониксовой белкой
+				Tooltip: ""
+			}
+
+			BlackStainedGlass: {
+				DisplayName: Чёрный витраж
+				Tooltip: ""
+			}
+
+			OnyxGemcorn: {
+				DisplayName: Ониксовый самоцветный жёлудь
+				Tooltip: ""
+			}
+
+			TheUnknownDepthsBelow: {
+				DisplayName: Неизвестные нижние глубины
+				Tooltip: "'D. Colin & D. Rious'"
+			}
+
+			FlowingQuicksilver: {
+				DisplayName: Текущая ртуть
+				Tooltip: "'D. Colin & D. Rious'"
+			}
+
+			GeoCampfire: {
+				DisplayName: Гео-костёр
+				Tooltip: ""
+			}
+
+			NightwoodTrappedChest: {
+				DisplayName: Сундук-ловушка из ночной древесины
+				Tooltip: ""
+			}
+
+			QuartzTrappedChest: {
+				DisplayName: Кварцевый сундук-ловушка
+				Tooltip: ""
+			}
+
+			SapphireSerpentKite: {
+				DisplayName: Сапфировый воздушный змей
+				Tooltip:
+					'''
+					Воздушного змея можно запускать в ветреную погоду
+					Сматывайте леску, нажав ПКМ
+					'''
+			}
+
+			Lamington: {
+				DisplayName: Ламингтон
+				Tooltip:
+					'''
+					{$CommonItemTooltip.MajorStats}
+					'...из земель, что ниже.'
+					'''
+			}
+
+			HangingShadowShrub: {
+				DisplayName: Теневой росток в подвесном горшке
+				Tooltip: ""
+			}
+
+			MidnightHorseshoe: {
+				DisplayName: Полуночная подкова
+				Tooltip: ""
+			}
+
+			AmethystShalestoneBlock: {
+				DisplayName: Аметистовый сланцевый блок
+				Tooltip: ""
+			}
+
+			DiamondShalestoneBlock: {
+				DisplayName: Алмазный сланцевый блок
+				Tooltip: ""
+			}
+
+			EmeraldShalestoneBlock: {
+				DisplayName: Изумрудный сланцевый блок
+				Tooltip: ""
+			}
+
+			OnyxShalestoneBlock: {
+				DisplayName: Ониксовый сланцевый блок
+				Tooltip: ""
+			}
+
+			RubyShalestoneBlock: {
+				DisplayName: Рубиновый сланцевый блок
+				Tooltip: ""
+			}
+
+			SapphireShalestoneBlock: {
+				DisplayName: Сапфировый сланцевый блок
+				Tooltip: ""
+			}
+
+			TopazShalestoneBlock: {
+				DisplayName: Топазовый сланцевый блок
+				Tooltip: ""
+			}
+
+			ShaleWall: {
+				DisplayName: Сланцевая стена
+				Tooltip: ""
+			}
+
+			StaffOfAThousandYears: {
+				DisplayName: Посох тысячелетий
+				Tooltip: Призывает Чазмини
+			}
+
+			QuartzHood: {
+				DisplayName: Кварцевый капюшон
+				Tooltip: Увеличивает дальность хлыстов на 15%
+			}
+
+			QuartzLeggings: {
+				DisplayName: Кварцевые поножи
+				Tooltip: Увеличивает максимальное количество миньонов на 1
+			}
+
+			QuartzWinterCoat: {
+				DisplayName: Кварцевое зимнее пальто
+				Tooltip: Увеличивает скорость хлыстов на 35%
+			}
+
+			HungryLeash: {
+				DisplayName: Поводок голодного
+				Tooltip:
+					'''
+					Увеличивает скорость передвижения на 25% за каждые 25% недостающего здоровья
+					'Насколько голоден?'
+					'''
+			}
+
+			PetrifiedWoodBath: {
+				DisplayName: Ванна из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodBed: {
+				DisplayName: Кровать из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodBookcase: {
+				DisplayName: Книжный шкаф из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodCandelabra: {
+				DisplayName: Подсвечник из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodCandle: {
+				DisplayName: Свеча из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodChair: {
+				DisplayName: Стул из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodChandelier: {
+				DisplayName: Люстра из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodChest: {
+				DisplayName: Сундук из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodClock: {
+				DisplayName: Часы из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodDoor: {
+				DisplayName: Дверь из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodDresser: {
+				DisplayName: Комод из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodLamp: {
+				DisplayName: Лампа из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodLantern: {
+				DisplayName: Фонарь из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodPiano: {
+				DisplayName: Пианино из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodPlatform: {
+				DisplayName: Платформа из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodSink: {
+				DisplayName: Раковина из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodSofa: {
+				DisplayName: Диван из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodTable: {
+				DisplayName: Стол из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodToilet: {
+				DisplayName: Унитаз из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodTrappedChest: {
+				DisplayName: Сундук-ловушка из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodWorkbench: {
+				DisplayName: Верстак из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodFence: {
+				DisplayName: Забор из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodWall: {
+				DisplayName: Стена из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodBow: {
+				DisplayName: Лук из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodHammer: {
+				DisplayName: Молот из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodSword: {
+				DisplayName: Меч из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodBreastplate: {
+				DisplayName: Нагрудник из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodGreaves: {
+				DisplayName: Поножи из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			PetrifiedWoodHelmet: {
+				DisplayName: Шлем из окаменевшей древесины
+				Tooltip: ""
+			}
+
+			BottomlessQuicksilverBucket: {
+				DisplayName: Бездонное ведро с ртутью
+				Tooltip:
+					'''
+					Содержит неограниченное количество ртути
+					Можно вылить
+					'''
+			}
+
+			QuicksilverAbsorbantSponge: {
+				DisplayName: Ртутепоглощающая губка
+				Tooltip: Способен впитывать неограниченное количество ртути
+			}
+
+			ShalestoneShackle: {
+				DisplayName: Сланцевые кандалы
+				Tooltip: Дважды нажмите {$Key.DOWN}, чтобы резко ускорить падение, вызывая ударную волну при столкновении
+			}
+
+			FelineTombstone: {
+				DisplayName: Кошачье надгробие
+				Tooltip: "'Хоть они и ушли, мы будем помнить их и увековечим их на долгие годы'"
+			}
+		}
+
+		NPCs: {
+			AlbinoBat.DisplayName: Летучая мышь-альбинос
+			Archroma.DisplayName: Архрома
+			ChasmeBody.DisplayName: Чазм
+			ChasmeHandLeft.DisplayName: Рука Чазм
+			ChasmeHandRight.DisplayName: Рука Чазм
+			ChasmeHead.DisplayName: Голова Чазм
+			ChasmeHeart.DisplayName: Сердце Чазм
+			CrystalKing.DisplayName: Кристальный король
+			Ferroslime.DisplayName: Железный слизень
+			Geomancer.DisplayName: Геомант
+			GoldBat.DisplayName: Золотая летучая мышь
+			KingCoal.DisplayName: Угольный король
+			Shade.DisplayName: Тень
+			ShadowBat.DisplayName: Теневая летучая мышь
+			ShadowSlime.DisplayName: Теневой слизень
+			DepthsWorm.DisplayName: Сапфировый змей
+			SapphireSerpentBody.DisplayName: Тело сапфирового змея
+			SapphireSerpentHead.DisplayName: Голова сапфирового змея
+			SapphireSerpentTail.DisplayName: Хвост сапфирового змея
+			EnchantedNightmareWorm.DisplayName: Кошмарный червь
+			QuartzCrawler.DisplayName: Кварцевая улитка
+			AlbinoRat.DisplayName: Мышь Альбинос
+			OnyxSquirrel.DisplayName: Ониксовая белка
+			OnyxBunny.DisplayName: Ониксовый кролик
+			CrystalBoundTaxCollector.DisplayName: Связанное кристальное образование
+		}
+
+		Projectiles: {
+			ShadePetProjectile.DisplayName: Тень-Питомец
+			BlueExplosion.DisplayName: Синий взрыв
+			BlueSphereYoyo.DisplayName: Синяя сфера йо-йо
+			GemforgeCutscene.DisplayName: Самоцветная кузня
+			CrystalBall.DisplayName: Кристальный шар
+			CrystalBallPassive.DisplayName: Кристальная сфера
+			DiamondArrow.DisplayName: Алмазная стрела
+			DiamondBolt.DisplayName: Алмазный заряд
+			DiamondDustProj.DisplayName: Алмазная пыль
+			GeodeCrystalSummon.DisplayName: Жеодовый кристалл
+			GlitteringGoldenLine.DisplayName: Сверкающая золотая линяя
+			LumpOfCoal.DisplayName: Кусок угля
+			OnyxBolt.DisplayName: Ониксовый заряд
+			OnyxHook.DisplayName: Ониксовый крюк
+			QuartzChunk.DisplayName: Кварц
+			RubyBolt.DisplayName: Рубиновый заряд
+			SapphireShovelProj.DisplayName: Заряд воды
+			SapphireSpit.DisplayName: "{$Mods.TheDepths.Projectiles.SapphireShovelProj.DisplayName}"
+			Shaderang.DisplayName: Тенеранг
+			ShadowBall.DisplayName: Большой теневой шар
+			ShadowBall2.DisplayName: Теневой шар
+			ShadowBall3.DisplayName: Маленький теневой шар
+			ShadowClawBottom.DisplayName: Теневой коготь
+			ShadowClawMiddle.DisplayName: Теневой коготь
+			ShadowClawTip.DisplayName: Теневой коготь
+			SilverSpheres.DisplayName: Серебряная сфера
+			SilverStar.DisplayName: Серебряная звезда
+			SkyFallRain.DisplayName: Ртутный дождь
+			SkyfallYoyo.DisplayName: Небопад йо-йо
+			Steelocanth.DisplayName: Сталекант
+			LivingShadowSummonProj.DisplayName: Силуэт
+			CoreGlobe.DisplayName: Глобус ядра
+			WhiteLightning.DisplayName: Белая молния
+			WhiteLightningOrb.DisplayName: Сфера белой молнии
+			WhiteLightningOrb2.DisplayName: Сфера белой молнии
+			WhiteLightningOrb3.DisplayName: Сфера белой молнии
+			WhiteLightningTo2.DisplayName: Белая молния
+			WhiteLightningTo1.DisplayName: Белая молния
+			WhiteLightningTo3.DisplayName: Белая молния
+			QuicksilverBomb.DisplayName: Ртутная бомба
+			QuicksilverGrenade.DisplayName: Ртутная граната
+			QuicksilverMine.DisplayName: Ртутная мина
+			QuicksilverRocket.DisplayName: Ртутная ракета
+			QuicksilverSnowmanRocket.DisplayName: Ртутная ракета снеговика
+			SilverBobber.DisplayName: Серебряный поплавок
+			ShadowflameEmber1.DisplayName: Уголёк теневого пламени
+			ShadowCat.DisplayName: Теневая кошка
+			ShadowflameEmber2.DisplayName: Уголёк теневого пламени
+			ShadowflameEmber3.DisplayName: Уголёк теневого пламени
+			POWHammerSwing.DisplayName: Вращение POW молота
+			POWEffect.DisplayName: POW Эффект
+			MercuryExplosion1.DisplayName: Ртутный взрыв
+			MercuryExplosion.DisplayName: Ртутный взрыв
+			ShadeBladeLeft.DisplayName: Теневое лезвие
+			ShadeBladeRight.DisplayName: Теневое лезвие
+			ShadeBladeCalculator.DisplayName: Калькулятор теневого лезвия
+			ChasmeRay.DisplayName: Рубиновый луч
+			ChasmeShockwave.DisplayName: Рубиновая шоковая волна
+			MercuryMossFishingBobber.DisplayName: Поплавок ртутного мха
+			WaterGeyser.DisplayName: Водный гейзер
+			AquaArrow.DisplayName: Аква стрела
+			OnyxExplosion.DisplayName: Ониксовый взрыв
+			SapphireSerpentKite.DisplayName: Сапфировый воздушный змей
+			MiniChasme.DisplayName: Мини-Чазм
+			MiniChasmeHand.DisplayName: Рука мини-Чазм
+			ShalestoneHand.DisplayName: Сланцевая рука
+			ShalestoneSlam.DisplayName: Сланцевый хлопок
+			ShadowLash.DisplayName: Теневой хлыст
+			QuicksilverTears.DisplayName: Ртутные слёзы
+			EmeraldEnergy.DisplayName: Изумрудная энергия
+			FelineTombstone.DisplayName: Кошачье надгробие
+		}
+
+		Biomes: {
+			DepthsBiome: {
+				DisplayName: Глубины
+				TownNPCDialogueName: Глубины
+			}
+		}
+
+		UnderworldSelection: {
+			Random: {
+				Title: Случайно
+				Description: Позвольте природе решить, займёт ли ядро мира преисподняя или глубины.
+			}
+
+			Underworld: {
+				Title: Преисподняя
+				Description: В вашем мире обязательно появится заполненная лавой преисподняя.
+			}
+
+			Depths: {
+				Title: Глубины
+				Description: В вашем мире обязательно появятся холодные и тёмные глубины.
+			}
+		}
+
+		Configs: {
+			TheDepthsClientConfig: {
+				DisplayName: Клиентская конфигурация The Depths
+				Headers.DepthsClientsideConfig: Клиентская конфигурация
+
+				SlateConfig: {
+					Label: Переименовать сланец в аспидий
+					Tooltip: Переименовывает блок сланца в аспидий, для вступления в силу следует перезагрузить мод.
+				}
+
+				EnableFog: {
+					Label: Включить глубинный туман
+					Tooltip: 
+						'''
+						Включает интенсивный туман, видимый только в глубинах.
+						Отключите это, если хотите убрать туман.
+						'''
+				}
+			}
+
+			FargosBoBWConfig: {
+				DisplayName: Конфигурация Fargo's Best of Both Worlds для The Depths
+				Headers.DrunkSeedRequiresFargosbestofbothworldsmod: Пьяный сид (для работы требуется Fargo's Best of Both Worlds)
+
+				BothCores: {
+					Label: "[i:174][i:TheDepths/ArqueriteOre] Оба ядра"
+					Tooltip: ""
+				}
+			}
+		}
+
+		Emotes: {
+			DepthsBiomeEmote: depths
+			ShadowCatEmote: shadowcat
+			ChasmeEmote: chasme
+		}
+
+		DepthsBiome: Глубины
+
+		Achievements: {
+			HeartBreaker: {
+				Name: Разрушитель сердца
+				Description: Одержать победу над Чазм и её сланцевой гиганткой - создательницей глубин и правительницей геомантов.
+				FriendlyName: "{$Mods.TheDepths.Achievements.HeartBreaker.Name}"
+			}
+
+			PickaxeOfPoison: {
+				Name: Кирка Яда
+				Description: Смастерить ртутную кирку, используя самую ядовитую жидкость.
+				FriendlyName: "{$Mods.TheDepths.Achievements.PickaxeOfPoison.Name}"
+			}
+
+			MysteriesOfTheDark: {
+				Name: Тайны темноты
+				Description: Копать глубже, пока не достигнешь глубин этого мира.
+				FriendlyName: "{$Mods.TheDepths.Achievements.MysteriesOfTheDark.Name}"
+			}
+
+			MercuryAngler: {
+				Name: Ртутный чёрт
+				Description: Бросить приманку в водоём с ртутью, получив окутанную ртутью добычу.
+				FriendlyName: "{$Mods.TheDepths.Achievements.MercuryAngler.Name}"
+			}
+		}
+
+		BossChecklist.SpawnInfo.Chasme: Используйте [i:TheDepths/RubyRelic] на [i:TheDepths/Gemforge], находясь у самого ядра своего мира. [c/FF0000:Убийство этого босса переведёт ваш мир в Хардмод!]
+		InDepths: Mods.TheDepths.InDepths
+		OutDepths: Mods.TheDepths.OutDepths
+		GameUI.LayerDepths: Глубины
+
+		CreditsRollCategory_DepthsTeam: {
+			1: Команда The Depths
+			2: Lion8cake
+			3: Snickerbobble
+			4: HBDeus
+			5: GabeHasWon
+			6: Ghasttear1
+			7: Syntrin
+			8: Darkrious
+			9: Larfleeze
+			10: Moddingus
+			11: Hariq “Hariq53”
+			12: Phase II “alpha0010”
+			13: Kurtis
+			14: Andrey2345
+			15: Yee苍棱
+			16: Seceip
+			17: zynn
+			18: Roton
+			19: CDT_Maggot
+			20: BasicallyIAmFox
+		}
+
+		MusicDisplay: {
+			ModName: The Depths
+			Author: от HBDues
+			Depths.DisplayName: Невменяемая глубина
+			DepthsOtherworldly.DisplayName: Глубинная невменяемость
+			Chasme.DisplayName: Пропасть к скалам
+		}
+
+		Keybinds.GroundSlam.DisplayName: Удар по земле
+		Liquids.Quicksilver.MapEntry: Ртуть
+	}
+}
+
+ItemTooltip.TerrasparkBoots:
+	'''
+	Позволяет летать, очень быстро бегать, а также увеличивает подвижность на льду
+	Увеличивает скорость передвижения на 8%
+	Позволяет ходить по воде и меду, а также ртути и лаве
+	Даёт невосприимчивость к огненным и ядовитым блокам, 7 секунд невосприимчивости к лаве и 8 секунд к ртути
+	Снижает урон, получаемый при контакте с лавой, а также от дебаффов, связанных с ртутью
+	'''

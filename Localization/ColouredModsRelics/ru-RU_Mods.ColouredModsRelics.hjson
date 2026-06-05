@@ -1,0 +1,190 @@
+Configs: {
+    RainbowConfig: {
+	DisplayName: Конфигурация цветов
+	Headers.RainbowHeader: Включение/Выключение цветных реликвий
+
+	CalValEX: {
+		Label: Calamity's Vanities
+		Tooltip: ""
+	}
+
+	CalamityEntropy: {
+		Label: Calamity Entropy
+		Tooltip: ""
+	}
+
+	CalamityHunt: {
+		Label: Hunt of the Old God
+		Tooltip: ""
+	}
+
+	CatalystMod: {
+		Label: Catalyst Mod
+		Tooltip: ""
+	}
+
+	Consolaria: {
+		Label: Consolaria
+		Tooltip: ""
+	}
+
+	ContinentOfJourney: {
+		Label: Homeward Journey
+		Tooltip: ""
+	}
+
+	Coralite: {
+		Label: Coralite
+		Tooltip: ""
+	}
+
+	DDMod: {
+		Label: DawnMod: Rising Days
+		Tooltip: ""
+	}
+
+	NoxusBoss: {
+		Label: Calamity: Wrath of the Gods
+		Tooltip: ""
+	}
+
+	PrimeRework: {
+		Label: Mech Bosses Rework
+		Tooltip: ""
+	}
+
+	Redemption: {
+		Label: Mod of Redemption
+		Tooltip: ""
+	}
+
+	SOTS: {
+		Label: Secrets Of The Shadows
+		Tooltip: ""
+	}
+
+	SpiritMod: {
+		Label: Spirit Mod
+		Tooltip: ""
+	}
+
+	Spooky: {
+		Label: Spooky Mod
+		Tooltip: ""
+	}
+
+	StarlightRiver: {
+		Label: Starlight River
+		Tooltip: ""
+	}
+
+	ThoriumMod: {
+		Label: Thorium Mod
+		Tooltip: ""
+	}
+
+	Stellamod: {
+		Label: Lunar Veil Legacy
+		Tooltip: ""
+	}
+
+	TheDepths: {
+		Label: The Depths
+		Tooltip: ""
+	}
+
+	Clamity: {
+		Label: Clamity
+		Tooltip: ""
+	}
+
+	LightAndDarknessMod: {
+		Label: LightAndDarkness
+		Tooltip: ""
+	}
+
+	TeaNPC: {
+		Label: "[No longer update] TeaNPC"
+		Tooltip: ""
+	}
+
+	Macrocosm: {
+		Label: Macrocosm [BETA]
+		Tooltip: ""
+	}
+
+	OphioidMod: {
+		Label: Ophioid - A Boss fight mod
+		Tooltip: ""
+	}
+
+	QwertyMod: {
+		Label: Qwerty's Bosses and Items 2
+		Tooltip: ""
+	}
+
+	EbonianMod: {
+		Label: Ebonian Mod
+		Tooltip: ""
+	}
+
+	VitalityMod: {
+		Label: Vitality Mod
+		Tooltip: ""
+	}
+
+	Polarities: {
+		Label: Polarities
+		Tooltip: ""
+	}
+
+	ProjectZero: {
+		Label: Project Zero
+		Tooltip: ""
+	}
+
+	RoA: {
+		Label: Rise of Ages
+		Tooltip: ""
+	}
+
+	CalamityFables: {
+		Label: Calamity Fables
+		Tooltip: ""
+	}
+
+	GuidaMod: {
+		Label: Guida's Journey
+		Tooltip: ""
+	}
+
+	AFKPETS: {
+		Label: AFK's PETS and more
+		Tooltip: ""
+	}
+
+	Avalon: {
+		Label: Exxo Avalon Origins
+		Tooltip: ""
+	}
+
+	CorruptionBoss: {
+		Label: Corruption Core Boss
+		Tooltip: ""
+	}
+
+	MartainsOrder: {
+		Label: Martin's Order mod
+		Tooltip: ""
+	}
+
+	AAmod: {
+		Label: Ancients Awakened [BETA]
+		Tooltip: ""
+	}
+}
+}
+
+ErrorTexts: {
+    TypeLoadException: "[НЕ ИСПОЛЬЗУЕТСЯ]"
+}

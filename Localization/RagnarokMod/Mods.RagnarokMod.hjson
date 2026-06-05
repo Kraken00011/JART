@@ -1,0 +1,6 @@
+DamageClasses: {
+	ThoriumRogueClass.DisplayName: ед. разбойного урона
+	MeleeSummoner.DisplayName: ед. урона призывного боя
+	RadiantMagic.DisplayName: ед. магезарного урона
+	RogueRanger.DisplayName: ед. стрелобойного урона
+}

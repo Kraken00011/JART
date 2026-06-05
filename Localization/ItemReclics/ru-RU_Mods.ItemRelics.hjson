@@ -1,0 +1,23 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	e: {
+		DisplayName: е
+		Tooltip:
+			'''
+			Шаблон предмета
+			Замена этого описания - долг
+			Снег идёт на Mt.Fuji
+			'''
+	}
+
+	RelicPedestalItem: {
+		DisplayName: Предмет на реликвенном пьедестале
+		Tooltip: ""
+	}
+
+	RelicPedestal: {
+		DisplayName: Реликвенный пьедестал
+		Tooltip: ""
+	}
+}

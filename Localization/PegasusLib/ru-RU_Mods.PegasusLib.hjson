@@ -1,0 +1,165 @@
+/*ListAll: {
+	1: "{n}"
+	2: "{n} и {n}"
+	Люб.: "[{n}, ]и {n}"
+}
+
+PluralityFormatting.NoValidFormat: No valid format for {0} arguments found in {1}
+FlagsEnumConfigElement.NoneSelected: Нет
+ExtraDyeSlotsButton: Дополнительные красители
+WeakSyncedAction_BothSide: WeakSyncedActions should not be added by Both-side mods for performance reasons, use SyncedAction instead
+Warnings.WarningPrefaceText: Some errors were encountered during mod loading, these may be the result of incompatibility with other mods
+
+NotSynced_KeybindHandlerPlayer: {
+	Base: KeybindHandlerPlayer, но PegasusLib не установлен на данном сервере, некоторые горячие клавиши создавать неожиданные для других клиентов эффекты.
+	1: "{n} использует {$Base}"
+	2: "{n} и {n} используют {$Base}"
+	Any: "[{n}, ]и {n} используют {$Base}"
+}
+
+NotSynced_WeakSyncedAction: {
+	Base: WeakSyncedAction, но PegasusLib не установлен на данном сервере, некоторые действия могут создавать неожиданные для других клиентов эффекты.
+	1: "{n} использует {$Base}"
+	2: "{n} и {n} используют {$Base}"
+	Any: "[{n}, ]и {n} используют {$Base}"
+}
+
+Configs: {
+	PegasusConfig: {
+		DisplayName: Конфигурация
+
+		alwaysShowDyeSlotList: {
+			Label: Всегда отображать кнопку дополнительного списка красителей
+			Tooltip: ""
+		}
+
+		buffHintListCondition: {
+			Label: Контроль списка подсказок баффов
+			Tooltip:
+				'''
+				When the buff hint list will be shown for compatible items
+				While a specific key is held, always, or never
+				'''
+		}
+
+		buffHintListPosition: {
+			Label: Местоположения списка подсказок о баффах
+			Tooltip: ""
+		}
+
+		buffHintListScale: {
+			Label: Размер списка подсказок о баффах
+			Tooltip: ""
+		}
+
+		showAdditionalDebuffsTooltip: {
+			Label: Отображение дополнительного описания дебаффов
+			Tooltip: Whether or not to add a tooltip line to show buffs that aren't mentioned in the regular tooltips
+		}
+
+		colorBuffHints: {
+			Label: Цветные подсказки баффов
+			Tooltip: ""
+		}
+
+		invertOnHitBuffHintColor: {
+			Label: Инвертировать цвета подсказок баффов для эффектов «при попадании»
+			Tooltip: ""
+		}
+
+		dyeSlotNamePlacement: {
+			Label: Местоположение дополнительно слота красителей
+			Tooltip: ""
+		}
+	}
+
+	BuffListPosition: {
+		Tooltip: ""
+		Right.Label: Право
+
+		Below: {
+			Label: Ниже
+			Tooltip: ""
+		}
+
+		Side: {
+			Label: В стороне
+			Tooltip: ""
+		}
+	}
+
+	BuffListControl: {
+		Tooltip: ""
+
+		Shift: {
+			Label: Shift
+			Tooltip: ""
+		}
+
+		Always: {
+			Label: Всегда
+			Tooltip: ""
+		}
+
+		Never: {
+			Label: Никогда
+			Tooltip: ""
+		}
+
+		Control: {
+			Label: Ctrl
+			Tooltip: ""
+		}
+
+		Alt: {
+			Label: Alt
+			Tooltip: ""
+		}
+	}
+
+	SlotNamePlacement: {
+		SlotName: Название слота
+		ItemName: Название предмета
+		OtherTooltips: Другие описания
+	}
+
+	"SlotNamePlacement[].Tooltip": ""
+}
+
+BuffTooltip: {
+	DOT: Наносит {0:0.#} ед. урона в секунду
+	AffectDamage: "Нанесено {0:+0%;-0%}{1}"
+	CursedInferno: Увеличивает получаемое отбрасывание на 10%
+	Ichor: Снижает защиту на 15 ед.
+	Oiled: Наносит 25 ед. урона в секунду по горящим врагам
+	Midas: С врагов выпадает на 10-49% больше монет после смерти
+	Daybreak: Наносит 25 ед. урона в секунду за каждое вонзённое во врага копьё
+	Weak:
+		'''
+		Снижает защиту на 4 ед.
+		Снижает урон ближнего боя на 5,1%
+		Снижает скорость атаки ближнего боя на 5,1%
+		Снижает скорость передвижения на 10%
+		'''
+	WitheredWeapon: Снижает урон вдвое
+	Frozen: Не позволяет атаковать и передвигаться
+	Webbed: Не позволяет передвигаться
+	Stoned:
+		'''
+		{$Frozen}
+		Увеличивает получаемый урон от падения
+		'''
+	Shimmer: Что-то происходит!
+	DryadsWardDebuff: Наносит урон в зависимости от количества убитых боссов
+}
+
+InflictsDebuffs: Накладывает дебафф {0}
+
+AdvancedTextSnippet: {
+	Waggle_Handler: {
+		Option_t: Временной фактор
+		Option_x: X фактор
+		Option_y: Размер тряски
+	}
+}
+*/

@@ -1,0 +1,182 @@
+		Items: {
+			BlueMedallion: {
+				Tooltip: 
+				'''
+				Призывает удачливую Голубую луну 
+				Можно использовать только ночью
+				'''
+				DisplayName: Голубой медальон
+			}
+
+			CherryAmulet: {
+				Tooltip: 
+				'''
+				Призывает чарующую Вишнёвую луну
+				Можно использовать только ночью
+				'''
+				DisplayName: Вишнёвый амулет
+			}
+
+			HarvestLantern: {
+				Tooltip: 
+				'''
+				Призывают праздничную Урожайную луну
+				Можно использовать только ночью
+				'''
+				DisplayName: Урожайная лампа
+			}
+
+			HarvestMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Музыкальная шкатулка (Урожайная луна)
+			}
+
+			CherryMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Музыкальная шкатулка (Вишнёвая луна)
+			}
+
+			BlueMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Музыкальная шкатулка (Голубая луна)
+			}
+
+			MintRing: {
+				Tooltip: 
+				'''
+				Призывает освежающую Мятную луну
+				Можно использовать только ночью
+				'''
+				DisplayName: Мятное кольцо
+			}
+
+			MintMoonMusicBox: {
+				Tooltip: ""
+				DisplayName: Музыкальная шкатулка (Мятная луна)
+			}
+
+			SapphireRing: {
+				DisplayName: Сапфировое кольцо
+				Tooltip: Накладывает бафф «Лунная сила»
+			}
+
+			TopazRing: {
+				DisplayName: Топазовое кольцо
+				Tooltip: Накладывает бафф «Невероятная жатва»
+			}
+
+			AmethystRing: {
+				DisplayName: Аметистовое кольцо
+				Tooltip: Накладывает бафф «Благословение природы»
+			}
+
+			EmeraldRing: {
+				DisplayName: Изумрудное кольцо
+				Tooltip: Накладывает бафф «Мятная свежесть»
+			}
+
+			MoonsRing: {
+				DisplayName: Лунное кольцо
+				Tooltip: Увеличивает количество выпадаемых с врагов монет, регенерацию здоровья, шанс критического удара и магический урон
+			}
+		}
+
+		Buffs: {
+			BountifulHarvestBuff: {
+				DisplayName: Невероятная жатва
+				Description:
+				'''
+				Благословение Урожайной луны наполняет ваши карманы деньгами.
+				С врагов выпадает больше монет.
+				'''
+			}
+
+			FloralBlessingBuff: {
+				DisplayName: Благословение природы
+				Description: 
+				'''
+				Примите дар в виде исцеляющей ауры Вишнёвой луны.
+				Ваши раны заживают быстрее.
+				'''
+			}
+
+			LunarEmpowermentBuff: {
+				DisplayName: Лунная сила
+				Description: Голубая луна дарует вам частичку своей удачи.
+			}
+
+			MintyFreshnessBuff: {
+				DisplayName: Мятная свежесть
+				Description: Искрящийся свет Мятной луны усиливает ваши магические способности.
+			}
+
+			MoonsRingBuff: {
+				DisplayName: Небесная гармония
+				Description: Вы благословлены силой 4-х величественных лун.
+			}
+		}
+
+		Tiles: {
+			HarvestMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Урожайная луна)
+			CherryMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Вишнёвая луна)
+			BlueMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Голубая луна)
+			MintMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Мятная луна)
+		}
+
+Configs: {
+	BlueMoonConfig: {
+	DisplayName: Конфигурация
+
+	Headers: {
+		Blue_Moon: Голубая луна
+		Cherry_Moon: Вишнёвая луна
+		Harvest_Moon: Урожайная луна
+		Mint_Moon: Мятная луна
+	}
+
+	EnableBlueMoonSpawn: {
+		Label: Возможность естественного появления Голубой луны
+		Tooltip: ""
+	}
+
+	DecreaseBlueMoonSpawnRate: {
+		Label: Снизить шанс естественного появления Голубой луны
+		Tooltip: ""
+	}
+
+	EnableCherryMoonSpawn: {
+		Label: Возможность естественного появления Вишнёвой луны
+		Tooltip: ""
+	}
+
+	DecreaseCherryMoonSpawnRate: {
+		Label: Снизить шанс естественного появления Вишнёвой луны
+		Tooltip: ""
+	}
+
+	EnableHarvestMoonSpawn: {
+		Label: Возможность естественного появления Урожайной луны
+		Tooltip: ""
+	}
+
+	DecreaseHarvestMoonSpawnRate: {
+		Label: Снизить шанс естественного появления Урожайной луны
+		Tooltip: ""
+	}
+
+	EnableMintMoonSpawn: {
+		Label: Возможность естественного появления Мятной луны
+		Tooltip: ""
+	}
+
+	DecreaseMintMoonSpawnRate: {
+		Label: Снизить шанс естественного появления Мятной луны
+		Tooltip: ""
+	}
+
+	IncreaseMintMoonSpawnRate: {
+		Label: Увеличить шанс естественного появления Мятной луны
+		Tooltip: ""
+	}
+}
+}
