@@ -23,8 +23,8 @@ public partial class SOTSBardHealerGlobalItem : GlobalItem
         if (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing"))
         {
             tooltips.RemoveAll((TooltipLine l) => l.Text == "-Воин-");
-            // tooltips.RemoveAll((TooltipLine l) => l.Text == "-Метатель-");
             tooltips.RemoveAll((TooltipLine l) => l.Text == "-Истинный воин-");
+            tooltips.RemoveAll((TooltipLine l) => l.Text == "-Тяжёлый воин-");
         }
 
         if (ModLoader.HasMod("InfernalEclipseAPI") && ModContent.TryFind<DamageClass>("InfernalEclipseAPI/VoidRogue", out var voidRogue))
@@ -32,8 +32,8 @@ public partial class SOTSBardHealerGlobalItem : GlobalItem
             if (item.DamageType == voidRogue)
             {
                 tooltips.RemoveAll((TooltipLine l) => l.Text == "-Воин-");
-                // tooltips.RemoveAll((TooltipLine l) => l.Text == "-Метатель-");
                 tooltips.RemoveAll((TooltipLine l) => l.Text == "-Истинный воин-");
+                tooltips.RemoveAll((TooltipLine l) => l.Text == "-Тяжёлый воин-");
             }
         }
     }

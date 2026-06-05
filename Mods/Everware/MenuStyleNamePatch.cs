@@ -45,6 +45,6 @@ public class EverwareMenuStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = Language.GetTextValue("Где-то, когда-то"); // итоговый перевод
+        cursor.Next.Operand = Language.GetTextValue("Где-то там..."); // итоговый перевод
     };
 }
