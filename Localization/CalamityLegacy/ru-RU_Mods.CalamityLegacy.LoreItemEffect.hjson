@@ -1,8 +1,8 @@
 /*LoreKingSlime:
 	'''
-	[c/caffff: Увеличивает скорость передвижения на 10% и ускоряет прыжок на 2% Gain 10% increased movement speed and 2% increased jump speed]
-	[c/caffff: Если у вас есть автопрыжок, то увеличение скорости прыжка отключается If you have auto-jump, the jump speed bonus is disabled]
-	[c/caffff: Также, ваша защита снижена на 2 из-за вашего гелевого тела However, your defense is reduced by 2 due to your gelatinous body]
+	[c/caffff:Увеличивает скорость передвижения на 10% и прыжка на 2% Gain 10% increased movement speed and 2% increased jump speed]
+	[c/caffff:Если у вас включён автопрыжок, бонус к скорости прыжка отключается If you have auto-jump, the jump speed bonus is disabled]
+	[c/caffff:Но снижает защиту на 2 ед. из-за ослизнения вашего тела However, your defense is reduced by 2 due to your gelatinous body]
 	'''
 LoreDesertScourge:
 	'''
