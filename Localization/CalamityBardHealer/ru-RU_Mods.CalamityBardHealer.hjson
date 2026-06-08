@@ -540,11 +540,11 @@ Items: {
 		DisplayName: Filthy Flute
 		Tooltip:
 			'''
-			Shoots a fast ball of cursed inferno
-			Successfully timing hits will steadily increase its empowerment level and velocity
-			On the 5th successful timed hit, you attact a rare dank creeper specimen that fight for you
+			Выстреливает быстрым шариком проклятого огня Shoots a fast ball of cursed inferno
+			Удары, соблюдающие ритм, постепенно увеличивает их уровень усиления и скорость полёта Successfully timing hits will steadily increase its empowerment level and velocity
+			Каждые 5 ударов, соблюдающих ритм, вы призывает редкий вид сырой лианы, который сражает за вас On the 5th successful timed hit, you attact a rare dank creeper specimen that fight for you
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			'The song of the collective consciousness of the corruption'
+			'Песня коллективного разума порчи The song of the collective consciousness of the corruption'
 			Основано на флейте из «Filthy Mind» за авторством DM Dokuro (ft. SixteenInMono)
 			'''
 	}
@@ -554,7 +554,7 @@ Items: {
 		Tooltip:
 			'''
 			Игнорирует 15 ед. защиты
-			Unleashes a burning flurry of flames
+			Выпускает жгучий шквал пламени Unleashes a burning flurry of flames
 			При попадании накладывает дебафф [cbuff:CalamityMod/BrimstoneFlames]
 			'«Пожар» - очень преуменьшающее название'
 			'''
