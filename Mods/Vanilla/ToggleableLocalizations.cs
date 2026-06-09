@@ -157,8 +157,18 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\HypnosMod\ru-RU_Mods.HypnosMod.hjson")
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.InfernalEclipseLocalization, "InfernalEclipseAPI",
-				modpath, @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.hjson"))
+				if ((!JARTLocalizationConf.Instance.InfernalEclipseLocalization || !ModLoader.HasMod("InfernalEclipseAPI"))
+				&& (modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.InfernalEclipseAPI.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.BlueMoon.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CalamityAmmo.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CalamityBardHealer.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CatalystMod.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.Consolaria.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.InfernumMode.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.SOTS.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.SOTSBardHealer.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.ThoriumMod.hjson"
+				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.ThoriumRework.hjson"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.ToolsPrefixesFix
@@ -214,8 +224,9 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\ThoriumClassTagsConsistency\ru-RU_Mods.ThoriumClassTagsConsistency.hjson")
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.ThrowerUnificationFix, "ThrowerUnification",
-				modpath, @"JAtRT\Localization\ThrowerUnification\ru-RU.hjson"))
+				if ((!JARTLocalizationConf.Instance.ThrowerUnificationFix || !ModLoader.HasMod("ThrowerUnification"))
+				&& (modpath == @"JAtRT\Localization\ThrowerUnification\ru-RU_Mods.ThrowerUnification.hjson"
+				|| modpath == @"JAtRT\Localization\ThrowerUnification\ru-RU_Mods.ThoriumMod.hjson"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.WingSlotLocalization
@@ -264,8 +275,9 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\Gauntlets\ru-RU_Mods.Gauntlets.hjson")
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.MasomodeEXLocalization, "MasomodeEX",
-				modpath, @"JAtRT\Localization\MasomodeEX\ru-RU.hjson"))
+				if ((!JARTLocalizationConf.Instance.MasomodeEXLocalization || !ModLoader.HasMod("MasomodeEX"))
+				&& (modpath == @"JAtRT\Localization\MasomodeEX\ru-RU_Mods.MasomodeEX.hjson"
+				|| modpath == @"JAtRT\Localization\MasomodeEX\ru-RU_Mods.FargowiltasSouls.hjson"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.ModlistIncompatibilitySolverLocalization

@@ -1,4 +1,3 @@
-InfernalEclipseAPI: {
 UI: {
 	Cooldowns: {
 		ManaSteal: Оставшееся количество краж маны
@@ -109,7 +108,7 @@ ItemTooltip: {
 	SFlight: Удерживание ПКМ позволяет быстро и бесконечно летать
 	StarlitForgeExtra: А что ещё интересно, она иногда может дублировать предметы
 	BladecrestNerf: Силы зла истощают часть мощи оружия...
-	EclipseFang: "[IEoR]: Усиление оружия всегда активно"
+	EclipseFang: Усиление оружия всегда активно
 	ScytheThrow: Нажмите ПКМ, чтобы бросить косу, изгибающуюся по возвращении обратно
 	ThorsHammerPro: При попадании накладывает дебафф [cbuff:Electrified] на 3 секунды
 	BountifulHarvest: Стреляет пронзающими жалами в чередующейся последовательности
@@ -147,7 +146,7 @@ ItemTooltip: {
 	WhiteDwarfSetBonus:
 		'''
 
-		Изумрудные вспышки имеют 2 секунды перезарядки
+		Изумрудные вспышки имеют 1 секунду перезарядки
 		'''
 	PhoenixStaff: Нажмите ПКМ, чтобы начать извергать поток пламени, накладывающий на врагов дебафф [cbuff:ThoriumMod/HolyGlare], увеличивающий весь наносимый по ним урон на 15%
 	HolyGlare: При попадании накладывает на врагов дебафф [cbuff:ThoriumMod/HolyGlare], увеличивающий весь наносимый по ним урон на 15%
@@ -431,7 +430,7 @@ ItemTooltip: {
 		Увеличивает метательный урон на 15%
 		Увеличивает скорость метательных снарядов на 15%
 		При использовании метательного предмета с 20% шансом высвобождаются два чумных кинжала
-        Чумные кинжалы автоматически нацеливаются на врагов и заражают их болезнью
+		Чумные кинжалы автоматически нацеливаются на врагов и заражают их болезнью
 		'''
 
 	SpiritSurfer: {
@@ -699,7 +698,7 @@ ItemTooltip: {
 			Effect: "{$SOTS.Items.SpiritSymphony.DisplayName}"
 			Replace: Увеличивает время полёта на 25%
 		}
-			
+
 		AscendantInsignia:
 			'''
 			Увеличивает скорость передвижения и прыжка на 10%, а также общее ускорение на 10%
@@ -822,7 +821,7 @@ ItemTooltip: {
 	SubspaceRelic:
 		'''
 		Ты увидел цикл таким какой он есть: предсказуемость, ограниченность, стагнация
-		Если у тебя получилось распознать его в себе, держи в уме каждое своё действие; 
+		Если у тебя получилось распознать его в себе, держи в уме каждое своё действие;
 		начни запоминать паттерны, которые видишь пред собой
 		Чтобы вырваться из цикла достаточно нагнуть его линии в нужном направлении
 		Иди вперёд и прорвись сквозь вечность
@@ -1024,24 +1023,24 @@ Items: {
 			DisplayName: История (Аналитик)
 			Tooltip: ""
 			/*Lore:
-				'''
-				During his early experiments attempting to interact with, contain, and exploit the natural spirits that inhabit these lands, 
-				Draedon found early success with the spirits that lingered in the upper atmosphere of our planet.
-				Naming them «Otherworldly» spirits as a homage to his origins, he aimed higher, making a more powerful body for the spirit to inhabit, 
-				but the experiment backfired, and left with no choice, he had several other constructs keep it in place and constantly drain it of it’s power. 
-				'''*/
+			'''
+			During his early experiments attempting to interact with, contain, and exploit the natural spirits that inhabit these lands,
+			Draedon found early success with the spirits that lingered in the upper atmosphere of our planet.
+			Naming them «Otherworldly» spirits as a homage to his origins, he aimed higher, making a more powerful body for the spirit to inhabit,
+			but the experiment backfired, and left with no choice, he had several other constructs keep it in place and constantly drain it of it’s power.
+			'''*/
 		}
 
 		LoreGlowmoth: {
 			DisplayName: История (Светылёк)
 			Tooltip: ""
 			/*Lore:
-				'''
-				Неудивительно, что тебе посчастливилось встретить одного из этих существ здесь.
-				The mushrooms provide energy for the moth, and the moth helps to spread the mushrooms; in balance, as nature should be...
-				Although, there does seem to be some latent void energy surrounding the creature.
-				How... peculiar.
-				'''*/
+			'''
+			Неудивительно, что тебе посчастливилось встретить одного из этих существ здесь.
+			The mushrooms provide energy for the moth, and the moth helps to spread the mushrooms; in balance, as nature should be...
+			Although, there does seem to be some latent void energy surrounding the creature.
+			How... peculiar.
+			'''*/
 		}
 
 		LoreLux: {
@@ -1061,14 +1060,14 @@ Items: {
 			DisplayName: История (Проклятие фараона)
 			Tooltip: ""
 			/*Lore:
-				'''
-				После того, как его старшая сестра - Отонилу, Богиня электричества была убита Каламитас, 
-				престол Ильмериса достался её младшему брату.
-				В отличии от своей сестры, получившей свою силу из убитого дракона, его сердце было чисто, но всё судьба ждала его... удручающая.
-				His people surrounded on all sides by kingdoms lead by dragon slayers with stolen power, in desperation he instead turned to that 'void' magic.
-				The meddling of his void haunts him even after death; him and his people bound to his tomb.
-				This marks the beginning of the true downfall of Ilmeris, of which I played a large role in.
-				'''*/
+			'''
+			После того, как его старшая сестра - Отонилу, Богиня электричества была убита Каламитас,
+			престол Ильмериса достался её младшему брату.
+			В отличии от своей сестры, получившей свою силу из убитого дракона, его сердце было чисто, но всё судьба ждала его... удручающая.
+			His people surrounded on all sides by kingdoms lead by dragon slayers with stolen power, in desperation he instead turned to that 'void' magic.
+			The meddling of his void haunts him even after death; him and his people bound to his tomb.
+			This marks the beginning of the true downfall of Ilmeris, of which I played a large role in.
+			'''*/
 		}
 
 		LorePutrid: {
@@ -1130,13 +1129,13 @@ Items: {
 				В первой стычке с ним я принял его за очередное божество... но оказалось, что у него даже нет ауритовой души.
 				Мы взяли его в свою армию, а он, в свою очередь показал нам, как создавать сверхмощное элементальное снаряжение и взрывчатку, сделанную не из простой стали и пороха, а из чего-то гораздо сильнее и крепче.
 				Его разработки помогли усилить мощь моей армии, но сам он никогда не участвовал в наших сражениях.
-				
+
 				Как-то раз, зайдя в его комнату, я не нашёл ни его самого, ни его принадлежностей, разве что кроме одной небольшой записки.
 				Мы не смогли расшифровать то, что он понаписал, но смогли разобрать его наработки, на них было что-то, явно напоминающее кольцо,
 				с одним ключевым ингредиентом в своём создании - «Кольцо тёмного солнца».
 				Скорее всего, этот «путеводитель» и смог бы помочь нам расшифровать данную бумажку полностью.
 				Но, у меня этого не вышло, и я надеюсь, что ты сможешь понять, как же создать это чудо.
-				
+
 				–Оставайтесь в курсе всех новостей «Infernal Eclipse of Ragnarok»!–
 				'''
 		}
@@ -1172,15 +1171,15 @@ Items: {
 			DisplayName: История (Великая громовая птица)
 			Tooltip: ""
 			/*Lore:
-				'''
-				Впервые встреченные ближе к концу драконьей эры First spotted near the conclusion of the draconic era, it was assumed that these birds,
-				like many other creatures being discovered at the time, had draconic blood in them;
-				a fact that was hard to disprove given the way they absorbed the pure light from Zeratros’ sun, 
-				and converted the energy into lightning.
-				At the time, they were likely the strongest non-divine creatures on the planet.
-				Alas… a combination of a lack of predators and the Traitor Almighty taking control over the sun 
-				has left this once magnificent species a husk of their former selves.
-				'''*/
+			'''
+			Впервые встреченные ближе к концу драконьей эры First spotted near the conclusion of the draconic era, it was assumed that these birds,
+			like many other creatures being discovered at the time, had draconic blood in them;
+			a fact that was hard to disprove given the way they absorbed the pure light from Zeratros’ sun,
+			and converted the energy into lightning.
+			At the time, they were likely the strongest non-divine creatures on the planet.
+			Alas… a combination of a lack of predators and the Traitor Almighty taking control over the sun
+			has left this once magnificent species a husk of their former selves.
+			'''*/
 		}
 
 		LoreRagnarok: {
@@ -1193,7 +1192,7 @@ Items: {
 				Обыскав всевозможные миры в поисках способа начать его, ведь мне нужно было как-то уничтожить Асгард,
 				в конце-концов, я ничего не смог найти.
 				Сказания змеев и пламени были крайне далеки от правды, но вот, Рагнарёк уничтожен, как и сам Асгард.
-				
+
 				Теперь тебя считают героем этого мира, и возможно, ты сможешь найти покой в этой новой эре, которую сам и начал.
 				Но знай, за каждым концом всегда последует новое начало...
 				[c/7C0A02:Не испытывай свою удачу вновь, террариец.]
@@ -1204,15 +1203,15 @@ Items: {
 			DisplayName: История (Мегаломан)
 			Tooltip: ""
 			/*Lore:
-				'''
-				Пожиратель, дракон, даже ведьма - каждый из них пал жертвой пред твоей жаждой силы, твоими желаниям, твоим стремлением.
-				У меня был схожий путь, но в отличии от тебя, я никогда не позиционировал себя «Героем».
-				Я избавил этот мир от ужасной божественной тирании и даже так, многие знают обо мне исключительно как о «Ужасном тиране».
-				Но теперь появился ты, с невообразимой решимостью прикончить меня здесь и сейчас.
-				Меня постигнет та же участь, что и тирана, которого я сверг.
-				Destined to be dispatched of by one with similar aspirations as themself.
-				I should have known, realized it sooner. It was always meant to be this way.
-				'''*/
+			'''
+			Пожиратель, дракон, даже ведьма - каждый из них пал жертвой пред твоей жаждой силы, твоими желаниям, твоим стремлением.
+			У меня был схожий путь, но в отличии от тебя, я никогда не позиционировал себя «Героем».
+			Я избавил этот мир от ужасной божественной тирании и даже так, многие знают обо мне исключительно как о «Ужасном тиране».
+			Но теперь появился ты, с невообразимой решимостью прикончить меня здесь и сейчас.
+			Меня постигнет та же участь, что и тирана, которого я сверг.
+			Destined to be dispatched of by one with similar aspirations as themself.
+			I should have known, realized it sooner. It was always meant to be this way.
+			'''*/
 		}
 
 		LoreAnniversaryOne: {
@@ -1222,7 +1221,7 @@ Items: {
 				'''
 				То, что когда-то было обычным мелким проектом, который я сделал исключительно для себя и парочки своих друзей друзей, медленно, но верно разрослось до чего-то гораздо большего.
 				Infernal Eclipse of Ragnarok изначально задумывался как мод, способный объединить огромную кашу из модов в нечто более играбельное
-				просто подкорректировав пару вещичек так, чтобы прохождения были куда более интересными и продуманными. 
+				просто подкорректировав пару вещичек так, чтобы прохождения были куда более интересными и продуманными.
 				Но со временем эти мелкие изменения переросли в настоящие системы, затем в переработки, а чуть позже в полноценную основу того, как игра должна ощущаться,
 				а также в создание того, что чувствуется собранным и полноценным.
 				Процесс создания этого мода был крайне тяжким, иногда даже фрустрирующим, но особенно неприятны были попытки заставить все моды сборки работать в мультиплеере,
@@ -2283,7 +2282,7 @@ Configs: {
 			Label: Проигрывание 4 интерлюдий
 			Tooltip:
 				'''
-				Включает/Выключает тему 4 интерлюдий. 
+				Включает/Выключает тему 4 интерлюдий.
 				Эти интерлюдия проигрываются после победы над Экзо-механизмами и Серной ведьмой вместо «Their Fabricator» и «Acceptance».
 				'''
 		}
@@ -2337,7 +2336,7 @@ Configs: {
 			Label: Передвинуть Циклопа-оленя в журнале боссов
 			Tooltip: Сдвигает Циклопа-оленя в журнале боссов на одну позицию вверх для лучшего соответствия с балансом Calamity и Infernum.
 		}
-		
+
 		DontEnableThis: {
 			Label: Не включайте это
 			Tooltip: Просто не надо. Скорее всего, включение этой настройки даст вам неверное представление об игре и приведёт к крайне несбалансированному и нестабильному игровому опыту.
@@ -2765,817 +2764,4 @@ Events: {
 Misc: {
 	SolynSpellbookRecipeCondition: Place the spellbook owned by Solyn in your inventory at least once
 	SpellbookRecipeCondition: View an spellbook owned by Solyn
-}
-}
-
-ThoriumMod: {
-Items: {
-	ShootingStarHat.SetBonus:
-		'''
-		Симфонические усиления длятся на 6 секунд дольше
-		Каждое уникальное усиление, наложенное на вас, увеличивает симфонический урон на 2,5% и скорость восстановления вдохновения на 2%
-		'''
-
-	SoulofPlight: {
-		DisplayName: Эссенция гнева
-		Tooltip: "'Эссенция проклятых существ'"
-	}
-
-	SoulofPlightinaBottle: {
-		DisplayName: Эссенция гнева в банке
-		Tooltip: ""
-	}
-
-	KeyofPlight: {
-		DisplayName: Ключ гнева
-		Tooltip: "'Заряжен эссенциями множества душ'"
-	}
-
-	BlackMIDI: {
-		DisplayName: Чёрный MIDI-синтезатор
-		Tooltip:
-			'''
-			Стремительно выпускает каскад шумов в направлении курсора
-			Жёлтый шум лечит владельца на 0,5% от нанесённого урона
-			'''
-	}
-
-	HereticBreaker: {
-		DisplayName: Сокрушитель еретиков
-		Tooltip: Крадёт 3 ед. здоровья
-	}
-
-	NinjaEmblem: {
-		DisplayName: Эмблема героя
-		Tooltip:
-			'''
-			Увеличивает урон и скорость атаки на 5%
-			Увеличивает шанс критического удара на 2%
-			'''
-	}
-
-	CrystalHoney: {
-		DisplayName: Кристаллический мёд
-		Tooltip:
-			'''
-			Увеличивает максимальный запас здоровья на 20
-			Увеличивает лучезарный урон и шанс критического удара на 5%
-			'''
-	}
-
-	DarkGlaze: {
-		DisplayName: Тёмная глазурь
-		Tooltip:
-			'''
-			'Дьявольски сладко'
-			Усиливает некоторые лучезарные атаки тёмной энергией
-			Увеличивает максимальный запас здоровья на 20
-			Увеличивает лучезарный урон на 10%
-			Увеличивает шанс лучезарного критического удара на 5%
-			'''
-	}
-
-	DemonTongue: {
-		DisplayName: Язык демона
-		Tooltip:
-			'''
-			Усиливает некоторые лучезарные атаки тёмной энергией
-			Увеличивает лучезарный урон на 10%
-			Снижает вдвое стоимость здоровья на лучезарную магию, но не влияет на эффект передачи здоровья союзнику
-			'''
-	}
-
-	ArchDemonCurse: {
-		DisplayName: Проклятие архидемона
-		Tooltip:
-			'''
-			Усиливает определённые лучезарные атаки тёмной энергией
-			Увеличивает максимальный запас здоровья на 20
-			Увеличивает скорость лучезарных атак на 10%
-			Увеличивает лучезарный урон на 12%
-			Увеличивает шанс лучезарного критического удара на 5%
-			'''
-	}
-
-	FlightMask.Tooltip:
-		'''
-		Увеличивает метательный урон на 2%
-		Увеличивает шанс метательного критического удара на 5%
-		'Небо - ваша игровая площадка'
-		'''
-	FlightMail.Tooltip:
-		'''
-		Увеличивает метательный урон на 3%
-		'Небо - ваша игровая площадка'
-		'''
-	
-	/*BronzeHelmet: {
-		DisplayName: Бронзовый шлем
-		Tooltip: "{$Mods.ThoriumMod.Items.BronzeHelmet.Tooltip}"
-	}
-
-	BronzeBreastplate: {
-		DisplayName: Бронзовый нагрудник
-		Tooltip: "{$Mods.ThoriumMod.Items.BronzeBreastplate.Tooltip}"
-	}
-
-	
-	PlagueDoctorsMask: {
-		DisplayName: Маска чумного доктора
-		Tooltip: "{$Mods.ThoriumMod.Items.PlagueDoctorsMask.Tooltip}"
-	}
-
-	PlagueDoctorsGarb: {
-		DisplayName: Plague Doctor's Garb
-		Tooltip: "{$Mods.ThoriumMod.Items.PlagueDoctorsGarb.Tooltip}"
-	}
-
-	PlagueDoctorsLeggings: {
-		DisplayName: Plague Doctor's Leggings
-		Tooltip: "{$Mods.ThoriumMod.Items.PlagueDoctorsLeggings.Tooltip}"
-	}
-
-	FungusHat: {
-		DisplayName: Грибковая кепка
-		Tooltip: "{$Mods.ThoriumMod.Items.FungusHat.Tooltip}"
-	}
-
-	FungusGuard: {
-		DisplayName: Грибковый нагрудник
-		Tooltip: "{$Mods.ThoriumMod.Items.FungusGuard.Tooltip}"
-	}
-
-	ShadeMasterMask: {
-		DisplayName: Маска мастера теней
-		Tooltip: "{$Mods.ThoriumMod.Items.ShadeMasterMask.Tooltip}"
-	}
-
-	ShadeMasterTreads: {
-		DisplayName: Ботфорты мастера теней
-		Tooltip: "{$Mods.ThoriumMod.Items.ShadeMasterTreads.Tooltip}"
-	}
-
-	WhiteDwarfMask: {
-		DisplayName: Маска белового карлика
-		Tooltip: "{$Mods.ThoriumMod.Items.WhiteDwarfMask.Tooltip}"
-	}
-
-	WhiteDwarfGuard: {
-		DisplayName: Защитник белового карлика
-		Tooltip: "{$Mods.ThoriumMod.Items.WhiteDwarfMask.Tooltip}"
-	}
-
-	WhiteDwarfGreaves: {
-		DisplayName: White Dwarf Greaves
-		Tooltip: "{$Mods.ThoriumMod.Items.WhiteDwarfMask.Tooltip}"
-	}
-
-	IridescentHelmet: {
-		DisplayName: Iridescent Helmet
-		Tooltip: 5% increased radiant damage
-	}
-
-	IridescentMail: {
-		DisplayName: Iridescent Mail
-		Tooltip:
-			'''
-			10% increased radiant damage
-			2% increased radiant critical strike chance
-			Healing Spells will heal an additional 1 life
-			'''
-	}
-
-	IridescentGreaves: {
-		DisplayName: Iridescent Greaves
-		Tooltip:
-			'''
-			5% increased radiant damage
-			8% increased movement speed
-			Healing Spells will heal an additional 1 life
-			'''
-	}
-
-	BloomingTabard: {
-		DisplayName: Blooming Tabard
-		Tooltip:
-			'''
-			10% decreased non-radiant damage
-			5% increased radiant damage
-			Moderately increased mana regeneration
-			Healing Spells will heal an additional 2 life
-			'''
-	}
-
-	BioTechGarment: {
-		DisplayName: Biotech Garment
-		Tooltip:
-			'''
-			25% decreased non-radiant damage
-			25% increased radiant damage
-			Increased mana regeneration
-			10% decreased mana cost
-			Healing spells will heal an additional 3 life
-			'''
-	}
-
-	WarlockHood: {
-		DisplayName: Warlock Hood
-		Tooltip:
-			'''
-			Corrupts your radiant powers
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			7% increased radiant critical strike chance
-			Maximum mana increased by 20
-			Healing spells will heal an additional 1 life
-			'''
-	}
-
-	WarlockGarb: {
-		DisplayName: Warlock Garb
-		Tooltip:
-			'''
-			15% decreased non-radiant damage
-			15% increased radiant damage
-			7% increased radiant critical strike chance
-			Healing spells will heal an additional 2 life
-			'''
-	}
-
-	WarlockLeggings: {
-		DisplayName: Warlock Leggings
-		Tooltip:
-			'''
-			12% decreased non-radiant damage
-			12% increased radiant damage
-			15% decreased mana cost
-			Healing spells will heal an additional 1 life
-			'''
-	}
-
-	FallenPaladinFaceguard: {
-		DisplayName: Fallen Paladin's Faceguard
-		Tooltip:
-			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			3% increased radiant critical strike chance
-			Life regeneration rate increased
-			'''
-	}
-
-	FallenPaladinCuirass: {
-		DisplayName: Fallen Paladin's Cuirass
-		Tooltip:
-			'''
-			20% decreased non-radiant damage
-			20% increased radiant damage
-			8% increased radiant critical strike chance
-			15% increased damage reduction
-			Healing spells will heal an additional 2 life
-			'''
-	}
-
-	FallenPaladinGreaves: {
-		DisplayName: Fallen Paladin's Greaves
-		Tooltip:
-			'''
-			15% decreased non-radiant damage
-			15% increased radiant damage
-			4% increased radiant critical strike chance
-			15% decreased mana cost
-			20% increased movement speed
-			Healing spells will heal an additional 1 life
-			'''
-	}
-
-	WhisperingHood: {
-		DisplayName: Whispering Hood
-		Tooltip:
-			'''
-			Corrupts your radiant powers
-			20% decreased non-radiant damage
-			20% increased radiant damage
-			10% increased radiant critical strike chance
-			Maximum mana increased by 40
-			Healing spells will heal an additional 1 life
-			'''
-	}
-
-	WhisperingTabard: {
-		DisplayName: Whispering Tabard
-		Tooltip:
-			'''
-			25% decreased non-radiant damage
-			25% increased radiant damage
-			8% increased radiant critical strike chance
-			Healing spells will heal an additional 2 life
-			'''
-	}
-
-	WhisperingLeggings: {
-		DisplayName: Whispering Leggings
-		Tooltip:
-			'''
-			15% decreased non-radiant damage
-			15% increased radiant damage
-			15% decreased mana cost
-			Healing spells will heal an additional 1 life
-			'''
-	}
-
-	TideTurnerGreaves: {
-		DisplayName: Tide Turner's Depth-Walkers
-		Tooltip:
-			'''
-			10% increased melee & throwing damage
-			20% increased melee knockback & throwing velocity
-			30% increased movement speed
-			'''
-	}
-
-	MagmaSeersMask.Tooltip:
-		'''
-		'Command a magma fortified army'
-		50% increased summon damage
-		Increases your max number of minions and sentries by 2
-		Increases minion knockback
-		'''
-	*/
-}
-}
-
-NoxusPort: {
-	Items: {
-	EntropicBar: {
-		DisplayName: Энтропичный слиток
-		Tooltip: Невероятный слиток, выкованный из чистой энтропии.
-	}
-}
-}
-
-InfernumMode: {
-	IntroScreen.AEWIntroScreen.TextToDisplay:
-	'''
-	ХРАНИТЕЛЬ БЕЗДНЫ
-	ПЕРВОЗДАННЫЙ ЗМИЙ
-	'''
-	Status.MultiplayerWarning: Infernal Eclipse of Ragnarok: Официально, Infernum Mode поддерживает мультиплеер, однако, в нём есть очень много различных ошибок и хоть этот мод старается исправлять разные игровые ошибки при игре в мультиплеере, вы всё ещё можете их встретить. Пожалуйста, не пишите о найденных ошибках команде Infernum Mode, лучше напишите о них в наш Discord-сервер (https:iscord.gg/ieor).
-}
-
-SOTS: {
-VisionAmuletTextList: {
-	4: 
-		'''
-		Увеличивает урон критических ударов на 5%; на 10% в Хардмоде
-		'''
-	6:
-		'''
-		Увеличивает максимальный запас здоровья на 20
-		Увеличивает урон на 5%; на 10% в Хардмоде
-		'''
-}
-
-VisionAmuletTextList2: {
-	1:
-		'''
-
-		Снижает расход маны на 20%; на 25% в Хардмоде
-		'''
-	3:
-		'''
-
-		Даёт доступ ко всем рецептам верстака, печи и наковальни
-		Дополнительно даёт доступ к рецептам алхимического стола в Хардмоде
-		Увеличивает максимальное количество исцеления и маны, получаемого от зелий, на 40 ед.
-		'''
-	4:
-		'''
-
-		Наносимый урон получит 10% от всех бонусов к другим типам урона
-		'''
-	5:
-		'''
-
-		Снижает эффективность вражеской защиты на 20%; на 25% в Хардмоде
-		'''
-}
-
-NPCs.CorpseBloom.DisplayName: Гнилоцвет
-
-Items: {
-	Sharanga.DisplayName: Коданда
-	Dreamcatcher.DisplayName: Талисман сновидений
-	EnchantedPickaxe.DisplayName: Загадочная кирка
-	VigorPotion.Tooltip: Позволяет совершить 25 рывков
-	HarvestersScythe.Tooltip:
-		'''
-		Увеличивает критический урон на 5%
-		С 10% шансом с врагов будет выпадать вдвое больше предметов или с 20%, если враг был добит критическим ударом
-		'''
-	RockCandy.Tooltip:
-		'''
-		Увеличивает мощность добычи кирок на 4
-		Увеличивает скорость добычи, ближнего боя и передвижения на 5%
-		'''
-	HydrokineticAntennae.Tooltip:
-		'''
-		Использует гидрокинетику для увеличения радиуса действия оружия короткой дистанции, таких как хлысты и оружие ближнего боя
-		Снижает урон истинного ближнего боя на 15%
-		'''
-	FrostArtifactHelmet.Tooltip: Увеличивает урон ближнего боя и стрелковый урон на 15%
-	FrostArtifactChestplate.Tooltip: Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 15%
-
-	ElementalBreastplate: {
-		DisplayName: Элементальный нагрудник
-		Tooltip: TEMP
-		TooltipExt:
-			'''
-			Увеличивает урон ближнего боя и урон призывателя на 10%
-			Увеличивает скорость регенерации здоровья на 4
-			Нажмите {0}, чтобы телепортироваться в место курсора, нанеся им урон, равный 200% от вашей защиты
-			Телепортация имеет 15 секунд перезарядки, во время которой скорость ближнего боя увеличивается на 40%
-			'''
-	}
-}
-
-ArmorSetBonus.Earthen:
-	'''
-	Попадание оружием ближнего боя имеет шанс наложить на врага бессрочное суммирующееся проклятие искромсания, увеличивающее наносимый урон по поражённым этим проклятием врагам
-	Увеличивает скорость атаки на 10%
-	'''
-TwilightAssassinsCircletText:
-	'''
-	Увеличивает максимальное количество миньонов и стражей на 1
-	Увеличивает урон призывателя и ближнего боя на 7%
-	Увеличивает максимальный запас пустоты на 50 ед.
-	Призывает голографический глаз помогать вам в бою
-	Нажмите {0}, чтобы выпустить дестабилизирующий луч, накладывающий 4 уровня бессрочного дестабилизирующего проклятия, но только один раз на каждого поражённого врага
-	Это проклятие увеличивает шанс критического удара по врагу на 5% за уровень, но не суммируется с шансом критического удара игрока
-	Выпуск дестабилизирующего луча стоит 6 ед. пустоты
-	Голографический глаз продолжит летать с вами, если добавить его в избранное в инвентаре или поместить его в слот украшений, но тогда он не сможет атаковать
-	'''
-TwilightAssassinsCircletText2:
-	'''
-	Увеличивает максимальное количество миньонов и стражей на 1
-	Увеличивает урон призывателя и ближнего боя на 7%
-	Увеличивает максимальный запас пустоты на 50 ед.
-	Призывает голографический глаз помогать вам в бою
-	Нажмите {0}, чтобы выпустить дестабилизирующий луч, накладывающий 4 уровня бессрочного дестабилизирующего проклятия, но только один раз на каждого поражённого врага
-	Это проклятие увеличивает шанс критического удара по врагу на 5% за уровень, но не суммируется с шансом критического удара игрока
-	Выпуск дестабилизирующего луча стоит 6 ед. пустоты
-	Голографический глаз продолжит летать с вами, если добавить его в избранное в инвентаре или поместить его в слот украшений, но тогда он не сможет атаковать
-	'''
-}
-
-SOTSBardHealer: {
-Items.SerpentsTongue.Tooltip:
-	'''
-	Увеличивает лучезарный урон на 15%
-	Увеличивает критический урон на 20%
-	При убийстве врага с 10% шансом может выпасть вдвое больше предметов; с 20%, если враг был добит критическим ударом
-	Усиливает определённые атаки потусторонней энергией
-	Снижает вдвое затраты здоровья на лучезарную магию, но не влияет на эффект передачи здоровья союзнику
-	Снижает вдвое расход пустоты для пустотно-лучезарного оружия и исцеляющих заклинаний
-	Эссенции души, полученные от лучезарных и пустотно-лучезарных кос, восстанавливают часть пустоты
-	'КАКИЕ ГАДКИЕ ССС-СПЕЦ-ЦИИ!'
-	'''
-}
-
-BlueMoon: {
-	Items: {
-	EmeraldRing: {
-		DisplayName: Кольцо Мятной луны
-		Tooltip:
-			'''
-			Даёт бафф [cbuff:BlueMoon/MintyFreshnessBuff]
-			Увеличивающий урон и скорость передвижения на 7%
-			'''
-	}
-
-	AmethystRing: {
-		DisplayName: Кольцо Вишнёвой луны
-		Tooltip:
-			'''
-			Даёт бафф [cbuff:BlueMoon/FloralBlessingBuff]
-			Увеличивающий регенерацию здоровья на 2 ед./сек
-			'''
-	}
-
-	SapphireRing: {
-		DisplayName: Кольцо Голубой луны
-		Tooltip:
-			'''
-			Даёт бафф [cbuff:BlueMoon/LunarEmpowermentBuff]
-			Увеличивающий удачу носителя; ещё сильнее увеличивает её в Хардмоде
-			'''
-	}
-
-	TopazRing: {
-		DisplayName: Кольцо Урожайной луны
-		Tooltip:
-			'''
-			Даёт бафф [cbuff:BlueMoon/BountifulHarvestBuff]
-			Увеличивающий количество выпадаемых с врагов монет в 1,5 раза; в 2 раза в Хардмоде
-			'''
-	}
-
-	MoonsRing: {
-		DisplayName: Кольцо чарующих лун
-		Tooltip:
-			'''
-			Вы благословлены силой всех чарующих лун
-			Увеличивает урон и скорость передвижения на 7%
-			Увеличивает регенерацию здоровья на 2 ед./сек
-			Увеличивает удачу носителя; ещё сильнее увеличивает её в Хардмоде
-			Увеличивает количество выпадаемых с врагов монет в 1,5 раза; в 2 раза в Хардмоде
-			'''
-	}
-}
-}
-
-Consolaria: {
-	Items: {
-	OstaraHat: {
-		DisplayName: Шляпа Остары
-		Tooltip: Увеличивает скорость передвижения на 7%
-		SetBonus:
-			'''
-			Даёт авто-прыжок и невосприимчивость к урону от падения
-			Прыжок бросает вперёд 5 пронзающих ножей
-			'''
-	}
-
-	JadeSeal: {
-		DisplayName: Jade Seal
-		Tooltip:
-			'''
-			Left click to summon a golden lantern that slowly hovers towards the cursor and heals allies
-			Right click to summon a jade lantern that hovers in place, boosting the damage and defense of allies in radius
-			Одновременно может существовать только 1 лампа
-			'''
-	}
-
-	OldViperChestplate: {
-		DisplayName: Ancient Viper Jacket
-		Tooltip:
-			'''
-			10% increased throwing damage
-			20% increased throwing velocity
-			'''
-	}
-
-	OldViperHelmet: {
-		DisplayName: Ancient Viper Helmet
-		Tooltip:
-			'''
-			10% increased throwing damage
-			33% chance not to consume thrown items
-			Increases your maximum technique points by 2
-			'''
-	}
-
-	OldViperLegs: {
-		DisplayName: Ancient Viper Pants
-		Tooltip:
-			'''
-			10% increased throwing damage
-			15% increased throwing critical strike chance
-			15% increased movement speed
-			'''
-	}
-
-	ViperChestplate: {
-		DisplayName: Viper Jacket
-		Tooltip:
-			'''
-			10% increased throwing damage
-			20% increased throwing velocity
-			'''
-	}
-
-	ViperHelmet: {
-		DisplayName: Viper Helmet
-		Tooltip:
-			'''
-			10% increased throwing damage
-			33% chance not to consume thrown items
-			Increases your maximum technique points by 2
-			'''
-		SetBonus:
-			'''
-			Throwing damage has a 10% chance to poison enemies
-			Nearby enemies take extra damage from poison and venom
-			'''
-	}
-
-	ViperLegs: {
-		DisplayName: Viper Pants
-		Tooltip:
-			'''
-			10% increased throwing damage
-			15% increased throwing critical strike chance
-			15% increased movement speed
-			'''
-	}
-}
-}
-
-ThoriumRework: {
-	Items: {
-	ImpulseAmplifier: {
-		DisplayName: Импульсный усилитель
-		Tooltip:
-			'''
-			Значительно увеличивает скорость снарядов электронных инструментов и даёт им возможность накладывать дебафф [cbuff:Electrified] при первом попадании
-			Снаряды электронных инструментов создают цепную молнию, наносящую 10% урона атаки при первом попадании по врагу
-			'''
-	}
-	
-	FanDonations: {
-		DisplayName: Пожертвования фанатов
-		Tooltip:
-			'''
-			Все атаки музыкальных инструментов создают случайного размера взрыв, наносящий сниженный на 50% урон критического удара
-			Пронзающие снаряды струнных инструментов увеличивают свою скорость за каждого пронзённого насквозь врага и больше не снижают свой урон
-			Определённые атаки струнных инструментов, активирующие свои эффекты при попадании по блоку, также активируют его и при попадании по врагу
-			Атаки ударных инструментов запускают вверх падающие молоточки
-			Значительно увеличивает скорость снарядов электронных инструментов и даёт им возможность накладывать дебафф [cbuff:Electrified] при первом попадании
-			Снаряды электронных инструментов создают цепную молнию, наносящую 10% урона атаки при первом попадании по врагу
-			Увеличивает максимальный запас вдохновения на 5
-			'''
-	}
-
-	LunateCharm: {
-		DisplayName: Амулет полумесяца
-		Tooltip: Снимает штраф на лучезарный урон от брони целителя и дебаффа [cbuff:InfernalEclipseAPI/BrokenOath]
-	}
-
-	SealedContract: {
-		DisplayName: Заключённый договор
-		Tooltip:
-			'''
-			Увеличивает максимальный запас здоровья на 60
-			Исцеляющие заклинания восстанавливают дополнительно 5 ед. здоровья
-			Снимает штраф на лучезарный урон от брони целителя и дебаффа [cbuff:InfernalEclipseAPI/BrokenOath]
-			Получение эссенций души, используя лучезарные косы, даёт 1 стак агрегатного заряда
-			Нанесение лучезарного урона снарядами кос или любым лучезарным оружием, кроме кос, расходует агрегатный заряд, давая эссенции души
-			'Сделке - быть!'
-			'''
-	}
-}
-
-ItemDescriptions: {
-	TideTurnerGreaves: ""
-	PyromancerTabard:
-		'''
-		Увеличивает дальность хлыстов на 25%
-		Увеличивает максимальное количество миньонов на 1
-		'''
-	MagmaSeersMask: Увеличивает скорость хлыстов на 20%
-}
-}
-
-CalamityAmmo: {
-	Items: {
-	WulfrumCoil: {
-		DisplayName: Вульфрумовая катушка
-		Tooltip:
-			'''
-			Увеличивает стрелковый урон на 5%
-			Немного увеличивает скорость стрелковых снарядов
-			'''
-	}
-}
-}
-
-CalamityBardHealer: {
-	Items: {
-	TarragonParagonCrown: {
-		DisplayName: Эстрагоновая корона парагона
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон на 10%
-			Снижает весь урон, кроме лучезарного, на 30%
-			Увеличивает шанс лучезарного критического удара на 5%
-			Увеличивает сопротивление урону на 5%
-			Увеличивает максимальный запас здоровья на 20
-			Незначительно увеличивает скорость регенерации здоровья
-			Исцеляющие заклинания восстанавливают дополнительно 6 ед. здоровья
-			'''
-	}
-
-	BloodflareRitualistMask: {
-		DisplayName: Маска ритуалиста кровавой вспышки
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон и шанс критического удара на 15%
-			Снижает весь урон, кроме лучезарного, на 25%
-			Увеличивает максимальный запас здоровья на 80
-			Умеренно увеличивает скорость регенерации здоровья
-			Исцеляющие заклинания восстанавливают дополнительно 8 ед. здоровья
-			'''
-	}
-
-	SilvaGuardianHelmet: {
-		DisplayName: Шлем хранителя Сильвы
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон и шанс критического удара на 12%
-			Снижает весь урон, кроме лучезарного, на 30%
-			Увеличивает максимальный запас здоровья на 100
-			Умеренно увеличивает скорость регенерации здоровья
-			Исцеляющие заклинания восстанавливают дополнительно 1 ед. здоровья
-			'''
-	}
-
-	AuricTeslaValkyrieVisage: {
-		DisplayName: Ауритовый тесла-лик валькирии
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон на 15%
-			Снижает весь урон, кроме лучезарного, на 35%
-			Увеличивает шанс лучезарного критического удара на 10%
-			Снижает расход маны на 45%
-			Увеличивает максимальный запас здоровья 200
-			Увеличивает максимальный запас маны на 100
-			Исцеляющие заклинания восстанавливают дополнительно 1 ед. здоровья
-			'''
-	}
-
-	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: Ауритовый тесла-лик валькирии+
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон на 15%
-			Снижает весь урон, кроме лучезарного, на 35%
-			Увеличивает шанс лучезарного критического удара на 10%
-			Снижает расход маны на 45%
-			Увеличивает максимальный запас здоровья 200
-			Увеличивает максимальный запас маны на 100
-			Исцеляющие заклинания восстанавливают дополнительно 1 ед. здоровья
-			'''
-	}
-
-	IntergelacticProtectorHelm: {
-		DisplayName: Межгелектический шлем хранителя
-		Tooltip:
-			'''
-			Увеличивает лучезарный урон, шанс критического удара и скорость произнесения заклинаний на 11%
-			Снижает весь урон, кроме лучезарного на 33%
-			'''
-		SetBonus:
-			'''
-			Увеличивает лучезарный урон на 22%
-			Исцеляющие заклинания восстанавливают дополнительно 6 ед. здоровья
-			Даёт астероидам 20% шанс при попадании по врагу исцелить {0} ед. здоровья
-			'''
-	}
-
-	ElementalBloom: {
-		DisplayName: Элементальное цветение
-		Tooltip:
-			'''
-			Увеличивает максимальный запас здоровья на 40
-			Увеличивает максимальный запас маны на 20
-			Увеличивает скорость исцеления на 15%
-			Увеличивает лучезарный урон на 15%
-			Увеличивает скорость произнесения лучезарных заклинаний на 10%
-			Увеличивает шанс лучезарного критического удара на 5%
-			Исцеляющие заклинания восстанавливают дополнительно 2 ед. здоровья
-			Усиливает определённые лучезарные атаки элементальной энергией
-			Враги получают на 66% больше урона от дебаффов, наносящих постепенный урон
-			'Даже когда свет и тьма начинают бороться меж собой, в конце-концов они сольются во единое целое'
-			'''
-	}
-
-	OmniSpeaker: {
-		DisplayName: Мультидинамик
-		Tooltip:
-			'''
-			Увеличивает симфонический урон, скорость игры на инструменты и шанс критического удара на 15%
-			Увеличивает радиус действия усилений на 150%
-			Увеличивает длительность усилений на 2 секунды
-			Снаряды струнного оружия могут дополнительно отскакивать 3 раза
-			Даёт духовым инструментам быструю самонаводку
-			Если атака уже нацелена на врага, она сделает это гораздо быстрее
-			Критические удары, совершённые медными инструментами, выпускают шквал пронзающей энергии
-			Критические удары, совершённые ударными инструментами наносят на 10% больше урона и кратковременно оглушают врагов
-			Вы и ближайшие союзники можете накладывать на врагов дебафф [cbuff:CalamityMod/GodSlayerInferno] при атаке
-			'С использованием технологии кротовых нор, весь мир сможет насладиться вашей музыкой!'
-			'''
-	}
-
-	SymphonicFabrications: {
-		DisplayName: Симфонические фабрикации
-		Tooltip:
-			'''
-			Стреляет шквалом цветных ракет, кромсающих врагов
-			При ношении в руках призывает 2 мощных экзо-динамика
-			Динамики атакуют параллельно вам, выстреливая самонаводящимися звуковыми волнами, наносящими 150% урона
-			Звуковые волны исцеляют на 0,5% от нанесённого урона и могут с 33% шансом восстановить 1 очко вдохновения
-			'А сейчас вы слушаете... Экзо-FM!'
-			'''
-	}
-}
 }
