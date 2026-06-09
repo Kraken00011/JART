@@ -1,87 +1,77 @@
 Items: {
 	ChromaticDye: {
 		Name: Хроматический краситель: {0}
-        Tooltip: ""
-        Variant0: Масло
-        Variant1: Ядерный
-        Variant2: Золото
-        Variant3: Чёрно-белый
-        Variant4: Мёд
-        Variant5: Мастерство
-        Variant6: Тёмная энергия
-        Variant7: Кальмар
-        Variant8: Тританопия
-        Variant9: Пасмурный
-        Variant10: ZX Спектрум
-        Variant11: Зло
-        Variant12: Теневое пламя
-        Variant13: Догма
-        Variant14: FIREBLU
-        Variant15: Искажение
-        Variant16: Электричество
-        Variant17: Полтерплазма
-        Variant18: Наполнение
-        Variant19: Восторг
-        Variant20: Iban-унтый
-        Variant21: Кислотная радуга
-        Variant22: Рубикон
-        Variant23: Двойная радуга
-        Variant24: Неприятность
-        Variant25: Океаническая яшма
-        Variant26: Ракушка
-        Variant27: Светильник джека
-        Variant28: Сахарная вата
-        Variant29: Зелёный нахал
-        Variant30: Калибровка цветов
-        Variant31: Зачарование
-        Variant32: Сизиф
-        Variant33: Вавилон
-        Variant34: Судный день
-        Variant35: Руганианец
-        Variant36: Какашки
-        Variant37: Фестиваль
-        Variant38: Грязный ковёр
-        Variant39: Хайн
-        Variant40: Зеромус
-        Variant41: Вода
-        Variant42: Звёзды
-        Variant43: Багрянец
-        Variant44: Порча
-        Variant45: Освящение
-        Variant46: Дракон
-        Variant47: Злорость
-        Variant48: Гиперреалистичная кровь
-        Variant49: Ауритовая тесла
-        Variant50: Пикмин
-        Variant51: Пламя
-        Variant52: Польша
-        Variant53: Детский сад
-        Variant54: Даниэль
-        Variant55: Осень
-        Variant56: Подмир
-        Variant57: Крабовый салат
-        Variant58: Гаррот
-        .Tooltip: ""
-        0.Tooltip: ""
-        1.Tooltip: ""
-        2.Tooltip: ""
-        3.Tooltip: ""
-        4.Tooltip: ""
-        5.Tooltip: ""
-        6.Tooltip: ""
-        7.Tooltip: ""
-        8.Tooltip: ""
-        9.Tooltip: ""
-	}
-
-	OverloadedSludge: {
-		DisplayName: Перегруженная слякоть
-		Tooltip:
-			'''
-			Призывает Бога слизней
-			Не расходуется
-			'Извивается, раздувшись гноем богов давно мёртвых'
-			'''
+		Tooltip: ""
+		Variant0: Масло
+		Variant1: Ядерный
+		Variant2: Золото
+		Variant3: Чёрно-белый
+		Variant4: Мёд
+		Variant5: Мастерство
+		Variant6: Тёмная энергия
+		Variant7: Кальмар
+		Variant8: Тританопия
+		Variant9: Пасмурный
+		Variant10: ZX Спектрум
+		Variant11: Зло
+		Variant12: Теневое пламя
+		Variant13: Догма
+		Variant14: FIREBLU
+		Variant15: Искажение
+		Variant16: Электричество
+		Variant17: Полтерплазма
+		Variant18: Наполнение
+		Variant19: Восторг
+		Variant20: Iban-унтый
+		Variant21: Кислотная радуга
+		Variant22: Рубикон
+		Variant23: Двойная радуга
+		Variant24: Неприятность
+		Variant25: Океаническая яшма
+		Variant26: Ракушка
+		Variant27: Светильник джека
+		Variant28: Сахарная вата
+		Variant29: Зелёный нахал
+		Variant30: Калибровка цветов
+		Variant31: Зачарование
+		Variant32: Сизиф
+		Variant33: Вавилон
+		Variant34: Судный день
+		Variant35: Руганианец
+		Variant36: Какашки
+		Variant37: Фестиваль
+		Variant38: Грязный ковёр
+		Variant39: Хайн
+		Variant40: Зеромус
+		Variant41: Вода
+		Variant42: Звёзды
+		Variant43: Багрянец
+		Variant44: Порча
+		Variant45: Освящение
+		Variant46: Дракон
+		Variant47: Злорость
+		Variant48: Гиперреалистичная кровь
+		Variant49: Ауритовая тесла
+		Variant50: Пикмин
+		Variant51: Пламя
+		Variant52: Польша
+		Variant53: Детский сад
+		Variant54: Даниэль
+		Variant55: Осень
+		Variant56: Подмир
+		Variant57: Крабовый салат
+		Variant58: Гаррот
+		.Tooltip: ""
+		0.Tooltip: ""
+		1.Tooltip: ""
+		2.Tooltip: ""
+		3.Tooltip: ""
+		4.Tooltip: ""
+		5.Tooltip: ""
+		6.Tooltip: ""
+		7.Tooltip: ""
+		8.Tooltip: ""
+		9.Tooltip: ""
 	}
 
 	StormCatcher: {
@@ -118,7 +108,7 @@ Items: {
 		DisplayName: История (Гузма)
 		Tooltip: ""
 	}
-	
+
 	Goozmolisher: {
 		DisplayName: Гузподрыватель
 		Tooltip: ""
@@ -269,7 +259,7 @@ Items: {
 		DisplayName: Ауритовая подошва
 		Tooltip:
 			'''
-			Нажмите ПКМ, чтобы отключить 
+			Нажмите ПКМ, чтобы отключить
 			Позволяет скользить по любым поверхностям
 			Предупреждение: Возможно достижение чрезвычайно больших скоростей
 			'Ярим бы возненавидел тебя за это'
@@ -360,7 +350,7 @@ Items: {
 			'''
 			Удерживайте ЛКМ, чтобы собирать энергию, формируя мощный шар из молний
 			Полностью сформировав шар, отпустите ЛКМ, чтобы выпустить его на встречу своим противникам
-			Нажмите ПКМ, чтобы хлопнуть в ладоши, взрывая все выпущенные шары из молний 
+			Нажмите ПКМ, чтобы хлопнуть в ладоши, взрывая все выпущенные шары из молний
 			'Безграничная власть!'
 			'''
 	}
@@ -466,7 +456,7 @@ Items: {
 		Tooltip:
 			'''
 			Взмахивает огромной косой, разрезающей врагов тройным комбо
-			'Не путать с косой Старого герцога... 
+			'Не путать с косой Старого герцога...
 			и ни чем больше.'
 			'''
 	}
@@ -532,7 +522,7 @@ Items: {
 		DisplayName: Плохое яблоко
 		Tooltip:
 			'''
-			'Яблоко, упавшее с древа, что пострадало от очередной вспышки ярости Гузмы. 
+			'Яблоко, упавшее с древа, что пострадало от очередной вспышки ярости Гузмы.
 			По виду фрукт перевоплотился во что-то относительно новое, скорее всего ужасное на вкус.
 			Но если на зуб яблочко покажется нормальным — запах вас расстроит...'
 			'''
@@ -655,7 +645,7 @@ NPCs: {
 			ТОЧКА СЛИЗНЕВОГО ВОЗГОРАНИЯ
 			ГУЗМА
 			'''
-		
+
 		Tiles: {
 			Adjective1: Божество
 			Adjective2: Монстр
@@ -694,13 +684,13 @@ NPCs: {
 			Noun1: клейкости
 			Noun2: желатина
 			Noun3: бесформенности
-			Noun4: судногелевого дня 
+			Noun4: судногелевого дня
 			Noun5: слизней
 			Noun6: скользкости
 			Noun7: слизи
 			Noun8: липкости
 			Noun9: густоты
-			Noun10: пересобранности 
+			Noun10: пересобранности
 			Noun11: слизистой
 			Noun12: первобытности
 			Noun13: примитивности
@@ -960,15 +950,15 @@ LoreGoozma:
 	'''
 	Самое устрашающее разочарование в иерархическом владении всего живущего.
 	Только подумать, что кульминация нижайших существ смогла бы несмотря ни на что обладать Ауритовой душой, не имея при этом драконьего происхождения...
-	Оно стало чем-то великим, приблизилось к идеальной сущности, состоящей из ничего, кроме неидеальных частей... 
+	Оно стало чем-то великим, приблизилось к идеальной сущности, состоящей из ничего, кроме неидеальных частей...
 	Возможно, истинный источник божественной силы навсегда останется загадкой.
 	В противовес моим опасениям насчёт твоей культивации этого гротескного чудища стоит интерес в его сторону.
-	Что могло бы привести его к такой форме? Его внешность разоблачает хитрость и изысканность манипуляции над его подчинёнными. 
+	Что могло бы привести его к такой форме? Его внешность разоблачает хитрость и изысканность манипуляции над его подчинёнными.
 	Какая же жалость, что плоды усилий его по итогу ни к чему не привели. Неустанный узор цикличных анналов истории.
 	Может быть, в перспективе мира Террарии, все наши достижения так же малозначимы, как и бессильные страдания слизней.
 	'''
-	InfernalRelicText: Окружено инфернальными огнями поверженного врага
-	InfernumOnly: Только на сложности Инфернум
+InfernalRelicText: Окружено инфернальными огнями поверженного врага
+InfernumOnly: Только на сложности Инфернум
 
 Configs: {
 	Config: {
@@ -1049,7 +1039,7 @@ SetBonuses.Shogun:
 	{$CommonItemTooltip.PressDownToHover}
 	Позволяет делать рывок и совершенствует другие рывки
 	Зажмите ВНИЗ, чтобы падать быстрее
-	Увеличивает скорость прыжка 
+	Увеличивает скорость прыжка
 	Даёт иммунитет к большинству дебаффов конца игры и дебаффам, связанным с передвижением
 	'''
 StickyHandStats:
@@ -1074,15 +1064,15 @@ Draeting.Goozma:
 	THIS WAS DELIBERATELY LEFT UNTRANSLATED DUE TO FONT LIMITATIONS. PLEASE DO NOT BOTHER NEITHER CALAMITY NOR HUNT OF THE OLD GOD TEAMS WITH IT.
 
 	A living paradox, and a shock to everything I believed fact about the nature of the Auric soul.
-	The Godseeker seemed so certain that the nature of the god was fundamentally tied to ritual. Though that is a thoroughly unscientific prospect, I had no choice but to accept it: he knew better than I, being linked to one of the few remaining auric dragons, and to invoke his wrath would put a quick end to my work.  It is not a surprise that I did not have the whole story, and even now, I am still missing many pieces. 
+	The Godseeker seemed so certain that the nature of the god was fundamentally tied to ritual. Though that is a thoroughly unscientific prospect, I had no choice but to accept it: he knew better than I, being linked to one of the few remaining auric dragons, and to invoke his wrath would put a quick end to my work.  It is not a surprise that I did not have the whole story, and even now, I am still missing many pieces.
 
-	I have been tirelessly analyzing the replay of that battle since the moment it concluded. Though a natural phenomena has seemingly created a new Auric soul, I know very little about the nature of the process that occurred; just as quickly as it was created, it was returned to the primordial soup it was forged from. 
+	I have been tirelessly analyzing the replay of that battle since the moment it concluded. Though a natural phenomena has seemingly created a new Auric soul, I know very little about the nature of the process that occurred; just as quickly as it was created, it was returned to the primordial soup it was forged from.
 
-	I have two prevailing theories, though my confidence in their accuracy is shaky at best. 
+	I have two prevailing theories, though my confidence in their accuracy is shaky at best.
 	The first is related to the method in which it was born. The natural process of pressurization is not altogether difficult for even the most basic of scientists to grasp. For an easily understood example, however, consider carbon; its makeup will shift when compressed with extreme force, transforming it into diamond. Considering this fact, it may not be altogether unlikely that a spiritual equivalent to this phenomena exists; a mundane soul, forced into a single point by many other similarly basic souls, could very well shift in such a way that it grows exponentially in power.
 
 	The other I am less certain of, but must still consider: It is possible the 'Slime God', as you called it, is but a splinter of a much older, more venerated deity, and the ritual you performed simply granted it its original form back. This would mean that its soul was not spontaneously created, as I currently believe, but was splintered instead- creating the illusion of mundanity from sparks of a greater power.
 
-	Either theory, should one be proven true, provides new, investing paths of study. 
-	Though your naming ability leaves much to be desired, I must commend your ability to leave nothing unstudied, no matter how well documented said creature may be- I never could have anticipated that such a massive scientific breakthrough could have been hiding in the most common pest of all. 
+	Either theory, should one be proven true, provides new, investing paths of study.
+	Though your naming ability leaves much to be desired, I must commend your ability to leave nothing unstudied, no matter how well documented said creature may be- I never could have anticipated that such a massive scientific breakthrough could have been hiding in the most common pest of all.
 	'''

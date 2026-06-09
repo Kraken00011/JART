@@ -1,182 +1,182 @@
-		Items: {
-			BlueMedallion: {
-				Tooltip: 
-				'''
-				Призывает удачливую Голубую луну 
-				Можно использовать только ночью
-				'''
-				DisplayName: Голубой медальон
-			}
+Items: {
+	BlueMedallion: {
+		DisplayName: Голубой медальон
+		Tooltip:
+			'''
+			Призывает удачливую голубую луну
+			Можно использовать только ночью
+			'''
+	}
 
-			CherryAmulet: {
-				Tooltip: 
-				'''
-				Призывает чарующую Вишнёвую луну
-				Можно использовать только ночью
-				'''
-				DisplayName: Вишнёвый амулет
-			}
+	CherryAmulet: {
+		DisplayName: Вишнёвый амулет
+		Tooltip:
+			'''
+			Призывает чарующую вишнёвую луну
+			Можно использовать только ночью
+			'''
+	}
 
-			HarvestLantern: {
-				Tooltip: 
-				'''
-				Призывают праздничную Урожайную луну
-				Можно использовать только ночью
-				'''
-				DisplayName: Урожайная лампа
-			}
+	HarvestLantern: {
+		DisplayName: Урожайная лампа
+		Tooltip:
+			'''
+			Призывают праздничную урожайную луну
+			Можно использовать только ночью
+			'''
+	}
 
-			HarvestMoonMusicBox: {
-				Tooltip: ""
-				DisplayName: Музыкальная шкатулка (Урожайная луна)
-			}
+	MintRing: {
+		DisplayName: Мятное кольцо
+		Tooltip:
+			'''
+			Призывает освежающую мятную луну
+			Можно использовать только ночью
+			'''
+	}
 
-			CherryMoonMusicBox: {
-				Tooltip: ""
-				DisplayName: Музыкальная шкатулка (Вишнёвая луна)
-			}
+	HarvestMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: Музыкальная шкатулка (Урожайная луна)
+	}
 
-			BlueMoonMusicBox: {
-				Tooltip: ""
-				DisplayName: Музыкальная шкатулка (Голубая луна)
-			}
+	CherryMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: Музыкальная шкатулка (Вишнёвая луна)
+	}
 
-			MintRing: {
-				Tooltip: 
-				'''
-				Призывает освежающую Мятную луну
-				Можно использовать только ночью
-				'''
-				DisplayName: Мятное кольцо
-			}
+	BlueMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: Музыкальная шкатулка (Голубая луна)
+	}
 
-			MintMoonMusicBox: {
-				Tooltip: ""
-				DisplayName: Музыкальная шкатулка (Мятная луна)
-			}
+	MintMoonMusicBox: {
+		Tooltip: ""
+		DisplayName: Музыкальная шкатулка (Мятная луна)
+	}
 
-			SapphireRing: {
-				DisplayName: Сапфировое кольцо
-				Tooltip: Накладывает бафф «Лунная сила»
-			}
+	SapphireRing: {
+		DisplayName: Сапфировое кольцо
+		Tooltip: Даёт бафф «Лунная сила»
+	}
 
-			TopazRing: {
-				DisplayName: Топазовое кольцо
-				Tooltip: Накладывает бафф «Невероятная жатва»
-			}
+	TopazRing: {
+		DisplayName: Топазовое кольцо
+		Tooltip: Даёт бафф «Невероятная жатва»
+	}
 
-			AmethystRing: {
-				DisplayName: Аметистовое кольцо
-				Tooltip: Накладывает бафф «Благословение природы»
-			}
+	AmethystRing: {
+		DisplayName: Аметистовое кольцо
+		Tooltip: Даёт бафф «Благословение природы»
+	}
 
-			EmeraldRing: {
-				DisplayName: Изумрудное кольцо
-				Tooltip: Накладывает бафф «Мятная свежесть»
-			}
+	EmeraldRing: {
+		DisplayName: Изумрудное кольцо
+		Tooltip: Даёт бафф «Мятная свежесть»
+	}
 
-			MoonsRing: {
-				DisplayName: Лунное кольцо
-				Tooltip: Увеличивает количество выпадаемых с врагов монет, регенерацию здоровья, шанс критического удара и магический урон
-			}
-		}
+	MoonsRing: {
+		DisplayName: Лунное кольцо
+		Tooltip: Благословляет вас силой четырёх величественных лун
+	}
+}
 
-		Buffs: {
-			BountifulHarvestBuff: {
-				DisplayName: Невероятная жатва
-				Description:
-				'''
-				Благословение Урожайной луны наполняет ваши карманы деньгами.
-				С врагов выпадает больше монет.
-				'''
-			}
+Buffs: {
+	BountifulHarvestBuff: {
+		DisplayName: Невероятная жатва
+		Description:
+			'''
+			Благословение урожайной луны набивает ваши карманы деньгами
+			С врагов выпадает больше монет
+			'''
+	}
 
-			FloralBlessingBuff: {
-				DisplayName: Благословение природы
-				Description: 
-				'''
-				Примите дар в виде исцеляющей ауры Вишнёвой луны.
-				Ваши раны заживают быстрее.
-				'''
-			}
+	FloralBlessingBuff: {
+		DisplayName: Благословение природы
+		Description:
+			'''
+			Примите дар в виде исцеляющей ауры вишнёвой луны
+			Ваши раны заживают быстрее
+			'''
+	}
 
-			LunarEmpowermentBuff: {
-				DisplayName: Лунная сила
-				Description: Голубая луна дарует вам частичку своей удачи.
-			}
+	LunarEmpowermentBuff: {
+		DisplayName: Лунная сила
+		Description: Голубая луна дарует вам частичку своей удачи
+	}
 
-			MintyFreshnessBuff: {
-				DisplayName: Мятная свежесть
-				Description: Искрящийся свет Мятной луны усиливает ваши магические способности.
-			}
+	MintyFreshnessBuff: {
+		DisplayName: Мятная свежесть
+		Description: Искрящийся свет мятной луны усиливает ваши магические способности
+	}
 
-			MoonsRingBuff: {
-				DisplayName: Небесная гармония
-				Description: Вы благословлены силой 4-х величественных лун.
-			}
-		}
+	MoonsRingBuff: {
+		DisplayName: Небесная гармония
+		Description: Увеличивает количество выпадаемых с врагов монет, скорость регенерации здоровья, шанс критического удара и магический урон
+	}
+}
 
-		Tiles: {
-			HarvestMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Урожайная луна)
-			CherryMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Вишнёвая луна)
-			BlueMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Голубая луна)
-			MintMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Мятная луна)
-		}
+Tiles: {
+	HarvestMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Урожайная луна)
+	CherryMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Вишнёвая луна)
+	BlueMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Голубая луна)
+	MintMoonMusicBoxTile.MapEntry: Музыкальная шкатулка (Мятная луна)
+}
 
 Configs: {
 	BlueMoonConfig: {
-	DisplayName: Конфигурация
+		DisplayName: Конфигурация
 
-	Headers: {
-		Blue_Moon: Голубая луна
-		Cherry_Moon: Вишнёвая луна
-		Harvest_Moon: Урожайная луна
-		Mint_Moon: Мятная луна
-	}
+		Headers: {
+			Blue_Moon: Голубая луна
+			Cherry_Moon: Вишнёвая луна
+			Harvest_Moon: Урожайная луна
+			Mint_Moon: Мятная луна
+		}
 
-	EnableBlueMoonSpawn: {
-		Label: Возможность естественного появления Голубой луны
-		Tooltip: ""
-	}
+		EnableBlueMoonSpawn: {
+			Label: Возможность естественного появления голубой луны
+			Tooltip: ""
+		}
 
-	DecreaseBlueMoonSpawnRate: {
-		Label: Снизить шанс естественного появления Голубой луны
-		Tooltip: ""
-	}
+		DecreaseBlueMoonSpawnRate: {
+			Label: Снизить шанс естественного появления голубой луны
+			Tooltip: ""
+		}
 
-	EnableCherryMoonSpawn: {
-		Label: Возможность естественного появления Вишнёвой луны
-		Tooltip: ""
-	}
+		EnableCherryMoonSpawn: {
+			Label: Возможность естественного появления вишнёвой луны
+			Tooltip: ""
+		}
 
-	DecreaseCherryMoonSpawnRate: {
-		Label: Снизить шанс естественного появления Вишнёвой луны
-		Tooltip: ""
-	}
+		DecreaseCherryMoonSpawnRate: {
+			Label: Снизить шанс естественного появления вишнёвой луны
+			Tooltip: ""
+		}
 
-	EnableHarvestMoonSpawn: {
-		Label: Возможность естественного появления Урожайной луны
-		Tooltip: ""
-	}
+		EnableHarvestMoonSpawn: {
+			Label: Возможность естественного появления урожайной луны
+			Tooltip: ""
+		}
 
-	DecreaseHarvestMoonSpawnRate: {
-		Label: Снизить шанс естественного появления Урожайной луны
-		Tooltip: ""
-	}
+		DecreaseHarvestMoonSpawnRate: {
+			Label: Снизить шанс естественного появления урожайной луны
+			Tooltip: ""
+		}
 
-	EnableMintMoonSpawn: {
-		Label: Возможность естественного появления Мятной луны
-		Tooltip: ""
-	}
+		EnableMintMoonSpawn: {
+			Label: Возможность естественного появления мятной луны
+			Tooltip: ""
+		}
 
-	DecreaseMintMoonSpawnRate: {
-		Label: Снизить шанс естественного появления Мятной луны
-		Tooltip: ""
-	}
+		DecreaseMintMoonSpawnRate: {
+			Label: Снизить шанс естественного появления мятной луны
+			Tooltip: ""
+		}
 
-	IncreaseMintMoonSpawnRate: {
-		Label: Увеличить шанс естественного появления Мятной луны
-		Tooltip: ""
+		IncreaseMintMoonSpawnRate: {
+			Label: Увеличить шанс естественного появления мятной луны
+			Tooltip: ""
+		}
 	}
-}
 }
