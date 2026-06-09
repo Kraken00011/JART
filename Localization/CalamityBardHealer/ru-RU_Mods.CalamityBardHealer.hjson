@@ -542,7 +542,7 @@ Items: {
 			'''
 			Стреляет скоростным шаром проклятого инферно
 			Удары, соблюдающие ритм, постепенно увеличивают уровень усиления и скорость снарядов
-			Каждые 5 ударов, соблюдающих ритм, вы призываете редкий вид промозглого ползуна, сражающегося за вас
+			Каждые 5 ударов, соблюдающих ритм, призывает редкий вид промозглого ползуна, сражающегося за вас
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'Песня коллективного разума искажения'
 			Основано на флейте из «Filthy Mind» за авторством DM Dokuro (ft. SixteenInMono)
@@ -1502,30 +1502,70 @@ Buffs: {
 	}
 }
 
-/*FargoEnchantments: {
-AtaxiaEnchant:
-	'''
-	Taking more than 75 damage spawns an oasis that lasts 3 seconds
-	The oasis heals life equal to bonus healing every 1/3 of a second
-	Symphonic critical strikes causes targets to erupt in sulfide flames
-	Only one eruption can occur and have a 3 second cooldown per trigger
-	'''
-BloodflareEnchant:
-	'''
-	Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
-	Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
-	Doing this also grants Alluring Song buff for 5 seconds
-	Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
-	Taking damage while Alluring Song is active heals you by a flat 200 life but removes Alluring Song
-	'''
-GodSlayerEnchant:
-	'''
-	A calamity bell floats above your head and occasionally rings while attacking
-	When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
-	'''
-SilvaEnchant: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
-TarragonEnchant:
-	'''
-	You spawn two quarter rests around you that heal inspiration upon hitting enemies
-	Occasionally emit a healing pulse that heals and shields allies equal to bonus healing
-	'''
+Configs: {
+	BalanceConfig: {
+		DisplayName: Конфигурация баланса
+
+		expensiveDraedonsForge: {
+			Label: Удорожание кузни Дрэйдона
+			Tooltip: Кузня Дрэйдона будет требовать в создании редкие материалы из Thorium.
+		}
+
+		rogueThrowerMerge: {
+			Label: Объединить класс Разбойника с Метателем
+			Tooltip: Автоматически отключается, если мод Ragnarok включён.
+		}
+
+		convertItems: {
+			Label: Смена классов для предметов Calamity в классы Thorium мода
+			Tooltip:
+				'''
+				Конвертирует некоторые предметы Calamity в предмета класса Бард и Целитель.
+				Может перерабатывать соответствующие предметы, чтобы они лучше соответствовали своему новому классу.
+				Изменённые предметы:
+				-[i:CalamityMod/AnahitasArpeggio]{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName} -> Струнный инструмент, поведение переработано.
+				-[i:CalamityMod/BelchingSaxophone]{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName} -> Медный инструмент.
+				-[i:CalamityMod/FaceMelter]{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName} -> Гибрид электрического и струнного инструмента, поведение переработано.
+				-[i:CalamityMod/RelicOfConvergence]{$Mods.CalamityMod.Items.Tools.RelicOfConvergence.DisplayName} -> Исцеляющее заклинание, базовое количество исцеления увеличено, чтобы быть на том же уровне, что и другие заклинания.
+				'''
+		}
+
+		bard: {
+			Label: Множитель урона симфонического оружия
+			Tooltip:
+				'''
+				Увеличивает урон симфонического оружия из этого мода под заданный множитель
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		radiant: {
+			Label: Множитель урона лучезарного оружия
+			Tooltip:
+				'''
+				Увеличивает урон лучезарного оружия из этого мода под заданный множитель
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		soulEssence: {
+			Label: Множитель количества эссенций души
+			Tooltip:
+				'''
+				Увеличивает количество получаемых эссенций души с использованием лучезарного оружия из этого мода под заданный множитель
+				Максимальное количество эссенций души, которое можно получить: 5
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		healing: {
+			Label: Множитель исцеления
+			Tooltip:
+				'''
+				Увеличивает количество исцеления лучезарных заклинаний из этого мода под заданный множитель
+				Значение 0 означает, что заклинания будут исцелять только 1 ед. здоровья
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+	}
+}
