@@ -39,7 +39,8 @@ public class CalamitySimpleWhipAddonClassTags : ItemTagsAdder
                 "MagneticGrip",
                 "NecromanticGrip",
                 "RubberGrip",
-                "SilkGrip"
+                "SilkGrip",
+                "StrikerEmblem"
             };
 
             if (ModLoader.HasMod("CalamitySimpleWhipAddon"))
