@@ -1,0 +1,183 @@
+Buffs: {
+	BrokenOath: {
+		DisplayName: Нарушенная клятва
+		Description: 
+			'''
+			Лучезарный урон снижен вдвое
+			'Не навреди! - Гиппократ'
+			'''
+	}
+
+	DefaultSummonTag: {
+		DisplayName: Обычная метка призывателя
+		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
+	}
+
+	BlossomsBlessingTag: {
+		DisplayName: Blossoms Blessing Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.BlossomsBlessingTag.Description
+	}
+
+	CatharsisTag: {
+		DisplayName: Catharsis Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CatharsisTag.Description
+	}
+
+	CoralCrusherTag: {
+		DisplayName: Coral Crusher Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CoralCrusherTag.Description
+	}
+
+	ResonantStrikerTag: {
+		DisplayName: Resonant Striker Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.ResonantStrikerTag.Description
+	}
+
+	UnrelentingTormentTag: {
+		DisplayName: Unrelenting Torment Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.UnrelentingTormentTag.Description
+	}
+
+	CongeledDuoWhipTag: {
+		DisplayName: Congeled Duo Whip Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.CongeledDuoWhipTag.Description
+	}
+
+	PrismBreakTag: {
+		DisplayName: Prism Break Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.PrismBreakTag.Description
+	}
+
+	SandstoneReignsTag: {
+		DisplayName: Sandstone Reigns Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.SandstoneReignsTag.Description
+	}
+
+	UnderBiteTag: {
+		DisplayName: Under Bite Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.UnderBiteTag.Description
+	}
+}
+
+Configs: {
+	WHummusConfigs: {
+		DisplayName: Конфигурация WHummus
+
+		ThoriumBossesReworkedBossScalingMessage: {
+			Label: Сообщение о масштабировании боссов из-за Thorium Helheim
+			Tooltip: Включает/Выключает вывод в чат специфического предупреждающего сообщения, отображающегося при заходе в мир.
+		}
+
+		RadiantMultiClassNerf: {
+			Label: Ослабление целителя при игре за мультикласс
+			Tooltip: Снижает урон и бонусное исцеление при использовании оружия другого класса на 10 секунд.
+		}
+
+		MultiModShieldMerges: {
+			Label: Объединение щитов между модами
+			Tooltip: Объединяет эффекты щитов из разных поддерживаемых модов.
+		}
+
+		MultiModToothMerges: {
+			Label: Объединение ожерелий из акульих зубов между модами
+			Tooltip: Объединяет связанные ожерельями из акульих зубов аксессуары из разных поддерживаемых модов.
+		}
+
+		MultiModFlowerMerges: {
+			Label: Объединение цветков маны между модами
+			Tooltip: Объединяет связанные цветками маны аксессуары из разных поддерживаемых модов.
+		}
+
+		ThrowerRogueMerge: {
+			Label: Объединение метателя с разбойником
+			Tooltip: Полностью объединяет метателя и разбойника в 1 класс, исправляет перековки и бонус к урону от скрытных ударов.
+		}
+
+		MultiModRogueMerges: {
+			Label: Объединение аксессуаров разбойника
+			Tooltip: Объединяет разбойные аксессуары из разных поддерживаемых модов.
+		}
+
+		MultiModSummonerMerges: {
+			Label: Объединение аксессуаров призывателя
+			Tooltip: Объединяет аксессуары призывателя из разных поддерживаемых модов.
+		}
+
+		MultiModTunerMerges: {
+			Label: Объединение тюнеров
+			Tooltip: Объединяет связанные тюнерами аксессуары и сами тюнеры из разных поддерживаемых модов.
+		}
+
+		MultiModHealerMerges: {
+			Label: Объединение аксессуаров целителя
+			Tooltip: Объединяет аксессуары целителя из разных поддерживаемых модов.
+		}
+
+		MultiModQuiverMerges: {
+			Label: Объединить колчаны
+			Tooltip: Объединяет колчаны из разных поддерживаемых модов.
+		}
+
+		MultiModMeleeMerges: {
+			Label: Объединить аксессуары воина
+			Tooltip: Объединяет рукавицы ближнего боя из разных поддерживаемых модов.
+		}
+
+		RagnarokWarningMessage: {
+			Label: Сообщение о конфликтующей балансировке Ragnarok
+			Tooltip: Включает/Выключает вывод в чат специфического предупреждающего сообщения, отображающегося при заходе в мир.
+		}
+
+		MultiModShoeMerges: {
+			Label: Объединить ботинки из разных модов
+			Tooltip: Объединяет связанные с ботинками аксессуары из разных поддерживаемых модов.
+		}
+
+		BardMultiClassNerf: {
+			Label: Ослабление барда при игре за мультикласс
+			Tooltip: Removes bard empowerments from the player who granted them if that player uses a non-bard weapon.
+		}
+
+		DuplicateArmorEctoMist: {
+			Label: Дубликаты брони через экто-туман
+			Tooltip: Выставляет приоритет шлемам из Unofficial Calamity Bard & Healer, версии из Ragnarok всё ещё можно получить через экто-туман.
+		}
+	}
+}
+
+Config: {
+	ChatWarnings: Чат-предупреждения
+	MultiModMergeOptions: Объединение деревьев создания из разных модов
+	ClassChanges: Изменения переработок классов
+	DebugOptions: Изменения отладки
+	Other: Другое
+}
+
+DamageClasses.MergedThrowerRogue.DisplayName: ед. разбойного урона
+
+ItemTooltips: {
+	ScytheThrow:
+		'''
+		Нажмите ПКМ, чтобы бросить косу, изгибающуюся по возвращении обратно
+		При броске коса наносит на 20% больше урона
+		'''
+	PhoenixStaff: Нажмите ПКМ, чтобы начать извергать поток пламени, накладывающий на врагов дебафф [cbuff:ThoriumMod/HolyGlare], увеличивающий весь наносимый по ним урон на 15%
+	HolyGlare: При попадании накладывает на врагов дебафф [cbuff:ThoriumMod/HolyGlare], увеличивающий весь наносимый по ним урон на 15%
+	ChampionWing: Увеличивает урон на 10%
+	SecCooldown: Можно использовать раз в {0} секунд
+}
+
+Projectiles: {
+	RogueSpectreBlast.DisplayName: Rogue Spectre Blast
+	BountifulHarvestStinger.DisplayName: Bountiful Harvest Stinger
+	PlayerBrimstoneFireblast.DisplayName: Player Brimstone Fireblast
+	PlayerBrimstoneBarrage.DisplayName: Player Brimstone Barrage
+	RadioMicPro.DisplayName: Radio Mic Pro
+	RadioMicShadowBurst.DisplayName: Radio Mic Shadow Burst
+	TidalWaveWhirlpool.DisplayName: Tidal Wave Whirlpool
+	FireAxeSS.DisplayName: Fire Axe SS
+	PlayerBrimstoneGigablast.DisplayName: Player Brimstone Gigablast
+	ThoriumHeavyScytheSpark.DisplayName: Thorium Heavy Scythe Spark
+}
+
+Conditions.ArmsDealerNearNurse: Если рядом находится медсестра
