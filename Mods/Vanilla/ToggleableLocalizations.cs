@@ -259,10 +259,6 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\ConsolariaLegecyItems\ru-RU_Mods.ConsolariaLegecyItems.hjson")
 					continue;
 
-				if (!JARTLocalizationConf.Instance.DraedonExpansionFix
-				&& modpath == @"JAtRT\Localization\DraedonExpansion\ru-RU_Mods.DraedonExpansion.hjson")
-					continue;
-
 				if (!JARTLocalizationConf.Instance.ExtraWorldSizesLocalization
 				&& modpath == @"JAtRT\Localization\ExtraWorldSizes\ru-RU_Mods.ExtraWorldSizes.hjson")
 					continue;
