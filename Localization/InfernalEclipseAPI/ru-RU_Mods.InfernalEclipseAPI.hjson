@@ -5,6 +5,7 @@ UI: {
 		LucidRetaliation: Ясное возмездие
 	}
 
+	NoVoidConsumable: Вы уже насытились такой едой!
 	RagnarokIconText: Сложность Рагнарёк включена
 	NoRespawn: Возрождение предотвращено: Доступно только 1 возрождение в битве с боссом в {0} мультиплеере!
 	NoRespawn2: Возрождение предотвращено: Доступно только {0} {^0:возрождение;возрождения;возрождений} на битве с боссом в {1} мультиплеере!
@@ -37,6 +38,21 @@ UI: {
 		ПРЕДУПРЕЖДЕНИЕ: Генерация «For the Worthy» НЕ имеет совместимости с Infernal Eclipse of Ragnarok!
 		Пожалуйста, даже если вы и находили какие-либо ошибки и недочёты при игре в этой генерации, не сообщайте нам о них.
 		'''
+	NoticeHomewardRagnarok:
+		'''
+		Thanks for playing Homeward Ragnarok, an official DLC mod to Infernal Eclipse of Ragnarok!
+		Please report and issues relating to Homeward Journey in the Homeward Ragnarok discord.
+		The main team does not directly work on this mod and can not provide help in the main discord.
+		You can turn off this popup in the Homeward Config in the Infernal Eclipse of Ragnarok config.
+		'''
+	NoticeHomewardJourney:
+		'''
+		NOTICE: It is detected that you have Homeward Journey enabled!
+		We highly recommend you to install the "Homeward Ragnarok" mod for compatibility between these mods before proceeding!
+		Homeward Ragnarok also adds new content and other optional reworks for Homeward Journey content!
+		You can turn off this popup in the Homeward Config in the Infernal Eclipse of Ragnarok config.
+		'''
+	DevNoticeCampsiteFix: Flag pole crash fix applied
 }
 
 DifficultyUI: {
@@ -570,6 +586,7 @@ ItemTooltip: {
 			Создаёт по 4 платформы слева и справа от вас, на которых можно размещать стражей
 			Нажмите ПКМ, чтобы начать перетаскивать платформы, но помните, что они в любом случае всегда будут симметричны
 			'''
+		OneSentry: Увеличивает максимальное количество стражей на 1
 		TwoSentry: Увеличивает максимальное количество стражей на 2
 		ThreeSentry: Увеличивает максимальное количество стражей на 3
 		Murky: Каждая шестая магическая атака восстанавливает ману, вместо её расходования
@@ -624,6 +641,11 @@ ItemTooltip: {
 			'''
 			При подборе разбойного оружия оно с 33% шансом может раздвоится и временно увеличить скорость атаки разбойного оружия
 			Имеет полсекунды перезарядки и не работает во время битв с боссами/событиями
+			'''
+		Bone2:
+			'''
+			Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon hitting anything
+			This effect can only trigger once every one-and-a-half seconds
 			'''
 		Scuttler: Уничтожение снарядов скрытными ударами создаёт драгоценные колючки
 		BloodyFilthy: Скрытные удары пробивают на 8 ед. больше брони, наносят на 8% больше урона и дополнительно исцеляют на 2 ед. здоровья
@@ -980,27 +1002,34 @@ Items: {
 		SOTSBardHealerTooltip:
 			'''
 			Увеличивает шанс критического удара на 15%; не суммируется с предыдущим улучшением
-			Критические удары наносят на 40 ед. больше урона, создают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
-			Критические удары крадут здоровье, восполняют пустоту, восстанавливают ману и вдохновение
-			Кража здоровья имеет полсекунды перезарядки
+			Критические удары наносят на 40 ед. больше урона, вызывают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
+			Бонус к урону начинается с 15 ед. и увеличивается по мере снижения скорости использования предмета
+			Текущий бонус к урону: {0}
+			Критические удары крадут здоровье, восстанавливают пустоты, ману и вдохновение
+			Нажатие клавиши '{$ThoriumMod.Keybinds.AccessoryAbility.DisplayName}' даёт возможность наносить критические удары в течении 10 секунд
+			В течение следующей минуты после активации эффекта вы наносите на 10% меньше урона
 			Даёт невосприимчивость к дебаффам [cbuff:Bleeding] и [cbuff:Poisoned], а также ночное зрение
 			'''
 		ThoriumTooltip:
 			'''
 			Увеличивает шанс критического удара на 15%; не суммируется с предыдущим улучшением
-			Критические удары наносят на 40 ед. больше урона, создают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
-			Критические удары крадут здоровье, восполняют пустоту, восстанавливают ману и вдохновение
-			Кража здоровья имеет полсекунды перезарядки
+			Критические удары наносят на 40 ед. больше урона, вызывают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
+			Бонус к урону начинается с 15 ед. и увеличивается по мере снижения скорости использования предмета
+			Текущий бонус к урону: {0}
+			Нажатие клавиши '{$ThoriumMod.Keybinds.AccessoryAbility.DisplayName}' даёт возможность наносить критические удары в течении 10 секунд
+			В течение следующей минуты после активации эффекта вы наносите на 10% меньше урона
 			Даёт невосприимчивость к дебаффам [cbuff:Bleeding] и [cbuff:Poisoned], а также ночное зрение
 			'''
 		DefaultTooltip:
 			'''
 			Увеличивает шанс критического удара на 15%; не суммируется с предыдущим улучшением
-			Критические удары наносят на 40 ед. больше урона, создают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
-			Критические удары крадут жизнь, восполняют пустоту и восстанавливают ману
+			Критические удары наносят на 40 ед. больше урона, вызывают вспышки наносящих урон искр и могут создавать взрывы на месте врагов, нанося 100% урона
+			Бонус к урону начинается с 15 ед. и увеличивается по мере снижения скорости использования предмета
+			Текущий бонус к урону: {0}
+			Критические удары крадут жизнь, восстанавливают пустоту и ману
 			Даёт невосприимчивость к дебаффам [cbuff:Bleeding] и [cbuff:Poisoned], а также ночное зрение
 			'''
-		Lore: После того как Эрелиян раздобыл достаточно Экзо-призм для Дрэйдона, он наконец-то получил всё, что ему было нужно для создания идеальной оболочки для его великого ИИ, и тиран наконец стал в поле его зрения.
+		Lore: Когда Эрелиян смог раздобыть достаточно экзо-призм для Дрэйдона, он наконец-то получил всё, что ему было нужно для создания идеальной оболочки для его великолепного ИИ, и тиран наконец стал в поле его зрения.
 	}
 
 	Lore: {
@@ -1191,7 +1220,7 @@ Items: {
 				Рагнарёк, тот самый конец всего живого, оказался скорее сущностью, нежели каким-то событием.
 				Обыскав всевозможные миры в поисках способа начать его, ведь мне нужно было как-то уничтожить Асгард,
 				в конце-концов, я ничего не смог найти.
-				Сказания змеев и пламени были крайне далеки от правды, но вот, Рагнарёк уничтожен, как и сам Асгард.
+				Сказания змеев и пламени были далеки от правды, но всё же, Рагнарёк уничтожен, как и сам Асгард.
 
 				Теперь тебя считают героем этого мира, и возможно, ты сможешь найти покой в этой новой эре, которую сам и начал.
 				Но знай, за каждым концом всегда последует новое начало...
@@ -1486,7 +1515,7 @@ Items: {
 				С победой над Культистом-лунатиком оружие получило шанс нанести сверхкритический удар
 				Победите ужас из космоса для получения большей силы...
 				'''
-			Full: Ликанрок полностью пробудился, и его полная сила была высвобождена!
+			Full: Ликанрок полностью пробудился, и его истинная сила была полностью раскрыта!
 		}
 
 		Lore: "'И что ты сделаешь? Вот так просто прикончишь меня?'"
@@ -1522,7 +1551,7 @@ Items: {
 				С победой над Пожирателем богов ваши звёзды начали самонаводиться на врагов
 				Победите пылкого феникса для получения большей силы...
 				'''
-			Full: Внеземное озарение полностью пробудилось, и его полная сила была высвобождена!
+			Full: Внеземное озарение полностью пробудилось, и его истинная сила была полностью раскрыта!
 			ProfanedGuardians:
 				'''
 				С победой над Осквернёнными стражами книга начала стрелять небесным лучом
@@ -1673,7 +1702,7 @@ Items: {
 	}
 
 	Swordofthe13thGlitch: {
-		DisplayName: Меч Заражённого
+		DisplayName: Меч заражённого
 		Tooltip:
 			'''
 			Нажмите ПКМ, чтобы выстрелить пучком самонаводящихся лезвий
@@ -1794,7 +1823,7 @@ Items: {
 			Позволяет стрелам кратковременно накладывать дебафф [cbuff:ShadowFlame]
 			Увеличивает максимальное время полёта на 20%
 			'''
-		FlavorText: "'Если взглянуть в него достаточно пристально, то за этой стеной пламени и искр можно увидеть и своё прошлое, и даже будущее'"
+		FlavorText: "'Если заглянуть внутрь него достаточно пристально, то за этой стеной пламени и искр можно увидеть и своё прошлое, и даже будущее'"
 	}
 
 	InfernalTerraBladeRelic: {
@@ -2032,8 +2061,8 @@ Items: {
 		DisplayName: Catlight
 		Tooltip:
 			'''
-			'Боссы слишком сложны? Тогда просто возьми и купи товар от Catlight Индастрис' Catlight!'
-			[c/7C0A02:Купи наш товар... сейчас же]
+			'Боссы слишком сложны? Тогда просто возьми и купи Catlight  от Catlight Индастрис' Catlight!'
+			[c/7C0A02:Покупай прямо сейчас!]
 			'''
 	}
 
@@ -2066,6 +2095,140 @@ Items: {
 	WulfrumMothershipRelic: {
 		DisplayName: Инфернальная реликвия Вульфумового корабля-носителя
 		Tooltip: "{0}"
+	}
+
+	SoulDrivenHeadphonesEclipse: {
+		DisplayName: Наушники с душеговорителями (Eclipse Edition)
+		Tooltip:
+			'''
+			Allows you to pick and play custom Infernal Eclipse of Ragnarok music, as well as some other unique themes
+			As you hold onto them, you vaguely feel an otherworldly presence
+			You can also hear the sounds of instruments passionately playing
+			'''
+	}
+
+	SplitFirebrand: {
+		DisplayName: Split Firebrand
+		Tooltip: ""
+
+		Progression: {
+			Skeletron:
+				'''
+				This firey Whip that you've made burns through iron and foes alike
+				Yet it was the potential to burn brighter, defeat the curse of the dungeon to fuel the fire
+				'''
+			WoF:
+				'''
+				A spark has grown larger, making it wild
+				There's more to set ablaze... Defeat the gate of the underworld to fuel the fire
+				'''
+			Mechs:
+				'''
+				When the fire goes wilder, it doesn't suddenly calm, there's more to be reached and more to be ashed
+				Melt the metal overseers to fuel the fire
+				'''
+			Plantera:
+				'''
+				Can you feel it? Your hands burning, sweat turning into mist... Yet it must burn hotter
+				Defeat the Predator of the Jungle to fuel the fire
+				'''
+			Golem:
+				'''
+				Even when you move, you can feel the fire dance on your skin, a deadly dance but beautiful none the less
+				Defeat the guardian of the lizhard temple
+				'''
+			MoonLord:
+				'''
+				Strike again and again, never stop till flames touch the stars
+				Beat the moon's harbinger to fuel the fire
+				'''
+			Full:
+				'''
+				A new potential unlocked, something truly hidden from most but pried open by you
+				It's evolution is done, but not yours, keep going even if you have to discard it
+				'''
+		}
+
+		TagDebuff: {
+			Skeletron:
+				'''
+				2 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn], сжигающий врагов изнутри
+				'''
+			WoF:
+				'''
+				4 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn2], сжигающий врагов изнутри
+				'''
+			Mechs:
+				'''
+				5 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn3], сжигающий врагов изнутри
+				Миньоны, поражённые ударом хлыста, смогут воспылать!
+				Пылающие миньоны наносят в 1,05 раза больше урона и накладывают дебафф [cbuff:OnFire3]
+				'''
+			Plantera:
+				'''
+				7 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn4], сжигающий врагов изнутри
+				Миньоны, поражённые ударом хлыста, смогут воспылать!
+				Пылающие миньоны наносят в 1,1 раза больше урона и накладывают дебафф [cbuff:OnFire3]
+				Нажмите {0}, чтобы выпустить волну пламени с минутной перезарядкой
+				'''
+			Golem:
+				'''
+				10 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn5], сжигающий врагов изнутри
+				Миньоны, поражённые ударом хлыста, смогут воспылать!
+				Пылающие миньоны наносят в 1,15 раза больше урона и накладывают дебафф [cbuff:CalamityMod/BrimstoneFlames]
+				Нажмите {0}, чтобы выпустить волну пламени с минутной перезарядкой
+				The first enemy hit each swing will grant the user a stack of [cbuff:InfernalEclipseAPI/HotHands]
+				'''
+			MoonLord:
+				'''
+				12 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn6], сжигающий врагов изнутри
+				Миньоны, поражённые ударом хлыста, смогут воспылать!
+				Пылающие миньоны наносят в 1,2 раза больше урона и накладывают дебафф [cbuff:CalamityMod/BrimstoneFlames]
+				Нажмите {0}, чтобы выпустить волну пламени с минутной перезарядкой
+				The first enemy hit each swing will grant the user a stack of [cbuff:InfernalEclipseAPI/HotHands2]
+				'''
+			Full:
+				'''
+				20 ед. урона от метки призывателя
+				Каждый 3 взмах хлыст растягивается вперёд, нанося в 1,5 раза больше урона
+				При попадании накладывает дебафф [cbuff:InfernalEclipseAPI/SoulBurn7], сжигающий врагов изнутри
+				Миньоны, поражённые ударом хлыста, смогут воспылать!
+				Пылающие миньоны наносят в 1,35 раза больше урона и накладывают дебаффы [cbuff:CalamityMod/BrimstoneFlames] и [cbuff:CalamityMod/StaticDischarge]
+				Нажмите {0}, чтобы выпустить волну пламени с минутной перезарядкой
+				The first enemy hit each swing will grant the user a stack of [cbuff:InfernalEclipseAPI/HotHands2]
+				'''
+		}
+
+		Lore:
+			'''
+			'When Dylan first came, he seemed to have brought some weapons from his home world'
+			'These were used by those who opposed the tyrannical rule of those who's power matched God's'
+			'Now that you've managed to replicate one of these crafts, maybe it will grow into something wonderful'
+			'''
+	}
+
+	//Localization Team: do not change [ieconstruct:ChaosConstruct], as it is replaced with a colored version using the Name perameter below.
+	ChaosLure: {
+		DisplayName: Хаотичная приманка
+		Tooltip:
+			'''
+			Электромагнитная приманка, наполненная перегруженной энергией хаоса
+			Привлекает [IELuxTag:ChaosConstruct]
+			Не расходуется
+			'''
+		Name: Хаотичный конструкт
 	}
 }
 
@@ -2496,6 +2659,8 @@ DamageClasses: {
 	MeleeWhip.DisplayName: ед. урона хлыстом
 	MythicSummon.DisplayName: ед. мифического урона призывателя
 	CatlightDamage.DisplayName: ед. урона Catlight
+	LegendarySummon.DisplayName: ед. легендарного урона призывателя
+	LegendarySummonMeleeSpeed.DisplayName: ед. легендарного урона призывателя
 }
 
 BossRushIntroText1:
@@ -2710,13 +2875,170 @@ Buffs: {
 	}
 
 	CrimulanAura: {
-		DisplayName: Crimulan Aura
-		Description: Your movement has been significantly hindered!
+		DisplayName: Багротановая аура
+		Description: Ваше передвижение значительно затруднено!
 	}
 
 	BrimstoneDesperation: {
 		DisplayName: Бедственное отчаяние
 		Description: Энергия бедствия витает в воздухе, деактивируя множество ваших способностей!
+	}
+
+	SplitFirebrandTag1: {
+		DisplayName: Split Firebrand Tag1
+		Description: Mods.InfernalEclipseAPI.Buffs.SplitFirebrandTag1.Description
+	}
+
+	SplitFirebrandTag: {
+		DisplayName: Split Firebrand Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.SplitFirebrandTag.Description
+	}
+
+	SoulBurn: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 10 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			'''
+	}
+
+	SoulBurn2: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 15 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	SoulBurn3: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 25 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	SoulBurn4: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 40 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	SoulBurn5: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 75 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	SoulBurn6: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар - 140 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	SoulBurn7: {
+		DisplayName: Духовное сгорание
+		Description: Ваша смертность выставлена на показ...
+		ItemTooltip:
+			'''
+			Жар и электричество - 140 ед. урона в секунду
+			Увеличивает урон других дебаффов жара на 25%
+			Убитые с этим дебаффом враги взрываются, нанося утроенный урон дебаффа
+			Этот взрыв может наносить урон боссам лишь каждые 5 секунд
+			'''
+	}
+
+	HotHands: {
+		DisplayName: Горячие руки
+		Description: Всё что, вы держите в руках... Вы скорее всего захотите перестать держать
+		ItemTooltip:
+			'''
+			Увеличивает скорость передвижения на 2%
+			Может накапливать вплоть до 10 стаков
+			'''
+	}
+
+	HotHands2: {
+		DisplayName: Горячие руки
+		Description: Всё что, вы держите в руках... Вы скорее всего захотите перестать держать
+		ItemTooltip:
+			'''
+			Увеличивает скорость передвижения на 2% и скорость хлыстов на 1%
+			Может накапливать вплоть до 10 стаков
+			'''
+	}
+
+	BlossomsBlessingTag: {
+		DisplayName: Blossoms Blessing Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.BlossomsBlessingTag.Description
+	}
+
+	CatharsisTag: {
+		DisplayName: Catharsis Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.CatharsisTag.Description
+	}
+
+	CongeledDuoWhipTag: {
+		DisplayName: Congeled Duo Whip Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.CongeledDuoWhipTag.Description
+	}
+
+	CoralCrusherTag: {
+		DisplayName: Coral Crusher Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.CoralCrusherTag.Description
+	}
+
+	ResonantStrikerTag: {
+		DisplayName: Resonant Striker Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.ResonantStrikerTag.Description
+	}
+
+	SandstoneReignsTag: {
+		DisplayName: Sandstone Reigns Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.SandstoneReignsTag.Description
+	}
+
+	UnderBiteTag: {
+		DisplayName: Under Bite Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.UnderBiteTag.Description
+	}
+
+	UnrelentingTormentTag: {
+		DisplayName: Unrelenting Torment Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.UnrelentingTormentTag.Description
+	}
+
+	PrismBreakTag: {
+		DisplayName: Prism Break Tag
+		Description: Mods.InfernalEclipseAPI.Buffs.PrismBreakTag.Description
 	}
 }
 

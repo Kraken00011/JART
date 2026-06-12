@@ -30,8 +30,10 @@ public class MoreColoredDamageTypes : GlobalItem
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/LegendaryMelee", out var legendaryMelee);
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/LegendaryRanged", out var legendaryRanged);
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/LegendaryMagic", out var legendaryMagic);
+                    ModContent.TryFind<DamageClass>("InfernalEclipseAPI/LegendarySummon", out var legendarySummon);
+                    ModContent.TryFind<DamageClass>("InfernalEclipseAPI/LegendarySummonMeleeSpeed", out var legendarySummonMeleeSpeed);
 
-                    if (item.DamageType == legendaryMelee || item.DamageType == legendaryRanged || item.DamageType == legendaryMagic)
+                    if (item.DamageType == legendaryMelee || item.DamageType == legendaryRanged || item.DamageType == legendaryMagic || item.DamageType == legendarySummon || item.DamageType == legendarySummonMeleeSpeed)
                         tooltip.OverrideColor = new Color(255, 211, 0);
 
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/MythicMelee", out var mythicMelee);
@@ -39,8 +41,7 @@ public class MoreColoredDamageTypes : GlobalItem
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/MythicMagic", out var mythicMagic);
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/MythicSummon", out var mythicSummon);
 
-                    if (item.DamageType == mythicMelee || item.DamageType == mythicRanged
-                    || item.DamageType == mythicMagic || item.DamageType == mythicSummon)
+                    if (item.DamageType == mythicMelee || item.DamageType == mythicRanged|| item.DamageType == mythicMagic || item.DamageType == mythicSummon)
                         tooltip.OverrideColor = new Color(0, 250, 154);
 
                     if (ModContent.TryFind<DamageClass>("InfernalEclipseAPI/VoidRogue", out var voidRogue) && item.DamageType == voidRogue)
