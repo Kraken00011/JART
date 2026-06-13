@@ -1,11 +1,14 @@
 using Terraria.Localization;
 using Terraria.ModLoader;
+using JAtRT.Common;
+using JAtRT.Common.Utilities;
+using JAtRT.Core.Config;
 
 internal class HomewardRagnarokPrefixes : ModSystem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
+        return ModLoader.HasMod("CalamityRuTranslate") && ModLoader.HasMod("HomewardRagnarok") && JARTLocalizationConf.Instance.HomewardRagnarokLocalization && Language.ActiveCulture.Name == "ru-RU";
     }
     public override void PostSetupContent()
     {
@@ -19,6 +22,7 @@ internal class HomewardRagnarokPrefixes : ModSystem
                 "TheBibleOfTheThrowerVol4",
                 "EvilFlask"
             });
+            
             tru.Call("AddNeuterItems", homewardRagnarok, new string[]
             {
                 "BabyOil"
