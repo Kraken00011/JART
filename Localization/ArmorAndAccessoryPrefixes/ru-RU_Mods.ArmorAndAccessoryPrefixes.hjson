@@ -20,7 +20,7 @@ Prefixes: {
 	Holy.DisplayName: Освящённый
 	Leaping.DisplayName: Прыгучий
 	Vaulting.DisplayName: Скачущий
-	Piercing.DisplayName: Пробивающий
+	Piercing.DisplayName: Пробивной
 	Shattering.DisplayName: Кромсающий
 	Casters.DisplayName: Заклинающий
 	Defenders.DisplayName: Страждущий
@@ -56,18 +56,18 @@ Configs: {
 		DisplayName: Серверная конфигурация
 
 		EnableArmorPrefixes: {
-			Label: Префиксы брони
+			Label: Перековки для брони
 			Tooltip: ""
 		}
 
 		EnableNewAccessoryPrefixes: {
-			Label: Новые префиксы аксессуаров
+			Label: Новые перековки для аксессуаров
 			Tooltip: ""
 		}
 
 		RemoveOddTierPrefixes: {
-			Label: Убрать префиксы с нечётным бонусом
-			Tooltip: Убирает возможность получения префиксов «{$Prefix.Armored}», «{$Prefix.Jagged}», «{$Prefix.Angry}», «{$Prefix.Brisk}», «{$Prefix.Hasty}», «{$Prefix.Wild}» и «{$Prefix.Intrepid}» на ваши аксессуары.
+			Label: Убрать перековки с нечётным бонусом
+			Tooltip: Убирает возможность получения перековок «{$Prefix.Armored}», «{$Prefix.Jagged}», «{$Prefix.Angry}», «{$Prefix.Brisk}», «{$Prefix.Hasty}», «{$Prefix.Wild}» и «{$Prefix.Intrepid}» на ваши аксессуары.
 		}
 	}
 }
