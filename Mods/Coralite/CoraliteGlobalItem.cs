@@ -11,8 +11,6 @@ using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Coralite.Content.Items.Gels;
 
-namespace JAtRT.Mods.Coralite
-{
     public class CoralitePatch : GlobalItem
     {
         public override bool IsLoadingEnabled(Mod mod)
@@ -136,4 +134,3 @@ namespace JAtRT.Mods.Coralite
             }
         }
     }
-}

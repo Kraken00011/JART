@@ -7,14 +7,7 @@ using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using ThrowerUnification;
-using ContinentOfJourney.Items;
-using ContinentOfJourney.Items.Accessories;
-using ContinentOfJourney.Items.Accessories.SummonerRings;
-using ContinentOfJourney.Items.ThrowerWeapons;
-using ContinentOfJourney;
 using HomewardRagnarok.Config;
-
-namespace JAtRT.Mods.ThrowerUnification;
 
 public partial class ThrowerBonusesGlobalItem : GlobalItem
 {
@@ -38,8 +31,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
                 {
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойный", "Метательный");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойный", "метательный");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойная", "Метательная");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойная", "метательная");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойные", "Метательные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойные", "метательные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойных", "Метательных");
@@ -65,8 +56,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
 
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломный", "Метательный");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломный", "метательный");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломная", "Метательная");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломная", "метательная");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломные", "Метательные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломные", "метательные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломных", "Метательных");
@@ -84,8 +73,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
                 {
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательный", "Разбойный");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательный", "разбойный");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательная", "Разбойная");
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательная", "разбойная");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательные", "Разбойные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательные", "разбойные");
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательных", "Разбойных");
@@ -239,8 +226,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
                 {
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательный", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательный", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательная", ThrowerModConfig.Instance.CustomTooltipOverride);
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательная", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательные", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "метательные", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательных", ThrowerModConfig.Instance.CustomTooltipOverride);
@@ -264,8 +249,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
 
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойный", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойный", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойная", ThrowerModConfig.Instance.CustomTooltipOverride);
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойная", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойные", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "разбойные", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойных", ThrowerModConfig.Instance.CustomTooltipOverride);
@@ -289,8 +272,6 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
 
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломный", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломный", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломная", ThrowerModConfig.Instance.CustomTooltipOverride);
-//                  tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломная", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломные", ThrowerModConfig.Instance.CustomTooltipOverride);
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломные", ThrowerModConfig.Instance.CustomTooltipOverride.ToLower());
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Вероломных", ThrowerModConfig.Instance.CustomTooltipOverride);

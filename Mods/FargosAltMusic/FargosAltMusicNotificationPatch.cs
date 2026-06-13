@@ -7,8 +7,6 @@ using Terraria.ModLoader;
 using JAtRT.Core.MonoMod;
 using JAtRT.Core.Config;
 
-namespace JAtRT.Mods.FargoAltMusic;
-
 public class FargosAltMusicNotificationTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModLoader.HasMod("FargoAltMusicMod") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.FargosAltMusicModLocalization;

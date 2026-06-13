@@ -17,11 +17,14 @@ public partial class PetrifiedVoodooDollGlobalItem : GlobalItem
     }
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "PetrifiedVoodooDoll", tooltip =>
+        foreach (TooltipLine tooltip in tooltips)
         {
-            tooltips.RemoveAll((TooltipLine t) => t.Text.Contains("Summons Wall of Flesh if thrown into lava in the underworld while the Guide is alive"));
+            if (tooltip.Mod == "PetrifiedVoodooDoll")
+            {
+                tooltips.RemoveAll((TooltipLine t) => t.Text.Contains("Summons Wall of Flesh if thrown into lava in the underworld while the Guide is alive"));
 
-            tooltips.RemoveAll((TooltipLine t) => t.Text.Contains("While equipped, summons Skeletron when the Clothier is killed during nighttime\nEnrages during the day"));
-        });
+                tooltips.RemoveAll((TooltipLine t) => t.Text.Contains("While equipped, summons Skeletron when the Clothier is killed during nighttime\nEnrages during the day"));
+            }
+        }
     }
 }

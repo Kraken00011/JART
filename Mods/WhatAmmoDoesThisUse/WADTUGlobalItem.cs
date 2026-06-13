@@ -10,7 +10,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
-using WhatAmmoDoesThisUse;
+
 public partial class WhatAmmoDoesThisUseGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
@@ -24,6 +24,7 @@ public partial class WhatAmmoDoesThisUseGlobalItem : GlobalItem
         {
             if (tooltip.Mod == "WhatAmmoDoesThisUse" && tooltip.Name == "UseAmmoLine")
             {
+                // Ванилла
                 tooltip.Text = tooltip.Text.Replace("Деревянная стрелаs", "деревянные стрелы");
                 tooltip.Text = tooltip.Text.Replace("Мушкетная пуляs", "мушкетные пули");
                 tooltip.Text = tooltip.Text.Replace("Семяs", "семена");
@@ -48,9 +49,9 @@ public partial class WhatAmmoDoesThisUseGlobalItem : GlobalItem
                 tooltip.Text = tooltip.Text.Replace("Медная монетаs", "медные монеты");
                 tooltip.Text = tooltip.Text.Replace("Болты Стингераs", "болты Стингера");
                 tooltip.Text = tooltip.Text.Replace("Банка водыs", "банки воды");
-
+                // Calamity
                 tooltip.Text = tooltip.Text.Replace("Руна кровиs", "руны крови");
-
+                // Thorium
                 tooltip.Text = tooltip.Text.Replace("Мини-торпедаs", "мини-торпеды");
                 tooltip.Text = tooltip.Text.Replace("Циркулярная пилаs", "циркулярные пилы");
                 tooltip.Text = tooltip.Text.Replace("Пилюляs", "пилюли");
@@ -60,12 +61,12 @@ public partial class WhatAmmoDoesThisUseGlobalItem : GlobalItem
                 tooltip.Text = tooltip.Text.Replace("Паровая батареяs", "паровые батареи");
                 tooltip.Text = tooltip.Text.Replace("Сопливый шарs", "сопливые шары");
                 tooltip.Text = tooltip.Text.Replace("Бурлящий зарядs", "бурлящие заряды");
-
+                // HWJ
                 tooltip.Text = tooltip.Text.Replace("Батарея рельсотронаs", "батареи рельсотрона");
-
+                // SOTS
                 tooltip.Text = tooltip.Text.Replace("Факельная бомбаs", "факельные бомбы");
                 tooltip.Text = tooltip.Text.Replace("Арахисs", "арахис");
-
+                // Redemption
                 tooltip.Text = tooltip.Text.Replace("Яйцо-бомбаs", "яйца-бомбы");
                 tooltip.Text = tooltip.Text.Replace("Уранs", "уран");
             }

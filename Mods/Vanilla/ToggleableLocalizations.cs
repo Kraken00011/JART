@@ -15,8 +15,6 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Core;
 
-namespace JAtRT.Mods.Vanilla;
-
 public class ToggleableLocalizations : OnPatcher
 {
 	private static HashSet<string> _customKeys = new();

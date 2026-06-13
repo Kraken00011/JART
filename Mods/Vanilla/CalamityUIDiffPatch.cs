@@ -10,8 +10,6 @@ using JAtRT.Core.MonoMod;
 using Terraria;
 using Terraria.Localization;
 
-namespace JAtRT.Mods.Vanilla;
-
 public class CalamityUIPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;

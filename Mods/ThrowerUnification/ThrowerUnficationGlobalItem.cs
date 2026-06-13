@@ -8,8 +8,6 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using ThrowerUnification;
 
-namespace JAtRT.Mods.ThrowerUnification;
-
 public partial class ThrowerUnificationGlobalItem : GlobalItem
 {
     [JITWhenModsEnabled(new string[] { "ThrowerUnification" })]

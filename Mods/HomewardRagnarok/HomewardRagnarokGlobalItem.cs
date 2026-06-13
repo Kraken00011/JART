@@ -17,8 +17,6 @@ using ContinentOfJourney.Items.Accessories.SummonerRings;
 using ContinentOfJourney.Items.ThrowerWeapons;
 using ContinentOfJourney;
 
-namespace JAtRT.Mods.HomewardRagnarok;
-
 public partial class HomewardRagnarokGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)

@@ -13,8 +13,6 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace JAtRT.Mods.Consolaria;
-
 public class ConsolariaMenuStyleNamePatch : ILPatcher
 {
     public override bool AutoLoad => ModLoader.HasMod("Consolaria") && Language.ActiveCulture.Name == "ru-RU";

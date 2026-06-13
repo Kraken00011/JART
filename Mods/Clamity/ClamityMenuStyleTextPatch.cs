@@ -13,8 +13,6 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace JAtRT.Mods.Clamity;
-
 public class ClamityMenuStyleNamePatch : ILPatcher
 {
     public override bool AutoLoad => ModLoader.HasMod("Clamity") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ClamityFix;

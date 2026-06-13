@@ -14,8 +14,6 @@ using SolynWeapon.Content.Items.Weapons;
 using SolynWeapon.Content.Items.Weapons.Magic;
 using Terraria;
 
-namespace JAtRT.Mods.SolynWeapon;
-
 public partial class SolynWeapon : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
