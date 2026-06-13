@@ -325,6 +325,12 @@ public class JARTLocalizationConf : ModConfig
     public bool GauntletsLocalization;
 
     [ReloadRequired]
+    [Label("WHummus' Calamity/Thorium Balancing")]
+    [Tooltip("Выключает перевод мода WHummus' Calamity/Thorium Balancing.")]
+    [DefaultValue(true)]
+    public bool WHummusMultiModBalancingLocalization;
+
+    [ReloadRequired]
     [DefaultValue(true)]
     public bool WingSlotLocalization;
 
@@ -360,15 +366,17 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool DraedonExpansionFix;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
     public bool FlinxHatFix;
 
     [ReloadRequired]
     [DefaultValue(true)]
     public bool InfernumLegendAndMasFix;
+
+    [ReloadRequired]
+    [Label("The Depths")]
+    [Tooltip("Выключает фикс перевода мода The Depths.")]
+    [DefaultValue(true)]
+    public bool TheDepthsFix;
 
     [ReloadRequired]
     [DefaultValue(true)]
