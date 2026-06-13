@@ -3,23 +3,23 @@ Items: {
 	Placeables: {
 		MusicBoxes: {
 			ClamityTitleMusicBox: {
-				Tooltip: Проигрывает «Unnamed Theme» за авторством Sidetracker
 				DisplayName: Музыкальная шкатулка (Заглавная тема Clamity)
+				Tooltip: Проигрывает «unnamed theme» за авторством Sidetracker
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: Проигрывает «Clamitas Theme» за авторством StarvoXD
 				DisplayName: Музыкальная шкатулка (Каламидия)
+				Tooltip: Проигрывает «Clamitas Theme» за авторством StarvoXD
 			}
 
 			PyrogenMusicBox: {
-				Tooltip: Проигрывает «Searing Ferocity» за авторством Brimston Premium
 				DisplayName: Музыкальная шкатулка (Пироген)
+				Tooltip: Проигрывает «Searing Ferocity» за авторством Brimston Premium
 			}
 
 			AcidRainT2MusicBox: {
-				Tooltip: Проигрывает «Sulfuric Cloudbrust» за авторством AstroGel
 				DisplayName: Музыкальная шкатулка (Кислотный дождь - 2 ранг)
+				Tooltip: Проигрывает «Sulfuric Cloudbrust» за авторством AstroGel
 			}
 
 			WoBMusicBox: {
@@ -35,7 +35,7 @@ Items: {
 				DisplayName: Музыкальная шкатулка (Замёрзшая Преисподняя)
 				Tooltip:
 					'''
-					Проигрывает «Alternative Underworld Theme» за авторством Soundbin
+					Проигрывает «alternative underworld theme» за авторством Soundbin
 					Эта шкатулка содержит песню-заглушку
 					'''
 			}
@@ -79,12 +79,12 @@ Configs: {
 		}
 
 		AstroGels: {
-			Label: AstroGel'я
+			Label: Вариант AstroGel
 			Tooltip: ""
 		}
 
 		BrimstonePremiums: {
-			Label: Brimston Premium'а
+			Label: Вариант Brimston Premium
 			Tooltip: ""
 		}
 	}
