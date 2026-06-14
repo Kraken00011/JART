@@ -41,10 +41,10 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
                 "DreadGreaves",
                 "DreadSkull",
                 "TitanHelmet",
-                //
+                "TideTurnerHelmet",
+                // Warrior-Thrower
                 "TideTurnerBreastplate",
-                "TideTurnerGreaves",
-                "TideTurnerHelmet"
+                "TideTurnerGreaves"
             };
 
             string[] Ranger =
@@ -67,8 +67,8 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
                 "AquamarineRobe",
                 "OpalRobe",
                 "TitanHeadgear",
-                //
                 "PyromancerCowl",
+                // Sorcerer-Summoner
                 "PyromancerLeggings",
                 "PyromancerTabard"
             };
@@ -77,8 +77,8 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
             {
                 "AmberRing",
                 "ArtilleryPotion",
-                //
                 "MagmaSeersMask",
+                // Sorcerer-Summoner
                 "PyromancerLeggings",
                 "PyromancerTabard"
             };
@@ -88,8 +88,8 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
                 "TopazRing",
                 "AncientHallowedGuise",
                 "HallowedGuise",
-                //
                 "TideTurnersGaze",
+                // Warrior-Thrower
                 "TideTurnerBreastplate",
                 "TideTurnerGreaves"
             };
