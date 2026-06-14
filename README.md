@@ -1,2 +1,2 @@
 # JART-Main
-Репозиторий мода-переводчика Just Another RU Translator/JART
+JART расшифоровывается как Just Another RU Translator
