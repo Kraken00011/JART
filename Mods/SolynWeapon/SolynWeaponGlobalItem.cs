@@ -10,8 +10,6 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
-using SolynWeapon.Content.Items.Weapons;
-using SolynWeapon.Content.Items.Weapons.Magic;
 using Terraria;
 
 public partial class SolynWeapon : GlobalItem
@@ -22,7 +20,7 @@ public partial class SolynWeapon : GlobalItem
     }
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        if (item.type == ModContent.ItemType<CosmicDestroyer>())
+        if (item.type == ModContent.Find<ModItem>("SolynWeapon/CosmicDestroyer").Type)
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "BigCosmicLaserBeam", tooltip =>
             {
@@ -30,7 +28,7 @@ public partial class SolynWeapon : GlobalItem
             });
         }
 
-        if (item.type == ModContent.ItemType<ExoElectricDisintegrator>())
+        if (item.type == ModContent.Find<ModItem>("SolynWeapon/ExoElectricDisintegrator").Type)
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "BigCosmicLaserBeam", tooltip =>
             {
