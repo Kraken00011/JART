@@ -23,7 +23,13 @@ public class InfernalEclipseWeaponsDLCClassTags : ItemTagsAdder
             string[] Warrior =
             {
                 "ArcticSpearTip",
-                "SearingSpearTip"
+                "SearingSpearTip",
+                "BlackHoleFlail",
+                "DoubleFlail",
+                "HolyFlail",
+                "PerfectPurple",
+                "TerraSheath",
+                "BlazeScourgeBag"
             };
 
             string[] Rogue =
