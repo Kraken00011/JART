@@ -98,6 +98,8 @@
 </details>
 
 **Также в моде есть *«фиксы»* уже имеющихся официальных локализаций**
+<details><summary><b>Также в моде есть <i>«фиксы»</i> уже имеющихся официальных локализаций</b></summary>
+
 - [Calamity - Fargo's Souls DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3044249615)
 - [Calamity: Hunt of the Old God](https://steamcommunity.com/sharedfiles/filedetails/?id=3241967932)
 - [Cataclysm Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450) (Бывший [Clamity Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450))
@@ -105,6 +107,8 @@
 - [The Depths](https://steamcommunity.com/sharedfiles/filedetails/?id=2882567428)
 - [Thrower Unification](https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309) (Встройка)
 - [Tools Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3558996149)
+
+</details>
 
 # Дополнительная информация
 **Участники:**
