@@ -218,10 +218,6 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool MunchiesHomewardLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
     public bool MunchiesAuricSoulsAddonLocalization;
 
     [ReloadRequired]

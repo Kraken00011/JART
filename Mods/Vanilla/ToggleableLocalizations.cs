@@ -332,10 +332,6 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\MusicBoxSlotNew\ru-RU_Mods.MusicBoxSlotNew.hjson")
 					continue;
 
-				if (!JARTLocalizationConf.Instance.MunchiesHomewardLocalization
-				&& modpath == @"JAtRT\Localization\MunchiesHomeward\ru-RU_Mods.MunchiesHomeward.hjson")
-					continue;
-
 				if (!JARTLocalizationConf.Instance.InfernalEclipseBalanceLocalization
 				&& modpath == @"JAtRT\Localization\InfernalEclipseBalance\ru-RU_Mods.InfernalEclipseBalance.hjson")
 					continue;
