@@ -9,7 +9,7 @@
 - [Mech Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173)
 - [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
 
-<details><summary>**Средние моды**</summary>
+<details><summary><b>Средние моды</b></summary>
 
 - [Enchanted Moons](https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105)
 - [Evil Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3570726774)
