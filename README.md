@@ -3,11 +3,14 @@
 
 *С полным списком переводов можно ознакомится ниже*
 
-**Более-менее крупные моды**
+<details><summary><b>Более-менее крупные моды</b></summary>
+
 - [Corruption Core Boss](https://steamcommunity.com/sharedfiles/filedetails/?id=3105633551)
 - [Infernal Eclipse of Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686)
 - [Mech Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173)
 - [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
+
+</details>
 
 <details><summary><b>Средние моды</b></summary>
 
@@ -25,7 +28,8 @@
 
 </details>
 
-**Небольшие моды**
+<details><summary><b>Небольшие моды</b></summary>
+
 - [7 Useful Items from Minecraft](https://steamcommunity.com/sharedfiles/filedetails/?id=3525255950)
 - [Abyssal Subworld](https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193)
 - [Armor and Accessory Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3642521814)
@@ -91,7 +95,9 @@
 - [Wrath of the Empress](https://steamcommunity.com/sharedfiles/filedetails/?id=3257237354)
 - [You](https://steamcommunity.com/sharedfiles/filedetails/?id=3168580963)
 
-**Также в моде есть *«фиксы»* уже имеющихся официальных локализаций**</summary>
+</details>
+
+**Также в моде есть *«фиксы»* уже имеющихся официальных локализаций**
 - [Calamity - Fargo's Souls DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3044249615)
 - [Calamity: Hunt of the Old God](https://steamcommunity.com/sharedfiles/filedetails/?id=3241967932)
 - [Cataclysm Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450) (Бывший [Clamity Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450))
