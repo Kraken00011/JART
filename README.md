@@ -152,6 +152,7 @@
 - Unofficial Redemption Bard, Thrower & Healer
 - Unofficial SOTS Bard, Thrower and Healer
 - Unofficial Spirit Bard, Thrower & Healer
+
 Мелкие моды:
 - Better Zenith in Calamity
 - Celestial Shield
