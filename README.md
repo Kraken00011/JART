@@ -119,7 +119,7 @@
 
 <details><summary><b>Полный список совместимых модов (Без гиперссылок, сорри)</b></summary>
 
-Большие моды:
+**Большие моды:**
 - Ванилла (Доп теги)
 - Calamity Fables
 - Calamity Mod
@@ -133,7 +133,7 @@
 - Thorium Helheim
 - Thorium Mod (Доп теги)
 
-Средние моды:
+**Средние моды:**
 - Calamity Ranger Expansion
 - Calamity Simple Whips Addon
 - Canisters
@@ -153,7 +153,7 @@
 - Unofficial SOTS Bard, Thrower and Healer
 - Unofficial Spirit Bard, Thrower & Healer
 
-Мелкие моды:
+**Мелкие моды:**
 - Better Zenith in Calamity
 - Celestial Shield
 - Cleffy
