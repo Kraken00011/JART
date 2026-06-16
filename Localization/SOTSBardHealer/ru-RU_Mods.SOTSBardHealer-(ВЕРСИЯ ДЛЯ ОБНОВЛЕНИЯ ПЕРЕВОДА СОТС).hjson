@@ -28,7 +28,7 @@ WhisperingHood: {
 }
 
 Toggler: {
-	SubspaceBootsDash: Подпространственный рывок
+	SubspaceBootsDash: Субпространственный рывок
 	GildedBladeWingsFlight: Крылья света
 }
 
@@ -303,7 +303,7 @@ Items: {
 	}
 
 	VibrantResonator: {
-		DisplayName: Резонирующий резонатор
+		DisplayName: Вибрантовый резонатор
 		Tooltip:
 			'''
 			Восстанавливает пустоту союзника на 20 ед.
@@ -313,7 +313,7 @@ Items: {
 	}
 
 	VibrantTomahawk: {
-		DisplayName: Резонирующий томагавк
+		DisplayName: Вибрантовый томагавк
 		Tooltip: Бросает игнорирующий гравитацию томагавк
 	}
 }
