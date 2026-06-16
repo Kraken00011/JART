@@ -9,7 +9,8 @@
 - [Mech Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173)
 - [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
 
-**Средние моды**
+<details><summary>**Средние моды**</summary>
+
 - [Enchanted Moons](https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105)
 - [Evil Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3570726774)
 - [Fargo Rush Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3617791402)
@@ -21,6 +22,8 @@
 - [Calamity Simple Whip Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3630305943)
 - [Spirit Classic Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3532311018)
 - [Unofficial SOTS Bard, Thrower and Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551)
+
+</details>
 
 **Небольшие моды**
 - [7 Useful Items from Minecraft](https://steamcommunity.com/sharedfiles/filedetails/?id=3525255950)
