@@ -97,7 +97,6 @@
 
 </details>
 
-**Также в моде есть *«фиксы»* уже имеющихся официальных локализаций**
 <details><summary><b>Также в моде есть <i>«фиксы»</i> уже имеющихся официальных локализаций</b></summary>
 
 - [Calamity - Fargo's Souls DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3044249615)
