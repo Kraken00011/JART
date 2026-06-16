@@ -310,9 +310,9 @@ Items: {
 		Tooltip:
 			'''
 			Бросает большой, украшенный бубен, со временем возвращающийся обратно к игроку
-			При попадании бубен останавливается в воздухе и On hit, the tambourine will bounce back then freeze in the air to bombard the last hit target with ornaments
-			Successfully timing hits will steadily increase its empowerment level and damage
-			Successfully timing hits also causes the tambourine to maul enemies
+			При попадании бубен останавливается в воздухе и выстреливает кучкой украшений, в направлении поражённого врага
+			Удары, соблюдающие ритм, постепенно увеличивают урон и уровень усилений
+			Удары, соблюдающие ритм, также заставляют выпущенный бубен терзать врагов
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
 	}
@@ -322,7 +322,7 @@ Items: {
 		Tooltip:
 			'''
 			Игнорирует 10 ед. защиты
-			Раскручивает крионитовую косу, при попадании накладывающую дебафф [cbuff:Frostbite]
+			Раскручивает крионитовую косу, накладывающую дебафф [cbuff:Frostbite]
 			Постоянно выпускает сосульки, наносящие 50% урона
 			Нажмите ПКМ, чтобы бросить косу, изгибающуюся по возвращении обратно
 			При броске коса наносит на 30% больше урона
@@ -337,7 +337,7 @@ Items: {
 			Игнорирует 20 ед. защиты
 			Вместо раскручивания взмахивает косой по диагонали
 			При каждом взмахе выстреливает шквалом ядовитых газовых облаков
-			При попадании накладывает дебаффы [cbuff:Venom] и [cbuff:CalamityMod/SulphuricPoisoning]
+			Атака накладывает дебаффы [cbuff:Venom] и [cbuff:CalamityMod/SulphuricPoisoning]
 			'''
 	}
 
@@ -399,7 +399,7 @@ Items: {
 	}
 
 	DesertedDrugDeal: {
-		DisplayName: Кровь большой песчаной акулы
+		DisplayName: Кровь больших песчаных акул
 		Tooltip:
 			'''
 			Игнорирует 30 ед. защиты
@@ -408,7 +408,7 @@ Items: {
 			Инъецирование либо наносит постоянный урон, либо исцеляет, в зависимости от того, в кого попал шприц
 			При попадании по врагам накладывает дебаффы [cbuff:CalamityMod/CrushDepth] и [cbuff:CalamityMod/ArmorCrunch]
 			При попадании по союзникам накладывает длительное исцеление
-			Шприцы использовать для самоисцеления
+			Шприцы можно использовать для самоисцеления
 			'Содержит частичку Херобрина'
 			'''
 	}
@@ -856,8 +856,8 @@ Items: {
 			'''
 			Игнорирует 100 ед. защиты
 			Вместо раскручивания взмахивает косой по диагонали
-			Каждый взмах вместе с шлейфами пустоты выпускает волны бездны
-			Каждый 3 взмах коса раскручивается вокруг игрока
+			При каждом взмахе вместе с шлейфами пустоты выпускает волны бездны
+			При каждом 3 взмахе коса раскручивается вокруг игрока
 			Во время раскручивания коса выпускает множество неостановимых вихрей
 			'''
 	}
@@ -1255,20 +1255,51 @@ Items: {
 			Удары, соблюдающие ритм, постепенно увеличивают уровень усилений и скорость снарядов
 			Каждые 3 успешных удара количество снарядов увеличивается вплоть до 6
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			'Рейтинг 18+ из-за содержания сакса и излишней скрпитокости'
+			'Рейтинг 18+ из-за содержания сакса и излишней скриптокости'
 			Основана на звуке скрипки из «Blood Coagulant» за авторством DM Dokuro и SixteenInMono
 			'''
 	}
-
-	# нету такого предмета
 
 	Vivapollum: {
 		DisplayName: Виваполлум
 		Tooltip:
 			'''
-			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
-			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
-			Once triggered, it cannot happen again until the user fully recovers all inspiration
+			Стреляет каскадом пузырей бездны, взрывающимися при столкновении и накладывающими дебафф [cbuff:] life oppression
+			Когда ваше вдохновение иссякает кратковременно вызывается поток пузырей бездны
+			После активации, поток нельзя вызвать повторно до полного восстановления вдохновения
+			'''
+	}
+
+	VoidFaquirBiretta: {
+		DisplayName: Берет пустотного факира-жнеца
+		Tooltip:
+			'''
+			Увеличивает лучезарный урон на 30%
+			Снижает весь урон, кроме лучезарного, на 35%
+			Увеличивает скорость исцеления на 15%
+			Увеличивает бонусное исцеление на 8 ед.
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated shortly after healing an ally or gaining soul essence
+			Void energy gained from healing allies slowly diminishes the longer you heal them
+			'''
+	}
+
+	VoidFaquirChapeau: {
+		DisplayName: Кардинальская шляпа пустотного факира-смертопева
+		Tooltip:
+			'''
+			Увеличивает симфонический урон на 25%
+			Увеличивает скорость игры на инструменте на 15%
+			Увеличивает скорость восстановления вдохновения на 15%
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated for each active empowerment
+			Increased even further the higher each empowerment level is
 			'''
 	}
 
