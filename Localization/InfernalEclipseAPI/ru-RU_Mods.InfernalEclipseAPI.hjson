@@ -1201,8 +1201,8 @@ Items: {
 			Tooltip: ""
 			/*Lore:
 			'''
-			Впервые встреченные ближе к концу драконьей эры First spotted near the conclusion of the draconic era, it was assumed that these birds,
-			like many other creatures being discovered at the time, had draconic blood in them;
+			Впервые этих птиц стали замечать уже ближе к концу драконьей эры. First spotted near the conclusion of the draconic era, it was assumed that these birds,
+			Изначально предполагали, что как и во многих других существах того времени, в них находилась драконья кровь; like many other creatures being discovered at the time, had draconic blood in them;
 			a fact that was hard to disprove given the way they absorbed the pure light from Zeratros’ sun,
 			and converted the energy into lightning.
 			At the time, they were likely the strongest non-divine creatures on the planet.
@@ -1220,7 +1220,7 @@ Items: {
 				Рагнарёк, тот самый конец всего живого, оказался скорее сущностью, нежели каким-то событием.
 				Обыскав всевозможные миры в поисках способа начать его, ведь мне нужно было как-то уничтожить Асгард,
 				в конце-концов, я ничего не смог найти.
-				Сказания змеев и пламени были далеки от правды, но всё же, Рагнарёк уничтожен, как и сам Асгард.
+				Сказания змеев и пламени были далеки от правды, но всё же вот, Рагнарёк уничтожен, как и сам Асгард.
 
 				Теперь тебя считают героем этого мира, и возможно, ты сможешь найти покой в этой новой эре, которую сам и начал.
 				Но знай, за каждым концом всегда последует новое начало...
@@ -1233,7 +1233,7 @@ Items: {
 			Tooltip: ""
 			Lore:
 				'''
-				Пожиратель, дракон, даже ведьма - каждый из них пал жертвой пред твоей жаждой силы, твоими желаниям, твоим стремлением.
+				Пожиратель, дракон, даже ведьма - каждый из них пал жертвой твоей жажды силы, твоими желаниям, твоим стремлением.
 				У меня был схожий путь, но в отличии от тебя, я никогда не позиционировал себя «Героем».
 				Я избавил этот мир от ужасной божественной тирании и даже так, многие знают обо мне исключительно как о «Ужасном тиране».
 				А потом появился ты, с невообразимой решимостью прикончить меня здесь и сейчас.
@@ -1938,7 +1938,7 @@ Items: {
 
 	Materials: {
 		EssenceOfFlame: {
-			DisplayName: Эссенция Игниса
+			DisplayName: Эссенция пламени
 			Tooltip: "'Эссенция серной печи'"
 		}
 	}
@@ -1954,17 +1954,17 @@ Items: {
 	}
 
 	MaulerRelic: {
-		DisplayName: Инфернальная реликвия Мучителя
+		DisplayName: Инфернальная реликвия мучителя
 		Tooltip: "{0}"
 	}
 
 	DreamEssence: {
-		DisplayName: Эссенция сновидений
+		DisplayName: Эссенция грёз
 		Tooltip: "'Божественные сумерки'"
 	}
 
 	TyrantYharimsUltisword: {
-		DisplayName: Пробиватель Тирана
+		DisplayName: Протыкатель Тирана
 		Tooltip:
 			'''
 			Бросает огромный ауритовый клинок, вонзающийся во врагов, поджигающий и замедляющий их
@@ -2048,7 +2048,7 @@ Items: {
 	}
 
 	CragmawMireRelic: {
-		DisplayName: Инфернальная реликвия Болотистого скалозева
+		DisplayName: Инфернальная реликвия болотистого скалозева
 		Tooltip: "{0}"
 	}
 
@@ -2222,14 +2222,14 @@ Items: {
 	//Localization Team: do not change [ieconstruct:ChaosConstruct], as it is replaced with a colored version using the Name perameter below.
 
 	ChaosLure: {
-		DisplayName: Хаотичная приманка
+		DisplayName: Хаотическая приманка
 		Tooltip:
 			'''
 			Электромагнитная приманка, наполненная перегруженной энергией хаоса
 			Привлекает [IELuxTag:ChaosConstruct]
 			Не расходуется
 			'''
-		Name: Хаотичный конструкт
+		Name: Хаотический конструкт
 	}
 }
 
