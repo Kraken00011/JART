@@ -32,7 +32,8 @@ public class CalamityBardHealerClassTags : ItemTagsAdder
                 "StatigelFoxMask",
                 "TarragonParagonCrown",
                 "AugmentedAuricTeslaValkyrieVisage",
-                "IntergelacticProtectorHelm"
+                "IntergelacticProtectorHelm",
+                "VoidFaquirBiretta"
             };
 
             string[] Bard =
@@ -53,7 +54,8 @@ public class CalamityBardHealerClassTags : ItemTagsAdder
                 "TreeWhispererAmulet",
                 "GodSlayerDeathsingerCowl",
                 "AugmentedAuricTeslaFeatheredHeadwear",
-                "IntergelacticCloche"
+                "IntergelacticCloche",
+                "VoidFaquirChapeau"
             };
 
             if (ModLoader.HasMod("CalamityBardHealer"))
