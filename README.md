@@ -111,59 +111,66 @@
 
 # Дополнительная информация
 **Участники:**
- - [Kraken](https://github.com/Kraken00011) - Главный переводчик и по совместительству кодер мода
- - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно
+ - [Kraken](https://github.com/Kraken00011) - Главный переводчик и по совместительству кодер мода (Discord: kkk_raken)
+ - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно (Discord: Htoya23)
 
-**В моде также есть доп фишка кроме переводов**
-- *И это теги для предметов, появляющиеся над их описанием (идея взята с мода Thorium Class Tags Consistency, а также сами дополнительные ванильные теги начинают отображаться только если он включён)*
+**В моде также есть доп фишки кроме переводов**
+1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные ванильные теги (Воин и его вариации, Стрелок, Маг, а также Призыватель) начинают отображаться только если он включён)*
+
+2. *Конфигурация, в который в можете отключить ненужные вам переводы*
 
 <details><summary><b>Полный список совместимых модов (Без гиперссылок, сорри)</b></summary>
 
-**Большие моды:**
-- Ванилла (Доп теги)
-- Calamity Fables
-- Calamity Mod
-- Coralite
-- Homeward Journey
-- Mod of Redemption
-- Secrets of the Shadows
-- Spirit Classic
-- Split
-- Spooky Mod
-- Thorium Helheim
-- Thorium Mod (Доп теги)
 
-**Средние моды:**
-- Calamity Ranger Expansion
-- Calamity Simple Whips Addon
-- Canisters
-- Cataclysm Mod
-- Catalyst Mod
-- Confection REBAKED
-- Consolaria
-- Homeward Ragnarok
-- Infernal Arsenal
-- Jungle Bosses Rework
-- Mech Bosses Rework
-- Ragnarok Mod
-- Rise of Ages
-- Sorcery Overhaul
-- Unofficial Calamity Bard & Healer
-- Unofficial Redemption Bard, Thrower & Healer
-- Unofficial SOTS Bard, Thrower and Healer
-- Unofficial Spirit Bard, Thrower & Healer
+  **Большие моды:**
+   - Ванилла (Доп теги)
+   - Calamity Fables
+   - Calamity Mod
+   - Coralite
+   - Homeward Journey
+   - Mod of Redemption
+   - Secrets of the Shadows
+   - Spirit Classic
+   - Split
+   - Spooky Mod
+   - Thorium Helheim
+   - Thorium Mod (Доп теги)
 
-**Мелкие моды:**
-- Better Zenith in Calamity
-- Celestial Shield
-- Cleffy
-- Flinx Ushanka
-- Inspiration Potions
-- Ore Helmets For Summoner
-- Whip Accessories
+  **Средние моды:**
+   - Calamity Ranger Expansion
+   - Calamity Simple Whips Addon
+   - Canisters
+   - Cataclysm Mod
+   - Catalyst Mod
+   - Confection REBAKED
+   - Consolaria
+   - Homeward Ragnarok
+   - Infernal Arsenal
+   - Jungle Bosses Rework
+   - Mech Bosses Rework
+   - Ragnarok Mod
+   - Rise of Ages
+   - Sorcery Overhaul
+   - Unofficial Calamity Bard & Healer
+   - Unofficial Redemption Bard, Thrower & Healer
+   - Unofficial SOTS Bard, Thrower and Healer
+   - Unofficial Spirit Bard, Thrower & Healer
+
+  **Мелкие моды:**
+   - Better Zenith in Calamity
+   - Celestial Shield
+   - Cleffy
+   - Flinx Ushanka
+   - Inspiration Potions
+   - Ore Helmets For Summoner
+   - Whip Accessories
+
+   В скором времени добавится поддержка для ещё большего количества модов!
 
 </details>
 
-***Хотите предложить мод на перевод?*** *Напишите в комментариях на [странице мода в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3628393177) название того который хотите, чтобы был переведён*
+***Хотите предложить мод на перевод?*** *Напишите в комментариях на [странице мода в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3628393177) название того мода, который хотите, чтобы был переведён*
 
-*Мод ~~почти~~ ПОЛНОСТЬЮ совместим с [Project tRU](https://steamcommunity.com/sharedfiles/filedetails/?id=2831360228), начиная со склонения предметов и перековок по родам, заканчивая добавлением цветного урона для модов, непереведённых ими*
+***Нашли опечатку, ошибку или у вас просто есть вариант как можно «сделать лучше»?*** *Сделайте Pull Request и поменяйте нужный вам текст на иной, а описании реквеста напишите по какой причине ваш вариант подходит больше нынешнего, либо вы можете написать напрямую одному из переводчиков в Discord и попросить его исправить какую-либо ошибку (опять же с объяснением зачем)*
+
+*Мод имеет ~~почти~~ ПОЛНУЮ интеграцию с [Project tRU](https://steamcommunity.com/sharedfiles/filedetails/?id=2831360228), начиная со склонения предметов и перековок по родам, заканчивая добавлением цветного урона для модов, непереведённых ими*
