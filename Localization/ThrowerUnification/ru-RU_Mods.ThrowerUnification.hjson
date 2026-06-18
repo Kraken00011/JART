@@ -71,17 +71,17 @@ ThoriumStealthStrike: {
 GripsRework: {
 	PaddedRework:
 		'''
-		При попадании метательным предметом куда-либо с 10% шансом даёт 15% бонус к скорости метательных атак на секунду Thrower projectiles have a 10% chance to grant the player 15% thrower attack speed for 1 second upon hitting anything
+		Столкновение метательного снаряда с чем-либо с 10% шансом увеличивает скорость метательных атак на 15% на 1 секунду
 		Этот эффект можно активировать раз в 2 секунды
 		'''
 	BoneRework:
 		'''
-		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon hitting anything
+		Столкновение метательного снаряда с чем-либо с 20% шансом увеличивает скорость метательных атак на 15% на 1 секунду
 		Этот эффект можно активировать раз в 2 секунды
 		'''
 	MagnetoRework:
 		'''
-		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon hitting anything
+		Столкновение метательного снаряда с чем-либо с 20% шансом увеличивает скорость метательных атак на 15% на 1 секунду
 		Этот эффект можно активировать раз в полторы секунды
 		'''
 }
