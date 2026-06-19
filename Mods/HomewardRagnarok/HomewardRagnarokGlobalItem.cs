@@ -19,10 +19,8 @@ using ContinentOfJourney;
 
 public partial class HomewardRagnarokGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.HomewardRagnarokLocalization && ModLoader.HasMod("HomewardRagnarok");
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.HomewardRagnarokLocalization && ModLoader.HasMod("HomewardRagnarok");
+    
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         if (item.type == ModContent.ItemType<MapleMushroom>() || item.type == ModContent.ItemType<HoneyMushroom>() 
