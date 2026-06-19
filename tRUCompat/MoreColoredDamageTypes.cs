@@ -88,21 +88,15 @@ public class MoreColoredDamageTypes : GlobalItem
                 {
                     ModContent.TryFind<DamageClass>("CerebralMod/SentryDamage", out var sentryDamage);
                     if (item.DamageType == sentryDamage)
-                    {
                         tooltip.OverrideColor = new Color(205, 133, 63);
-                    }
 
                     ModContent.TryFind<DamageClass>("CerebralMod/TelekineticDamage", out var telekineticDamage);
                     if (item.DamageType == telekineticDamage)
-                    {
                         tooltip.OverrideColor = new Color(218, 112, 214);
-                    }
 
                     ModContent.TryFind<DamageClass>("CerebralMod/MelodicDamage", out var melodicDamage);
                     if (item.DamageType == melodicDamage)
-                    {
                         tooltip.OverrideColor = new Color(94, 196, 205);
-                    }
                 }
 
                 // Martin's Order
@@ -137,27 +131,21 @@ public class MoreColoredDamageTypes : GlobalItem
                 if (ModLoader.HasMod("RoA"))
                 {
                     if (item.DamageType == ModContent.Find<DamageClass>("RoA/DruidClass"))
-                    {
                         tooltip.OverrideColor = new Color(0, 191, 50);
-                    }
                 }
 
                 // Bombus Apis
                 if (ModLoader.HasMod("BombusApisBee"))
                 {
-                    if (item.DamageType == ModContent.Find<DamageClass>("BombusApisBee/HymenoptraDamageClass"))
-                    {
+                    if (item.DamageType == ModContent.Find<DamageClass>("BombusApisBee/BeekeeperDamageClass"))
                         tooltip.OverrideColor = new Color(255, 215, 0);
-                    }
                 }
 
                 // Split
                 if (ModLoader.HasMod("Split"))
                 {
                     if (item.DamageType == ModContent.Find<DamageClass>("Split/HeavyMeleeDamageClass"))
-                    {
                         tooltip.OverrideColor = new Color(255, 85, 85);
-                    }
                 }
 
                 // Orchid
@@ -206,16 +194,6 @@ public class MoreColoredDamageTypes : GlobalItem
                     {
                         if (tooltip.Name == "Tooltip0")
                             tooltip.OverrideColor = new Color(255, 138, 248);
-                    }
-                }
-
-                // Consolaria
-                if (ModLoader.HasMod("Consolaria"))
-                {
-                    if (item.type == ModContent.Find<ModItem>("Consolaria/ShadowboundExoskeleton").Type)
-                    {
-                        if (tooltip.Name == "Tooltip0")
-                            tooltip.OverrideColor = new Color(255, 85, 85);
                     }
                 }
             }
