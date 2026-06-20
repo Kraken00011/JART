@@ -54,7 +54,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
                     string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                     {
                         if (tooltip.Text.Contains("пустотного и"))
                             tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
@@ -72,7 +72,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
                     string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                     {
                         if (tooltip.Text.Contains("пустотного и"))
                             tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
@@ -90,7 +90,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
                     string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                     {
                         if (tooltip.Text.Contains("пустотного и"))
                             tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
@@ -108,7 +108,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
                     string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                     {
                         if (tooltip.Text.Contains("пустотного и"))
                             tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
@@ -127,7 +127,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                 {
                     string num = tooltip.Text.Split(' ')[0];
                     string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
-                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                     {
                         if (tooltip.Text.Contains("пустотного и"))
                             tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
