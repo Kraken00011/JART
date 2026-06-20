@@ -48,8 +48,8 @@
 [list]
 [*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/VioletStar.png[/img] Фиолетовый полумесяц
 [*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/ScarletStar.png[/img] Алый полумесяц
-[*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/VoidenAnkh.png[/img] Анкх пустоты
-[*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/SoulHeart.png[/img] Сердце души
+[*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/VoidenAnkh.png[/img] Пустотный анх
+[*] [img]https://raw.githubusercontent.com/VortexOfRainbows/SOTS/1.4.4/Items/Void/SoulHeart.png[/img] Сердечная эссенция
 [*] [spoiler]А также проводники![/spoiler]
 [/list]
 [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2930931197]Homeward Journey[/url][/b]
