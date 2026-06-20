@@ -6,10 +6,7 @@ using JAtRT.Core.Config;
 
 internal class ConsolariaLegecyItemsPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("ConsolariaLegecyItems") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ConsolariaLegecyItemsLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ConsolariaLegecyItems") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ConsolariaLegecyItemsLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

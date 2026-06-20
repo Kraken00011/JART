@@ -420,6 +420,10 @@ public class ToggleableLocalizations : OnPatcher
 				modpath, @"JAtRT\Localization\InfernumFables\ru-RU_Mods.InfernumFables.hjson"))
 					continue;
 
+				if (Skip(JARTLocalizationConf.Instance.CalamityBardHealerLocalization, "CalamityBardHealer",
+				modpath, @"JAtRT\Localization\CalamityBardHealer\ru-RU_Mods.CalamityBardHealer.hjson"))
+					continue;
+
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
 

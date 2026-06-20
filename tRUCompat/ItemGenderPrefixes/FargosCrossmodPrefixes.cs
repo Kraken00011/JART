@@ -6,10 +6,7 @@ using JAtRT.Core.Config;
 
 internal class FargoswiltasCrossmodPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("FargowiltasCrossmod") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.FargowiltasCrossmodFix && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("FargowiltasCrossmod") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.FargowiltasCrossmodFix && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

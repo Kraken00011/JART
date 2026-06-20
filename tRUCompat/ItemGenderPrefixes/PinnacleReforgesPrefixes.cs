@@ -8,10 +8,7 @@ using JAtRT.Core.Config;
 
 internal class PinnacleReforgesPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("PinnacleReforges") && ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("PinnacleReforges") && ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

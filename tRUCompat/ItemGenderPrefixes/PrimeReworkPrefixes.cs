@@ -6,10 +6,7 @@ using JAtRT.Core.Config;
 
 internal class PrimeReworkPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("PrimeRework") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.PrimeReworkLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("PrimeRework") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.PrimeReworkLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

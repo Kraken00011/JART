@@ -12,10 +12,7 @@ using Microsoft.Xna.Framework;
 
 public class ArmorPrefixesPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return (ModLoader.HasMod("ArmorAndAccessoryPrefixes") || ModInstances.ArmorReforge != null) && ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => (ModLoader.HasMod("ArmorAndAccessoryPrefixes") || ModInstances.ArmorReforge != null) && ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
@@ -643,7 +640,7 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "LunicCorpsBoots",
                 "MolluskShelleggings",
                 "MolluskShellplate",
-                "OmegaBlueTentcles",
+                "OmegaBlueTentacles",
                 "PlaguebringerPistons",
                 "PlagueReaperStriders",
                 "PrismaticGreaves",
@@ -1009,7 +1006,7 @@ public class ArmorPrefixesPrefixes : ModSystem
         {
             tru.Call("AddFeminineItems", fargosS, new[]
             { 
-                    //Маски боссов
+                // Маски боссов
                 "BaronMask",
                 "CoffinMask",
                 "DeathMask",
@@ -1082,24 +1079,26 @@ public class ArmorPrefixesPrefixes : ModSystem
             });
         }
 
-        if (ModLoader.TryGetMod("HMOreSummonerHelmets", out Mod hmSumHelms))
+        if (ModLoader.TryGetMod("HMOreSummonerHelmets", out Mod hmSumHelms) && JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization)
         {
-            tru.Call("AddNeuterItems", hmSumHelms, new string[]
-            {
-                "CobaltKabuto"
-            });
             tru.Call("AddFeminineItems", hmSumHelms, new string[]
             {
                 "OrichalcumCrown",
                 "MythrilCrown"
             });
+
+            tru.Call("AddNeuterItems", hmSumHelms, new string[]
+            {
+                "CobaltKabuto"
+            });
+
             tru.Call("AddPluralItems", hmSumHelms, new string[]
             {
                 "TitanumGrowth"
             });
         }
 
-        if (ModLoader.TryGetMod("Clamity", out Mod clam))
+        if (ModLoader.TryGetMod("Clamity", out Mod clam) && JARTLocalizationConf.Instance.ClamityFix)
         {
             tru.Call("AddPluralItems", clam, new string[]
             {
@@ -1109,11 +1108,109 @@ public class ArmorPrefixesPrefixes : ModSystem
             });
         }
 
-        if (ModLoader.TryGetMod("FlinxHat", out Mod flinxHat))
+        if (ModLoader.TryGetMod("FlinxHat", out Mod flinxHat) && JARTLocalizationConf.Instance.FlinxHatFix)
         {
             tru.Call("AddFeminineItems", flinxHat, new string[]
             {
                 "FlinxFurUshanka"
+            });
+        }
+
+        if (ModLoader.TryGetMod("SOTS", out Mod sots))
+        {
+            tru.Call("AddFeminineItems", sots, new string[]
+            {
+                "VesperaMask",
+                "FlowerCrown",
+                "NatureShirt",
+                "FrigidCrown",
+                "PatchLeatherHat",
+                "PatchLeatherTunic",
+                "ExcavatorMask",
+                "FrigidRobe",
+                "FrostArtifactMask",
+                "AnubisHat",
+                "PutridPinkyMask"
+            });
+
+            tru.Call("AddNeuterItems", sots, new string[]
+            {
+                "CursedRobe"
+            });
+
+            tru.Call("AddPluralItems", sots, new string[]
+            {
+                "ExcavatorLeggings",
+                "VoidspaceLeggings",
+                "ElementalLeggings",
+                "VibrantLeggings",
+                "VesperaLeggings",
+                "NatureLeggings",
+                "FrigidGreaves",
+                "PatchLeatherPants",
+                "EarthenLeggings",
+                "DoorPants",
+                "FrostArtifactTrousers",
+                "TwilightAssassinsLeggings"
+            });
+        }
+
+        if (ModLoader.TryGetMod("CalamityBardHealer", out Mod calBardHeal))
+        {
+            tru.Call("AddFeminineItems", calBardHeal, new string[]
+            {
+                "BloodflareRitualistMask",
+                "DaedalusHat",
+                "HydrothermicHat",
+                "IntergelacticCloche",
+                "StatigelFoxMask",
+                "TarragonChapeau",
+                "TarragonParagonCrown",
+                "VictideAmmoniteHat",
+                "VoidFaquirChapeau"
+            });
+
+            tru.Call("AddPluralItems", calBardHeal, new string[]
+            {
+                "AerospecHeadphones",
+                "StatigelEarrings"
+            });
+        }
+
+        if (ModLoader.TryGetMod("Consolaria", out Mod cons))
+        {
+            tru.Call("AddFeminineItems", cons, new string[]
+            {
+                "AncientDragonMask",
+                "DragonMask",
+                "OstaraHat",
+                "OstaraJacket"
+            });
+
+            tru.Call("AddNeuterItems", cons, new string[]
+            {
+                "AncientPhantasmalRobe",
+                "PhantasmalRobe",
+                "AncientWarlockRobe",
+                "WarlockRobe"
+            });
+
+            tru.Call("AddPluralItems", cons, new string[]
+            {
+                "OldViperLegs",
+                "ViperLegs",
+                "OldSeraphimLegs",
+                "OldSirenLegs",
+                "SeraphimLegs",
+                "SirenLegs",
+                "AncientPhantasmalSubligar",
+                "AncientDragonGreaves",
+                "DragonGreaves",
+                "OstaraBoots",
+                "AncientTitanLeggings",
+                "TitanLeggings",
+                "AncientWarlockLeggings",
+                "WarlockLeggings"
             });
         }
     }

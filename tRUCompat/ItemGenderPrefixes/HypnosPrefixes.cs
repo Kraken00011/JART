@@ -6,10 +6,7 @@ using JAtRT.Core.Config;
 
 internal class HypnosPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("HypnosMod") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.HypnosModLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("HypnosMod") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.HypnosModLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

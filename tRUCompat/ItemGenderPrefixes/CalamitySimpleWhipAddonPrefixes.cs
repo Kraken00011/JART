@@ -28,7 +28,8 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "MermaidsTear",
                 "ResonantVoid",
                 "SkybreakerCoil",
-                "RapierWhip"
+                "RapierWhip",
+                "StrikerEmblem"
             });
 
             tru.Call("AddNeuterItems", calSimWhips, new string[]

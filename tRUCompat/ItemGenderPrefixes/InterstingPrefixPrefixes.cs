@@ -8,10 +8,7 @@ using JAtRT.Core.Config;
 
 public class InterestingPrefixPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("InterestingPrefix") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ToolsPrefixesFix && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("InterestingPrefix") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ToolsPrefixesFix && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
@@ -57,6 +54,15 @@ public class InterestingPrefixPrefixes : ModSystem
             tru.Call("AddFeminineItems", th, new[]
             {
                 "GraniteControlRod"
+            });
+        }
+
+        if (ModLoader.TryGetMod("SOTS", out Mod sots))
+        {
+            tru.Call("AddFeminineItems", sots, new[]
+            {
+                "VesperaFishingRod",
+                "TwilightFishingPole"
             });
         }
     }

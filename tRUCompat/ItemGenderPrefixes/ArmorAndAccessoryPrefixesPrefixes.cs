@@ -8,10 +8,7 @@ using JAtRT.Core.Config;
 
 public class ArmorAndAccessoryPrefixesPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("ArmorAndAccessoryPrefixes") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ArmorAndAccessoryPrefixesLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ArmorAndAccessoryPrefixes") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.ArmorAndAccessoryPrefixesLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         if (!ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru))

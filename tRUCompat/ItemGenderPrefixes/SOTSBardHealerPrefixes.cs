@@ -7,10 +7,7 @@ using JAtRT.Core.Config;
 
 internal class SOTSBardHealerPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("SOTSBardHealer") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.SOTSBardHealerLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("SOTSBardHealer") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.SOTSBardHealerLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         if (!ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru))

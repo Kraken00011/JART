@@ -8,6 +8,7 @@ using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using JAtRT.Core.MonoMod;
 using Terraria;
+using Terraria.ModLoader;
 using Terraria.Localization;
 
 public class CalamityUIPatch : OnPatcher

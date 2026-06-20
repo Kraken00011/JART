@@ -72,6 +72,12 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool SOTSBardHealerLocalization;
 
+    [ReloadRequired]
+    [Label("Unofficial Calamity Bard & Healer")]
+    [Tooltip("Выключает перевод мода Unofficial Calamity Bard & Healer.")]
+    [DefaultValue(true)]
+    public bool CalamityBardHealerLocalization;
+
     [Header("SmallMod")]
 
     [ReloadRequired]

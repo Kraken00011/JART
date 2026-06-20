@@ -13,10 +13,7 @@ using CalamityRuTranslate.Core.Config;
 
 public class MoreColoredDamageTypes : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
@@ -90,7 +87,7 @@ public class MoreColoredDamageTypes : GlobalItem
                     {
                         string[] parts = tooltip.Text.Split(' ');
 
-                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя") && !item.type == ModContent.Find<ModItem>("SOTS/Tesseract").Type)
+                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя") && item.type != ModContent.Find<ModItem>("SOTS/Tesseract").Type)
                         {
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/f1fa8c:урона призывателя]";
                         }
