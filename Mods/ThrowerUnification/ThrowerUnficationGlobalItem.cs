@@ -12,7 +12,7 @@ using CalamityRuTranslate.Core.Config;
 public partial class ThrowerUnificationGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ThrowerUnification") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationFix;
-    
+
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
@@ -49,95 +49,98 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
 
         if (ModLoader.HasMod("SOTSBardHealer"))
         {
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
+            if (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue")))
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
                 {
-                    string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                    ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                     {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
-                    }
-                    else
-                    {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"{num} ед. пустотного и метательного урона";
-                    }
-                });
-            }
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"{num} ед. пустотного и метательного урона";
+                        }
+                    });
+                }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
-            {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
                 {
-                    string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                    ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                     {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
-                    }
-                    else
-                    {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"{num} ед. пустотного и разбойного урона";
-                    }
-                });
-            }
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"{num} ед. пустотного и разбойного урона";
+                        }
+                    });
+                }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
-            {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
                 {
-                    string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                    ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                     {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
-                    }
-                    else
-                    {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"{num} ед. пустотного и вероломного урона";
-                    }
-                });
-            }
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"{num} ед. пустотного и вероломного урона";
+                        }
+                    });
+                }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
-            {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
                 {
-                    string num = tooltip.Text.Split(' ')[0];
-                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                    ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                     {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
-                    }
-                    else
-                    {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"{num} ед. пустотного и кинетического урона";
-                    }
-                });
-            }
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"{num} ед. пустотного и кинетического урона";
+                        }
+                    });
+                }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
-            {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
                 {
-                    string num = tooltip.Text.Split(' ')[0];
-                    string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
-                    if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
+                    ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                     {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
-                    }
-                    else
-                    {
-                        if (tooltip.Text.Contains("пустотного и"))
-                            tooltip.Text = $"{num} ед. пустотного и {custom} урона";
-                    }
-                });
+                        string num = tooltip.Text.Split(' ')[0];
+                        string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
+                        if (TRuConfig.Instance.ColoredDamageTypes)
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            if (tooltip.Text.Contains("пустотного и"))
+                                tooltip.Text = $"{num} ед. пустотного и {custom} урона";
+                        }
+                    });
+                }
             }
         }
 
