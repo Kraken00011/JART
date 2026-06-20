@@ -52,7 +52,7 @@ UI: {
 		Также Homeward Ragnarok добавляет немного своего опционального контента и переработок для Homeward Journey!
 		Вы можете выключить это оповещение в конфигурации Homeward, находящейся рядом с конфигом Infernal Eclipse of Ragnarok.
 		'''
-	DevNoticeCampsiteFix: Исправление вылетов из игры от флагштока включено
+	DevNoticeCampsiteFix: Исправление вылетов из игры из-за флагштока включено
 }
 
 DifficultyUI: {
@@ -715,12 +715,12 @@ ItemTooltip: {
 
 		OmniIns: Увеличивает максимальный запас вдохновения на 5
 		OmniEmp: Каждое уникальное усиление, наложенное на вас, увеличивает скорость передвижения на 2% и скорость игры на симфонических инструментах на 1%
-		ShinobiNerf: Имеет 2 секунды перезарядки
+		ShinobiNerf: Этот эффект имеет 2 секунды перезарядки
 		ShinobiEffect:
 			'''
 			Увеличивает шанс метательного критического удара на 6%
 			Попадание двумя критическими ударами подряд вызывает разряд тёмной молнии и кратковременно увеличивает скорость атаки метательного оружия
-			Имеет 2 секунды перезарядки
+			Этот эффект имеет 2 секунды перезарядки
 			'''
 		CloverNerf: Кража здоровья имеет полсекунды перезарядки
 		CloverNerf2: Кража здоровья имеет 1 секунду перезарядки
@@ -846,9 +846,9 @@ ItemTooltip: {
 		'''
 	PyrogenRelic:
 		'''
-		Familiarity is a useful tool
-		It is not uncommon for some battles to incorporate similar aspects as others
-		Keep pushing, it is likely you will use these skills again
+		Знакомость - полезный инструмент
+		Нередки те случаи, когда в разных сражениях встречаются схожие аспекты
+		Продолжай свой путь, рано или поздно эти навыки пригодятся тебе вновь
 		'''
 	SubspaceRelic:
 		'''
@@ -903,7 +903,7 @@ Lore: {
 		'''
 		Перевернув на первую страницу, вы видите ничего, кроме пары слов.
 
-		'Кто я, чёрт возьми, такой, и как я всё ещё жив?'
+		'Кто я, чёрт возьми, такой, и зачем я всё ещё жив?'
 
 		Остальные страницы пустуют...
 
@@ -922,8 +922,8 @@ Items: {
 	}
 
 	ChromaticMassInABottle: {
-		Tooltip: "'Даже когда КрогНар что-то замышлял, Аарон просто не мог игнорировать присутствие этой материи.'"
 		DisplayName: Хроматическая масса в банке
+		Tooltip: "'Даже когда КрогНар что-то замышлял, Аарон просто не мог игнорировать присутствие этой массы.'"
 	}
 
 	Swordofthe14thGlitch: {
@@ -936,8 +936,8 @@ Items: {
 	}
 
 	BossRushTier6MusicBox: {
-		Tooltip: Проигрывает «Descent Of Divinities» за авторством psykomatic
 		DisplayName: Музыкальная шкатулка (Босс-раш - 6 ранг)
+		Tooltip: Проигрывает «Descent Of Divinities» за авторством psykomatic
 	}
 
 	NovaBomb: {
@@ -1073,13 +1073,13 @@ Items: {
 		LoreGlowmoth: {
 			DisplayName: История (Светылёк)
 			Tooltip: ""
-			/*Lore:
-			'''
-			Неудивительно, что тебе посчастливилось встретить одного из этих существ здесь.
-			The mushrooms provide energy for the moth, and the moth helps to spread the mushrooms; in balance, as nature should be...
-			Although, there does seem to be some latent void energy surrounding the creature.
-			How... peculiar.
-			'''*/
+			Lore:
+				'''
+				Неудивительно, что тебе посчастливилось встретить одно из этих существ здесь.
+				Эти грибки дают свою энергию мотыльку, а мотылёк, в свою очередь, помогает грибам распространятся; баланс, каким природа его и задумывала...
+				Хотя, похоже это существо окружает нечто вроде пустотной энергии.
+				Как... поразительно.
+				'''
 		}
 
 		LoreLux: {
@@ -1569,7 +1569,7 @@ Items: {
 				'''
 			Sentinels:
 				'''
-				С победой над слугами небесный луч стал атаковать дольше
+				С победой над слугами небесный луч начал атаковать дольше
 				Победите Пожирателя богов для получения большей силы...
 				'''
 		}
@@ -1712,7 +1712,7 @@ Items: {
 	}
 
 	Swordofthe13thGlitch: {
-		DisplayName: Меч Заражённого
+		DisplayName: Меч Искажённого
 		Tooltip:
 			'''
 			Нажмите ПКМ, чтобы выстрелить пучком самонаводящихся лезвий
@@ -1958,8 +1958,8 @@ Items: {
 		Tooltip:
 			'''
 			Выстреливает острыми возвращающимися экзо-дисками в направлении курсора
-			Атаки оружия могут рубить деревья
-			Нажмите ПКМ, чтобы использовать оружие, не вырубая деревья
+			Это оружие и его снаряды действуют как бензопила
+			Нажмите ПКМ, чтобы использовать без вырубки деревьев
 			'''
 	}
 
@@ -1983,7 +1983,7 @@ Items: {
 			Во время нахождения в режиме уничтожения увеличивает скорость регенерации здоровья и восстановления времени полёта, а также увеличивает частоту совершения рывков
 			После совершения удара клинок уйдёт на короткую перезарядку
 			Попадание по врагу разящим ударом с вонзёнными в него клинками откинет все клинки и позволит совершить ещё один удар
-			Последнее попадание разящим ударом по врагу может с шансом наложить на дебафф [cbuff:CalamityMod/MarkedforDeath]
+			Последнее попадание разящим ударом по врагу может с определённым шансом наложить дебафф [cbuff:CalamityMod/MarkedforDeath]
 			При выходе из режима уничтожения враг с клеймом смерти взрывается, получая колоссальный урон
 			'Награда за становление богоискателем...'
 			'''
@@ -2108,39 +2108,39 @@ Items: {
 	}
 
 	SoulDrivenHeadphonesEclipse: {
-		DisplayName: Наушники с душеговорителями (Eclipse Edition)
+		DisplayName: Наушники с душеговорителями (Версия Eclipse)
 		Tooltip:
 			'''
-			Allows you to pick and play custom Infernal Eclipse of Ragnarok music, as well as some other unique themes
-			As you hold onto them, you vaguely feel an otherworldly presence
-			You can also hear the sounds of instruments passionately playing
+			Позволяет выбрать и послушать музыку Infernal Eclipse of Ragnarok вместе с парой уникальных тем
+			Пока вы держитесь за них, вы неясно чувствуете мистическое присутствие
+			Вы также слышите звуки страстно играющих инструментов
 			'''
 	}
 
 	SplitFirebrand: {
-		DisplayName: Split Firebrand
+		DisplayName: Раскалённая огнеплеть
 		Tooltip: ""
 
 		Progression: {
 			Skeletron:
 				'''
-				This firey Whip that you've made burns through iron and foes alike
-				Yet it was the potential to burn brighter, defeat the curse of the dungeon to fuel the fire
+				Этот хлыст, смастерённый вами, способен прожигать хоть метал, хоть ваших врагов
+				Однако, у него есть потенциал засиять ещё ярче... Одержите победу над проклятием темницы, чтобы разжечь пламя хлыста
 				'''
 			WoF:
 				'''
-				A spark has grown larger, making it wild
+				Искра засияла мощнее и стала более неуправляемой
 				There's more to set ablaze... Defeat the gate of the underworld to fuel the fire
 				'''
 			Mechs:
 				'''
 				When the fire goes wilder, it doesn't suddenly calm, there's more to be reached and more to be ashed
-				Melt the metal overseers to fuel the fire
+				Расплавьте металлических стражей, чтобы разжечь пламя хлыста
 				'''
 			Plantera:
 				'''
 				Can you feel it? Your hands burning, sweat turning into mist... Yet it must burn hotter
-				Defeat the Predator of the Jungle to fuel the fire
+				Одержите победу над хищником джунглей, чтобы разжечь пламя хлыста
 				'''
 			Golem:
 				'''
@@ -2149,8 +2149,8 @@ Items: {
 				'''
 			MoonLord:
 				'''
-				Strike again and again, never stop till flames touch the stars
-				Beat the moon's harbinger to fuel the fire
+				Бейте снова и снова, не останавливайтесь, пока пламя не достанет до звёзд
+				Одолейте лунного предвестника, чтобы разжечь пламя хлыста
 				'''
 			Full:
 				'''
@@ -2223,7 +2223,7 @@ Items: {
 
 		Lore:
 			'''
-			'When Dylan first came, he seemed to have brought some weapons from his home world'
+			'Когда Дилан впервые попал к нам, он похоже захватил с собой пару вещичек из своего мира'
 			'These were used by those who opposed the tyrannical rule of those who's power matched God's'
 			'Now that you've managed to replicate one of these crafts, maybe it will grow into something wonderful'
 			'''
@@ -2618,18 +2618,18 @@ Configs: {
 		Tooltip: ""
 
 		Off: {
-			Label: Off
-			Tooltip: The phase 3 theme will not play
+			Label: Выкл
+			Tooltip: Тема 3 фазы не будет проигрываться.
 		}
 
 		DesperationOnly: {
-			Label: Desperation Only
-			Tooltip: The phase 3 theme will only play during the desperation attack
+			Label: Только во время отчаяния
+			Tooltip: Тема 3 фазы будет проигрываться только во время фазы отчаяния.
 		}
 
 		On: {
-			Label: On
-			Tooltip: The phase 3 theme will play
+			Label: Вкл
+			Tooltip: Тема 3 фазы будет проигрываться.
 		}
 	}
 
@@ -2993,7 +2993,7 @@ Buffs: {
 		ItemTooltip:
 			'''
 			Увеличивает скорость передвижения на 2%
-			Может накапливать вплоть до 10 стаков
+			Может суммироваться вплоть до 10 стаков
 			'''
 	}
 
@@ -3003,7 +3003,7 @@ Buffs: {
 		ItemTooltip:
 			'''
 			Увеличивает скорость передвижения на 2% и скорость хлыстов на 1%
-			Может накапливать вплоть до 10 стаков
+			Может суммироваться вплоть до 10 стаков
 			'''
 	}
 
@@ -3095,6 +3095,6 @@ Events: {
 }
 
 Misc: {
-	SolynSpellbookRecipeCondition: Place the spellbook owned by Solyn in your inventory at least once
-	SpellbookRecipeCondition: View an spellbook owned by Solyn
+	SolynSpellbookRecipeCondition: Положите себе в инвентарь книгу заклинаний Солин хотя бы раз
+	SpellbookRecipeCondition: Требуется изучить книгу, которой владеет Солин
 }
