@@ -1,9 +1,9 @@
 Progression: {
-	// DisplayName: Progression
-	// PreBoss: Pre-Boss
-	// PreHardmode: Pre-Hardmode
-	// PrePlantera: Pre-Plantera
-	// EndGame: End Game
+	// DisplayName: Прогрессия
+	// PreBoss: Пре-босс
+	// PreHardmode: Пре-Хардмод
+	// PrePlantera: Пре-Плантера
+	// EndGame: Конец игры
 }
 
 BookNames: {
@@ -15,13 +15,13 @@ BookNames: {
 }
 
 ChapterNames: {
-	// 0Prologue: Prologue
+	// 0Prologue: Пролог
 	// 0RecProg: Recommended Combat Progression
-	// 1Surface: Surface
-	// 1Caving: Caving
+	// 1Surface: Поверхность
+	// 1Caving: Пещеры
 	// 2Trials: ---
 	// 2Middle: ---
-	// 2End: Journey's End
+	// 2End: Конец путешествия
 	// 2AfterEnd: After the Journey
 	// 3MainProg: Main Player Progression
 	// 3SideProg: Side Content Progress
@@ -32,6 +32,6 @@ ChapterNames: {
 	// 4Arenas: Arena Construction & Utilities
 }
 
-// NPCs.DisplayName: NPCs
-// CraftingTrees.DisplayName: Crafting Trees
-// Challenges.DisplayName: Challenges
+// NPCs.DisplayName: НИПы
+// CraftingTrees.DisplayName: Деревья создания предметов
+// Challenges.DisplayName: Испытания

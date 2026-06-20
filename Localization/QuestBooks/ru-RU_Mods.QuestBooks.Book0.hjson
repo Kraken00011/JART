@@ -33,7 +33,7 @@ Chapter0: {
 			game's vast catalogue of content, pop open
 			the quest log and see what's available!
 			''' */
-		// Tooltip: Info: QuestBooks
+		// Tooltip: Информация: Книга квестов
 	}
 
 	ForestBiome: {

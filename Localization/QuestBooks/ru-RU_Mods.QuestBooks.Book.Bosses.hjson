@@ -54,7 +54,7 @@ QueenBeeDefeated: {
 		The Queen Bee will defend her hive if you
 		hurt one of her larvae, or can be called upon using an Abeemination [i:Abeemination].
 		'''
-	Tooltip: Defeat the Queen Bee
+	Tooltip: Одержать победу над Королевой пчёл
 }
 
 DeerclopsDefeated: {
@@ -65,7 +65,7 @@ DeerclopsDefeated: {
 
 		The Deerclops will rummage through the cold blizzards of the tundra at night, or can be summoned using a Deer Thing [i:DeerThing].
 		'''
-	Tooltip: Defeat the Deerclops
+	Tooltip: Одержать победу над Циклопом-оленем
 }
 
 SkeletronDefeated: {
@@ -77,7 +77,7 @@ SkeletronDefeated: {
 		Skeletron will manifest when taking a part of the Old Man's Curse at the dungeon, or
 		by killing the Clothier using a Clothier Voodoo Doll [i:ClothierVoodooDoll].
 		'''
-	Tooltip: Defeat Skeletron
+	Tooltip: Одержать победу над Скелетроном
 }
 
 WallOfFleshDefeated: {
@@ -91,7 +91,7 @@ WallOfFleshDefeated: {
 
 		Perhaps a Voodoo Doll [i:GuideVoodooDoll] would suffice?
 		'''
-	Tooltip: Defeat the Wall of Flesh
+	Tooltip: Одержать победу над Стеной плоти
 }
 
 QueenSlimeDefeated: {
@@ -103,7 +103,7 @@ QueenSlimeDefeated: {
 
 		Queen Slime can be summoned using an iridescent Gelatin Crystal [i:QueenSlimeCrystal] from deep within the Hallow.
 		'''
-	Tooltip: Defeat Queen Slime
+	Tooltip: Одержать победу над Королевой слизней
 }
 
 TheDestroyerDefeated: {
@@ -115,7 +115,7 @@ TheDestroyerDefeated: {
 
 		The Destroyer will tunnel through the world of Terraria during Hardmode and may arrive naturally, or be called using a Mechanical Worm [i:MechanicalWorm].
 		'''
-	Tooltip: Defeat The Destroyer
+	Tooltip: Одержать победу над Уничтожителем
 }
 
 TheTwinsDefeated: {
@@ -128,7 +128,7 @@ TheTwinsDefeated: {
 		The Twins will patrol around the world of Terraria during Hardmode and may arrive
 		naturally, or be called using a Mechanical Eye [i:MechanicalEye].
 		'''
-	Tooltip: Defeat The Twins
+	Tooltip: Одержать победу над Близнецами
 }
 
 SkeletronPrimeDefeated: {
@@ -140,7 +140,7 @@ SkeletronPrimeDefeated: {
 		Skeletron Prime will terrorize the world of Terraria during Hardmode and may arrive
 		naturally, or be called using a Mechanical Skull [i:MechanicalSkull].
 		'''
-	Tooltip: Defeat Skeletron Prime
+	Tooltip: Одержать победу над Скелетроном Праймом
 }
 
 PlanteraDefeated: {
@@ -153,63 +153,63 @@ PlanteraDefeated: {
 		Plantera will arrive once it feels a disturbance in its budding flowers; find and destroy the Plantera's Bulb, a luminous pink bud within the underground
 		jungle, to invoke it.
 		'''
-	Tooltip: Defeat Plantera
+	Tooltip: Одержать победу над Плантерой
 }
 
 GolemDefeated: {
 	Title: Идол яхщеров
 	Contents:
 		'''
-		Defeat Golem, the stone-faced ritualistic idol of the lihzahrd tribe.
+		Одержите победу над Големом - каменноликим идолом племени яхщеров.
 
-		Deep within the Temple lies a sacred shrine [i:LihzahrdAltar] to the Golem. Using a Lihzahrd Power Cell [i:LihzahrdPowerCell] will activate the shrine and bring the Golem back to life.
+		Где-то в глубине Храма джунглей располагается священный алтарь [i:LihzahrdAltar] Голема. Использование яхщерового источника питания [i:LihzahrdPowerCell] активирует алтарь и вернёт Голема к жизни.
 		'''
-	Tooltip: Defeat Golem
+	Tooltip: Одержать победу над Големом
 }
 
 DukeFishronDefeated: {
 	Title: Вот это улов!
 	Contents:
 		'''
-		Defeat Duke Fishron, mutant terror of the sea.
+		Одержите победу над Герцогом Рыброном - мутантом, терроризирующим океаны.
 
 		Duke Fishron can be coerced out of the deep recesses of the Ocean using the Glowing Mushroom Cave's rare delicacy, the Truffle Worm [i:TruffleWorm], as a lure.
 		'''
-	Tooltip: Defeat Duke Fishron
+	Tooltip: Одержать победу над Герцогом Рыброном
 }
 
 EmpressOfLightDefeated: {
 	Title: Фееубийца
 	Contents:
 		'''
-		Defeat the Empress of Light, responsible for all those flashy lights and glitter.
+		Одержите победу над Императрицей света - виновницей всего этого яркого света и блеска.
 
-		The Empress of Light is extremly protective of her hallowed ecosystem. Bringing harm to the vibrant and elusive Prismatic Lacewing [i:EmpressButterfly] will invoke her
-		wrath immediately.
+		Императрица света невероятно бережно относится к природе освящения. Принесение вреда лишь одной яркой и неуловимой призматической златоглазке [i:EmpressButterfly] способно пробудь её
+		праведный гнев.
 		'''
-	Tooltip: Defeat the Empress of Light
+	Tooltip: Одержать победу над Императрицей света
 }
 
 LunaticCultistDefeated: {
 	Title: Навязчивая преданность
 	Contents:
 		'''
-		Defeat the ancient Lunatic Cultist, fanatical
-		leader of the dungeon coven.
+		Одержите победу над Культистом-лунатиком - фанатичным
+		лидером культа из Темницы.
 
-		The Lunatic Cultist will come to fight if you choose to interfere with the coven's ritual at the entrance of the Dungeon.
+		Культист-лунатик нападёт на вас, если вы решите вмешаться в ритуал, проводимый культом у вход в Темницу.
 		'''
-	Tooltip: Defeat the Lunatic Cultist
+	Tooltip: Одержать победу над Культистом-лунатиком
 }
 
 MoonLordDefeated: {
 	Title: Чемпион Террарии
 	Contents:
 		'''
-		Defeat the Moon Lord.
+		Одержите победу над Лунным лордом.
 
-		With the fall of the celestial invasion, Moon Lord's approach is imminent.
+		После уничтожения каждой из небесных башен появление Лунного лорда будет уже неотвратимым.
 		'''
 	// NOT mentioning Celestial Sigil, it appears as its own quest!!
-	Tooltip: Defeat Moon Lord
+	Tooltip: Одержать победу над Лунным лордом
 }
