@@ -1,0 +1,215 @@
+KingSlimeDefeated: {
+	Title: Скользкий шиноби
+	Contents:
+		'''
+		Одержите победу над Королём слизней - владыкой всех слизней.
+
+		Король слизней может прийти перед завершением дождя слизней или после использования особого предмета призыва: Короны слизней [i:SlimeCrown].
+		'''
+	Tooltip: Одержать победу над Королём слизней
+}
+
+EyeOfCthulhuDefeated: {
+	Title: Один глаз на вас
+	Contents:
+		'''
+		Defeat the Eye of Cthulhu, an ocular menace who only appears at night.
+
+		The Eye of Cthulhu can occasionally arrive
+		during the night, or can be summoned with a lens-based idol known as the Suspicious Looking Eye [i:SuspiciousLookingEye] at night.
+		'''
+	Tooltip: Одержать победу над Глазом Ктулху
+}
+
+EaterOfWorldsDefeated: {
+	Title: Кормилец червей
+	Contents:
+		'''
+		Defeat the Eater of Worlds, a massive worm who dwells in the corruption.
+
+		The Eater of Worlds will appear after the shattering of 3 Shadow Orbs [i:ShadowOrb], or lured in using rotten Worm Food [i:WormFood].
+		'''
+	Tooltip: Одержать победу над Пожирателем миров
+}
+
+BrainOfCthulhuDefeated: {
+	Title: Мегамозг
+	Contents:
+		'''
+		Defeat the Brain of Cthulhu, an enormous
+		demon brain which haunts the creeping crimson.
+
+		The Brain of Cthulhu will manifest after the destruction of 3 Crimson Hearts [i:CrimsonHeart], or
+		summoned using a Bloody Spine [i:BloodySpine].
+		'''
+	Tooltip: Одержать победу над Мозгом Ктулху
+}
+
+QueenBeeDefeated: {
+	Title: Операция «Жало»
+	Contents:
+		'''
+		Defeat the Queen Bee, the matriarch of the jungle hives.
+
+		The Queen Bee will defend her hive if you
+		hurt one of her larvae, or can be called upon using an Abeemination [i:Abeemination].
+		'''
+	Tooltip: Defeat the Queen Bee
+}
+
+DeerclopsDefeated: {
+	Title: Глаз за глаз
+	Contents:
+		'''
+		Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land.
+
+		The Deerclops will rummage through the cold blizzards of the tundra at night, or can be summoned using a Deer Thing [i:DeerThing].
+		'''
+	Tooltip: Defeat the Deerclops
+}
+
+SkeletronDefeated: {
+	Title: Без костей
+	Contents:
+		'''
+		Defeat Skeletron, the cursed guardian of the dungeon.
+
+		Skeletron will manifest when taking a part of the Old Man's Curse at the dungeon, or
+		by killing the Clothier using a Clothier Voodoo Doll [i:ClothierVoodooDoll].
+		'''
+	Tooltip: Defeat Skeletron
+}
+
+WallOfFleshDefeated: {
+	Title: Всё ещё голодна
+	Contents:
+		'''
+		Defeat the Wall of Flesh, the master and core of the world who arises after a great,
+		burning sacrifice.
+
+		The Wall of Flesh will emerge after the sacrifice of a tennant in the deep lava pools of the underworld.
+
+		Perhaps a Voodoo Doll [i:GuideVoodooDoll] would suffice?
+		'''
+	Tooltip: Defeat the Wall of Flesh
+}
+
+QueenSlimeDefeated: {
+	Title: Всего лишь десерт
+	Contents:
+		'''
+		Defeat Queen Slime, giving the coup-de-grace to the sovereign of all that
+		jiggles.
+
+		Queen Slime can be summoned using an iridescent Gelatin Crystal [i:QueenSlimeCrystal] from deep within the Hallow.
+		'''
+	Tooltip: Defeat Queen Slime
+}
+
+TheDestroyerDefeated: {
+	Title: Земледвиг
+	Contents:
+		'''
+		Defeat the Destroyer, a collossal burrowing
+		machine capable of wrecking entire biomes.
+
+		The Destroyer will tunnel through the world of Terraria during Hardmode and may arrive naturally, or be called using a Mechanical Worm [i:MechanicalWorm].
+		'''
+	Tooltip: Defeat The Destroyer
+}
+
+TheTwinsDefeated: {
+	Title: Глаз на всех
+	Contents:
+		'''
+		Defeat The Twins, mechanical observers of
+		the night that blaze and laser all they see.
+
+		The Twins will patrol around the world of Terraria during Hardmode and may arrive
+		naturally, or be called using a Mechanical Eye [i:MechanicalEye].
+		'''
+	Tooltip: Defeat The Twins
+}
+
+SkeletronPrimeDefeated: {
+	Title: Без стальных костей
+	Contents:
+		'''
+		Defeat Skeletron Prime, a malicious machine instilling fear on all who are unfortunate to come across it in the cold nights.
+
+		Skeletron Prime will terrorize the world of Terraria during Hardmode and may arrive
+		naturally, or be called using a Mechanical Skull [i:MechanicalSkull].
+		'''
+	Tooltip: Defeat Skeletron Prime
+}
+
+PlanteraDefeated: {
+	Title: Великое южное цветоубийство
+	Contents:
+		'''
+		Defeat Plantera, the overgrown monstrosity
+		of the jungle's depths
+
+		Plantera will arrive once it feels a disturbance in its budding flowers; find and destroy the Plantera's Bulb, a luminous pink bud within the underground
+		jungle, to invoke it.
+		'''
+	Tooltip: Defeat Plantera
+}
+
+GolemDefeated: {
+	Title: Идол яхщеров
+	Contents:
+		'''
+		Defeat Golem, the stone-faced ritualistic idol of the lihzahrd tribe.
+
+		Deep within the Temple lies a sacred shrine [i:LihzahrdAltar] to the Golem. Using a Lihzahrd Power Cell [i:LihzahrdPowerCell] will activate the shrine and bring the Golem back to life.
+		'''
+	Tooltip: Defeat Golem
+}
+
+DukeFishronDefeated: {
+	Title: Вот это улов!
+	Contents:
+		'''
+		Defeat Duke Fishron, mutant terror of the sea.
+
+		Duke Fishron can be coerced out of the deep recesses of the Ocean using the Glowing Mushroom Cave's rare delicacy, the Truffle Worm [i:TruffleWorm], as a lure.
+		'''
+	Tooltip: Defeat Duke Fishron
+}
+
+EmpressOfLightDefeated: {
+	Title: Фееубийца
+	Contents:
+		'''
+		Defeat the Empress of Light, responsible for all those flashy lights and glitter.
+
+		The Empress of Light is extremly protective of her hallowed ecosystem. Bringing harm to the vibrant and elusive Prismatic Lacewing [i:EmpressButterfly] will invoke her
+		wrath immediately.
+		'''
+	Tooltip: Defeat the Empress of Light
+}
+
+LunaticCultistDefeated: {
+	Title: Навязчивая преданность
+	Contents:
+		'''
+		Defeat the ancient Lunatic Cultist, fanatical
+		leader of the dungeon coven.
+
+		The Lunatic Cultist will come to fight if you choose to interfere with the coven's ritual at the entrance of the Dungeon.
+		'''
+	Tooltip: Defeat the Lunatic Cultist
+}
+
+MoonLordDefeated: {
+	Title: Чемпион Террарии
+	Contents:
+		'''
+		Defeat the Moon Lord.
+
+		With the fall of the celestial invasion, Moon Lord's approach is imminent.
+		'''
+	// NOT mentioning Celestial Sigil, it appears as its own quest!!
+	Tooltip: Defeat Moon Lord
+}
