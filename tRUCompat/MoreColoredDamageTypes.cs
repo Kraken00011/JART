@@ -90,7 +90,7 @@ public class MoreColoredDamageTypes : GlobalItem
                     {
                         string[] parts = tooltip.Text.Split(' ');
 
-                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя"))
+                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя") && !item.type == ModContent.Find<ModItem>("SOTS/Tesseract").Type)
                         {
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/f1fa8c:урона призывателя]";
                         }
