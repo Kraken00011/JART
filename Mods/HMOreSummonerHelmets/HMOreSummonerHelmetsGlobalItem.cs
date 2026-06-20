@@ -10,11 +10,7 @@ using Terraria.ModLoader;
 
 public partial class HMOreSummonerHelmetsGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("HMOreSummonerHelmets") && JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
-
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("HMOreSummonerHelmets") && JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         ItemHelper.TranslateTooltip(tooltips, "SetBonus", tooltip =>

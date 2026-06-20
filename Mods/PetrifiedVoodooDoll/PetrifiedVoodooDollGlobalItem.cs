@@ -11,10 +11,7 @@ using Terraria.ModLoader;
 
 public partial class PetrifiedVoodooDollGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("PetrifiedVoodooDoll") && JARTLocalizationConf.Instance.PetrifiedVoodooDollLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("PetrifiedVoodooDoll") && JARTLocalizationConf.Instance.PetrifiedVoodooDollLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)

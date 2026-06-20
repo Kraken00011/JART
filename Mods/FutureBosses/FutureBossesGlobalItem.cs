@@ -9,10 +9,7 @@ using Terraria.ModLoader;
 
 public partial class FutureBossesGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("FutureBosses") && JARTLocalizationConf.Instance.FutureBossesLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("FutureBosses") && JARTLocalizationConf.Instance.FutureBossesLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)

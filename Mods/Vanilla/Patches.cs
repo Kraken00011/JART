@@ -12,10 +12,8 @@ using Microsoft.Xna.Framework;
 
 public partial class Patches : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU";
+
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)
@@ -25,16 +23,13 @@ public partial class Patches : GlobalItem
             {
                 if (tooltip.Name == "ScytheSoulCharge")
                 {
-                    ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ScytheSoulCharge", tooltip =>
+                    string[] parts = tooltip.Text.Split(' ');
+                    string scytheSoulCharge = parts[1];
+                    if (int.TryParse(scytheSoulCharge, out int value))
                     {
-                        string[] parts = tooltip.Text.Split(' ');
-                        string scytheSoulCharge = parts[1];
-                        if (int.TryParse(scytheSoulCharge, out int value))
-                        {
-                            string valueSuffix = LocalizedText.ApplyPluralization("{^0:эссенцию;эссенции;эссенций}", value);
-                            tooltip.Text = $"Даёт {scytheSoulCharge} {valueSuffix} души при прямом попадании";
-                        }
-                    });
+                        string valueSuffix = LocalizedText.ApplyPluralization("{^0:эссенцию;эссенции;эссенций}", value);
+                        tooltip.Text = $"Даёт {scytheSoulCharge} {valueSuffix} души при прямом попадании";
+                    }
                 }
 
                 if (tooltip.Name == "HealerAmount")

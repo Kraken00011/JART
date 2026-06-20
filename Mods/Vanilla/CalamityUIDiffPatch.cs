@@ -12,7 +12,7 @@ using Terraria.Localization;
 
 public class CalamityUIPatch : OnPatcher
 {
-    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModLoader.HasMod("CalamityMod") && Language.ActiveCulture.Name == "ru-RU";
 
     public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).FindMethod(nameof(ModeIndicatorUI.GetDifficultyStatus));
 

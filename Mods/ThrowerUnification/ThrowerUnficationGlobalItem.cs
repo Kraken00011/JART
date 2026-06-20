@@ -7,14 +7,12 @@ using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using ThrowerUnification;
+using CalamityRuTranslate.Core.Config;
 
 public partial class ThrowerUnificationGlobalItem : GlobalItem
 {
-    [JITWhenModsEnabled(new string[] { "ThrowerUnification" })]
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationFix && ModLoader.HasMod("ThrowerUnification");
-    }
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ThrowerUnification") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationFix;
+    
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
@@ -55,7 +53,17 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             {
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и разбойного урона", " ед. пустотного и метательного урона");
+                    string num = tooltip.Text.Split(' ')[0];
+                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
+                    }
+                    else
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"{num} ед. пустотного и метательного урона";
+                    }
                 });
             }
 
@@ -63,7 +71,17 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             {
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и метательного урона", " ед. пустотного и разбойного урона");
+                    string num = tooltip.Text.Split(' ')[0];
+                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
+                    }
+                    else
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"{num} ед. пустотного и разбойного урона";
+                    }
                 });
             }
 
@@ -71,8 +89,17 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             {
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и разбойного урона", " ед. пустотного и вероломного урона");
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и метательного урона", " ед. пустотного и вероломного урона");
+                    string num = tooltip.Text.Split(' ')[0];
+                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
+                    }
+                    else
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"{num} ед. пустотного и вероломного урона";
+                    }
                 });
             }
 
@@ -80,8 +107,17 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             {
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и разбойного урона", " ед. пустотного и кинетического урона");
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и метательного урона", " ед. пустотного и кинетического урона");
+                    string num = tooltip.Text.Split(' ')[0];
+                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
+                    }
+                    else
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"{num} ед. пустотного и кинетического урона";
+                    }
                 });
             }
 
@@ -89,8 +125,18 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             {
                 ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Damage", tooltip =>
                 {
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и разбойного урона", $" ед. пустотного и {ThrowerModConfig.Instance.CustomTooltipOverride.ToLower()} урона");
-                    tooltip.Text = tooltip.Text.Replace(" ед. пустотного и метательного урона", $" ед. пустотного и {ThrowerModConfig.Instance.CustomTooltipOverride.ToLower()} урона");
+                    string num = tooltip.Text.Split(' ')[0];
+                    string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
+                    if (TRuConfig.Instance.ColoredDamageTypes)
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
+                    }
+                    else
+                    {
+                        if (tooltip.Text.Contains("пустотного и"))
+                            tooltip.Text = $"{num} ед. пустотного и {custom} урона";
+                    }
                 });
             }
         }

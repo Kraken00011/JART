@@ -14,10 +14,7 @@ using Microsoft.Xna.Framework;
 
 public partial class CombatTextPatch : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return TranslationHelper.IsRussianLanguage;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU";
     public override void Load()
     {
         On_CombatText.NewText_Rectangle_Color_string_bool_bool += ReplaceText;

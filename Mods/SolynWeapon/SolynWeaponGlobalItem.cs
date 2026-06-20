@@ -14,36 +14,30 @@ using Terraria;
 
 public partial class SolynWeapon : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("SolynWeapon") && JARTLocalizationConf.Instance.SolynWeaponLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("SolynWeapon") && JARTLocalizationConf.Instance.SolynWeaponLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        if (item.type == ModContent.Find<ModItem>("SolynWeapon/CosmicDestroyer").Type)
+        foreach (TooltipLine tooltip in tooltips)
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "BigCosmicLaserBeam", tooltip =>
+            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "BigCosmicLaserBeam" && item.type == ModContent.Find<ModItem>("SolynWeapon/CosmicDestroyer").Type)
             {
                 tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный космический луч";
-            });
-        }
+            }
 
-        if (item.type == ModContent.Find<ModItem>("SolynWeapon/ExoElectricDisintegrator").Type)
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "BigCosmicLaserBeam", tooltip =>
+            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "BigCosmicLaserBeam" && item.type == ModContent.Find<ModItem>("SolynWeapon/ExoElectricDisintegrator").Type)
             {
                 tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный красный луч";
-            });
+            }
+
+            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "SolynUsage")
+            {
+                tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить луч";
+            }
+
+            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "SolynFlight")
+            {
+                tooltip.Text = "Удерживайте ПКМ, чтобы летать с помощью Солин";
+            }
         }
-
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "SolynUsage", tooltip =>
-        {
-            tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить луч";
-        });
-
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "SolynWeapon" && l.Name == "SolynFlight", tooltip =>
-        {
-            tooltip.Text = "Удерживайте ПКМ, чтобы летать с помощью Солин";
-        });
     }
 }

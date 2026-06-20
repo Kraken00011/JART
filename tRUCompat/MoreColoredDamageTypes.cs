@@ -41,7 +41,7 @@ public class MoreColoredDamageTypes : GlobalItem
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/MythicMagic", out var mythicMagic);
                     ModContent.TryFind<DamageClass>("InfernalEclipseAPI/MythicSummon", out var mythicSummon);
 
-                    if (item.DamageType == mythicMelee || item.DamageType == mythicRanged|| item.DamageType == mythicMagic || item.DamageType == mythicSummon)
+                    if (item.DamageType == mythicMelee || item.DamageType == mythicRanged || item.DamageType == mythicMagic || item.DamageType == mythicSummon)
                         tooltip.OverrideColor = new Color(0, 250, 154);
 
                     if (ModContent.TryFind<DamageClass>("InfernalEclipseAPI/VoidRogue", out var voidRogue) && item.DamageType == voidRogue)
@@ -56,10 +56,45 @@ public class MoreColoredDamageTypes : GlobalItem
                     ModContent.TryFind<DamageClass>("SOTS/VoidMagic", out var voidMagic);
                     ModContent.TryFind<DamageClass>("SOTS/VoidSummon", out var voidSummon);
 
-                    if (item.DamageType == voidMelee || item.DamageType == voidRanged ||
-                        item.DamageType == voidMagic || item.DamageType == voidSummon)
+                    if (item.DamageType == voidMelee)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
 
-                        tooltip.OverrideColor = new Color(119, 70, 215);
+                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("ближнего боя"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/ff5555:урона ближнего боя]";
+                        }
+                    }
+
+                    if (item.DamageType == voidRanged)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("стрелкового урона"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/50fa7b:стрелкового] [c/7746d7:урона]";
+                        }
+                    }
+
+                    if (item.DamageType == voidMagic)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("магического урона"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/bd93f9:магического] [c/7746d7:урона]";
+                        }
+                    }
+
+                    if (item.DamageType == voidSummon)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/f1fa8c:урона призывателя]";
+                        }
+                    }
 
                     if (item.type == ModContent.Find<ModItem>("SOTS/TwilightBeads").Type)
                     {
@@ -74,6 +109,36 @@ public class MoreColoredDamageTypes : GlobalItem
                     ModContent.TryFind<DamageClass>("SOTSBardHealer/VoidThrowing", out var voidThrowing);
                     ModContent.TryFind<DamageClass>("SOTSBardHealer/VoidRadiant", out var voidRadiant);
                     ModContent.TryFind<DamageClass>("SOTSBardHealer/VoidSymphonic", out var voidSymphonic);
+
+                    if (item.DamageType == voidThrowing)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("метательного урона"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
+                        }
+                    }
+
+                    if (item.DamageType == voidRadiant)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("лучезарного урона"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:лучезарного] [c/7746d7:урона]";
+                        }
+                    }
+
+                    if (item.DamageType == voidSymphonic)
+                    {
+                        string[] parts = tooltip.Text.Split(' ');
+
+                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("симфонического урона"))
+                        {
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:симфонического] [c/7746d7:урона]";
+                        }
+                    }
 
                     if (item.DamageType == voidThrowing ||
                         item.DamageType == voidRadiant ||

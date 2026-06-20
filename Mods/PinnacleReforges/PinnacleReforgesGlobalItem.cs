@@ -12,10 +12,7 @@ using PinnacleReforges;
 
 public partial class PinnacleReforgesGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("PinnacleReforges") && JARTLocalizationConf.Instance.PinnacleReforgesLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("PinnacleReforges") && JARTLocalizationConf.Instance.PinnacleReforgesLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)

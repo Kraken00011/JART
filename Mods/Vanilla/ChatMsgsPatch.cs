@@ -5,8 +5,8 @@ using Terraria.ModLoader;
 
 public class ChatMessagesPatch : ILoadable
 {
-    public bool IsLoadingEnabled(Mod mod) => TranslationHelper.IsRussianLanguage;
-
+    public bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU";
+    
     public void Load(Mod mod)
     {
         On_RemadeChatMonitor.AddNewMessage += On_RemadeChatMonitorOnAddNewMessage;

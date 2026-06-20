@@ -13,11 +13,7 @@ using Microsoft.Xna.Framework;
 
 public partial class WhatAmmoDoesThisUseGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.WADTULocalization && ModLoader.HasMod("WhatAmmoDoesThisUse");
-    }
-
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.WADTULocalization && ModLoader.HasMod("WhatAmmoDoesThisUse");
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)

@@ -16,10 +16,7 @@ using InfernalEclipseAPI.Content.Items.Accessories;
 
 public partial class InfernalEclipseAPIGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("InfernalEclipseAPI") && JARTLocalizationConf.Instance.InfernalEclipseLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("InfernalEclipseAPI") && JARTLocalizationConf.Instance.InfernalEclipseLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)

@@ -14,10 +14,7 @@ using SOTSBardHealer.Items;
 
 public partial class SOTSBardHealerGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("SOTSBardHealer") && JARTLocalizationConf.Instance.SOTSBardHealerLocalization;
-    }
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("SOTSBardHealer") && JARTLocalizationConf.Instance.SOTSBardHealerLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         if (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing"))
