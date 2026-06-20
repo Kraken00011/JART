@@ -3096,5 +3096,5 @@ Events: {
 
 Misc: {
 	SolynSpellbookRecipeCondition: Положите себе в инвентарь книгу заклинаний Солин хотя бы раз
-	SpellbookRecipeCondition: Требуется изучить книгу, которой владеет Солин
+	SpellbookRecipeCondition: Изучите книгу, которой владеет Солин
 }
