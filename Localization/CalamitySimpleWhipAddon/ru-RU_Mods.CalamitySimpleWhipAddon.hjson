@@ -578,6 +578,59 @@ Items: {
 			'''
 	}
 
+	KingsMajesty: {
+		DisplayName: Королевское величество
+		Tooltip:
+		'''
+		2 ед. урона от метки призывателя
+		4% урона от метки призывателя
+		При ношении в руках призывает самоцвет, следующий за вами
+		и атакующий всякий раз, когда миньон попадает по поражённому меткой призывателя врагу
+		Самоцвет наносит 50% от урона миньона, активировавшего сам самоцвет
+		'''
+	}
+
+	EmeraldSplash: {
+		DisplayName: Изумрудный всплеск
+		Tooltip:
+		'''
+		5 ед. урона от метки призывателя
+		7% урона от метки призывателя
+		While holding this whip, a gem follows you
+		and attacks whenever your minions damage an enemy marked by the whip.
+		Самоцвет наносит 100% от урона миньона, активировавшего сам самоцвет
+		'''
+	}
+
+	CrackoftheUniverse: {
+		DisplayName: Разлом вселенной
+		Tooltip:
+		'''
+		20 ед. урона от метки призывателя
+		10% урона от метки призывателя
+		While holding this whip, a gem follows you
+		and attacks whenever your minions damage an enemy marked by the whip.
+		Самоцвет наносит 100% от урона миньона, активировавшего сам самоцвет
+		The gem charges before firing,
+		adding 20% of damage dealt during the charge to its attack.
+		'''
+	}
+
+	Rubellus: {
+		DisplayName: Рубеллус
+		Tooltip:
+		'''
+		8 ед. урона от метки призывателя
+		8% урона от метки призывателя
+		While holding this whip, a gem follows you
+		and attacks whenever your minions damage an enemy marked by the whip.
+		Самоцвет наносит 100% от урона миньона, активировавшего сам самоцвет
+		The gem instant charge before firing,
+		adding 40% of damage dealt during the charge to its attack.
+		The gem's attack trigger a chain reaction, targeting tagged enemies.
+		'''
+	}
+
 	Accessories: {
 		BleachedNucleogenesis: {
 			DisplayName: Отмытый Нуклеогенез
