@@ -27,50 +27,49 @@ Chapter0: {
 		// Title: Вы и книга квестов
 		/* Contents:
 			'''
-			QuestBooks is here to help guide you through your journey!
+			Книги квестов были созданы, чтобы помогать вам в вашем нелёгком путешествии!
 
-			If you're looking for tips or pointers on what to do next in your voyage through the
-			game's vast catalogue of content, pop open
-			the quest log and see what's available!
+			Вам нужны подсказки или вы просто не знаете, что делать дальше в своём путешествии,
+			полном невероятных свершений и открытий?
+			Тогда просто откройте книгу квестов и посмотрите, что вам сейчас доступно!
 			''' */
 		// Tooltip: Информация: Книга квестов
 	}
 
 	ForestBiome: {
-		// Title: The Forest
+		// Title: Лес
 		/* Contents:
 			'''
-			The starting location of all Terrarians.
+			Начальная локация всех террарийцев.
 
-			Between the lush greenery and soft breeze, it seems like the perfect spot to setup base!
+			В окружении пышной растительности и лёгкого ветерка это место кажется просто идеальным для построения своей базы!
 			''' */
-		// Tooltip: The Forest
+		// Tooltip: Лес
 	}
 
 	GuideInteract: {
-		// Title: The Guide
+		// Title: Гид
 		/* Contents:
 			'''
 			A trusty guide to help you along the way, with their incredible crafting knowledge and varying useful tips.
 
 			If you ever find an item labeled as a "Material", be sure to check it up with him!
 			''' */
-		// Tooltip: Talk to the Guide
+		// Tooltip: Поговорить с гидом
 	}
 
 	ChopTree: {
-		// Title: Timber!
+		// Title: Бревно!!!
 		/* Contents:
 			'''
-			Wood [i:Wood] can be used to craft a wide variety of tools and work stations.
+			Дерево [i:Wood] можно использовать в создании большого количества разных инструментов и станций создания предметов.
 
-			Chop down a nearby tree using your trusty
-			axe! [i:CopperAxe]
+			Срубите первое попавшееся вам дерево, используя свой
+			старый добрый топор! [i:CopperAxe]
 
-			Tip: holding LeftShift while hovering over any block will automatically hold out the
-			required tool to break it.
+			Подсказка: Можно удерживать Левый Shift во время наведения на любой блок, чтобы автоматически взять подходящий для его добычи инструмент.
 			''' */
-		// Tooltip: Chop a tree
+		// Tooltip: Срубить дерево
 	}
 
 	CraftWorkbench: {
@@ -121,7 +120,7 @@ Chapter0: {
 	// <-> Canopy <->
 	
 	BasicsCompleteInfo: {
-		// Title: Basically a Pro
+		// Title: Почти как про
 		/* Contents:
 			'''
 			Now that you've finished the basics, go explore the world of Terraria to your hearts content!
@@ -132,7 +131,7 @@ Chapter0: {
 	}
 
 	WorldEventsInfo: {
-		// Title: Events
+		// Title: События
 		/* Contents:
 			'''
 			From rain to starfalls to eclipses to snowman invasions, numerous events can take place in the world of Terraria.
@@ -144,33 +143,33 @@ Chapter0: {
 			of enemies the player must defeat to progress. Invasions only happen in certain locations (usually the world spawn) and dont affect the rest of the world.
 			[i:PartyBundleOfBalloonTile] Special events: certain events have special requirements to occur, like town parties!
 			''' */
-		// Tooltip: Info: Events
+		// Tooltip: Информация: События
 	}
 
 	InventoryInfo: {
-		// Title: Inventory
+		// Title: Инвентарь
 		/* Contents0:
 			'''
-			- Main Inventory -
-			Ammo [i:WoodenArrow] and coins [i:CopperCoin] will automatically
-			be stored in the corresponding slots on the right if there's space, and will be automatically be consumed when buying items or expending ammo.
+			- Основной инвентарь -
+			Боеприпасы [i:WoodenArrow] и монеты [i:CopperCoin] будут автоматически
+			складываться в соответствующие слоты, находящие в правой части, но только если там есть место, а также они будут автоматически расходоваться при покупке предметов или использовании боеприпасов.
 
-			Place any item into the trash slot in the bottom right to delete it from your inventory. Hold Ctrl while clicking an item to quick-trash it.
+			Вы можете положить любой предмет в мусорку в нижней части инвентаря, чтобы удалить его из своего инвентаря. Удерживайте Ctrl во время нажатия на предмет, чтобы автоматически перенести его в мусорку.
 
-			Any item held by the cursor (even while the inventory is open) is considered as if its being used from your hotbar.
+			Любой предмет, удерживаемый курсором (даже пока ваш инвентарь открыт) можно использовать точно также как и из панели быстрого доступа.
 			''' */
 		/* Contents1:
 			'''
-			Your equipment slots are in the bottom right. From left to right:
+			Ваши слоты для экипировки находятся в правой нижней части. Слева направо:
 
-			- Dye: with special dye [i:RedDye] items, you can alter the color of the equipment or vanity present on a given slot.
+			- Краситель: Используя особые предметы - красители [i:RedDye] вы можете менять цвет надетой на вас экипировки и украшений.
 
-			- Vanity: any equipment or vanity item [i:JungleRose]
-			in these slots will not grant any boons, but
-			will override the visual display of the base equipment item.
+			- Внешний вид: Любое снаряжение или предмет украшения [i:JungleRose]
+			в этих слотах не будет давать никаких бонусов, но
+			будет заменять изменения во внешнем виде персонажа от предмета, экипированного в основной слот, на свои.
 
-			- Base: any equipment [i:Shackle] in the base
-			slots will act as expected, granting its effects and stat bonuses.
+			- Основное: Любое снаряжение [i:Shackle], находящееся в основном слоте,
+			будет действовать так, как и задумано - давать различные баффы и бонусы.
 			''' */
 		/* Contents2:
 			'''
@@ -195,7 +194,7 @@ Chapter0: {
 			To the top-right of the inventory is the achievements tab.
 			To the bottom-right of the inventory are some quick actions and the bestiary.
 			''' */
-		// Tooltip: Info: Inventory
+		// Tooltip: Информация: Инвентарь
 	}
 
 	CraftAnyGear: {
@@ -212,10 +211,10 @@ Chapter0: {
 	}
 
 	ClassInfo: {
-		// Title: Damage Types
+		// Title: Виды урона
 		/* Contents0:
 			'''
-			- Classes -
+			- Классы -
 
 			In Terraria, all weapons are categorized into archetypes. That is, each weapon deals
 			a specific type of damage.
@@ -227,7 +226,7 @@ Chapter0: {
 			''' */
 		/* Contents1:
 			'''
-			- The Warrior -
+			- Воин -
 
 			Often utilizing a variety of close combat or
 			short ranged weapons like swords [i:WoodenSword],
@@ -237,7 +236,7 @@ Chapter0: {
 			''' */
 		/* Contents2:
 			'''
-			- The Ranger -
+			- Стрелок -
 
 			Slinging guns [i:Handgun], drawing bows [i:WoodenBow],
 			blasting rockets [i:RocketLauncher], and more.
@@ -250,7 +249,7 @@ Chapter0: {
 			''' */
 		/* Contents3:
 			'''
-			- The Mage -
+			- Маг -
 
 			Conjuring spells and casting magic with a variety of arcane staves [i:AmethystStaff], tomes [i:WaterBolt] and other wizardry. [i:WandofSparking]
 
@@ -260,7 +259,7 @@ Chapter0: {
 			''' */
 		/* Contents4:
 			'''
-			- The Summoner -
+			- Призыватель -
 
 			Commands an army of minions [i:SlimeStaff] and sentries [i:DD2LightningAuraT1Popper] to take on the threat in your name.
 
@@ -269,44 +268,43 @@ Chapter0: {
 
 			A very fragile, yet very powerful class that allows full focus on maneuverability and dodging while your minions fight your battles.
 			''' */
-		// Tooltip: Info: Classes
+		// Tooltip: Информация: Классы
 	}
 
 	DayNightInfo: {
-		// Title: The Diurnal Cycle
+		// Title: Суточный цикл
 		/* Contents:
 			'''
 			The day and night cycle of the Terraria world refers to the rising and setting of the sun and moon, and the ways this can affect the world.
 
 			Some herbs [i:Daybloom] only bloom at morning, some townsfolk only sell certain items at night, certain enemies only spawn during certain times, and so on.
 
-			Additionally, certain things only happen on
-			specific moon phases!
+			Кроме этого, некоторые интересные события происходят
+			только вов время определённых фаз луны!
 
-			Day begins at 4:30 AM, while night begins
-			at 7:30 PM.
+			Утро начинается в 4:30, а ночь в 19:30.
 
-			You can tell the time by crafting any kind of clock!  [i:CopperWatch] [i:GrandfatherClock]
+			Вы можете узнать время просто посмотрев на любой вид часов!  [i:CopperWatch] [i:GrandfatherClock]
 			''' */
-		// Tooltip: Info: Day/Night Cycle
+		// Tooltip: Информация: Цикл дня и ночи
 	}
 
 	SurviveFirstNight: {
-		// Title: You Can Do It!
+		// Title: Ты сможешь!
 		/* Contents:
 			'''
-			Survive your first night in the wild and dangerous world of Terraria!
+			Переживите первую ночь в этом неизученном и опасном мире Террарии!
 
-			Make sure to keep a close watch on your NPCs to ensure they aren't being overrun by the horde.
+			Обязательно присматривайте за своими НИПами, чтобы их не смогли застать врасплох полчища чудовищ снаружи.
 
-			Keep an eye out for... eyes? And zombies!
+			Также никогда не сводите своих глаз с... глаз? И зомби!
 			''' */
-		// Tooltip: Survive a full night
+		// Tooltip: Пережить целую ночь
 	}
 }
 
 Chapter1: {
-	// Name: Pre-Hardmode
+	// Name: Пре-Хардмод
 
 	ProgressionInfo: {
 		// Title: Recommended Combat Progression
@@ -322,7 +320,7 @@ Chapter1: {
 			Check back often! New goals will appear as
 			you unlock them on the main books.
 			''' */
-		// Tooltip: Info: Progression
+		// Tooltip: Информация: Прогрессия
 	}
 
 	AllBossesDefeated: {
@@ -333,22 +331,22 @@ Chapter1: {
 }
 
 Chapter2: {
-	// Name: Hardmode
+	// Name: Хардмод
 
 	HardmodeProgressionInfo: {
-		// Title: Hard Mode
+		// Title: Хардмод
 		/* Contents:
 			'''
-			With the defeat of the Wall of Flesh, the ancient spirits of light and dark are now roaming free.
+			С победой над Стеной плоти, древние духи света и тьмы вырвались на свободу.
 
-			It appears you're attracting more ominous and malevolent foes...
+			Похоже, теперь вы привлекаете к себе ещё больше опасных и безжалостных противников...
 
-			While the new threats are great in number,
-			many are not required to progress, and only serve as means to obtain stronger gear and more powerful equipment. Follow
-			the progression path however you like!
+			И может их крайне много,
+			большинство из них не требуются для дальнейшего прохождения, они служат лишь способом получить более мощное оружие и снаряжение. Следуйте
+			пути прогрессии как вам хочется!
 			''' */
-		// Tooltip: Info: Hardmode Progression
+		// Tooltip: Информация: Прогрессия Хардмода
 	}
 }
 
-// Chapter3.Name: Endgame
+// Chapter3.Name: Конец игры

@@ -1,5 +1,5 @@
 Placeholder: {
-	// Name: Placeholder Quest
+	// Name: Квест-заглушка
 	/* Contents:
 		'''
 		This is a placeholder quest.
@@ -11,72 +11,72 @@ Placeholder: {
 }
 
 Designer: {
-	// OpenQuestLog: Open Quest Log
-	// FileExistsTitle: Replace File
+	// OpenQuestLog: Открыть книгу квестов
+	// FileExistsTitle: Заменить файл
 	/* FileExistsMessage:
 		'''
-		The file {0} already exists.
-		Do you want to replace it?
+		Файл {0} уже существует.
+		Заменить его?
 		''' */
-	// ConfirmDeleteBookTitle: Delete Quest Book
-	// ConfirmDeleteBookMessage: Are you sure you want to delete the selected quest book: {0}?
-	// ConfirmDeleteChapterTitle: Delete Chapter
-	// ConfirmDeleteChapterMessage: Are you sure you want to delete the selected chapter: {0}?
-	// ConfirmDeleteElementTitle: Delete Element
-	// ConfirmDeleteElementMessage: Are you sure you want to delete the selected element: {0}?
-	// ConfirmLoadLogTitle: Load Quest Log
+	// ConfirmDeleteBookTitle: Удалить книгу квестов
+	// ConfirmDeleteBookMessage: Вы действительно хотите удалить выбранную книгу квестов: {0}?
+	// ConfirmDeleteChapterTitle: Удалить главу
+	// ConfirmDeleteChapterMessage: Вы действительно хотите удалить выбранную главу: {0}?
+	// ConfirmDeleteElementTitle: Удалить элемент
+	// ConfirmDeleteElementMessage: Вы действительно хотите удалить выбранный элемент: {0}?
+	// ConfirmLoadLogTitle: Загрузить книгу квестов
 	/* ConfirmLoadLogMessage:
 		'''
-		Are you sure you want to load a new QuestLog?
-		This will clear any quest books currently in the editor, so make sure to save your progress!
+		Вы действительно хотите загрузить новую книгу квестов?
+		Это действие очистит все другие книги, находящиеся в редакторе, советуем перед этим сохранить свой прогресс!
 		''' */
-	// Yes: Yes
-	// No: No
+	// Yes: Да
+	// No: Нет
 	/* ToggleDesigner:
 		'''
-		[c/CCC018:Toggle Designer]
-		Toggles whether the quest log designer is active.
+		[c/CCC018:Вкл./Выкл. дизайнер]
+		Включает/Выключает дизайнера книг квестов.
 		''' */
 	/* SaveLog:
 		'''
-		[c/CCC018:Save Quest Log]
-		Saves all books currently open in the designer.
-		Select a file for the books to be exported to.
+		[c/CCC018:Сохранить книгу квестов]
+		Сохраняет все книги, открытые на данный момент в дизайнере.
+		Выберите файл, куда вы хотите экспортировать книги.
 		''' */
 	/* LoadLog:
 		'''
-		[c/CCC018:Load Quest Log]
+		[c/CCC018:Загрузить книгу квестов]
 		Loads quest books into the designer.
-		[c/FF0000:WARNING]: This will clear the books currently in the designer, so be sure to save your progress!
+		[c/FF0000:ПРЕДУПРЕЖДЕНИЕ]: This will clear the books currently in the designer, so be sure to save your progress!
 		''' */
 	/* AddBook:
 		'''
-		[c/CCC018:Add Book]
-		Adds a book to the designer.
+		[c/CCC018:Добавить книгу]
+		Добавляет книгу в дизайнер.
 		''' */
 	/* AddChapter:
 		'''
-		[c/CCC018:Add Chapter]
+		[c/CCC018:Добавить главу]
 		Adds a chapter to the selected quest book.
 		''' */
 	/* DeleteBook:
 		'''
-		[c/CCC018:Delete Book]
+		[c/CCC018:Удалить книгу]
 		Deletes the selected quest book.
 		''' */
 	/* DeleteChapter:
 		'''
-		[c/CCC018:Delete Chapter]
+		[c/CCC018:Удалить главу]
 		Deletes the selected chapter from the selected quest book.
 		''' */
 	/* DeleteElement:
 		'''
-		[c/CCC018:Delete Element]
+		[c/CCC018:Удалить элемент]
 		Deletes the selected element from the selected chapter.
 		''' */
 	/* MoveElement:
 		'''
-		[c/CCC018:Move Element]
+		[c/CCC018:Передвинуть элемент]
 		Takes the selected element off of the canvas and allows you to replace it.
 		''' */
 	/* TogglePreview:
@@ -91,8 +91,8 @@ Designer: {
 		''' */
 	/* MoveBounds:
 		'''
-		[c/CCC018:Move Bounds]
-		Toggles the ability to move the canvas bounds.
+		[c/CCC018:Передвижение рамок]
+		Включает/Выключает возможность передвигать рамки полотна.
 		''' */
 	/* ShowMidpoint:
 		'''
@@ -106,23 +106,23 @@ Designer: {
 		''' */
 	/* ToggleGrid:
 		'''
-		[c/CCC018:Show Grid]
-		Toggles visibility of the placement grid.
+		[c/CCC018:Отображение сетки]
+		Включает/Выключает видимость размещающей сетки.
 		''' */
 	/* SnapGrid:
 		'''
-		[c/CCC018:Snap to Grid]
-		Toggles grid snapping for element placement.
+		[c/CCC018:Привязка к стеке]
+		Включает/Выключает привязку к сетке для размещения элементов.
 		''' */
 	/* GridSize:
 		'''
-		[c/CCC018:Grid Size]
-		The size of the placement grid.
-		Click to reset to the default (20).
+		[c/CCC018:Размер сетки]
+		Размер размещающей сетки.
+		Щёлкните, чтобы сбросить значение до стандартного (20).
 		''' */
 	/* ZoomScale:
 		'''
-		[c/CCC018:Default Zoom]
+		[c/CCC018:Стандартное приближение]
 		The zoom level the quest area should be set to when this chapter is selected.
 		Click to set to the current zoom level of the quest area.
 		''' */
@@ -158,7 +158,7 @@ Elements: {
 		allowing you to check for connection criteria to modify an element's behavior.
 		(Ex. only appearing after a pre-requisite is complete.)
 		''' */
-	// ConnectorThickness: The thickness of this connector, in pixels.
+	// ConnectorThickness: Толщина этого соединителя, в пикселях.
 	/* ConnectorPoint:
 		'''
 		Acts as a way to re-route connections through a corner, or to join multiple connections in a tree.

@@ -482,13 +482,13 @@ Chapter1: {
 	}
 
 	TorchGod: {
-		// Title: Torch God
+		// Title: Бог факелов
 		/* Contents:
 			'''
 			Invoke the wrath of the God of Torches, and survived long enough to earn its blessing.
 			To Invoke The Torch God, show your worth by placing over 100 torches in one place while Underground)
 			''' */
-		// Tooltip: Recieve the Torch God's Blessing
+		// Tooltip: Получите благословение Бога факелов
 	}
 
 	// ---------------
@@ -551,7 +551,7 @@ Chapter1: {
 			Combine water and lava together and get a decent amount of Obsidian, a tough glass-like material.
 			Also seems to have great alloying potential..
 			''' */
-		// Tooltip: Mine 50 Obsidian
+		// Tooltip: Добыть 50 блоков обсидиана
 	}
 
 	SubbiomeAether: {
@@ -561,7 +561,7 @@ Chapter1: {
 			Discover the Aether, a secret shimmer lake capable of dissasembling almost anything.
 			Ancient fables tell tales of critters turning into faes, worms to gummy and even turning coins into pure luck..
 			''' */
-		// Tooltip: Find the Aether
+		// Tooltip: Найти мерцание
 	}
 
 	ShimmerTransmute: {
@@ -587,13 +587,13 @@ Chapter1: {
 	}
 
 	ShimmerCoinluck: {
-		// Title: I'm Feeling Lucky
-		// Contents: Throw 249,000 Copper Coin's worth of Coins to drastically improve your luck!
+		// Title: Какая удача!
+		// Contents: Бросьте в мерцание монеты на сумму около 249,000 медных монет, чтобы невероятно сильно увеличить свою удачу!
 		// Tooltip: ---
 	}
 
 	SubbiomeSpiders: {
-		// Title: Jeepers Creepers
+		// Title: Джиперс Криперс
 		// Contents: Stubmle into a spider cavern in the underground.
 		// Tooltip: ---
 	}
@@ -606,7 +606,7 @@ Chapter1: {
 
 	KillUndeadMiner: {
 		// Title: ---
-		// Contents: Kill an Undead Miner and take their mining gear!
+		// Contents: Одолейте мёртвого шахтёра и заберите его шахтёрское снаряжение!
 		// Tooltip: ---
 	}
 

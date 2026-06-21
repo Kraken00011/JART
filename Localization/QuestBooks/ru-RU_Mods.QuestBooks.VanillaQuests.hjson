@@ -16,17 +16,17 @@ BookNames: {
 
 ChapterNames: {
 	// 0Prologue: Пролог
-	// 0RecProg: Recommended Combat Progression
+	// 0RecProg: Рекомендованная боевая прогрессия
 	// 1Surface: Поверхность
 	// 1Caving: Пещеры
 	// 2Trials: ---
 	// 2Middle: ---
 	// 2End: Конец путешествия
-	// 2AfterEnd: After the Journey
+	// 2AfterEnd: После путешествия
 	// 3MainProg: Main Player Progression
 	// 3SideProg: Side Content Progress
 	// 3CraftTrees: Major Crafting Recipes
-	// 3Extras: Extra Challenges
+	// 3Extras: Доп. испытания
 	// 4Base: Base Building
 	// 4Town: Town Establishing
 	// 4Arenas: Arena Construction & Utilities

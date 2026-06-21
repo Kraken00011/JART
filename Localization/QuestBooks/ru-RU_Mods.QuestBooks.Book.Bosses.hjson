@@ -13,10 +13,10 @@ EyeOfCthulhuDefeated: {
 	Title: Один глаз на вас
 	Contents:
 		'''
-		Defeat the Eye of Cthulhu, an ocular menace who only appears at night.
+		Одержать победу над Глазом Ктулху - гигантским летающим демоническим глазом.
 
-		The Eye of Cthulhu can occasionally arrive
-		during the night, or can be summoned with a lens-based idol known as the Suspicious Looking Eye [i:SuspiciousLookingEye] at night.
+		Глаз Ктулху иногда может приходить к вам ночью
+		или, в качестве альтернативы, его можно призвать созданным из линз идолом - подозрительно выглядящим глазом [i:SuspiciousLookingEye], но только ночью.
 		'''
 	Tooltip: Одержать победу над Глазом Ктулху
 }
@@ -25,9 +25,9 @@ EaterOfWorldsDefeated: {
 	Title: Кормилец червей
 	Contents:
 		'''
-		Defeat the Eater of Worlds, a massive worm who dwells in the corruption.
+		Одержите победу над Пожирателем миров - огромным червём, обитающим в искажении.
 
-		The Eater of Worlds will appear after the shattering of 3 Shadow Orbs [i:ShadowOrb], or lured in using rotten Worm Food [i:WormFood].
+		Пожиратель миров пробуждается после разбивания 3 теневых сфер [i:ShadowOrb] или использования rotten Worm Food [i:WormFood].
 		'''
 	Tooltip: Одержать победу над Пожирателем миров
 }
