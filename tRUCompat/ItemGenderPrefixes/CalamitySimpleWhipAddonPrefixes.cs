@@ -29,14 +29,21 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "ResonantVoid",
                 "SkybreakerCoil",
                 "RapierWhip",
-                "StrikerEmblem"
+                "StrikerEmblem",
+                "LayeredPain",
+                "NightButterfly",
+                "ActiasAliena",
+                "EtaCarinae",
+                "GildedReliquary"
             });
 
             tru.Call("AddNeuterItems", calSimWhips, new string[]
             {
                 "BleachedStrabusterCore",
                 "BleachedStatisCurse",
-                "BleachedVoltaicJelly"
+                "BleachedVoltaicJelly",
+                "AurelianSanctum",
+                "KingsMajesty"
             });
             
             tru.Call("AddPluralItems", calSimWhips, new string[]
