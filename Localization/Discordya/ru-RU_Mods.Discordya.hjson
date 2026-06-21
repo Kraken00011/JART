@@ -1,20 +1,63 @@
+Config: {
+	InternalDetailsHeader: Настройки главного меню
+	GameDetailsHeader: Внутриигровые настройки
+	CrossModHeader: Настройки совместимости
+	AdvancedHeader: Продвинутые настройки
+
+	DisplayModVersionToggle: {
+		Label: Отображать версию мода
+		Tooltip: Включает/Выключает отображение версии Discordya и tModLoader на вашем RPC во время нахождения в главном меню Террарии.
+	}
+
+	DisplayModQuantityToggle: {
+		Label: Отображать количество модов
+		Tooltip: Включает/Выключает отображение количества включённых модов на вашем RPC во время нахождения в главном меню Террарии.
+	}
+
+	DisplayHealthToggle.Label: Отображать здоровье игрока
+	DisplayManaToggle.Label: Отображать количество маны игрока
+	DisplayTimeToggle.Label: Отображать время суток
+	DisplayDefenseToggle.Label: Отображать защиту
+	DisplayBossFightsToggle.Label: Отображать битвы с боссами
+	DisplayCurrentItemToggle.Label: Отображать оружие/инструмент, находящийся в руках игрока
+
+	PresencePullIntervalSlider: {
+		Label: Интервал между обновлениями статуса (мс)
+		Tooltip:
+			'''
+			Устанавливает раз в какие количество миллисекунд ваш RPC-статус будет обновляться.
+			Чем меньше значение, тем чаще ваш статус будет обновляться, но более высокие значения будут лучше для производительности игры (500мс - минимальное значение).
+			'''
+	}
+
+	PreferredModSelector: {
+		Label: Предпочтительный мод
+		Tooltip:
+			'''
+			Когда несколько совместимых модов загружены одновременно эта настройка выбирает, какой из модов будет отображаться на вашем RPC поверх других.
+			«Auto» (Автоматически) использует стандартные значения, выставленные Discordya.
+			Если выбранный мод не загружен, будет использоваться значение «Auto».
+			'''
+	}
+}
+
 Generic: {
-			MainMenu: В главном меню
-			MainMenuState: "Загруженных модов: {0}"
-			Fighting: В битве с
-			In: ""
-			Day: День
-			Night: Ночь
-			Health: "ОЗ: "
-			Mana: "ОМ: "
-			Defense: "ЗЩТ: "
-			Damage: ед. урона
-			Dead: Мёртв
-			Playing: Играет, как весело!
-			PlayingWorld: Играет в {0} {1}
-			MasterMode: на сложности Мастера
-			ExpertMode: на сложности Эксперта
-			NormalMode: на сложности Классика
+	MainMenu: В главном меню
+	MainMenuState: "Загруженных модов: {0}"
+	Fighting: В битве с
+	In: ""
+	Day: День
+	Night: Ночь
+	Health: "ОЗ: "
+	Mana: "ОМ: "
+	Defense: "ЗЩТ: "
+	Damage: ед. урона
+	Dead: Мёртв
+	Playing: Играет, как весело!
+	PlayingWorld: Играет в {0} {1}
+	MasterMode: на сложности Мастера
+	ExpertMode: на сложности Эксперта
+	NormalMode: на сложности Классика
 }
 
 Event: {
@@ -35,173 +78,138 @@ Event: {
 		VortexPillar: У Башни вихря
 		NebulaPillar: У Башни туманности
 		StardustPillar: У Башни звёздной пыли
-		}
-			
-		Calamity: {
-			AcidRain: В Кислотном дожде
-			BossRush: В Босс-раше
-		}
 	}
 
-	Biome: {
-		Vanilla: {
-			Forest: В Лесу
-			Underground: В Подземелье
-			Cavern: В Пещерах
-			Ocean: В Океане
-			Mushroom: В Грибных пустошах
-			Jungle: В Джунглях
-			UndergroundJungle: В Подземных джунглях
-			Desert: В Пустыне
-			UndergroundDesert: В Подземной пустыне
-			Snow: В Снегах
-			Tundra: В Тундре
-			Hallow: В Освящении
-			UndergroundHallow: В Подземном Освящении
-			Corruption: В Искажении
-			UndergroundCorruption: В Подземном Искажении
-			Crimson: В Багрянце
-			UndergroundCrimson: В Подземном Багрянце
-			UndergroundMushroom: В Подземных грибных пустошах
-			GraniteCave: В Гранитной пещере
-			MarbleCave: В Мраморной пещере
-			Hive: В Улье
-			Dungeon: В Темнице
-			JungleTemple: В Храме джунглей
-			Space: В Космосе
-			Underworld: В Преисподней
-			Meteor: У Упавшего метеорита
-			Town: В Городе
-		}
+	Calamity: {
+		AcidRain: В Кислотном дожде
+		BossRush: В Босс-раше
+	}
+}
 
-		Calamity: {
-			SunkenSea: В Затерянном море
-			SulphurousSea: В Сернистом море
-			Abyss: В Бездне
-			BrimstoneCrag: На Серном утёсе
-			AstralInfection: В Астральной инфекции
-		}
+Biome: {
+	Vanilla: {
+		Forest: В Лесу
+		Underground: В Подземелье
+		Cavern: В Пещерах
+		Ocean: В Океане
+		Mushroom: В Грибных пустошах
+		Jungle: В Джунглях
+		UndergroundJungle: В Подземных джунглях
+		Desert: В Пустыне
+		UndergroundDesert: В Подземной пустыне
+		Snow: В Снегах
+		Tundra: В Тундре
+		Hallow: В Освящении
+		UndergroundHallow: В Подземном Освящении
+		Corruption: В Искажении
+		UndergroundCorruption: В Подземном Искажении
+		Crimson: В Багрянце
+		UndergroundCrimson: В Подземном Багрянце
+		UndergroundMushroom: В Подземных грибных пустошах
+		GraniteCave: В Гранитной пещере
+		MarbleCave: В Мраморной пещере
+		Hive: В Улье
+		Dungeon: В Темнице
+		JungleTemple: В Храме джунглей
+		Space: В Космосе
+		Underworld: В Преисподней
+		Meteor: У Упавшего метеорита
+		Town: В Городе
+	}
 
-			Gensokyo.SubterraneanSun: В Сабтерраненаском солнце
-		}
+	Calamity: {
+		SunkenSea: В Затерянном море
+		SulphurousSea: В Сернистом море
+		Abyss: В Бездне
+		BrimstoneCrag: На Серном утёсе
+		AstralInfection: В Астральной инфекции
+	}
 
-		Boss: {
-			Vanilla: {
-				KingSlime: Королём слизней
-				EyeOfCthulhu: Глазом Ктулху
-				EaterOfWorlds: Пожирателем миров
-				BrainOfCthulhu: Мозгом Ктулху
-				QueenBee: Королевой пчёл
-				Skeletron: Скелетроном
-				Deerclops: Циклопом-оленем
-				WallOfFlesh: Стеной плоти
-				TheTwins: Близнецами
-				TheDestroyer: Уничтожителем
-				SkeletronPrime: Скелетроном Праймом
-				Plantera: Плантерой
-				EmpressOfLight: Императрицей света
-				Golem: Големом
-				DukeFishron: Герцогом Рыброном
-				LunaticCultist: Культистом-лунатиком
-				MoonLord: Лунным лордом
-				QueenSlime: Королевой слизней
-			}
+	Gensokyo.SubterraneanSun: В Сабтерраненаском солнце
 
-			Calamity: {
-				DesertScourge: Пустынным бичом
-				GiantClam: Гигантским моллюском
-				Crabulon: Крабулоном
-				ThePerforators: Перфораторами
-				TheHiveMind: Разумом улья
-				SlimeGod: Богом слизней
-				Cryogen: Криогеном
-				AquaticScourge: Акватическим бичом
-				BrimstoneElemental: Серным элементалем
-				Calamitas: Клоном Каламитас
-				GreatSandShark: Великой песчаной акулой
-				Leviathan: Анахитой и Левиафаном
-				AstrumAureus: Аструм Ареусом
-				Plaguebringer: Разносчицей чумы, Голиафом
-				Ravager: Разрушителем
-				AstrumDeus: Аструм Деусом
-				ProfanedGuardians: Осквернёнными стражами
-				Dragonfolly: Псевододраконом
-				Providence: Провиденс
-				CeaselessVoid: Нескончаемой пустотой
-				StormWeaver: Штормовым ткачом
-				Signus: Сигнусом, Посланником Пожирателя
-				Polterghast: Полтергастом
-				OldDuke: Старым герцогом
-				TheDevourerOfGods: Пожирателем богов
-				Yharon: Драконом джунглей, Яроном
-				ExoMechs: Экзо-механизмами
-				SupremeCalamitas: Высшей Каламитас
-				ImpossibleDamnBoss: Первозданным змием
-			}
+	NoxusBoss: {
+		EternalGarden: В Вечном саду
+		DeadUniverse: В Мёртвой вселенной
+	}
+}
 
-			StarsAbove: {
-				TheVagrantOfSpaceAndTime: The Vagrant of Space and Time
-				NaulhaunTheBurnishedKing: Naulhaun, the Burnished King
-				PenthesileaTheWitchOfInk: Пентесилией, Ведьмой чернил
-				TheWarriorOfLight: Воином света
-				Tsukiyomi: Тсукиёми, Первой Астрой
-			}
-		}
+Boss: {
+	Vanilla: {
+		KingSlime: Королём слизней
+		EyeOfCthulhu: Глазом Ктулху
+		EaterOfWorlds: Пожирателем миров
+		BrainOfCthulhu: Мозгом Ктулху
+		QueenBee: Королевой пчёл
+		Skeletron: Скелетроном
+		Deerclops: Циклопом-оленем
+		WallOfFlesh: Стеной плоти
+		TheTwins: Близнецами
+		TheDestroyer: Уничтожителем
+		SkeletronPrime: Скелетроном Праймом
+		Plantera: Плантерой
+		EmpressOfLight: Императрицей света
+		Golem: Големом
+		DukeFishron: Герцогом Рыброном
+		LunaticCultist: Культистом-лунатиком
+		MoonLord: Лунным лордом
+		QueenSlime: Королевой слизней
+	}
 
-		Config: {
-			DisplayName: Конфигурация
-			InternalDetailsHeader: Настройки главного меню
-			GameDetailsHeader: Внутриигровые настройки
+	Calamity: {
+		DesertScourge: Пустынным бичом
+		GiantClam: Гигантским моллюском
+		Crabulon: Крабулоном
+		ThePerforators: Перфораторами
+		TheHiveMind: Разумом улья
+		SlimeGod: Богом слизней
+		Cryogen: Криогеном
+		AquaticScourge: Акватическим бичом
+		BrimstoneElemental: Серным элементалем
+		Calamitas: Клоном Каламитас
+		GreatSandShark: Великой песчаной акулой
+		Leviathan: Анахитой и Левиафаном
+		AstrumAureus: Аструм Ареусом
+		Plaguebringer: Разносчицей чумы, Голиафом
+		Ravager: Разрушителем
+		AstrumDeus: Аструм Деусом
+		ProfanedGuardians: Осквернёнными стражами
+		Dragonfolly: Псевододраконом
+		Providence: Провиденс
+		CeaselessVoid: Нескончаемой пустотой
+		StormWeaver: Штормовым ткачом
+		Signus: Сигнусом, Посланником Пожирателя
+		Polterghast: Полтергастом
+		OldDuke: Старым герцогом
+		TheDevourerOfGods: Пожирателем богов
+		Yharon: Драконом джунглей, Яроном
+		ExoMechs: Экзо-механизмами
+		SupremeCalamitas: Высшей Каламитас
+		ImpossibleDamnBoss: Первозданным змием
+	}
 
-			DisplayModVersion: {
-				Label: Отображение версии мода
-				Tooltip: Если включено, версии Discordya и tModLoader будут отображаться на вашем RPC во время нахождения в главном меню.
-			}
+	StarsAbove: {
+		TheVagrantOfSpaceAndTime: The Vagrant of Space and Time
+		NaulhaunTheBurnishedKing: Naulhaun, the Burnished King
+		PenthesileaTheWitchOfInk: Пентесилией, Ведьмой чернил
+		TheWarriorOfLight: Воином света
+		Tsukiyomi: Цукиёми, Первой Астрой
+	}
 
-			DisplayModQuantity: {
-				Label: Отображение количества включённых модов
-				Tooltip: Если включено, будет отображать количество включённых модов на вашем RPC во время нахождения в главном меню.
-			}
+	NoxusBoss: {
+		Mars: ВГ-07 Марсом
+		AvatarOfEmptiness: Воплощением пустоты
+		NamelessDeity: Безымянным божеством
+	}
+}
 
-			DisplayHealth: {
-				Label: Отображение здоровья
-				Tooltip: ""
-			}
-
-			DisplayMana: {
-				Label: Отображение маны
-				Tooltip: ""
-			}
-
-			DisplayTime: {
-				Label: Отображение времени
-				Tooltip: ""
-			}
-
-			DisplayDefense: {
-				Label: Отображение защиты
-				Tooltip: ""
-			}
-
-			DisplayBossFights: {
-				Label: Отображение битв с боссами
-				Tooltip: ""
-			}
-
-			DisplayCurrentItem: {
-				Label: Отображение предмета в руке
-				Tooltip: ""
-			}
-		}
-
-		Configs: {
-			DiscordyaConfig: {
-				DisplayName: Конфигурация
-				DisplayHealth.Tooltip: ""
-				DisplayMana.Tooltip: ""
-				DisplayTime.Tooltip: ""
-				DisplayDefense.Tooltip: ""
-				DisplayBossFights.Tooltip: ""
-				DisplayCurrentItem.Tooltip: ""
-			}
-		}
+Configs: {
+	DiscordyaConfig: {
+		DisplayName: Конфигурация Discordya
+		DisplayHealth.Tooltip: ""
+		DisplayMana.Tooltip: ""
+		DisplayTime.Tooltip: ""
+		DisplayDefense.Tooltip: ""
+		DisplayBossFights.Tooltip: ""
+		DisplayCurrentItem.Tooltip: ""
+	}
+}
