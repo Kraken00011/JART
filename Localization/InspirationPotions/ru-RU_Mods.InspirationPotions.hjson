@@ -1,4 +1,4 @@
-/*Buffs: {
+Buffs: {
 	InspirationWeakness: {
 		DisplayName: Художественный ступор
 		Description: Симфонический урон снижен на {0}%
@@ -7,7 +7,7 @@
 
 Items: {
 	InspirationFlower: {
-		DisplayName: Вдохновляющий цветок
+		DisplayName: Цветок вдохновения
 		Tooltip:
 			'''
 			Увеличивает симфонический урон на 8%
@@ -35,8 +35,8 @@ Configs: {
 		DisplayName: Общая конфигурация
 
 		CrateDrops: {
-			Label: Выпадение с ящиков
-			Tooltip: Меняет способ получения зелий вдохновения с ящиков
+			Label: Получение с ящиков
+			Tooltip: Позволяет изменить способ получения зелий вдохновения с ящиков.
 		}
 	}
 
@@ -45,31 +45,30 @@ Configs: {
 
 		DungeonBottles: {
 			Label: Бутылки в темнице
-			Tooltip: Whether inspiration potions should spawn as tiles in the Dungeon during world generation
+			Tooltip: Включает/Выключает возможность появления декоративных версий зелий вдохновения на платформах в Темнице во время генерации мира.
 		}
 	}
 
 	CrateLoot: {
-		Tooltip: Типы выпадения с ящиков
+		Tooltip: Вариант получения с ящиков
 
 		Mixed: {
 			Label: Объединённый
 			Tooltip:
 				'''
-				Inspiration potions are added as a third possibility with equal weight for potion drops (healing and mana) from crates
-				This technically reduces the chance for other drops as it is added into the same pool
+				Зелья вдохновения добавляются как третий вариант зелий, которые можно получить при открытии ящиков (на ровне с лечебными зельями и зельями маны).
+				Фактически это также снижает шанс получить эти зелья, ведь зелье вдохновения добавляется в уже созданный пул предметов.
 				'''
 		}
 
 		Separate: {
 			Label: Отдельный
-			Tooltip: Inspiration potions have a separate chance (1/8) of being obtained from crates, keeping other potion drops normal
+			Tooltip: У зелий вдохновения будет отдельный от других шанс выпадения с ящиков (1 к 8), оставляя шансы на получения других зелий нетронутыми.
 		}
 
 		None: {
-			Label: Никакой
-			Tooltip: Inspiration potions are never obtained from crates
+			Label: Отключённый
+			Tooltip: Зелья вдохновения нельзя будет получить с ящиков.
 		}
 	}
 }
-*/
