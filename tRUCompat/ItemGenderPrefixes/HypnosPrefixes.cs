@@ -16,7 +16,7 @@ internal class HypnosPrefixes : ModSystem
         {
             tru.Call("AddFeminineItems", hypnos, new string[]
             {
-                "Neuraze",
+                "Neuraze"
             });
         }
     }
