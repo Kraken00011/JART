@@ -8,8 +8,9 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [h3]Крупные моды[/h3]
 [list]
 [*] Corruption Core Boss
-[*] Infernal Eclipse of Ragnarok (требуется обновление, проблемы с отображением историй)
+[*] Infernal Eclipse of Ragnarok (Не переведена пара историй)
 [*] Mech Bosses Rework
+[*] Unofficial Calamity Bard & Healer
 [/list]
 
 [h3]Средние моды[/h3]
@@ -17,12 +18,11 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Enchanted Moons
 [*] Evil Bosses Rework
 [*] Fargo Rush Mod
-[*] Homeward Ragnarok (требуется обновление)
 [*] HP Awareness
 [*] Jungle Bosses Rework
 [*] Ophioid - A Boss fight mod
-[*] Revengeance+ (требуется обновление)
-[*] Calamity Simple Whip Addon (требуется обновление)
+[*] Revengeance+
+[*] Calamity Simple Whip Addon
 [*] Spirit Classic Bosses Rework
 [*] Unofficial SOTS Bard, Thrower and Healer
 [/list]
@@ -33,7 +33,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Abyssal Subworld
 [*] Armor and Accessory Prefixes
 [*] Armor Buffs
-[*] Armor Modifiers & Reforging (А точнее склонение брони из некоторых модов)
+[*] Armor Modifiers & Reforging (Склонение брони из некоторых модов)
 [*] Better Zenith in Calamity
 [*] Boss Cursor
 [*] Calamity Crossmod Vulnerabilities
@@ -60,9 +60,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] More Pylons
 [*] Munchies - Consumables Checklist
 [*] Munchies - Calamity Addon
-[*] Munchies - Homeward Journey Addon
-[*] Munchies All-Calamity Addon
-[*] Munchies SOTS Addon
+[*] Munchies Crossmod Addon
 [*] Music Box Slot
 [*] Ore Helmets for Summoner
 [*] Petrified Voodoo Doll
@@ -92,44 +90,43 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [list]
 [*] Calamity - Fargo's Souls DLC
 [*] Calamity: Hunt of the Old God
-[*] Clamity Addon (требуется обновление)
+[*] Clamity Addon
 [*] Compact Mods (For TML)
 [*] Thrower Unification (Встройка)
 [*] Tools Prefixes
 [/list]
 
-[h3]Планы на ближайшие пару обновлений[/h3]
+[h3]Планы на следующее обновление[/h3]
 [list]
-[*] Выпустить встройку Coralite
-[*] Перевести [VSC Framework] Dialect и Unofficial Calamity Bard & Healer
-[*] Улучшить старые переводы
-[*] Добавить предосмотр бонусов комплектов брони
+[*] Перевести [VSC Framework] Dialect; Thorium Helheim; TNTerraria и Unofficial Redemption Bard, Thrower & Healer
+[*] Пофиксить Calamity Ranger Expansion
+[*] Улучшение старых переводов (само собой)
+[*] Больше тегов!
 [/list]
 
 [h3]В планах на потом[/h3]
 Переводы:
 [list]
+[*] Coralite
 [*] GaMeTerraria
 [*] Forgotten Evils
 [*] Cerebral Mod
 [*] MrPlague's Authentic Races
-[*] Calamity Ranger Expansion
-[*] Demolisher Class Mod
 [*] Critical Strikes Overhaul
 [*] Quality of Life Compendium
-[*] Macrocosm
 [*] Terraria RPG Reborn
-[*] Все моды от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
-[*] Весь модпак [url=https://steamcommunity.com/workshop/filedetails/?id=3456508757]IEoR[/url]
+[*] Модов от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
+[*] Всего модпака [url=https://steamcommunity.com/workshop/filedetails/?id=3456508757]IEoR[/url]
 [/list]
 
 [h3]Дополнительный контент кроме переводов[/h3]
 [list]
-[*] Совместимость с Project tRU (Склонение предметов/перековок, цветной урон).
-Кстати, рекомендую играть именно с ним, ведь свои переводы я делал опираясь на них!
-[*] Дополнительные классовые метки (Те, что появляются над описанием предмета)
+[*] Совместимость с Project tRU (склонение предметов/перековок, предосмотр бонусов, цветной урон).
+Рекомендую играть именно с ним, ведь свои переводы я делал опираясь на их стиль!
+[*] Дополнительные классовые теги (те, что появляются над описанием предмета)
 [*] Конфигурация, в которой вы можете отключить ненужные/не понравившиеся переводы и не только
 [/list]
 
 [h3][b]Послесловие[/b][/h3]
-Переводы сделаны лишь одним человеком, а в одиночку довольно-таки сложно рассматривать разные проблемы в своих же переводах, так что если вы найдёте какие-либо ошибки, неточности, опечатки и т.д., то можете написать либо в комментарии, либо мне в личку Discord: [spoiler]white_background[/spoiler] (так я ВОЗМОЖНО быстрее отвечу)
+Дополнительную информацию о моде и по совместительству его репозиторий на GitHub вы можете найти по [url=https://github.com/Kraken00011/JART]этой ссылке[/url] (туда вы можете кидать свои предложения по улучшению мода)
+Если вы найдёте какие-либо ошибки, неточности, опечатки и т.д., то можете написать либо в комментарии, либо мне в личку Discord: [spoiler]white_background[/spoiler] (так я ВОЗМОЖНО быстрее отвечу), либо сделать Pull Requests с предложением в репозитории выше
