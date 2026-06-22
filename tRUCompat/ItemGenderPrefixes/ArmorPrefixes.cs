@@ -1155,7 +1155,7 @@ public class ArmorPrefixesPrefixes : ModSystem
             });
         }
 
-        if (ModLoader.TryGetMod("CalamityBardHealer", out Mod calBardHeal))
+        if (ModLoader.TryGetMod("CalamityBardHealer", out Mod calBardHeal) && JARTLocalizationConf.Instance.CalamityBardHealerLocalization)
         {
             tru.Call("AddFeminineItems", calBardHeal, new string[]
             {
@@ -1184,15 +1184,19 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "AncientDragonMask",
                 "DragonMask",
                 "OstaraHat",
-                "OstaraJacket"
+                "OstaraJacket",
+                "OldViperChestplate",
+                "AncientWarlockRobe",
+                "AncientPhantasmalRobe",
+                "PhantasmalRobe",
+                "WarlockRobe",
+                "ViperChestplate"
             });
 
             tru.Call("AddNeuterItems", cons, new string[]
             {
-                "AncientPhantasmalRobe",
-                "PhantasmalRobe",
-                "AncientWarlockRobe",
-                "WarlockRobe"
+                "OldSeraphimChestplate",
+                "SeraphimChestplate"
             });
 
             tru.Call("AddPluralItems", cons, new string[]
