@@ -249,14 +249,17 @@ public class MoreColoredDamageTypes : GlobalItem
             if (TRuConfig.Instance.ColoredDamageTypes)
             {
                 // Calamity Bard Healer
-                if (ModLoader.HasMod("CalamityBardHealer"))
+                if (ModLoader.HasMod("CalamityBardHealer") && (item.type == ModContent.Find<ModItem>("CalamityBardHealer/YharimsJam").Type || item.type == ModContent.Find<ModItem>("CalamityBardHealer/ScreamingClam").Type
+                || item.type == ModContent.Find<ModItem>("CalamityBardHealer/NoisebringerGoliath").Type))
                 {
-                    if (item.type == ModContent.Find<ModItem>("CalamityBardHealer/YharimsJam").Type || item.type == ModContent.Find<ModItem>("CalamityBardHealer/ScreamingClam").Type
-                    || item.type == ModContent.Find<ModItem>("CalamityBardHealer/NoisebringerGoliath").Type)
-                    {
-                        if (tooltip.Name == "Tooltip0")
-                            tooltip.OverrideColor = new Color(255, 138, 248);
-                    }
+                    if (tooltip.Name == "Tooltip0")
+                        tooltip.OverrideColor = new Color(255, 138, 248);
+                }
+
+                if (ModLoader.HasMod("Consolaria") && item.type == ModContent.Find<ModItem>("Consolaria/ShadowboundExoskeleton").Type)
+                {
+                    if (tooltip.Name == "Tooltip0")
+                        tooltip.OverrideColor = new Color(255, 85, 85);
                 }
             }
         }
