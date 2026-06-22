@@ -57,8 +57,8 @@ Generic: {
 	Dead: Мёртв
 	Playing: Играет, как весело!
 	PlayingWorld: Играет в {0} {1}
-	MasterMode: на сложности Мастера
-	ExpertMode: на сложности Эксперта
+	MasterMode: на сложности Мастер
+	ExpertMode: на сложности Эксперт
 	NormalMode: на сложности Классика
 }
 
@@ -127,7 +127,7 @@ Biome: {
 		AstralInfection: В Астральной инфекции
 	}
 
-	Gensokyo.SubterraneanSun: В Сабтерраненаском солнце
+	Gensokyo.SubterraneanSun: На Сабтерранеанском солнце
 
 	NoxusBoss: {
 		EternalGarden: В Вечном саду
