@@ -1,7 +1,7 @@
 v{ModVersion}
 - Добавлены переводы Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Cleffy (WIP); Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts (ещё не начато); Beam Stops Spread (ещё не начато); tPackBuilder (ещё не начато) и Mana Fruit
 - Добавлен фикс The Depths
-- Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR (WIP); Discordya и Revengeance+ до последней версии
+- Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR; Discordya и Revengeance+ до последней версии
 - Многочисленные исправления ошибок в переводах
 - Добавлен цветной урон для классов из Bombus Apis и Split, а также аксессуаров из Unofficial Calamity Bard & Healer и Consolaria
 - Добавлены классовые теги для Thorium Helheim; Unofficial Calamity Bard & Healer; Ragnarok Mod; Whip Accessories; Canisters; Celestial Shield; Better Zenith in Calamity; Infernal Arsenal; Coralite; Mech Bosses Rework; Redemption; Unofficial Redemption Bard, Thrower & Healer; Spirit Classic; Spirit Reforged; Unofficial Spirit Bard, Thrower and Healer; SOTS; Rise of Ages; Sorcerer Overhaul; Confection Rebaked; Spooky; Clamity Addon; Cleffy; Homeward Journey; Split и Ore Helmets for Summoner
