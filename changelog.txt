@@ -1,5 +1,5 @@
 v{ModVersion}
-- Добавлены переводы Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Cleffy (WIP); Inspiration Potions (WIP); InfiniteInteger's Mage Tweaks (WIP); Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts (ещё не начато); Beam Stops Spread (ещё не начато); tPackBuilder (ещё не начато) и Mana Fruit
+- Добавлены переводы Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Cleffy (WIP); Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts (ещё не начато); Beam Stops Spread (ещё не начато); tPackBuilder (ещё не начато) и Mana Fruit
 - Добавлен фикс The Depths
 - Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR (WIP); Discordya и Revengeance+ до последней версии
 - Многочисленные исправления ошибок в переводах
