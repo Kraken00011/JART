@@ -35,7 +35,7 @@ Chapter0: {
 
 	GetMechBossSummon: {
 		// Title: Механические приманки
-		// Contents: Создайте или найдите механический предмет призыва - способный призывать механическую напасть Craft or Find a Mechanical Summon, each capabale of summoning a different Mechanical Menace.
+		// Contents: Создайте или найдите механический предмет призыва, способный призывать механическую напасть Craft or Find a Mechanical Summon, each capabale of summoning a different Mechanical Menace.
 		// Tooltip: ---
 	}
 
@@ -299,7 +299,7 @@ Chapter1: {
 	}
 
 	LootTempleChest: {
-		// Title: I Ahm Loohte!
+		// Title: Йа йест льут!
 		/* Contents:
 			'''
 			Discover an Lihzahrd Chest within the Temple and take the special Power Cell within.

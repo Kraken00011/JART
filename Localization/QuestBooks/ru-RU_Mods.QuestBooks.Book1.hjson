@@ -4,11 +4,11 @@ blueprint: {
 	// Tooltip: Hello!
 }
 
-// Name: Journey's Start
+// Name: Начало путешествия
 
 Chapter0: {
 	StartTheWorldInfo: {
-		// Title: The World & Your Map
+		// Title: Мир и ваша карта
 		/* Contents:
 			'''
 			As you embark the world of terraria, you will find treasures, landmarks and structures to pillage and explore!
@@ -18,7 +18,7 @@ Chapter0: {
 			Quickly toggle the map-mode via {Tab}
 			Alter the map's opacity with {Pgdwn / PgUp}
 			''' */
-		// Tooltip: Info: Map
+		// Tooltip: Информация: Карта
 	}
 
 	// ------------------
@@ -27,26 +27,26 @@ Chapter0: {
 	// EnterForest quest key is in book 0
 	
 	EnterLivingTree: {
-		// Title: Towers of Nature
+		// Title: Столпы природы
 		/* Contents:
 			'''
 			..Their canopies touching the heavens..
 
 			Venture deep into a Living Tree's trunk and explore the chambers within its roots.
 			''' */
-		// Tooltip: Explore a Living Tree
+		// Tooltip: Изучить хотя-бы одно живое древо
 	}
 
 	GardenGnome: {
 		// Title: Гелиофобия
 		/* Contents:
 			'''
-			Гне эльф, гне гоблин!
+			Гне эльф и гне гоблин!
 
-			Gnomes are a rare surface enemy, most frequently spawning near or inside Living Trees.
-			Once they reach the open air, they will turn to stone under the sunlight!
+			Гномы - редкие наземные враги, чаще всего появляющиеся вблизи или внутри живых деревьев.
+			Когда они выходят на открытый воздух, они каменеют под воздействием лучей солнца!
 			''' */
-		// Tooltip: Trick a gnome into turning to stone!
+		// Tooltip: Хитростью заставить гнома превратиться в камень!
 	}
 
 	FlyKite: {

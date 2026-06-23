@@ -9,7 +9,7 @@ BloodMoonDefeated: {
 
 		Blood moons can now occur randomly each night, or be forcefully conjured using a Bloody Tear [i:BloodMoonStarter].
 
-		(Tip: Bloody Tears [i:BloodMoonStarter] are rarely dropped by Grooms and Brides, that rarely spawn in Graveyards!)
+		(Подсказка: Bloody Tears [i:BloodMoonStarter] are rarely dropped by Grooms and Brides, that rarely spawn in Graveyards!)
 		'''
 	Tooltip: Пережить кровавую луну
 }
@@ -27,13 +27,13 @@ DreadnautilusDefeated: {
 }
 
 SolarEclipseDefeated: {
-	Title: Kill the Sun
+	Title: Погасить солнце
 	Contents:
 		'''
 		Survive a solar eclipse, a day darker than night filled with creatures of horror that can occur after the defeat of any Mechanical Boss. [i:MechanicalEye][i:MechanicalWorm][i:MechanicalSkull]
 
 		'''
-	Tooltip: Survive a Solar Eclipse
+	Tooltip: Пережить солнечное затмение
 }
 
 // ---------------------

@@ -737,7 +737,7 @@ Chapter3: {
 	}
 
 	DefeatMechaMayhem: {
-		// Title: Mecha Mayhem
+		// Title: Мехарубка
 		// Contents: Do battle against the Twins, the Destroyer, and Skeletron Prime simultaneously and emerge victorious.
 		// Tooltip: ---
 	}
@@ -749,7 +749,7 @@ Chapter3: {
 	}
 
 	GetEveryTrophy: {
-		// Title: A Show of Strength
+		// Title: Показатель силы
 		/* Contents:
 			'''
 			Acquire a Boss Trophy from every single boss or event boss.

@@ -13,10 +13,10 @@ EyeOfCthulhuDefeated: {
 	Title: Один глаз на вас
 	Contents:
 		'''
-		Одержать победу над Глазом Ктулху - гигантским летающим демоническим глазом.
+		Одержите победу над Глазом Ктулху - гигантским летающим демоническим глазом.
 
-		Глаз Ктулху иногда может приходить к вам ночью
-		или, в качестве альтернативы, его можно призвать созданным из линз идолом - подозрительно выглядящим глазом [i:SuspiciousLookingEye], но только ночью.
+		Глаз Ктулху иногда может приходить к вам ночью или,
+		в качестве альтернативы, его можно призвать созданным из линз идолом - подозрительно выглядящим глазом [i:SuspiciousLookingEye], но только ночью.
 		'''
 	Tooltip: Одержать победу над Глазом Ктулху
 }
@@ -27,7 +27,7 @@ EaterOfWorldsDefeated: {
 		'''
 		Одержите победу над Пожирателем миров - огромным червём, обитающим в искажении.
 
-		Пожиратель миров пробуждается после разбивания 3 теневых сфер [i:ShadowOrb] или использования rotten Worm Food [i:WormFood].
+		Пожиратель миров пробудится после разбивания 3 теневых сфер [i:ShadowOrb] или использования rotten Worm Food [i:WormFood].
 		'''
 	Tooltip: Одержать победу над Пожирателем миров
 }
@@ -36,11 +36,11 @@ BrainOfCthulhuDefeated: {
 	Title: Мегамозг
 	Contents:
 		'''
-		Defeat the Brain of Cthulhu, an enormous
-		demon brain which haunts the creeping crimson.
+		Одержите победу над Мозгом Ктулху - огромным 
+		демоническим мозгом, обитающим в ужасном багрянце.
 
-		The Brain of Cthulhu will manifest after the destruction of 3 Crimson Hearts [i:CrimsonHeart], or
-		summoned using a Bloody Spine [i:BloodySpine].
+		Мозг Ктулху пробудится после уничтожения 3 багряных сердец [i:CrimsonHeart], или
+		после использования кровавого хребта [i:BloodySpine].
 		'''
 	Tooltip: Одержать победу над Мозгом Ктулху
 }
@@ -49,10 +49,10 @@ QueenBeeDefeated: {
 	Title: Операция «Жало»
 	Contents:
 		'''
-		Defeat the Queen Bee, the matriarch of the jungle hives.
+		Одержите победу над Королевой пчёл - пчелиной маткой, обитающей в ульях джунглей.
 
-		The Queen Bee will defend her hive if you
-		hurt one of her larvae, or can be called upon using an Abeemination [i:Abeemination].
+		Королева пчёл придёт защищать свой улей, если вы
+		осмелитесь потревожить одну из её личинок или после использования мерзопчёлости [i:Abeemination].
 		'''
 	Tooltip: Одержать победу над Королевой пчёл
 }
@@ -61,11 +61,11 @@ DeerclopsDefeated: {
 	Title: Глаз за глаз
 	Contents:
 		'''
-		Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land.
+		Одержите победу над циклопом-оленем - холодным одноглазым чудовищем из далёких земель.
 
-		The Deerclops will rummage through the cold blizzards of the tundra at night, or can be summoned using a Deer Thing [i:DeerThing].
+		Циклоп-олень может иногда бродить по бескрайним снежным ландшафтам тундры во время метели ночью или прийти к вам сам после использования оленьей штуки [i:DeerThing].
 		'''
-	Tooltip: Одержать победу над Циклопом-оленем
+	Tooltip: Одержать победу над циклопом-оленем
 }
 
 SkeletronDefeated: {
@@ -147,11 +147,11 @@ PlanteraDefeated: {
 	Title: Великое южное цветоубийство
 	Contents:
 		'''
-		Defeat Plantera, the overgrown monstrosity
-		of the jungle's depths
+		Одержите победу над Плантерой - огромным чудовищем
+		из глубин джунглей
 
-		Plantera will arrive once it feels a disturbance in its budding flowers; find and destroy the Plantera's Bulb, a luminous pink bud within the underground
-		jungle, to invoke it.
+		Плантера может появится в случае, если почувствует опасность рядом со своими распускающимися цветками; найдите и сломайте бутон Плантеры, - светящийся розовый побег, который 
+		можно найти в глубинах джунглей, чтобы пробудить её.
 		'''
 	Tooltip: Одержать победу над Плантерой
 }
@@ -173,7 +173,7 @@ DukeFishronDefeated: {
 		'''
 		Одержите победу над Герцогом Рыброном - мутантом, терроризирующим океаны.
 
-		Duke Fishron can be coerced out of the deep recesses of the Ocean using the Glowing Mushroom Cave's rare delicacy, the Truffle Worm [i:TruffleWorm], as a lure.
+		Герцога Рыброна можно выманить из пучин океанических вод, используя редкое лакомство, обитающее в грибных пустошах, - трюфельного червя [i:TruffleWorm] как приманку.
 		'''
 	Tooltip: Одержать победу над Герцогом Рыброном
 }
