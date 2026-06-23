@@ -9,53 +9,53 @@ Buffs: {
 	}
 
 	DefaultSummonTag: {
-		DisplayName: Обычная метка призывателя
-		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
+		DisplayName: Базовая метка призывателя
+		Description: ""
 	}
 
 	BlossomsBlessingTag: {
-		DisplayName: Blossoms Blessing Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.BlossomsBlessingTag.Description
+		DisplayName: Метка благословения цветения
+		Description: ""
 	}
 
 	CatharsisTag: {
-		DisplayName: Catharsis Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.CatharsisTag.Description
+		DisplayName: Метка Катарсиса
+		Description: ""
 	}
 
 	CoralCrusherTag: {
-		DisplayName: Coral Crusher Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.CoralCrusherTag.Description
+		DisplayName: Метка кораллового крушителя
+		Description: ""
 	}
 
 	ResonantStrikerTag: {
-		DisplayName: Resonant Striker Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.ResonantStrikerTag.Description
+		DisplayName: Метка резонансного ударника
+		Description: ""
 	}
 
 	UnrelentingTormentTag: {
-		DisplayName: Unrelenting Torment Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.UnrelentingTormentTag.Description
+		DisplayName: Метка неумолимой тоски
+		Description: ""
 	}
 
 	CongeledDuoWhipTag: {
-		DisplayName: Congeled Duo Whip Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.CongeledDuoWhipTag.Description
+		DisplayName: Метка загустевшего двойного хлыста
+		Description: ""
 	}
 
 	PrismBreakTag: {
-		DisplayName: Prism Break Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.PrismBreakTag.Description
+		DisplayName: Метка призмолома
+		Description: ""
 	}
 
 	SandstoneReignsTag: {
-		DisplayName: Sandstone Reigns Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.SandstoneReignsTag.Description
+		DisplayName: Метка песчаниковой узды
+		Description: ""
 	}
 
 	UnderBiteTag: {
-		DisplayName: Under Bite Tag
-		Description: Mods.WHummusMultiModBalancing.Buffs.UnderBiteTag.Description
+		DisplayName: Метка подкуса
+		Description: ""
 	}
 }
 
