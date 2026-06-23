@@ -1100,6 +1100,11 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("Clamity", out Mod clam) && JARTLocalizationConf.Instance.ClamityFix)
         {
+            tru.Call("AddFeminineItems", clam, new string[]
+            {
+                "FrozenHellstoneVisor"
+            });
+
             tru.Call("AddPluralItems", clam, new string[]
             {
                 "ClamitasShelleggings",
