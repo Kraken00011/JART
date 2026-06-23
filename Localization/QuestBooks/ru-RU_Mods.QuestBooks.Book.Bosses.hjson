@@ -72,10 +72,10 @@ SkeletronDefeated: {
 	Title: Без костей
 	Contents:
 		'''
-		Defeat Skeletron, the cursed guardian of the dungeon.
+		Одержите победу над Скелетроном - проклятым стражем Темницы.
 
-		Skeletron will manifest when taking a part of the Old Man's Curse at the dungeon, or
-		by killing the Clothier using a Clothier Voodoo Doll [i:ClothierVoodooDoll].
+		Скелетрона можно пробудить поговорив со стариком у входа в Темницу или
+		убив портного, когда на вас надета кукла вуду портного [i:ClothierVoodooDoll].
 		'''
 	Tooltip: Одержать победу над Скелетроном
 }
@@ -84,12 +84,12 @@ WallOfFleshDefeated: {
 	Title: Всё ещё голодна
 	Contents:
 		'''
-		Defeat the Wall of Flesh, the master and core of the world who arises after a great,
-		burning sacrifice.
+		Одержите над Стеной плоти - средоточием мира, восставшим после великого,
+		жертвоприношения.
 
-		The Wall of Flesh will emerge after the sacrifice of a tennant in the deep lava pools of the underworld.
+		Стена плоти восстанет после жертвоприношения вашего первого жильца в глубокие озёра лавы преисподней.
 
-		Perhaps a Voodoo Doll [i:GuideVoodooDoll] would suffice?
+		Может быть кукла вуду гида [i:GuideVoodooDoll] подойдёт в качестве достойной альтернативы?
 		'''
 	Tooltip: Одержать победу над Стеной плоти
 }
