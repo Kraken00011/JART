@@ -10,7 +10,10 @@ internal class SOTSBardHealerPrefixes : ModSystem
     public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("SOTSBardHealer") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.SOTSBardHealerLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
-        if (!ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru) && !ModLoader.TryGetMod("SOTSBardHealer", out Mod sotsBardHealer))
+        if (!ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru))
+            return;
+
+        if (!ModLoader.TryGetMod("SOTSBardHealer", out Mod sotsBardHealer))
             return;
 
         tru.Call("AddFeminineItems", sotsBardHealer, new string[]
