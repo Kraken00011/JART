@@ -15,38 +15,37 @@ public partial class HMOreSummonerHelmetsGlobalItem : GlobalItem
     {
         ItemHelper.TranslateTooltip(tooltips, "SetBonus", tooltip =>
         {
-            Player player = Main.player[Main.myPlayer];
             string setBonusKey = Language.GetTextValue("LegacyTooltip.48");
 
-            if (tooltip.Text == $"{setBonusKey} Flower petals will fall on your target for extra damage\nIncreases your maximum number of minions by 2")
+            if (tooltip.Text.Contains("Flower petals will fall on your target for extra damage"))
             {
-                tooltip.Text = $"{setBonusKey} При нанесении урона выпускает во врагов цветочные лепестки, наносящие дополнительный урон\nУвеличивает максимальное количество миньонов на 2";
-            };
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.OrichalcumCrown")}";
+            }
 
-            if (tooltip.Text == $"{setBonusKey} Increases your maximum number of minions by 1\nIncreases movement and whip speed by 25%")
+            else if (tooltip.Text.Contains("Increases movement and whip speed by 25%"))
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает максимальное количество миньонов на 1\nУвеличивает скорость передвижения и хлыстов на 25%";
-            };
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.CobaltKabuto")}";
+            }
 
-            if (tooltip.Text == $"{setBonusKey} Greatly increases life regeneration after striking an enemy\nIncreases your maximum number of minions by 2")
+            else if (tooltip.Text.Contains("Greatly increases life regeneration after striking an enemy"))
             {
-                tooltip.Text = $"{setBonusKey} При нанесении урона по врагу сильно увеличивает регенерацию здоровья\nУвеличивает максимальное количество миньонов на 2";
-            };
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.PalladiumHelm")}";
+            }
 
-            if (tooltip.Text == $"{setBonusKey} Increases your maximum number of minions by 1\nMinions and sentries have a 20% chance to critically strike")
+            else if (tooltip.Text.Contains("Minions and sentries have a 20% chance to critically strike"))
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает максимальное количество миньонов на 1\nДаёт 20% шанс критического удара миньонам и стражам";
-            };
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.MythrilCrown")}";
+            }
 
-            if (tooltip.Text == $"{setBonusKey} Attacking generates a defensive barrier of titanium shards\nIncreases your maximum number of minions by 2")
+            else if (tooltip.Text.Contains("Attacking generates a defensive barrier of titanium shards"))
             {
-                tooltip.Text = $"{setBonusKey} При нанесении урона по врагу создаётся защитный барьер из титановых осколков\nУвеличивает максимальное количество миньонов на 2";
-            };
-
-            if (tooltip.Text == $"{setBonusKey} Increases your maximum number of minions by 1\nIncreases whip range by 25%")
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.TitaniumGrowth")}";
+            }
+            
+            else if (tooltip.Text.Contains("Increases whip range by 25%"))
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает максимальное количество миньонов на 1\nУвеличивает дальность хлыстов на 25%";
-            };
+                tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.JAtRT.HMOreSummonerHelmets.ArmorSetBonuses.AdamantiteHelm")}";
+            }
         });
     }
 }
