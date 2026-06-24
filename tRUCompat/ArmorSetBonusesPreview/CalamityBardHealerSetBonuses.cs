@@ -4,8 +4,13 @@ using Terraria.ModLoader;
 using CatalystMod;
 using Terraria.GameInput;
 using ThoriumMod;
+using JAtRT.Common;
+using JAtRT.Common.Utilities;
+using JAtRT.Core.Config;
+
 internal class CalamityBardHealerSetBonuses : ModSystem
 {
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.CalamityBardHealerLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

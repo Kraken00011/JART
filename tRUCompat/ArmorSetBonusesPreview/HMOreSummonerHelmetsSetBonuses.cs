@@ -1,10 +1,13 @@
 using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using CalamityMod;
+using JAtRT.Common;
+using JAtRT.Common.Utilities;
+using JAtRT.Core.Config;
 
 internal class HMOreSummonerHelmetsSetBonuses : ModSystem
 {
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
