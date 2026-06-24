@@ -3053,48 +3053,48 @@ Buffs: {
 	}
 
 	BlossomsBlessingTag: {
-		DisplayName: Blossoms Blessing Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.BlossomsBlessingTag.Description
+		DisplayName: Метка благословения цветения
+		Description: ""
 	}
 
 	CatharsisTag: {
-		DisplayName: Catharsis Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.CatharsisTag.Description
-	}
-
-	CongeledDuoWhipTag: {
-		DisplayName: Congeled Duo Whip Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.CongeledDuoWhipTag.Description
+		DisplayName: Метка Катарсиса
+		Description: ""
 	}
 
 	CoralCrusherTag: {
-		DisplayName: Coral Crusher Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.CoralCrusherTag.Description
+		DisplayName: Метка кораллового крушителя
+		Description: ""
 	}
 
 	ResonantStrikerTag: {
-		DisplayName: Resonant Striker Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.ResonantStrikerTag.Description
-	}
-
-	SandstoneReignsTag: {
-		DisplayName: Sandstone Reigns Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.SandstoneReignsTag.Description
-	}
-
-	UnderBiteTag: {
-		DisplayName: Under Bite Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.UnderBiteTag.Description
+		DisplayName: Метка резонансного ударника
+		Description: ""
 	}
 
 	UnrelentingTormentTag: {
-		DisplayName: Unrelenting Torment Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.UnrelentingTormentTag.Description
+		DisplayName: Метка неумолимой тоски
+		Description: ""
+	}
+
+	CongeledDuoWhipTag: {
+		DisplayName: Метка загустевшего двойного хлыста
+		Description: ""
 	}
 
 	PrismBreakTag: {
-		DisplayName: Prism Break Tag
-		Description: Mods.InfernalEclipseAPI.Buffs.PrismBreakTag.Description
+		DisplayName: Метка призмолома
+		Description: ""
+	}
+
+	SandstoneReignsTag: {
+		DisplayName: Метка песчаниковой узды
+		Description: ""
+	}
+
+	UnderBiteTag: {
+		DisplayName: Метка подкуса
+		Description: ""
 	}
 }
 
@@ -3143,3 +3143,25 @@ Misc: {
 	SolynSpellbookRecipeCondition: Положите себе в инвентарь книгу заклинаний Солин хотя бы раз
 	SpellbookRecipeCondition: Изучите книгу, которой владеет Солин
 }
+
+Cooldowns.FireWave: Волна пламени на перезарядке!
+HeadphonesText.1: Сейчас играет: {0}!
+
+BossName: {
+	// DO NOT change the - to any other symbol or the code that displays "Now playing X" won't work
+	TitleScreen: Teardrops of Dragonfire - Заглавное меню Infernal Eclipse of Ragnarok
+	BereftVassal: Dead Kingdom's Champion - Обездоленный вассал (Рагнарёк)
+	DoG: Last Battle (Ballos Mix) - Пожиратель богов (3 фаза)
+	Interlude4: Calamity before the cynosure - 4 Интерлюдия
+	Tier5: Descent Of Divinities - Босс-раш (5 ранг)
+	Tier6: Omiscience Of Gods - Босс-раш (6 ранг)
+	TierNameless: TWISTED GARDEN [Remix] - Безымянное божество (Босс-раш)
+	Encore: Ensemble of Fools (Encore Mix) - Босс-раш (Финал)
+	You: FINAL FRACTAL - Терра-клинок
+	Ragnarok: Reality's End - Пожиратель снов, Рагнарёк
+	LittleCat: Coming Soon... - ???
+	ProvidenceNight: Unholy Finality - Провиденс (Ночь)
+	Seahorse: Seahorse Scrutiny (Rebirth) - Стекарь
+}
+
+PetDialog.DoGDSPTip: Сетка из лазеров появляется в тот же момент, как он начинает совершать рывки! В первую очередь сфокусируйся на таране Пожирателя и только затем ищи безопасное место. А ещё не забывай об его фаерболах!
