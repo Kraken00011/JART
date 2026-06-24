@@ -7,7 +7,7 @@ using JAtRT.Core.Config;
 
 internal class HMOreSummonerHelmetsSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
