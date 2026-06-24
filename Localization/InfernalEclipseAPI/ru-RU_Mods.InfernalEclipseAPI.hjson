@@ -3149,7 +3149,7 @@ HeadphonesText.1: Сейчас играет: {0}!
 
 BossName: {
 	// DO NOT change the - to any other symbol or the code that displays "Now playing X" won't work
-	TitleScreen: Teardrops of Dragonfire - Заглавное меню Infernal Eclipse of Ragnarok
+	TitleScreen: Teardrops of Dragonfire - Заглавная тема Infernal Eclipse of Ragnarok
 	BereftVassal: Dead Kingdom's Champion - Обездоленный вассал (Рагнарёк)
 	DoG: Last Battle (Ballos Mix) - Пожиратель богов (3 фаза)
 	Interlude4: Calamity before the cynosure - 4 Интерлюдия
