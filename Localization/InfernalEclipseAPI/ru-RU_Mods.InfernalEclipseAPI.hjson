@@ -2077,7 +2077,7 @@ Items: {
 		DisplayName: Catlight
 		Tooltip:
 			'''
-			'Боссы слишком сложны? Тогда просто возьми и купи Catlight от Catlight Индастрис' Catlight!'
+			'Боссы слишком сложны? Тогда просто возьми и купи Catlight от Catlight Индастриз' Catlight!
 			[c/7C0A02:Покупай сейчас - не жалей потом!]
 			'''
 	}
@@ -2334,7 +2334,7 @@ Configs: {
 			Miscellaneous: Разное
 			MultiplayerAdjustments: Изменения мультиплеера и другое
 			Main: Основное
-			Secret: Секретные настройки
+			Secret: Скрытые настройки
 			Music: Музыка
 		}
 
