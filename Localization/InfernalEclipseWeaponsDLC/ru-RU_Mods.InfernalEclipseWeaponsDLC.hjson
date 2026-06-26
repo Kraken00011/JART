@@ -646,22 +646,22 @@ Items: {
 	}
 
 	ThunderboltActionSniperVoid: {
-		DisplayName: Thunderbolt-Action Sniper Rifle
+		DisplayName: Громовая снайперская винтовка
 		Tooltip:
 			'''
-			Shoots a powerful, high velocity bullet
-			Also fires a lightning bolt imbued with void energy
-			<right> to zoom out
+			Стреляет мощными, высокоскоростными пулями
+			Также выстреливает молнией, наполненной пустотной энергией
+			Нажмите ПКМ, чтобы отдалить
 			'''
 	}
 
 	ThunderboltActionSniper: {
-		DisplayName: Thunderbolt-Action Sniper Rifle
+		DisplayName: Громовая снайперская винтовка
 		Tooltip:
 			'''
-			Shoots a powerful, high velocity bullet
-			Also fires a lightning bolt imbued with void energy
-			<right> to zoom out
+			Стреляет мощными, высокоскоростными пулями
+			Также выстреливает молнией, наполненной пустотной энергией
+			Нажмите ПКМ, чтобы отдалить
 			'''
 	}
 
@@ -790,6 +790,112 @@ Items: {
 			Если вам удастся собрать достаточное количество умов вместе, они смогут сделать названную идею неостановимой.' -Imagiknight_Girus
 			'''
 	}
+
+	VibrantShield: {
+		DisplayName: Вибрантовый щит
+		Tooltip:
+			'''
+			Увеличивает максимальный запас пустоты на 25
+			Постепенно генерирует до 15 ед. жизненного щита
+			'''
+	}
+
+	DivineAxe: {
+		DisplayName: Божественная секира
+		Tooltip:
+			'''
+			Взмахивает медленной и очень тяжёлой секирой, накладывающей дебафф [cbuff:CalamityMod/HolyFlames]
+			При прямом попадании вызывает звездообразный взрыв, накладывающий дебафф [cbuff:Daybreak]
+			Нажатие ПКМ призывает над вами светило и при продолжении удерживания ПКМ секира начнёт колоть его, заставляя его выпускать мощные ударные волны
+			Эти волны накладывают дебафф [cbuff:Daybreak]
+			'''
+	}
+
+	AncientSteelShield: {
+		DisplayName: Щит из древней стали
+		Tooltip:
+			'''
+			Постепенно генерирует до 20 ед. жизненного щита
+			При получении урона накладывает на атакующего врага бессрочное суммирующееся проклятие кровотечения, наносящее по 5 ед. урона в секунду
+			Этот шанс увеличивается в зависимости от шанса критического удара у вашего оружия
+			'''
+	}
+
+	DoubleFlail: {
+		DisplayName: Двойной цеп-ядро
+		Tooltip:
+			'''
+			75% базового урона
+			Flail weapons on first hit and for a chance every further hit create either a brimstone or blizzard spike ball
+			The Brimstone spike ball applies [cbuff:CalamityMod/BrimstoneFlames] to enemies and rarely grants the [iabuff:InfernalEclipseWeaponsDLC/HotFlailDmg] buff
+			The Blizzard spike ball applies [cbuff:Frostburn2] to enemies and rarely grants the [cbuff:InfernalEclipseWeaponsDLC/ColdFlailDefense] buff
+			'''
+	}
+
+	PerfectPurple: {
+		DisplayName: Цеп-ядро космического совершенства
+		Tooltip:
+			'''
+			100% базового урона
+			Flail weapons on first hit create a perfect spike ball
+			Further flail hits have a chance to create more perfect spike balls
+			Perfect spike balls inflict [cbuff:CalamityMod/GodSlayerInferno] and rarely grant the [iabuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff] buff
+			'''
+	}
+
+	BlackHoleFlail: {
+		DisplayName: Цеп-ядро чёрной дыры
+		Tooltip:
+			'''
+			300% базового урона
+			Flail weapon hits have a chance to create blackholes which home onto enemies, pulls enemies towards itself, and rarely inflicts [cbuff:CalamityMod/WitherDebuff]
+			'This shouldn't work you know? A blackhole this size can absolutely destory the planet... I guess we shouldn't question it'
+			'''
+	}
+
+	PerennialShield: {
+		DisplayName: Многолетний щит
+		Tooltip:
+			'''
+			Постепенно генерирует до 50 ед. жизненного щита
+			Даёт дополнительные эффекты в зависимости от того, какой бонус комплекта разорителя у вас:
+			    [i:CalamityMod/ReaverHeadTank]: Увеличивает максимальный запас здоровья 15 и сопротивление урону на 10%
+			    [i:CalamityMod/ReaverHeadMobility]: Увеличивает скорость передвижения на 10%, а также позволяет совершать таранящий рывок
+			    [i:CalamityMod/ReaverHeadExplore]: Увеличивает скорость прыжка на 20% и даёт невосприимчивость к урону от падения
+			'''
+	}
+
+	HolyFlail: {
+		DisplayName: Осквернённый цеп-ядро
+		Tooltip:
+			'''
+			100% базового урона
+			Если первый удар по врагу был совершён любым цепным оружием, оно гарантировано выпустит осквернённый шипастый шар
+			Последующие удары цепным оружием также могут с определённым шансом выпустить дополнительные осквернённые шипастые шары
+			Осквернённые шипастые шары накладывают дебафф [cbuff:CalamityMod/HolyFlames], а также иногда при попадании выпускают святые огни
+			'''
+	}
+
+	TerraSheath: {
+		DisplayName: Терра-ножны
+		Tooltip:
+			'''
+			Если держать меч и не использовать его в течение {1} {^1:секунды;секунд}, то при следующей атаке он выпустит {0} самонаводящихся терра-сфер
+			При попадании по врагу терра-сферы восстанавливают 3% от вашего недостающего здоровья
+			'''
+	}
+
+	BlazeScourgeBag: {
+		DisplayName: Сумка пылающего бича
+		Tooltip:
+			'''
+			Позволяет мастерски овладеть искусством йо-йо
+			Второе йо-йо наносит на 50% меньше урона
+			Атаки йо-йо накладывают дебафф [cbuff:CalamityMod/HolyFlames], а также могут с определённым шансом дополнительно наложить ещё один дебафф [cbuff:InfernalEclipseWeaponsDLC/LimbBurn]
+			При нанесении урона врагу йо-йо увеличивает сопротивление урону на 10% до тех пор, пока вы не его не получите
+			Этот перезаряжается в течение 15 секунд после получения урона
+			'''
+	}
 }
 
 ItemTooltip: {
@@ -807,6 +913,18 @@ ItemTooltip: {
 	PBGBardALore2: Так он создал два оружия: Вторым стала гитара, стреляющая разноцветными микроволнами.
 	SearingSpearTip: 150% базового урона
 	ArcticSpearTip: 115% базового урона
+	DoubleFlailLore:
+		'''
+		Каламитас и Пермафросту всегда удавалось хорошо работать в тандеме, как ученик с учителем, когда она ещё была юна.
+		Эти два цепа используют те же техники, чтобы совмещать лёд и пламя методами, губительными для ваших врагов.
+		'''
+	PerfectPurpleLore:
+		'''
+		Но всё же, совершенен он не был.
+		Командная работа имеет свои пределы. В конце концов, лучший друг для самих себя - вы сами.
+		Вдвоём с самим собой можно добиться гораздо большего, ведь...
+		Именно в гармонии с самим собой вы становитесь по-настоящему совершенны.
+		'''
 	VerveineItem: "'Предмет, благословлённый орхидеей...'"
 	EngineGatling:
 		'''
@@ -943,15 +1061,15 @@ Projectiles: {
 	ColoredExplosion.DisplayName: Цветной Взрыв
 	Misc.BardPulseRiffleShot.DisplayName: Выстрел Импульсной Винтовки Барда
 	Staff_Projectile.DisplayName: Снаряд Посоха_
-	ArckaneStaffPro.DisplayName: Посох аркейна Про
-	MystickStaffPro.DisplayName: Мистический Про
+	ArckaneStaffPro.DisplayName: Посох аркейна
+	MystickStaffPro.DisplayName: Мистический
 	HealerBrimstoneBarrage.DisplayName: Шквал Адского Пламени Целителя
 	SupremeCataclysmFist.DisplayName: Кулак Высшего Катаклизма
 	SupremeCatastropheSlash.DisplayName: Удар Высшего Катастрофа
 	SharknadoBolt.DisplayName: Снаряд Акулонадо
 	BarrenGardenHealingPro.DisplayName: Исцеляющий Снаряд Бесплодного Сада
 	BarrenGardenLotus.DisplayName: Лотос Бесплодного Сада
-	BarrenGardenPro.DisplayName: Бесплодный Сад Про
+	BarrenGardenPro.DisplayName: Бесплодный Сад
 	BarrenGardenProHoming.DisplayName: Самонаводящийся Снаряд Бесплодного Сада
 	MothwingDaggerPro.DisplayName: Кинжал Мотылькового Крыла Про
 	IlluminantBolt.DisplayName: Светящийся Снаряд
@@ -1006,22 +1124,33 @@ Projectiles: {
 	AbsoluteTVRemoteRewindPro.DisplayName: Rewind Aura
 	CosmicPunch.DisplayName: Cosmic Gauntlet
 	Melee.GauntletofAnnihilationPunches.DisplayName: Cosmic Punches
+	DivineAxeHoldout.DisplayName: Divine Axe
+	DivineExplosion.DisplayName: Divine Explosion
+	DivineSunAura.DisplayName: Divine Aura
+	DivineAxeSunAura.DisplayName: Divine Axe Sun Aura
+	ColdFlailCorePro.DisplayName: Cold Flail Core
+	HotFlailCorePro.DisplayName: Hot Flail Core
+	PerfectFlailCorePro.DisplayName: Perfect Flail Core
+	BlackHoleFlailCorePro.DisplayName: Black Hole Flail Core
+	HolyFlailCorePro.DisplayName: Holy Flail Core
+	HolyFlailFire.DisplayName: Holy Fire
+	TerraOrb.DisplayName: Terra Orb
 }
 
 Buffs: {
 	DefaultSummonTag: {
-		DisplayName: Стандартная метка призывателя
-		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
+		DisplayName: Базовая метка призывателя
+		Description: ""
 	}
 
 	SwordStuckBuff: {
-		DisplayName: Застрявший меч
-		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
+		DisplayName: Воткнутый клинок
+		Description: ""
 	}
 
 	BloodRageBuff: {
 		DisplayName: Кровавая ярость
-		Description: Урон кроводела увеличен на 25%; кровавые стрелы накладывают дебафф [cbuff:CalamityMod/BurningBlood]
+		Description: Урон кроводела увеличен на 25%, а кровавые стрелы накладывают дебафф [cbuff:CalamityMod/BurningBlood]
 	}
 
 	TVRemotePaused: {
@@ -1033,6 +1162,39 @@ Buffs: {
 		DisplayName: Пауза
 		Description: Застрял во времени!
 	}
+
+	ColdFlailDefense: {
+		DisplayName: Синее аннулирование
+		Description: Вы аннулированы морозным синим
+		ItemTooltip: Увеличивает сопротивление урону на 10%
+	}
+
+	HotFlailDmg: {
+		DisplayName: Красное усиление
+		Description: Вы усилены пылающим красным
+		ItemTooltip: Увеличивает урон на 10%
+	}
+
+	PerfectFlailBuff: {
+		DisplayName: Фиолетовое совершенство
+		Description: Вы - совершенство.
+		ItemTooltip: Увеличивает урон, сопротивление урону и скорость передвижения на 15%
+	}
+
+	GrandThunderWhipTag: {
+		DisplayName: Метка великого громового хлыста
+		Description: ""
+	}
+
+	LimbBurn: {
+		DisplayName: Полыхание конечностей
+		Description: Ваши мышцы атрофируются
+		ItemTooltip:
+			'''
+			Жар - 50 ед. урона/сек
+			Снижает скорость передвижения на 7,5%
+			'''
+	}
 }
 
 Configs: {
@@ -1040,8 +1202,9 @@ Configs: {
 		DisplayName: Конфигурация оружия
 
 		Headers: {
-			VerveineWeapons: Оружие Verveine
+			VerveineWeapons: Оружие от Verveine
 			General: Основное
+			SoltansCut: Предметы от Soltan
 		}
 
 		AIGenedWeapons: {
@@ -1061,6 +1224,21 @@ Configs: {
 
 		UnfinishedContent: {
 			Label: Незаконченный контент
+			Tooltip: ""
+		}
+
+		LifeShields: {
+			Label: Жизненные щиты
+			Tooltip: ""
+		}
+
+		FlailCores: {
+			Label: Цеп-ядра
+			Tooltip: ""
+		}
+
+		YoyoPouches: {
+			Label: Сумки для йо-йо
 			Tooltip: ""
 		}
 	}
