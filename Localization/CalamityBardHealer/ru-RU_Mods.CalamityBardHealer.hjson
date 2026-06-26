@@ -1544,16 +1544,26 @@ Configs: {
 		}
 
 		rogueThrowerMerge: {
-			Label: Объединить класс Разбойника с Метателем
+			Label: Объединить класс разбойника с метателем
 			Tooltip: Автоматически отключается, если мод Ragnarok включён.
 		}
 
+		showItemChanges: {
+			Label: Отображение изменения предметов
+			Tooltip: Включает/Выключает отображение строки «Этот предмет изменён модом» в описании изменённых этим модом предметов.
+		}
+
+		defenseDamage: {
+			Label: Урон по защите у врагов Thorium
+			Tooltip: Включает/Выключает урон по защите у врагов из мода Thorium.
+		}
+
 		convertItems: {
-			Label: Смена классов для предметов Calamity в классы Thorium мода
+			Label: Смена классов для предметов Calamity в классы мода Thorium
 			Tooltip:
 				'''
-				Конвертирует некоторые предметы Calamity в предмета класса Бард и Целитель.
-				Может перерабатывать соответствующие предметы, чтобы они лучше соответствовали своему новому классу.
+				Конвертирует некоторые предметы Calamity в предмета класса бард и целитель.
+				Может немного перерабатывать соответствующие предметы, чтобы они лучше соответствовали своему новому классу.
 				Изменённые предметы:
 				-[i:CalamityMod/AnahitasArpeggio]{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName} -> Струнный инструмент, поведение переработано.
 				-[i:CalamityMod/BelchingSaxophone]{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName} -> Медный инструмент.
