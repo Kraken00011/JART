@@ -14,7 +14,7 @@ public class FlinxHatClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Summoner = "FlinxFurUshanka";
+            string[] Summoner = { "FlinxFurUshanka" };
 
             if (ModLoader.HasMod("FlinxHat"))
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "FlinxHat"));

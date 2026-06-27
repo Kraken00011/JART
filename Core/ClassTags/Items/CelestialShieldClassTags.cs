@@ -14,10 +14,7 @@ public class CelestialShieldClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Special Tags
-            string[] OmniShield =
-            {
-                "CelestialShield"
-            };
+            string[] OmniShield = { "CelestialShield" };
 
             if (ModLoader.HasMod("CelestialShield"))
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(OmniShield, "OmniShieldTag", "CelestialShield"));

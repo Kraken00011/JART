@@ -14,20 +14,11 @@ public class HomewardRagnarokClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Warrior =
-            {
-                "HerbalistPouch"
-            };
+            string[] Warrior = { "HerbalistPouch" };
 
-            string[] Ranger =
-            {
-                "EvilFlask"
-            };
+            string[] Ranger = { "EvilFlask" };
 
-            string[] Summoner =
-            {
-                "RiftGenerator"
-            };
+            string[] Summoner = { "RiftGenerator" };
 
             string[] Rogue =
             {
@@ -41,10 +32,7 @@ public class HomewardRagnarokClassTags : ItemTagsAdder
                 "ClericBadge"
             };
 
-            string[] Bard =
-            {
-                "BardBadge"
-            };
+            string[] Bard = { "BardBadge" };
 
             if (ModLoader.HasMod("HomewardRagnarok"))
             {

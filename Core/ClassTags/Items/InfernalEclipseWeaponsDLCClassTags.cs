@@ -33,7 +33,7 @@ public class InfernalEclipseWeaponsDLCClassTags : ItemTagsAdder
                 "SuperCellSabatons"
             };
 
-            string[] TrueWarrior = "BlightedBadge";
+            string[] TrueWarrior = { "BlightedBadge" };
 
             string[] Healer =
             {

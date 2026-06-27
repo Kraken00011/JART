@@ -14,9 +14,9 @@ public class PrimeReworkClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Warrior = "EnergyHilt";
+            string[] Warrior = { "EnergyHilt" };
 
-            string[] Sorcerer = "PortableEnergyConverter";
+            string[] Sorcerer = { "PortableEnergyConverter" };
 
             if (ModLoader.HasMod("ThrowerUnification") || ModLoader.HasMod("ThoriumMod"))
             {

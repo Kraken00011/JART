@@ -38,10 +38,7 @@ public class SOTSBardHealerClassTags : ItemTagsAdder
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(UnifiedThrower, "ThrowerTag", "SOTSBardHealer"));
             }
 
-            string[] Healer =
-            {
-                "SerpentsTongue"
-            };
+            string[] Healer = { "SerpentsTongue" };
 
             string[] Bard =
             {
@@ -53,7 +50,7 @@ public class SOTSBardHealerClassTags : ItemTagsAdder
             };
 
             // Special Tags
-            string[] VoidTag =
+            string[] Void =
             {
                 "DeathThroesThrows",
                 "ForbiddenMaelstrom",
@@ -71,7 +68,7 @@ public class SOTSBardHealerClassTags : ItemTagsAdder
             {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Healer, "HealerTag", "SOTSBardHealer"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Bard, "BardTag", "SOTSBardHealer"));
-                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(VoidTag, "VoidTag", "SOTSBardHealer"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Void, "VoidTag", "SOTSBardHealer"));
             }
 
             return result;

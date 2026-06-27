@@ -96,22 +96,16 @@ public class SOTSClassTags : ItemTagsAdder
 
             if (ModLoader.HasMod("SOTSBardHealer"))
             {
-                string[] Bard =
-                {
-                    ""
-                };
-
                 string[] Healer =
                 {
                     "HarvestersScythe"
                 };
 
-                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Bard, "BardTag", "SOTS"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Healer, "HealerTag", "SOTS"));
             }
 
             // Special Tags
-            string[] VoidTag =
+            string[] Void =
             {
                 "ExcavatorBreastplate",
                 "ExcavatorHelmet",
@@ -195,7 +189,7 @@ public class SOTSClassTags : ItemTagsAdder
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "SOTS"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Sorcerer, "SorcererTag", "SOTS"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "SOTS"));
-                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(VoidTag, "VoidTag", "SOTS"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Void, "VoidTag", "SOTS"));
             }
 
             return result;

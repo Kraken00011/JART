@@ -17,9 +17,9 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
             // Special Tags
             if (ModLoader.HasMod("SOTSBardHealer"))
             {
-                string[] VoidTag = "DemonTongue";
+                string[] Void = { "DemonTongue" };
 
-                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(VoidTag, "VoidTag", "ThoriumMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Void, "VoidTag", "ThoriumMod"));
             }
 
             // Class Tags

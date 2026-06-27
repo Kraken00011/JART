@@ -126,12 +126,14 @@
    - Calamity Fables
    - Calamity Mod
    - Coralite
+   - Exxo Avalon Origins
    - Homeward Journey
    - Mod of Redemption
    - Secrets of the Shadows
    - Spirit Classic
    - Split
    - Spooky Mod
+   - Synergia
    - Thorium Helheim
    - Thorium Mod (Доп теги)
 

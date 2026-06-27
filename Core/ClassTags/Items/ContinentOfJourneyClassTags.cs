@@ -15,10 +15,7 @@ public class ContinentOfJourneyClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             /// Homeward Ragnarok Dependant Class Tags
-            string[] WarriorOrSummoner =
-            {
-                "CommandersGaunlet"
-            };
+            string[] WarriorOrSummoner = { "CommandersGaunlet" };
 
             string[] RangerOrRogue =
             {
