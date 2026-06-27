@@ -15,10 +15,7 @@ public class InfernalEclipseAPIClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Summoner =
-            {
-                "SplitFirebrand"
-            };
+            string[] Summoner = "SplitFirebrand";
 
             // Special Tags
             string[] Void =

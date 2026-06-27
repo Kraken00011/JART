@@ -29,9 +29,7 @@ public class GauntletsClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("Gauntlets"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "Gauntlets"));
-            }
 
             return result;
         }

@@ -14,15 +14,10 @@ public class calamityzeithClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Warrior =
-            {
-                "ZenithSeal"
-            };
+            string[] Warrior = "ZenithSeal";
 
             if (ModLoader.HasMod("calamityzeith"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Warrior, "WarriorTag", "calamityzeith"));
-            }
 
             return result;
         }

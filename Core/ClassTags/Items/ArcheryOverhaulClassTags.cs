@@ -62,9 +62,7 @@ public class ArcheryOverhaulClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("ArcheryOverhaul"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "ArcheryOverhaul"));
-            }
 
             return result;
         }

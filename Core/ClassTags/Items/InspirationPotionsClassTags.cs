@@ -25,9 +25,7 @@ public class InspirationPotionsClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("InspirationPotions"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Bard, "BardTag", "InspirationPotions"));
-            }
 
             return result;
         }

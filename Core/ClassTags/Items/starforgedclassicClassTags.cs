@@ -15,10 +15,7 @@ public class starforgedclassicClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Sorcerer =
-            {
-                "EphemeralAmulet"
-            };
+            string[] Sorcerer = "EphemeralAmulet";
 
             if (ModLoader.HasMod("starforgedclassic"))
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Sorcerer, "SorcererTag", "starforgedclassic"));

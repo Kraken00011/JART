@@ -38,9 +38,7 @@ public class CalamitySimpleWhipAddonClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("CalamitySimpleWhipAddon"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "CalamitySimpleWhipAddon"));
-            }
 
             return result;
         }

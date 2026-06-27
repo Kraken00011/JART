@@ -24,9 +24,7 @@ public class CanistersClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("Canisters"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "Canisters"));
-            }
 
             return result;
         }

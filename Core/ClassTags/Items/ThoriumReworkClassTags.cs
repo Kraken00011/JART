@@ -15,15 +15,9 @@ public class ThoriumReworkClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Summoner =
-            {
-                "TitanVisor"
-            };
+            string[] Summoner = "TitanVisor";
 
-            string[] Thrower =
-            {
-                "TitanHood"
-            };
+            string[] Thrower = "TitanHood";
 
             string[] Bard =
             {

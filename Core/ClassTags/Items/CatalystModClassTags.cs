@@ -22,9 +22,7 @@ public class CatalystModClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("CatalystMod"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Sorcerer, "SorcererTag", "CatalystMod"));
-            }
 
             return result;
         }
@@ -42,15 +40,10 @@ public class CatalystModClassTagsRemover : ItemTagsRemover
             var result = new List<(int, string, string)>();
 
             // Class Tags
-            string[] RemoveTrueWarrior =
-            {
-                "IntergelacticHeadMelee"
-            };
+            string[] RemoveTrueWarrior = "IntergelacticHeadMelee";
 
             if (ModLoader.HasMod("CatalystMod"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(RemoveTrueWarrior, "TrueWarriorTag", "CatalystMod", "JAtRT"));
-            }
 
             return result;
         }

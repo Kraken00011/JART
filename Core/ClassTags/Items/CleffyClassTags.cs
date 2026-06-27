@@ -14,15 +14,10 @@ public class CleffyClassTags : ItemTagsAdder
             var result = new List<(int, string)>();
 
             // Class Tags
-            string[] Bard =
-            {
-                "CleffyItem"
-            };
+            string[] Bard = "CleffyItem";
 
             if (ModLoader.HasMod("Cleffy"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Bard, "BardTag", "Cleffy"));
-            }
 
             return result;
         }

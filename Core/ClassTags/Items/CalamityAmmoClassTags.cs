@@ -32,9 +32,7 @@ public class CalamityAmmoClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("CalamityAmmo"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "CalamityAmmo"));
-            }
 
             return result;
         }

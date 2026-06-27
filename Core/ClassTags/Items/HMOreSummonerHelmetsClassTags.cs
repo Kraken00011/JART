@@ -25,9 +25,7 @@ public class HMOreSummonerHelmetsClassTags : ItemTagsAdder
             };
 
             if (ModLoader.HasMod("HMOreSummonerHelmets"))
-            {
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "HMOreSummonerHelmets"));
-            }
 
             return result;
         }
