@@ -1165,19 +1165,19 @@ Buffs: {
 
 	ColdFlailDefense: {
 		DisplayName: Синее аннулирование
-		Description: Вы аннулированы морозным синим
+		Description: Вы аннулированы синим морозом
 		ItemTooltip: Увеличивает сопротивление урону на 10%
 	}
 
 	HotFlailDmg: {
 		DisplayName: Красное усиление
-		Description: Вы усилены пылающим красным
+		Description: Вы усилены красным пламенем
 		ItemTooltip: Увеличивает урон на 10%
 	}
 
 	PerfectFlailBuff: {
 		DisplayName: Фиолетовое совершенство
-		Description: Вы - совершенство.
+		Description: Вы - совершенны.
 		ItemTooltip: Увеличивает урон, сопротивление урону и скорость передвижения на 15%
 	}
 
