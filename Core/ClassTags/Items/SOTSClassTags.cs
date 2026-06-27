@@ -96,10 +96,7 @@ public class SOTSClassTags : ItemTagsAdder
 
             if (ModLoader.HasMod("SOTSBardHealer"))
             {
-                string[] Healer =
-                {
-                    "HarvestersScythe"
-                };
+                string[] Healer = { "HarvestersScythe" };
 
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Healer, "HealerTag", "SOTS"));
             }
@@ -181,6 +178,7 @@ public class SOTSClassTags : ItemTagsAdder
                 "CursedRobe",
                 "VoidenBracelet",
                 "PlasmaShrimp",
+                "TinyPlanetoid"
             };
 
             if (ModLoader.HasMod("SOTS"))
