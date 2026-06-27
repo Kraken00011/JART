@@ -1,4 +1,4 @@
-KingSlimeDefeated: {
+/*KingSlimeDefeated: {
 	Title: Скользкий шиноби
 	Contents:
 		'''
@@ -213,3 +213,4 @@ MoonLordDefeated: {
 	// NOT mentioning Celestial Sigil, it appears as its own quest!!
 	Tooltip: Одержать победу над Лунным лордом
 }
+*/

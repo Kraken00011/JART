@@ -1,9 +1,6 @@
 using System.Collections.Generic;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 
 public class ArmorAndAccessoryPrefixesPrefixes : ModSystem

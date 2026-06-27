@@ -23,18 +23,15 @@ public class ChatMessagesPatch : ILoadable
         // Infernum
         if (text.Contains("Forbidden Archive location moved from"))
         {
-            text = text.Replace("Forbidden Archive location moved from", "Местоположение запретных архивов смещено с координат");
-            text = text.Replace("to", "на координаты");
+            text = text.Replace("Forbidden Archive location moved from", "Местоположение запретных архивов смещено с позиции");
+            text = text.Replace("to", "на");
         }
 
         if (text.Contains("Forbidden Archive location reverted to"))
         {
-            text = text.Replace("Forbidden Archive location reverted to", "Местоположение запретных архивов смещено с координат");
-            text = text.Replace("from", "обратно на координаты");
+            text = text.Replace("Forbidden Archive location reverted to", "Местоположение запретных архивов смещено с позиции");
+            text = text.Replace("from", "обратно на");
         }
-
-        // Fargos Alt Music
-        text = text.Replace("Now Playing: ", "Сейчас играет: ");
 
         text = text switch
         {
@@ -62,6 +59,8 @@ public class ChatMessagesPatch : ILoadable
             "Восходит Праздничная урожайная луна..." => "Восходит Урожайная луна...",
             "The Harvest Moon has set..." => "Урожайная луна заходит за горизонт...",
             "Праздничная урожайная луна зашла..." => "Урожайная луна заходит за горизонт...",
+            // Fargos Alt Music
+            "Now Playing: " => "Сейчас играет: ",
             // Gauntlets
             "Let us know of any bugs you may have encountered or give any feedback. Your input will help us improve and make the mod even better. Thank you!" => "Пожалуйста, дайте нам знать, если вы столкнётесь с любыми ошибками или недочётами. Ваши предложения помогают нам исправлять различные ошибки и делать наш мод лучше в целом. Заранее спасибо!",
             "(Can be disabled in mod config)" => "(Это сообщение можно отключить в конфигурации Whips Accessories)",

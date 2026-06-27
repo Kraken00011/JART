@@ -15,7 +15,6 @@ public class JAtRT : Mod
     public JAtRT()
     {
         Instance = this;
-        PreJITFilter = new DisableJIT();
     }
 
     public override void Unload()

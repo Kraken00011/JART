@@ -481,17 +481,6 @@ Tags: {
 		# Thorium
 		Healer: -Целитель-
 		Bard: -Бард-
-		/*
-		# SOTS
-		VoidMelee: -Пустотный воин-
-		VoidRanger: -Пустотный стрелок-
-		VoidSorcerer: -Пустотный маг-
-		VoidSummoner: -Пустотный призыватель-
-		# Unofficial SOTS Bard, Thrower & Healer
-		VoidHealer: -Пустотный целитель-
-		VoidBard: -Пустотный бард-
-		VoidThrower: -Пустотный метатель-
-		*/
 		# Mod of Redemption
 		Ritualist: -Ритуалист-
 		# Demolisher Class

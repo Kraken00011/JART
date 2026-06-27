@@ -3,12 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using System.Linq;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
-using JAtRT.Core.Config;
 using JAtRT.Core.ClassTags;
-
-namespace JAtRT.Core.ClassTags.Items;
 
 public class VanillaClassTagsExtra : ItemTagsAdder
 {
@@ -213,6 +208,12 @@ public class VanillaClassTagsExtra : ItemTagsAdder
             };
 
             foreach (int omniShield in OmniShield) result.Add((omniShield, "OmniShieldTag"));
+
+            foreach (var item in ContentSamples.ItemsByType.Values)
+            {
+                if (item.pick > 0 || item.axe > 0 || item.hammer > 0)
+                    result.Add((item.type, "ToolTag"));
+            }
 
             return result;
         }

@@ -424,6 +424,10 @@ public class ToggleableLocalizations : OnPatcher
 				modpath, @"JAtRT\Localization\CalamityBardHealer\ru-RU_Mods.CalamityBardHealer.hjson"))
 					continue;
 
+				if (Skip(JARTLocalizationConf.Instance.AccessoryHeartsLocalization, "AccessoryHearts",
+				modpath, @"JAtRT\Localization\AccessoryHearts\ru-RU_Mods.AccessoryHearts.hjson"))
+					continue;
+
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
 

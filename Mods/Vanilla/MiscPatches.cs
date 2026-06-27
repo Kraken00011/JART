@@ -10,7 +10,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-public partial class Patches : GlobalItem
+public partial class MiscPatches : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU";
 
@@ -18,7 +18,7 @@ public partial class Patches : GlobalItem
     {
         foreach (TooltipLine tooltip in tooltips)
         {
-            // Патч для Thorium
+            // Thorium
             if (ModLoader.HasMod("ThoriumMod"))
             {
                 if (tooltip.Name == "ScytheSoulCharge")
@@ -57,11 +57,11 @@ public partial class Patches : GlobalItem
                     tooltip.Text = "-Метатель-";
             }
 
-            // Патч для ??? (При включении какого-то из модов у реликвий добавился этот текст в строке Master и я решил его перевести)
+            // ??? (При включении какого-то из модов у реликвий добавился этот текст в строке Master и я решил его перевести)
             if (tooltip.Name == "Master" && tooltip.Text.Contains("Мастер or Revengeance"))
                 tooltip.Text = "Мастер или Месть";
 
-            // Патч для Thorium Class Tags
+            // Thorium Class Tags
             if (ModLoader.HasMod("ThoriumClassTagsConsistency") && tooltip.Name == "ClassTag")
             {
                 if (tooltip.Text == Language.GetTextValue("Mods.ThoriumClassTagsConsistency.Misc.WarriorClass"))
@@ -78,7 +78,7 @@ public partial class Patches : GlobalItem
             }
         }
 
-        // Ещё один патч тегов для Thorium Class Tags, меняющий их местоположение в тултипе
+        // Ещё один патч тегов для Thorium Class Tags, меняющий их местоположение в описании
         if (ModLoader.HasMod("ThoriumClassTagsConsistency"))
         {
             if (item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom || item.type == ItemID.FlaskofCursedFlames ||
@@ -99,7 +99,7 @@ public partial class Patches : GlobalItem
             }
         }
 
-        // Патч тегов для Unofficial Calamity Bard & Healer
+        // Unofficial Calamity Bard & Healer
         if (ModLoader.HasMod("CalamityBardHealer"))
         {
             bool rogueThrowerMerge = true;

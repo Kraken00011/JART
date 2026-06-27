@@ -4,8 +4,6 @@ using Terraria.ModLoader;
 using CatalystMod;
 using Terraria.GameInput;
 using ThoriumMod;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 
 internal class CalamityBardHealerSetBonuses : ModSystem
@@ -26,25 +24,44 @@ internal class CalamityBardHealerSetBonuses : ModSystem
                 Language.GetTextValue("Mods.CalamityBardHealer.Items.AerospecHeadphones.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AugmentedAuricTeslaFeatheredHeadwear").Type, (Func<string>)(() =>
+            if (ModLoader.HasMod("CatalystMod"))
             {
-                var keys = CatalystPlayer.AsteroidVisToggleKey.GetAssignedKeys((InputMode)0);
-                string hotkeyStr = keys.Count > 0
-                    ? Language.GetTextValue("Mods.CatalystMod.Common.BoundKey", keys[0])
-                    : Language.GetTextValue("Mods.CatalystMod.Common.UnboundKey");
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AugmentedAuricTeslaFeatheredHeadwear").Type, (Func<string>)(() =>
+                {
+                    var keys = CatalystPlayer.AsteroidVisToggleKey.GetAssignedKeys((InputMode)0);
+                    string hotkeyStr = keys.Count > 0
+                        ? Language.GetTextValue("Mods.CatalystMod.Common.BoundKey", keys[0])
+                        : Language.GetTextValue("Mods.CatalystMod.Common.UnboundKey");
 
-                return Language.GetTextValue("Mods.CalamityBardHealer.Items.AugmentedAuricTeslaFeatheredHeadwear.SetBonus", hotkeyStr);
-            }));
+                    return Language.GetTextValue("Mods.CalamityBardHealer.Items.AugmentedAuricTeslaFeatheredHeadwear.SetBonus", hotkeyStr);
+                }));
 
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AugmentedAuricTeslaValkyrieVisage").Type, (Func<string>)(() =>
-            {
-                var keys = CatalystPlayer.AsteroidVisToggleKey.GetAssignedKeys((InputMode)0);
-                string hotkeyStr = keys.Count > 0
-                    ? Language.GetTextValue("Mods.CatalystMod.Common.BoundKey", keys[0])
-                    : Language.GetTextValue("Mods.CatalystMod.Common.UnboundKey");
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AugmentedAuricTeslaValkyrieVisage").Type, (Func<string>)(() =>
+                {
+                    var keys = CatalystPlayer.AsteroidVisToggleKey.GetAssignedKeys((InputMode)0);
+                    string hotkeyStr = keys.Count > 0
+                        ? Language.GetTextValue("Mods.CatalystMod.Common.BoundKey", keys[0])
+                        : Language.GetTextValue("Mods.CatalystMod.Common.UnboundKey");
 
-                return Language.GetTextValue("Mods.CalamityBardHealer.Items.AugmentedAuricTeslaValkyrieVisage.SetBonus", hotkeyStr);
-            }));
+                    return Language.GetTextValue("Mods.CalamityBardHealer.Items.AugmentedAuricTeslaValkyrieVisage.SetBonus", hotkeyStr);
+                }));
+
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("IntergelacticCloche").Type, (Func<string>)(() =>
+                {
+                    string intergelacticAll = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]");
+                    string intergelacticRadiant = Language.GetTextValue("Mods.CalamityBardHealer.Items.IntergelacticCloche.SetBonus");
+
+                    return $"{intergelacticAll}\n{intergelacticRadiant}";
+                }));
+
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("IntergelacticProtectorHelm").Type, (Func<string>)(() =>
+                {
+                    string intergelacticAll = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]");
+                    string intergelacticSymphonic = Language.GetTextValue("Mods.CalamityBardHealer.Items.IntergelacticProtectorHelm.SetBonus");
+
+                    return $"{intergelacticAll}\n{intergelacticSymphonic}";
+                }));
+            }
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AuricTeslaFeatheredHeadwear").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.CalamityBardHealer.Items.AuricTeslaFeatheredHeadwear.SetBonus")
@@ -128,29 +145,16 @@ internal class CalamityBardHealerSetBonuses : ModSystem
                 Language.GetTextValue("Mods.CalamityBardHealer.Items.VictideAmmoniteHat.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirBiretta").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirBiretta.SetBonus")
-            ));
-
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirChapeau").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirChapeau.SetBonus")
-            ));
-
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("IntergelacticCloche").Type, (Func<string>)(() =>
+            if (ModLoader.HasMod("CalamityEntropy"))
             {
-                string intergelacticAll = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]");
-                string intergelacticRadiant = Language.GetTextValue("Mods.CalamityBardHealer.Items.IntergelacticCloche.SetBonus");
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirBiretta").Type, (Func<string>)(() =>
+                    Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirBiretta.SetBonus")
+                ));
 
-                return $"{intergelacticAll}\n{intergelacticRadiant}";
-            }));
-
-            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("IntergelacticProtectorHelm").Type, (Func<string>)(() =>
-            {
-                string intergelacticAll = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]");
-                string intergelacticSymphonic = Language.GetTextValue("Mods.CalamityBardHealer.Items.IntergelacticProtectorHelm.SetBonus");
-
-                return $"{intergelacticAll}\n{intergelacticSymphonic}";
-            }));
+                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirChapeau").Type, (Func<string>)(() =>
+                    Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirChapeau.SetBonus")
+                ));
+            }
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("HydrothermicHat").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.CalamityBardHealer.Items.HydrothermicHat.SetBonus")

@@ -26,7 +26,7 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                     tooltip.Text = "+5% к точности";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Automatic").Type)
-                    tooltip.Text = "Полная автоматизация\nОружие может атаковать самостоятельно";
+                    tooltip.Text = "Полная автоматизация\nОружие атакует самостоятельно";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Burst").Type)
                 {
@@ -40,7 +40,7 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                 }
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Candid").Type)
-                    tooltip.Text = "Не выпускает снаряды";
+                    tooltip.Text = "Не может выпускать снаряды";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Consistent").Type)
                     tooltip.Text = "Атакует последнего поражённого врага";
@@ -57,11 +57,11 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                         tooltip.Text = "Автоатака";
 
                     if (tooltip.Text == "Weapon needs to rev in order to fire")
-                        tooltip.Text = "Перед началом атаки оружие должно разогреться";
+                        tooltip.Text = "Перед началом атаки оружие должно зарядиться";
                 }
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Efficient").Type)
-                    tooltip.Text = "+1 к дальности";
+                    tooltip.Text = "+1 ед. к дальности";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Energetic").Type)
                     tooltip.Text = "Постоянное нанесение урона увеличивает скорость восстановления маны";
@@ -70,12 +70,12 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                     tooltip.Text = "Атаки и снаряды взрываются при попадании по врагу";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Extended").Type)
-                    tooltip.Text = "+3 к дальности";
+                    tooltip.Text = "+3 ед. к дальности";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Fatal").Type)
                 {
                     if (tooltip.Text == "+7 armor penetration\nDeal more damage against enemies that are low on health")
-                        tooltip.Text = "+7 ед. к пробиванию брони\nНаносит больше урона врагам с пониженным здоровьем";
+                        tooltip.Text = "+7 ед. к пробиванию брони\nНаносит больше урона врагам с небольшим количеством здоровьем";
 
                     if (tooltip.Text == "Does not work on bosses")
                         tooltip.Text = "Не работает на боссах";
@@ -93,23 +93,23 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                         tooltip.Text = "Иногда выстреливает тремя снарядами за раз";
 
                     if (tooltip.Text == "Uses more mana during triple shot")
-                        tooltip.Text = "Во время тройного выстрела используется больше маны";
+                        tooltip.Text = "Во время тройного выстрела расходуется больше маны";
                 }
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Long").Type)
-                    tooltip.Text = "+4 к дальности";
+                    tooltip.Text = "+4 ед. к дальности";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Meditating").Type)
                     tooltip.Text = "+1 ед. к скорости регенерации маны";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Modified").Type)
-                    tooltip.Text = "Атаки иногда выстреливают ракетой";
+                    tooltip.Text = "Атаки иногда запускают в направлении курсора ракету";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Monstrous").Type)
                     tooltip.Text = "+5 ед. к пробиванию брони";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Optimized").Type)
-                    tooltip.Text = "+2 к дальности";
+                    tooltip.Text = "+2 ед. к дальности";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Protective").Type)
                     tooltip.Text = "Увеличивает защиту соразмерно количеству активных стражей";
@@ -118,7 +118,7 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                     tooltip.Text = "+1 ед. к скорости регенерации здоровья";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Scoped").Type)
-                    tooltip.Text = "Нажмите ПКМ, чтобы отдалить\nЧем дольше вы отдаляете перед выстрелом, тем больше увеличивается урон, точность и ускорение снаряда";
+                    tooltip.Text = "Нажмите ПКМ, чтобы отдалить\nЧем дольше вы отдаляете перед выстрелом, тем сильнее увеличивается урон, точность и скорость снаряда";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Sentient").Type)
                 {
@@ -130,19 +130,19 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                 }
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Unrelenting").Type)
-                    tooltip.Text = "Постоянное нанесение урона увеличивает скорость регенерации здоровья";
+                    tooltip.Text = "Постоянное нанесение урона постепенно увеличивает скорость регенерации здоровья";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Unstoppable").Type)
-                    tooltip.Text = "Постоянное нанесение урона увеличивает защиту";
+                    tooltip.Text = "Постоянное нанесение урона постепенно увеличивает защиту";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Worthless").Type)
                     tooltip.Text = "Этот предмет бесполезен";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Vorpal").Type)
-                    tooltip.Text = "Увеличенный урон против боссов";
+                    tooltip.Text = "Увеличенный урон на боссах";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Zany").Type)
-                    tooltip.Text = "Не использует ману";
+                    tooltip.Text = "Не расходует ману";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Unerring").Type)
                     tooltip.Text = "+100% к точности";

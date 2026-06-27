@@ -2,8 +2,6 @@ using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using CalamityMod;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 
 internal class ClamitySetBonuses : ModSystem

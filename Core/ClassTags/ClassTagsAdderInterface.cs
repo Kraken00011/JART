@@ -12,6 +12,6 @@ namespace JAtRT.Core.ClassTags
     public interface ItemTagsRemover
     {
         bool IsEnabled { get; }
-        List<(int ItemType, string TagName, string ModName)> RemovedItems { get; } // ← 3 элемента
+        List<(int ItemType, string TagName, string ModName)> RemovedItems { get; }
     }
 }

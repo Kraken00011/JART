@@ -3,12 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using System.Linq;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
-using JAtRT.Core.Config;
 using JAtRT.Core.ClassTags;
-
-namespace JAtRT.Core.ClassTags.Items;
 
 public class SplitClassTags : ItemTagsAdder
 {

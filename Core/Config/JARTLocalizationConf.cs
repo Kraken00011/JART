@@ -1,6 +1,5 @@
 using System.ComponentModel;
 using System.Data.Common;
-using System.Security.Cryptography.X509Certificates;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
 
@@ -79,6 +78,12 @@ public class JARTLocalizationConf : ModConfig
     public bool CalamityBardHealerLocalization;
 
     [Header("SmallMod")]
+
+    [ReloadRequired]
+    [Label("Accessory Hearts")]
+    [Tooltip("Выключает перевод мода Accessory Hearts.")]
+    [DefaultValue(true)]
+    public bool AccessoryHeartsLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]
@@ -399,9 +404,4 @@ public class JARTClientCfg : ModConfig
 
     [DefaultValue(true)]
     public bool ExtraClassTags;
-
-    /*[DefaultValue(true)]
-    [Label("Особые цвета для классовых меток")]
-    [Tooltip("Даёт классовым меткам уникальные цвета, отличающиеся от цвета строки классового урона, тем самым выделяя их в описании предмета.\nПри выключении меняет цвет меток на тот же, что и у строк урона соответствующего класса.\nНе работает с метками Thorium")]
-    public bool UniqueColorsForTags;*/
 }

@@ -5,8 +5,6 @@ using System.Linq;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.Localization;
-using JAtRT.Common.Utilities;
-using JAtRT.Common;
 using JAtRT.Core.Config;
 
 namespace JAtRT.Core.ClassTags
@@ -35,13 +33,16 @@ namespace JAtRT.Core.ClassTags
                 tags.Add(("SorcererTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Sorcerer"), new Color(14, 129, 244)));
                 tags.Add(("SummonerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Summoner"), new Color(248, 112, 190)));
                 tags.Add(("ThrowerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Thrower"), new Color(255, 165, 60)));
+
+                if (ModLoader.HasMod("CalamityMod"))
+                    tags.Add(("TrueWarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.TrueWarrior"), new Color(229, 25, 25)));
+
+                if (ModLoader.HasMod("Split"))
+                    tags.Add(("HeavyWarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.HeavyWarrior"), new Color(229, 25, 25)));
             }
 
             if (ModLoader.HasMod("CalamityMod"))
                 tags.Add(("RogueTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.RogueClass"), new Color(255, 137, 0)));
-
-            if (ModLoader.HasMod("CalamityMod") && ModLoader.HasMod("ThoriumClassTagsConsistency"))
-                tags.Add(("TrueWarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.TrueWarrior"), new Color(229, 25, 25)));
 
             if (ModLoader.HasMod("ThoriumMod"))
             {
@@ -53,20 +54,7 @@ namespace JAtRT.Core.ClassTags
             }
 
             if (ModLoader.HasMod("SOTS"))
-            {
                 tags.Add(("VoidTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Void"), new Color(153, 50, 204)));
-                /*tags.Add(("VoidMeleeTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidMelee"), new Color(72, 17, 174)));
-                tags.Add(("VoidRangerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidRanger"), new Color(72, 17, 174)));
-                tags.Add(("VoidSorcererTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidSorcerer"), new Color(72, 17, 174)));
-                tags.Add(("VoidSummonerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidSummoner"), new Color(72, 17, 174)));*/
-            }
-
-            /*if (ModLoader.HasMod("SOTSBardHealer"))
-            {
-                tags.Add(("VoidThrowerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidThrower"), new Color(72, 17, 174)));
-                tags.Add(("VoidHealerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.VoidHealer"), new Color(72, 17, 174)));
-                tags.Add(("VoidBardTag", Language.GetTextValue("Mods.JAtRT.Tags.SOTSBardHealer.VoidBard"), new Color(72, 17, 174)));
-            }*/
 
             if (ModLoader.HasMod("Redemption"))
                 tags.Add(("RitualistTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Ritualist"), new Color(255, 69, 0)));
@@ -76,9 +64,6 @@ namespace JAtRT.Core.ClassTags
 
             if (ModLoader.HasMod("RoA"))
                 tags.Add(("DruidTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Druid"), new Color(34, 139, 34)));
-
-            if (ModLoader.HasMod("Split"))
-                tags.Add(("HeavyWarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.HeavyWarrior"), new Color(229, 25, 25)));
 
             Tags = tags.ToArray();
         }

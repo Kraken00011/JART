@@ -45,7 +45,7 @@ public class CalamityShoesSlotPatch : OnPatcher
             case 10: // Слот аксессуара
                 Main.hoverItemName = "Ботинки";
                 break;
-            case 11: // Слот украшения
+            case 11: // Украшение
                 Main.hoverItemName = "Внешний вид: Ботинки";
                 break;
             case 12: // Краситель

@@ -1,0 +1,21 @@
+Items: {
+	YharonsHeart: {
+		DisplayName: Сердце Ярона
+		Tooltip: ""
+	}
+
+	HeartOfNature: {
+		DisplayName: Сердце природы
+		Tooltip: ""
+	}
+
+	CelestialHeart: {
+		DisplayName: Небесное сердце
+		Tooltip: ""
+	}
+
+	HeartOfTerraria: {
+		DisplayName: Сердце Террарии
+		Tooltip: ""
+	}
+}
