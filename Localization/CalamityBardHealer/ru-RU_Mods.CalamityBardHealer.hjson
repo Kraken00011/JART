@@ -114,7 +114,7 @@ Items: {
 			'''
 			Стреляет небольшой метелью из сосулек
 			'Аналог с северного полюса'
-			Основано на ксилофоне из «Antarctic Reinforcement» за авторством DM Dokuro
+			Основаны на ксилофоне из «Antarctic Reinforcement» за авторством DM Dokuro
 			'''
 	}
 
@@ -545,7 +545,7 @@ Items: {
 			Каждые 5 ударов, соблюдающих ритм, призывает особого промозглого ползуна, сражающегося за вас
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'Песня коллективного разума искажения'
-			Основано на флейте из «Filthy Mind» за авторством DM Dokuro и SixteenInMono
+			Основана на флейте из «Filthy Mind» за авторством DM Dokuro и SixteenInMono
 			'''
 	}
 
@@ -567,7 +567,7 @@ Items: {
 			Игнорирует 20 ед. защиты
 			Стреляет ракетами с чумными роевиками, постоянно атакующими свою цель
 			'MAKE SOME NOOOOOIIISE!'
-			Основано на чиптюн звуке из «Fly of Beelzebub» за авторством DM Dokuro
+			Основан на чиптюн звуке из «Fly of Beelzebub» за авторством DM Dokuro
 			'''
 	}
 
@@ -727,7 +727,7 @@ Items: {
 			Нажмите ПКМ, чтобы одновременно призвать 6 кристаллов астрального пламени, расходуя больше очков вдохновения
 			При попадании накладывает дебафф [cbuff:CalamityMod/AstralInfectionDebuff]
 			'Бесподобные риффы, слышные аж на другом конце вселенной!'
-			Основано на гитарном соло из «Interstellar Stomper» за авторством DM Dokuro
+			Основан на гитарном соло из «Interstellar Stomper» за авторством DM Dokuro
 			'''
 	}
 
@@ -796,7 +796,7 @@ Items: {
 			'''
 			Стреляет каскадом зубных сфер, разрывающихся на множество зубов
 			При попадании накладывает дебаффы [cbuff:Venom] и [cbuff:CalamityMod/SulphuricPoisoning]
-			Основано на странно звучащей меди из «Toxic Wisdom» за авторством DM Dokuro
+			Основана на странно звучащей меди из «Toxic Wisdom» за авторством DM Dokuro
 			'''
 	}
 
@@ -975,9 +975,9 @@ Items: {
 			Вместо раскручивания взмахивает косой по диагонали
 			Стреляет самонаводящимися звёздами, способными наносить урон несколько раз одному и тому же врагу
 			Имеет комбо из трёх взмахов:
-			При каждом 1 взмахе выстреливает одной самонаводящейся звездой
-			При каждом 2 взмахе выстреливает тремя самонаводящимися звёздами
-			При каждом 3 взмахе коса раскручивается вокруг игрока и выстреливает до 6 самонаводящихся звёзд
+			    При каждом 1 взмахе выстреливает 1 самонаводящейся звездой
+			    При каждом 2 взмахе выстреливает 3 самонаводящимися звёздами
+			    При каждом 3 взмахе коса раскручивается вокруг игрока и выстреливает до 6 самонаводящихся звёзд
 			'Невероятно плотная, прямо как твоя мамка'
 			'''
 	}
@@ -1565,10 +1565,10 @@ Configs: {
 				Конвертирует некоторые предметы Calamity в предмета класса бард и целитель.
 				Может немного перерабатывать соответствующие предметы, чтобы они лучше соответствовали своему новому классу.
 				Изменённые предметы:
-				-[i:CalamityMod/AnahitasArpeggio]{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName} -> Струнный инструмент, поведение переработано.
-				-[i:CalamityMod/BelchingSaxophone]{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName} -> Медный инструмент.
-				-[i:CalamityMod/FaceMelter]{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName} -> Гибрид электрического и струнного инструмента, поведение переработано.
-				-[i:CalamityMod/RelicOfConvergence]{$Mods.CalamityMod.Items.Tools.RelicOfConvergence.DisplayName} -> Исцеляющее заклинание, базовое количество исцеления увеличено, чтобы быть на том же уровне, что и другие заклинания.
+				-[i:CalamityMod/AnahitasArpeggio] {$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName} -> Струнный инструмент, поведение переработано.
+				-[i:CalamityMod/BelchingSaxophone] {$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName} -> Медный инструмент.
+				-[i:CalamityMod/FaceMelter] {$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName} -> Гибрид электрического и струнного инструмента, поведение переработано.
+				-[i:CalamityMod/RelicOfConvergence] {$Mods.CalamityMod.Items.Tools.RelicOfConvergence.DisplayName} -> Исцеляющее заклинание, базовое количество исцеления увеличено, чтобы быть на том же уровне по силе, что и другие заклинания.
 				'''
 		}
 
