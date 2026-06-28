@@ -21,9 +21,8 @@ internal class ClamitySetBonuses : ModSystem
             }));
 
             tru.Call("AddArmorSetBonusPreview", clam.Find<ModItem>("ClamitasShellmet").Type, (Func<string>)(() =>
-            {
-                return Language.GetTextValue("Mods.Clamity.Items.Armor.Clamitas.ClamitasShellmet.SetBonus");
-            }));
+                Language.GetTextValue("Mods.Clamity.Items.Armor.Clamitas.ClamitasShellmet.SetBonus")
+            ));
         }
     }
 }

@@ -18,33 +18,25 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
         {
             if (tooltip.Text == "-Thrower-")
-            {
                 tooltip.Text = "-Метатель-";
-            }
         });
 
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
         {
             if (tooltip.Text == "-Rogue-")
-            {
                 tooltip.Text = "-Разбойник-";
-            }
         });
 
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
         {
             if (tooltip.Text == "-Malevolent-")
-            {
                 tooltip.Text = "-Веролом-";
-            }
         });
 
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThrowerUnification" && l.Name == "ThrowerTag", tooltip =>
         {
             if (tooltip.Text == "-Kinetic-")
-            {
                 tooltip.Text = "-Кинетик-";
-            }
         });
 
         if (ModLoader.HasMod("SOTSBardHealer"))
@@ -58,12 +50,12 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
                         }
                         else
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"{num} ед. пустотного и метательного урона";
                         }
                     });
@@ -76,12 +68,12 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м"))
                                 tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
                         }
                         else
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м"))
                                 tooltip.Text = $"{num} ед. пустотного и разбойного урона";
                         }
                     });
@@ -94,12 +86,12 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
                         }
                         else
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"{num} ед. пустотного и вероломного урона";
                         }
                     });
@@ -112,12 +104,12 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes && (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue"))))
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
                         }
                         else
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"{num} ед. пустотного и кинетического урона";
                         }
                     });
@@ -131,12 +123,12 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
                         }
                         else
                         {
-                            if (tooltip.Text.Contains("пустотного и"))
+                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
                                 tooltip.Text = $"{num} ед. пустотного и {custom} урона";
                         }
                     });
