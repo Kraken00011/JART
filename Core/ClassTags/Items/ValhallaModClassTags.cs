@@ -17,45 +17,66 @@ public class ValhallaModClassTags : ItemTagsAdder
             // Class Tags
             string[] Warrior =
             {
-                "",
-                "",
-                "",
-                ""
+                "BeeNecklace",
+                "BerserkNeck",
+                "CorrodeHelmet",
+                "EvilLegs",
+                // Warrior-Ranger
+                "LostPegleg",
+                // Warrior-Summoner
+                "EvilBody"
             };
 
             string[] Ranger =
             {
-                "",
-                "",
-                "",
-                ""
+                "NightScope",
+                "CorrodeMask",
+                "SniperBody",
+                "SniperHead",
+                "SniperLegs",
+                "DartPotion",
+                // Warrior-Ranger
+                "LostPegleg"
             };
 
             string[] Sorcerer =
             {
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "CrystalSkull",
+                "ManaForDummies",
+                "SkullCuffs",
+                "TinOfTuna",
+                "UniversalMagnifyingGlass",
+                "CorrodeHood",
+                "InfiniteManaPotion"
             };
 
             string[] Summoner =
             {
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "JadeElephant",
+                "NutfulNecklace",
+                "SquareRoot",
+                "BeeHelmet",
+                "BeeMask",
+                "CorrodeHead",
+                "EvilHead",
+                "FlinxFurBolero",
+                "HiveHead",
+                "HiveLegs",
+                "HiveMask",
+                "AuraPlusPotion",
+                "SentryPlusPotion",
+                // Warrior-Summoner
+                "EvilBody"
+            };
+
+            string[] Thrower =
+            {
+                "BouncyLubricant",
+                "SwiftSwatter",
+                "VulturesPlume",
+                "GreediestBody",
+                "GreediestHead",
+                "GreediestLegs"
             };
 
             if (ModLoader.HasMod("ValhallaMod"))
@@ -64,6 +85,7 @@ public class ValhallaModClassTags : ItemTagsAdder
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Ranger, "RangerTag", "ValhallaMod"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Sorcerer, "SorcererTag", "ValhallaMod"));
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Summoner, "SummonerTag", "ValhallaMod"));
+                result.AddRange(ClassTagsAdderHelper.GetTaggedItems(Thrower, "ThrowerTag", "ValhallaMod"));
             }
 
             return result;
