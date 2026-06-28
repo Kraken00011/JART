@@ -3,8 +3,6 @@ using System.Linq;
 using System.Reflection;
 using MonoMod.Cil;
 using Mono.Cecil.Cil;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using JAtRT.Core.MonoMod;
 using Terraria;

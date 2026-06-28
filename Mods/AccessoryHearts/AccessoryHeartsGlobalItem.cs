@@ -44,7 +44,7 @@ public partial class AccessoryHeartsGlobalItem : GlobalItem
                 if (tooltip.Name == "ConditionText" && item.type == ModContent.Find<ModItem>("AccessoryHearts/HeartOfTerraria").Type)
                 {
                     if (tooltip.Text == "A heart has been consumed. How virtueless...")
-                        tooltip.Text = "Одно из сердец было использовано. Похоже вам не хватило силы воли...";
+                        tooltip.Text = "Сердце было использовано. Похоже вам всё-таки не хватило силы воли...";
 
                     if (tooltip.Text == "Your virtue is truly remarkable")
                         tooltip.Text = "Ваша сила воли действительно поражает.";

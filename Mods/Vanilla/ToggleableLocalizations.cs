@@ -394,10 +394,6 @@ public class ToggleableLocalizations : OnPatcher
 				modpath, @"JAtRT\Localization\HomewardWorldGenFix\ru-RU_Mods.HomewardWorldGenFix.hjson"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.EverwareLocalization, "Everware",
-				modpath, @"JAtRT\Localization\Everware\ru-RU_Mods.Everware.hjson"))
-					continue;
-
 				// 1.5.0.0
 
 				if (Skip(JARTLocalizationConf.Instance.PinnacleReforgesLocalization, "PinnacleReforges",

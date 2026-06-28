@@ -23,7 +23,7 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
         {
             if (i != 0)
             {
-                //Метатель
+                // Метатель
                 if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
                 {
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Разбойный", "Метательный");
@@ -65,7 +65,7 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "вероломную", "метательную");
                 }
 
-                //Разбойник
+                // Разбойник
                 if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
                 {
                     tooltips[i].Text = Regex.Replace(tooltips[i].Text, "Метательный", "Разбойный");

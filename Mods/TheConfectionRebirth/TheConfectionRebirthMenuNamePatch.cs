@@ -81,6 +81,6 @@ public class TheConfectionRebirthProgrammerArtMenuNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = Language.GetTextValue("Меню Confection 1.3.5.4"); // итоговый перевод
+        cursor.Next.Operand = Language.GetTextValue("Меню Confection 1.3.5.3"); // итоговый перевод
     };
 }

@@ -1046,17 +1046,46 @@ public class ArmorPrefixesPrefixes : ModSystem
             {
                 "HardlightCasque",
                 "VortiHat",
-                "",
-                "",
-                "",
+                "AkkaMask",
+                "AndroidHead",
+                "AndroidHead2",
+                "AndroidHead3",
+                "TiedsMask",
+                "DrillHeadHead",
+                "DruidHat",
+                "FowlCrown",
+                "InfectedMask",
+                "IntruderMask",
+                "KeepersVeil",
+                "KingSlayerMask",
+                "NebuleusMask",
+                "NebuleusMask2",
+                "OOMask",
+                "PZMask",
+                "SkullDiggerMask",
+                "AdamHead",
+                "OperatorHead",
+                "TBotEyes_Femi",
+                "TBotEyes_Masc",
+                "TBotGoggles_Femi",
+                "TBotGoggles_Masc",
+                "TBotVanityEyes",
+                "TBotVanityGoggles",
+                "VoltHead",
+                "ThornMask",
+                "ThornMask2",
+                "UkkoMask",
+                "ArchePatreonVanityHead",
+                "RainPatreonVanityBody",
+                "SpringtrapHead"
             });
 
             tru.Call("AddNeuterItems", red, new[]
             {
                 "VortiRobes",
-                "",
-                "",
-                "",
+                "HallamHoodie",
+                "NebuleusVanity",
+                "NebuleusVanity2"
             });
 
             tru.Call("AddPluralItems", red, new[]
@@ -1074,6 +1103,29 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "CommonGuardPlateMail",
                 "DragonLeadGreaves",
                 "DragonLeadRibplate",
+                "ElderWoodGreaves",
+                "LivingWoodLeggings",
+                "PureIronGreaves",
+                "HallamLeggings",
+                "TiedsLeggings",
+                "IntruderPants",
+                "SkySquiresGreaves",
+                "AndroidArmour",
+                "AndroidPants",
+                "JanitorPants",
+                "TBotVanityLegs",
+                "ArchePatreonVanityLegs",
+                "MercenarysLeggings",
+                "LizzyLegs",
+                "MedicLegs",
+                "RainPatreonVanityHead",
+                "RainPatreonVanityLegs",
+                "SneakloneLegs",
+                "SpringtrapLegs",
+                "AetherianGreaves",
+                "AetherianPlatemail",
+                "UnconLegs",
+                "UnconLegs2"
             });
         }
 
@@ -1218,6 +1270,26 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "TitanLeggings",
                 "AncientWarlockLeggings",
                 "WarlockLeggings"
+            });
+        }
+
+        if (ModLoader.TryGetMod("MulticlassArmors", out Mod multArm) && JARTLocalizationConf.Instance.MulticlassArmorsLocalization)
+        {
+            tru.Call("AddFeminineItems", multArm, new string[]
+            {
+                "ElderMagesHat"
+            });
+
+            tru.Call("AddNeuterItems", multArm, new string[]
+            {
+                "HeatVoltConductorVest"
+            });
+
+            tru.Call("AddPluralItems", multArm, new string[]
+            {
+                "HeatVoltConductorBoots",
+                "CavernaryFlameLeggings",
+                "AshensteelBoots"
             });
         }
     }

@@ -140,10 +140,6 @@ public class JARTLocalizationConf : ModConfig
     public bool EvilPylonLocalization;
 
     [ReloadRequired]
-    [DefaultValue(true)]
-    public bool EverwareLocalization;
-
-    [ReloadRequired]
     [Label("Experimental Infernum Extension")]
     [Tooltip("Выключает перевод мода Experimental Infernum Extension.")]
     [DefaultValue(true)]
@@ -220,6 +216,12 @@ public class JARTLocalizationConf : ModConfig
     public bool MoveSpeedFixLocalization;
 
     [ReloadRequired]
+    [Label("Multiclass Armors")]
+    [Tooltip("Выключает перевод мода Multiclass Armors.")]
+    [DefaultValue(true)]
+    public bool MulticlassArmorsLocalization;
+
+    [ReloadRequired]
     [DefaultValue(true)]
     public bool MunchiesLocalization;
 
@@ -252,6 +254,12 @@ public class JARTLocalizationConf : ModConfig
     [ReloadRequired]
     [DefaultValue(true)]
     public bool PolyphemalusLocalization;
+
+    [ReloadRequired]
+    [Label("Potion Slot")]
+    [Tooltip("Выключает перевод мода Potion Slot.")]
+    [DefaultValue(true)]
+    public bool PotionSlotsLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]

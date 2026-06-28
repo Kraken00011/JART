@@ -1,4 +1,3 @@
-using JAtRT.Common.Utilities;
 using Microsoft.Xna.Framework;
 using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;

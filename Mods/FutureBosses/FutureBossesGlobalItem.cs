@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using System.Globalization;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;
@@ -15,9 +13,7 @@ public partial class FutureBossesGlobalItem : GlobalItem
         foreach (TooltipLine tooltip in tooltips)
         {
             if (tooltip.Name == "Expert" && item.type == ModContent.Find<ModItem>("FutureBosses/Revenge").Type)
-            {
                 tooltip.Text = "";
-            }
         }
     }
 }

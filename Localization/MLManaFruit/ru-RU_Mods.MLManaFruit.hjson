@@ -1,38 +1,34 @@
-Mods: {
-	MLManaFruit: {
-		Items: {
-			ManaFruit: {
-				DisplayName: Фрукт маны
-				Tooltip: Навсегда увеличивает максимальный запас маны на 5
-			}
+Items: {
+	ManaFruit: {
+		DisplayName: Фрукт маны
+		Tooltip: Навсегда увеличивает максимальный запас маны на 5
+	}
 
-			ManaFruitSnow: {
-				DisplayName: Фрукт маны
-				Tooltip: Навсегда увеличивает максимальный запас маны на 5
-			}
-		}
+	ManaFruitSnow: {
+		DisplayName: Фрукт маны
+		Tooltip: Навсегда увеличивает максимальный запас маны на 5
+	}
+}
 
-		Tiles: {
-			ManaFruit.MapEntry: Фрукт маны
-			ManaFruitSnow.MapEntry: Фрукт маны
-		}
+Tiles: {
+	ManaFruit.MapEntry: Фрукт маны
+	ManaFruitSnow.MapEntry: Фрукт маны
+}
 
-		Acquisition.ManaFruit: Фрукт маны
+Acquisition.ManaFruit: Фрукт маны
 
-		Configs: {
-			ModConfigs: {
-				DisplayName: Конфигурация
-				Headers.General: Основное
+Configs: {
+	ModConfigs: {
+		DisplayName: Конфигурация
+		Headers.General: Основное
 
-				UseSnowVariant: {
-					Label: Использование снежного варианта
-					Tooltip:
-						'''
-						Заменяет фрукты маны на свою снежную вариацию.
-						Снежные фрукты будут расти в снежном биоме.
-						'''
-				}
-			}
+		UseSnowVariant: {
+			Label: Использование снежного варианта
+			Tooltip:
+				'''
+				Заменяет фрукты маны на свою снежную вариацию.
+				Снежные фрукты будут расти в снежном биоме.
+				'''
 		}
 	}
 }

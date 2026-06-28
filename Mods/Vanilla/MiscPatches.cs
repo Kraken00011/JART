@@ -21,40 +21,23 @@ public partial class MiscPatches : GlobalItem
             // Thorium
             if (ModLoader.HasMod("ThoriumMod"))
             {
-                if (tooltip.Name == "ScytheSoulCharge")
+                if (tooltip.Name == "HealerAmount" && !ModLoader.HasMod("NoxusBossRu")) // Почему-то именно с RUnion конфликтует
                 {
-                    string[] parts = tooltip.Text.Split(' ');
-                    string scytheSoulCharge = parts[1];
-                    if (int.TryParse(scytheSoulCharge, out int value))
+                    if (tooltip.Text.Contains("Heals ally life by "))
+                        tooltip.Text = tooltip.Text.Replace("Heals ally life by ", "Лечит союзника на ") + " ед. здоровья";
+
+                    if (tooltip.Text.Contains("Heals ally and player life by "))
+                        tooltip.Text = tooltip.Text.Replace("Heals ally and player life by ", "Лечит союзника и игрока на ") + " ед. здоровья";
+
+                    if (tooltip.Text.Contains("Steals "))
                     {
-                        string valueSuffix = LocalizedText.ApplyPluralization("{^0:эссенцию;эссенции;эссенций}", value);
-                        tooltip.Text = $"Даёт {scytheSoulCharge} {valueSuffix} души при прямом попадании";
+                        tooltip.Text = tooltip.Text.Replace("Steals ", "Крадёт ") + " ед. здоровья";
+                        tooltip.Text = tooltip.Text.Replace(" life", "");
                     }
+
+                    if (tooltip.Text.Contains("Heals ally life equal to your bonus healing"))
+                        tooltip.Text = "Лечит здоровье союзников на сумму, равную вашему бонусному исцелению";
                 }
-
-                if (tooltip.Name == "HealerAmount")
-                {
-                    if (!ModLoader.HasMod("NoxusBossRu")) // Почему-то именно с RUnion тут конфликт
-                    {
-                        if (tooltip.Text.Contains("Heals ally life by "))
-                            tooltip.Text = tooltip.Text.Replace("Heals ally life by ", "Лечит союзника на ") + " ед. здоровья";
-
-                        if (tooltip.Text.Contains("Heals ally and player life by "))
-                            tooltip.Text = tooltip.Text.Replace("Heals ally and player life by ", "Лечит союзника и игрока на ") + " ед. здоровья";
-
-                        if (tooltip.Text.Contains("Steals "))
-                        {
-                            tooltip.Text = tooltip.Text.Replace("Steals ", "Крадёт ") + " ед. здоровья";
-                            tooltip.Text = tooltip.Text.Replace(" life", "");
-                        }
-                    }
-                }
-
-                if (tooltip.Name == "HealerTag" && (tooltip.Text == "-Healer Class-" || tooltip.Text == "-Целитель-"))
-                    tooltip.Text = "-Целитель-";
-
-                if (tooltip.Name == "ThrowerTag" && (tooltip.Text == "-Thrower Class-" || tooltip.Text == "-Метатель-"))
-                    tooltip.Text = "-Метатель-";
             }
 
             // ??? (При включении какого-то из модов у реликвий добавился этот текст в строке Master и я решил его перевести)

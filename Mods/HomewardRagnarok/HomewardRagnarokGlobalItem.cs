@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
-using JAtRT.Common;
 using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Terraria;

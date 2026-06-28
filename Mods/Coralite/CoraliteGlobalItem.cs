@@ -6,9 +6,6 @@ using Terraria.ModLoader;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
-using JAtRT.Core.Config;
 using Coralite.Content.Items.Gels;
 
     public class CoralitePatch : GlobalItem

@@ -4,8 +4,6 @@ using System.Text.RegularExpressions;
 using Microsoft.Xna.Framework;
 using MonoMod.Cil;
 using Mono.Cecil.Cil;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using JAtRT.Core.MonoMod;
 using Terraria;
@@ -15,7 +13,7 @@ using Terraria.ModLoader;
 
 public class TheDepthsMenuNamePatch : ILPatcher
 {
-    public override bool AutoLoad => ModLoader.HasMod("TheDepths") && Language.ActiveCulture.Name == "ru-RU";
+    public override bool AutoLoad => ModLoader.HasMod("TheDepths") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.TheDepthsFix;
 
     public override MethodBase ModifiedMethod
     {
