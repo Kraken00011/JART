@@ -257,9 +257,7 @@ public class MoreColoredDamageTypes : GlobalItem
 
                 // Consolaria
                 if (ModLoader.HasMod("Consolaria") && item.type == ModContent.Find<ModItem>("Consolaria/ShadowboundExoskeleton").Type && tooltip.Name == "Tooltip0")
-                {
                     tooltip.OverrideColor = new Color(255, 85, 85);
-                }
             }
         }
     }
