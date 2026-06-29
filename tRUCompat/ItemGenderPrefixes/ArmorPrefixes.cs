@@ -1293,7 +1293,7 @@ public class ArmorPrefixesPrefixes : ModSystem
             });
         }
 
-        if (ModLoader.TryGetMod("starforgedclassic", out Mod multArm) && JARTLocalizationConf.Instance.starforgedclassicLocalization)
+        if (ModLoader.TryGetMod("starforgedclassic", out Mod sfc) && JARTLocalizationConf.Instance.starforgedclassicLocalization)
         {
             tru.Call("AddFeminineItems", sfc, new string[]
             {

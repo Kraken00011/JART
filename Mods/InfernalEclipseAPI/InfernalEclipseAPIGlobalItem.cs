@@ -15,12 +15,12 @@ public partial class InfernalEclipseAPIGlobalItem : GlobalItem
     {
         foreach (TooltipLine tooltip in tooltips)
         {
-            if (tooltip.Name == "CalamityMod:HoldShiftTooltip" && (item.type == ModContent.ItemType<SoltanBullyingSlip>() || item.type == ModContent.ItemType<MysteriousDiary>()))
+            if (tooltip.Name == "CalamityMod:HoldShiftTooltip" && (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/SoltanBullyingSlip").Type || item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/MysteriousDiary").Type))
             {
                 tooltip.Text = "";
             }
 
-            if (tooltip.Name == "CalamityMod:HoldShiftExtensionIndicator" && (item.type == ModContent.ItemType<SoltanBullyingSlip>() || item.type == ModContent.ItemType<MysteriousDiary>()))
+            if (tooltip.Name == "CalamityMod:HoldShiftExtensionIndicator" && (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/SoltanBullyingSlip").Type || item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/MysteriousDiary").Type))
             {
                 tooltip.Text = "";
             }
