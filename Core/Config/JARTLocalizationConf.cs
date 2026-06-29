@@ -298,6 +298,12 @@ public class JARTLocalizationConf : ModConfig
     public bool SpiritofOverseerLocalization;
 
     [ReloadRequired]
+    [Label("Starforged [Classic]")]
+    [Tooltip("Выключает перевод мода Starforged [Classic].")]
+    [DefaultValue(true)]
+    public bool starforgedclassicLocalization;
+
+    [ReloadRequired]
     [DefaultValue(true)]
     public bool StartingWeaponsLocalization;
 

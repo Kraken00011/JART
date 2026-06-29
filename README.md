@@ -34,7 +34,7 @@
 - [Abyssal Subworld](https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193)
 - [Armor and Accessory Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3642521814)
 - [Armor Buffs](https://steamcommunity.com/sharedfiles/filedetails/?id=3637995559)
-- [Armor Modifiers & Reforging](https://steamcommunity.com/sharedfiles/filedetails/?id=2603400287) (Склонение брони)
+- [Armor Modifiers & Reforging](https://steamcommunity.com/sharedfiles/filedetails/?id=2603400287) (склонение брони)
 - [Better Zenith in Calamity](https://steamcommunity.com/sharedfiles/filedetails/?id=3024992349)
 - [Boss Cursor](https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149)
 - [Calamity Crossmod Vulnerabilities](https://steamcommunity.com/sharedfiles/filedetails/?id=3351534238)
@@ -48,7 +48,7 @@
 - [Experimental Infernum Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=3684683953)
 - [Extra Beginnings](https://steamcommunity.com/sharedfiles/filedetails/?id=3583751282)
 - [Extra World Sizes](https://steamcommunity.com/sharedfiles/filedetails/?id=3635922668)
-- [Everware](https://steamcommunity.com/sharedfiles/filedetails/?id=3667746751) (помощь с официальным переводом, моя версия перевода скоро будет удалена)
+- [Everware](https://steamcommunity.com/sharedfiles/filedetails/?id=3667746751) (помощь с официальным переводом)
 - [Fancy Whips](https://steamcommunity.com/sharedfiles/filedetails/?id=3070430423)
 - [Hollow Knight!](https://steamcommunity.com/sharedfiles/filedetails/?id=3614266835)
 - [Holospark Boots](https://steamcommunity.com/sharedfiles/filedetails/?id=3561388295)
@@ -63,9 +63,10 @@
 - [More Beams](https://steamcommunity.com/sharedfiles/filedetails/?id=3126202997)
 - [More Pylons](https://steamcommunity.com/sharedfiles/filedetails/?id=2974503494)
 - [Movement Speed Fixed](https://steamcommunity.com/sharedfiles/filedetails/?id=2718346308)
-- [Munchies - Consumables Checklist](https://steamcommunity.com/sharedfiles/filedetails/?id=3310041861) (Встройка в Munchies Crossmod Addon)
+- [Multiclass Armors](https://steamcommunity.com/sharedfiles/filedetails/?id=3745058467)
+- [Munchies - Consumables Checklist](https://steamcommunity.com/sharedfiles/filedetails/?id=3310041861) (встройка в Munchies Crossmod Addon)
 - [Munchies - Calamity Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3312725122)
-- [Munchies Crossmod Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3543514645) (Встройка)
+- [Munchies Crossmod Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3543514645) (встройка)
 - [Music Box Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=3269769148)
 - [Ore Helmets for Summoner](https://steamcommunity.com/sharedfiles/filedetails/?id=3295583831)
 - [Petrified Voodoo Doll](https://steamcommunity.com/sharedfiles/filedetails/?id=2877898368)
@@ -79,6 +80,7 @@
 - [Shoe Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=2917091521)
 - [Shroomaria](https://steamcommunity.com/sharedfiles/filedetails/?id=3645207017)
 - [Some Worm Bosses Actually Destroy Tiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3331419338)
+- [Starforged (Classic)](https://steamcommunity.com/workshop/filedetails/?id=3185508216)
 - [Starting Class Weapons Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=3548159221)
 - [Steam Achievement Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3021379176)
 - [Talisman of Friendship](https://steamcommunity.com/sharedfiles/filedetails/?id=2888895131)
@@ -104,7 +106,7 @@
 - [Cataclysm Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450) (Бывший [Clamity Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450))
 - [Compact Mods (For TML)](https://steamcommunity.com/sharedfiles/filedetails/?id=3388949976)
 - [The Depths](https://steamcommunity.com/sharedfiles/filedetails/?id=2882567428)
-- [Thrower Unification](https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309) (Встройка)
+- [Thrower Unification](https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309) (встройка)
 - [Tools Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3558996149)
 
 </details>
@@ -115,14 +117,14 @@
  - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно (Discord: Htoya23)
 
 **В моде также есть доп фишки кроме переводов**
-1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные ванильные теги (Воин и его вариации, Стрелок, Маг, а также Призыватель) начинают отображаться только если он включён)*
+1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные ванильные теги (Воин, Стрелок, Маг, Призыватель, Метатель, а также их вариации) начинают отображаться только если он включён)*
 
 2. *Конфигурация, в который в можете отключить ненужные вам переводы*
 
 <details><summary><b>Полный список совместимых модов (Без гиперссылок, сорри)</b></summary>
 
   **Большие моды:**
-   - Ванилла (Доп теги)
+   - Ванилла (доп теги)
    - Calamity Fables
    - Calamity Mod
    - Coralite
@@ -135,7 +137,8 @@
    - Spooky Mod
    - Synergia
    - Thorium Helheim
-   - Thorium Mod (Доп теги)
+   - Thorium Mod (доп теги)
+   - Vitality
 
   **Средние моды:**
    - Calamity Ranger Expansion
@@ -163,7 +166,9 @@
    - Cleffy
    - Flinx Ushanka
    - Inspiration Potions
+   - Multiclass Armors
    - Ore Helmets For Summoner
+   - Starforged [Classic]
    - Whip Accessories
 
    В скором времени добавится поддержка для ещё большего количества модов!

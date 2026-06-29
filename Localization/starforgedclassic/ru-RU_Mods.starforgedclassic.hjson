@@ -1,0 +1,111 @@
+Tiles.StarForgeTile.MapEntry: Звёздная кузня
+
+Items: {
+	AzuriteBarItem: {
+		DisplayName: Слиток из солнечных пластин
+		Tooltip: Он сияет лучезарной энергией
+	}
+
+	StarForgeItem: {
+		DisplayName: Звёздная кузня
+		Tooltip: Используется для создания слитков из солнечных пластин
+	}
+
+	CloudThrower: {
+		DisplayName: Облакострел
+		Tooltip:
+			'''
+			Использует гель в качестве боеприпасов
+			Выстреливает наносящими урон облаками, обливающими вашим врагов
+			'''
+	}
+
+	PlumeShot: {
+		DisplayName: Перьестрел
+		Tooltip: Конвертирует деревянные стрелы в острые как бритва перья
+	}
+
+	Solarang: {
+		DisplayName: Солнцеранг
+		Tooltip: Стреляет парой самонаводящихся бумерангов
+	}
+
+	ElysianScepter: {
+		DisplayName: Элизийский скипетр
+		Tooltip: Стреляет лучом солнечной энергии
+	}
+
+	SunplateGlove: {
+		DisplayName: Перчатка из солнечных пластин
+		Tooltip: Увеличивает урон на 2 ед.
+	}
+
+	SkyShield: {
+		DisplayName: Небесный щит
+		Tooltip:
+			'''
+			Днём увеличивает скорость регенерации здоровья и его максимальный запас
+			Ночью увеличивает пробивание брони и шанс критического удара
+			'Часовая стрелка переметнулась с 2 до 3, а затем до 4'
+			'''
+	}
+
+	MeteoricEdge: {
+		DisplayName: Кометный клеймор
+		Tooltip: При взмахе выстреливает взрывающимися космическими камнями
+	}
+
+	SunplateCrown: {
+		DisplayName: Корона из солнечных пластин
+		Tooltip: ЭТОТ ПРЕДМЕТ БЫЛ УДАЛЁН
+	}
+
+	SunplateCuirass: {
+		DisplayName: Кираса из солнечных пластин
+		Tooltip:
+			'''
+			Освещает при ношении
+			Увеличивает максимальный запас маны на 20
+			'''
+	}
+
+	SunplateLeggings: {
+		DisplayName: Поножи из солнечных пластин
+		Tooltip:
+			'''
+			Увеличивает скорость передвижения на 15%
+			Даёт невосприимчивость к урона при падении
+			'''
+	}
+
+	SunplateVisor: {
+		DisplayName: Визор из солнечных пластин
+		Tooltip: Увеличивает урон и скорость регенерации здоровья на 2 ед.
+	}
+
+	EphemeralAmulet: {
+		DisplayName: Эфемерный амулет
+		Tooltip: Поднятие звёзд маны исцеляет вас
+	}
+}
+
+Projectiles: {
+	CloudFlame.DisplayName: Облако
+	PlumeShotFeather.DisplayName: Перо
+	SolarangProjectile.DisplayName: Солнцеранг
+	ElysianScepterBeam.DisplayName: Элизиский спектральный луч
+	MeteoricEdgeStar.DisplayName: Meteoric Edge Star
+	CloudthrowerRain.DisplayName: Дождь облакострела
+}
+
+Buffs: {
+	DayShieldBuff: {
+		DisplayName: Благословение дня
+		Description: Скорость регенерации здоровья увеличена на 4 ед., а максимальный запас здоровья на 20
+	}
+
+	NightShieldBuff: {
+		DisplayName: Благословение ночи
+		Description: Пробивание брони увеличено на 10 ед., а шанс критического удара на 6%
+	}
+}

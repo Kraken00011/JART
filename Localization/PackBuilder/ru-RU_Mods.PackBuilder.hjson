@@ -1,56 +1,56 @@
 Configs: {
 	ClientConfig: {
-		// DisplayName: Client Config
+		// DisplayName: Клиентская конфигурация
 
 		DeveloperMode: {
-			// Label: Developer Mode
+			// Label: Режим разработчика
 			// Tooltip: ""
 		}
 
 		HideIgnoredDirectories: {
-			// Label: Hide Ignored Directories
-			// Tooltip: Hides directories that would be filtered by buildIgnore.
+			// Label: Скрыть пропущенные папки
+			// Tooltip: Скрывает папки, которые buildIgnore бы отфильтровал самостоятельно.
 		}
 
 		HideUnwantedDirectories: {
-			// Label: Hide Unwanted Directories
-			// Tooltip: Hides directories that tPackBuilder files generally wouldn't go in.
+			// Label: Скрыть ненужные папки
+			// Tooltip: Скрывает папки, которые обычно не находятся в tPackBuilder.
 		}
 	}
 }
 
-// ConfigCategory.ClientConfig.Description: ClientConfig
-// Keybinds.OpenBuilderInterface.DisplayName: Open Builder Interface
+// ConfigCategory.ClientConfig.Description: Клиентская конфигурация
+// Keybinds.OpenBuilderInterface.DisplayName: Открыть меню конструктора
 // Stupid: "{0}"
 
 UI: {
 	// Build: Build
-	// Edit: Edit
-	// Open: Open
-	// OpenExternal: Open in File Explorer
-	// Add: Add
-	// Save: Save
-	// Close: Close
-	// Delete: Delete
-	// Rename: Rename
-	// AuthorBy: by: {0}
-	// SelectMod: Select a mod...
+	// Edit: Изменить
+	// Open: Открыть
+	// OpenExternal: Открыть в файловом проводнике
+	// Add: Добавить
+	// Save: Сохранить
+	// Close: Закрыть
+	// Delete: Удалить
+	// Rename: Переименовать
+	// AuthorBy: от: {0}
+	// SelectMod: Выберите мод...
 
 	BuildProperties: {
 		// $parentVal: Build Properties
-		// DisplayName: Mod Name
-		// Author: Authors
-		// Version: Version
-		// HomepageUrl: Homepage
-		// StrongModReferences: Mod References
-		// WeakModReferences: Weak References
-		// ModsToSortBefore: Sort Before
-		// ModsToSortAfter: Sort After
+		// DisplayName: Название мода
+		// Author: Автор(ы)
+		// Version: Версия
+		// HomepageUrl: Домашняя страница
+		// StrongModReferences: Зависимости мода
+		// WeakModReferences: Необязательные зависимости
+		// ModsToSortBefore: Сортировать до
+		// ModsToSortAfter: Сортировать после
 		// AssemblyReferences: Library References
 	}
 
-	// EditDescription: Edit Desc.
-	// ElementNamePrompt: Name...
+	// EditDescription: Изменить опис.
+	// ElementNamePrompt: Название...
 	// RootDirectory: <root>
 	// ReturnDirectory: .. [c/9c9c9c:(up a level)]
 }

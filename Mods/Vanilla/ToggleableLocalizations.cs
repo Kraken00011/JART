@@ -424,6 +424,10 @@ public class ToggleableLocalizations : OnPatcher
 				modpath, @"JAtRT\Localization\AccessoryHearts\ru-RU_Mods.AccessoryHearts.hjson"))
 					continue;
 
+				if (Skip(JARTLocalizationConf.Instance.starforgedclassicLocalization, "starforgedclassic",
+				modpath, @"JAtRT\Localization\starforgedclassic\ru-RU_Mods.starforgedclassic.hjson"))
+					continue;
+
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
 

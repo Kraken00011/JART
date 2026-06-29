@@ -1292,5 +1292,19 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "AshensteelBoots"
             });
         }
+
+        if (ModLoader.TryGetMod("starforgedclassic", out Mod multArm) && JARTLocalizationConf.Instance.starforgedclassicLocalization)
+        {
+            tru.Call("AddFeminineItems", sfc, new string[]
+            {
+                "SunplateCrown",
+                "SunplateCuirass"
+            });
+
+            tru.Call("AddPluralItems", sfc, new string[]
+            {
+                "SunplateLeggings",
+            });
+        }
     }
 }

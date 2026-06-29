@@ -31,6 +31,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [list]
 [*] 7 Useful Items from Minecraft
 [*] Abyssal Subworld
+[*] Accessory Hearts
 [*] Armor and Accessory Prefixes
 [*] Armor Buffs
 [*] Armor Modifiers & Reforging (склонение брони из кучи модов)
@@ -42,6 +43,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Clamity Music
 [*] Cosmic Elemental Returns
 [*] Discordya
+[*] Everware (помощь с официальным переводом)
 [*] Extra Beginnings
 [*] Extra World Sizes
 [*] Fancy Whips
@@ -63,6 +65,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Music Box Slot
 [*] Ore Helmets for Summoner
 [*] Petrified Voodoo Doll
+[*] Potion Slots
 [*] Playthrough Modlist Loader
 [*] Polyphemalus (Calamity Fandom Boss)
 [*] Reforged
@@ -70,6 +73,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Shimmer Gun
 [*] Shroomaria
 [*] Some Worm Bosses Actually Destroy Tiles
+[*] Starforged [Old]
 [*] Starting Class Weapons Reborn
 [*] Steam Achievement Fix
 [*] Talisman of Friendship
@@ -107,6 +111,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 Перевод:
 [list]
 [*] Synergia и моды связанные с ней
+[*] QuestBooks
 [*] Coralite
 [*] GaMeTerraria
 [*] Forgotten Evils

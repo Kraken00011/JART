@@ -140,13 +140,17 @@ Configs: {
 
 		DuplicateArmorEctoMist: {
 			Label: Дубликаты брони через экто-туман
-			Tooltip: Выставляет приоритет шлемам из Unofficial Calamity Bard & Healer, версии из Ragnarok всё ещё можно получить через экто-туман.
+			Tooltip: 
+				'''
+				Выставляет приоритет шлемам из Unofficial Calamity Bard & Healer.
+				Версии из мода Ragnarok всё ещё можно получить через экто-туман.
+				'''
 		}
 	}
 }
 
 Config: {
-	ChatWarnings: Чат-предупреждения
+	ChatWarnings: Чат-оповещения
 	MultiModMergeOptions: Объединение деревьев создания из разных модов
 	ClassChanges: Изменения переработок классов
 	DebugOptions: Изменения отладки
