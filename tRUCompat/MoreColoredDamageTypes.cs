@@ -250,17 +250,15 @@ public class MoreColoredDamageTypes : GlobalItem
             {
                 // Calamity Bard Healer
                 if (ModLoader.HasMod("CalamityBardHealer") && (item.type == ModContent.Find<ModItem>("CalamityBardHealer/YharimsJam").Type || item.type == ModContent.Find<ModItem>("CalamityBardHealer/ScreamingClam").Type
-                || item.type == ModContent.Find<ModItem>("CalamityBardHealer/NoisebringerGoliath").Type))
+                || item.type == ModContent.Find<ModItem>("CalamityBardHealer/NoisebringerGoliath").Type) && tooltip.Name == "Tooltip0")
                 {
-                    if (tooltip.Name == "Tooltip0")
-                        tooltip.OverrideColor = new Color(255, 138, 248);
+                    tooltip.OverrideColor = new Color(255, 138, 248);
                 }
 
                 // Consolaria
-                if (ModLoader.HasMod("Consolaria") && item.type == ModContent.Find<ModItem>("Consolaria/ShadowboundExoskeleton").Type)
+                if (ModLoader.HasMod("Consolaria") && item.type == ModContent.Find<ModItem>("Consolaria/ShadowboundExoskeleton").Type && tooltip.Name == "Tooltip0")
                 {
-                    if (tooltip.Name == "Tooltip0")
-                        tooltip.OverrideColor = new Color(255, 85, 85);
+                    tooltip.OverrideColor = new Color(255, 85, 85);
                 }
             }
         }
