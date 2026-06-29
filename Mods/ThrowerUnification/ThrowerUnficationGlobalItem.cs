@@ -71,59 +71,59 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                             }
                         }
                     }
-                }
 
-                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
-                {
-                    if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
                     {
-                        string num = tooltip.Text.Split(' ')[0];
-                        if (TRuConfig.Instance.ColoredDamageTypes)
+                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                         {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
-                        }
-                        else
-                        {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"{num} ед. пустотного и вероломного урона";
+                            string num = tooltip.Text.Split(' ')[0];
+                            if (TRuConfig.Instance.ColoredDamageTypes)
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
+                            }
+                            else
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"{num} ед. пустотного и вероломного урона";
+                            }
                         }
                     }
-                }
 
-                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
-                {
-                    if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
                     {
-                        string num = tooltip.Text.Split(' ')[0];
-                        if (TRuConfig.Instance.ColoredDamageTypes)
+                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                         {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
-                        }
-                        else
-                        {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"{num} ед. пустотного и кинетического урона";
+                            string num = tooltip.Text.Split(' ')[0];
+                            if (TRuConfig.Instance.ColoredDamageTypes)
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
+                            }
+                            else
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"{num} ед. пустотного и кинетического урона";
+                            }
                         }
                     }
-                }
 
-                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
-                {
-                    if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
                     {
-                        string num = tooltip.Text.Split(' ')[0];
-                        string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
-                        if (TRuConfig.Instance.ColoredDamageTypes)
+                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                         {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
-                        }
-                        else
-                        {
-                            if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                tooltip.Text = $"{num} ед. пустотного и {custom} урона";
+                            string num = tooltip.Text.Split(' ')[0];
+                            string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
+                            if (TRuConfig.Instance.ColoredDamageTypes)
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
+                            }
+                            else
+                            {
+                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
+                                    tooltip.Text = $"{num} ед. пустотного и {custom} урона";
+                            }
                         }
                     }
                 }
