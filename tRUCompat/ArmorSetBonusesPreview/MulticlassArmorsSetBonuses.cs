@@ -14,27 +14,27 @@ internal class MulticlassArmorsSetBonuses : ModSystem
         if (tru != null && hmOreHelms != null)
         {
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("HeatVoltConductorHelmet").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.HeatVoltConductorHelmet.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.HeatVoltConductorHelmet.SetBonus")
             ));
 
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("CavernaryFlameHeadgear").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.CavernaryFlameHeadgear.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.CavernaryFlameHeadgear.SetBonus")
             ));
 
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("CavernaryFlameHelm").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.CavernaryFlameHelm.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.CavernaryFlameHelm.SetBonus")
             ));
 
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("ElderMagesHat").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.ElderMagesHat.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.ElderMagesHat.SetBonus")
             ));
 
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("AshensteelHood").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.AshensteelHood.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.AshensteelHood.SetBonus")
             ));
 
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("AshensteelHelm").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.MulticlassArmors.AshensteelHelm.SetBonus")
+                Language.GetTextValue("Mods.MulticlassArmors.Items.AshensteelHelm.SetBonus")
             ));
         }
     }

@@ -15,7 +15,6 @@ public class ArmorPrefixesPrefixes : ModSystem
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
 
-        // Сортировал по ID!!!
         if (TRuConfig.Instance.VanillaLocalization)
         {
             tru.Call("AddVanillaFeminineItems", new int[]
@@ -1304,6 +1303,55 @@ public class ArmorPrefixesPrefixes : ModSystem
             tru.Call("AddPluralItems", sfc, new string[]
             {
                 "SunplateLeggings",
+            });
+        }
+
+        if (ModLoader.TryGetMod("PathOfTerraria", out Mod pot) && TRuConfig.Instance.PathOfTerrariaLocalization)
+        {
+            tru.Call("AddFeminineItems", pot, new string[]
+            {
+                "ApprenticeRobe",
+                "AstralforgedAegis",
+                "BatteredMail",
+                "Breastplate",
+                "EternalforgedAegis",
+                "EtherealMantle",
+                "HallowforgedCuirass",
+                "IronboundCuirass",
+                "ApprenticeCap",
+                "Crown",
+                "EtherealDiadem",
+                "FirelordsWill",
+                "SpectralVeil"
+            });
+
+            tru.Call("AddNeuterItems", pot, new string[]
+            {
+                "AcolyteVestment",
+                "MysticGarb",
+                "PyralisHeart",
+                "Visor",
+                "FallenKingsLegacy"
+            });
+
+            tru.Call("AddPluralItems", pot, new string[]
+            {
+                "BodyArmor",
+                "AcolyteSandals",
+                "ApprenticeSlippers",
+                "AstralforgedSabatons",
+                "BatteredGreaves",
+                "Boots",
+                "BurningRedBoots",
+                "EternalforgedSabatons",
+                "EtherealGreaves",
+                "Greaves",
+                "HallowforgedGreaves",
+                "IronboundGreaves",
+                "MysticBoots",
+                "SpectralStriders",
+                "Tassets",
+                "Treads"
             });
         }
     }
