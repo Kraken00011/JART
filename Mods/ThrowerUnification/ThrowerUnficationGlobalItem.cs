@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;

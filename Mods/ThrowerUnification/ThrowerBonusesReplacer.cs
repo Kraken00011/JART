@@ -1,13 +1,10 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using ThrowerUnification;
-using HomewardRagnarok.Config;
 
 public partial class ThrowerBonusesGlobalItem : GlobalItem
 {
@@ -15,9 +12,7 @@ public partial class ThrowerBonusesGlobalItem : GlobalItem
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         if (item.defense <= 0 && !item.accessory)
-        {
             return;
-        }
 
         for (int i = 0; i < tooltips.Count; i++)
         {
