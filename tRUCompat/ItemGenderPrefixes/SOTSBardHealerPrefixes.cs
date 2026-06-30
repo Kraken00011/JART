@@ -1,8 +1,6 @@
 using Terraria.Localization;
 using Terraria.ModLoader;
 using System.Collections.Generic;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 
 internal class SOTSBardHealerPrefixes : ModSystem
