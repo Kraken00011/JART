@@ -1,0 +1,164 @@
+/*Mods: {
+	TCH: {
+		Config: {
+			Gen: {
+				ThunderbirdIsland: {
+					Lable: Thunderwing Island Generation
+					Key: Enable generation of Thunderbird Island in desert.
+				}
+
+				MiniCaves: {
+					Lable: Mini Caves Generation
+					Key: Enable generation of Mini Caves.
+				}
+
+				EyeCave: {
+					Lable: Eye Cave Generation
+					Key: Enable generation of Eye Cave under spawn.
+				}
+
+				SkyIslandOcean: {
+					Lable: Sky Islands Generation
+					Key: Enable generation of sky islands over oceans.
+				}
+
+				JungleMiniHouses: {
+					Lable: Jungle Micro Structures Generation
+					Key: Enable generation of mini structures in jungle biome.
+				}
+
+				CozyHouse: {
+					Lable: Cozy House at spawn Generation
+					Key: Enable generation of cozy house at the player's spawn.
+				}
+
+				SkyIslandSpawn: {
+					Lable: Sky Island over spawn Generation
+					Key: Enable generation of sky island above the player's spawn.
+				}
+
+				ViscountArena: {
+					Lable: Viscount Mansion Generation
+					Key: Enable Blood Chamber rebuild.
+				}
+
+				DepthMiniHouses: {
+					Lable: Aquatic Depths Mini Houses Generation
+					Key: Enable generation of mini houses in Aquatic Depths biome.
+				}
+			}
+
+			LichArena: {
+				Enable: {
+					$parentVal: Lich Estate Generation
+					Tooltip: Enable Lich Estate after defeating all mechanical bosses.
+				}
+			}
+
+			IceCave: {
+				Enable: {
+					$parentVal: Borean Strider Grotto Generation
+					Tooltip: Spawn an ancient Ice Grotto in snowy depths after defeating Wall of Flesh.
+				}
+			}
+
+			MeteorIsland: {
+				Enable: {
+					$parentVal: Meteor Island Generation
+					Tooltip: Spawn a mysterious structure in space after a first meteorite falls.
+				}
+			}
+		}
+	}
+}
+
+Msg: {
+	Gen: {
+		InDesert: Создание острова громового крыла
+
+		InWorld: {
+			InIceCave: В снежных глубинах образовался древний морозный грот!
+			MeteorIsland: Таинственная структура образовалась в глубинах космоса!
+		}
+	}
+}
+
+Configs.Configs.DisplayName: Конфигурация
+
+Config: {
+	Gen: {
+		ThunderbirdIsland: {
+			Lable: Генерация острова громового крыла
+			Key: Включает/Выключает возможность генерации острова громового крыла в пустыне.
+		}
+
+		MiniCaves: {
+			Lable: Генерация мини-пещер
+			Key: Включает/Выключает возможность генерации мини-пещер.
+		}
+
+		EyeCave: {
+			Lable: Генерации глазовых пещер
+			Key: Включает/Выключает Enable generation of Eye Cave under spawn.
+		}
+
+		SkyIslandOcean: {
+			Lable: Sky Islands Generation
+			Key: Включает/Выключает generation of sky islands over oceans.
+		}
+
+		JungleMiniHouses: {
+			Lable: Jungle Micro Structures Generation
+			Key: Включает/Выключает generation of mini structures in jungle biomedddddddddddd
+		}
+
+		CozyHouse: {
+			Lable: Cozy House at spawn Generation
+			Key: Включает/Выключает generation of cozy house at the player's spawn.
+		}
+
+		SkyIslandSpawn: {
+			Lable: Sky Island over spawn Generation
+			Key: Включает/Выключает generation of sky island above the player's spawn.
+		}
+
+		ViscountArena: {
+			Lable: Viscount Mansion Generation
+			Key: Включает/Выключает Blood Chamber rebuild.
+		}
+
+		DepthMiniHouses: {
+			Lable: Aquatic Depths Mini Houses Generation
+			Key: Включает/Выключает generation of mini houses in Aquatic Depths biome.
+		}
+	}
+
+	LichArena: {
+		Enable: {
+			$parentVal: Lich Estate Generation
+			Tooltip: Включает/Выключает Lich Estate after defeating all mechanical bosses.
+		}
+	}
+
+	IceCave: {
+		Enable: {
+			$parentVal: Borean Strider Grotto Generation
+			Tooltip: Включает/Выключает Spawn an ancient Ice Grotto in snowy depths after defeating Wall of Flesh.
+		}
+	}
+
+	MeteorIsland: {
+		Enable: {
+			$parentVal: Генерация метеоритного острова
+			Tooltip: Spawn a mysterious structure in space after a first meteorite falls.
+		}
+	}
+
+	BeholderArena: {
+		Enable: {
+			$parentVal: Арена Созерцателя
+			Tooltip: ""
+		}
+	}
+}
+*/
