@@ -10,7 +10,6 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Corruption Core Boss
 [*] Infernal Eclipse of Ragnarok
 [*] Mech Bosses Rework
-[*] Unofficial Calamity Bard & Healer
 [/list]
 
 [h3]Средние моды[/h3]
@@ -24,6 +23,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Revengeance+
 [*] Calamity Simple Whip Addon
 [*] Spirit Classic Bosses Rework
+[*] Unofficial Calamity Bard & Healer
 [*] Unofficial SOTS Bard, Thrower and Healer
 [/list]
 
@@ -89,7 +89,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] You
 [/list]
 
-[h3]Также в моде есть фиксы уже имеющихся официальных локализаций[/h3]
+[h3]Также в моде есть «фиксы» уже имеющихся официальных локализаций[/h3]
 [list]
 [*] Calamity - Fargo's Souls DLC
 [*] Calamity: Hunt of the Old God
@@ -101,8 +101,8 @@ Just Another RU Translator (JART) - очередной мод-русификат
 
 [h3]Минимальный план на следующее обновление[/h3]
 [list]
-[*] Перевести [VSC Framework] Dialect; Thorium Helheim; TNTerraria и Unofficial Redemption Bard, Thrower & Healer
-[*] Пофиксить Calamity Ranger Expansion
+[*] Перевести Thorium Helheim; TNTerraria и Unofficial Redemption Bard, Thrower & Healer
+[*] Пофиксить переводы Calamity Ranger Expansion и Infernal Arsenal
 [*] Улучшение старых переводов (само собой)
 [*] Больше тегов!
 [/list]
@@ -121,7 +121,6 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Quality of Life Compendium
 [*] Terraria RPG Reborn
 [*] Модов от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
-[*] Всего модпака [url=https://steamcommunity.com/workshop/filedetails/?id=3456508757]IEoR[/url]
 [/list]
 
 [h3]Дополнительный контент кроме переводов[/h3]
