@@ -30,6 +30,6 @@ public class MunchiesVanillaNamePatch : ModSystem
         var current = field.GetValue(null);
         var nameField = current.GetType().GetField("ModTabName", BindingFlags.Public | BindingFlags.Instance);
 
-        nameField?.SetValue(current, "Ванилла");
+        nameField?.SetValue(current, "Террария");
     }
 }
