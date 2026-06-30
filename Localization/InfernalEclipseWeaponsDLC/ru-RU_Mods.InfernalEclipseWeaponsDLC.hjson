@@ -1,4 +1,4 @@
-UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
+/*UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
 
 Items: {
 	TwoPaths: {
@@ -1245,3 +1245,4 @@ Configs: {
 }
 
 "Keybinds.Absolute TV Remote Pause.DisplayName": Пауза высшего пульта от телевизора
+*/
