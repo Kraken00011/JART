@@ -337,7 +337,7 @@ NPCRenames: {
 	// ForgottenOne: Оболочка Забытого
 	// ForgottenOneCracked: Абиссион, Забытый
 	// ForgottenOneReleased: Абиссион, Забытый бог приливов
-	// DreamEater: Умирающая реальность, Рагнарёк
+	// DreamEater: Погибающая реальность, Рагнарёк
 }
 
 Toggler: {
@@ -388,7 +388,7 @@ InfernumIntros: {
 		''' */
 	/* DreamEater:
 		'''
-		Dying Reality
+		ПОГИБАЮЩАЯ РЕАЛЬНОСТЬ
 		The Ragnarok
 		''' */
 	/* FallenBeholder:
