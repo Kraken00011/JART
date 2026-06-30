@@ -360,12 +360,12 @@ Toggler: {
 
 ActiveSkills: {
 	BeholderTentacles2: {
-		// DisplayName: Beholder's Domain
+		// DisplayName: Измерение созерцателя
 		// Tooltip: Summon the Eye of the Beholder to quickly sap life from enemies and heal the user
 	}
 
 	VampireCape: {
-		// DisplayName: Bat Swarm
+		// DisplayName: Рой летучих мышей
 		// Tooltip: Transform into a swarm of bats which follow your cursor
 	}
 }
@@ -408,8 +408,8 @@ InfernumIntros: {
 		''' */
 	/* Lich:
 		'''
-		Life Defiler's Apostle
-		The Lich
+		АПОСТОЛ ОСКВЕРНИТЕЛЯ ЖИЗНИ
+		ЛИЧ
 		''' */
 	/* QueenJellyfish:
 		'''
@@ -418,205 +418,29 @@ InfernumIntros: {
 		''' */
 	/* Omnicide:
 		'''
-		Life Defiler
-		Omnicide
+		ОСКВЕРНИТЕЛЬ ЖИЗНИ
+		ОМНИЦИД
 		''' */
 	/* SlagFury:
 		'''
 		Primordial Flame
-		Slag Fury
+		ШЛАКОВЫЙ ЯРОСТЕНЬ
 		''' */
 	/* StarScouter:
 		'''
-		Cosmic Voyager
-		Star Scouter
+		КОСМИЧЕСКИЙ СТРАННИК
+		ЗВЁЗДНЫЙ РАЗВЕДЧИК
 		''' */
 	/* TheGrandThunderBird:
 		'''
-		Feral Scavenger
-		The Grand Thunder Bird
+		ДИКАЯ ПАДАЛЬЩИЦА
+		ВЕЛИКАЯ ГРОМОВАЯ ПТИЦА
 		''' */
 	/* Viscount:
 		'''
-		Duke of the Caves
-		Viscount
+		ГЕРЦОГ ПЕЩЕР
+		ВИКОНТ
 		''' */
-}
-
-Projectiles: {
-	// AbyssalApparition.DisplayName: Abyssal Apparition
-	// AbyssBubble.DisplayName: Toxic Bubble
-	// AbyssBubble2.DisplayName: Toxic Bubble
-	// AquaiusBubble.DisplayName: Bubble
-	// AquaiusPunchAttack.DisplayName: Hands of Tide
-	// AquaiusWhirlpool.DisplayName: Relentless Whirlpool
-	// BannerofWar.DisplayName: Banner of War
-	// BandofCratons.DisplayName: Band of Cratons
-	// BeamSaber.DisplayName: Beam Saber
-	// BeholderBlade.DisplayName: Will of Coznix
-	// BeholdersDomain.DisplayName: Eye of the Beholder
-	// BiterofSouls.DisplayName: Biter of Souls
-	// BiteyBaby.DisplayName: Bitey Baby
-	// BlackHole.DisplayName: Black Hole
-	// BubbleBomb.DisplayName: Big Bubble Bomb
-	// BubbleColumn.DisplayName: Bubble Column
-	// ChampionBomber.DisplayName: Magical Burst
-	// ChampionBomberF.DisplayName: Magical Burst
-	// ChampionShield.DisplayName: Champion's Rebuttal
-	// ChampionSlash.DisplayName: Champion's Swift Blade
-	// ChampionSlice.DisplayName: Buried Shock
-	// ChampionSliceF.DisplayName: Buried Shock
-	// ChampionsRebuttal.DisplayName: Champion's Rebuttal
-	// ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
-	// ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	// ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
-	// ChampionWarHorn.DisplayName: Champion's Warhorn
-	// ChironsCure.DisplayName: Chiron's Cure
-	// ConcussiveInstrument.DisplayName: Concussive Instrument
-	// DancingJellyfish.DisplayName: Dancing Jellyfish
-	// Darkness.DisplayName: Darkness
-	// DeathRain.DisplayName: Death Rain
-	// DemonBloodSword.DisplayName: Demon Blood Sword
-	// DragonTooth.DisplayName: Dragon Tooth
-	// DragonToothDragon.DisplayName: Dragon Tooth
-	// DreadRazor.DisplayName: Dread Razor
-	// DreadPulse.DisplayName: Dread Pulse
-	// DukeFish.DisplayName: Duke Fish
-	// DukeFishBubble.DisplayName: Duke Fish Bubble
-	// DyingReality.DisplayName: Dying Reality
-	// EaterPiper.DisplayName: Eater Piper
-	// EightNote.DisplayName: "{$ProjectileName.EightNote}"
-	// EnergizedGranite.DisplayName: Energized Granite
-	// EnergyBurst.DisplayName: Granite Energy Burst
-	// EnergySpike.DisplayName: Granite Energy Spike
-	// EnergySurge.DisplayName: Granite Energy Surge
-	// EnergySurgeTelegraph.DisplayName: Granite Energy Surge
-	// EradicationBeam.DisplayName: Eradication Beam
-	// EradicationBeamF.DisplayName: Eradication Beam
-	// EradicationRay.DisplayName: Eradication Ray
-	// EraserLaser.DisplayName: Eraser Laser
-	// ExtinctionRay.DisplayName: Extinction Ray
-	// FalseBeholder.DisplayName: False Beholder
-	// FalseSun.DisplayName: False Sun
-	// FlareSlash.DisplayName: Flare Slash
-	// Flash.DisplayName: Flash
-	// FluteofCurses.DisplayName: Flute of Curses
-	// FlyingFlute.DisplayName: Flying Flute
-	// FlyingFlute2.DisplayName: Flying Flute
-	// GildedFlyingFlute.DisplayName: Gilded Flying Flute
-	// Glacier.DisplayName: Glacier
-	// Glacier2.DisplayName: Glacier
-	// GrandThunder.DisplayName: Grand Thunder
-	// GrandThunderBirdEffects.DisplayName: Grand Thunder
-	// GrandThunderF.DisplayName: Grand Thunder
-	// GrandThunderTelegraph.DisplayName: Grand Thunder
-	// GraniteCharge.DisplayName: Granite Charge
-	// GraniteEnergyStormEffects.DisplayName: Granite Energy
-	// GravitonOrb.DisplayName: Graviton Orb
-	// HandheldRocket.DisplayName: Handheld Rocket
-	// HeadHunter.DisplayName: Head Hunter
-	// HeadHunterShard.DisplayName: Head Hunter
-	// HealingOrbRainbow.DisplayName: Healing Orb
-	// HealingOrbTeal.DisplayName: Healing Orb
-	// HealingOrbYellow.DisplayName: Healing Orb
-	// HighTide.DisplayName: High Tide
-	// HighTideWave.DisplayName: High Tide
-	// HitScan.DisplayName: Hit-Scan
-	// IceAnomaly.DisplayName: Ice Anomaly
-	// IceShard.DisplayName: Ice Shard
-	// IllumiteBlade.DisplayName: Illumite Blade
-	// IllumitePortal.DisplayName: Illumite Portal
-	// ImpendingDread.DisplayName: Impending Dread
-	// ImpendingDreadF.DisplayName: Impending Dread
-	// InfernalRay.DisplayName: Infernal Ray
-	// InfernalRayTelegraph.DisplayName: Infernal Ray
-	// JammingJellyfish.DisplayName: Jamming Jellyfish
-	// JellyfishJam.DisplayName: Jamming Jellyfish
-	// JellyfishShock.DisplayName: Jellyfish Shock
-	// KingTrumpet.DisplayName: King Trumpet
-	// Kusarigama.DisplayName: Kusarigama
-	// KusarigamaOrb.DisplayName: Orb of the Wind
-	// LichLantern.DisplayName: Volatile Lantern
-	// LichWhip.DisplayName: Instrument of Torment
-	// LodeStoneClaymore.DisplayName: Lodestone Claymore
-	// LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
-	// Loudener.DisplayName: Loudener
-	// LucidNuke.DisplayName: Lucid Energy
-	// LucidRay.DisplayName: Lucid Energy
-	// LucidRayTelegraph.DisplayName: Lucid Energy
-	// MightyMyte.DisplayName: Mighty Myte
-	// Mjolnir.DisplayName: Legendary Lightning
-	// NightmareClaw.DisplayName: Nightmare Claw
-	// NightmareSlash.DisplayName: Nightmare Claw
-	// Obliterator.DisplayName: Obliterator
-	// ObliteratorRay.DisplayName: Obliterator
-	// OmegaRay.DisplayName: Omega Ray
-	// OmniBoom.DisplayName: Nuclear Explosion
-	// OmniBurst.DisplayName: Nuclear Explosion
-	// OmniSlash.DisplayName: Death Slash
-	// OmnicidePunchAttack.DisplayName: Fist of Havoc
-	// Oneirophobia.DisplayName: Oneirophobia
-	// OneirophobiaBlade.DisplayName: Lucid Edge
-	// OneirophobiaBolt.DisplayName: Lucid Missile
-	// OneirophobiaLaser.DisplayName: Lucid Ray
-	// OneirophobiaMinion.DisplayName: Lucid Instrument
-	// OneirophobiaNuke.DisplayName: Lucid Blast
-	// OneirophobiaSlice.DisplayName: Lucid Slash
-	// Paylode.DisplayName: Magnetic Payload
-	// PrimesFury.DisplayName: Prime's Fury
-	// QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
-	// QueenJellyPin.DisplayName: Queen Jelly-Pin
-	// SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
-	// ShellxophoneHealing.DisplayName: Tidal Restoration
-	// ShellxophoneBubble.DisplayName: Toxic Bubble
-	// ShellxophoneStrike.DisplayName: Abyssal Strike
-	// ShoulderBlade.DisplayName: Shoulder Blade
-	// ShoulderBlade2.DisplayName: Shoulder Blade
-	// SoulBleed.DisplayName: Soul Bleed
-	// SoulRender.DisplayName: Soul Render
-	// SoulSnatcher.DisplayName: Soul Snatcher
-	// SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
-	// SpittingShroom.DisplayName: Spitting Shroom
-	// SpittingShroomSpore.DisplayName: Spitting Shroom Spore
-	// SpittingShroomSporeBurst.DisplayName: Spitting Shroom Spore Burst
-	// StableRealityRift.DisplayName: Stable Reality Rift
-	// StarCore.DisplayName: Star Core
-	// StarScouterEffects.DisplayName: Star Scouter
-	// StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
-	// Stuff.DisplayName: Stuff
-	// TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
-	// TerrariumSaber.DisplayName: Terrarium Saber
-	// TerrariumSoulScourge.DisplayName: Terrarium Soul Scourge
-	// TerrariumSoulScourge2.DisplayName: Terrarium Soul Scourge
-	// ThoriumBludgeon.DisplayName: Thorium Bludgeon
-	// ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
-	// ThoriumRevolver.DisplayName: Thunder Zap
-	// ThoriumSpear.DisplayName: Thunder Zap
-	// ThoriumWhistle.DisplayName: Thunder Zap
-	// TideDagger.DisplayName: Aqua Rainstorm
-	// TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
-	// TitanSword.DisplayName: Titan Sword
-	// TitanWhirlpool.DisplayName: Titan Whirlpool
-	// ToothOfTheConsumer.DisplayName: Tooth of The Consumer
-	// ValadiumHeavyScythe.DisplayName: Valadium Heavy Scythe
-	// ValadiumHeavyScytheWave.DisplayName: Valadium Heavy Scythe
-	// ValadiumRay.DisplayName: Void Ray
-	// ValadiumSlash.DisplayName: Void Slash
-	// ValadiumSlicer.DisplayName: Valadium Slicer
-	// VampireCape.DisplayName: Vampire Bat
-	// Vaporize.DisplayName: Vaporizer
-	// VaporizingBeam.DisplayName: Vaporizing Beam
-	// VaporizingFlames.DisplayName: Vaporizing Flames
-	// VaporizingFreeze.DisplayName: Vaporizing Freeze
-	// VaporizingPoison.DisplayName: Vaporizing Poison
-	// VisualCrack.DisplayName: Crack
-	// VisualShockwave.DisplayName: Shockwave
-	// Void.DisplayName: the void
-	// VoidEye.DisplayName: Eye of Coznix
-	// VoidEyeF.DisplayName: Will of Coznix
-	// ZephyrFeather.DisplayName: Zephyr's Feather
-	// ZephyrsRuin.DisplayName: Zephyr's Ruin
-	// FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -2136,11 +1960,187 @@ Configs: {
 Achievements: {
 	CoreCollapse: {
 		// FriendlyName: Подрыв ядра // Core Collapse
-		// Description: Уничтожить все три ядра Звёздного разведчика не более чем за 6 секунд // Defeat all three of Star Scouter's cores in under six seconds
+		// Description: Уничтожить все ядра Звёздного разведчика, потратив на это менее 6 секунд // Defeat all three of Star Scouter's cores in under six seconds
 	}
 
 	MyBatsAreKindaChamberless: {
 		// FriendlyName: Мои мышки немного бездомны... // My Bats Are Kinda Chamberless...
 		// Description: Одержать победу над Виконтом, не позволив ни одной летучей мыши высосать из вас кровь. // Defeat Viscount without letting a single Bitey Baby siphon life from you
 	}
+}
+
+Projectiles: {
+	// AbyssalApparition.DisplayName: Abyssal Apparition
+	// AbyssBubble.DisplayName: Toxic Bubble
+	// AbyssBubble2.DisplayName: Toxic Bubble
+	// AquaiusBubble.DisplayName: Bubble
+	// AquaiusPunchAttack.DisplayName: Hands of Tide
+	// AquaiusWhirlpool.DisplayName: Relentless Whirlpool
+	// BannerofWar.DisplayName: Banner of War
+	// BandofCratons.DisplayName: Band of Cratons
+	// BeamSaber.DisplayName: Beam Saber
+	// BeholderBlade.DisplayName: Will of Coznix
+	// BeholdersDomain.DisplayName: Eye of the Beholder
+	// BiterofSouls.DisplayName: Biter of Souls
+	// BiteyBaby.DisplayName: Bitey Baby
+	// BlackHole.DisplayName: Black Hole
+	// BubbleBomb.DisplayName: Big Bubble Bomb
+	// BubbleColumn.DisplayName: Bubble Column
+	// ChampionBomber.DisplayName: Magical Burst
+	// ChampionBomberF.DisplayName: Magical Burst
+	// ChampionShield.DisplayName: Champion's Rebuttal
+	// ChampionSlash.DisplayName: Champion's Swift Blade
+	// ChampionSlice.DisplayName: Buried Shock
+	// ChampionSliceF.DisplayName: Buried Shock
+	// ChampionsRebuttal.DisplayName: Champion's Rebuttal
+	// ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
+	// ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	// ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
+	// ChampionWarHorn.DisplayName: Champion's Warhorn
+	// ChironsCure.DisplayName: Chiron's Cure
+	// ConcussiveInstrument.DisplayName: Concussive Instrument
+	// DancingJellyfish.DisplayName: Dancing Jellyfish
+	// Darkness.DisplayName: Darkness
+	// DeathRain.DisplayName: Death Rain
+	// DemonBloodSword.DisplayName: Demon Blood Sword
+	// DragonTooth.DisplayName: Dragon Tooth
+	// DragonToothDragon.DisplayName: Dragon Tooth
+	// DreadRazor.DisplayName: Dread Razor
+	// DreadPulse.DisplayName: Dread Pulse
+	// DukeFish.DisplayName: Duke Fish
+	// DukeFishBubble.DisplayName: Duke Fish Bubble
+	// DyingReality.DisplayName: Dying Reality
+	// EaterPiper.DisplayName: Eater Piper
+	// EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	// EnergizedGranite.DisplayName: Energized Granite
+	// EnergyBurst.DisplayName: Granite Energy Burst
+	// EnergySpike.DisplayName: Granite Energy Spike
+	// EnergySurge.DisplayName: Granite Energy Surge
+	// EnergySurgeTelegraph.DisplayName: Granite Energy Surge
+	// EradicationBeam.DisplayName: Eradication Beam
+	// EradicationBeamF.DisplayName: Eradication Beam
+	// EradicationRay.DisplayName: Eradication Ray
+	// EraserLaser.DisplayName: Eraser Laser
+	// ExtinctionRay.DisplayName: Extinction Ray
+	// FalseBeholder.DisplayName: False Beholder
+	// FalseSun.DisplayName: False Sun
+	// FlareSlash.DisplayName: Flare Slash
+	// Flash.DisplayName: Flash
+	// FluteofCurses.DisplayName: Flute of Curses
+	// FlyingFlute.DisplayName: Flying Flute
+	// FlyingFlute2.DisplayName: Flying Flute
+	// GildedFlyingFlute.DisplayName: Gilded Flying Flute
+	// Glacier.DisplayName: Glacier
+	// Glacier2.DisplayName: Glacier
+	// GrandThunder.DisplayName: Grand Thunder
+	// GrandThunderBirdEffects.DisplayName: Grand Thunder
+	// GrandThunderF.DisplayName: Grand Thunder
+	// GrandThunderTelegraph.DisplayName: Grand Thunder
+	// GraniteCharge.DisplayName: Granite Charge
+	// GraniteEnergyStormEffects.DisplayName: Granite Energy
+	// GravitonOrb.DisplayName: Graviton Orb
+	// HandheldRocket.DisplayName: Handheld Rocket
+	// HeadHunter.DisplayName: Head Hunter
+	// HeadHunterShard.DisplayName: Head Hunter
+	// HealingOrbRainbow.DisplayName: Healing Orb
+	// HealingOrbTeal.DisplayName: Healing Orb
+	// HealingOrbYellow.DisplayName: Healing Orb
+	// HighTide.DisplayName: High Tide
+	// HighTideWave.DisplayName: High Tide
+	// HitScan.DisplayName: Hit-Scan
+	// IceAnomaly.DisplayName: Ice Anomaly
+	// IceShard.DisplayName: Ice Shard
+	// IllumiteBlade.DisplayName: Illumite Blade
+	// IllumitePortal.DisplayName: Illumite Portal
+	// ImpendingDread.DisplayName: Impending Dread
+	// ImpendingDreadF.DisplayName: Impending Dread
+	// InfernalRay.DisplayName: Infernal Ray
+	// InfernalRayTelegraph.DisplayName: Infernal Ray
+	// JammingJellyfish.DisplayName: Jamming Jellyfish
+	// JellyfishJam.DisplayName: Jamming Jellyfish
+	// JellyfishShock.DisplayName: Jellyfish Shock
+	// KingTrumpet.DisplayName: King Trumpet
+	// Kusarigama.DisplayName: Kusarigama
+	// KusarigamaOrb.DisplayName: Orb of the Wind
+	// LichLantern.DisplayName: Volatile Lantern
+	// LichWhip.DisplayName: Instrument of Torment
+	// LodeStoneClaymore.DisplayName: Lodestone Claymore
+	// LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
+	// Loudener.DisplayName: Loudener
+	// LucidNuke.DisplayName: Lucid Energy
+	// LucidRay.DisplayName: Lucid Energy
+	// LucidRayTelegraph.DisplayName: Lucid Energy
+	// MightyMyte.DisplayName: Mighty Myte
+	// Mjolnir.DisplayName: Legendary Lightning
+	// NightmareClaw.DisplayName: Nightmare Claw
+	// NightmareSlash.DisplayName: Nightmare Claw
+	// Obliterator.DisplayName: Obliterator
+	// ObliteratorRay.DisplayName: Obliterator
+	// OmegaRay.DisplayName: Omega Ray
+	// OmniBoom.DisplayName: Nuclear Explosion
+	// OmniBurst.DisplayName: Nuclear Explosion
+	// OmniSlash.DisplayName: Death Slash
+	// OmnicidePunchAttack.DisplayName: Fist of Havoc
+	// Oneirophobia.DisplayName: Oneirophobia
+	// OneirophobiaBlade.DisplayName: Lucid Edge
+	// OneirophobiaBolt.DisplayName: Lucid Missile
+	// OneirophobiaLaser.DisplayName: Lucid Ray
+	// OneirophobiaMinion.DisplayName: Lucid Instrument
+	// OneirophobiaNuke.DisplayName: Lucid Blast
+	// OneirophobiaSlice.DisplayName: Lucid Slash
+	// Paylode.DisplayName: Magnetic Payload
+	// PrimesFury.DisplayName: Prime's Fury
+	// QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	// QueenJellyPin.DisplayName: Queen Jelly-Pin
+	// SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	// ShellxophoneHealing.DisplayName: Tidal Restoration
+	// ShellxophoneBubble.DisplayName: Toxic Bubble
+	// ShellxophoneStrike.DisplayName: Abyssal Strike
+	// ShoulderBlade.DisplayName: Shoulder Blade
+	// ShoulderBlade2.DisplayName: Shoulder Blade
+	// SoulBleed.DisplayName: Soul Bleed
+	// SoulRender.DisplayName: Soul Render
+	// SoulSnatcher.DisplayName: Soul Snatcher
+	// SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	// SpittingShroom.DisplayName: Spitting Shroom
+	// SpittingShroomSpore.DisplayName: Spitting Shroom Spore
+	// SpittingShroomSporeBurst.DisplayName: Spitting Shroom Spore Burst
+	// StableRealityRift.DisplayName: Stable Reality Rift
+	// StarCore.DisplayName: Star Core
+	// StarScouterEffects.DisplayName: Star Scouter
+	// StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	// Stuff.DisplayName: Stuff
+	// TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
+	// TerrariumSaber.DisplayName: Terrarium Saber
+	// TerrariumSoulScourge.DisplayName: Terrarium Soul Scourge
+	// TerrariumSoulScourge2.DisplayName: Terrarium Soul Scourge
+	// ThoriumBludgeon.DisplayName: Thorium Bludgeon
+	// ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
+	// ThoriumRevolver.DisplayName: Thunder Zap
+	// ThoriumSpear.DisplayName: Thunder Zap
+	// ThoriumWhistle.DisplayName: Thunder Zap
+	// TideDagger.DisplayName: Aqua Rainstorm
+	// TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	// TitanSword.DisplayName: Titan Sword
+	// TitanWhirlpool.DisplayName: Titan Whirlpool
+	// ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	// ValadiumHeavyScythe.DisplayName: Valadium Heavy Scythe
+	// ValadiumHeavyScytheWave.DisplayName: Valadium Heavy Scythe
+	// ValadiumRay.DisplayName: Void Ray
+	// ValadiumSlash.DisplayName: Void Slash
+	// ValadiumSlicer.DisplayName: Valadium Slicer
+	// VampireCape.DisplayName: Vampire Bat
+	// Vaporize.DisplayName: Vaporizer
+	// VaporizingBeam.DisplayName: Vaporizing Beam
+	// VaporizingFlames.DisplayName: Vaporizing Flames
+	// VaporizingFreeze.DisplayName: Vaporizing Freeze
+	// VaporizingPoison.DisplayName: Vaporizing Poison
+	// VisualCrack.DisplayName: Crack
+	// VisualShockwave.DisplayName: Shockwave
+	// Void.DisplayName: the void
+	// VoidEye.DisplayName: Eye of Coznix
+	// VoidEyeF.DisplayName: Will of Coznix
+	// ZephyrFeather.DisplayName: Zephyr's Feather
+	// ZephyrsRuin.DisplayName: Zephyr's Ruin
+	// FallingSand.DisplayName: Falling Sand
 }
