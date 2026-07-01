@@ -67,24 +67,24 @@ Event: {
 		Party: На Вечеринке
 		Sandstorm: В Песчаной буре
 		SlimeRain: В Дожде слизней
-		OldOnesArmy: В Армии древних
-		GoblinInvasion: В Армии гоблинов
+		OldOnesArmy: Проходит Армию древних
+		GoblinInvasion: Проходит Армию гоблинов
 		BloodMoon: В Кровавой луне
-		FrostLegion: В Морозном легионе
-		PirateInvasion: В Нашествии пиратов
-		PumpkinMoon: В Тыквенной луне
-		FrostMoon: В Морозной луне
+		FrostLegion: Проходит Морозный легион
+		PirateInvasion: Проходит Нашествие пиратов
+		PumpkinMoon: Проходит Тыквенную луну
+		FrostMoon: Проходит Морозную луну
 		SolarEclipse: В Солнечном затмении
-		MartianEvent: В Марсианском безумии
-		SolarPillar: У Башни солнца
-		VortexPillar: У Башни вихря
-		NebulaPillar: У Башни туманности
-		StardustPillar: У Башни звёздной пыли
+		MartianEvent: Проходит Марсианское безумии
+		SolarPillar: Проходит Башню солнца
+		VortexPillar: Проходит Башню вихря
+		NebulaPillar: Проходит Башню туманности
+		StardustPillar: Проходит Башню звёздной пыли
 	}
 
 	Calamity: {
-		AcidRain: В Кислотном дожде
-		BossRush: В Босс-раше
+		AcidRain: Проходит Кислотный дождь
+		BossRush: Проходит Босс-раш
 	}
 }
 
@@ -102,11 +102,11 @@ Biome: {
 		Snow: В Снегах
 		Tundra: В Тундре
 		Hallow: В Освящении
-		UndergroundHallow: В Подземном Освящении
+		UndergroundHallow: В Подземном освящении
 		Corruption: В Искажении
-		UndergroundCorruption: В Подземном Искажении
+		UndergroundCorruption: В Подземном искажении
 		Crimson: В Багрянце
-		UndergroundCrimson: В Подземном Багрянце
+		UndergroundCrimson: В Подземном багрянце
 		UndergroundMushroom: В Подземных грибных пустошах
 		GraniteCave: В Гранитной пещере
 		MarbleCave: В Мраморной пещере
@@ -131,7 +131,7 @@ Biome: {
 
 	NoxusBoss: {
 		EternalGarden: В Вечном саду
-		DeadUniverse: В Мёртвой вселенной
+		DeadUniverse: Внутри Мёртвой вселенной
 	}
 }
 
