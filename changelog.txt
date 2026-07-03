@@ -1,5 +1,5 @@
 v{ModVersion}
-- Добавлены переводы Potion Slots; Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts; Beam Stops Spread (ещё не начато); Multiclass Armors; Starforged [Classic] и Mana Fruit
+- Добавлены переводы Potion Slots; Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts; Beam Stops Spread; Multiclass Armors; Starforged [Classic] и Mana Fruit
 - Добавлен фикс The Depths
 - Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR; Discordya и Revengeance+ до последней версии
 - Удалены переводы Everware, Draedon Expansion и Munchies Homeward Addon
