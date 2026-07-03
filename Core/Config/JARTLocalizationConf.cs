@@ -98,6 +98,12 @@ public class JARTLocalizationConf : ModConfig
     public bool ArmorBuffsLocalization;
 
     [ReloadRequired]
+    [Label("Beam Stops Spread")]
+    [Tooltip("Выключает перевод мода Beam Stops Spread.")]
+    [DefaultValue(true)]
+    public bool BeamStopsSpreadLocalization;
+
+    [ReloadRequired]
     [DefaultValue(true)]
     public bool BossCursorLocalization;
 
@@ -299,7 +305,7 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [Label("Starforged [Classic]")]
-    [Tooltip("Выключает перевод мода Starforged [Classic].")]
+    [Tooltip("Выключает перевод мода Starforged.")]
     [DefaultValue(true)]
     public bool starforgedclassicLocalization;
 

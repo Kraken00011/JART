@@ -1,0 +1,75 @@
+Items: {
+	HallowBeaconItem: {
+		DisplayName: Маяк освящения
+		Tooltip: Проецирует очищающий столб, останавливающий распространение освящения
+	}
+
+	CorruptionBeaconItem: {
+		DisplayName: Маяк искажения
+		Tooltip: Проецирует очищающий столб, останавливающий распространение искажения
+	}
+
+	CrimsonBeaconItem: {
+		DisplayName: Маяк багрянца
+		Tooltip: Проецирует очищающий столб, останавливающий багрянец
+	}
+
+	BeaconConnectorItem: {
+		DisplayName: Соединитель маяков
+		Tooltip: Соединяет 2 маяка между собой, создавая защитную зону
+	}
+
+	ConfectionBeaconItem: {
+		DisplayName: Маяк сладкоземья
+		Tooltip: Проецирует очищающий столб, останавливающий распространение сладкоземья
+	}
+}
+
+Tiles: {
+	HallowBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.HallowBeaconItem}"
+	CorruptionBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.CorruptionBeaconItem}"
+	CrimsonBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.CrimsonBeaconItem}"
+	BeaconConnectorTile.MapEntry: "{$Mods.BeamStopsSpread.Items.BeaconConnectorItem}"
+	ConfectionBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.ConfectionBeaconItem}"
+}
+
+Configs: {
+	BeamServerConfig: {
+		DisplayName: Серверная конфигурация
+		Headers.BeaconSettings: Настройки маяков
+
+		BeaconRange: {
+			Label: Радиус защиты маяков
+			Tooltip: Устанавливает, на сколько блоков распространяется радиус защиты маяков.
+		}
+
+		ConnectorRange: {
+			Label: Максимальный радиус соединителей
+			Tooltip: Устанавливает максимальную дистанцию (в блоках), на которой соединитель сможет связать один маяк с другим.
+		}
+	}
+
+	BeamClientConfig: {
+		DisplayName: Клиентская конфигурация
+
+		Headers: {
+			VisualSettings: Настройки отображения
+			DeveloperSettings: Настройки разработчика
+		}
+
+		ShowMapIcons: {
+			Label: Отображать иконки маяков на карте
+			Tooltip: Даёт активным маякам уникальные иконки, видимые на вашей полноэкранной карте.
+		}
+
+		DebugMode: {
+			Label: Режим отладки
+			Tooltip: Отображает для вас границы действия маяков и сообщения в чат.
+		}
+
+		ShowParticles: {
+			Label: Отображать частицы лучей
+			Tooltip: Позволяет лучам маяков источать частицы, выделяющие зону чистоты.
+		}
+	}
+}

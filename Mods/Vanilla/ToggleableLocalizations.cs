@@ -428,6 +428,10 @@ public class ToggleableLocalizations : OnPatcher
 				modpath, @"JAtRT\Localization\starforgedclassic\ru-RU_Mods.starforgedclassic.hjson"))
 					continue;
 
+				if (Skip(JARTLocalizationConf.Instance.BeamStopsSpreadLocalization, "BeamStopsSpread",
+				modpath, @"JAtRT\Localization\BeamStopsSpread\ru-RU_Mods.BeamStopsSpread.hjson"))
+					continue;
+
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
 
