@@ -74,7 +74,6 @@ public class EquipmentPrefixes : ModSystem
                 ItemID.FartMinecart,
                 ItemID.TerraFartMinecart,
                 // Крюки
-                ItemID.GrapplingHook,
                 ItemID.SkeletronHand
             });
 
@@ -119,9 +118,9 @@ public class EquipmentPrefixes : ModSystem
             });
         }
 
-        if (ModLoader.HasMod("CalamityMod") && TRuConfig.Instance.CalamityModLocalization)
+        if (ModLoader.TryGetMod("CalamityMod", out Mod cal) && TRuConfig.Instance.CalamityModLocalization)
         {
-            tru.Call("AddFeminineItems", new string[]
+            tru.Call("AddFeminineItems", cal, new[]
             {
                 // Петы
                 "AbyssShellFossil",
@@ -140,7 +139,7 @@ public class EquipmentPrefixes : ModSystem
                 "TheCartofGods"
             });
 
-            tru.Call("AddNeuterItems", new string[]
+            tru.Call("AddNeuterItems", cal, new[]
             {
                 // Петы
                 "ForgottenDragonEgg",
