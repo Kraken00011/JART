@@ -337,7 +337,7 @@ NPCRenames: {
 	// ForgottenOne: Оболочка Забытого
 	// ForgottenOneCracked: Абиссион, Забытый
 	// ForgottenOneReleased: Абиссион, Забытый бог приливов
-	// DreamEater: Погибающая реальность, Рагнарёк
+	// DreamEater: Угасающая реальность, Рагнарёк
 }
 
 Toggler: {
@@ -373,38 +373,38 @@ ActiveSkills: {
 InfernumIntros: {
 	/* Aquaius:
 		'''
-		Endless Tide
-		Aquaius
+		БЕСКОНЕЧНЫЙ ПРИЛИВ
+		АКВАУС
 		''' */
 	/* BoreanStrider:
 		'''
-		Cold-Blooded Arthropod
-		Borean Strider
+		ХЛАДНОКРОВНЫЙ ПАУК
+		БОРЕЙСКИЙ ШАГАТЕЛЬ
 		''' */
 	/* BuriedChampion:
 		'''
-		Ancient Warrior
-		Buried Champion
+		ДРЕВНИЙ ВОИН
+		ПОГРЕБЁННЫЙ ЧЕМПИОН
 		''' */
 	/* DreamEater:
 		'''
-		ПОГИБАЮЩАЯ РЕАЛЬНОСТЬ
-		The Ragnarok
+		УГАСАЮЩАЯ РЕАЛЬНОСТЬ
+		РАГНАРЁК
 		''' */
 	/* FallenBeholder:
 		'''
-		Transcendant Beholder
-		Coznix
+		ПРЕВОСХОДЯЩИЙ СОЗЕРЦАТЕЛЬ
+		КОЗНИКС
 		''' */
 	/* ForgottenOne:
 		'''
-		Old God of Tides
-		Abyssion
+		СТАРЫЙ БОГ ПРИЛИВОВ
+		АБИССИОН
 		''' */
 	/* GraniteEnergyStorm:
 		'''
-		Unstable Landmass
-		Granite Energy Storm
+		НЕСТАБИЛЬНАЯ ЭНЕРГИЯ
+		ГРАНИТНЫЙ ЭНЕРГЕТИЧЕСКИЙ ШТОРМ
 		''' */
 	/* Lich:
 		'''
@@ -413,8 +413,8 @@ InfernumIntros: {
 		''' */
 	/* QueenJellyfish:
 		'''
-		Regal Sea Mutant
-		Queen Jellyfish
+		ЦАРСКАЯ МЕДУЗА-МУТАНТ
+		КОРОЛЕВА МЕДУЗ
 		''' */
 	/* Omnicide:
 		'''
@@ -438,7 +438,7 @@ InfernumIntros: {
 		''' */
 	/* Viscount:
 		'''
-		ГЕРЦОГ ПЕЩЕР
+		ПЕЩЕРНЫЙ ГЕРЦОГ
 		ВИКОНТ
 		''' */
 }
@@ -457,8 +457,8 @@ Items: {
 	}
 
 	BandofCratonsCosmetic: {
-		// DisplayName: Band of Cratons
-		// Tooltip: '''"Durable enough to withstand continental drift"'''
+		// DisplayName: Повязка кратонов
+		// Tooltip: "'Достаточно прочна, чтобы выдержать сдвиг континентальных плит'"
 	}
 
 	BannerofWar: {
@@ -518,7 +518,7 @@ Items: {
 	}
 
 	BiterofSouls: {
-		// DisplayName: Biter of Souls
+		// DisplayName: Кусатель душ
 		/* Tooltip:
 			'''
 			Throws tiny soul eaters that enrages after some distance
@@ -527,7 +527,7 @@ Items: {
 	}
 
 	ChampionWarHorn: {
-		// DisplayName: Чемпионский рог войны
+		// DisplayName: Чемпионский боевой рог
 		/* Tooltip:
 			'''
 			Стреляет самонаводящимся боевым эхо
