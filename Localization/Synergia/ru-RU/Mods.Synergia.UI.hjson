@@ -14,7 +14,7 @@ DwarfUI: {
 // BismuthBook.NoSupport: Synergia doesn't support skills!
 
 ChatsMsg: {
-	// tPacer: You have {0}, pls disable mod or disable in config <{1}>
+	// tPacer: You have {0}, pls disable mod or disable in config «{1}»
 	// EmptyStruct: Seems like world doesn't contain any structures from the mod {0}, please recreate the world.
 }
 
@@ -33,7 +33,7 @@ ShopUI: {
 // OrcishChestInfo: The magical druidic power from the backwoods prevents the chest from being opened
 
 SummonUI: {
-	// Minion: Active minions {0} of {1}
-	// Sentry: Active sentries {0} of {1}
-	// Aura: Active auras {0} of {1}
+	// Minion: Активно {0} из {1} миньонов
+	// Sentry: Активно {0} из {1} стражей
+	// Aura: Активно {0} из {1} аур
 }
