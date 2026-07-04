@@ -1,0 +1,87 @@
+// UIConfig.DisplayName: UI Config
+// BossConfig.DisplayName: Boss Config
+
+Config: {
+	UI: {
+		// NewUI: New Progress bar for events
+		// NewUITooltip: Activates new Bismuth-styled UI for every event.
+		// ResetUITooltip: Resets the UIs position
+		// ResetUI: Reset UI
+		// HoverUITooltip: Allows you to modify position user interface elements.
+		// HoverUI: Modify position UI
+		// ActiveSummonUITooltip: If it bothers you, you can enable it by default value enabled.
+		// ActiveSummonUI: Active Summon UI
+		// SummonUI: Summon UI
+		// NewFont: New Font
+		// NewFontTooltip: Replaces the default font with the new ones. Please note that the changes will take effect in the main menu or in agame world.
+	}
+
+	SynegiaConfig: {
+		// OcramHardModeAI: Enable Hard Mode AI
+		// MakesOcramAI: Makes Ocram's AI more challenging
+		// OcramWildAI: Enable Bacterium Prime hard AI
+		// MakesOcramAI2: Makes Bacterium Prime completely broken. Default Bacterium Prime without ai get 3 more new attacks. Why do you need that?
+		// PapuanHardAI: Enable Papuan Wizard Hard AI
+		// MakesPapuanAI: Makes Papuan Wizard significantly stronger with teleport and projectile attacks.
+		// NewRecipe: Includes new recipes
+		// NewRecipeTooltip: Synergia uses a complex recipe system. The tPackBuilder mod also changes them, but they will be simpler. Therefore, use only this mod or uncheck the box and use tPackBuilder.
+	}
+
+	SynergiaConfig: {
+		// NewRecipe: New Recipes
+		// NewRecipeTooltip: Enables more than 600 recipe tweaks.
+		// PapuanWizardHardAIEnabled: Papuan Wizard changed AI
+		// PapuanWizardHardAIEnabledTooltip: Enables Papuan Wizard tweaks.
+		// KingSlimeAI: Papuan King Slime AI
+		// KingSlimeAITooltip: Enables King Slime rework.
+		// BrainOfCthulhuAI: Brain of Cthulhu changed AI
+		// BrainOfCthulhuAITooltip: Enables Brain of Cthulhu tweaks.
+		// WallOfFleshAI: Wall of Flesh AI
+		// WallOfFleshAITooltip: Enables Wall of Flesh tweaks.
+		// TwinsAI: Twins AI
+		// TwinsAITooltip: Enables Twins rework.
+		// DestroyerAI: Destroyer AI
+		// DestroyerAITooltip: Enables Destroyer rework.
+		// SkeletronPrimeAI: Skeletron Prime AI
+		// SkeletronPrimeAITooltip: Enables Skeletron Prime tweaks.
+		// PlanteraAI: Plantera AI
+		// PlanteraAITooltip: Enables Plantera tweaks.
+		// GolemAI: Golem AI
+		// GolemAITooltip: Enables Golem tweaks.
+		// CultistAI: Cultist AI
+		// CultistAITooltip: Enables Cultist Lunatic rework.
+		// OcramAI: Ocram AI
+		// OcramAITooltip: Enables Ocram rework.
+		// TurkorAI: Turkor AI
+		// TurkorAITooltip: Enables Turkor tweaks.
+		// ColdFatherAI: Cold Father AI
+		// ColdFatherAITooltip: Enables Cold Father tweaks.
+		// JadeEmperorAI: Jade Emperor AI
+		// JadeEmperorAITooltip: Enables Jade Emperor rework.
+		// NecromancerAI: Necromancer AI
+		// NecromancerAITooltip: Enables Necromancer rework.
+		// MinotaurAI: Minotaur AI
+		// MinotaurAITooltip: Enables Minotaur tweaks.
+		// LothorAI: Lothor AI
+		// LothorAITooltip: Enables Lothor the Wild tweaks.
+		// DesertBeakAI: Desert Beak AI
+		// DesertBeakAITooltip: Enables Desert Beak tweaks.
+		// ColossalCarnageAI: Colossal Carnage AI
+		// ColossalCarnageAITooltip: Enables Colossal Carnage tweaks.
+		// DynamicalPrices: Dynamical Prices
+		// DynamicalPricesTooltip: Enables dynamical prices in NPCs shops
+		// StaminaHooks: Stamina Hooks
+		// StaminaHooksTooltip: Enables all hooks depending on stamina
+		// HPScaling: Npc Hp Scaling
+		// HPScalingTooltip: Enables 100+ SetDefaults changes to NPCs
+		// WeaponsScaling: Weapons Scaling
+		// WeaponsScalingTooltip: Enables 250+ Balance changes to the weapons
+	}
+
+	UnconsumableConfig: {
+		// EnableUnconsumableSummons: Enable Unconsumable summons
+		// EnableUnconsumableSummonsTooltip: Makes summon items unconsumable
+	}
+}
+
+// MechanicsConfig.DisplayName: Mechanics Config

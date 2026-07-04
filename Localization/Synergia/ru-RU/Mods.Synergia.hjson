@@ -1,0 +1,1925 @@
+// DamageClasses.ThrowingDamage.DisplayName: Throwing Damage
+// GolemDefeat: Underworld have grown stronger!
+
+Items: {
+	// OstaraHat.Tooltip: 11% Increased throwing damage and crit chance by 5%
+	// OstaraJacket.Tooltip: Throwing speed increased by 13%
+	// OstaraBoots.Tooltip: Jump height increased
+	/* WarlockHood.Tooltip:
+		'''
+		Increases your max. aura radius by 15% and amount of auras by 1
+		Increases your max. number of minions by 1
+		''' */
+	/* WarlockRobe.Tooltip:
+		'''
+		Increases your max. aura radius by 20% when linked on the player
+		Increases your max. number of minions by 1
+		''' */
+	/* WarlockLeggings.Tooltip:
+		'''
+		Increases your max. aura radius by 10% 
+		Increases your max. number of minions by 1
+		''' */
+	/* AncientWarlockHood.Tooltip:
+		'''
+		Increases your max. aura radius by 15% and amount of auras by 1
+		Increases your max. number of minions by 1
+		''' */
+	/* AncientWarlockRobe.Tooltip:
+		'''
+		Increases your max. aura radius by 20% when linked on the player
+		Increases your max. number of minions by 1
+		''' */
+	/* AncientWarlockLeggings.Tooltip:
+		'''
+		Increases your max aura radius by 10% 
+		Increases your max number of minions by 1
+		''' */
+	// SentinelHelmet.Tooltip: Increases throwing damage by 15% and crit chance by 5%
+	/* SentinelBreastplate.Tooltip:
+		'''
+		Increases throwing speed by 7%
+		Increases ranged damage by 7%
+		''' */
+	// SentinelLeggings.Tooltip: Increases running speed by 12%
+	// GreediestHead.Tooltip: Increases damage resistance by 13% and throwing damage by 20%
+	// GreediestBody.Tooltip: Increases damage resistance by 14% and crit. chance by 8
+	// GreediestLegs.Tooltip: Increases throwing speed by 9%
+	/* EvilHead.Tooltip:
+		'''
+		Increases your max numbers of minions by 3
+		Increases minion damage by +20%
+		''' */
+	/* SniperBody.Tooltip:
+		'''
+		Increases ranged crit chance and penetration by 20%
+		Increases ranged damage by +5% 
+		''' */
+	// SniperHead.Tooltip: Increases ranged damage by 20% and increases ranged crit. chance by 20%
+	// SniperLegs.Tooltip: Increases ranged crit. chance by 15%
+	/* EarthsplitterChestpiece.Tooltip:
+		'''
+		16% More throwing damage and 15% throwing crit chance 
+		Night Owl potion effect
+		''' */
+	/* EarthsplitterHelm.Tooltip:
+		'''
+		Emits light. 
+		+18% Throwing speed
+		''' */
+	/* EarthsplitterLeggings.Tooltip:
+		'''
+		+8% Throwing damage 
+		Jump height greatly increased
+		''' */
+	/* FleshCap.Tooltip:
+		'''
+		Increases your max. aura radius by 15% Aura radius 
+		Increases summon damage by 10% 
+		''' */
+	/* FleshWrappings.Tooltip:
+		'''
+		Inflicts 'Bleeding' for enemies inside the aura. 
+		Team members get buff 'Heartsick' inside aura.
+		Increases minion knockback by 9? Huh?
+		''' */
+	/* FleshPants.Tooltip:
+		'''
+		Increases amount of auras by 1
+		Increases your max aura radius by 15% when linked on the player
+		+2 Minion slot
+		''' */
+	// ValhalliteHead.Tooltip: ""
+	/* AeroforceGuardia.Tooltip:
+		'''
+		+25% Aura radius and +16% summon damage
+		+1 Aura slot
+		''' */
+	/* AeroforceProtector.Tooltip:
+		'''
+		Increases your max. aura radius by 13% when linked on the player 
+		Increases flight time by 30% 
+		Increases summon damage by 10%
+		''' */
+	/* AeroforceLeggings.Tooltip:
+		'''
+		Increases your max. aura radius by 13% when linked on the player 
+		Increases summon damage by +4%
+		''' */
+	/* LivingWoodCrown.Tooltip:
+		'''
+		Increases your max. aura radios by 6%
+		Increases your max. numbers of minions by 1
+		''' */
+	/* NightMageHat.Tooltip:
+		'''
+		Increases magic damage by +18% 
+		Reduces mana cost by 13% 
+		Increases magic crit. chance by 10%
+		''' */
+	/* NightMageCape.Tooltip:
+		'''
+		Increases magic damage by 8%
+		Increases magic attack speed by 9%
+		Increases magic crit. chance by 10%
+		''' */
+	// NightMagePants.Tooltip: +8% Magic damage
+	// BismuthumBreastplate.Tooltip: Damage is increased by 5%
+	// BismuthumLeggings.Tooltip: Movement speed is increased by 10%
+	// BerserksRing.Tooltip: Item use speed inreased by 30%, but damage decreased by 20%
+	// KillersHood.Tooltip: Magic critical strike chance is increased by 8%
+	// KillersJacket.Tooltip: Magic damage is increased by 10%
+	// RivetedHood.Tooltip: Ranged critical strike chance is increased by 8%
+	// RivetedJacket.Tooltip: Ranged damage is increased by 8%
+	// FeralHelmet.Tooltip: Throwing and ranged damage are increased by 5%
+	// FeralBreastplate.Tooltip: Throwing damage is increased by 7%
+	// FeralLeggings.Tooltip: Throwing critical strike chance is increased by 6%
+	// NomadsHood.Tooltip: Increases Ranged damage by 7%
+	/* NomadsJacket.Tooltip:
+		'''
+		Increases ranged shoot speed by 11%
+		Increases critical strike damage by 10%
+		''' */
+	/* NomadsBoots.Tooltip:
+		'''
+		Increases movement speed by 15%
+		Increases ranged damage by 7%
+		''' */
+	/* BronzeMask.Tooltip:
+		'''
+		Damage is increased by 10%
+		No fall damage
+		''' */
+	/* BronzeBreastplate.Tooltip:
+		'''
+		Critical strike chance is increased by 8%
+		Immunity to knockback
+		''' */
+	// OrcishHelmet.Tooltip: Damage is increased by 12%
+	/* OrcishBreastplate.Tooltip:
+		'''
+		Critical strike chance is increased by 11%
+		Allows player to dash into the enemy
+		Double tap in a direction
+		''' */
+	// PikemansLeggings.Tooltip: Melee critical strike chance is increased by 6%
+	/* PikemansBreastplate.Tooltip:
+		'''
+		Movement speed is decreased by 12%
+		Throwing damage is increased by 10%
+		''' */
+	/* WatersBreastplate.Tooltip:
+		'''
+		More wetness - more damage and health regeneration
+		Increases magic critical strike chance by 15%
+		Underwater mana cost increased by 40%
+		10% increased damage resistance
+		10% increased movement speed
+		Lose 40 mana when hit
+		Damn that's wet
+		''' */
+	/* WatersHelmet.Tooltip:
+		'''
+		More wetness - higher critical strike chance
+		Increases magic damage by 10%
+		Increases mana regeneration by 8
+		''' */
+	/* WatersLeggings.Tooltip:
+		'''
+		More wetness - higher movement speed
+		Increases magic damage by 10%
+		Increases magic weapons attack speed by 8%
+		Increases mana regeneration by 10
+		''' */
+	// AriadnesTangle.Tooltip: Increased yoyo range
+	// MarbleMask.Tooltip: Increases ranged damage by 5%
+	// PendantOfBlood.Tooltip: Slightly increases endurance and regeneration
+	// DraculasCover.Tooltip: Lets you transform into a bat when you are a vimpire
+	/* SignOfUndead.Tooltip:
+		'''
+		Increases maximum life by 140
+		Removes any regeneration except healing potions 
+		''' */
+	/* JadeHead.Tooltip:
+		'''
+		10% increased movement speed
+		Player have a chance to dodge attacks.
+		''' */
+	// JadeMask.Tooltip: 10% Increased damage
+	// JadeLegs.Tooltip: 10% increased movement speed and critical strike
+	// ScalyHelmet.Tooltip: Increases throwing and melee critical strike chance by 11%
+	// ScalyBreastplate.Tooltip: Increases throwing and melee damage by 11%
+
+	EverwoodJavelin: {
+		// DisplayName: Everwood Javelin
+		/* Tooltip:
+			'''
+			Each hit has a 20% chance to inflict the «{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» debuff for 1.5 seconds
+			The debuff stuns the enemy and deals 5 damage over time
+			It doesn’t stun bosses, but its duration is increased by 3 seconds and deals 5 more damage
+			'Contains a fragment of Everwood magic'
+			''' */
+	}
+
+	Selection: {
+		// Tooltip: ""
+		// DisplayName: Troxinium Throwing Blade
+	}
+
+	OculithShard: {
+		/* Tooltip:
+			'''
+			Every 5 throws, releases three Ocram Skulls and an Ocram Spear
+			The skulls weakly home in, deal around 100 damage, and inflict the «{$BuffName.ShadowFlame}» debuff
+			The spear deals triple damage
+			'Its tip festers with the rotted sinew of dimensions'
+			''' */
+		// DisplayName: Voidpiercer
+	}
+
+	NaturalSelection: {
+		// DisplayName: Natural Selection
+		// Tooltip: Spawns up to 5 boomerangs
+	}
+
+	Airflow: {
+		/* Tooltip:
+			'''
+			Spawns up to 2 boomerangs
+			Every 1.5 seconds, it generates 4 harpy feathers
+			Each feather deals around 20 damage on contact
+			A feather disappears after 8 seconds or upon hitting an enemy
+			'You feel the magic of celestial Harpies'
+			''' */
+		// DisplayName: Airflow
+	}
+
+	BloodstainedGlove: {
+		/* Tooltip:
+			'''
+			Increases melee damage, attack speed, and armor penetration
+			Grants increased knockback and applies the Lacerated debuff on melee hits
+			Also enables automatic reuse and melee attack scaling
+			''' */
+		// DisplayName: Bloodstained Glove
+	}
+
+	OldTales: {
+		// Tooltip: Tales of travelers dying in this world.
+		// DisplayName: Old Tales
+	}
+
+	DurataniumJavelin: {
+		// Tooltip: ""
+		// DisplayName: Duratanium Javelin
+	}
+
+	CursedThrowerEmblem: {
+		// DisplayName: Cursed Throwing Emblem
+		/* Tooltip:
+			'''
+			Increases throwing damage by 20%
+			Decreases аll other damage by 40%
+			''' */
+	}
+
+	SuperAuraStaff: {
+		// DisplayName: Super Aura Staff
+		// Tooltip: ""
+	}
+
+	AngryParasite: {
+		// Tooltip: Each hit has a 50% chance to inflict the «{$BuffName.Poisoned}» debuff for 1 second
+		// DisplayName: Angry Parasite
+	}
+
+	PathogenicAuraStaff: {
+		// DisplayName: Patoghenic Aura Staff
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range			 
+			''' */
+	}
+
+	NaquadahJavelin: {
+		// DisplayName: Naquadah Javelin
+		// Tooltip: ""
+	}
+
+	MercuriumAuraScythe: {
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Grants 'Regeneration' and 'Mana Regeneration' buffs
+			''' */
+		// DisplayName: Mercurium Aura Scythe
+	}
+
+	InfamousFlame: {
+		/* Tooltip:
+			'''
+			This flame isn't famous, right?
+			Throwing axe that deal fire damage
+			''' */
+		// DisplayName: Infamous Flame
+	}
+
+	VerdurousStaff: {
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Inside the aura players get 'Regeneration', 'Mana Regeneration' and 'Moon's Resilence'
+			Personification of nature
+			''' */
+		// DisplayName: Verdurous Staff
+	}
+
+	AllotropicAuraStaff: {
+		// DisplayName: Allotropic Aura Staff
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Versatile aura that cycles between three modes:
+			Attack Mode – Damages nearby enemies and occasionally fires homing and chaotic energy orbs.
+			Support Mode – Grants nearby players regeneration, mana regen, mining and bonus health.
+			Debuff Mode – Inflicts Broken Armor, Weak, and Poisoned on nearby enemies.
+			Press [Selected Button] to switch aura modes.
+			''' */
+	}
+
+	SandAlbinoAuraStaff: {
+		// DisplayName: Sand Albino Aura Staff
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Inside the aura players get 6 Defense and damage increasing
+			Slows enemies down
+			''' */
+	}
+
+	AuraSummonBoostAccessory: {
+		// Tooltip: ""
+		// DisplayName: Aura Summon Boost Accessory
+	}
+
+	BrokenDice: {
+		/* Tooltip:
+			'''
+			Roll the dice and regret it twice..
+			When you go into the aura, grants a random buff or debuff
+			5 buffs and 5 debuffs, will it bless you... or ruin you?
+			''' */
+		// DisplayName: Broken Dice
+	}
+
+	UnderwaterAuraScythe: {
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Grants tone of fishing buffs and deals damage to enemies
+			''' */
+		// DisplayName: Underwater Aura Scythe
+	}
+
+	UnderwaterAuraScytheItem_Attack: {
+		// Tooltip: ""
+		// DisplayName: Underwater Aura Scythe Item_ Attack
+	}
+
+	EnchantedRing: {
+		/* Tooltip:
+			'''
+			Increases max. aura radius by 8%
+			Players buffs remains 3 seconds after leaving the aura
+			''' */
+		// DisplayName: Enchanted Ring
+	}
+
+	BloodyNecklace: {
+		/* Tooltip:
+			'''
+			Blood for blood.
+			While inside the aura player gets a 15% chance to dodge
+			an attack and return 5x damage to the enemy
+			Successful dodge inflicts Bleeding
+			''' */
+		// DisplayName: Bloody Necklace
+	}
+
+	MirrorOfTheLost: {
+		// DisplayName: Mirror Of The Lost
+		/* Tooltip:
+			'''
+			While inside aura player gets 15% damage, but..
+			Outside it loses 20% 
+			''' */
+	}
+
+	UnderwaterAuraStaff: {
+		// DisplayName: Underwater Aura Staff
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Increases player defense and fishing power
+			Grants water walking and deals small amount of damage
+			''' */
+	}
+
+	SuspiciousBag: {
+		/* Tooltip:
+			'''
+			Increases aura radius by 40% when linked to the player
+			Grants slow immunity while inside an aura
+			Smells... suspicious
+			''' */
+		// DisplayName: Suspicious Bag
+	}
+
+	DecahedronOfTheUnfortunate: {
+		// DisplayName: Decahedron Of The Unfortunate
+		/* Tooltip:
+			'''
+			Increases aura radius by 30% when linked to the player
+			Increases max. aura radius by 25%
+			Grants to auras Hexagon form
+			+1 aura slot
+			15 buffs and 15 debuffs, will it bless you... or completely destroy you?
+			''' */
+	}
+
+	BlasphemousHeavens: {
+		/* Tooltip:
+			'''
+			Divine retribution made manifest.
+			Each strike has chance to call down furious lightning from the heavens
+			Smiting the wicked with stormborn wrath.
+			''' */
+		// DisplayName: Blasphemous Heavens
+	}
+
+	EarthCollapse: {
+		/* Tooltip:
+			'''
+			Increases max. aura radius by 25%
+			Players buffs remains 8 seconds after leaving the aura 
+			''' */
+		// DisplayName: Earth Collapse
+	}
+
+	HeartofGehenna: {
+		// DisplayName: Heart of Gehenna
+		/* Tooltip:
+			'''
+			A cursed relic that burns with infernal power
+			Increases all damage by 20% but decreases damage reduction by 20%
+			Increases life regeneration greatly but decreases defense by 30
+			Every 30 seconds, your next attack becomes a 
+			guaranteed critical hit and deals double damage
+			''' */
+	}
+
+	Cleavage: {
+		/* Tooltip:
+			'''
+			Hell wraith.
+			Every hit have chance to summon powerful spear
+			The wrath of Hell falls from the sky
+			''' */
+		// DisplayName: Cleavage
+	}
+
+	CogwormTrophy: {
+		// DisplayName: Sinlord Trophy
+		// Tooltip: ""
+	}
+
+	Pyroclast: {
+		/* Tooltip:
+			'''
+			Shoots lava arrows
+			When player holds a bow gets "On Fire!" Debuff
+			''' */
+		// DisplayName: Pyroclast
+	}
+
+	Menace: {
+		// Tooltip: Shoots 2-4 lava stalactites
+		// DisplayName: Menace
+	}
+
+	DriedBeetle: {
+		// Tooltip: ""
+		// DisplayName: Unobtainable for now
+	}
+
+	CogwormBag: {
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		// DisplayName: Treasure Bag (Sinlord Wyrm)
+	}
+
+	HellgateAuraScythe: {
+		/* Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			Versatile aura that cycles between two modes:
+			Support mode - all Sinlord Weapons get stronger
+			Menace always shoots 4 projectiles instead of 2 or 3.
+			Pyroclast shoots fire balls.
+			Impact is always charged.
+			Cleavage deals 15% more damage while empowered.
+			Attack mode - always crit damage for the enemies inside.
+			Press [Selected Button] to switch aura modes.
+			''' */
+		// DisplayName: Hellgate Aura Scythe
+	}
+
+	Impact: {
+		/* Tooltip:
+			'''
+			Each throw a lava thorn grows up to five
+			A hit of a fully spiked form deals more damage
+			''' */
+		// DisplayName: Impact
+	}
+
+	ValhalliteJavelin: {
+		/* Tooltip:
+			'''
+			Has a chance to summon Valhallite Souls that slows down enemies and deal small damage 
+			After collide have 20% chance to summon 3 souls
+			''' */
+		// DisplayName: Valhallite Javelin
+	}
+
+	JadeGlaive: {
+		/* Tooltip:
+			'''
+			Throw a spinning glaives that blow up over time 
+			Right Click to turn them into sharp knives
+			''' */
+		// DisplayName: Jade Glaive
+	}
+
+	CaesiumHeavyAnvil: {
+		// Tooltip: Where the jungle creatures forged their wrath.
+		// DisplayName: Caesium Heavy Anvil
+	}
+
+	DecayedScythe: {
+		// Tooltip: ""
+		// DisplayName: Decayed Scythe
+	}
+
+	BloodyScythe: {
+		// DisplayName: Bloody Scythe
+		// Tooltip: ""
+	}
+
+	GoldGlove: {
+		// Tooltip: Throwing toilets omg wow epic
+		// DisplayName: Gold Glove
+	}
+
+	HellwormScale: {
+		/* Tooltip:
+			'''
+			Quest Item
+			Use this to summon something from underworld
+			Summons Sinlord Wyrm
+			''' */
+		// DisplayName: Hellworm Scale
+	}
+
+	CogwormRelicItem: {
+		// Tooltip: ""
+		// DisplayName: Cogworm Relic
+	}
+
+	CarnageStory: {
+		/* Tooltip:
+			'''
+			One day when I was fishing, fishman stay next to me and give 
+			me a golden bait saying that the catch would be gigantic
+			''' */
+		// DisplayName: ""
+	}
+
+	RingofVengeanceseeker: {
+		/* Tooltip:
+			'''
+			Every 5 seconds spawn around the player jade orbs
+			Each orb gives +4% throwing damage
+			Orbs explode after taking damage
+			''' */
+		// DisplayName: Ring of Vengeanceseeker
+	}
+
+	CorrodeCrossShield: {
+		/* Tooltip:
+			'''
+			Greatly increases defense when struck
+			Reduces health regeneration cooldown
+			Slows the effects of damage over time debuffs
+			Increases throwing damage by 12%
+			''' */
+		// DisplayName: Corrode Omega Shield
+	}
+
+	EverwoodNecklace: {
+		// DisplayName: Everwood Necklace
+		// Tooltip: Increases throwing crit chance by 9
+	}
+
+	Blazes: {
+		// DisplayName: Innos
+		/* Tooltip:
+			'''
+			Left click to throw Pyrokar - long and powerful rapier
+			Right click to throw Serpentes - two sharp daggers
+			''' */
+	}
+
+	PreciousSkull: {
+		// DisplayName: Precious Skull
+		/* Tooltip:
+			'''
+			Increases throwing ctit. chance by 10%
+			Icreases throwing damage by 8%
+			After death player have +10% throwing speed for one minute
+			Above the player's head appear two gems:
+			When tourmaline phase - + regeneration buff
+			When zircon phase - +10 defense
+			''' */
+	}
+
+	StonedSkull: {
+		/* Tooltip:
+			'''
+			Increases throwing damage by +5%
+			After death player have +10% throwing speed for one minute
+			''' */
+		// DisplayName: Stone Skull
+	}
+
+	CaesiumRing: {
+		// DisplayName: Caesium Ring
+		/* Tooltip:
+			'''
+			Increases throwing damage by +10% 
+			While moving, the player releases poisonous caesium clouds
+			''' */
+	}
+
+	CaesiumSkull: {
+		// DisplayName: Caesium Skull
+		/* Tooltip:
+			'''
+			Increases throwing damage by +15%, crit chance by 10 and throwing speed by 5% 
+			While moving, the player releases poisonous caesium clouds which break up into small ones when colliding
+			After death player have +20% throwing speed for one minute
+			''' */
+	}
+
+	SinstoneLyre: {
+		// Tooltip: ""
+		// DisplayName: Sinstone Lyre //Skip
+	}
+
+	Seaborn: {
+		// DisplayName: Tidebreaker
+		/* Tooltip:
+			'''
+			Every fourth hit summons swords
+			{$Controls.RightClick} to unleash super attack.
+			''' */
+	}
+
+	HeliosSoul: {
+		// Tooltip: Soul of the Helios itself
+		// DisplayName: Helios Soul
+	}
+
+	OrcishSword: {
+		// DisplayName: Orcish Sword
+		// Tooltip: ""
+	}
+
+	BismuthumSword: {
+		// Tooltip: ""
+		// DisplayName: Bismuthum Sword
+	}
+
+	GalvornBlade: {
+		// Tooltip: ""
+		// DisplayName: Galvorn Blade
+	}
+
+	GalvornAuraStaff: {
+		// DisplayName: Galvorn Aura Staff
+		// Tooltip: ""
+	}
+
+	OrcishSwungo: {
+		// Tooltip: Shoots piercing scythes in 4 directions
+		// DisplayName: Swingaling
+	}
+
+	CursedMirror: {
+		// Passive: Has no passive effects.
+		// Active: Launches Necro Swords under your coursor position.
+		// DisplayName: Cursed Mirror
+		// Tooltip: ""
+	}
+
+	Enfer: {
+		// DisplayName: Belphegor
+		/* Tooltip:
+			'''
+			'Obey me, Belphegor.' 
+			Shoots high velocity, chaotic arrows
+			Each arrow explodes on small damaging flames. 
+			Every third shot spawns a Enferous Runes
+			4 Enferous Runes combine into one and create an explosion
+			''' */
+	}
+
+	ScorcherRequiem: {
+		// DisplayName: Pirouette
+		// Tooltip: Shoots a ricocheting laser. Accelerates over time
+	}
+
+	PhoenixDownfall: {
+		// DisplayName: Hellix
+		// Tooltip: ""
+	}
+
+	CoreburnedPickaxe: {
+		// DisplayName: Coreburned Pickaxe
+		// Tooltip: ""
+	}
+
+	EverIce: {
+		// DisplayName: Ever Ice
+		// Tooltip: ""
+	}
+
+	Starcaller: {
+		// Tooltip: Summons a star to fight for you
+		// DisplayName: Starcaller
+	}
+
+	WhisperigReed: {
+		// Tooltip: It whispers you stories..
+		// DisplayName: Whispering Reed
+	}
+
+	Tribow: {
+		// Tooltip: ""
+		// DisplayName: Tribow
+	}
+
+	Blunderbussin: {
+		// Tooltip: ""
+		// DisplayName: Blunderbussin
+	}
+
+	ShardflingPotion: {
+		// Tooltip: Increases throwing damage by 12
+		// DisplayName: Shardfling Potion
+	}
+
+	BronzeAcolyteLeggings: {
+		// Tooltip: 8% increased magic critical strike chance
+		// DisplayName: Acolyte Leggings
+	}
+
+	BronzeAcolyteJacket: {
+		// Tooltip: Increases maximum mana by 40
+		// DisplayName: Acolyte Jacket
+	}
+
+	BronzeAcolyteHat: {
+		// Tooltip: 6% reduced mana usage
+		// DisplayName: Acolyte Hat
+	}
+
+	FragmentSolar: {
+		// Tooltip: ""
+		// DisplayName: Fragment
+	}
+
+	FragmentStardust: {
+		// DisplayName: Fragment
+		// Tooltip: ""
+	}
+
+	HardModeAnvil: {
+		// Tooltip: ""
+		// DisplayName: Hard Mode Anvil
+	}
+
+	HardModeForge: {
+		// DisplayName: Hard Mode Forge
+		// Tooltip: ""
+	}
+
+	AlchemicFlower: {
+		// DisplayName: Alchemic Flower
+		// Tooltip: ""
+	}
+
+	AlchemicOre: {
+		// DisplayName: Alchemic Ore
+		// Tooltip: ""
+	}
+
+	Triwhip: {
+		// Tooltip: Every second shot is triple
+		// DisplayName: Triwhip
+	}
+
+	OssuaryStaff: {
+		// Tooltip: Summons a sharp skulls that stick to the enemies
+		// DisplayName: Ossuary Staff
+	}
+
+	CorrodeVisage: {
+		// DisplayName: Corrode Visage
+		/* Tooltip:
+			'''
+			Increases throwing damage and critical strike chance by 15%
+			Increases throwing attack speed by 10%
+			''' */
+	}
+
+	SulfuricAcid: {
+		// Tooltip: ""
+		// DisplayName: Sulfuric Acid
+	}
+
+	ThunderBody: {
+		// DisplayName: Thundernite Breastplate
+		/* Tooltip:
+			'''
+			20% increased melee damage
+			8% increased melee shoot speed
+			''' */
+	}
+
+	ThunderHead: {
+		// DisplayName: Thundernite Helmet
+		/* Tooltip:
+			'''
+			8% increased melee attack speed
+			10% increased melee crit chance 
+			''' */
+	}
+
+	ThunderLegs: {
+		// DisplayName: Thundernite Leggings
+		/* Tooltip:
+			'''
+			8% increased melee attack speed
+			12% increased movement speed	 
+			''' */
+	}
+
+	Thunderjab: {
+		// DisplayName: Thunderjab
+		// Tooltip: ""
+	}
+
+	ThunderChakram: {
+		// Tooltip: On death spawns flower-shaped crystals
+		// DisplayName: Thunder Chakram
+	}
+
+	ThunderBow: {
+		// Tooltip: Shoots additional homing crystal
+		// DisplayName: Thunder Bow
+	}
+
+	ThunderSigil: {
+		// Tooltip: It illuminates and shoots - very simple.
+		// DisplayName: Thunder Sigil
+	}
+
+	PostMechWings: {
+		// DisplayName: Mechanical Spine
+		// Tooltip: Allows flight and slow fall
+	}
+
+	Flarion: {
+		// DisplayName: Flarion
+		// Tooltip: ""
+	}
+
+	ElderSnowmanBannerItem: {
+		// DisplayName: Elder Snowman Banner
+		// Tooltip: ""
+	}
+
+	SnowykazeBannerItem: {
+		// Tooltip: ""
+		// DisplayName: Snowykaze Banner
+	}
+
+	HellDog: {
+		// DisplayName: Skelegon Banner
+		// Tooltip: ""
+	}
+
+	SludgeMountain: {
+		// DisplayName: Sludge Mountain
+		// Tooltip: ""
+	}
+
+	Gutshelmet: {
+		// DisplayName: Viscera Helmet
+		/* Tooltip:
+			'''
+			Increases your max number of minions by 2
+			Increases your max number of sentries by 1
+			Nicely increases your life regeneration 
+			''' */
+	}
+
+	Gutslegs: {
+		// DisplayName: Viscera Leggings
+		/* Tooltip:
+			'''
+			Increases your max number of minions by 2
+			Nicely increases your life regeneration 
+			''' */
+	}
+
+	Gutsplate: {
+		// DisplayName: Viscera Chestplate
+		/* Tooltip:
+			'''
+			Increases your max number of sentries by 2
+			Greatly increases your life regeneration 
+			''' */
+	}
+
+	ThunderniteHamaxe: {
+		// DisplayName: Thundernite Hamaxe
+		// Tooltip: ""
+	}
+
+	HellLuceat: {
+		// DisplayName: Qwareon
+		// Tooltip: Allows you teleport in the every corner of the Inferno Frontier
+	}
+
+	CogBronze: {
+		// DisplayName: Bronze Mechanism
+		// Tooltip: Don't put your hands in there!
+	}
+
+	BronzeDrill: {
+		// DisplayName: Bronze Drill
+		// Tooltip: ""
+	}
+
+	TurretToolBronze: {
+		// DisplayName: Turret Tool Bronze
+		/* Tooltip:
+			'''
+			Summons a Sentry
+			Summons a Bronze Turret that can shoot horizontally.
+			''' */
+	}
+
+	Lavinator: {
+		// DisplayName: Lavinator
+		// Tooltip: ""
+	}
+
+	FadingHellChestplate: {
+		// DisplayName: Fading Hell Chestplate
+		/* Tooltip:
+			'''
+			Increases magic damage by 8%
+			Increases critical strike chance by 10% 
+			''' */
+	}
+
+	FadingHellHat: {
+		// DisplayName: Fading Hell Hat
+		/* Tooltip:
+			'''
+			Increases maximum mana by 40 and reduces mana cost by 20% 
+			Increases magic damage by 9% 
+			Increases critical strike chance by 9%	
+			''' */
+	}
+
+	FadingHellPants: {
+		// DisplayName: Fading Hell Pants
+		/* Tooltip:
+			'''
+			Increases magic damage by 6%
+			Increases movement speed by 12%
+			''' */
+	}
+
+	EvilBar: {
+		// DisplayName: Evil Bar
+		// Tooltip: ""
+	}
+
+	Damasque: {
+		// DisplayName: Damasque
+		// Tooltip: ""
+	}
+
+	RoyalInk: {
+		// Tooltip: Shines.
+		// DisplayName: Royal Ink
+	}
+
+	Pandemonium: {
+		// Tooltip: What secrets does it hide?
+		// DisplayName: Pandemonium
+	}
+
+	LothorSkull: {
+		// Tooltip: Insanely scary, inspires terror
+		// DisplayName: Lothor Skull
+	}
+
+	BottomlessEvil: {
+		// Tooltip: There is no creature more terrible than man, for it is he who wrote this.
+		// DisplayName: Bottomless Evil
+	}
+
+	Ghalihieri: {
+		// Tooltip: Launches high velocity, flaming blade and a hot needle
+		// DisplayName: Vice
+	}
+
+	TimeContinuum: {
+		/* Tooltip:
+			'''
+			The book that owns time.
+			Broken item that breaks enemies behaviour and freezes time either in the middle of the day or in the middle of the night
+			''' */
+		// DisplayName: Time Continuum
+	}
+
+	RustyBook: {
+		// Tooltip: Inscriptions that are completely rotten through.
+		// DisplayName: Rusty Book
+	}
+
+	OldDwarvenHelmet: {
+		// Tooltip: Old and rusty.
+		// DisplayName: Old Dwarven Helmet
+	}
+
+	FeneathsBrush: {
+		// Tooltip: Paint, my brush, as if hell were the last picture.
+		// DisplayName: Feneaths Brush
+	}
+
+	BoneyRidge: {
+		// Tooltip: It's... quite dry.
+		// DisplayName: Boney Ridge
+	}
+
+	Malebolge: {
+		// DisplayName: Malebolge
+		/* Tooltip:
+			'''
+			"There is no greater sorrow than to recall happiness in times of misery." 
+			Enormous blade, forged to cut down sinners in the craters of volcanoes.
+			Each hit creates explosion that deal damage. 
+			After successful combo summons meteors.
+			''' */
+	}
+
+	Echelonis: {
+		/* Tooltip:
+			'''
+			"The inhuman i've turned into"
+			Summons a Prodigal Seraph to fight for you
+			''' */
+		// DisplayName: Echelonis
+	}
+
+	CoreburnedAxe: {
+		// Tooltip: ""
+		// DisplayName: Coreburned Axe
+	}
+
+	ThundernitePickaxe: {
+		// Tooltip: ""
+		// DisplayName: Thundernite Pickaxe
+	}
+
+	Rhabdomyolysis: {
+		// DisplayName: Rhabdomyolysis
+		/* Tooltip:
+			'''
+			"From the remnants of flesh"
+			Summons a 3 knifes that always attacking you
+			The less hp you have - the more vampirism and damage you get
+			''' */
+	}
+
+	Snotknife: {
+		// Tooltip: ""
+		// DisplayName: Snotknife
+	}
+
+	CoreburnedLeggings: {
+		/* Tooltip:
+			'''
+			Increases player move speed by 20%
+			Increases damage resistance by 5%
+			''' */
+		// DisplayName: Coreburned Leggings
+	}
+
+	CoreburnedHelmet: {
+		/* Tooltip:
+			'''
+			Increases melee damage by 15%
+			Increases damage resistance by 15%
+			Allows player walk along lava 
+			Immunity to all fire debuffs
+			''' */
+		// DisplayName: Coreburned Helmet
+	}
+
+	CoreburnedBreastplate: {
+		/* Tooltip:
+			'''
+			Increases melee crit. chance by 15%
+			Increases damage resistance by 10%
+			''' */
+		// DisplayName: Coreburned Breastplate
+	}
+
+	Hades: {
+		// Tooltip: There is no shelter from the storm that sleeps inside this weapon.
+		// DisplayName: Hades
+	}
+
+	Anaconda: {
+		// Tooltip: Shoots wavy Anacondas that can pierce enemies
+		// DisplayName: Anaconda
+	}
+
+	TheMossWitchCrystal: {
+		// Tooltip: ""
+		// DisplayName: Moss Witch Amulet
+		// Passive: Immunity to Swamp Water and «{$BuffName.Poisoned}»
+		// Active: Clears the player from debuffs
+	}
+
+	StickyPad: {
+		// Tooltip: ""
+		// DisplayName: Sticky Pad
+		// Passive: No fall damage!
+		// Active: JUMP TO THE HEAVEN!
+	}
+
+	RunicWard: {
+		// Tooltip: ""
+		// DisplayName: Runic Ward
+		// Passive: Increases magic damage by 5%
+		// Active: Makes a dash and summon runic clone which deals damage.
+	}
+
+	CruelAmulet: {
+		// Tooltip: ""
+		// DisplayName: Cruel Amulet
+		// Passive: Has no passive effects.
+		// Active: Destroys all hostile projectiles. I'm afraid I can't let you... kill your past.
+	}
+
+	StoneAge: {
+		// DisplayName: Stone Age
+		// Tooltip: Intensifies at times, dealing more damage
+	}
+
+	Justice: {
+		// Passive: Increases damage endurance by 5%
+		// Active: Makes player invulnerable for almost 2 seconds
+		// DisplayName: Justice
+		// Tooltip: ""
+	}
+
+	EternalFire: {
+		// Tooltip: ""
+		// DisplayName: Eternal Fire
+		// Active: Makes a dash and summon Solar Bombs dealing damage.
+		// Passive: Has no passive effects.
+	}
+
+	TheOriginOfSymmetry: {
+		/* Tooltip:
+			'''
+			Increases critical strike chance by 20%
+			Splits screen into 9 reflections
+			''' */
+		// DisplayName: Axis of Reflections
+	}
+
+	CruorRelicItem: {
+		// Tooltip: ""
+		// DisplayName: Cruor Relic
+	}
+
+	CruorTrophy: {
+		// Tooltip: ""
+		// DisplayName: Cruor Trophy
+	}
+
+	MortalStones: {
+		/* Tooltip:
+			'''
+			Increases damage penetration by 8
+			Increases melee damage by 10%
+			Immunity to knockback 
+			''' */
+		// DisplayName: Mortal Stones
+	}
+
+	Jeweler: {
+		/* Tooltip:
+			'''
+			Increases magic and summon damage by 10%
+			Spawns mystical creature that increases damage of friendly projectiles, and decreases damage of hostile ones.
+			''' */
+		// DisplayName: Jeweler
+	}
+
+	DreadLeggings: {
+		/* Tooltip:
+			'''
+			Increases throwing attack spead by 12%
+			Increases movement speed by 10%
+			''' */
+		// DisplayName: Dread Leggings
+	}
+
+	DreadHelmet: {
+		/* Tooltip:
+			'''
+			Increases throwing crit. strike chance by 12%
+			Increases movement speed by 8%
+			''' */
+		// DisplayName: Dread Shroud
+	}
+
+	DreadArmor: {
+		/* Tooltip:
+			'''
+			Increases throwing damage by 15%
+			Increases movement speed by 15%
+			''' */
+		// DisplayName: Dread Breastplate
+	}
+
+	HotEgg: {
+		// DisplayName: Hot Egg
+		// Tooltip: Summons mini cutie sinlord
+	}
+
+	NaquadahDagger: {
+		// DisplayName: Naquadah Dagger
+		// Tooltip: ""
+	}
+}
+
+Projectiles: {
+	// AirflowFeather.DisplayName: Airflow Feather
+	// AirflowProjectile.DisplayName: Airflow Projectile
+	// AngryParasiteProjectile.DisplayName: Angry Parasite Projectile
+	// PathogenicAura.DisplayName: Pathogenic Aura
+	// SuperAura.DisplayName: Super Aura
+	// SuperAuraScytheCut.DisplayName: Super Aura Scythe Cut
+	// SuperAuraSpawn.DisplayName: Super Aura Spawn
+	// DurataniumJavelinProjectile.DisplayName: Duratanium Javelin Projectile
+	// EverwoodJavelinProjectile.DisplayName: Everwood Javelin Projectile
+	// NaturalSelectionProj.DisplayName: Natural Selection Proj
+	// OculithShardProjectile.DisplayName: Oculith Shard Projectile
+	// OculithShardProjectile2.DisplayName: Oculith Shard Projectile2
+	// OculithSkull.DisplayName: Oculith Skull
+	// SelectionProjectile.DisplayName: Selection Projectile
+	// PathogenicAuraSpawn.DisplayName: Pathogenic Aura Spawn
+	// NaquadahProjectile.DisplayName: Naquadah Projectile
+	// StoneMark.DisplayName: Stone Mark
+	// WavyStinger.DisplayName: Wavy Stinger
+	// PoisonDnaSeed.DisplayName: Poison Dna Seed
+	// PlanteraFlower.DisplayName: Plantera Flower
+	// MercuriumAuraScytheCut.DisplayName: Mercurium Aura Scythe Cut
+	// MercuriumAura.DisplayName: Mercurium Aura
+	// InfamousFlameProjectile.DisplayName: Infamous Flame Projectile
+	// VeldorousStaffProj.DisplayName: Veldorous Staff Proj
+	// AllotropicAuraProjectile.DisplayName: Allotropic Aura Projectile
+	// AllotropicAuraOrb.DisplayName: Allotropic Aura Orb
+	// SandAlbinoAuraProjectile.DisplayName: Sand Albino Aura Projectile
+	// SandAlbinoOrb.DisplayName: Sand Albino Orb
+	// UnderwaterAuraScytheProjectile.DisplayName: Underwater Aura Scythe Projectile
+	// UnderwaterAuraScytheCut.DisplayName: Underwater Aura Scythe Cut
+	// UnderwaterAuraScytheSupport.DisplayName: Underwater Aura Scythe Support
+	// UnderwaterAuraScytheAttack.DisplayName: Underwater Aura Scythe Attack
+	// UnderwaterAuraProjectile.DisplayName: Underwater Aura Projectile
+	// UnderwaterAura.DisplayName: Underwater Aura
+	// HellMark.DisplayName: Hell Mark
+	// HellStalactite3.DisplayName: Hell Stalactite
+	// HellStalactite2.DisplayName: Hell Stalactite
+	// HellStalactite1.DisplayName: Hell Stalactite
+	// HellMeteor3.DisplayName: Hell Meteor
+	// HellMeteor2.DisplayName: Hell Meteor
+	// HellMeteor1.DisplayName: Hell Meteor
+	// BlasphemousHeavensProj.DisplayName: Blasphemous Heavens Proj
+	// LightningStrike.DisplayName: Lightning Strike
+	// IfritScythe.DisplayName: Ifrit Scythe
+	// LavaStalactite.DisplayName: Lava Stalactite
+	// CleavageSpear.DisplayName: Cleavage Spear
+	// FireballProjectile.DisplayName: Fireball Projectile
+	// MagicStalactite.DisplayName: Magic Stalactite
+	// GiantSandstorm.DisplayName: Giant Sandstorm
+	// PrimordialBlood.DisplayName: Primordial Blood
+	// BloodAttackMarker.DisplayName: Blood Attack Marker
+	// DefensiveRing.DisplayName: Defensive Ring
+	// HellFriendlyMeteor3.DisplayName: Hell Friendly Meteor3
+	// HellFriendlyMeteor2.DisplayName: Hell Friendly Meteor2
+	// HellFriendlyMeteor1.DisplayName: Hell Friendly Meteor1
+	// HellgateAuraScytheCut.DisplayName: Hellgate Aura Scythe Cut
+	// HellgateAura.DisplayName: Hellgate Aura
+	// JadeShard2.DisplayName: Jade Shard2
+	// MicroOrb.DisplayName: Micro Orb
+	// CogwormProj5.DisplayName: Cogworm Proj5
+	// CogwormProj4.DisplayName: Cogworm Proj4
+	// CogwormProj3.DisplayName: Cogworm Proj3
+	// CogwormProj2.DisplayName: Cogworm Proj2
+	// CogwormProj1.DisplayName: Cogworm Proj1
+	// ValhalliteSoul.DisplayName: Valhallite Soul
+	// ValhalliteJavelinProj.DisplayName: Valhallite Javelin Proj
+	// Waternado.DisplayName: Waternado
+	// Hedgehog.DisplayName: Hedgehog
+	// CarnageChest1.DisplayName: Carnage Chest1
+	// CarnageAxe1.DisplayName: Carnage Axe1
+	// CarnageChest2.DisplayName: Carnage Chest2
+	// CarnageAxe2.DisplayName: Carnage Axe2
+	// CarnageChest22.DisplayName: Carnage Chest22
+	// CarnageBone.DisplayName: Carnage Bone
+	// CarnageBone1.DisplayName: Carnage Bone1
+	// CarnageBone2.DisplayName: Carnage Bone2
+	// CarnageChest3.DisplayName: Carnage Chest3
+	// CarnageToilet.DisplayName: Carnage Toilet
+	// CarnageChest33.DisplayName: Carnage Chest33
+	// CarnageChest333.DisplayName: Carnage Chest333
+	// CarnageThing.DisplayName: Carnage Thing
+	// ServantScythe.DisplayName: Servant Scythe
+	// JadeGlaiveProj.DisplayName: Jade Glaive Proj
+	// DurataniumRework.DisplayName: Duratanium Rework
+	// TroxiniumRework.DisplayName: Troxinium Rework
+	// NaquadahRework.DisplayName: Naquadah Rework
+	// CaesiumSpear.DisplayName: Caesium Spear
+	// SpearRework.DisplayName: Spear Rework
+	// TridentRework.DisplayName: Trident Rework
+	// StormSpearRework.DisplayName: Storm Spear Rework
+	// LampRework.DisplayName: Lamp Rework
+	// ValhalliteRework.DisplayName: Valhallite Rework
+	// ScaleRework.DisplayName: Scale Rework
+	// TerraRework.DisplayName: Terra Rework
+	// PaintRework.DisplayName: Paint Rework
+	// TrueNightRework.DisplayName: True Night Rework
+	// SerialRework.DisplayName: Serial Rework
+	// TrueGungnirRework.DisplayName: True Gungnir Rework
+	// OvergrownRework.DisplayName: Overgrown Rework
+	// MarbleRework.DisplayName: Marble Rework
+	// WoodenClubRework.DisplayName: Wooden Club Rework
+	// CobaltRework.DisplayName: Cobalt Rework
+	// PalladiumRework.DisplayName: Palladium Rework
+	// TitaniumRework.DisplayName: Titanium Rework
+	// OrichalkumRework.DisplayName: Orichalkum Rework
+	// MythrilRework.DisplayName: Mythril Rework
+	// FishRework.DisplayName: Fish Rework
+	// AdamantiteRework.DisplayName: Adamantite Rework
+	// ChlorophyteRework.DisplayName: Chlorophyte Rework
+	// ObsfishRework.DisplayName: Obsfish Rework
+	// DarkProjectile.DisplayName: Dark Projectile
+	// DarkRework.DisplayName: Dark Rework
+	// BloodSlashSpawnerProjectile.DisplayName: Blood Slash Spawner Projectile
+	// BloodSlashProjectile.DisplayName: Blood Slash Projectile
+	// ForkRework.DisplayName: Fork Rework
+	// ScaleProjectile.DisplayName: Scale Projectile
+	// MushroomRework.DisplayName: Mushroom Rework
+	// WoodenClubSwingEffect.DisplayName: Wooden Club Swing Effect
+	// RavagerRework.DisplayName: Ravager Rework
+	// GungnirRework.DisplayName: Gungnir Rework
+	// FrozenRework.DisplayName: Frozen Rework
+	// Snowflake.DisplayName: Snowflake
+	// MasterRework.DisplayName: Master Rework
+	// DecayedScytheProjectile.DisplayName: Decayed Scythe Projectile
+	// DecayedCloudSmall.DisplayName: Decayed Cloud Small
+	// DecayedCloud.DisplayName: Decayed Cloud
+	// BloodyCloud.DisplayName: Bloody Cloud
+	// BloodyCloudSmall.DisplayName: Bloody Cloud Small
+	// BloodyScytheProjectile.DisplayName: Bloody Scythe Projectile
+	// CarnageToiletFriendly.DisplayName: Carnage Toilet Friendly
+	// StonedBlood.DisplayName: Stoned Blood
+	// PrimeSkull.DisplayName: Prime Skull
+	// BloodFire.DisplayName: Blood Fire
+	// VengeanceSphere.DisplayName: Vengeance Sphere
+	// Rapire1.DisplayName: Rapire1
+	// Rapire2.DisplayName: Rapire2
+	// Tourmaline.DisplayName: Tourmaline
+	// Zircon.DisplayName: Zircon
+	// PreciousSkullAura.DisplayName: Precious Skull Aura
+	// CaesiumGas.DisplayName: Caesium Gas
+	// CaesiumSecondaryGas.DisplayName: Caesium Secondary Gas
+	// LavaBone.DisplayName: Lava Bone
+	// GhostFeather.DisplayName: Ghost Feather
+	// DesertBeakFeather.DisplayName: Desert Beak Feather
+	// LyreProj2.DisplayName: Lyre Proj2
+	// HeatNote.DisplayName: Heat Note
+	// SwordSwingProj.DisplayName: Sword Swing Proj
+	// ProminenceProjectile.DisplayName: Prominence Projectile
+	// SandMagnet.DisplayName: Sand Magnet
+	// SpiritualDisc.DisplayName: Spiritual Disc
+	// TyphoonRework.DisplayName: Typhoon Rework
+	// OrcishRework.DisplayName: Orcish Rework
+	// BismuthiumGloveRework.DisplayName: Bismuthium Glove Rework
+	// SharkHalberdRework.DisplayName: Shark Halberd Rework
+	// JaguarChakramRework.DisplayName: Jaguar Chakram Rework
+	// PurpleCog.DisplayName: Purple Cog
+	// BismuthumRework.DisplayName: Bismuthum Rework
+	// GalvornBladeRework.DisplayName: Galvorn Blade Rework
+	// BismuthumSwordShoot.DisplayName: Bismuthum Sword Shoot
+	// RuneMinion.DisplayName: Rune Minion
+	// GalvornAura.DisplayName: Galvorn Aura
+	// JadeShardFriendly.DisplayName: Jade Shard Friendly
+	// SpinCleava.DisplayName: Spin Cleava
+	// SpinBone.DisplayName: Spin Bone
+	// BismuthumShrapnel.DisplayName: Bismuthum Shrapnel
+	// NarsilEvil.DisplayName: Narsil Evil
+	// SeabornSlash.DisplayName: Seaborn Slash
+	// SeabornWave.DisplayName: Seaborn Wave
+	// NarsilAlt.DisplayName: Narsil Alt
+	// OrcishSwungo.DisplayName: Orcish Swungo
+	// OrcishSwungoP.DisplayName: Orcish Swungo P
+	// PyroclastShoot.DisplayName: Pyroclast Shoot
+	// OceanSlash.DisplayName: Ocean Slash
+	// SeabornKnife.DisplayName: Seaborn Knife
+	// SeabornSword.DisplayName: Seaborn Sword
+	// SeabornAttack2.DisplayName: Seaborn Attack2
+	// SeabornSword2.DisplayName: Seaborn Sword2
+	// PostTransformProj.DisplayName: Post Transform Proj
+	// BookProj.DisplayName: Book Proj
+	// NecroSkull.DisplayName: Necro Skull
+	// NecroKnife.DisplayName: Necro Knife
+	// MagicStalactiteSpawn.DisplayName: Magic Stalactite Spawn
+	// NecroFire.DisplayName: Necro Fire
+	// NecroSphere.DisplayName: Necro Sphere
+	// NecroMirror.DisplayName: Necro Mirror
+	// NecroKnifeFriendly.DisplayName: Necro Knife Friendly
+	// SeabornSlash2.DisplayName: Seaborn Slash2
+	// EnferArrow.DisplayName: Enfer Arrow
+	// EnferFlames.DisplayName: Enfer Flames
+	// ScorcherLaser.DisplayName: Scorcher Laser
+	// ScorcherLaserSpawner.DisplayName: Scorcher Laser Spawner
+	// PhoenixProj.DisplayName: Phoenix Proj
+	// FlamingBladeRework.DisplayName: Flaming Blade Rework
+	// SunballProj.DisplayName: Sunball Proj
+	// NebulaPike.DisplayName: Nebula Pike
+	// NebulaPikeSpawner.DisplayName: Nebula Pike Spawner
+	// BatbowProjectile.DisplayName: Batbow Projectile
+	// ValhalliteKnight.DisplayName: Valhallite Knight
+	// WaternadoFriendly.DisplayName: Waternado Friendly
+	// MagicClawRework.DisplayName: Magic Claw Rework
+	// GloomRing.DisplayName: Gloom Ring
+	// GloomRingAttack.DisplayName: Gloom Ring
+	// GloomR.DisplayName: Gloom
+	// GloomProj1.DisplayName: Gloom
+	// GloomProj2.DisplayName: Gloom
+	// GloomProjOrbit.DisplayName: Gloom Proj Orbit
+	// GloomScepeterHelper.DisplayName: Gloom Scepeter Helper
+	// TarSpike2.DisplayName: Tar Spike
+	// TarSpike1.DisplayName: Tar Spike
+	// TarSpike.DisplayName: Tar Spike
+	// ScissorsRework2.DisplayName: Scissors Rework
+	// ScissorsRework.DisplayName: Scissors Rework
+	// DerpYoyoP.DisplayName: Derp Yoyo
+	// EyeP.DisplayName: Eye
+	// FuryOfWatersRework.DisplayName: Fury Of Waters
+	// BlueP.DisplayName: Blue
+	// GreenP.DisplayName: Green
+	// PurpleP.DisplayName: Purple
+	// RedP.DisplayName: Red
+	// YellowP.DisplayName: Yellow
+	// SunJavelinRework.DisplayName: Sun Javelin Rework
+	// ThrowerInterface1.DisplayName: Thrower Interface
+	// StalloyMegascrew.DisplayName: Stalloy Megascrew
+	// SnowballMega.DisplayName: Snowball Mega
+	// EverIceSlash.DisplayName: Ever Ice Slash
+	// SmallIceSword.DisplayName: Small Ice Sword
+	// SnowCrystal.DisplayName: Snow Crystal
+	// GiantSnow.DisplayName: Giant Snow
+	// FeroziumBladeRework.DisplayName: Ferozium Blade Rework
+	// FriendlyStar.DisplayName: Friendly Star
+	// WaterGunBubble2.DisplayName: Water Gun Bubble
+	// WaterGunBubble.DisplayName: Water Gun Bubble
+	// SunRework.DisplayName: Sun Rework
+	// TriArrow.DisplayName: Tri Arrow
+	// TriwhipProjTriple.DisplayName: Triwhip Proj Triple
+	// OssuaryStaffProj.DisplayName: Ossuary Staff Proj
+	// SpaceCowboyRework.DisplayName: Space Cowboy Rework
+	// QueenBeeProj.DisplayName: Queen Bee Proj
+	// JadeSpearRework.DisplayName: Jade Spear Rework
+	// JadeShardBig.DisplayName: Jade Shard Big
+	// JadeShard.DisplayName: Jade Shard
+	// JadeGreatJavelin.DisplayName: Jade Great Javelin
+	// Hellbullet.DisplayName: Hellbullet
+	// JadeDart.DisplayName: Jade Dart
+	// HeavyStone.DisplayName: Heavy Stone
+	// TeethBreakerMega.DisplayName: Teeth Breaker Mega
+	// ThunderjabProj.DisplayName: Thunderjab Proj
+	// ThunderSpike.DisplayName: Thunder Spike
+	// ThunderChakramProj.DisplayName: Thunder Chakram Proj
+	// ThunderSigilProj1.DisplayName: Thunder Sigil Proj
+	// ThunderSigilProj.DisplayName: Thunder Sigil Proj
+	// BatBatRework.DisplayName: Bat Bat Rework
+	// GreatDrumstickRework.DisplayName: Great Drumstick Rework
+	// HamBatRework.DisplayName: Ham Bat Rework
+	// IchormoreRework.DisplayName: Ichormore Rework
+	// ParadoxSwordRework.DisplayName: Paradox Sword Rework
+	// SolarSlash.DisplayName: Solar Slash
+	// SolarWindRework.DisplayName: Solar Wind Rework
+	// TentacleSpikeRework.DisplayName: Tentacle Spike Rework
+	// ValhalliteSwordRework.DisplayName: Valhallite Sword Rework
+	// FeroziumIcicle.DisplayName: Ferozium Icicle
+	// Darkwennan.DisplayName: Darkwennan
+	// DarkwennanBlood.DisplayName: Darkwennan Blood
+	// FlarionProj.DisplayName: Flarion Proj
+	// FlarionProj2.DisplayName: Flarion Proj2
+	// EldestSnowmanCloud.DisplayName: Eldest Snowman Cloud
+	// GreenPresentProj.DisplayName: Green Present Proj
+	// WhitePresentProj.DisplayName: White Present Proj
+	// YellowBuffer.DisplayName: Yellow Buffer
+	// YellowPresentProj.DisplayName: Yellow Present Proj
+	// SparkyTrail.DisplayName: Sparky Trail
+	// Shockwave.DisplayName: Shockwave
+	// AdamantiteDagger2.DisplayName: Adamantite Dagger
+	// AdamantiteRocket.DisplayName: Adamantite Rocket
+	// Aeglos2.DisplayName: Aeglos2
+	// BlackScarletGungnir.DisplayName: Black Scarlet Gungnir
+	// BlazingSaws2.DisplayName: Blazing Saws
+	// BloodySpike.DisplayName: Bloody Spike
+	// CrystallGranade2.DisplayName: Crystall Granade
+	// Garlic2.DisplayName: Garlic
+	// MiniLancea.DisplayName: Mini Lancea
+	// NanoStar1.DisplayName: Nano Star
+	// NanoStar2.DisplayName: Nano Star
+	// ScarletGungnir2.DisplayName: Scarlet Gungnir
+	// ThrowingAxe2.DisplayName: Throwing Axe
+	// TitaniumWarhammer2.DisplayName: Titanium Warhammer
+	// TitaniumWarhammerReturn.DisplayName: Titanium Warhammer Return
+	// TMicroHammer.DisplayName: T Micro Hammer
+	// SkelegonProj1.DisplayName: Skelegon
+	// SkelegonProj2.DisplayName: Skelegon
+	// SkelegonProj3.DisplayName: Skelegon
+	// Sludge.DisplayName: Sludge
+	// Anchor2.DisplayName: Anchor2
+	// AnchorJunk.DisplayName: Anchor Junk
+	// Flamarang2.DisplayName: Flamarang
+	// FlamarangProjectile.DisplayName: Flamarang Projectile
+	// FleshGrinder2.DisplayName: Flesh Grinder
+	// FleshGrinderProj.DisplayName: Flesh Grinder
+	// IcePieces.DisplayName: Ice Pieces
+	// NightGlaive2.DisplayName: Night Glaive
+	// NightGlaiveProj.DisplayName: Night Glaive
+	// OrichalcumKama2.DisplayName: Orichalcum Kama2
+	// SnowGlaive2.DisplayName: Snow Glaive
+	// RingFlash.DisplayName: Ring Flash
+	// CrystalDagger2.DisplayName: Crystal Dagger
+	// ChlorophytePiercer2.DisplayName: Chlorophyte Piercer2
+	// BigBobLaser.DisplayName: Big Bob Laser
+	// ScorcherHeldItemProj.DisplayName: Scorcher Held Item Proj
+	// MythrilJavelin2.DisplayName: Mythril Javelin
+	// MythrilKnife.DisplayName: Mythril Knife
+	// NaturalSelection2.DisplayName: Natural Selection
+	// SunJavelin2.DisplayName: Sun Javelin2
+	// SunJavelinProj.DisplayName: Sun Javelin Proj
+	// Gut.DisplayName: Gut
+	// GutsJew.DisplayName: Guts Jew
+	// AshenCopy.DisplayName: Ashen Copy
+	// ValhalliteKnightIceProj.DisplayName: Valhallite Knight Ice Proj
+	// EnferBoom.DisplayName: Enfer Boom
+	// LavaRune1.DisplayName: Lava Rune
+	// LavaRune2.DisplayName: Lava Rune
+	// LavaRune3.DisplayName: Lava Rune
+	// LavaRune4.DisplayName: Lava Rune
+	// AquaBoom.DisplayName: Aqua Boom
+	// AquaRework.DisplayName: Aqua Rework
+	// AquaSmall.DisplayName: Aqua Small
+	// AzraelsHeartstopper2.DisplayName: Azraels Heartstopper
+	// CupidJavelin.DisplayName: Cupid Javelin
+	// Pulsar2.DisplayName: Pulsar
+	// Shroomerang2.DisplayName: Shroomerang
+	// NoxiousRing.DisplayName: Noxious Ring
+	// ScorcherMuzzleFlash.DisplayName: Scorcher Muzzle Flash
+	// BurningAura.DisplayName: Burning Aura
+	// BurningExplosion.DisplayName: Burning Explosion
+	// BurningScream.DisplayName: Burning Scream
+	// SinlordFireBreath.DisplayName: Hellfire Breath
+	// Tree.DisplayName: Tree
+	// FaceMace2.DisplayName: Face Mace
+	// AirflowProjectile2.DisplayName: Airflow Projectile
+	// CactusStar2.DisplayName: Cactus Star
+	// EverwoodJavelin2.DisplayName: Everwood Javelin
+	// FlarionProj3.DisplayName: Flarion
+	// OmegaDiscRework.DisplayName: Omega Disc Rework
+	// OmegaDiscSmall.DisplayName: Omega Disc Small
+	// ThornChakram2.DisplayName: Thorn Chakram
+	// DarkRework2.DisplayName: Dark Rework
+	// FreezeBoltRework.DisplayName: Freeze Bolt
+	// FreezeSpawn.DisplayName: Freeze Spawn
+	// GranitburProjectile.DisplayName: Granitbur Projectile
+	// GranitburRework.DisplayName: Granitbur Rework
+	// ShadowBeamRework.DisplayName: Shadow Beam Rework
+	// LifesAura.DisplayName: Life's Aura
+	// BloodProjectile.DisplayName: Blood Projectile
+	// TurretBronze.DisplayName: Turret Bronze
+	// BronzeDrillProj.DisplayName: Bronze Drill Proj
+	// SinlordFireEruption.DisplayName: Hellfire Eruption
+	// SinlordEffects.DisplayName: Sinlord Effects
+	// SinlordDash.DisplayName: Sinlord Dash
+	// FireWhirl.DisplayName: Fire Whirl
+	// FireSwirl.DisplayName: Fire Swirl
+	// LavinatorDart.DisplayName: Lavinator Dart
+	// LavinatorFlash.DisplayName: Lavinator Flash
+	// LavinatorMicroBurst.DisplayName: Lavinator Micro Burst
+	// BurningBeam.DisplayName: Burning Beam
+	// Hellheart.DisplayName: Hellheart
+	// HellheartFlame.DisplayName: Hellheart Flame
+	// SinlordFireProminence.DisplayName: Fire Prominence
+	// LavaInfernalGlow.DisplayName: Lava Infernal Glow
+	// SwizzardHand.DisplayName: Swizzard Hand
+	// FadingHellFrostburnShieldExplosion.DisplayName: Shield Explosion
+	// FadingHellHeldItem.DisplayName: Fading Hell
+	// ShadowPlayerGore.DisplayName: Shadow Player Gore
+	// Hellfire.DisplayName: Hellfire
+	// HellFireExplosion.DisplayName: Hell Fire Explosion
+	// HellishAirRune.DisplayName: Hellish Air Rune
+	// GolemFireBreath.DisplayName: Fire Breath
+	// GolemFireCharge.DisplayName: Golem Fire Charge
+	// RoyalBlast.DisplayName: Royal Blast
+	// IceMist.DisplayName: Ice Mist
+	// Tornado.DisplayName: Tornado
+	// BrainofCthulhu.DisplayName: Brain of Cthulhu
+	// BrainWaves.DisplayName: Brain Waves
+	// FallingStar.DisplayName: Falling Star
+	// Superbolt.DisplayName: Superbolt
+	// SuperboltWarning.DisplayName: Superbolt
+	// FlowerPow.DisplayName: Flower Pow
+	// PlanterasTentacle.DisplayName: Plantera's Tentacle
+	// PlanteraScream.DisplayName: Plantera Scream
+	// BaseShortswordCommon.DisplayName: Base Shortsword Common
+	// DamasqueProj.DisplayName: Damasque Proj
+	// TarSpikeFlash.DisplayName: Tar Spike Flash
+	// GlacierFlash.DisplayName: Glacier Flash
+	// GlacierBallRework.DisplayName: Glacier Ball Rework
+	// PlasmaExplosion.DisplayName: Plasma Explosion
+	// PlasmaBeam.DisplayName: Plasma Beam
+	// DestroyerPulse.DisplayName: Destroyer Pulse
+	// DestroyerMissile.DisplayName: Destroyer Missile
+	// DestroyerBomb.DisplayName: Destroyer Bomb
+	// ShadowChain.DisplayName: Shadow Chain
+	// ShadowBeamRework2.DisplayName: Shadow Beam Rework2
+	// ShadowBeamFlash.DisplayName: Shadow Beam Flash
+	// SpazmatismPulse.DisplayName: Spazmatism Pulse
+	// Sclerocket.DisplayName: Sclerocket
+	// RetinazerPulse.DisplayName: Retinazer Pulse
+	// RetinaRay.DisplayName: Retina Ray
+	// EyeFire.DisplayName: Eye Fire
+	// MinotaurWaraxeRework.DisplayName: Minotaur Waraxe Rework
+	// MinotaursWaraxeRework.DisplayName: Minotaurs Waraxe Rework
+	// UnstableJadeShard.DisplayName: Unstable Jade Shard
+	// JadePulse.DisplayName: Jade Pulse
+	// JadeNova.DisplayName: Jade Nova
+	// JadeLightningWarning.DisplayName: Jade Lightning Warning
+	// JadeLightning.DisplayName: Jade Lightning
+	// JadeGreaterJavelin.DisplayName: Jade Greater Javelin
+	// JadeExplosion.DisplayName: Jade Explosion
+	// JadeBlast.DisplayName: Jade Blast
+	// JadeBeam.DisplayName: Jade Beam
+	// BrightJadeShard.DisplayName: Bright Jade Shard
+	// GhalihieriProj.DisplayName: Ghalihieri Proj
+	// Ghalihieri2.DisplayName: Ghalihieri2
+	// TheseusSword.DisplayName: Theseus Sword
+	// MalebolgeProj.DisplayName: Malebolge Proj
+	// MalebolgeMeteor.DisplayName: Malebolge Meteor
+	// MalebolgeBoom.DisplayName: Malebolge Boom
+	// ProdigyLava.DisplayName: Prodigy Lava
+	// ProdigyGold.DisplayName: Prodigy Gold
+	// ProdigyAshen.DisplayName: Prodigy Ashen
+	// ProdigalSeraph.DisplayName: Prodigal Seraph
+	// PoisonGasTrap.DisplayName: Poison Gas Trap
+	// SolarDisc2.DisplayName: Solar Disc2
+	// ThunderSpike2.DisplayName: Thunder Spike2
+	// RhabdomyolysisProjectile.DisplayName: Rhabdomyolysis Projectile
+	// Meatknife1.DisplayName: Meatknife1
+	// Meatknife2.DisplayName: Meatknife2
+	// Meatknife3.DisplayName: Meatknife3
+	// MeatknifeManager.DisplayName: Meatknife Manager
+	// GalvornPiece.DisplayName: Galvorn Piece
+	// SplutterinkRework.DisplayName: Splutterink Rework
+	// GladiusBismuth.DisplayName: Gladius Bismuth
+	// SnotknifeP.DisplayName: Snotknife P
+	// MossArm.DisplayName: Moss Arm
+	// PalladiumArmorRework.DisplayName: Palladium Armor Rework
+	// GoldenBombRework.DisplayName: Golden Bomb Rework
+	// ObsidianSealRework.DisplayName: Obsidian Seal Rework
+	// HadesHeldItemProj.DisplayName: Hades Held Item Proj
+	// HadesMuzzleFlash.DisplayName: Hades Muzzle Flash
+	// AnacondaProj.DisplayName: Anaconda Proj
+	// StoneAgeProj.DisplayName: Stone Age Proj
+	// SpellClone.DisplayName: Spell Clone
+	// SunBomb.DisplayName: Sun Bomb
+	// CruorSpike.DisplayName: Cruor Spike
+	// CruorStar.DisplayName: Cruor Star
+	// BoneFlash.DisplayName: Bone Flash
+	// SoulfulGem.DisplayName: Soulful Gem
+	// JewelerProj.DisplayName: Jeweler Proj
+	// JaguarDaggerRework.DisplayName: Jaguar Dagger Rework
+	// OrcishArrow.DisplayName: Orcish Arrow
+	// BlasphemousStar.DisplayName: Blasphemous Star
+	// BlasphemousLightningStar.DisplayName: Blasphemous Lightning Star
+	// SuperboltFriendly.DisplayName: Superbolt Friendly
+	// GammaBladeProjRework.DisplayName: Gamma Blade Proj Rework
+	// OcramExplosion.DisplayName: Ocram Explosion
+	// OcramBomb.DisplayName: Ocram Bomb
+	// OcramBombExplosion.DisplayName: Ocram Bomb Explosion
+	// OcramKnife.DisplayName: Ocram Knife
+	// OcramSkull2.DisplayName: Ocram Skull2
+	// OcramSkull1.DisplayName: Ocram Skull1
+	// HotEggProj.DisplayName: Hot Egg Proj
+	// NaquadahDaggerProj.DisplayName: Naquadah Dagger Proj
+}
+
+Buffs: {
+	EverwoodJavelinDebuff: {
+		// DisplayName: Thicket Roots
+		// Description: ""
+	}
+
+	BloodDodge: {
+		// Description: Blood for blood
+		// DisplayName: Blood Dodge
+	}
+
+	DeepPressureDebuff: {
+		// DisplayName: Deep Pressure Debuff
+		// Description: Deep Pressure
+	}
+
+	Hellborn: {
+		// Description: Lava enchantments
+		// DisplayName: Hellborn
+	}
+
+	Ashen: {
+		// Description: You are ashen
+		// DisplayName: Ashen
+	}
+
+	CorrodeCrossShieldBuff: {
+		// Description: +20 defense
+		// DisplayName: Corrode Endurance
+	}
+
+	HellishAir: {
+		// DisplayName: ""
+		// Description: You feel the cursed air searing your lungs...
+	}
+
+	SynergiaStarving: {
+		// Description: Your body lacks water. Damage decreased by 20%
+		// DisplayName: Lack of Power
+	}
+
+	SynergiaDehydrated: {
+		// Description: Your body lacks water. Regeneration is absent.
+		// DisplayName: Heart Failure
+	}
+
+	ProminenceBlessing: {
+		// Description: The Blades of Helios protect you
+		// DisplayName: Prominence Blessing
+	}
+
+	RunicLegacy: {
+		// DisplayName: Runic Legacy
+		// Description: Summons a mini Runic Elemental which fight for you
+	}
+
+	BansheeCurse: {
+		// Description: Decreases player endurance by 30%
+		// DisplayName: Banshee Curse
+	}
+
+	SnowVillageBuff: {
+		// DisplayName: Snow Village
+		// Description: The village protects you
+	}
+
+	GloomBuff: {
+		// Description: Ignore this shit
+		// DisplayName: Gloomed
+	}
+
+	GloomDebuff: {
+		// DisplayName: Degloomed
+		// Description: Ignore this shit
+	}
+
+	Starlord: {
+		// Description: Summons an attacking star
+		// DisplayName: Starlord
+	}
+
+	ShardflingPotionBuff: {
+		// Description: Your throwing damage is increased by 12%
+		// DisplayName: Shardfling
+	}
+
+	OssuaryBuff: {
+		// Description: Sharpened skulls with spikes follow you
+		// DisplayName: Hateful Bones
+	}
+
+	Bloodbound: {
+		// DisplayName: Bloodbound
+		// Description: Bound to blood
+	}
+
+	SulphurVenom: {
+		// DisplayName: Sulphur Venom
+		// Description: So sulphuric that even skin feels bad
+	}
+
+	BloodBuff: {
+		// DisplayName: Bloodthirsty
+		// Description: Donor
+	}
+}
+
+Keybinds: {
+	// ToggleAuraMode.DisplayName: Toggle Aura Mode
+	// ArmorSetBonusActivate.DisplayName: Armor Set Bonus Activate
+}
+
+// SinlordSummon: Use Hellworm scale in the underworld
+
+Tiles: {
+	// RiseOfTheOldGod.MapEntry: Rise Of The Old God
+	// Reed3.MapEntry: Reed
+}
+
+Biomes: {
+	SnowVillage: {
+		// TownNPCDialogueName: the Snow Village
+		// DisplayName: Frostholm Village
+	}
+
+	NewHell: {
+		// TownNPCDialogueName: the Frontier
+		// DisplayName: Frontier
+	}
+
+	UndergraundSwamp: {
+		// DisplayName: Underground Swamp
+		// TownNPCDialogueName: the Underground Swamp
+	}
+}
+
+// Emotes.DwarfEmote.Command: dwarfemote
+
+BaseLoc: {
+	DamageClass: {
+		// throwing: throwing
+		// Throwing: Throwing
+	}
+
+	// AttackSpead: Increases {0} speed by {1}%
+	// ComboTime: Increases the barrageveawer combo action time by {0} ticks
+	// DeactiveTime: increases the barrageveawer combo deactivation time by{0} ticks
+	// SynergiaThrowing: increases the barrageveawer combo action time by {0} ticks and increases the combo action time by {1}
+}

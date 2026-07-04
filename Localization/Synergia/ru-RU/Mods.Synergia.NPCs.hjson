@@ -1,0 +1,174 @@
+Dialog: {
+	// FrostDwarf: Once upon a time, there were more of us in this village. A whole kind of dwarves, but after the snowmen attack, we were doomed, one of us wanders around the world, the other is in the central city, I sit here and live life alone
+	// FrostDwarf2: I wonder how the {0} lives there, in warm, pleasant conditions
+	// CityDwarf: Have you heard that there is a ruined village with a lonely dwarf in the Tundra? That was a long story
+	// CityDwarf2: I wonder how the {0} lives there, in cold, unpleasant conditions
+}
+
+Cogworm: {
+	// DisplayName: Греховный червелорд
+
+	BossChecklistIntegration: {
+		// EntryName: Греховный червелорд
+		// SpawnInfo: Разбейте монолит адского сердца в пещере зверя.
+	}
+}
+
+// CogwormBody.DisplayName: Тело червелорда
+// CogwormTail.DisplayName: Хвост червелорда
+// HellheartMonolith.DisplayName: Монолит адского сердца
+// CogwormGhost.DisplayName: Призрак червелорда
+// AirElementalEnemy.DisplayName: Воздушный элементаль
+// WaterElementalEnemy.DisplayName: Водяной элементаль
+// ElderSnowman.DisplayName: Старший снеговик
+// Snowykaze.DisplayName: Snowykaze
+// Sparky.DisplayName: Sparky
+
+HellDwarf: {
+	// DisplayName: Адский дварф
+
+	Name: {
+		// Skyzephire: Верге
+		// Thorin: Торфинсон
+		// Belegar: Белигар
+		// Dragan: Дракан
+		// Wulfrik: Вульфрик Кердо
+		// Molk: Молк
+		// Prophet: Провидец
+	}
+
+	// BestiaryInfo: О нём мало что известно, кроме того, чтобы он может выдержать жар грехокаменной магмы.
+
+	Chat: {
+		// Text: Одиночество для меня не проклятие. Там, в инфернальной крепости, даже если все проклятые страдали вместе... они всё равно были одиноки. Похоже изгнание всё-таки было не приговором, а скорее возможностью обрести ясность в жизни.
+		// Text1: People cling to stories like sinners cling to hope. I hope you didn't believe'em
+		// Text2: This place is silent, abandoned... yet it feels more honest than the world above. No lies and masks. Just ruins.
+		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here
+		// Text4: They worshipped the Wyrm as a demigod. Now, look around: ruins to the left, and a undivided cave to the right. You know, faith is fragile.. it only takes one truth to shatter it.
+		// Text5: Interesting, what's hidden under this bridge? Monsters can't let me dive in, maybe I can find something?
+		// Text6: They called me a traitor. That's the reason, why i leaved the Frostholm. But tell me, is it betrayal to reject a lie?
+		// Text7: They gave away the Heart of the Tundra for protection.. and called me a traitor for refusing to do the same. Jotunn knows the truth.
+		// Text8: The dwarves guarded it. Not out of faith.. but fear of what happens when it’s gone.
+		// Text9: Чаща... Какое любопытное местечко. Лес, забытый солнцем. Последний раз когда я там был, чаща встретила меня меня не особо дружелюбно.
+		// Text10: Lava shouldn’t breath, as you know. Those burning clouds are not smoke, but whispers of something trapped below.
+		// Text11: I can't believe I let them went away. Last time I was on the surface was 16 years ago.
+		// Text12: I’ve seen the flames rise without heat. The fire itself is trying to escape its own prison. All the sinners behind this place were the same.
+		// Text13: I still remember the Druid’s rage. I stopped blaming him a long time ago because i just used to it. The truth is worse people like him will always exist, waiting for a reason to justify it. That’s what I hate the most, not the curse, not the flames. The fact that humanity always finds a way to become the same thing.
+		// Text14: Push kindness far enough, and it turns into hatred. Push hatred far enough, and it begins to resemble mercy. Most people will never see the difference.
+		// Text15: Glimpses of harmlessness in eyes of demons, sometimes they much closer to god, than people themselves.
+		// Text16: One life or many.. you choose, and nothing changes. Again. Like Sisyphus - but your stone bleeds.
+		// Text17: Worse. Tired. Less than I was.
+		// Text18: Грехокаменная магма... Давно я не слышал о ней. Даже огонь побаивается касаться её.
+		// Text19: Those thought that the Monolith was a source of power. A heart doesn’t exist to empower the body. The body exists to feed the heart.
+		// Text20: Знаешь, что пугало меня больше всего? Спокойствие в голосах этих бездушных тварей.
+		// Text21: The priest in the Imperial Town spoke of enlightenment. Strange word for something that hollowed people from within
+		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх перевесил разум, they fed the beast with their own faith.
+		// Text23: Они меня бесят.
+		// Text24: The closer you stand to godlike creatures, the easier it becomes to forgive terrible things.
+		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир начал рушится. Мост разрушился, когда бежать стало бесполезно. Руины возникли тогда, когда даже собственной памяти доверять перестали. А инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
+		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. The flames burn louder, and even silence feels heavier. This place has started breathing again.
+		// PostGolemDialog2: I watch Inferno slowly change. Before, creatures here hunted from hunger and suffering. Now they watch... They scared of something, scared of unforgivable wrath.
+		// PostGolemDialog3: Давным-давно, после одной ужасной трагедии, [c/ff0000:монолит адского сердца] решили сокрыть от чужих раз и навсегда. И баланс был снова нарушен. Инфернальная крепость никогда не должна была существовать без своего охотника.
+		// PostSinlordDialog1: То есть... червелорд был сражён. После стольких лет, я думал, что получу облегчение, услышав это, но кажется нет.
+		// ProdigyDialog: You think a Seraph makes you closer to the God? All it shows is that even something sacred can be broken.
+		// SinlordDialog: I cant lie, im afraid of you. You and I are kinf of similar, but you destroy those who destroyed others. Are you better than them?
+		// FirstMeetDialog: I almost forgot what a human voice sounds like. This city died slowly ash by ash, soul by soul. Funny that I thought if I ever saw someone again, I’d feel relief. Turns out, it’s something closer to unease.
+		// SerorkDialog: They tell in a one old druid tale... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
+		// MolkDialog: Скажи-ка мне на милость, ты блять идиот?
+	}
+
+	TownNPCMood: {
+		// Content: I am content.
+		// NoHome: I hate not having a home. aeris not have a fucking home sad shit
+		// FarFromHome: I am too far from home.
+		// LoveSpace: I love having so much space.
+		// DislikeCrowded: I dislike how crowded I am.
+		// HateCrowded: I hate how crowded I am.
+		// LikeNPC_Princess: I like {NPCName}.
+		// Princess_LovesNPC: I like {NPCName}.
+	}
+
+	// Census.SpawnCondition: Появляется в преисподней при генерации мира
+}
+
+ImperianCommander: {
+	Class: {
+		Name: {
+			// Class0: Воин
+			// Class1: Стрелок
+			// Class2: Маг
+			// Class3: Призыватель
+			// Class4: Ниндзя
+			// Class5: Друид
+		}
+
+		Display: {
+			// Class0: Warior has good armor, but often has to approach danger.
+			// Class1: Ranger is mid. Fine damage, not bad armor but speed could be better.
+			// Class2: Mage has good damage, but depends on mana.
+			// Class3: Summoner has no need in aiming and can support team, but has weak defense.
+			// Class4: Ninja has good speed and dodges, but needs to be accurate.
+			// Class5: Druid has good buffs, can transforming, but has weak defense.
+		}
+	}
+
+	Say: {
+		// PreEp: Hey, recruit. I suppose you already know you can get your weapons here, so what’ll it be?
+		// PostEp: Good choice but now go see what you can do
+	}
+
+	// Emblem: You need {0}
+
+	Buttons: {
+		// PreEp: I wish to receive weapons
+		// EpText: I choose weapons on
+	}
+}
+
+// Skelegon.DisplayName: Скелегончая
+// BigBob.DisplayName: Погребённый
+
+Sinlord: {
+	// DisplayName: Греховный червелорд
+
+	BossChecklistIntegration: {
+		// EntryName: Греховный червелорд
+		// SpawnInfo: Потревожьте монолит адского сердца
+	}
+}
+
+// SinlordBody.DisplayName: Греховный червелорд
+// SinlordTail.DisplayName: Греховный червелорд
+// FrogRider.DisplayName: Лягушачий наездник
+// MischievousDuo.DisplayName: Mischievous Duo
+// Swamling.DisplayName: Swamling
+// SwamplingWarrior.DisplayName: Swampling Warrior
+// Swizzard_MaskOff.DisplayName: Swizzard_ Mask Off
+// Swizzard.DisplayName: Swizzard
+// Nibbler.DisplayName: Nibbler
+
+MossWitch: {
+	// DisplayName: Ведьма мха
+
+	BossChecklistIntegration: {
+		// EntryName: Ведьма мха
+		// SpawnInfo: Появляется в структуре, располагающейся в болоте.
+	}
+}
+
+// TaintedSlime.DisplayName: Осквернённый слизень
+// TaintedPickaxe.DisplayName: Осквернённая кирка
+// TaintedMummy.DisplayName: Осквернённая мумия
+
+Cruor: {
+	// DisplayName: Cruor
+
+	BossChecklistIntegration: {
+		// EntryName: Cruor
+		/* SpawnInfo:
+			'''
+			Enemies in the dungeon after Plantera has been defeated may drop "Soulful Crystals".
+			       You need to collect three to spawn Cruor
+			''' */
+	}
+}
