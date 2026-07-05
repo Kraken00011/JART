@@ -35,6 +35,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Armor and Accessory Prefixes
 [*] Armor Buffs
 [*] Armor Modifiers & Reforging (склонение брони из кучи модов)
+[*] Beam Stops Spread
 [*] Better Zenith in Calamity
 [*] Boss Cursor
 [*] Calamity Crossmod Vulnerabilities
@@ -73,7 +74,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Shimmer Gun
 [*] Shroomaria
 [*] Some Worm Bosses Actually Destroy Tiles
-[*] Starforged [Old]
+[*] Starforged
 [*] Starting Class Weapons Reborn
 [*] Steam Achievement Fix
 [*] Talisman of Friendship
@@ -93,9 +94,9 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [list]
 [*] Calamity - Fargo's Souls DLC
 [*] Calamity: Hunt of the Old God
-[*] Clamity Addon
+[*] Cataclysm Mod (Clamity)
 [*] Compact Mods (For TML)
-[*] Thrower Unification (Встройка)
+[*] Thrower Unification (встройка)
 [*] Tools Prefixes
 [/list]
 
@@ -112,15 +113,12 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [list]
 [*] Synergia и моды связанные с ней
 [*] QuestBooks
+[*] Spooky
 [*] Coralite
-[*] GaMeTerraria
-[*] Forgotten Evils
-[*] Cerebral Mod
-[*] MrPlague's Authentic Races
 [*] Critical Strikes Overhaul
 [*] Quality of Life Compendium
-[*] Terraria RPG Reborn
 [*] Модов от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
+[*] Ещё куча разных модов
 [/list]
 
 [h3]Дополнительный контент кроме переводов[/h3]
