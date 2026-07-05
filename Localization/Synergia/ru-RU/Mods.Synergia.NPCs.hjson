@@ -1,8 +1,8 @@
 Dialog: {
-	// FrostDwarf: Once upon a time, there were more of us in this village. A whole kind of dwarves, but after the snowmen attack, we were doomed, one of us wanders around the world, the other is in the central city, I sit here and live life alone
-	// FrostDwarf2: I wonder how the {0} lives there, in warm, pleasant conditions
-	// CityDwarf: Have you heard that there is a ruined village with a lonely dwarf in the Tundra? That was a long story
-	// CityDwarf2: I wonder how the {0} lives there, in cold, unpleasant conditions
+	// FrostDwarf: Давным-давно, в той деревне нас жило куда больше. Целый отдельный вид дварфов, но после нападения снеговиков мы были обречены, один из наших сейчас бродит по миру, другой - в центральном городе, ну а я сижу здесь и проживаю остатки своей жизни совсем один
+	// FrostDwarf2: Интересно, как там поживает {0}, в этих жарких и неприятных условиях для жизни
+	// CityDwarf: Ты когда-нибудь слышал о заброшенной деревне в тундре, в которой живёт лишь один дварф? Это была долгая история
+	// CityDwarf2: Интересно, как там поживает {0}, в этих холодных и неприятных условиях для жизни
 }
 
 Cogworm: {
@@ -34,7 +34,7 @@ HellDwarf: {
 		// Dragan: Дракан
 		// Wulfrik: Вульфрик Кердо
 		// Molk: Молк
-		// Prophet: Провидец
+		// Prophet: Пророк
 	}
 
 	// BestiaryInfo: О нём мало что известно, кроме того, чтобы он может выдержать жар грехокаменной магмы.
@@ -44,7 +44,7 @@ HellDwarf: {
 		// Text1: People cling to stories like sinners cling to hope. I hope you didn't believe'em
 		// Text2: This place is silent, abandoned... yet it feels more honest than the world above. No lies and masks. Just ruins.
 		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here
-		// Text4: They worshipped the Wyrm as a demigod. Now, look around: ruins to the left, and a undivided cave to the right. You know, faith is fragile.. it only takes one truth to shatter it.
+		// Text4: Они почитали червя как полубога. Ну а теперь, оглянись вокруг: ruins to the left, and a undivided cave to the right. Знаешь, а ведь вера - крайне хрупкая штука... всего-лишь одна правда и веры как небывало.
 		// Text5: Interesting, what's hidden under this bridge? Monsters can't let me dive in, maybe I can find something?
 		// Text6: They called me a traitor. That's the reason, why i leaved the Frostholm. But tell me, is it betrayal to reject a lie?
 		// Text7: They gave away the Heart of the Tundra for protection.. and called me a traitor for refusing to do the same. Jotunn knows the truth.
@@ -56,22 +56,22 @@ HellDwarf: {
 		// Text13: I still remember the Druid’s rage. I stopped blaming him a long time ago because i just used to it. The truth is worse people like him will always exist, waiting for a reason to justify it. That’s what I hate the most, not the curse, not the flames. The fact that humanity always finds a way to become the same thing.
 		// Text14: Push kindness far enough, and it turns into hatred. Push hatred far enough, and it begins to resemble mercy. Most people will never see the difference.
 		// Text15: Glimpses of harmlessness in eyes of demons, sometimes they much closer to god, than people themselves.
-		// Text16: One life or many.. you choose, and nothing changes. Again. Like Sisyphus - but your stone bleeds.
-		// Text17: Worse. Tired. Less than I was.
+		// Text16: Одна жизнь или несколько... выбор за тобой, хоть он и ничего не значит. Опять же. Ты как Сизиф - но твой камень кровоточит.
+		// Text17: Хуже. Устал. Но чуть меньше чем до этого.
 		// Text18: Грехокаменная магма... Давно я не слышал о ней. Даже огонь побаивается касаться её.
-		// Text19: Those thought that the Monolith was a source of power. A heart doesn’t exist to empower the body. The body exists to feed the heart.
+		// Text19: Они считали, что монолит является источником силы. Но на самом деле не сердце существует для усиления тела, а тело существует для кормления сердца.
 		// Text20: Знаешь, что пугало меня больше всего? Спокойствие в голосах этих бездушных тварей.
-		// Text21: The priest in the Imperial Town spoke of enlightenment. Strange word for something that hollowed people from within
-		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх перевесил разум, they fed the beast with their own faith.
+		// Text21: The priest in the Imperial Town spoke of enlightenment. Strange word for something that hollowed people from within.
+		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх перевесил разум, они начали кормить этого зверя своей верой.
 		// Text23: Они меня бесят.
-		// Text24: The closer you stand to godlike creatures, the easier it becomes to forgive terrible things.
+		// Text24: Чем ближе ты стоишь к богоподобным созданиям, тем проще прощать чужие грехи.
 		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир начал рушится. Мост разрушился, когда бежать стало бесполезно. Руины возникли тогда, когда даже собственной памяти доверять перестали. А инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
 		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. The flames burn louder, and even silence feels heavier. This place has started breathing again.
 		// PostGolemDialog2: I watch Inferno slowly change. Before, creatures here hunted from hunger and suffering. Now they watch... They scared of something, scared of unforgivable wrath.
 		// PostGolemDialog3: Давным-давно, после одной ужасной трагедии, [c/ff0000:монолит адского сердца] решили сокрыть от чужих раз и навсегда. И баланс был снова нарушен. Инфернальная крепость никогда не должна была существовать без своего охотника.
 		// PostSinlordDialog1: То есть... червелорд был сражён. После стольких лет, я думал, что получу облегчение, услышав это, но кажется нет.
-		// ProdigyDialog: You think a Seraph makes you closer to the God? All it shows is that even something sacred can be broken.
-		// SinlordDialog: I cant lie, im afraid of you. You and I are kinf of similar, but you destroy those who destroyed others. Are you better than them?
+		// ProdigyDialog: Думаешь Серафим сделает тебя ближе к Богу? Всё, что он делает - лишь показывает, что даже нечто свящённое можно легко сломать.
+		// SinlordDialog: Скажу честно - ты меня пугаешь. Ты и я даже чем-то схожи, но ты уничтожаешь тех, кто уничтожал других. Ты действительно думаешь, что лучше них?
 		// FirstMeetDialog: I almost forgot what a human voice sounds like. This city died slowly ash by ash, soul by soul. Funny that I thought if I ever saw someone again, I’d feel relief. Turns out, it’s something closer to unease.
 		// SerorkDialog: They tell in a one old druid tale... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
 		// MolkDialog: Скажи-ка мне на милость, ты блять идиот?
@@ -103,24 +103,24 @@ ImperianCommander: {
 		}
 
 		Display: {
-			// Class0: Warior has good armor, but often has to approach danger.
-			// Class1: Ranger is mid. Fine damage, not bad armor but speed could be better.
-			// Class2: Mage has good damage, but depends on mana.
-			// Class3: Summoner has no need in aiming and can support team, but has weak defense.
-			// Class4: Ninja has good speed and dodges, but needs to be accurate.
-			// Class5: Druid has good buffs, can transforming, but has weak defense.
+			// Class0: У воина хорошая защита, но ему часто приходится приближаться к своей цели для нанесения урона.
+			// Class1: Стрелок чистый среднячок. Хороший урон, нормальная броня, но вот скорость могла бы быть и по-лучше.
+			// Class2: У мага хороший урон, но он сильно зависит от маны.
+			// Class3: Призывателю даже ненужно целиться, из-за чего он может сосредоточиться на помощи команде, но взамен у него очень слабая защита.
+			// Class4: У ниндзя хорошая скорость и возможность уклонения от атак, но он требует повышенной точности.
+			// Class5: У друида сильные бонусы, возможность превращения, но слабая защита.
 		}
 	}
 
 	Say: {
-		// PreEp: Hey, recruit. I suppose you already know you can get your weapons here, so what’ll it be?
-		// PostEp: Good choice but now go see what you can do
+		// PreEp: Эй, новобранец! Я надеюсь, ты уже знаешь, что можешь получить своё первое оружие здесь? Ну так что, каким оно будет?
+		// PostEp: Хороший выбор, а теперь посмотри, на что способен
 	}
 
-	// Emblem: You need {0}
+	// Emblem: Вам нужно {0}
 
 	Buttons: {
-		// PreEp: I wish to receive weapons
+		// PreEp: Я хочу получить оружие
 		// EpText: I choose weapons on
 	}
 }
@@ -161,14 +161,14 @@ MossWitch: {
 // TaintedMummy.DisplayName: Осквернённая мумия
 
 Cruor: {
-	// DisplayName: Cruor
+	// DisplayName: Кровьер
 
 	BossChecklistIntegration: {
-		// EntryName: Cruor
+		// EntryName: Кровьер
 		/* SpawnInfo:
 			'''
-			Enemies in the dungeon after Plantera has been defeated may drop "Soulful Crystals".
-			       You need to collect three to spawn Cruor
+			После победы над Плантерой с врагов Темницы начнут иногда выпадать «Кристаллы души».
+			Вам нужно подобрать 3 таких, чтобы призвать Кровьера.
 			''' */
 	}
 }
