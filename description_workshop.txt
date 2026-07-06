@@ -60,6 +60,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Miscellanaria
 [*] More Beams
 [*] More Pylons
+[*] Multiclass Armors
 [*] Munchies - Consumables Checklist
 [*] Munchies - Calamity Addon
 [*] Munchies Crossmod Addon
