@@ -330,7 +330,7 @@ ItemDescriptions: {
 
 NPCRenames: {
 	// Beholder: Слуга Козникса
-	// FallenBeholder: Козникс, Падший созерцатель
+	// FallenBeholder: Козникс, Падший Созерцатель
 	// FallenBeholder2: Козникс, Превосходный // Coznix, the Transcendent
 	// Lich: Лич, Ученик Осквернителя
 	// LichHeadless: Лич, Апостол смерти
@@ -341,32 +341,32 @@ NPCRenames: {
 }
 
 Toggler: {
-	// BandofCratons: Power Surge
+	// BandofCratons: Прилив силы
 	// BannerofWar: Rally Banner
-	// BeholderTentacles: Beholder's Scorch
-	// BeholderTentacles2: Beholder's Domain
-	// CrystallizedFinality: Crystallized Finality
+	// BeholderTentacles: Запал Созерцателя
+	// BeholderTentacles2: Измерение Созерцателя
+	// CrystallizedFinality: Кристаллизованный Crystallized Finality
 	// DeepDarkShellShield: Over-overshield
-	// ZephyrWings: Zephyr Synergy
+	// ZephyrWings: Синергия Зефира
 	// QueenJellyPin: Regal Tentacles
-	// SierraChimera: Sierra Chimera
+	// SierraChimera: Сьерра-Химера
 	// StarScoutReticle: Blink Dash
-	// StriderMouthguard: Strider's Frostbite
+	// StriderMouthguard: Ледяной укус шагателя
 	// StriderMouthguard2: Mighty Mytes
-	// UndyingGaze: Soul Harvest
-	// ValkyrienSkyStone: Valkyrien Sky Stone
-	// VampireCape: Bat Swarm Transformation
+	// UndyingGaze: Жатва душ
+	// ValkyrienSkyStone: Небесный камень валькирии
+	// VampireCape: Превращение в рой летучих мышей
 }
 
 ActiveSkills: {
 	BeholderTentacles2: {
-		// DisplayName: Измерение созерцателя
-		// Tooltip: Summon the Eye of the Beholder to quickly sap life from enemies and heal the user
+		// DisplayName: Измерение Созерцателя
+		// Tooltip: Призывает глаз Созерцателя, стремительно высасывающий здоровье из врагов и исцеляющий этим здоровьем игрока
 	}
 
 	VampireCape: {
 		// DisplayName: Рой летучих мышей
-		// Tooltip: Transform into a swarm of bats which follow your cursor
+		// Tooltip: Превращает вас в рой летучих мышей, следующих за вашим курсором
 	}
 }
 
@@ -513,7 +513,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Даёт эффекты от предметов «{$ItemName.FrogLeg}» и «{$ItemName.LavaWaders}», но без невосприимчивости к лаве
-			'Must be Will's'
+			'Должно быть это Воли'
 			''' */
 	}
 
@@ -558,13 +558,13 @@ Items: {
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
 			[i:ThoriumRework/UndyingGaze] Critical strikes grant Soul Essence, attacks that use life or already grant Soul Essence give more
 			[i:ThoriumRework/DeepDarkShellShield] Grants a passive 20 shield, immunity to knockback and doubles the health boost from shield while also increasing defensive stats
-			"ONE. FINAL ACT. OF ENTROPY."
+			'ПОСЛЕДНИЙ. АКТ. ЭНТРОПИИ.'
 			''' */
 	}
 
 	DeathsingerPotion: {
-		// DisplayName: Зелье смертопева Deathsinger Potion
-		// Tooltip: 7% increased symphonic damage and playing speed
+		// DisplayName: Зелье певца смерти
+		// Tooltip: Увеличивает симфонический урон и скорость игры на 7%
 	}
 
 	DeepDarkShellShield: {
@@ -578,11 +578,11 @@ Items: {
 	}
 
 	DeepDarkShellShieldCosmetic: {
-		// DisplayName: Deep Dark Shell Shield
+		// DisplayName: Щит тёмного панциря глубин
 		/* Tooltip:
 			'''
-			Grants a passive 20 shield
-			Grants immunity to knockback
+			Даёт 20 ед. пассивного щита
+			Даёт невосприимчивость к отбрасыванию
 			''' */
 	}
 
@@ -600,9 +600,9 @@ Items: {
 		// DisplayName: Трубка Пожирателя
 		/* Tooltip:
 			'''
-			Summons wiggly worms that bites foes
-			Ignores 15 points of enemy Defense
-			"Give it a jar of pickled peppers"
+			Игнорирует 15 ед. вражеской защиты
+			Призывает извивающихся червей, кусающих врагов
+			'Дайте им баночку маринованных перцев'
 			''' */
 	}
 
@@ -610,14 +610,14 @@ Items: {
 		// DisplayName: Договор палача
 		/* Tooltip:
 			'''
-			Gaining soul essence with radiant scythes grant a stack of aggregate charge
-			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
-			'Fetch me their souls...'
+			Получение эссенций души, используя лучезарные косы, даёт стак агрегатного заряда
+			Нанесение лучезарного урона снарядами коса или любым оружием, кроме кос, расходует все накопленные стаки агрегатного заряда и даёт эссенции души
+			'Принеси мне их души...'
 			''' */
 	}
 
 	FanDonations: {
-		// DisplayName: Fan Donations
+		// DisplayName: Пожертвования фанатов
 		/* Tooltip:
 			'''
 			All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
@@ -634,9 +634,9 @@ Items: {
 		// DisplayName: Парящая флейта
 		/* Tooltip:
 			'''
-			Summons a winged flute that will shoot enemies
-			Grants Flight Time II and Resource Regeneration I every time it attacks
-			"Does it look like it gives a flying flute?"
+			Призывает крылатую флейту, стреляющую во врагов
+			Каждую атаку флейта даёт усиления «Время полёта II» и «Восстановление ресурсов I»
+			'Does it look like it gives a flying flute?'
 			''' */
 	}
 
@@ -679,8 +679,8 @@ Items: {
 		// DisplayName: Душа Хельхейма
 		/* Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«Bleeding, [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
-			Effects of [i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}, [i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders}, and [i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«Кровотечение», [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
+			Даёт эффекты от предметов [i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}, [i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders} и [i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
 			[i:ThoriumRework/DeepDarkShellShield][i:ThoriumRework/BandofCratons] Grants a passive 40 shield, immunity to Overflowed and makes your attacks inflict it, and doubles the health boost from shield while also increasing defensive stats
@@ -758,7 +758,7 @@ Items: {
 	}
 
 	Loudener: {
-		// DisplayName: Loudener
+		// DisplayName: Усилитель звука
 		/* Tooltip:
 			'''
 			Wind and brass instrument attacks explode on hit
@@ -914,7 +914,7 @@ Items: {
 	}
 
 	SpittingShroomStaff: {
-		// DisplayName: Spitting Shroom Staff
+		// DisplayName: Посох грибов-плевунов
 		/* Tooltip:
 			'''
 			Summons a spore-spitting mushroom that attacks foes
