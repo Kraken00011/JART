@@ -33,7 +33,6 @@ public class FargosAltMusicNotificationTextPatch : ILPatcher
     {
         var cursor = new ILCursor(il);
 
-        // Ищет строку
         if (!cursor.TryGotoNext(i => i.MatchLdstr("Now Playing: ")))
         {
             Terraria.ModLoader.Logging.PublicLogger.Warn(
@@ -41,7 +40,6 @@ public class FargosAltMusicNotificationTextPatch : ILPatcher
             return;
         }
 
-        // Заменяет на русский текст
         cursor.Next.Operand = "Сейчас играет: ";
     };
 }
@@ -57,7 +55,7 @@ public class FargosAltMusicNotificationScalePatch : ILPatcher
             if (!ModLoader.TryGetMod("FargoAltMusicMod", out var mod))
                 return null;
 
-            var type = mod.Code.GetType("FargoAltMusicMod.UI.NowPlayingNotif"); // другой тип
+            var type = mod.Code.GetType("FargoAltMusicMod.UI.NowPlayingNotif");
             if (type == null)
             {
                 Logging.PublicLogger.Warn("[JAtRT] FargosAltMusicNotificationScalePatch: тип не найден!");
@@ -72,7 +70,6 @@ public class FargosAltMusicNotificationScalePatch : ILPatcher
     {
         var cursor = new ILCursor(il);
 
-        // Ищет "* 12f" — отступ текста от правого края
         if (!cursor.TryGotoNext(i => i.MatchLdcR4(12f)))
         {
             Logging.PublicLogger.Warn("[JAtRT] FargosAltMusicNotificationScalePatch: отступ 12f не найден!");
