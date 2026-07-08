@@ -1130,18 +1130,18 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("HMOreSummonerHelmets", out Mod hmSumHelms) && JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization)
         {
-            tru.Call("AddFeminineItems", hmSumHelms, new string[]
+            tru.Call("AddFeminineItems", hmSumHelms, new[]
             {
                 "OrichalcumCrown",
                 "MythrilCrown"
             });
 
-            tru.Call("AddNeuterItems", hmSumHelms, new string[]
+            tru.Call("AddNeuterItems", hmSumHelms, new[]
             {
                 "CobaltKabuto"
             });
 
-            tru.Call("AddPluralItems", hmSumHelms, new string[]
+            tru.Call("AddPluralItems", hmSumHelms, new[]
             {
                 "TitanumGrowth"
             });
@@ -1149,12 +1149,12 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("Clamity", out Mod clam) && JARTLocalizationConf.Instance.ClamityFix)
         {
-            tru.Call("AddFeminineItems", clam, new string[]
+            tru.Call("AddFeminineItems", clam, new[]
             {
                 "FrozenHellstoneVisor"
             });
 
-            tru.Call("AddPluralItems", clam, new string[]
+            tru.Call("AddPluralItems", clam, new[]
             {
                 "ClamitasShelleggings",
                 "ClamitasShellplate",
@@ -1164,7 +1164,7 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("FlinxHat", out Mod flinxHat) && JARTLocalizationConf.Instance.FlinxHatFix)
         {
-            tru.Call("AddFeminineItems", flinxHat, new string[]
+            tru.Call("AddFeminineItems", flinxHat, new[]
             {
                 "FlinxFurUshanka"
             });
@@ -1172,7 +1172,7 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("SOTS", out Mod sots))
         {
-            tru.Call("AddFeminineItems", sots, new string[]
+            tru.Call("AddFeminineItems", sots, new[]
             {
                 "VesperaMask",
                 "FlowerCrown",
@@ -1187,12 +1187,12 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "PutridPinkyMask"
             });
 
-            tru.Call("AddNeuterItems", sots, new string[]
+            tru.Call("AddNeuterItems", sots, new[]
             {
                 "CursedRobe"
             });
 
-            tru.Call("AddPluralItems", sots, new string[]
+            tru.Call("AddPluralItems", sots, new[]
             {
                 "ExcavatorLeggings",
                 "VoidspaceLeggings",
@@ -1211,7 +1211,7 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("CalamityBardHealer", out Mod calBardHeal) && JARTLocalizationConf.Instance.CalamityBardHealerLocalization)
         {
-            tru.Call("AddFeminineItems", calBardHeal, new string[]
+            tru.Call("AddFeminineItems", calBardHeal, new[]
             {
                 "BloodflareRitualistMask",
                 "DaedalusHat",
@@ -1224,7 +1224,7 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "VoidFaquirChapeau"
             });
 
-            tru.Call("AddPluralItems", calBardHeal, new string[]
+            tru.Call("AddPluralItems", calBardHeal, new[]
             {
                 "AerospecHeadphones",
                 "StatigelEarrings"
@@ -1233,7 +1233,7 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("Consolaria", out Mod cons))
         {
-            tru.Call("AddFeminineItems", cons, new string[]
+            tru.Call("AddFeminineItems", cons, new[]
             {
                 "AncientDragonMask",
                 "DragonMask",
@@ -1247,13 +1247,13 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "ViperChestplate"
             });
 
-            tru.Call("AddNeuterItems", cons, new string[]
+            tru.Call("AddNeuterItems", cons, new[]
             {
                 "OldSeraphimChestplate",
                 "SeraphimChestplate"
             });
 
-            tru.Call("AddPluralItems", cons, new string[]
+            tru.Call("AddPluralItems", cons, new[]
             {
                 "OldViperLegs",
                 "ViperLegs",
@@ -1274,17 +1274,17 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("MulticlassArmors", out Mod multArm) && JARTLocalizationConf.Instance.MulticlassArmorsLocalization)
         {
-            tru.Call("AddFeminineItems", multArm, new string[]
+            tru.Call("AddFeminineItems", multArm, new[]
             {
                 "ElderMagesHat"
             });
 
-            tru.Call("AddNeuterItems", multArm, new string[]
+            tru.Call("AddNeuterItems", multArm, new[]
             {
                 "HeatVoltConductorVest"
             });
 
-            tru.Call("AddPluralItems", multArm, new string[]
+            tru.Call("AddPluralItems", multArm, new[]
             {
                 "HeatVoltConductorBoots",
                 "CavernaryFlameLeggings",
@@ -1294,13 +1294,13 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("starforgedclassic", out Mod sfc) && JARTLocalizationConf.Instance.starforgedclassicLocalization)
         {
-            tru.Call("AddFeminineItems", sfc, new string[]
+            tru.Call("AddFeminineItems", sfc, new[]
             {
                 "SunplateCrown",
                 "SunplateCuirass"
             });
 
-            tru.Call("AddPluralItems", sfc, new string[]
+            tru.Call("AddPluralItems", sfc, new[]
             {
                 "SunplateLeggings",
             });
@@ -1308,7 +1308,7 @@ public class ArmorPrefixesPrefixes : ModSystem
 
         if (ModLoader.TryGetMod("PathOfTerraria", out Mod pot) && TRuConfig.Instance.PathOfTerrariaLocalization)
         {
-            tru.Call("AddFeminineItems", pot, new string[]
+            tru.Call("AddFeminineItems", pot, new[]
             {
                 "ApprenticeRobe",
                 "AstralforgedAegis",
@@ -1325,7 +1325,7 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "SpectralVeil"
             });
 
-            tru.Call("AddNeuterItems", pot, new string[]
+            tru.Call("AddNeuterItems", pot, new[]
             {
                 "AcolyteVestment",
                 "MysticGarb",
@@ -1334,7 +1334,7 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "FallenKingsLegacy"
             });
 
-            tru.Call("AddPluralItems", pot, new string[]
+            tru.Call("AddPluralItems", pot, new[]
             {
                 "BodyArmor",
                 "AcolyteSandals",
