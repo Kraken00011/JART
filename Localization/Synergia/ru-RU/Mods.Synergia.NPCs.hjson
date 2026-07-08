@@ -49,7 +49,7 @@ HellDwarf: {
 		// Text6: They called me a traitor. That's the reason, why i leaved the Frostholm. But tell me, is it betrayal to reject a lie?
 		// Text7: They gave away the Heart of the Tundra for protection.. and called me a traitor for refusing to do the same. Jotunn knows the truth.
 		// Text8: The dwarves guarded it. Not out of faith.. but fear of what happens when it’s gone.
-		// Text9: Чаща... Какое любопытное местечко. Лес, забытый солнцем. Последний раз когда я там был, чаща встретила меня меня не особо дружелюбно.
+		// Text9: Чаща... Какое любопытное местечко. Лес, забытый солнцем. Последний раз когда я там был, меня встретили не особо дружелюбно.
 		// Text10: Lava shouldn’t breath, as you know. Those burning clouds are not smoke, but whispers of something trapped below.
 		// Text11: I can't believe I let them went away. Last time I was on the surface was 16 years ago.
 		// Text12: I’ve seen the flames rise without heat. The fire itself is trying to escape its own prison. All the sinners behind this place were the same.
@@ -66,14 +66,14 @@ HellDwarf: {
 		// Text23: Они меня бесят.
 		// Text24: Чем ближе ты стоишь к богоподобным созданиям, тем проще прощать чужие грехи.
 		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир начал рушится. Мост разрушился, когда бежать стало бесполезно. Руины возникли тогда, когда даже собственной памяти доверять перестали. А инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
-		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. The flames burn louder, and even silence feels heavier. This place has started breathing again.
-		// PostGolemDialog2: I watch Inferno slowly change. Before, creatures here hunted from hunger and suffering. Now they watch... They scared of something, scared of unforgivable wrath.
+		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. Пламя разгорается громче, и даже тишина кажется тяжкой. Это место вновь задышало.
+		// PostGolemDialog2: Я наблюдал, как крепость постепенно менялась. Раньше здешние создания охотились, движимые голодом и агонией. Но теперь они лишь наблюдают... Они боятся чего-то, что полнится непростительным гневом.
 		// PostGolemDialog3: Давным-давно, после одной ужасной трагедии, [c/ff0000:монолит адского сердца] решили сокрыть от чужих раз и навсегда. И баланс был снова нарушен. Инфернальная крепость никогда не должна была существовать без своего охотника.
 		// PostSinlordDialog1: То есть... червелорд был сражён. После стольких лет, я думал, что получу облегчение, услышав это, но кажется нет.
 		// ProdigyDialog: Думаешь Серафим сделает тебя ближе к Богу? Всё, что он делает - лишь показывает, что даже нечто свящённое можно легко сломать.
 		// SinlordDialog: Скажу честно - ты меня пугаешь. Ты и я даже чем-то схожи, но ты уничтожаешь тех, кто уничтожал других. Ты действительно думаешь, что лучше них?
-		// FirstMeetDialog: I almost forgot what a human voice sounds like. This city died slowly ash by ash, soul by soul. Funny that I thought if I ever saw someone again, I’d feel relief. Turns out, it’s something closer to unease.
-		// SerorkDialog: They tell in a one old druid tale... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
+		// FirstMeetDialog: Я уж подумал, что навсегда забуду звучание голоса человеческого. Этот город угасал постепенно: песчинка за песчинкой, душа за душой. Забавно, что раньше я думал, если я за свою увижу ещё хоть кого-нибудь, то почувствую облегчение. Но кажется, это чувство ближе к тревоге.
+		// SerorkDialog: Как-то раз мне рассказывали  They tell in a one old druid tale... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
 		// MolkDialog: Скажи-ка мне на милость, ты блять идиот?
 	}
 
@@ -108,13 +108,13 @@ ImperianCommander: {
 			// Class2: У мага хороший урон, но он сильно зависит от маны.
 			// Class3: Призывателю даже ненужно целиться, из-за чего он может сосредоточиться на помощи команде, но взамен у него очень слабая защита.
 			// Class4: У ниндзя хорошая скорость и возможность уклонения от атак, но он требует повышенной точности.
-			// Class5: У друида сильные бонусы, возможность превращения, но слабая защита.
+			// Class5: У друида сильные бонусы, возможность превращаться, но слабая защита.
 		}
 	}
 
 	Say: {
 		// PreEp: Эй, новобранец! Я надеюсь, ты уже знаешь, что можешь получить своё первое оружие здесь? Ну так что, каким оно будет?
-		// PostEp: Хороший выбор, а теперь посмотри, на что способен
+		// PostEp: Хороший выбор, а теперь посмотри, на что ты способен
 	}
 
 	// Emblem: Вам нужно {0}
