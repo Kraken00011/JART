@@ -57,22 +57,22 @@ Items: {
 
 	SapphireRing: {
 		DisplayName: Сапфировое кольцо
-		Tooltip: Даёт бафф «Лунная сила»
+		Tooltip: Даёт бафф «{$Buffs.LunarEmpowermentBuff.DisplayName}»
 	}
 
 	TopazRing: {
 		DisplayName: Топазовое кольцо
-		Tooltip: Даёт бафф «Невероятная жатва»
+		Tooltip: Даёт бафф «{$Buffs.BountifulHarvestBuff.DisplayName}»
 	}
 
 	AmethystRing: {
 		DisplayName: Аметистовое кольцо
-		Tooltip: Даёт бафф «Благословение природы»
+		Tooltip: Даёт бафф «{$Buffs.FloralBlessingBuff.DisplayName}»
 	}
 
 	EmeraldRing: {
 		DisplayName: Изумрудное кольцо
-		Tooltip: Даёт бафф «Мятная свежесть»
+		Tooltip: Даёт бафф «{$Buffs.MintyFreshnessBuff.DisplayName}»
 	}
 
 	MoonsRing: {

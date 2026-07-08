@@ -1,11 +1,9 @@
-NPCs: {
-	TerraBladeBoss: {
-		DisplayName: Терра-клинок
+NPCs.TerraBladeBoss: {
+	DisplayName: Терра-клинок
 
-		BossChecklistIntegration: {
-			SpawnInfo: Используйте [i:YouBoss/CursedMirror] где угодно
-			DespawnMessage: "[c/0EA85D:Ваш клон распадается.]"
-		}
+	BossChecklistIntegration: {
+		SpawnInfo: Используйте [i:YouBoss/CursedMirror] где угодно
+		DespawnMessage: "[c/0EA85D:Ваш клон распадается.]"
 	}
 }
 
@@ -23,11 +21,9 @@ Projectiles: {
 	PlayerShadowClone.DisplayName: Теневой клон
 }
 
-Buffs: {
-	GracedWings: {
-		DisplayName: Возвышенные крылья
-		Description: Подвижность во время полёта улучшена
-	}
+Buffs.GracedWings: {
+	DisplayName: Возвышенные крылья
+	Description: Подвижность во время полёта улучшена
 }
 
 Items: {
