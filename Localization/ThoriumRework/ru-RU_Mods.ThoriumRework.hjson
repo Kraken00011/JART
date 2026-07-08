@@ -1,8 +1,8 @@
 /* PhotosensitivityWarning:
 	'''
-	PHOTOSENSITIVITY WARNING: Thorium Helheim adds a lot of flashy effects! Especially in boss fights!
-	If you are photosensitive, go to Settings -> Mod Configuration -> Thorium Helheim -> Visual Settings and set all the sliders to 0
-	You can turn off this warning in the config as well if you do not want to keep seeing it
+	ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ: мод Thorium Helheim добавляет множество мерцающих эффектов! Особенно во время битв с боссами!
+	Если у вас имеется повышенная светочувствительность, советую зайти в «Настройки» -> «Конфигурации модов» -> «Thorium Helheim» -> «Визуальные настройки» и выставить все ползунки на 0.
+	Если вы не хотите видеть это оповещение каждый раз, когда заходите в мир, отключите его в конфигурации этого же мода.
 	''' */
 
 ProgressionTweaks: {
@@ -21,61 +21,61 @@ ItemDescriptions: {
 		''' */
 	/* Rapier:
 		'''
-		Dealing damage temporarily reduces damage taken
-		Right-click to swing normally, damage dealt is increased if stabbed more than thrice
+		Нанесение урона временно увеличивает сопротивление урону
+		Нажмите ПКМ, чтобы взмахивать как обычно // Right-click to swing normally, damage dealt is increased if stabbed more than thrice
 		''' */
-	// DreamWeaversHelmet: Maximum life increased by 60
-	// DreamWeaversHood: Maximum life increased by 100
-	// DreamWeaversTabard: Damage taken reduced by 20%
+	// DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60
+	// DreamWeaversHood: Увеличивает максимальный запас здоровья на 100
+	// DreamWeaversTabard: Увеличивает сопротивление урону на 20%
 	/* DreamWeaversTreads:
 		'''
-		20% increased radiant speed
-		Maximum life increased by 80
+		Увеличивает лучезарную скорость на 20%
+		Увеличивает максимальный запас здоровья на 80
 		''' */
 	/* TideTurnerBreastplate:
 		'''
-		Damage taken reduced by 10%
-		Defense and damage reduction increases the lower the wearer's health is
-		Up to 100 defense and 60% damage reduction
+		Увеличивает сопротивление урону на 10%
+		Увеличивает защиту и сопротивление урону соразмерно снижению здоровья носителя
+		Максимальный бонус к защите: 100 ед., а к сопротивлению урону: 60%
 		''' */
-	// TideTurnerGreaves: 20% increased melee & throwing speed
+	// TideTurnerGreaves: Увеличивает скорость атаки ближнего боя и метательных атак на 20%
 	/* TideTurnerHelmet:
 		'''
-		Melee speed increases the lower the wearer's health is
-		Up to a 200% increase in melee speed
+		Увеличивает скорость атаки ближнего соразмерно снижению здоровья носителя
+		Максимальный бонус к скорости атаки ближнего боя: 200%
 		''' */
-	// TideTurnersGaze: Increases throwing damage by 50
-	// MasterArbalestHood: Ranged damage ignores 100 defense
-	// MasterMarksmansScouter: 12% increased firing speed
-	// AssassinsGuard: Increases ranged damage by 20
-	// AssassinsWalkers: 20% increased firing speed
+	// TideTurnersGaze: Увеличивает метательный урон на 50 ед.
+	// MasterArbalestHood: Стрелковый урон игнорирует 100 ед. защиты
+	// MasterMarksmansScouter: Увеличивает скорострельность на 12%
+	// AssassinsGuard: Увеличивает стрелковый на 20 ед.
+	// AssassinsWalkers: Увеличивает скорострельность на 20%
 	/* MagmaSeersMask:
 		'''
-		40% increased whip speed
-		Increases summon damage by 30
+		Увеличивает скорость хлыстов на 40%
+		Увеличивает урон призывателя на 30 ед.
 		''' */
-	// PyromancerCowl: Reduces mana usage by 40%
+	// PyromancerCowl: Снижает расход маны на 40%
 	/* PyromancerLeggings:
 		'''
-		30% increased casting speed
-		Increases your max number of sentries by 1
+		Увеличивает скорость произнесения заклинаний на 30%
+		Увеличивает максимальное количество стражей на 1
 		''' */
 	/* PyromancerTabard:
 		'''
-		75% increased whip range
-		Increases your max number of minions by 2
+		Увеличивает дальность хлыстов на 75%
+		Увеличивает максимальное количество миньонов на 2
 		''' */
-	// InspiratorsHelmet: 25% increased symphonic playing speed
-	// RhapsodistChestWoofer: Symphonic damage ignores 250 defense
-	// RhapsodistBoots: Symphonic empowerment range is doubled
-	// SoloistHat: Increases maximum inspiration by 8
+	// InspiratorsHelmet: Увеличивает скорость симфонической игры на 25%
+	// RhapsodistChestWoofer: Симфонический урон игнорирует 250 ед. защиты
+	// RhapsodistBoots: Удваивает радиус действия усилений
+	// SoloistHat: Увеличивает максимальный запас вдохновения на 8
 	/* ThoriumArmor:
 		'''
-		Critical strikes build up a meter that when full, causes attacks to create delayed electric shocks
-		Using items made with mostly Thorium bars builds this meter up on any hit instead of just crits
+		Нанесение критических ударов заряжает шкалу, которая при достижении полного заряда заставляет следующие создавать отложенные электрические вспышки
+		Использование предметов, созданных из ториевых слитков, заряжает шкалу при любом ударе, а не только критическом
 		''' */
-	// ThoriumRevolver: Converts flares into medium ranged thunder zaps
-	// ThoriumSpear: Unleashes a weak lightning bolt on attack
+	// ThoriumRevolver: Конвертирует сигнальные ракеты в средней дальности громовые разряды
+	// ThoriumSpear: При атаке выпускает слабую молнию в направлении курсора
 	/* ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that pierces through mobs before exploding
@@ -83,8 +83,8 @@ ItemDescriptions: {
 		''' */
 	/* ChampionSwiftBlade:
 		'''
-		Shoots a powerful shockwave that deals 50% damage
-		Every third and fourth attack summons sword apparitions
+		Стреляет мощной ударной волной, наносящей 50% урона оружия
+		При каждой 3 и 4 атаке дополнительно призывает проекции меча, атакующие в позиции курсора
 		''' */
 	/* ChampionsTrifectaShot:
 		'''
@@ -129,12 +129,12 @@ ItemDescriptions: {
 		Creates light slashes on a nearby enemy
 		Hit enemies will be illuminated and take 10% more damage
 		''' */
-	// CobaltPopper: Increases defense over time while being used
-	// PalladiumSubmachineGun: Increases life regeneration over time while being used
-	// MythrilPelter: Eventually doubles in attack speed while being used
-	// OrichalcumPelter: Gradually increases attack speed over time while being used
-	// AdamantiteCarbine: Increases crit chance over time while being used
-	// TitaniumRifle: Increases armor penetration over time while being used
+	// CobaltPopper: Во время использования постепенно увеличивает защиту
+	// PalladiumSubmachineGun: Во время использования постепенно увеличивает скорость регенерации здоровья
+	// MythrilPelter: Во время использования иногда может удвоить свою скорость атаки
+	// OrichalcumPelter: Во время использования значительно увеличивает скорость атаки с течением времени
+	// AdamantiteCarbine: Во время использования постепенно увеличивает шанс критического удара
+	// TitaniumRifle: Во время использования постепенно увеличивает пробивание брони
 	/* PyroclastStaff:
 		'''
 		Shoots a pattern of 1 to 5 pyroclastic fireballs
@@ -164,9 +164,9 @@ ItemDescriptions: {
 		''' */
 	/* ParticleWhip:
 		'''
-		Shoots an accelerated particle beam that bounce between enemies
-		Upon bouncing, the particle beam turns into curving lightning
-		"Not really that kind of whip..."
+		Стреляет ускоренным лучом частиц, отскакивающим между врагами
+		При отскоке луч частиц превращается в изгибающуюся молнию
+		'Это не совсем тот хлыст...'
 		''' */
 	/* LodeStoneBow:
 		'''
@@ -902,14 +902,14 @@ Items: {
 	}
 
 	SoulSnatcher: {
-		// DisplayName: Soul Snatcher
+		// DisplayName: Духолов
 		/* Tooltip:
 			'''
-			This mace counts as a scythe
-			Hitting enemies with the blade generates soul essence
+			Работает как булава, но считается косой
+			При попадании по врагу лезвием даёт эссенции души // Hitting enemies with the blade generates soul essence
 			Hitting enemies with the hilt generates lingering healing energy
 			Up to 5 healing energy can exist at once
-			"Your soul belongs to snatcher!"
+			'Your soul belongs to snatcher!'
 			''' */
 	}
 
@@ -917,8 +917,8 @@ Items: {
 		// DisplayName: Посох грибов-плевунов
 		/* Tooltip:
 			'''
-			Summons a spore-spitting mushroom that attacks foes
-			Hides when enemies get close, causing a deadly explosion
+			Призывает плюющийся спорами гриб сражаться за вас
+			Если враг подбирается близко к грибу, тот спрячется за своей шляпкой и вызовет мощный взрыв
 			''' */
 	}
 
@@ -926,10 +926,10 @@ Items: {
 		// DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		/* Tooltip:
 			'''
-			Allows breathing in space and grants night vision
-			Dashing teleports you a few blocks forward
-			Does not work on special dashes
-			Gives you a dash if you don't have one already
+			Позволяет дышать в космосе и даёт эффекты от баффа «Ночное зрение»
+			Совершение рывка телепортирует вас на несколько блоков вперёд
+			Не работает с особыми рывками
+			Даёт рывок, если у вас его не было
 			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
 			''' */
 	}
@@ -956,11 +956,11 @@ Items: {
 
 	StriderMouthguardCosmetic: {
 		// DisplayName: Strider Mouthguard
-		// Tooltip: Effects of {$ItemName.HandWarmer}
+		// Tooltip: Даёт эффекты от предмета «{$ItemName.HandWarmer}»
 	}
 
 	TerrariumSoulScourge: {
-		// DisplayName: Terrarium Soul Scourge
+		// DisplayName: Террариевый бич душ
 		/* Tooltip:
 			'''
 			Swings a prismatic mace that releases lingering healing energy on its first hit
@@ -970,7 +970,7 @@ Items: {
 	}
 
 	TitanHat: {
-		// DisplayName: Titan Hat
+		// DisplayName: Титаническая шляпа
 		/* Tooltip:
 			'''
 			'Infused with primordial energy'
@@ -981,18 +981,18 @@ Items: {
 	}
 
 	TitanHood: {
-		// DisplayName: Titan Hood
+		// DisplayName: Титанический капюшон
 		/* Tooltip:
 			'''
 			'Infused with primordial energy'
-			Increases throwing speed by 15%
-			Increases maximum technique points by 3
-			Non-consumable throwing weapons take 40% longer to exhaust you
+			Увеличивает скорость метательных атак на 15%
+			Увеличивает максимальное число очков техники на 3
+			Не расходующееся метательное оружие будет изматывать вас на 40% слабее // Non-consumable throwing weapons take 40% longer to exhaust you
 			''' */
 	}
 
 	TitanVisage: {
-		// DisplayName: Titan Visage
+		// DisplayName: Титанический лик
 		/* Tooltip:
 			'''
 			'Infused with primordial energy'
@@ -1003,43 +1003,43 @@ Items: {
 	}
 
 	TitanVisor: {
-		// DisplayName: Titan Visor
+		// DisplayName: Титаническая личина
 		/* Tooltip:
 			'''
 			'Infused with primordial energy'
-			Increases max minions by 3 and sentries by 1
-			Increases whip range by 15%
-			Increases summon critical strike chance by 6%
-			Minions and sentries can critically strike
+			Увеличивает максимальное количество миньонов на 3 и стражей на 1
+			Увеличивает дальность хлыстов 15%
+			Увеличивает шанс критического удара призывателя на 6%
+			Даёт возможность миньонам и стражами наносить критические удары
 			''' */
 	}
 
 	ThoriumBludgeon: {
-		// DisplayName: Thorium Bludgeon
+		// DisplayName: Ториевая дубинка
 		/* Tooltip:
 			'''
-			Swings a radioactive mace that releases lingering healing energy on its first hit
-			Up to 2 healing energy can exist at once
+			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии // Swings a radioactive mace that releases lingering healing energy on its first hit
+			Одновременно может существовать только 2 таких заряда
 			''' */
 	}
 
 	ThoriumHeavyScythe: {
-		// DisplayName: Thorium Heavy Scythe
-		// Tooltip: This scythe is swung directionally instead of spun
+		// DisplayName: Тяжёлая ториевая коса
+		// Tooltip: Вместо вращения совершает взмахи по диагонали
 	}
 
 	ThoriumWhistle: {
-		// DisplayName: Thorium Whistle
-		// Tooltip: Shoots a barrage of short-ranged lightning
+		// DisplayName: Ториевый свисток
+		// Tooltip: Стреляет очередью из нескольких молний
 	}
 
 	UndyingGaze: {
 		// DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
 		/* Tooltip:
 			'''
-			Any critical strike now grants Soul Essence
-			Attacks that use life will grant Soul Essence on any hit
-			Attacks that already grant Soul Essence will grant an extra charge
+			Нанесение критического удара будет гарантировано давать эссенции души // Any critical strike now grants Soul Essence
+			Атаки, использующие здоровье для атаки, также будут эссенции при любом попадании // Attacks that use life will grant Soul Essence on any hit
+			Атаки, уже дающие эссенции души, будут давать их увеличенное количество // Attacks that already grant Soul Essence will grant an extra charge
 			''' */
 	}
 
@@ -1049,17 +1049,17 @@ Items: {
 	}
 
 	ValadiumHeavyScythe: {
-		// DisplayName: Valadium Heavy Scythe
+		// DisplayName: Тяжёлая валадиумовая коса
 		/* Tooltip:
 			'''
-			This scythe is swung directionally instead of spun
+			Вместо вращения совершает взмахи по диагонали
 			Unleashes a short-ranged wave of dark energy that pierces
 			Damage will blast enemies with interdimensional energy
 			''' */
 	}
 
 	ValkyrienSkyStone: {
-		// DisplayName: Valkyrien Sky Stone
+		// DisplayName: Небесный камень валькирии
 		/* Tooltip:
 			'''
 			[i:ThoriumRework/StarScoutReticle] Allows breathing in space and grants night vision
@@ -1083,13 +1083,13 @@ Items: {
 	}
 
 	ZephyrsRuin: {
-		// DisplayName: Zephyr's Ruin
+		// DisplayName: Погибель Зефира // Zephyr's Ruin
 		/* Tooltip:
 			'''
 			Sticks into struck enemies, or the ground if it misses
 			Calls lightning to smite hit enemies after some time
 			Critical strikes smite enemies on initial hit
-			Does not exhaust you
+			Не изматывает вас // Does not exhaust you
 			'А говорили молния в одно месте дважды не бьёт' // 'They say lightning never strikes the same place twice'
 			''' */
 	}
@@ -1106,29 +1106,29 @@ Items: {
 	}
 
 	ZephyrWingsCosmetic: {
-		// DisplayName: Zephyr Wings
+		// DisplayName: Крылья Зефира
 		/* Tooltip:
 			'''
-			Allows flight and slow fall
-			Same stats as {$ItemName.CreativeWings}
+			Позволяет летать и плавно парить
+			Имеет те же характеристики, что и {$ItemName.CreativeWings}
 			''' */
 	}
 }
 
 Buffs: {
 	BubblyShield: {
-		// DisplayName: Bubbly Shield
+		// DisplayName: Пузырьковый щит
 		// Description: +10 defense, overshield and special damage reduction
 	}
 
 	Deathsinger: {
-		// DisplayName: Deathsinger
-		// Description: 7% increased symphonic damage and playing speed
+		// DisplayName: Певец смерти
+		// Description: Симфонический урон и скорость игры увеличены на 7%
 	}
 
 	Inspired: {
-		// DisplayName: Inspired
-		// Description: Increased inspiration regeneration
+		// DisplayName: Вдохновлён
+		// Description: Скорость восстановления вдохновения увеличена
 	}
 
 	SoulBleed: {
@@ -1142,15 +1142,15 @@ Buffs: {
 	}
 
 	TerminalLucidity: {
-		// DisplayName: Terminal Lucidity
+		// DisplayName: Терминальное ясновидение
 		/* Description:
 			'''
 			-Механика босса-
-			Dream Eater cannot be damaged while this debuff is active
-			Kills you when the timer runs out
+			Пока на вас наложен этот дебафф, Пожиратель снов не сможет получать урон // Dream Eater cannot be damaged while this debuff is active
+			По истечении времени действия этого дебаффа автоматически убивает вас // Kills you when the timer runs out
 			Touch a stable reality rift to start DPS phase and reset the timer
 			Stable reality rifts are the bright purple portals
-			"Destiny awaits..."
+			'Судьба приближается...'
 			''' */
 	}
 
@@ -1163,7 +1163,7 @@ Buffs: {
 			Getting hit by unstable reality rifts removes this buff early
 			Unstable reality rifts are the black cracks attacks
 			Grants infinite flight
-			"Destiny arrives..."
+			'Судьба уже здесь...'
 			''' */
 	}
 
@@ -1211,30 +1211,30 @@ Configs: {
 
 		flash: {
 			// Label: Flashing lights intensity
-			// Tooltip: How bright or how dim flashes are
+			// Tooltip: How bright or how dim flashes are.
 		}
 
 		overlay: {
 			// Label: Overlay intensity
-			// Tooltip: How transparent screen overlays are
+			// Tooltip: How transparent screen overlays are.
 		}
 
 		seizures: {
 			// Label: Photosensitivity warning
-			// Tooltip: Prompts a photosensitivity warning when joining a world
+			// Tooltip: Prompts a photosensitivity warning when joining a world.
 		}
 
 		bossRenames: {
-			// Label: Boss renames
-			// Tooltip: Enables boss renames added by this mod
+			// Label: Переименовывание боссов
+			// Tooltip: Enables boss renames added by this mod.
 		}
 
 		starScouterEnrageText: {
 			// Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text"
 			/* Tooltip:
 				'''
-				Whether or not Star Scouter shows a text pop-up indicating enrage
-				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage
+				Whether or not Star Scouter shows a text pop-up indicating enrage.
+				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
 				''' */
 		}
 
@@ -1242,8 +1242,8 @@ Configs: {
 			// Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
 			/* Tooltip:
 				'''
-				Whether or not Star Scouter turns red when enraged
-				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage
+				Whether or not Star Scouter turns red when enraged.
+				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
 				''' */
 		}
 
@@ -1251,9 +1251,9 @@ Configs: {
 			// Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
 			/* Tooltip:
 				'''
-				Controls the intensity of the faint red glow around the Lich
-				Only works on reworked Lich, the unreworked version is unaffected by this setting
-				Use this if you want visual parity with the original design or if you're having troubles seeing him
+				Controls the intensity of the faint red glow around the Lich.
+				Only works on reworked Lich, the unreworked version is unaffected by this setting.
+				Use this if you want visual parity with the original design or if you're having troubles seeing him.
 				''' */
 		}
 	}
@@ -1263,21 +1263,21 @@ Configs: {
 
 		healthScale: {
 			// Label: Health multiplier
-			// Tooltip: Multiplies the health of Thorium's bosses by this amount
+			// Tooltip: Multiplies the health of Thorium's bosses by this amount.
 		}
 
 		damageScale: {
 			// Label: Damage multiplier
-			// Tooltip: Multiplies the attack damage of Thorium's bosses by this amount
+			// Tooltip: Multiplies the attack damage of Thorium's bosses by this amount.
 		}
 
 		speedScale: {
 			// Label: Speed multiplier
 			/* Tooltip:
 				'''
-				Multiplies the movement speed of Thorium's bosses by this amount
-				Limited to 2x speed as any higher breaks bosses
-				1.35x is recommended for Infernum
+				Multiplies the movement speed of Thorium's bosses by this amount.
+				Limited to 2x speed as any higher breaks bosses.
+				1.35x is recommended for Infernum.
 				''' */
 		}
 
@@ -1286,8 +1286,8 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Recommended!)
-				Changes all of the Terra weapons from Thorium to use similar recipes to the vanilla Terra Blade
-				Automatically disabled if Unofficial Calamity Bard & Healer is installed as that mod already does this
+				Changes all of the Terra weapons from Thorium to use similar recipes to the vanilla Terra Blade.
+				Automatically disabled if Unofficial Calamity Bard & Healer is installed as that mod already does this.
 				''' */
 		}
 
@@ -1296,7 +1296,7 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Optional)
-				Adds some unrelated items that are from this mod
+				Adds some unrelated items that are from this mod.
 				''' */
 		}
 
@@ -1305,7 +1305,7 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Optional)
-				Adds some buff potions relating to Thorium's class that are from this mod
+				Adds some buff potions relating to Thorium's class that are from this mod.
 				''' */
 		}
 
@@ -1314,7 +1314,7 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Optional)
-				Adds some prefixes relating to Thorium's class items that are from this mod
+				Adds some prefixes relating to Thorium's class items that are from this mod.
 				''' */
 		}
 
@@ -1323,7 +1323,7 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Recommended!)
-				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
+				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode.
 				''' */
 		}
 
@@ -1331,8 +1331,8 @@ Configs: {
 			// Label: Master weapon drops are expert drops
 			/* Tooltip:
 				'''
-				Master mode exclusive weapons drop in expert mode
-				Recommended if you don't like playing on master or other mods break master drops
+				Master mode exclusive weapons drop in expert mode.
+				Recommended if you don't like playing on master or other mods break master drops.
 				(e.g. eternity mode becoming masochist mode or infernum not being usable in master mode)
 				''' */
 		}
@@ -1342,7 +1342,7 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Recommended!)
-				Reworks some items from Thorium mod to be a lot better
+				Reworks some items from Thorium mod to be a lot better.
 				''' */
 		}
 
@@ -1351,44 +1351,44 @@ Configs: {
 			/* Tooltip:
 				'''
 				(Recommended!)
-				Makes the Primordials post-Devourer in progression
-				Pre-Eridanus in Fargo's Souls
-				In between if both of those mods are enabled
+				Makes the Primordials post-Devourer in progression.
+				Pre-Eridanus in Fargo's Souls.
+				In between if both of those mods are enabled.
 				''' */
 		}
 
 		vanillaBard: {
 			// Label: Stellar Tune and Magical Harp are bard
-			// Tooltip: Stellar Tune and Magical Harp are now string instruments and grant empowerments
+			// Tooltip: Stellar Tune and Magical Harp are now string instruments and grant empowerments.
 		}
 
 		DoD: {
 			// Label: Devourer of Dreams (Joke setting)
 			/* Tooltip:
 				'''
-				This setting is entirely a joke, it gives Devourer of Gods Dream Eater's original attacks
-				May or may not be fair and balanced
+				This setting is entirely a joke, it gives Devourer of Gods Dream Eater's original attacks.
+				May or may not be fair and balanced.
 				''' */
 		}
 
 		thorlamityBR: {
 			// Label: Thorium Bosses in Calamity Boss Rush
-			// Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
+			// Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression.
 		}
 
 		defenseDamage: {
 			// Label: Defense Damage Support
-			// Tooltip: Allows some of Thorium's boss attacks to inflict defense damage if Calamity mod is enabled
+			// Tooltip: Allows some of Thorium's boss attacks to inflict defense damage if Calamity mod is enabled.
 		}
 
 		eternityModeOnly: {
 			// Label: Eternity mode only
 			/* Tooltip:
 				'''
-				The boss reworks from this mod only applies when eternity mode is active
-				Also changes master weapon drops (if enabled) into eternity weapon drops
-				Additionally, Thorium bosses can now drop eternity mode accessories
-				This setting does nothing if Fargo's Souls is not installed
+				The boss reworks from this mod only applies when eternity mode is active.
+				Also changes master weapon drops (if enabled) into eternity weapon drops.
+				Additionally, Thorium bosses can now drop eternity mode accessories.
+				This setting does nothing if Fargo's Souls is not installed.
 				''' */
 		}
 
@@ -1396,8 +1396,8 @@ Configs: {
 			// Label: Infernum mode only
 			/* Tooltip:
 				'''
-				The boss reworks from this mod only applies when infernum mode is active
-				This setting does nothing if Infernum is not installed
+				The boss reworks from this mod only applies when infernum mode is active.
+				This setting does nothing if Infernum is not installed.
 				''' */
 		}
 	}
@@ -1407,78 +1407,78 @@ Configs: {
 
 		bird: {
 			// Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Grand Thunder Bird"
-			// Tooltip: Grand Thunder Bird rework
+			// Tooltip: Grand Thunder Bird rework.
 		}
 
 		jelly: {
 			// Label: "[i:ThoriumMod/QueenJellyfishMask]Queen Jellyfish"
-			// Tooltip: Queen Jellyfish rework
+			// Tooltip: Queen Jellyfish rework.
 		}
 
 		bat: {
 			// Label: "[i:ThoriumMod/ViscountMask]Viscount"
-			// Tooltip: Viscount rework
+			// Tooltip: Viscount rework.
 		}
 
 		champ: {
 			// Label: "[i:ThoriumMod/BuriedChampionMask]Buried Champion"
-			// Tooltip: Buried Champion rework
+			// Tooltip: Buried Champion rework.
 		}
 
 		ges: {
 			// Label: "[i:ThoriumMod/GraniteEnergyStormMask]Granite Energy Storm"
-			// Tooltip: Granite Energy Storm rework
+			// Tooltip: Granite Energy Storm rework.
 		}
 
 		scout: {
 			// Label: "[i:ThoriumMod/StarScouterMask]Star Scouter"
-			// Tooltip: Star Scouter rework
+			// Tooltip: Star Scouter rework.
 		}
 
 		coznix: {
 			// Label: "[i:ThoriumMod/FallenBeholderMask]Coznix"
-			// Tooltip: Fallen Beholder rework
+			// Tooltip: Fallen Beholder rework.
 		}
 
 		strider: {
 			// Label: "[i:ThoriumMod/BoreanStriderMask]Borean Strider"
-			// Tooltip: Borean Strider rework
+			// Tooltip: Borean Strider rework.
 		}
 
 		lich: {
 			// Label: "[i:ThoriumMod/LichMask]Lich"
-			// Tooltip: Lich rework
+			// Tooltip: Lich rework.
 		}
 
 		abyssion: {
 			// Label: "[i:ThoriumMod/ForgottenOneMask]Abyssion"
-			// Tooltip: Forgotten One rework
+			// Tooltip: Forgotten One rework.
 		}
 
 		requireAbyssion: {
 			// Label: "[i:ThoriumMod/ForgottenOneMask]Require Abyssion in Progression"
 			/* Tooltip:
 				'''
-				The Forgotten One now needs to be killed alongside Golem to allow the cultists to spawn
-				Automatically disabled in worlds where the Aquatic Depths didn't generate
+				The Forgotten One now needs to be killed alongside Golem to allow the cultists to spawn.
+				Automatically disabled in worlds where the Aquatic Depths didn't generate.
 				''' */
 		}
 
 		rag: {
 			// Label: "[i:ThoriumMod/TheOmegaCore]Ragnarök"
-			// Tooltip: Primordials and Dream Eater rework
+			// Tooltip: Primordials and Dream Eater rework.
 		}
 
 		terminalLucidity: {
-			// Label: "[i:ThoriumMod/TheOmegaCore]Terminal Lucidity Minimum Difficulty"
+			// Label: "[i:ThoriumMod/TheOmegaCore]Минимальная сложность для появления терминального ясновидения"
 			/* Tooltip:
 				'''
-				The lowest difficulty Terminal Lucidity can appear in
-				0 - Boss rush only
-				1 - Enabled for all
-				2 - Master or Revengeance
-				3 - Legendary, Death or Eternity
-				4 - GFB, Infernum, Masochist or Eternity-Death
+				The lowest difficulty Terminal Lucidity can appear in.
+				0 - Только в Босс-раше.
+				1 - Всегда.
+				2 - Только в режимах Мастер или Месть.
+				3 - Только в режимах Легенда, Смерть или Вечность.
+				4 - Только в генерации GFB или режимах Инфернум, Мазохист или Вечная смерть.
 				''' */
 		}
 	}
@@ -1490,20 +1490,20 @@ Configs: {
 			// Label: Show Item Reworks
 			/* Tooltip:
 				'''
-				Display which items are reworked by this mod in its description
-				KNOWN ISSUE: Does not work correctly when mod load order is messed up
-				Also low-key kinda not works on certain armors and bard weapons
+				Display which items are reworked by this mod in its description.
+				KNOWN ISSUE: Does not work correctly when mod load order is messed up.
+				Also low-key kinda not works on certain armors and bard weapons.
 				''' */
 		}
 
 		ThoriumArmor: {
 			// Label: "[i:ThoriumMod/ThoriumMail]Thorium Armor"
-			// Tooltip: Note: The set bonus is what's reworked, not the armor itself
+			// Tooltip: Note: The set bonus is what's reworked, not the armor itself.
 		}
 
 		ThoriumRevolver: {
 			// Label: "[i:ThoriumMod/ThoriumRevolver]Thorium Revolver"
-			// Tooltip: Note: This re-adds its crafting recipe back
+			// Tooltip: Note: This re-adds its crafting recipe back.
 		}
 
 		ThoriumSpear: {
@@ -1960,12 +1960,12 @@ Configs: {
 Achievements: {
 	CoreCollapse: {
 		// FriendlyName: Подрыв ядра // Core Collapse
-		// Description: Уничтожить все ядра Звёздного разведчика, потратив на это менее 6 секунд // Defeat all three of Star Scouter's cores in under six seconds
+		// Description: Уничтожить все ядра Звёздного разведчика, потратив на это не более 6 секунд. // Defeat all three of Star Scouter's cores in under six seconds
 	}
 
 	MyBatsAreKindaChamberless: {
 		// FriendlyName: Мои мышки немного бездомны... // My Bats Are Kinda Chamberless...
-		// Description: Одержать победу над Виконтом, не позволив ни одной летучей мыши высосать из вас кровь. // Defeat Viscount without letting a single Bitey Baby siphon life from you
+		// Description: Одержать победу над Виконтом, не позволив ни одной его летучей мыши высосать из вас кровь. // Defeat Viscount without letting a single Bitey Baby siphon life from you
 	}
 }
 
