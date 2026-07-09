@@ -56,7 +56,7 @@ Items: {
 	}
 
 	WoodenCrossbowItem: {
-		DisplayName: Wooden Crossbow
+		DisplayName: Деревянный арбалет
 		Tooltip:
 			'''
 			Отмечает 5 последних поражённых врагов
