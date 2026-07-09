@@ -29,7 +29,8 @@ public class FargowiltasSoulsClassTags : ItemTagsAdder
             {
                 "SharpshootersEssence",
                 "SnipersSoul",
-                "VortexBooster"
+                "VortexBooster",
+                "BrokenSpearhead"
             };
 
             string[] Sorcerer =
