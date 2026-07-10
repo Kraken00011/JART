@@ -42,7 +42,7 @@ namespace JAtRT.Core.ClassTags
             }
 
             if (ModLoader.HasMod("CalamityMod"))
-                tags.Add(("RogueTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.RogueClass"), new Color(255, 137, 0)));
+                tags.Add(("RogueTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Rogue"), new Color(255, 137, 0)));
 
             if (ModLoader.HasMod("ThoriumMod"))
             {

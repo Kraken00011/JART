@@ -12,7 +12,7 @@ Items: {
 	}
 
 	CloudThrower: {
-		DisplayName: Облакострел
+		DisplayName: Облакоплёв
 		Tooltip:
 			'''
 			Использует гель в качестве боеприпасов

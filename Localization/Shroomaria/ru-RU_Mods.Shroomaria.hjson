@@ -57,7 +57,7 @@ Items: {
 
 	TruffleBrew: {
 		DisplayName: Трюфельное варево
-		Tooltip: Даёт невосприимчивость к дебаффу «Грибной недуг»; улучшает ночное зрение
+		Tooltip: Даёт невосприимчивость к дебаффу «{Buffs.FungalFever.DisplayName}»; улучшает ночное зрение
 	}
 
 	SporeStingerItem: {
