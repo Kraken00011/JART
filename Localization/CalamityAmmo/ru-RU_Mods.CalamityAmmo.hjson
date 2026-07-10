@@ -188,7 +188,7 @@ Items: {
 	}
 
 	InfectedCrabGill: {
-		DisplayName: Инфицированные крабовые жабры /*Infected Crab Gill*/
+		DisplayName: Инфицированные крабовые жабры
 		Tooltip:
 			'''
 			Summons spores over time that will damage enemies

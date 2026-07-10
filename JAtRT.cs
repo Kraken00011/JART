@@ -1,5 +1,3 @@
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
 using JAtRT.Core;
 using JAtRT.Core.Config;
 using Terraria;

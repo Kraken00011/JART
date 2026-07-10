@@ -228,7 +228,7 @@ Buffs: {
 
 	FlaskofMercury: {
 		DisplayName: Смазанное оружие: ртуть
-		Description: Ближние атаки, а также хлысты накладывают дебафф «Ртутное отравление»
+		Description: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
 	}
 
 	FreezingWater: {
@@ -310,7 +310,7 @@ Items: {
 		DisplayName: Аква-перчатка
 		Tooltip:
 			'''
-			Атаки ближнего боя накладывают дебафф «Замораживающая вода»
+			Атаки ближнего боя накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
 			Увеличивает отбрасывание ближнего боя
 			Увеличивает урон и скорость атаки ближнего боя на 12%
 			Включает автоатаку для оружия ближнего боя
@@ -319,7 +319,7 @@ Items: {
 
 	AquaStone: {
 		DisplayName: Аква-камень
-		Tooltip: Атаки ближнего боя накладывают дебафф «Замораживающая вода»
+		Tooltip: Атаки ближнего боя накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
 	}
 
 	CrystalShield: {
@@ -329,13 +329,13 @@ Items: {
 			Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
 			Максимальный бонус к сопротивлению урону: 50%
 			Даёт 25% шанс отразить большинство вражеских снарядов
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
 	CrystalSkull: {
 		DisplayName: Кристальный череп
-		Tooltip: Даёт невосприимчивость к дебаффу «Ртутное излучение»
+		Tooltip: Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 	}
 
 	CrystalWaterWalkingBoots: {
@@ -343,13 +343,13 @@ Items: {
 		Tooltip:
 			'''
 			Даёт возможность ходить по воде и мёду
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
 	LodeStone: {
 		DisplayName: Магнит
-		Tooltip: Увеличивает дальность подбора предметов
+		Tooltip: Увеличивает дальность поднятия предметов
 	}
 
 	QuickSilverSurfboard: {
@@ -364,7 +364,7 @@ Items: {
 			Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
 			Максимальный бонус к сопротивлению урону: 50%
 			Даёт 25% шанс отразить большинство вражеских снарядов
-			Даёт невосприимчивость к большинству дебаффов, включая «Ртутное излучение»
+			Даёт невосприимчивость к большинству дебаффов, включая «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
@@ -373,7 +373,7 @@ Items: {
 		Tooltip:
 			'''
 			Даёт возможность ходить по воде и мёду, а также лаве и ртути
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			Даёт 4 секунды невосприимчивости к ртути
 			'''
 	}
@@ -514,7 +514,7 @@ Items: {
 
 	FlaskofMercury: {
 		DisplayName: Флакон с ртутью
-		Tooltip: Ближние атаки, а также хлысты накладывают дебафф «Ртутное отравление»
+		Tooltip: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
 	}
 
 	LargeOnyx: {
@@ -716,7 +716,7 @@ Items: {
 
 	SilverSpherePotion: {
 		DisplayName: Зелье серебристых сфер
-		Tooltip: Призывает 4 серебристые сферы, вращающиеся вокруг игрока и наносящие им урон
+		Tooltip: Призывает 4 серебристые сферы, вращающиеся вокруг игрока и наносящие урон врагам
 	}
 
 	BlackPhaseblade: {
@@ -731,7 +731,7 @@ Items: {
 
 	BlueSphere: {
 		DisplayName: Синяя сфера
-		Tooltip: Собери их всех!
+		Tooltip: "'Собери их всех!'"
 	}
 
 	DiamondArrow: {
@@ -760,8 +760,8 @@ Items: {
 	}
 
 	Mercury: {
-		DisplayName: Ртуть
-		Tooltip: "'L. Cake'"
+		DisplayName: Картина «Ртуть»
+		Tooltip: "'Л. Кейк'"
 	}
 
 	NightFury: {
@@ -806,7 +806,7 @@ Items: {
 
 	ShadowClaw: {
 		DisplayName: Теневые когти
-		Tooltip: Выпускает тёмную энергию
+		Tooltip: Выпускает поток тёмной энергии в направлении курсора
 	}
 
 	ShadowSphere: {
@@ -815,7 +815,7 @@ Items: {
 	}
 
 	Silverado: {
-		DisplayName: Сильверадо
+		DisplayName: Серебрадо
 		Tooltip: Стреляет мощной, высокоскоростной пулей
 	}
 
@@ -1448,7 +1448,7 @@ Items: {
 		Tooltip:
 			'''
 			Защищает от урона при падении
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
@@ -1456,7 +1456,7 @@ Items: {
 		DisplayName: Амулет серебра
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			Даёт 4 секунды невосприимчивости к ртути
 			'''
 	}
@@ -1466,7 +1466,7 @@ Items: {
 		Tooltip:
 			'''
 			Даёт 4 секунды невосприимчивости к ртути
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			Снижает урон от дебаффов, связанных с ртутью
 			'''
 	}
@@ -1476,7 +1476,7 @@ Items: {
 		Tooltip:
 			'''
 			Даёт 4 секунды невосприимчивости к ртути
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
@@ -1484,7 +1484,7 @@ Items: {
 		DisplayName: Кристальная роза
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффу «Ртутное излучение»
+			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			Снижает урон от дебаффов, связанных с ртутью
 			'''
 	}
@@ -1545,7 +1545,7 @@ Items: {
 			Увеличивает урон от стрел на 10%
 			Значительно увеличивает скорость стрел
 			Даёт 20% шанс не потратить стрелу
-			Деревянные стрелы накладывают дебафф «Замораживающая вода»
+			Деревянные стрелы накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
 			'ЗАМОРОЗИТЬ!'
 			'''
 	}
@@ -1616,13 +1616,13 @@ Items: {
 	}
 
 	TheUnknownDepthsBelow: {
-		DisplayName: Неизвестные нижние глубины
-		Tooltip: "'D. Colin & D. Rious'"
+		DisplayName: Картина «Неизвестные подглубины»
+		Tooltip: "'Д. Колин & Д. Риос'"
 	}
 
 	FlowingQuicksilver: {
-		DisplayName: Текущая ртуть
-		Tooltip: "'D. Colin & D. Rious'"
+		DisplayName: Картина «Текущая ртуть»
+		Tooltip: "'Д. Колин & Д. Риос'"
 	}
 
 	GeoCampfire: {
@@ -1709,7 +1709,7 @@ Items: {
 	}
 
 	StaffOfAThousandYears: {
-		DisplayName: Посох тысячелетий
+		DisplayName: Посох тысячи лет
 		Tooltip: Призывает Чазмини
 	}
 
@@ -2099,8 +2099,8 @@ Achievements: {
 }
 
 BossChecklist.SpawnInfo.Chasme: Используйте [i:TheDepths/RubyRelic] на [i:TheDepths/Gemforge], находясь у самого ядра своего мира. [c/FF0000:Убийство этого босса переведёт ваш мир в Хардмод!]
-InDepths: Mods.TheDepths.InDepths
-OutDepths: Mods.TheDepths.OutDepths
+InDepths: В глубинах
+OutDepths: Вне глубин
 GameUI.LayerDepths: Глубины
 
 CreditsRollCategory_DepthsTeam: {
@@ -2114,8 +2114,8 @@ CreditsRollCategory_DepthsTeam: {
 	8: Darkrious
 	9: Larfleeze
 	10: Moddingus
-	11: Hariq “Hariq53”
-	12: Phase II “alpha0010”
+	11: Hariq «Hariq53»
+	12: Phase II «alpha0010»
 	13: Kurtis
 	14: Andrey2345
 	15: Yee苍棱
