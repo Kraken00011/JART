@@ -17,6 +17,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Enchanted Moons
 [*] Evil Bosses Rework
 [*] Fargo Rush Mod
+[*] Homeward Ragnarok (перевод заморожен)
 [*] HP Awareness
 [*] Jungle Bosses Rework
 [*] Ophioid - A Boss fight mod
@@ -44,6 +45,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Clamity Music
 [*] Cosmic Elemental Returns
 [*] Discordya
+[*] Equipment Modifiers & Reforging (склонение брони из пары модов)
 [*] Everware (помощь с официальным переводом)
 [*] Extra Beginnings
 [*] Extra World Sizes
@@ -80,7 +82,8 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Steam Achievement Fix
 [*] Talisman of Friendship
 [*] Thorium Class Tags Consistency
-[*] Turtle Boulder & Friends (требуется обновление)
+[*] Turtle Boulder & Friends (перевод заморожен)
+[*] Ultimate Infinite Star
 [*] Unofficial Fargo's Souls Pets
 [*] Vanilla Calamity Mod Music
 [*] WADTU (What Ammo Does This Use)
@@ -97,23 +100,19 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Calamity: Hunt of the Old God
 [*] Cataclysm Mod (Clamity)
 [*] Compact Mods (For TML)
+[*] The Depths
 [*] Thrower Unification (встройка)
 [*] Tools Prefixes
 [/list]
 
-[h3]Минимальный план на следующее обновление[/h3]
-[list]
-[*] Перевести Thorium Helheim; TNTerraria и Unofficial Redemption Bard, Thrower & Healer
-[*] Пофиксить переводы Calamity Ranger Expansion и Infernal Arsenal
-[*] Улучшение старых переводов (само собой)
-[/list]
-
-[h3]В планах на потом[/h3]
+[h3]В планах[/h3]
 Перевод:
 [list]
+[*] Thorium Helheim
 [*] Synergia и моды связанные с ней
 [*] QuestBooks
-[*] Spooky
+[*] TNTerraria
+[*] Unofficial Redemption Bard, Thrower & Healer
 [*] Coralite
 [*] Critical Strikes Overhaul
 [*] Quality of Life Compendium
@@ -123,9 +122,10 @@ Just Another RU Translator (JART) - очередной мод-русификат
 
 [h3]Дополнительный контент кроме переводов[/h3]
 [list]
-[*] Совместимость с Project tRU (склонение предметов/перековок, предосмотр бонусов, цветной урон).
+[*] Совместимость с Project tRU (склонение префиксов по родам предметов, предосмотр бонусов, цветная маркировка урона).
 Рекомендую играть именно с ним, ведь свои переводы я делал опираясь на их стиль!
 [*] Дополнительные классовые теги (те, что появляются над описанием предмета)
+[*] Добавление иконок баффов/дебаффов в описания пары модов (*Работает только с Calamity, ведь для реализации этого была использована система, добавляемая именно этим модом*)
 [*] Конфигурация, в которой вы можете отключить ненужные/не понравившиеся переводы и не только
 [/list]
 

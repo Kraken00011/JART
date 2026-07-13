@@ -43,13 +43,13 @@ public class TheDepthsMenuNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = Language.GetTextValue("Глубины"); // итоговый перевод
+        cursor.Next.Operand = Language.GetTextValue("Глубины");
     };
 }
 
 public class TheDepthsOtherworldlyMenuNamePatch : ILPatcher
 {
-    public override bool AutoLoad => ModLoader.HasMod("TheDepths") && Language.ActiveCulture.Name == "ru-RU";
+    public override bool AutoLoad => ModLoader.HasMod("TheDepths") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.TheDepthsFix;
 
     public override MethodBase ModifiedMethod
     {
@@ -79,6 +79,6 @@ public class TheDepthsOtherworldlyMenuNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = Language.GetTextValue("Глубины (Иномирные)"); // итоговый перевод
+        cursor.Next.Operand = Language.GetTextValue("Глубины (Иномирные)");
     };
 }

@@ -28,6 +28,10 @@ internal class TheDepthsSetBonuses : ModSystem
             tru.Call("AddArmorSetBonusPreview", theDepths.Find<ModItem>("QuartzHood").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.TheDepths.SetBonus.QuartzArmor")
             ));
+
+            tru.Call("AddArmorSetBonusPreview", theDepths.Find<ModItem>("PetrifiedWoodHelmet").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.TheDepths.SetBonus.PetrifiedWoodHelmet")
+            ));
         }
     }
 }

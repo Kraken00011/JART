@@ -1276,7 +1276,11 @@ public class ArmorPrefixesPrefixes : ModSystem
         {
             tru.Call("AddFeminineItems", multArm, new[]
             {
-                "ElderMagesHat"
+                "ElderMagesHat",
+                "HeatVoltConductorHelmet",
+                "MechanicalBeastHelmet",
+                "NaturePurifierHelm",
+                "VacuumBreastplate"
             });
 
             tru.Call("AddNeuterItems", multArm, new[]
@@ -1288,7 +1292,10 @@ public class ArmorPrefixesPrefixes : ModSystem
             {
                 "HeatVoltConductorBoots",
                 "CavernaryFlameLeggings",
-                "AshensteelBoots"
+                "AshensteelBoots",
+                "MechanicalBeastLeggings",
+                "NaturePurifierBoots",
+                "VacuumLeggings"
             });
         }
 
@@ -1352,6 +1359,35 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "SpectralStriders",
                 "Tassets",
                 "Treads"
+            });
+        }
+
+        if (ModLoader.TryGetMod("TheDepths", out Mod depths) && JARTLocalizationConf.Instance.TheDepthsFix)
+        {
+            tru.Call("AddFeminineItems", depths, new[]
+            {
+                "ShadowChasmeMask",
+                "ChasmeSoulMask",
+                "PurplePlumbersShirt",
+                "PurplePlumbersHat",
+                "CrystalCrown",
+                "CharredCrown"
+            });
+
+            tru.Call("AddNeuterItems", depths, new[]
+            {
+                "QuartzWinterCoat",
+                "OnyxRobe"
+            });
+
+            tru.Call("AddPluralItems", depths, new[]
+            {
+                "PurplePlumbersPants",
+                "PetrifiedWoodGreaves",
+                "NightwoodGreaves",
+                "GeodeLeggings",
+                "QuartzLeggings",
+                "MercuryGreaves"
             });
         }
     }

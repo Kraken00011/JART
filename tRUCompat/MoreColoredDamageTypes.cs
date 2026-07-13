@@ -58,9 +58,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("ближнего боя"))
-                        {
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/ff5555:урона ближнего боя]";
-                        }
                     }
 
                     if (item.DamageType == voidRanged)
@@ -68,9 +66,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("стрелкового урона"))
-                        {
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/50fa7b:стрелкового] [c/7746d7:урона]";
-                        }
                     }
 
                     if (item.DamageType == voidMagic)
@@ -78,9 +74,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("магического урона"))
-                        {
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/bd93f9:магического] [c/7746d7:урона]";
-                        }
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/bd93f9:магического] [c/7746d7:урона]";
                     }
 
                     if (item.DamageType == voidSummon)
@@ -88,9 +82,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("урона призывателя") && item.type != ModContent.Find<ModItem>("SOTS/Tesseract").Type)
-                        {
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/f1fa8c:урона призывателя]";
-                        }
                     }
 
                     if (item.type == ModContent.Find<ModItem>("SOTS/TwilightBeads").Type)

@@ -43,6 +43,6 @@ public class SacredToolsStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "Тени прошлого - 1 Акт"; // итоговый перевод
+        cursor.Next.Operand = "Тени прошлого - 1 Акт";
     };
 }

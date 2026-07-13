@@ -42,6 +42,6 @@ public class ConsolariaMenuStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "День святого Валентина"; // итоговый перевод
+        cursor.Next.Operand = "День святого Валентина";
     };
 }

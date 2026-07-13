@@ -19,7 +19,7 @@ public class ToggleableLocalizations : OnPatcher
 {
 	private static HashSet<string> _customKeys = new();
 
-	public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+	public override bool AutoLoad => Language.ActiveCulture.Name == "ru-RU";
 
 	public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod("LoadTranslations", [typeof(TmodFile), typeof(GameCulture)
 	]);
@@ -46,7 +46,16 @@ public class ToggleableLocalizations : OnPatcher
 			List<(string, string)> flattened = new();
 			static bool Skip(bool configEnabled, string modName, string modpath, string targetPath)
 				=> (!configEnabled || !ModLoader.HasMod(modName)) && modpath == targetPath;
-			foreach (TmodFile.FileEntry translationFile in tModFile.Where(entry => Path.GetExtension(entry.Name) == ".hjson"))
+			var entries = tModFile.Where(entry => Path.GetExtension(entry.Name) == ".hjson").ToList();
+			var orderedEntries = entries.OrderBy(e =>
+			{
+				if (e.Name.Contains("Localization/CBUFFS/")) return 2;
+				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 3;
+				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 4;
+				return 1;
+			});
+
+			foreach (TmodFile.FileEntry translationFile in orderedEntries)
 			{
 				string modpath = Path.Combine(tModFile.Name, translationFile.Name).Replace('/', '\\');
 
@@ -57,8 +66,8 @@ public class ToggleableLocalizations : OnPatcher
 					continue;
 
 				// Enchanted Moons
-				if (Skip(JARTLocalizationConf.Instance.BlueMoonLocalization, "BlueMoon",
-				modpath, @"JAtRT\Localization\BlueMoon\ru-RU_Mods.BlueMoon.hjson"))
+				if ((!JARTLocalizationConf.Instance.BlueMoonLocalization || !ModLoader.HasMod("BlueMoon"))
+				&& modpath == @"JAtRT\Localization\BlueMoon\ru-RU_Mods.BlueMoon.hjson")
 					continue;
 
 				// Boss Cursor
@@ -92,18 +101,19 @@ public class ToggleableLocalizations : OnPatcher
 					continue;
 
 				// Corruption Core Boss
-				if (!JARTLocalizationConf.Instance.CorruptionBossLocalization
-				&& modpath == @"JAtRT\Localization\CorruptionBoss\ru-RU_Mods.CorruptionBoss.hjson")
+				if ((!JARTLocalizationConf.Instance.CorruptionBossLocalization || !ModLoader.HasMod("CorruptionBoss"))
+				&& modpath.Contains(@"JAtRT\Localization\CorruptionBoss\"))
 					continue;
 
 				// Discordya
-				if (!JARTLocalizationConf.Instance.DiscordyaLocalization
-				&& modpath == @"JAtRT\Localization\Discordya\ru-RU_Mods.Discordya.hjson")
+				if (!JARTLocalizationConf.Instance.DiscordyaLocalization 
+				&& modpath.Contains(@"JAtRT\Localization\Discordya\"))
 					continue;
 
 				// Evil Bosses Rework
-				if (!JARTLocalizationConf.Instance.EvilBossesReworkLocalization
-				&& modpath == @"JAtRT\Localization\EvilBossesRework\ru-RU_Mods.EvilBossesRework.hjson")
+				if ((!JARTLocalizationConf.Instance.EvilBossesReworkLocalization || !ModLoader.HasMod("EvilBossesRework"))
+				&& (modpath.Contains(@"JAtRT\Localization\EvilBossesRework\")
+				|| modpath == @"JAtRT\Localization\CBUFFS\ru-RU_Mods.EvilBossesRework.hjson"))
 					continue;
 
 				// More Pylons
@@ -143,8 +153,7 @@ public class ToggleableLocalizations : OnPatcher
 
 				// Homeward Ragnarok
 				if ((!JARTLocalizationConf.Instance.HomewardRagnarokLocalization || !ModLoader.HasMod("HomewardRagnarok"))
-				&& (modpath == @"JAtRT\Localization\HomewardRagnarok\ru-RU_Mods.HomewardRagnarok.hjson"
-				|| modpath == @"JAtRT\Localization\HomewardRagnarok\ru-RU_Mods.RevengeancePlus.hjson"))
+				&& modpath.Contains(@"JAtRT\Localization\HomewardRagnarok\"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.HomewardSubworldLocalization
@@ -156,17 +165,7 @@ public class ToggleableLocalizations : OnPatcher
 					continue;
 
 				if ((!JARTLocalizationConf.Instance.InfernalEclipseLocalization || !ModLoader.HasMod("InfernalEclipseAPI"))
-				&& (modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.InfernalEclipseAPI.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.BlueMoon.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CalamityAmmo.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CalamityBardHealer.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.CatalystMod.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.Consolaria.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.InfernumMode.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.SOTS.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.SOTSBardHealer.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.ThoriumMod.hjson"
-				|| modpath == @"JAtRT\Localization\InfernalEclipseAPI\ru-RU_Mods.ThoriumRework.hjson"))
+				&& modpath.Contains(@"JAtRT\Localization\InfernalEclipseAPI\"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.ToolsPrefixesFix
@@ -214,17 +213,16 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\SoulsBossRush\ru-RU_Mods.SoulsBossRush.hjson")
 					continue;
 
-				if (!JARTLocalizationConf.Instance.SteamFixerLocalization
-				&& modpath == @"JAtRT\Localization\SteamFixer\ru-RU_Mods.SteamFixer.hjson")
+				if (!JARTLocalizationConf.Instance.FixedAchievementsLocalization
+				&& modpath == @"JAtRT\Localization\FixedAchievements\ru-RU_Mods.FixedAchievements.hjson")
 					continue;
 
-				if (!JARTLocalizationConf.Instance.ThoriumTagsLocalization
-				&& modpath == @"JAtRT\Localization\ThoriumClassTagsConsistency\ru-RU_Mods.ThoriumClassTagsConsistency.hjson")
+				if (!JARTLocalizationConf.Instance.ThoriumClassTagsConsistencyLocalization
+				&& modpath.Contains(@"JAtRT\Localization\ThoriumClassTagsConsistency\"))
 					continue;
 
 				if ((!JARTLocalizationConf.Instance.ThrowerUnificationFix || !ModLoader.HasMod("ThrowerUnification"))
-				&& (modpath == @"JAtRT\Localization\ThrowerUnification\ru-RU_Mods.ThrowerUnification.hjson"
-				|| modpath == @"JAtRT\Localization\ThrowerUnification\ru-RU_Mods.ThoriumMod.hjson"))
+				&& modpath.Contains(@"JAtRT\Localization\ThrowerUnification\"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.WingSlotLocalization
@@ -270,8 +268,7 @@ public class ToggleableLocalizations : OnPatcher
 					continue;
 
 				if ((!JARTLocalizationConf.Instance.MasomodeEXLocalization || !ModLoader.HasMod("MasomodeEX"))
-				&& (modpath == @"JAtRT\Localization\MasomodeEX\ru-RU_Mods.MasomodeEX.hjson"
-				|| modpath == @"JAtRT\Localization\MasomodeEX\ru-RU_Mods.FargowiltasSouls.hjson"))
+				&& modpath.Contains(@"JAtRT\Localization\MasomodeEX\"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.ModlistIncompatibilitySolverLocalization
@@ -332,10 +329,6 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\MusicBoxSlotNew\ru-RU_Mods.MusicBoxSlotNew.hjson")
 					continue;
 
-				if (!JARTLocalizationConf.Instance.InfernalEclipseBalanceLocalization
-				&& modpath == @"JAtRT\Localization\InfernalEclipseBalance\ru-RU_Mods.InfernalEclipseBalance.hjson")
-					continue;
-
 				if (!JARTLocalizationConf.Instance.SolynWeaponLocalization
 				&& modpath == @"JAtRT\Localization\SolynWeapon\ru-RU_Mods.SolynWeapon.hjson")
 					continue;
@@ -350,8 +343,9 @@ public class ToggleableLocalizations : OnPatcher
 
 				// v1.3.2.0
 
-				if (!JARTLocalizationConf.Instance.ShroomariaLocalization
-				&& modpath == @"JAtRT\Localization\Shroomaria\ru-RU_Mods.Shroomaria.hjson")
+				if ((!JARTLocalizationConf.Instance.ShroomariaLocalization || !ModLoader.HasMod("Shroomaria"))
+				&& (modpath == @"JAtRT\Localization\Shroomaria\ru-RU_Mods.Shroomaria.hjson"
+				|| modpath == @"JAtRT\Localization\CBUFFS\ru-RU_Mods.Shroomaria.hjson"))
 					continue;
 
 				if (!JARTLocalizationConf.Instance.InfernumMasterPatchLocalization
@@ -396,40 +390,62 @@ public class ToggleableLocalizations : OnPatcher
 
 				// 1.5.0.0
 
-				if (Skip(JARTLocalizationConf.Instance.PinnacleReforgesLocalization, "PinnacleReforges",
-				modpath, @"JAtRT\Localization\PinnacleReforges\ru-RU_Mods.PinnacleReforges.hjson"))
+				if ((!JARTLocalizationConf.Instance.PinnacleReforgesLocalization || !ModLoader.HasMod("PinnacleReforges"))
+				&& modpath.Contains(@"JAtRT\Localization\PinnacleReforges\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.NightshadeVanityCursorsLocalization, "NightshadeVanityCursors",
-				modpath, @"JAtRT\Localization\NightshadeVanityCursors\ru-RU_Mods.NightshadeVanityCursors.hjson"))
+				if ((!JARTLocalizationConf.Instance.NightshadeVanityCursorsLocalization || !ModLoader.HasMod("NightshadeVanityCursors"))
+				&& modpath.Contains(@"JAtRT\Localization\NightshadeVanityCursors\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.CelestialShieldLocalization, "CelestialShield",
-				modpath, @"JAtRT\Localization\CelestialShield\ru-RU_Mods.CelestialShield.hjson"))
+				if ((!JARTLocalizationConf.Instance.CelestialShieldLocalization || !ModLoader.HasMod("CelestialShield"))
+				&& modpath.Contains(@"JAtRT\Localization\CelestialShield\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.MoveSpeedFixLocalization, "MoveSpeedFix",
-				modpath, @"JAtRT\Localization\MoveSpeedFix\ru-RU_Mods.MoveSpeedFix.hjson"))
+				if ((!JARTLocalizationConf.Instance.MoveSpeedFixLocalization || !ModLoader.HasMod("MoveSpeedFix"))
+				&& modpath.Contains(@"JAtRT\Localization\MoveSpeedFix\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.InfernumFablesLocalization, "InfernumFables",
-				modpath, @"JAtRT\Localization\InfernumFables\ru-RU_Mods.InfernumFables.hjson"))
+				if ((!JARTLocalizationConf.Instance.InfernumFablesLocalization || !ModLoader.HasMod("InfernumFables"))
+				&& modpath.Contains(@"JAtRT\Localization\InfernumFables\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.CalamityBardHealerLocalization, "CalamityBardHealer",
-				modpath, @"JAtRT\Localization\CalamityBardHealer\ru-RU_Mods.CalamityBardHealer.hjson"))
+				if ((!JARTLocalizationConf.Instance.CalamityBardHealerLocalization || !ModLoader.HasMod("CalamityBardHealer"))
+				&& modpath.Contains(@"JAtRT\Localization\CalamityBardHealer\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.AccessoryHeartsLocalization, "AccessoryHearts",
-				modpath, @"JAtRT\Localization\AccessoryHearts\ru-RU_Mods.AccessoryHearts.hjson"))
+				if ((!JARTLocalizationConf.Instance.AccessoryHeartsLocalization || !ModLoader.HasMod("AccessoryHearts"))
+				&& modpath.Contains(@"JAtRT\Localization\AccessoryHearts\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.starforgedclassicLocalization, "starforgedclassic",
-				modpath, @"JAtRT\Localization\starforgedclassic\ru-RU_Mods.starforgedclassic.hjson"))
+				if ((!JARTLocalizationConf.Instance.starforgedclassicLocalization || !ModLoader.HasMod("starforgedclassic"))
+				&& modpath.Contains(@"JAtRT\Localization\starforgedclassic\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.BeamStopsSpreadLocalization, "BeamStopsSpread",
-				modpath, @"JAtRT\Localization\BeamStopsSpread\ru-RU_Mods.BeamStopsSpread.hjson"))
+				if ((!JARTLocalizationConf.Instance.BeamStopsSpreadLocalization || !ModLoader.HasMod("BeamStopsSpread"))
+				&& modpath.Contains(@"JAtRT\Localization\BeamStopsSpread\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.InspirationPotionsLocalization || !ModLoader.HasMod("InspirationPotions"))
+				&& modpath.Contains(@"JAtRT\Localization\InspirationPotions\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.MLManaFruitLocalization || !ModLoader.HasMod("MLManaFruit"))
+				&& modpath.Contains(@"JAtRT\Localization\MLManaFruit\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.MageTweaksLocalization || !ModLoader.HasMod("MageTweaks"))
+				&& modpath.Contains(@"JAtRT\Localization\MageTweaks\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.WHummusMultiModBalancingLocalization || !ModLoader.HasMod("WHummusMultiModBalancing"))
+				&& modpath.Contains(@"JAtRT\Localization\WHummusMultiModBalancing\"))
+					continue;
+
+				// Другое
+
+				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || (!ModLoader.HasMod("CalamityMod") && ModLoader.HasMod("CalamityRuTranslate")))
+				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
 					continue;
 
 				using Stream stream = tModFile.GetStream(translationFile);

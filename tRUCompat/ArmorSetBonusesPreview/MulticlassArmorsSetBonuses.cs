@@ -36,6 +36,18 @@ internal class MulticlassArmorsSetBonuses : ModSystem
             tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("AshensteelHelm").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.AshensteelHelm.SetBonus")
             ));
+
+            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("VacuumHood").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.VacuumHood.SetBonus")
+            ));
+
+            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("MechanicalBeastHelmet").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.MechanicalBeastHelmet.SetBonus")
+            ));
+
+            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("NaturePurifierHelm").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.NaturePurifierHelm.SetBonus")
+            ));
         }
     }
 }

@@ -63,6 +63,14 @@ public class InterestingPrefixPrefixes : ModSystem
                 "TwilightFishingPole"
             });
         }
+
+        if (ModLoader.TryGetMod("TheDepths", out Mod depths))
+        {
+            tru.Call("AddFeminineItems", depths, new[]
+            {
+                "SilverLiner"
+            });
+        }
     }
 
     private static readonly List<string[]> InterestingPrefixes = new()

@@ -6,12 +6,12 @@ Config: {
 
 	DisplayModVersionToggle: {
 		Label: Отображать версию мода
-		Tooltip: Включает/Выключает отображение версии Discordya и tModLoader на вашем RPC во время нахождения в главном меню Террарии.
+		Tooltip: Включает/Выключает отображение версии Discordya и tModLoader на вашем RPC-статусе во время нахождения в главном меню Террарии.
 	}
 
 	DisplayModQuantityToggle: {
 		Label: Отображать количество модов
-		Tooltip: Включает/Выключает отображение количества включённых модов на вашем RPC во время нахождения в главном меню Террарии.
+		Tooltip: Включает/Выключает отображение количества включённых модов на вашем RPC-статусе во время нахождения в главном меню Террарии.
 	}
 
 	DisplayHealthToggle.Label: Отображать здоровье игрока
@@ -19,7 +19,7 @@ Config: {
 	DisplayTimeToggle.Label: Отображать время суток
 	DisplayDefenseToggle.Label: Отображать защиту
 	DisplayBossFightsToggle.Label: Отображать битвы с боссами
-	DisplayCurrentItemToggle.Label: Отображать оружие/инструмент, находящийся в руках игрока
+	DisplayCurrentItemToggle.Label: Отображать оружие/инструмент, которое держит игрок
 
 	PresencePullIntervalSlider: {
 		Label: Интервал между обновлениями статуса (мс)
@@ -36,7 +36,7 @@ Config: {
 		Tooltip:
 			'''
 			Когда несколько совместимых модов загружены одновременно эта настройка выбирает,
-			какой из модов будет отображаться на вашем RPC поверх других.
+			какой из модов будет отображаться на вашем RPC-статусе поверх других.
 			«Auto» (Автоматически) использует стандартные значения, выставленные Discordya.
 			Если выбранный мод не загружен, будет использоваться значение «Auto».
 			'''
@@ -46,7 +46,7 @@ Config: {
 Generic: {
 	MainMenu: В главном меню
 	MainMenuState: "Загруженных модов: {0}"
-	Fighting: В битве с
+	Fighting: В битве
 	In: ""
 	Day: День
 	Night: Ночь
@@ -137,70 +137,70 @@ Biome: {
 
 Boss: {
 	Vanilla: {
-		KingSlime: Королём слизней
-		EyeOfCthulhu: Глазом Ктулху
-		EaterOfWorlds: Пожирателем миров
-		BrainOfCthulhu: Мозгом Ктулху
-		QueenBee: Королевой пчёл
-		Skeletron: Скелетроном
-		Deerclops: Циклопом-оленем
-		WallOfFlesh: Стеной плоти
-		TheTwins: Близнецами
-		TheDestroyer: Уничтожителем
-		SkeletronPrime: Скелетроном Праймом
-		Plantera: Плантерой
-		EmpressOfLight: Императрицей света
-		Golem: Големом
-		DukeFishron: Герцогом Рыброном
-		LunaticCultist: Культистом-лунатиком
-		MoonLord: Лунным лордом
-		QueenSlime: Королевой слизней
+		KingSlime: с Королём слизней
+		EyeOfCthulhu: с Глазом Ктулху
+		EaterOfWorlds: с Пожирателем миров
+		BrainOfCthulhu: с Мозгом Ктулху
+		QueenBee: с Королевой пчёл
+		Skeletron: со Скелетроном
+		Deerclops: с Циклопом-оленем
+		WallOfFlesh: со Стеной плоти
+		TheTwins: с Близнецами
+		TheDestroyer: с Уничтожителем
+		SkeletronPrime: со Скелетроном Праймом
+		Plantera: с Плантерой
+		EmpressOfLight: с Императрицей света
+		Golem: с Големом
+		DukeFishron: с Герцогом Рыброном
+		LunaticCultist: с Культистом-лунатиком
+		MoonLord: с Лунным лордом
+		QueenSlime: с Королевой слизней
 	}
 
 	Calamity: {
-		DesertScourge: Пустынным бичом
-		GiantClam: Гигантским моллюском
-		Crabulon: Крабулоном
-		ThePerforators: Перфораторами
-		TheHiveMind: Разумом улья
-		SlimeGod: Богом слизней
-		Cryogen: Криогеном
-		AquaticScourge: Акватическим бичом
-		BrimstoneElemental: Серным элементалем
-		Calamitas: Клоном Каламитас
-		GreatSandShark: Великой песчаной акулой
-		Leviathan: Анахитой и Левиафаном
-		AstrumAureus: Аструм Ареусом
-		Plaguebringer: Разносчицей чумы, Голиафом
-		Ravager: Разрушителем
-		AstrumDeus: Аструм Деусом
-		ProfanedGuardians: Осквернёнными стражами
-		Dragonfolly: Псевододраконом
-		Providence: Провиденс
-		CeaselessVoid: Нескончаемой пустотой
-		StormWeaver: Штормовым ткачом
-		Signus: Сигнусом, Посланником Пожирателя
-		Polterghast: Полтергастом
-		OldDuke: Старым герцогом
-		TheDevourerOfGods: Пожирателем богов
-		Yharon: Драконом джунглей, Яроном
-		ExoMechs: Экзо-механизмами
-		SupremeCalamitas: Высшей Каламитас
-		ImpossibleDamnBoss: Первозданным змием
+		DesertScourge: с Пустынным бичом
+		GiantClam: с Гигантским моллюском
+		Crabulon: с Крабулоном
+		ThePerforators: с Перфораторами
+		TheHiveMind: с Разумом улья
+		SlimeGod: с Богом слизней
+		Cryogen: с Криогеном
+		AquaticScourge: с Акватическим бичом
+		BrimstoneElemental: с Серным элементалем
+		Calamitas: с Клоном Каламитас
+		GreatSandShark: с Великой песчаной акулой
+		Leviathan: с Левиафан и Анахитой 
+		AstrumAureus: с Аструм Ареусом
+		Plaguebringer: с Разносчицей чумы, Голиафом
+		Ravager: с Разрушителем
+		AstrumDeus: с Аструм Деусом
+		ProfanedGuardians: с Осквернёнными стражами
+		Dragonfolly: с Псевододраконом
+		Providence: с Провиденс
+		CeaselessVoid: с Нескончаемой пустотой
+		StormWeaver: со Штормовым ткачом
+		Signus: с Сигнусом, Посланником Пожирателя
+		Polterghast: с Полтергастом
+		OldDuke: со Старым герцогом
+		TheDevourerOfGods: с Пожирателем богов
+		Yharon: с Драконом джунглей, Яроном
+		ExoMechs: с Экзо-механизмами
+		SupremeCalamitas: с Высшей Каламитас
+		ImpossibleDamnBoss: с Первозданным змием
 	}
 
 	StarsAbove: {
-		TheVagrantOfSpaceAndTime: The Vagrant of Space and Time
-		NaulhaunTheBurnishedKing: Naulhaun, the Burnished King
-		PenthesileaTheWitchOfInk: Пентесилией, Ведьмой чернил
-		TheWarriorOfLight: Воином света
-		Tsukiyomi: Цукиёми, Первой Астрой
+		TheVagrantOfSpaceAndTime: со Скитальцем между измерениями
+		NaulhaunTheBurnishedKing: с Налханом, Воронёным королём
+		PenthesileaTheWitchOfInk: с Пентесилией, Ведьмой чернил
+		TheWarriorOfLight: с Воином света
+		Tsukiyomi: с Цукиёми, Первой Астрой
 	}
 
 	NoxusBoss: {
-		Mars: ВГ-07 Марсом
-		AvatarOfEmptiness: Воплощением пустоты
-		NamelessDeity: Безымянным божеством
+		Mars: с ВГ-07 Марсом
+		AvatarOfEmptiness: с Воплощением пустоты
+		NamelessDeity: с Безымянным божеством
 	}
 }
 

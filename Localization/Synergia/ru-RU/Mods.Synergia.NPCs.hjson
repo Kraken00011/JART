@@ -1,8 +1,8 @@
 Dialog: {
 	// FrostDwarf: Давным-давно, в той деревне нас жило куда больше. Целый отдельный вид дварфов, но после нападения снеговиков мы были обречены, один из наших сейчас бродит по миру, другой - в центральном городе, ну а я сижу здесь и проживаю остатки своей жизни совсем один
-	// FrostDwarf2: Интересно, как там поживает {0}, в этих жарких и неприятных условиях для жизни
+	// FrostDwarf2: Интересно, как там поживает {0}, в тех жарких и ужасных для жизни землях
 	// CityDwarf: Ты когда-нибудь слышал о заброшенной деревне в тундре, в которой живёт лишь один дварф? Это была долгая история
-	// CityDwarf2: Интересно, как там поживает {0}, в этих холодных и неприятных условиях для жизни
+	// CityDwarf2: Интересно, как там поживает {0}, в тех холодных и ужасных для жизни землях
 }
 
 Cogworm: {
@@ -41,31 +41,31 @@ HellDwarf: {
 
 	Chat: {
 		// Text: Одиночество для меня не проклятие. Там, в инфернальной крепости, даже если все проклятые страдали вместе... они всё равно были одиноки. Похоже изгнание всё-таки было не приговором, а скорее возможностью обрести ясность в жизни.
-		// Text1: People cling to stories like sinners cling to hope. I hope you didn't believe'em
-		// Text2: This place is silent, abandoned... yet it feels more honest than the world above. No lies and masks. Just ruins.
-		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here
+		// Text1: Люди цепляются за сказки, как грешники за надежду. Я надеюсь ты им не поверил.
+		// Text2: Это место такое тихое, заброшенное ещё давным-давно... но всё же ощущается оно реальней, чем мир на поверхности. Ни лжи, не лицемерия. Просто руины.
+		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here.
 		// Text4: Они почитали червя как полубога. Ну а теперь, оглянись вокруг: ruins to the left, and a undivided cave to the right. Знаешь, а ведь вера - крайне хрупкая штука... всего-лишь одна правда и веры как небывало.
 		// Text5: Interesting, what's hidden under this bridge? Monsters can't let me dive in, maybe I can find something?
 		// Text6: They called me a traitor. That's the reason, why i leaved the Frostholm. But tell me, is it betrayal to reject a lie?
 		// Text7: They gave away the Heart of the Tundra for protection.. and called me a traitor for refusing to do the same. Jotunn knows the truth.
 		// Text8: The dwarves guarded it. Not out of faith.. but fear of what happens when it’s gone.
-		// Text9: Чаща... Какое любопытное местечко. Лес, забытый солнцем. Последний раз когда я там был, меня встретили не особо дружелюбно.
+		// Text9: Чаща... Какое любопытное местечко. Лес, позабытый солнцем. Последний раз когда я там был, меня встретили не особо дружелюбно.
 		// Text10: Lava shouldn’t breath, as you know. Those burning clouds are not smoke, but whispers of something trapped below.
 		// Text11: I can't believe I let them went away. Last time I was on the surface was 16 years ago.
 		// Text12: I’ve seen the flames rise without heat. The fire itself is trying to escape its own prison. All the sinners behind this place were the same.
 		// Text13: I still remember the Druid’s rage. I stopped blaming him a long time ago because i just used to it. The truth is worse people like him will always exist, waiting for a reason to justify it. That’s what I hate the most, not the curse, not the flames. The fact that humanity always finds a way to become the same thing.
 		// Text14: Push kindness far enough, and it turns into hatred. Push hatred far enough, and it begins to resemble mercy. Most people will never see the difference.
 		// Text15: Glimpses of harmlessness in eyes of demons, sometimes they much closer to god, than people themselves.
-		// Text16: Одна жизнь или несколько... выбор за тобой, хоть он и ничего не значит. Опять же. Ты как Сизиф - но твой камень кровоточит.
+		// Text16: Одна жизнь или несколько... выбор за тобой, хоть он и ничего не значит. Опять же. Ты как Сизиф - только камень твой истекает кровью.
 		// Text17: Хуже. Устал. Но чуть меньше чем до этого.
 		// Text18: Грехокаменная магма... Давно я не слышал о ней. Даже огонь побаивается касаться её.
 		// Text19: Они считали, что монолит является источником силы. Но на самом деле не сердце существует для усиления тела, а тело существует для кормления сердца.
 		// Text20: Знаешь, что пугало меня больше всего? Спокойствие в голосах этих бездушных тварей.
 		// Text21: The priest in the Imperial Town spoke of enlightenment. Strange word for something that hollowed people from within.
-		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх перевесил разум, они начали кормить этого зверя своей верой.
+		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх пересилил разум, они начали кормить этого зверя своей верой.
 		// Text23: Они меня бесят.
 		// Text24: Чем ближе ты стоишь к богоподобным созданиям, тем проще прощать чужие грехи.
-		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир начал рушится. Мост разрушился, когда бежать стало бесполезно. Руины возникли тогда, когда даже собственной памяти доверять перестали. А инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
+		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир канул в Лету. Мост разрушился, тогда бежать стало бесполезно. А руины возникли тогда, когда даже собственному сознанию доверять перестали. Ну а инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
 		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. Пламя разгорается громче, и даже тишина кажется тяжкой. Это место вновь задышало.
 		// PostGolemDialog2: Я наблюдал, как крепость постепенно менялась. Раньше здешние создания охотились, движимые голодом и агонией. Но теперь они лишь наблюдают... Они боятся чего-то, что полнится непростительным гневом.
 		// PostGolemDialog3: Давным-давно, после одной ужасной трагедии, [c/ff0000:монолит адского сердца] решили сокрыть от чужих раз и навсегда. И баланс был снова нарушен. Инфернальная крепость никогда не должна была существовать без своего охотника.
@@ -73,19 +73,19 @@ HellDwarf: {
 		// ProdigyDialog: Думаешь Серафим сделает тебя ближе к Богу? Всё, что он делает - лишь показывает, что даже нечто свящённое можно легко сломать.
 		// SinlordDialog: Скажу честно - ты меня пугаешь. Ты и я даже чем-то схожи, но ты уничтожаешь тех, кто уничтожал других. Ты действительно думаешь, что лучше них?
 		// FirstMeetDialog: Я уж подумал, что навсегда забуду звучание голоса человеческого. Этот город угасал постепенно: песчинка за песчинкой, душа за душой. Забавно, что раньше я думал, если я за свою увижу ещё хоть кого-нибудь, то почувствую облегчение. Но кажется, это чувство ближе к тревоге.
-		// SerorkDialog: Как-то раз мне рассказывали  They tell in a one old druid tale... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
+		// SerorkDialog: Как-то раз мне рассказывали одну друидскую сказку... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
 		// MolkDialog: Скажи-ка мне на милость, ты блять идиот?
 	}
 
 	TownNPCMood: {
-		// Content: I am content.
-		// NoHome: I hate not having a home. aeris not have a fucking home sad shit
-		// FarFromHome: I am too far from home.
-		// LoveSpace: I love having so much space.
-		// DislikeCrowded: I dislike how crowded I am.
-		// HateCrowded: I hate how crowded I am.
-		// LikeNPC_Princess: I like {NPCName}.
-		// Princess_LovesNPC: I like {NPCName}.
+		// Content: Нахуй я на это согласился.
+		// NoHome: Мне раф на миндальном молоке.
+		// FarFromHome: Тяжело...
+		// LoveSpace: А знаете где ещё много места?
+		// DislikeCrowded: Мне нравится быть окружённым кучей большихчёрных мужчин.
+		// HateCrowded: гышвглоыфвфы.
+		// LikeNPC_Princess: куль.
+		// Princess_LovesNPC: принцесса.
 	}
 
 	// Census.SpawnCondition: Появляется в преисподней при генерации мира
@@ -107,7 +107,7 @@ ImperianCommander: {
 			// Class1: Стрелок чистый среднячок. Хороший урон, нормальная броня, но вот скорость могла бы быть и по-лучше.
 			// Class2: У мага хороший урон, но он сильно зависит от маны.
 			// Class3: Призывателю даже ненужно целиться, из-за чего он может сосредоточиться на помощи команде, но взамен у него очень слабая защита.
-			// Class4: У ниндзя хорошая скорость и возможность уклонения от атак, но он требует повышенной точности.
+			// Class4: У ниндзя хорошая скорость и возможность уклоняться от атак, но он требует высокой точности.
 			// Class5: У друида сильные бонусы, возможность превращаться, но слабая защита.
 		}
 	}
@@ -141,8 +141,8 @@ Sinlord: {
 // SinlordTail.DisplayName: Греховный червелорд
 // FrogRider.DisplayName: Лягушачий наездник
 // MischievousDuo.DisplayName: Mischievous Duo
-// Swamling.DisplayName: Swamling
-// SwamplingWarrior.DisplayName: Swampling Warrior
+// Swamling.DisplayName: Болотник
+// SwamplingWarrior.DisplayName: Болотничий воин
 // Swizzard_MaskOff.DisplayName: Swizzard_ Mask Off
 // Swizzard.DisplayName: Swizzard
 // Nibbler.DisplayName: Nibbler
@@ -161,14 +161,14 @@ MossWitch: {
 // TaintedMummy.DisplayName: Осквернённая мумия
 
 Cruor: {
-	// DisplayName: Кровьер
+	// DisplayName: Круйер
 
 	BossChecklistIntegration: {
-		// EntryName: Кровьер
+		// EntryName: Круйер
 		/* SpawnInfo:
 			'''
 			После победы над Плантерой с врагов Темницы начнут иногда выпадать «Кристаллы души».
-			Вам нужно подобрать 3 таких, чтобы призвать Кровьера.
+			Поднимите 3 таких кристалла, чтобы призвать его.
 			''' */
 	}
 }

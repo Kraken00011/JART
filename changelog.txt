@@ -1,9 +1,11 @@
 v{ModVersion}
-- Добавлены переводы Potion Slots; Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts; Beam Stops Spread; Multiclass Armors; Starforged [Classic] и Mana Fruit
+- Добавлены переводы Potion Slots; Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts; Beam Stops Spread; Multiclass Armors; Starforged [Old]; Ultimate Infinite Star и Mana Fruit
 - Добавлен фикс The Depths
 - Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR; Discordya и Revengeance+ до последней версии
 - Удалены переводы Everware, Draedon Expansion и Munchies Homeward Addon
+- Заморожены на неопределённый срок переводы Homeward Ragnarok и Turtle Boulder & Friends
+- Добавлено склонение предметов из разных модов для Equipment Modifiers & Reforging
 - Многочисленные правки ошибок в куче переводов
-- Добавлен цветной урон для классов из Bombus Apis и Split, а также аксессуаров из Unofficial Calamity Bard & Healer и Consolaria
+- Добавлен цветной урон для классов из Bombus Apis; Split и Thrower Unification, а также аксессуаров из Unofficial Calamity Bard & Healer и Consolaria
 - Немного изменено отображение цветного урона у пустотных классов из SOTS и Unof SOTS Bard, Thrower & Healer
 - Добавлены классовые теги для Thorium Helheim; Unofficial Calamity Bard & Healer; Ragnarok Mod; Whip Accessories; Canisters; Celestial Shield; Better Zenith in Calamity; Infernal Arsenal; Coralite; Mech Bosses Rework; Redemption; Unofficial Redemption Bard, Thrower & Healer; Spirit Classic; Spirit Reforged; Unofficial Spirit Bard, Thrower and Healer; SOTS; Rise of Ages; Sorcerer Overhaul; Confection Rebaked; Spooky; Cataclysm Mod; Cleffy; Homeward Journey; Split; Synergia; Exxo Avalon Origins; Archery Overhaul; Valhalla Mod; Starforged; Mana Fruit; Starforged [Classic] и Ore Helmets for Summoner

@@ -1,5 +1,5 @@
 # О моде
-**[JART](https://steamcommunity.com/sharedfiles/filedetails/?id=3628393177)** (aka Just Another RU Translator) - мод-переводчик, локализирующий большое количество модов на русский язык (включай хардкод)
+**[JART](https://steamcommunity.com/sharedfiles/filedetails/?id=3628393177)** (Just Another RU Translator) - очередной мод-русификатор, локализирующий большое количество модов на русский язык (включай хардкод)
 
 *Ниже можно ознакомиться с полным списком переводов*
 
@@ -8,7 +8,6 @@
 - [Corruption Core Boss](https://steamcommunity.com/sharedfiles/filedetails/?id=3105633551)
 - [Infernal Eclipse of Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686)
 - [Mech Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173)
-- [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
 
 </details>
 
@@ -25,6 +24,7 @@
 - [Calamity Simple Whip Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3630305943)
 - [Spirit Classic Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3532311018)
 - [Unofficial SOTS Bard, Thrower and Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551)
+- [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
 
 </details>
 
@@ -42,6 +42,7 @@
 - [Calamity Treads](https://steamcommunity.com/sharedfiles/filedetails/?id=3040406362)
 - [Celestial Shield](https://steamcommunity.com/sharedfiles/filedetails/?id=2832463123)
 - [Clamity Music](https://steamcommunity.com/sharedfiles/filedetails/?id=3161277410)
+- [Cleffy: Musically sound Thorium Bards](https://steamcommunity.com/sharedfiles/filedetails/?id=3669506041)
 - [Cosmic Elemental Returns](https://steamcommunity.com/sharedfiles/filedetails/?id=3566616461)
 - [Crown Set Bonuses](https://steamcommunity.com/sharedfiles/filedetails/?id=3373612054)
 - [Discordya - Discord Rich Presence](https://steamcommunity.com/sharedfiles/filedetails/?id=2824854732)
@@ -55,6 +56,8 @@
 - [Homeward Crossmod Worldgen Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3690381987)
 - [Hypnos in Calamity Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3013189983)
 - [Infernum Master Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3662222673)
+- [InfiniteInteger's Mage Tweaks](https://steamcommunity.com/sharedfiles/filedetails/?id=3682786541)
+- [Inspiration Potions](https://steamcommunity.com/sharedfiles/filedetails/?id=3626981220)
 - [Item Relics](https://steamcommunity.com/sharedfiles/filedetails/?id=3619083598)
 - [Javyz' Music Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2926396335)
 - [Mana Fruit](https://steamcommunity.com/sharedfiles/filedetails/?id=3725740297)
@@ -116,10 +119,12 @@
  - [Kraken](https://github.com/Kraken00011) - Главный переводчик и по совместительству кодер мода (Discord: kkk_raken)
  - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно (Discord: Htoya23)
 
-**В моде также есть доп фишки кроме переводов**
-1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные ванильные теги (Воин, Стрелок, Маг, Призыватель, Метатель, а также их вариации) начинают отображаться только если он включён)*
+**В моде также есть доп. фишки кроме переводов**
+1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные теги начинают отображаться только если он включён)*
 
-2. *Конфигурация, в который в можете отключить ненужные вам переводы*
+2. *Конфигурация, в который в можете отключить ненужные вам переводы и не только*
+
+3. *Внедрение системы отображения иконок баффов/дебаффов, добавляемой Calamity, в описания других модов (Для работы требуется включить и Calamity, и Project tRU!)*
 
 <details><summary><b>Полный список совместимых модов (Без гиперссылок, сорри)</b></summary>
 

@@ -43,6 +43,6 @@ public class ClamityMenuStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "Стиль Clamity"; // итоговый перевод
+        cursor.Next.Operand = "Стиль Clamity";
     };
 }

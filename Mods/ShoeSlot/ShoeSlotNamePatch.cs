@@ -40,13 +40,13 @@ public class ShoeSlotSlotPatch : OnPatcher
     {
         switch ((int)context - 10)
         {
-            case 0: // Аксессуар
+            case 0:
                 Main.hoverItemName = "Ботинки";
                 break;
-            case 1: // Внешний вид
+            case 1:
                 Main.hoverItemName = "Внешний вид: Ботинки";
                 break;
-            case 2: // Краситель
+            case 2:
                 Main.hoverItemName = "Краситель";
                 break;
         }

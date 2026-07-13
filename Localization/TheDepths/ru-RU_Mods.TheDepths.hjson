@@ -40,7 +40,7 @@ SetBonus: {
 		Увеличивает защиту на 3 ед.
 		Увеличивает максимальный запас маны на 100
 		'''
-	PetrifiedWoodHelmet: Увеличивает сопротивление урона на 10%
+	PetrifiedWoodHelmet: Увеличивает сопротивление урону на 10%
 }
 
 Quest: {
@@ -242,7 +242,7 @@ Buffs: {
 	}
 
 	MercuryBoiling: {
-		DisplayName: Ртутное отравление
+		DisplayName: Ртутное разложение
 		Description: Медленная потеря здоровья
 	}
 
@@ -252,7 +252,7 @@ Buffs: {
 	}
 
 	MercuryPoisoning: {
-		DisplayName: Ртутное излучение
+		DisplayName: Ртутное отравление
 		Description: Потеря здоровья и сниженная скорость передвижения
 	}
 
@@ -1453,7 +1453,7 @@ Items: {
 	}
 
 	SilverCharm: {
-		DisplayName: Амулет серебра
+		DisplayName: Серебряный медальон
 		Tooltip:
 			'''
 			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
@@ -2019,17 +2019,17 @@ Biomes: {
 UnderworldSelection: {
 	Random: {
 		Title: Случайно
-		Description: Позвольте природе решить, займёт ли ядро мира преисподняя или глубины.
+		Description: Пусть природа решит, что займёт ядро этого мира - преисподняя или глубины.
 	}
 
 	Underworld: {
 		Title: Преисподняя
-		Description: В вашем мире обязательно появится заполненная лавой преисподняя.
+		Description: Заполненная до краёв лавой преисподняя точно появится в вашем мире.
 	}
 
 	Depths: {
 		Title: Глубины
-		Description: В вашем мире обязательно появятся холодные и тёмные глубины.
+		Description: Холодные и тёмные глубины обязательно будут присутствовать в вашем мире.
 	}
 }
 
@@ -2040,7 +2040,7 @@ Configs: {
 
 		SlateConfig: {
 			Label: Переименовать сланец в аспидий
-			Tooltip: Переименовывает блок сланца в аспидий.
+			Tooltip: Переименовывает сланцевый блок в аспидиевый.
 		}
 
 		EnableFog: {
@@ -2048,7 +2048,7 @@ Configs: {
 			Tooltip:
 				'''
 				Включает интенсивный туман, видимый только в глубинах.
-				Отключите это, если хотите убрать туман.
+				Отключите это, если он вам мешает.
 				'''
 		}
 	}
@@ -2059,7 +2059,7 @@ Configs: {
 
 		BothCores: {
 			Label: "[i:174][i:TheDepths/ArqueriteOre] Оба ядра"
-			Tooltip: ""
+			Tooltip: Включает/Выключает генерацию обоих ядер при создании мира.
 		}
 	}
 }
@@ -2074,26 +2074,26 @@ DepthsBiome: Глубины
 
 Achievements: {
 	HeartBreaker: {
-		Name: Разрушитель сердец
+		Name: Сокрушитель сердец
 		Description: Одержать победу над Чазм и её сланцевой гиганткой - создательницей глубин и правительницей геомантов.
 		FriendlyName: "{$Mods.TheDepths.Achievements.HeartBreaker.Name}"
 	}
 
 	PickaxeOfPoison: {
-		Name: Кирка Яда
+		Name: Едкая кирка
 		Description: Смастерить ртутную кирку, используя самую ядовитую жидкость.
 		FriendlyName: "{$Mods.TheDepths.Achievements.PickaxeOfPoison.Name}"
 	}
 
 	MysteriesOfTheDark: {
-		Name: Тайны темноты
+		Name: Тайны тьмы
 		Description: Копать глубже, пока не достигнешь глубин этого мира.
 		FriendlyName: "{$Mods.TheDepths.Achievements.MysteriesOfTheDark.Name}"
 	}
 
 	MercuryAngler: {
-		Name: Ртутный чёрт
-		Description: Бросить приманку в водоём с ртутью, получив окутанную ртутью добычу.
+		Name: Ртутный рыбак
+		Description: Бросить приманку в водоём с ртутью, получив окутанную ей же добычу.
 		FriendlyName: "{$Mods.TheDepths.Achievements.MercuryAngler.Name}"
 	}
 }
@@ -2104,7 +2104,7 @@ OutDepths: Вне глубин
 GameUI.LayerDepths: Глубины
 
 CreditsRollCategory_DepthsTeam: {
-	1: Команда The Depths
+	1: Команда «The Depths»
 	2: Lion8cake
 	3: Snickerbobble
 	4: HBDeus

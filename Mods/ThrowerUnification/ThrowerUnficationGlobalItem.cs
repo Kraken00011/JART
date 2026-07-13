@@ -32,96 +32,74 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
 
             if (ModLoader.HasMod("SOTSBardHealer"))
             {
+                string RgbToHex(int r, int g, int b) => $"{r:X2}{g:X2}{b:X2}";
+                string color = RgbToHex((int)ThrowerModConfig.Instance.R, (int)ThrowerModConfig.Instance.G, (int)ThrowerModConfig.Instance.B);
+
                 if (item.DamageType == ModContent.Find<DamageClass>("SOTSBardHealer/VoidThrowing") || (ModLoader.HasMod("InfernalEclipseAPI") && item.DamageType == ModContent.Find<DamageClass>("InfernalEclipseAPI/VoidRogue")))
                 {
-                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower && tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                     {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            string num = tooltip.Text.Split(' ')[0];
-                            if (TRuConfig.Instance.ColoredDamageTypes)
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
-                            }
-                            else
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"{num} ед. пустотного и метательного урона";
-                            }
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:метательного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            tooltip.Text = $"{num} ед. пустотного и метательного урона";
                         }
                     }
 
-                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue && tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                     {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            string num = tooltip.Text.Split(' ')[0];
-                            if (TRuConfig.Instance.ColoredDamageTypes)
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
-                            }
-                            else
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"{num} ед. пустотного и разбойного урона";
-                            }
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:разбойного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            tooltip.Text = $"{num} ед. пустотного и разбойного урона";
                         }
                     }
 
-                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent && tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                     {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            string num = tooltip.Text.Split(' ')[0];
-                            if (TRuConfig.Instance.ColoredDamageTypes)
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:вероломного] [c/7746d7:урона]";
-                            }
-                            else
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"{num} ед. пустотного и вероломного урона";
-                            }
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:вероломного] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            tooltip.Text = $"{num} ед. пустотного и вероломного урона";
                         }
                     }
 
-                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic && tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                     {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                        string num = tooltip.Text.Split(' ')[0];
+                        if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            string num = tooltip.Text.Split(' ')[0];
-                            if (TRuConfig.Instance.ColoredDamageTypes)
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:кинетического] [c/7746d7:урона]";
-                            }
-                            else
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"{num} ед. пустотного и кинетического урона";
-                            }
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:кинетического] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            tooltip.Text = $"{num} ед. пустотного и кинетического урона";
                         }
                     }
 
-                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
+                    if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom && tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
                     {
-                        if (tooltip.Mod == "Terraria" && tooltip.Name == "Damage")
+                        string num = tooltip.Text.Split(' ')[0];
+                        string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
+                        if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            string num = tooltip.Text.Split(' ')[0];
-                            string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
-                            if (TRuConfig.Instance.ColoredDamageTypes)
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"[c/7746d7:{num} ед. пустотного и] [c/ffb86c:{custom}] [c/7746d7:урона]";
-                            }
-                            else
-                            {
-                                if (tooltip.Text.Contains("пустотного и м") || tooltip.Text.Contains("пустотного и р"))
-                                    tooltip.Text = $"{num} ед. пустотного и {custom} урона";
-                            }
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:{custom}] [c/7746d7:урона]";
+                        }
+                        else
+                        {
+                            tooltip.Text = $"{num} ед. пустотного и {custom} урона";
                         }
                     }
                 }

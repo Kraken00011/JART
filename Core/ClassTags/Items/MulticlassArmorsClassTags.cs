@@ -18,19 +18,39 @@ public class MulticlassArmorsClassTags : ItemTagsAdder
             string[] Warrior =
             {
                 "AshensteelHelm",
-                "CavernaryFlameHelm"
+                "CavernaryFlameHelm",
+                // Warrior-Sorcerer
+                "NaturePurifierBoots",
+                "NaturePurifierChestplate",
+                "NaturePurifierHelm"
             };
 
             string[] Ranger =
             {
                 "CavernaryFlameTorchbelt",
-                "HeatVoltConductorVest"
+                "HeatVoltConductorVest",
+                // Ranger-Sorcerer
+                "VacuumBreastplate",
+                "VacuumHood",
+                "VacuumLeggings",
+                // Ranger-Summoner
+                "MechanicalBeastBreastplate",
+                "MechanicalBeastHelmet",
+                "MechanicalBeastLeggings"
             };
 
             string[] Sorcerer =
             {
                 "AshensteelHood",
                 "HeatVoltConductorHelmet",
+                // Warrior-Sorcerer
+                "NaturePurifierBoots",
+                "NaturePurifierChestplate",
+                "NaturePurifierHelm",
+                // Ranger-Sorcerer
+                "VacuumBreastplate",
+                "VacuumHood",
+                "VacuumLeggings",
                 // Sorcerer-Summoner
                 "ElderMagesHat"
             };
@@ -39,6 +59,10 @@ public class MulticlassArmorsClassTags : ItemTagsAdder
             {
                 "AshensteelBoots",
                 "CavernaryFlameHeadgear",
+                // Ranger-Summoner
+                "MechanicalBeastBreastplate",
+                "MechanicalBeastHelmet",
+                "MechanicalBeastLeggings",
                 // Sorcerer-Summoner
                 "ElderMagesHat"
             };

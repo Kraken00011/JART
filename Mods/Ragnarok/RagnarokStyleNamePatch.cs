@@ -43,6 +43,6 @@ public class RagnarokStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "Стиль Ragnarok"; // итоговый перевод
+        cursor.Next.Operand = "Стиль Ragnarok";
     };
 }

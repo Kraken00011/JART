@@ -3,7 +3,7 @@ NPCs.TerraBladeBoss: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: Используйте [i:YouBoss/CursedMirror] где угодно
-		DespawnMessage: "[c/0EA85D:Ваш клон распадается.]"
+		DespawnMessage: "[c/0EA85D:Ваш клон испаряется...]"
 	}
 }
 

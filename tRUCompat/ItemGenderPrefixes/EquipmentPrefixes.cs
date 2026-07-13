@@ -147,5 +147,132 @@ public class EquipmentPrefixes : ModSystem
                 "RottingEyeball"
             });
         }
+
+        if (ModLoader.TryGetMod("ThoriumMod", out Mod th) && TRuConfig.Instance.ThoriumModLocalization)
+        {
+            tru.Call("AddFeminineItems", th, new[]
+            {
+                // Петы
+                "CloudyChewToy",
+                "DiscardedCloth",
+                "AncientDrachma",
+                "Twinkle",
+                "FishEgg",
+                "DoomSayersPenny",
+                "BloodSausage",
+                "FrozenTiara",
+                "SimpleBroom",
+                "SubterraneanBulb",
+                "SweetBeet",
+                "WhisperingShell",
+                // Маунты
+                "GoldenScale",
+                "CyberneticSphere",
+                "MassiveCrabClaw",
+                "OtherworldlyRune",
+                "SuperAnvil",
+                "FakeCoin",
+                "AquamarineMinecart",
+                "OpalMinecart",
+                "RocketCart",
+                // Крюки
+                "ZephyrsGrip"
+            });
+
+            tru.Call("AddNeuterItems", th, new[]
+            {
+                // Петы
+                "AromaticBiscuit",
+                "RottenMeat",
+                "StormCloud",
+                "ForgottenLetter",
+                "PurifiersRing",
+                "EmptyWormholePotion",
+                "PinkSlimeEgg",
+                "ExoticMynaEgg",
+                // Маунты
+                "Nimbus",
+                "DesecratedHeart",
+                "AmphibianEgg"
+            });
+
+            tru.Call("AddPluralItems", th, new[]
+            {
+                // Петы
+                "AlienResearchNotes"
+            });
+        }
+
+        if (ModLoader.TryGetMod("Redemption", out Mod red) && TRuConfig.Instance.RedemptionLocalization)
+        {
+            tru.Call("AddFeminineItems", red, new[]
+            {
+                // Петы
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                // Маунты
+                "",
+                ""
+            });
+
+            tru.Call("AddNeuterItems", red, new[]
+            {
+                // Петы
+                "",
+                "",
+                ""
+            });
+        }
+
+        if (ModLoader.TryGetMod("TheDepths", out Mod depths) && JARTLocalizationConf.Instance.TheDepthsFix)
+        {
+            tru.Call("AddFeminineItems", depths, new[]
+            {
+                // Петы
+                "GeodeLazerPointer",
+                // Маунты
+                "MidnightHorseshoe",
+                "OnyxMinecart",
+                "PhantomFirecart"
+            });
+
+            tru.Call("AddNeuterItems", depths, new[]
+            {
+                // Маунты
+                "PurpleflameNecklace"
+            });
+
+            tru.Call("AddPluralItems", depths, new[]
+            {
+                // Петы
+                "ShadePetItem"
+            });
+        }
+
+        if (ModLoader.TryGetMod("SOTS", out Mod sots))
+        {
+            tru.Call("AddFeminineItems", sots, new[]
+            {
+                // Маунты
+                "SpiritSurfer"
+            });
+
+            tru.Call("AddNeuterItems", sots, new[]
+            {
+                // Петы
+                "OtherworldlyServiceDevice",
+                // Маунты
+                "CapturedHeart"
+            });
+        }
     }
 }

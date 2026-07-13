@@ -43,7 +43,7 @@ public class RedemptionRuinedKingdomStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "Разрушенное королевство"; // итоговый перевод
+        cursor.Next.Operand = "Разрушенное королевство";
     };
 }
 
@@ -79,6 +79,6 @@ public class RedemptionEpidotraMapStyleNamePatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "Карта Эпидотры"; // итоговый перевод
+        cursor.Next.Operand = "Карта Эпидотры";
     };
 }

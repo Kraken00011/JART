@@ -16,25 +16,20 @@ public partial class SolynWeapon : GlobalItem
     {
         foreach (TooltipLine tooltip in tooltips)
         {
-            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "BigCosmicLaserBeam" && item.type == ModContent.Find<ModItem>("SolynWeapon/CosmicDestroyer").Type)
+            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "BigCosmicLaserBeam")
             {
-                tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный космический луч";
-            }
+                if (item.type == ModContent.Find<ModItem>("SolynWeapon/CosmicDestroyer").Type)
+                    tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный космический луч";
 
-            if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "BigCosmicLaserBeam" && item.type == ModContent.Find<ModItem>("SolynWeapon/ExoElectricDisintegrator").Type)
-            {
-                tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный красный луч";
+                if (item.type == ModContent.Find<ModItem>("SolynWeapon/ExoElectricDisintegrator").Type)
+                    tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить огромный красный луч";
             }
 
             if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "SolynUsage")
-            {
                 tooltip.Text = "Удерживайте ЛКМ, чтобы зарядить и выпустить луч";
-            }
 
             if (tooltip.Mod == "SolynWeapon" && tooltip.Name == "SolynFlight")
-            {
                 tooltip.Text = "Удерживайте ПКМ, чтобы летать с помощью Солин";
-            }
         }
     }
 }

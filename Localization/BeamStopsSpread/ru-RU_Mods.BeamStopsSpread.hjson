@@ -11,7 +11,7 @@ Items: {
 
 	CrimsonBeaconItem: {
 		DisplayName: Маяк багрянца
-		Tooltip: Проецирует очищающий столб, останавливающий багрянец
+		Tooltip: Проецирует очищающий столб, останавливающий распространение багрянца
 	}
 
 	BeaconConnectorItem: {
@@ -26,11 +26,11 @@ Items: {
 }
 
 Tiles: {
-	HallowBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.HallowBeaconItem}"
-	CorruptionBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.CorruptionBeaconItem}"
-	CrimsonBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.CrimsonBeaconItem}"
-	BeaconConnectorTile.MapEntry: "{$Mods.BeamStopsSpread.Items.BeaconConnectorItem}"
-	ConfectionBeaconTile.MapEntry: "{$Mods.BeamStopsSpread.Items.ConfectionBeaconItem}"
+	HallowBeaconTile.MapEntry: "{$Items.HallowBeaconItem.DisplayName}"
+	CorruptionBeaconTile.MapEntry: "{$Items.CorruptionBeaconItem.DisplayName}"
+	CrimsonBeaconTile.MapEntry: "{$Items.CrimsonBeaconItem.DisplayName}"
+	BeaconConnectorTile.MapEntry: "{$Items.BeaconConnectorItem.DisplayName}"
+	ConfectionBeaconTile.MapEntry: "{$Items.ConfectionBeaconItem.DisplayName}"
 }
 
 Configs: {
