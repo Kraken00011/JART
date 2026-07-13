@@ -1,0 +1,6 @@
+Items: {
+	SapphireRing.Tooltip: Даёт бафф [cbuff:BlueMoon/LunarEmpowermentBuff]
+	TopazRing.Tooltip: Даёт бафф [cbuff:BlueMoon/BountifulHarvestBuff]
+	AmethystRing.Tooltip: Даёт бафф [cbuff:BlueMoon/FloralBlessingBuff]
+	EmeraldRing.Tooltip: Даёт бафф [cbuff:BlueMoon/MintyFreshnessBuff]
+}

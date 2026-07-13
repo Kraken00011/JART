@@ -1,0 +1,775 @@
+WizardEffects: {
+	CrystalAssassin: Снижает время перезарядки рывка, а также время перезарядки баффа [cbuff:FargowiltasSouls/FirstStrikeBuff] до 5 секунд
+	Lead: Увеличивает урон от дебаффа [cbuff:FargowiltasSouls/LeadPoisonBuff] и сопротивление постепенному урону на 60%
+	Palladium: Бафф [cbuff:RapidHealing] всегда длится 5 секунд и увеличивает урон сфер
+	Shadewood: Увеличивает размер и урон ауры крови, а также дополнительно накладывает дебафф [cbuff:Ichor]
+	Shroomite: Увеличивает бонус характеристик баффа [cbuff:FargowiltasSouls/MushroomPowerBuff] до 30%, а также урон грибов и их количество
+	Silver: Парирование блокирует до 200 единиц урона и всегда даёт бафф [cbuff:ParryDamageBuff]
+	Snow: Снежки накладывают дебафф [cbuff:Frostburn2] и замораживают врагов
+}
+
+SetBonus.Mutant:
+	'''
+	Фантазматические сферы стреляют лучами смерти в ближайших врагов
+	Лик Мерзостти сражается рядом с вами
+	Атаки накладывают дебаффы [cbuff:FargowiltasSouls/GodEaterBuff] и [cbuff:FargowiltasSouls/HellFireBuff]
+	При возрождении вы извергаетесь массивным лучом смерти
+	Увеличивает скорость использования оружия на 20%
+	'''
+Toggler.ShimmerImmunityEffect: Невосприимчивость к [cbuff:Shimmer]
+
+EModeBalance: {
+	RodofDiscord: Дебафф [cbuff:ChaosState] снижает ваш урон, защиту и сопротивление урону на 40%
+	ManaPots: Нельзя использовать во время дебаффа [cbuff:ManaSickness], но восстанавливает на 50% больше маны
+	IceBladeFrostburn: Снаряды накладывают дебафф [cbuff:Frostburn2] при попадании
+}
+
+Buffs: {
+	AbomPresenceBuff.Description: Защита, сопротивление урону и регенерация здоровья снижены; эффект от дебаффа [cbuff:MoonLeech]
+	IvyVenomBuff.Description: Потеря здоровья превратится в дебафф [cbuff:FargowiltasSouls/NeurotoxinBuff] через 20 секунд
+	TwinsInstallBuff.Description: Эффекты от дебаффов [cbuff:CursedInferno] и [cbuff:Ichor]
+}
+
+Items: {
+	AshWoodEnchant.Tooltip:
+		'''
+		Огненные дебаффы не наносят вам урон
+		Когда на вас действует дебафф (за исключением дебаффов от зелий [cbuff:ManaSickness] или [cbuff:WaterCandle]), ваши атаки сопровождаются огненными шарами, наносящими магический урон
+		Даёт невосприимчивость к дебаффу [cbuff:Oiled]
+		Снижает урон, получаемый при контакте с лавой
+		'И вы мне говорите, что это не дерево?'
+		'''
+	AncientCobaltEnchant.Tooltip:
+		'''
+		Позволяет совершать взрывной прыжок, накладывающий дебафф [cbuff:Oiled] и наносящий урон ближнего боя
+		Удерживайте <down>, чтобы ускорить падение
+		'Древний кобольд'
+		'''
+	AncientShadowEnchant.Tooltip:
+		'''
+		Атаки могут наложить дебафф [cbuff:Darkness]
+		Враги, поражённые этим дебаффом, периодически выпускают в других врагов щупальца теневого пламени, которые наносят магический урон
+		Вокруг вращаются три магические теневые сферы
+		'Архаично, но эффективно'
+		'''
+	BeeEnchant.Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		Во время полёта оставляет за собой цветы, лепестки которых формируются в течение 4 секунд
+		Прикосновение к полностью сформировавшимся цветам даёт бафф [cbuff:Honey] и вызывает появление роя пчёл
+		Враги, касающиеся цветов, также вызывают появление роя пчёл
+		[i:HiveBackpack] Даёт эффекты от предмета «{$ItemName.HiveBackpack}»
+		'Согласно всем известным законам авиации, пчела - не вертолёт'
+		'''
+	CobaltEnchant.Tooltip:
+		'''
+		Позволяет совершать взрывной прыжок, накладывающий дебафф [cbuff:Oiled] и наносящий урон ближнего боя
+		Ваши другие прыжки усиливаются, вызывая взрывы с коротким временем перезарядки
+		Удерживайте <down>, чтобы ускорить падение
+		'Не могу поверить, что это не палладий'
+		'''
+	CrystalAssassinEnchant.Tooltip:
+		'''
+		Позволяет совершать рывок
+		Рывок прерывает движение по вертикали и может быть направлен по диагонали
+		Прыжок во время рывка на земле даёт ускорение и бафф [cbuff:FargowiltasSouls/FirstStrikeBuff]
+		[cbuff:FargowiltasSouls/FirstStrikeBuff] увеличивает урон от следующей атаки в 1,5 раза, гарантирует критический удар и снижает защиту цели на 10
+		[cbuff:FargowiltasSouls/FirstStrikeBuff] имеет 10 секунд перезарядки
+		'Путь к вершине'
+		'''
+	FrostEnchant.Tooltip:
+		'''
+		Ваши атаки на короткое время накладывают дебафф [cbuff:Frostburn]
+		Вокруг вас начинают появляться сосульки
+		Атаки запускают их в направление курсора, нанося магический урон
+		При попадании во врага на него накладывается дебафф [cbuff:Frostburn2] и он замораживается
+		'Давайте погрузим мир в глубокую заморозку'
+		'''
+	GoldEnchant.Tooltip:
+		'''
+		Атаки накладывают дебафф [cbuff:FargowiltasSouls/MidasBuff]
+		Подобранные монеты автоматически отправляются в свинью-копилку (работает из инвентаря или в слотах для украшений)
+		'Золото вскружит мир'
+		'''
+	LeadEnchant.Tooltip:
+		'''
+		Вы получаете на 40% меньше постепенного урона
+		Атаки накладывают дебафф [cbuff:FargowiltasSouls/LeadPoisonBuff]
+		[cbuff:FargowiltasSouls/LeadPoisonBuff] наносит постепенный урон и распространяется на ближайших врагов
+		'Не для употребления в пищу'
+		'''
+	ObsidianEnchant.Tooltip:
+		'''
+		Даёт невосприимчивость к лаве
+		Позволяет свободно передвигаться и плавать в лаве
+		Когда вы находитесь в лаве или под действием баффа [cbuff:FargowiltasSouls/ObsidianLavaWetBuff], ваши атаки вызывают взрывы
+		Когда вы находитесь в лаве или под действием дебаффа, ваши атаки сопровождаются огненными шарами, наносящими магический урон
+		Огненные дебаффы не наносят вам урон
+		Даёт невосприимчивость к дебаффу [cbuff:Oiled]
+		'Земля зовёт'
+		'''
+	OrichalcumEnchant.Tooltip:
+		'''
+		Цветочные лепестки наносят дополнительный урон и накладывают дебафф [cbuff:FargowiltasSouls/OriPoisonBuff]
+		Ваши дебаффы, наносящие урон, наносят на 150% больше урона
+		'Природа благословляет вас'
+		'''
+	RainEnchant.Tooltip:
+		'''
+		Призывает зонт, который отражает снаряды, летящие сверху, и замедляет падение
+		Зонт ломается после блокирования 200 единиц урона
+		Даёт невосприимчивость к дебаффу [cbuff:Wet], и все атаки накладывают дебафф [cbuff:Wet]
+		Даёт невосприимчивость к ударам молний из режима Вечность (работает из инвентаря или в слотах для украшений)
+		[i:FloatingTube] Даёт эффекты от предмета «{$ItemName.FloatingTube}»
+		'Приходите после дождичка в четверг'
+		'''
+
+	ShroomiteEnchant: {
+		Tooltip:
+			'''
+			Грибы восстанавливают 50 единиц здоровья и дают бафф [cbuff:FargowiltasSouls/MushroomPowerBuff] на 20 секунд
+			[cbuff:FargowiltasSouls/MushroomPowerBuff] увеличивает урон и шанс критического удара на 20%
+			Пронзающие снаряды создают облако грибов при первом попадании, которое наносит стрелковый урон, с небольшой перезарядкой
+			'Сделано из настоящих грибов!'
+			'''
+		AndMushroomPower: и даёт бафф [cbuff:FargowiltasSouls/MushroomPowerBuff]
+	}
+
+	SilverEnchant.Tooltip:
+		'''
+		Совершите блок точно в момент удара, чтобы выполнить идеальное парирование и получить бафф [cbuff:ParryDamageBuff]
+		Защитное парирование блокирует до 100 единиц урона
+		'Отражение'
+		'''
+	SnowEnchant.Tooltip:
+		'''
+		Ваши атаки на короткое время накладывают дебафф [cbuff:Frostburn]
+		Вокруг вас начинают появляться снежки
+		Атаки запускают их в направление курсора, нанося магический урон
+		'Снаружи обжигающий холод'
+		'''
+	SolarEnchant.Tooltip:
+		'''
+		Во время атаки накапливается солнечный заряд
+		По мере накопления заряда ваше сопротивление урону увеличивается, вплоть до 20%
+		Когда заряд полностью накоплен, прекратите атаковать, чтобы выпустить мощный солнечный взрыв
+		Солнечные взрывы накладывают дебафф [cbuff:FargowiltasSouls/SolarFlareBuff] и наносят урон ближнего боя
+		'Слишком горячо, чтобы держать в руках'
+		'''
+	UniverseCore.Tooltip:
+		'''
+		Ваши критические удары могут нанести суперкритический удар
+		Шанс суперкритического удара равен половине от вашего общего шанса критического удара (учитывается не более 100%)
+		Эти суперкритические удары наносят в 4 раза больше урона и накладывают дебафф [cbuff:FargowiltasSouls/FlamesoftheUniverseBuff]
+		'Излучает сверхвысокоэнергетические космические лучи'
+		'''
+	EarthForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/MythrilEnchant] Когда вы не атакуете, накапливается заряд; атаки расходуют накопленный заряд, увеличивающий скорость атаки
+		[i:FargowiltasSouls/PalladiumEnchant] [i:FargowiltasSouls/TitaniumEnchant] Чем больше накопленный заряд, тем выше регенерация здоровья и сопротивление урону
+		[i:FargowiltasSouls/AdamantiteEnchant] Скорость ваших атак увеличивается, пока вы продолжаете атаковать, расходуя при этом заряд
+		[i:FargowiltasSouls/OrichalcumEnchant] С накопленным зарядом вы также накладываете дебафф [cbuff:FargowiltasSouls/EarthPoison], который наносит процент от урона атаки
+		[i:FargowiltasSouls/OrichalcumEnchant] Ваши дебаффы, наносящие урон, наносят на 250% больше урона
+		[i:FargowiltasSouls/CobaltEnchant] Удерживайте <down>, чтобы ускорить падение
+		'Благословение Гайи озаряет вас'
+		'''
+	LifeForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/BeeEnchant] Даёт мощные крылья
+		[i:FargowiltasSouls/BeeEnchant] Оставляет за собой могущественные цветы во время полёта
+		[i:FargowiltasSouls/PumpkinEnchant] Цветы при прикосновении исцеляют вас, создают рой пчёл, дают бафф [cbuff:FargowiltasSouls/AmbrosiaBuff] и восстанавливают время полёта
+		[i:FargowiltasSouls/BeetleEnchant] [cbuff:FargowiltasSouls/AmbrosiaBuff] увеличивает урон на 30%, скорость атаки ближнего боя на 30%, сопротивление урону на 20% и регенерацию здоровья на 5
+		[i:FargowiltasSouls/BeetleEnchant] Бафф [cbuff:FargowiltasSouls/AmbrosiaBuff] также позволяет вашим миньонам наносить критические удары
+		[i:FargowiltasSouls/SpiderEnchant] Увеличивает шанс критического удара на 25%
+		[i:FargowiltasSouls/TurtleEnchant] Отражает 500% контактного урона
+		[i:FargowiltasSouls/BeeEnchant] Даёт эффекты от предмета «{$ItemName.HiveBackpack}»
+		'Редко живое существо, что осмелится не подчиниться вашей воле'
+		'''
+	NatureForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/CrimsonEnchant] Окружает аурой, которая высасывает здоровье из ближайших врагов
+		[i:FargowiltasSouls/CrimsonEnchant] Эффект высасывания здоровья усиливается, если вы некоторое время не получали урон
+		[i:FargowiltasSouls/MoltenEnchant] Враги, находящиеся в пределах ауры, получают на 15% больше урона
+		[i:FargowiltasSouls/ChlorophyteEnchant] Периодически выпускает кристальные листья в сторону врагов, находящихся в пределах ауры
+		[i:FargowiltasSouls/ShroomiteEnchant] При попадании кристальные листья создают облако грибов
+		[i:FargowiltasSouls/ShroomiteEnchant] Грибы восстанавливают 50 единиц здоровья и дают бафф [cbuff:FargowiltasSouls/MushroomPowerBuff] на 20 секунд
+		[i:FargowiltasSouls/ShroomiteEnchant] [cbuff:FargowiltasSouls/MushroomPowerBuff] увеличивает урон и шанс критического удара на 20%, а также размер ауры
+		[i:FargowiltasSouls/FrostEnchant] Ваши атаки на короткое время накладывают дебаффы [cbuff:Frostburn] и [cbuff:Frostburn2]
+		[i:FargowiltasSouls/RainEnchant] Призывает зонт, который отражает до 200 единиц урона сверху
+		'Все секреты природы стали явными'
+		'''
+	ShadowForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/CrystalAssassinEnchant] Позволяет делать теневой рывок, который прерывает движение по вертикали и может быть направлен по диагонали
+		[i:FargowiltasSouls/ShinobiEnchant] Каждые 4 секунды ваш следующий рывок окутывает вас тенью, делая вас неуязвимым во время рывка
+		[i:FargowiltasSouls/ShinobiEnchant] При совершении теневого рывка сквозь врага вы наносите ему урон и накладываете дебафф [cbuff:FargowiltasSouls/MarkedforDeathBuff]
+		[i:FargowiltasSouls/AncientShadowEnchant] Рывок создаёт вокруг вас всплеск теневого пламени
+		[i:FargowiltasSouls/NinjaEnchant] Увеличивает шанс критического удара снарядов в зависимости от их скорости
+		[i:FargowiltasSouls/NinjaEnchant] Увеличивает скорость и отбрасывание снарядов при медленном движении
+		[i:FargowiltasSouls/NecroEnchant] Убитые враги могут выронить груду костей
+		[i:FargowiltasSouls/DarkArtistEnchant] Во время атаки автоматически стреляет снарядом из оружия в следующем слоте в качестве поддержки
+		[i:FargowiltasSouls/SpookyEnchant] Все миньоны получают дополнительную атаку косой
+		'Всё темнее, ещё темнее, тьма без края'
+		'''
+	TerraForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/CopperEnchant] [i:FargowiltasSouls/ObsidianEnchant] [i:FargowiltasSouls/LeadEnchant] Критические удары иногда вызывают молнию, которая взрывается при попадании и накладывает сильный дебафф [cbuff:FargowiltasSouls/LeadPoisonBuff]
+		[i:FargowiltasSouls/SilverEnchant] Защитное парирование блокирует до 200 единиц урона; успешные парирования мгновенно выпускают разряд молнии
+		[i:FargowiltasSouls/TinEnchant] Устанавливает шанс критического удара на 75%, увеличиваясь на 25% вплоть до 100% при каждом выпущенном разряде молнии
+		[i:FargowiltasSouls/LeadEnchant] Вы получаете на 60% меньше постепенного урона
+		[i:FargowiltasSouls/TungstenEnchant] Увеличивает размер оружия ближнего боя на 50% и дальность хлыстов на 20%
+		[i:FargowiltasSouls/IronEnchant] При подборе предмета или предмета из группы восстановления увеличивает сопротивление урону на 20% на 5 секунд; увеличивает радиус подбора предметов
+		[i:FargowiltasSouls/IronEnchant] Перековка всегда даёт лучший префикс за дополнительные 50% стоимости (работает из инвентаря или в слотах для украшений)
+		'Земля придаёт вам силу'
+		'''
+	WillForce.Tooltip:
+		'''
+		[i:FargowiltasSouls/GladiatorEnchant] За вами следует дух гладиатора со знаменем, который усиливает вас, находясь поблизости
+		[i:FargowiltasSouls/RedRidingEnchant] Последовательные атаки получают бонусный урон, который увеличивается во время действия усиления от знамени
+		[i:FargowiltasSouls/ValhallaKnightEnchant] Увеличивает эффективность любого лечения на 25%
+		[i:FargowiltasSouls/ValhallaKnightEnchant] Улучшает ездовых питомцев и характеристики при езде на питомцах, а также позволяет ездовым питомцам совершать рывок
+		[i:FargowiltasSouls/GoldEnchant] Подобранные монеты автоматически отправляются в свинью-копилку (работает из инвентаря или в слотах для украшений); ваши атаки накладывают дебафф [cbuff:FargowiltasSouls/MidasBuff]
+		[i:FargowiltasSouls/PlatinumEnchant] Из врагов с 33% шансом выпадает в 5 раз больше предметов
+		'Разум неразрушимой решимости'
+		'''
+	AbominableWand.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/AbomFangBuff] и [cbuff:FargowiltasSouls/AbomPresenceBuff]
+		Эффект предмета «{$Items.SparklingAdoration.DisplayName}» при уклонениях вблизи снаряда накапливается вдвое быстрее, а перезарядка сердец сокращается вдвое
+		Увеличивает предел урона на 20% при уклонениях вблизи снаряда
+		Периодически появляется спектральный Мерзостть, поддерживая ваши критические удары
+		С надетым комплектом брони Стикса, заряжает энергию во время уклонения вблизи снаряда
+		Вы можете пережить любую атаку и выжить с 1 единицей здоровья
+		Эффект восстанавливается при достижении полного здоровья
+		'Словно чего-то не хватает'
+		'''
+	AgitatingLens.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/BerserkedBuff], если он был наложен не вами
+		При рывке или быстром беге вы оставляете след из демонических кос, наносящих магический урон
+		Укрепление дебаффом приводит в состояние берсерка, которое значительно увеличивает атаку, но сильно снижает защиту, а также делает невозможным прекращение атаки или движения
+		Состояние берсерка длится 8 секунд, после чего вы оглушены на 2 секунды
+		'Раздражающие останки побеждённого врага'
+		'''
+	BetsysHeart.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:OgreSpit], [cbuff:WitheredWeapon], [cbuff:WitheredArmor]
+		Попадание по врагам рывком огненного шара накладывает дебафф [cbuff:BetsysCurse] и снижает время перезарядки рывка
+		'Слегка пригоревшее, средней прожарки'
+		'''
+
+	BionomicCluster: {
+		Tooltip:
+			'''
+			Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FrigidGemstone] [cbuff:Frostburn], [i:FargowiltasSouls/WretchedPouch] [cbuff:ShadowFlame], [i:FargowiltasSouls/SqueakyToy] [cbuff:FargowiltasSouls/SqueakyToyBuff] и [i:FargowiltasSouls/ConcentratedRainbowMatter] [cbuff:FargowiltasSouls/FlamesoftheUniverseBuff]
+			Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/WyvernFeather] [cbuff:FargowiltasSouls/ClippedWingsBuff], [cbuff:FargowiltasSouls/CrippledBuff], [i:FargowiltasSouls/TribalCharm] [cbuff:Webbed], [cbuff:FargowiltasSouls/PurifiedBuff], [i:FargowiltasSouls/NymphsPerfume] [cbuff:FargowiltasSouls/LovestruckBuff], [cbuff:Stinky], [cbuff:FargowiltasSouls/HexedBuff] и [i:FargowiltasSouls/SecurityWallet] [cbuff:FargowiltasSouls/MidasBuff]
+			[i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
+			[i:FargowiltasSouls/NymphsPerfume] Атаки иногда создают сердца
+			[i:FargowiltasSouls/WyvernFeather] Периодически испускает светящиеся сферы, при прикосновении к которым восстанавливает время полёта
+			[i:FargowiltasSouls/SqueakyToy] Вражеские атаки по вам с 5% шансом могут пискнуть и нанести лишь 1 единицу урона
+			[i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону до 10%
+			[i:FargowiltasSouls/WretchedPouch] Прекратите атаковать, чтобы высвободить накопленный заряд в виде всплеска теневых щупалец, наносящих магический урон
+			[i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
+			[i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
+			[i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме урона призывателя, на 30%
+			[c/00FFFF:Следующие эффекты также пассивно работают из инвентаря или в слотах для украшений (<right>, чтобы отключить в инвентаре):]
+			Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] [cbuff:WindPushed] и к урону от кактусов, [i:FargowiltasSouls/MysticSkull] [cbuff:Suffocation], [i:FargowiltasSouls/FrigidGemstone] [cbuff:Chilled], [i:FargowiltasSouls/SqueakyToy] и [cbuff:FargowiltasSouls/GuiltyBuff]
+			[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
+			[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
+			[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
+			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+			'Слияние тысяч мелких врагов'
+			'''
+		VanityTooltip:
+			'''
+			Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] [cbuff:WindPushed] и к урону от кактусов, [i:FargowiltasSouls/MysticSkull] [cbuff:Suffocation], [i:FargowiltasSouls/FrigidGemstone] [cbuff:Chilled], [i:FargowiltasSouls/SqueakyToy] и [cbuff:FargowiltasSouls/GuiltyBuff]
+			[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
+			[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
+			[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
+			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+			'''
+	}
+
+	BionomicClusterInactive.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FrigidGemstone] [cbuff:Frostburn], [i:FargowiltasSouls/WretchedPouch] [cbuff:ShadowFlame], [i:FargowiltasSouls/SqueakyToy] [cbuff:FargowiltasSouls/SqueakyToyBuff] и [i:FargowiltasSouls/ConcentratedRainbowMatter] [cbuff:FargowiltasSouls/FlamesoftheUniverseBuff]
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/WyvernFeather] [cbuff:FargowiltasSouls/ClippedWingsBuff], [cbuff:FargowiltasSouls/CrippledBuff], [i:FargowiltasSouls/TribalCharm] [cbuff:Webbed], [cbuff:FargowiltasSouls/PurifiedBuff], [i:FargowiltasSouls/NymphsPerfume] [cbuff:FargowiltasSouls/LovestruckBuff], [cbuff:Stinky], [cbuff:FargowiltasSouls/HexedBuff] и [i:FargowiltasSouls/SecurityWallet] [cbuff:FargowiltasSouls/MidasBuff]
+		[i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
+		[i:FargowiltasSouls/NymphsPerfume] Атаки иногда создают сердца
+		[i:FargowiltasSouls/WyvernFeather] Периодически испускает светящиеся сферы, при прикосновении к которым восстанавливает время полёта
+		[i:FargowiltasSouls/SqueakyToy] Вражеские атаки по вам с 5% шансом могут пискнуть и нанести лишь 1 единицу урона
+		[i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону до 10%
+		[i:FargowiltasSouls/WretchedPouch] Прекратите атаковать, чтобы высвободить накопленный заряд в виде всплеска теневых щупалец, наносящих магический урон
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
+		[i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
+		[i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме урона призывателя, на 30%
+		[c/00FFFF:Следующие эффекты в настоящее время отключены в инвентаре (<right>, чтобы включить):]
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] [cbuff:WindPushed] и к урону от кактусов, [i:FargowiltasSouls/MysticSkull] [cbuff:Suffocation], [i:FargowiltasSouls/FrigidGemstone] [cbuff:Chilled], [i:FargowiltasSouls/SqueakyToy] и [cbuff:FargowiltasSouls/GuiltyBuff]
+		[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
+		[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
+		[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+		'Слияние тысяч мелких врагов'
+		'''
+
+	CelestialRune: {
+		DisplayName: Неземная руна
+		Tooltip:
+			'''
+			Даёт невосприимчивость к дебаффу «{$Buffs.MarkedforDeathBuff.DisplayName}»
+			В зависимости от типа оружия, вы можете периодически запускать дополнительные атаки
+			'Заклинание побеждённого врага, получившее новое предназначение'
+			'''
+	}
+
+	ChaliceoftheMoon.Tooltip:
+		'''
+		[i:FargowiltasSouls/ChaliceoftheMoon] Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/SwarmingBuff], [cbuff:FargowiltasSouls/AtrophiedBuff], [cbuff:FargowiltasSouls/JammedBuff], [cbuff:FargowiltasSouls/ReverseManaFlowBuff] и [cbuff:FargowiltasSouls/AntisocialBuff]
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MagicalBulb] [cbuff:Venom], [cbuff:FargowiltasSouls/IvyVenomBuff], [i:FargowiltasSouls/LihzahrdTreasureBox] [cbuff:Burning], [cbuff:FargowiltasSouls/FusedBuff], [cbuff:FargowiltasSouls/LihzahrdCurseBuff], [cbuff:FargowiltasSouls/LowGroundBuff] [i:FargowiltasSouls/CelestialRune] и [cbuff:FargowiltasSouls/MarkedforDeathBuff]
+		[i:FargowiltasSouls/MagicalBulb] Нажмите клавишу «Магическое очищение», чтобы избавиться от большинства дебаффов и удвоить эффекты постепенного урона для ближайших врагов на определённое время
+		[i:FargowiltasSouls/MagicalBulb] Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
+		[i:FargowiltasSouls/LihzahrdTreasureBox] Ускоренное падение создаёт огненное извержение при приземлении после падения с определённой высоты
+		[i:FargowiltasSouls/CelestialRune] В зависимости от типа оружия, вы периодически запускаете дополнительные атаки
+		[c/BC5252:Все эффекты миньонов от аксессуаров и неиспользованные слоты миньонов преобразуются в бонусный урон,]
+		[c/BC5252:который увеличивается на 1% за каждый из этих эффектов (можно переключить)]
+		В противном случае призывает [i:FargowiltasSouls/MagicalBulb] растение, атакующее врагов
+		'Всегда на страже'
+		'''
+	ConcentratedRainbowMatter.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/FlamesoftheUniverseBuff]
+		Призывает на помощь маленького радужного слизня
+		Автоматически использует зелье лечения при необходимости (работает из инвентаря или в слотах для украшений)
+		'Попробуй радугу'
+		'''
+	DarkenedHeart.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/RottingBuff]
+		Увеличивает скорость передвижения на 10% и скорость замедления персонажа
+		Каждые несколько атак создаются маленькие пожиратели, которые накладывают дебафф [cbuff:FargowiltasSouls/AnticoagulationBuff] и устремляются на врагов
+		'Мухи отказываются к нему приближаться'
+		'''
+	Deerclawps.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Slow] и [cbuff:Frozen]
+		При рывке оставляет след из ледяных шипов, которые, находясь в воздухе, нацеливаются на ближайшего врага
+		Ускоренное падение создаёт ледниковое извержение при столкновении
+		'Подстриженные ногти побеждённого врага'
+		'''
+	DreadShell.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/AnticoagulationBuff]
+		Даёт невосприимчивость к отбрасыванию
+		Защита и сопротивление урону значительно снижаются во время и после прикрытия щитом
+		Совершите блок точно в момент удара, чтобы выполнить парирование и контратаковать с длительной перезарядкой
+		Контратака наносит колоссальный урон и накладывает дебафф [cbuff:FargowiltasSouls/AnticoagulationBuff]
+		Поглощение сгустков крови антикоагуляции увеличивает урон на 30%
+		Защитное парирование блокирует до 200 единиц урона
+		'Зря мы тут устроили Кам Бакет'
+		'''
+	DubiousCircuitry.Tooltip:
+		'''
+		Даёт невосприимчивость к отбрасыванию и дебаффам [i:FargowiltasSouls/FusedLens] [cbuff:CursedInferno], [cbuff:Ichor], [i:FargowiltasSouls/GroundStick] [cbuff:FargowiltasSouls/LightningRodBuff], [i:FargowiltasSouls/ReinforcedPlating] [cbuff:FargowiltasSouls/DefenselessBuff], [cbuff:FargowiltasSouls/NanoInjectionBuff]
+		[i:FargowiltasSouls/FusedLens] Укрепление дебаффом накладывает на вас дебаффы [cbuff:CursedInferno] и [cbuff:Ichor]
+		[i:FargowiltasSouls/FusedLens] Если на вас наложены дебаффы [cbuff:Ichor] и [cbuff:CursedInferno], скорость атаки и шанс критического удара увеличиваются на 15%
+		[i:FargowiltasSouls/FusedLens] Если на вас наложены дебаффы [cbuff:Ichor] и [cbuff:CursedInferno], ваши удары также накладывают дебаффы [cbuff:Ichor] и [cbuff:CursedInferno]
+		[i:FargowiltasSouls/GroundStick] Ваши удары с небольшим шансом накладывают дебафф [cbuff:FargowiltasSouls/LightningRodBuff], а при получении электрических атак вы становитесь сверхзаряженным
+		[i:FargowiltasSouls/GroundStick] За вас сражаются два дружелюбных зонда, которые также становятся сверхзаряженными вместе с вами
+		[i:FargowiltasSouls/ReinforcedPlating] Снижает получаемый урон на 5%
+		'Может даже без вирусов...'
+		'''
+
+	FrigidGemstone: {
+		DisplayName: Ледяные объятия
+		Tooltip:
+			'''
+			Даёт невосприимчивость к дебаффам [cbuff:Frostburn] и [cbuff:Chilled] (работает из инвентаря или в слотах для украшений)
+			'Отсечённая конечность, состоящая из древнего льда'
+			'''
+		VanityTooltip: Даёт невосприимчивость к дебаффам [cbuff:Frostburn] и [cbuff:Chilled]
+	}
+
+	FusedLens.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:CursedInferno] и [cbuff:Ichor], если они были наложены не вами
+		Укрепление дебаффом накладывает на вас дебаффы [cbuff:CursedInferno] и [cbuff:Ichor]
+		Если на вас наложен дебафф [cbuff:CursedInferno], скорость атаки увеличивается на 15%
+		Если на вас наложен дебафф [cbuff:Ichor], шанс критического удара увеличивается на 15%
+		При потере здоровья от постепенного урона ваши атаки накладывают [cbuff:CursedInferno] и [cbuff:Ichor]
+		'Слишком подплавлены, чтобы улучшать зрение'
+		'''
+	GalacticGlobe.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/NullificationCurseBuff], [cbuff:FargowiltasSouls/FlippedBuff], [cbuff:FargowiltasSouls/HallowIlluminatedBuff], [cbuff:FargowiltasSouls/UnstableBuff] и [cbuff:FargowiltasSouls/CurseoftheMoonBuff]
+		Даёт большинство стандартных баффов от зелий и баффающих станций (работает из инвентаря или в слотах для украшений)
+		Призывает на помощь истинные Глаза Ктулху
+		Увеличивает время полёта на 100%
+		'Воспользуйся ею'
+		'''
+	GelicWings.Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/HallowIlluminatedBuff], вызванному подземным освящением
+		Позволяет совершать двойной прыжок
+		При приземлении после прыжка в разные стороны вылетают шипы из слизи
+		'Наступи на меня'
+		'''
+	GroundStick.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/LightningRodBuff]
+		Электрические и лучевые атаки сверхзаряжают вас и наносят только половину урона, если вы ещё не сверхзаряжены
+		Во время сверхзаряда, увеличивает скорость передвижения и скорость атаки, а ваши удары накладывают [cbuff:Electrified] и [cbuff:FargowiltasSouls/LightningRodBuff]
+		За вас сражаются два дружелюбных зонда, которые также сверхзаряжаются вместе с вами
+		'Сегмент побеждённого врага с приклеенной антенной'
+		'''
+	GuttedHeart.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/BloodthirstyBuff]
+		Увеличивает максимальный запас здоровья на 10%
+		Вокруг парят проныры, блокирующие часть урона
+		Каждые 15-10 секунд (чем ниже здоровье, тем быстрее) появляется новый проныра, и за раз может существовать до 5 проныр
+		Частота появления проныр увеличивается, когда вы не двигаетесь
+		Проныры накладывают дебафф [cbuff:Ichor] при ударе
+		'Однажды бившееся в разуме побеждённого врага'
+		'''
+	HeartoftheMasochist.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PumpkingsCape] [cbuff:FargowiltasSouls/LivingWastelandBuff], [i:FargowiltasSouls/IceQueensCrown] [cbuff:FargowiltasSouls/HypothermiaBuff], [cbuff:Frozen], [i:FargowiltasSouls/SaucerControlConsole] [cbuff:Electrified], [cbuff:VortexDebuff], [i:FargowiltasSouls/BetsysHeart] [cbuff:OgreSpit], [cbuff:WitheredWeapon] и [cbuff:WitheredArmor]
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MutantAntibodies] [cbuff:Wet], [cbuff:Rabies], [cbuff:FargowiltasSouls/MutantNibbleBuff], [cbuff:FargowiltasSouls/OceanicMaulBuff] и водным дебаффам
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PrecisionSeal] [cbuff:FargowiltasSouls/SmiteBuff], [i:FargowiltasSouls/GalacticGlobe] [cbuff:FargowiltasSouls/NullificationCurseBuff], [cbuff:FargowiltasSouls/FlippedBuff], [cbuff:FargowiltasSouls/HallowIlluminatedBuff], [cbuff:FargowiltasSouls/UnstableBuff] и [cbuff:FargowiltasSouls/CurseoftheMoonBuff]
+		[i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Увеличивает урон и шанс критического удара на 10% и сопротивление урону на 5%
+		[i:FargowiltasSouls/PumpkingsCape] Защитное парирование блокирует до 200 единиц урона
+		[i:FargowiltasSouls/PumpkingsCape] Контратака восстанавливает здоровье в зависимости от заблокированного урона. Излучает ауру гниения во время защиты
+		[i:FargowiltasSouls/IceQueensCrown] При уклонении вблизи снаряда заряжает кромковую бомбу
+		[i:FargowiltasSouls/BetsysHeart] Рывок огненного шара накладывает дебафф [cbuff:BetsysCurse]
+		[i:FargowiltasSouls/MutantAntibodies] Погружение в воду восстанавливает время полёта крыльев и увеличивает скорость и максимальное время полёта крыльев
+		[i:FargowiltasSouls/MutantAntibodies] При езде на Рыброне-милашке даёт эффекты от дебаффа [cbuff:Wet]
+		[i:FargowiltasSouls/PrecisionSeal] Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки, и отобразить вашу зону поражения
+		[i:FargowiltasSouls/PrecisionSeal] Снижает размер вашей зоны поражения для вражеских снарядов, даже когда она не отображается и [i:FargowiltasSouls/GalacticGlobe] увеличивает время полёта
+		[i:FargowiltasSouls/GalacticGlobe] Даёт большинство стандартных баффов от зелий и баффающих станций (работает из инвентаря или в слотах для украшений)
+		[c/BC5252:Все эффекты миньонов от аксессуаров и неиспользованные слоты миньонов преобразуются в бонусный урон,]
+		[c/BC5252:который увеличивается на 1% за каждый из этих эффектов (можно переключить)]
+		В противном случае призывает [i:FargowiltasSouls/GalacticGlobe] маленькие истинные Глаза Ктулху и [i:FargowiltasSouls/SaucerControlConsole] дружелюбную маленькую марсианскую тарелку, которая замедляет поражённых врагов
+		'Тёплое, бьющееся, и не нуждается в теле'
+		'''
+	IceQueensCrown.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/HypothermiaBuff] и [cbuff:Frozen]
+		Увеличивает сопротивление урону на 5%
+		При уклонении вблизи снаряда заряжает кромковую бомбу
+		'Королевский символ побеждённого врага'
+		'''
+	LihzahrdTreasureBox.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Burning], [cbuff:FargowiltasSouls/FusedBuff], [cbuff:FargowiltasSouls/LihzahrdCurseBuff] и [cbuff:FargowiltasSouls/LowGroundBuff]
+		Ускоренное падение создаёт огненное извержение при приземлении после падения с определённой высоты
+		'Слишком много ловушек, чтобы открыть'
+		'''
+	LumpOfFlesh.Tooltip:
+		'''
+		Даёт невосприимчивость к [i:FargowiltasSouls/DreadShell] отбрасыванию и дебаффам [cbuff:FargowiltasSouls/AnticoagulationBuff], [i:FargowiltasSouls/PungentEyeball] [cbuff:Blackout], [cbuff:Obstructed], [i:FargowiltasSouls/SkullCharm] [cbuff:Dazed], [i:FargowiltasSouls/Deerclawps] [cbuff:Slow] и [cbuff:Frozen]
+		[i:FargowiltasSouls/PungentEyeball] Курсор, находящийся рядом с врагами, увеличивает получаемый ими урон до 15%
+		[i:FargowiltasSouls/PungentEyeball] Значительно увеличивает частоту появления редких врагов
+		[i:FargowiltasSouls/SkullCharm] Увеличивает урон на 15%, и наделяет вас миньоном-глазным яблоком, который накапливает энергию при ваших атаках
+		[i:FargowiltasSouls/SkullCharm] Враги реже выбирают вас в качестве цели
+		[i:FargowiltasSouls/DreadShell] Совершите блок точно в момент удара, чтобы выполнить парирование и контратаковать
+		[i:FargowiltasSouls/DreadShell] Защита и сопротивление урону значительно снижаются во время и после парирования
+		[i:FargowiltasSouls/Deerclawps] При рывке оставляет след из кровавых шипов
+		[i:FargowiltasSouls/Deerclawps] Ускоренное падение создаёт ледниковое извержение при столкновении
+		'Оно растёт'
+		'''
+	MagicalBulb.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Venom], [cbuff:FargowiltasSouls/IvyVenomBuff] и [cbuff:FargowiltasSouls/SwarmingBuff]
+		Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
+		Привлекает потомка легендарного растения, который расцветает в бою
+		'Матереубийство?'
+		'''
+	MutantAntibodies.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Wet], [cbuff:Rabies], [cbuff:FargowiltasSouls/MutantNibbleBuff] и [cbuff:FargowiltasSouls/OceanicMaulBuff]
+		Даёт невосприимчивость к большинству дебаффов, вызванных погружением в воду
+		При езде на Рыброне-милашке даёт эффекты от дебаффа [cbuff:Wet]
+		Увеличивает урон оружия текущего класса на 25%, но снижает регенерацию здоровья
+		Погружение в воду восстанавливает время полёта крыльев и увеличивает скорость и максимальное время полёта крыльев
+		'Отличный препарат, 0 из 10 врачей рекомендуют'
+		'''
+	MutantEye.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/MutantFangBuff]
+		Увеличивает предел урона на 25% при уклонениях вблизи снаряда
+		Превращает сердца «{$Items.SparklingAdoration.DisplayName}» в лучи любви
+		Увеличивает урон за каждое уклонение вблизи снаряда
+		Увеличивает скорость возрождения и урон спектрального Мерзостть
+		Кромковая бомба высвобождает волну сфер и уничтожить большинство вражеских снарядов
+		Кромковая бомба имеет 60 секунд перезарядки
+		'Всего лишь чуть-чуть подозрительный'
+		'''
+
+	MysticSkull: {
+		Tooltip:
+			'''
+			Работает из инвентаря или в слотах для украшений
+			Нажмите <right>, чтобы отключить
+			Даёт невосприимчивость к дебаффу [cbuff:Suffocation]
+			Автоматически использует зелья маны при необходимости
+			Увеличивает дальность подбора звёзд маны
+			'Тихо бормочущая голова побеждённого врага'
+			'''
+		VanityTooltip:
+			'''
+			Даёт невосприимчивость к дебаффу [cbuff:Suffocation]
+			Автоматически использует зелья маны при необходимости
+			Увеличивает дальность подбора звёзд маны
+			'''
+	}
+
+	MysticSkullInactive.Tooltip:
+		'''
+		Эффекты сейчас неактивны, нажмите <right>, чтобы активировать их
+		Даёт невосприимчивость к дебаффу [cbuff:Suffocation]
+		Автоматически использует зелья маны при необходимости
+		Увеличивает дальность подбора звёзд маны
+		'Тихо бормочущая голова побеждённого врага'
+		'''
+	NecromanticBrew.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/LethargicBuff]
+		Увеличивает скорость во время рывка на 30%
+		Во время рывка получаемый контактный урон снижается на 15%, а 100% контактного урона отражается обратно атакующему
+		Призывает две руки Скелетрона, атакующие врагов
+		'Средство для роста костей побеждённого врага'
+		'''
+	NymphsPerfume.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Lovestruck], [cbuff:Stinky] и [cbuff:FargowiltasSouls/HexedBuff]
+		Вы возрождаетесь с большим количеством здоровья (работает из инвентаря или в слотах для украшений)
+		Атаки иногда создают сердца
+		'Несколько подавляющий аромат'
+		'''
+	PrecisionSeal.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/SmiteBuff]
+		Снижает размер вашей зоны поражения для вражеских снарядов
+		Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
+		Снижает размер вашей зоны поражения для вражеских снарядов, даже когда она не отображается
+		'Настолько миллиметраж, что можно ощутить вкус снаряда'
+		'''
+	PumpkingsCape.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/LivingWastelandBuff]
+		Увеличивает урон и шанс критического удара на 5%
+		Излучает ауру гниения во время защиты
+		Совершите блок точно в момент удара, чтобы выполнить парирование и контратаковать с длительной перезарядкой
+		Контратака восстанавливает здоровье в зависимости от заблокированного урона
+		Защитное парирование блокирует до 200 единиц урона
+		'Каким-то образом подходит по размеру'
+		'''
+	PungentEyeball.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Blackout] и [cbuff:Obstructed]
+		Увеличивает частоту появления редких врагов
+		Курсор, находящийся рядом с врагами, увеличивает получаемый ими урон до 15%
+		Эффект усиливается, чем дольше вы следите за врагами
+		'Оно бродит'
+		'''
+	PureHeart.Tooltip:
+		'''
+		[i:FargowiltasSouls/PureHeart] Даёт невосприимчивость к дебаффам биома
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/DarkenedHeart] [cbuff:FargowiltasSouls/RottingBuff] и [i:FargowiltasSouls/GuttedHeart] [cbuff:FargowiltasSouls/BloodthirstyBuff]
+		[i:FargowiltasSouls/DarkenedHeart] Увеличивает скорость передвижения и скорость замедления персонажа
+		[i:FargowiltasSouls/DarkenedHeart] Каждые несколько атак создаются маленькие пожиратели, которые устремляются на врагов и накладывают дебафф [cbuff:FargowiltasSouls/SublimationBuff] (постепенный урон и снижение сопротивления урону)
+		[i:FargowiltasSouls/GuttedHeart] Вокруг вас парят до 5 проныр, блокирующих часть урона; частота появления проныр увеличивается, когда вы не двигаетесь
+		[i:FargowiltasSouls/GuttedHeart] Увеличивает максимальный запас здоровья на 10%
+		[i:FargowiltasSouls/GelicWings] Позволяет совершать двойной прыжок
+		[i:FargowiltasSouls/GelicWings] При приземлении после прыжка в разные стороны вылетают шипы из слизи
+		[i:FargowiltasSouls/GelicWings] Увеличивает время полёта на 30%
+		'Пульсирует жизненной силой'
+		'''
+	QueenStinger.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/InfestedBuff]
+		Бафф [cbuff:Honey] увеличивает пробивание брони на 7
+		Пчёлы и слабые шершни становятся дружелюбными
+		'Вырвано прямо из побеждённого врага'
+		'''
+	ReinforcedPlating.Tooltip:
+		'''
+		Даёт невосприимчивость к отбрасыванию и дебаффам [cbuff:FargowiltasSouls/DefenselessBuff], [cbuff:FargowiltasSouls/NanoInjectionBuff]
+		Снижает получаемый урон на 5%
+		'Самый прочный кусок побеждённого врага'
+		'''
+
+	SandsofTime: {
+		Tooltip:
+			'''
+			Работает из инвентаря или в слотах для украшений
+			Даёт невосприимчивость к дебаффу [cbuff:WindPushed] и к урону от кактусов
+			Вы возрождаетесь в два раза быстрее, если нет живых боссов
+			Используйте для телепортации на вашу последнюю точку смерти
+			'Не ронять ни при каких обстоятельствах'
+			'''
+		VanityTooltip:
+			'''
+			Даёт невосприимчивость к дебаффу [cbuff:WindPushed] и к урону от кактусов
+			Вы возрождаетесь в два раза быстрее, если нет живых боссов
+			Используйте для телепортации на вашу последнюю точку смерти
+			'''
+	}
+
+	SaucerControlConsole.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:Electrified] и [cbuff:VortexDebuff]
+		Призывает дружелюбную маленькую марсианскую тарелку
+		Тяговый луч марсианской тарелки замедляет поражённых им врагов
+		Наносит сниженный урон до победы над Големом
+		'Просто держи в режиме полёта'
+		'''
+
+	SecurityWallet: {
+		Tooltip:
+			'''
+			Работает из инвентаря или в слотах для украшений
+			Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/MidasBuff]
+			Снижает стоимость перековки на 50%
+			'Не защищён от кражи с трупа'
+			'''
+		VanityTooltip:
+			'''
+			Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/MidasBuff]
+			Снижает стоимость перековки на 50%
+			'''
+	}
+
+	SinisterIcon.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/UnluckyBuff] и [cbuff:FargowiltasSouls/StunnedBuff]
+		Увеличивает частоту появления врагов
+		После победы над врагами и боссами выпадает вдвое больше предметов
+		Эффект работает на боссов только если предмет был экипирован на протяжении всего боя
+		'Определённо неживой'
+		'''
+	SkullCharm.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:Dazed]
+		Увеличивает наносимый урон на 15% и получаемый на 10%
+		Враги реже выбирают вас в качестве цели
+		Кристальный череп накапливает энергию при ваших атаках
+		'Часть коллективного сознания'
+		'''
+	SlimyShield.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:Slimed]
+		Увеличивает скорость падения
+		Удерживайте <down>, чтобы падать сквозь платформы
+		Когда вы приземляетесь после прыжка, на курсор с неба падает слизь
+		Слизь накладывает дебаффы [cbuff:Slimed] и [cbuff:Oiled]
+		'Вырван из внутренностей побеждённого врага'
+		'''
+	SparklingAdoration.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:FargowiltasSouls/LovestruckBuff] и ложным сердцам
+		Увеличивает урон до 25% при уклонениях вблизи снаряда
+		Бонус к урону снижается со временем и полностью пропадает при получении удара
+		Атаки периодически призывают сердца, которые высасывают здоровье врагов, нанося магический урон
+		'С чувством!'
+		'''
+	SqueakyToy.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/SqueakyToyBuff] и [cbuff:FargowiltasSouls/GuiltyBuff]
+		Вражеские атаки по вам с 10% шансом могут пискнуть и нанести лишь 1 единицу урона
+		'Любимая игрушка побеждённого врага?..'
+		'''
+	SupremeDeathbringerFairy.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SlimyShield] [cbuff:Slimed], [i:FargowiltasSouls/AgitatingLens] [cbuff:FargowiltasSouls/BerserkedBuff], [i:FargowiltasSouls/QueenStinger] [cbuff:FargowiltasSouls/InfestedBuff] и [i:FargowiltasSouls/NecromanticBrew] [cbuff:FargowiltasSouls/LethargicBuff]
+		[i:FargowiltasSouls/SlimyShield] Увеличивает скорость падения и когда вы приземляетесь после прыжка, на курсор с неба падает слизь; удерживайте <down>, чтобы падать сквозь платформы
+		[i:FargowiltasSouls/AgitatingLens] При рывке или быстром беге вы оставляете след из демонических кос
+		[i:FargowiltasSouls/AgitatingLens] Укрепление дебаффом приводит в состояние берсерка, которое значительно увеличивает атаку, но сильно снижает защиту, а также делает невозможным прекращение атаки или движения
+		[i:FargowiltasSouls/QueenStinger] Бафф [cbuff:Honey] увеличивает пробивание брони на 5, а пчёлы и слабые шершни становятся дружелюбными
+		[i:FargowiltasSouls/QueenStinger] Нажмите клавишу «Особый рывок», чтобы выполнить короткий быстрый пчелиный рывок
+		[i:FargowiltasSouls/NecromanticBrew] Значительно увеличивает скорость рывка, снижает урон и отражает весь урон обратно в атакующего во время рывка
+		[i:FargowiltasSouls/NecromanticBrew] Призывает две руки Скелетрона, атакующие врагов
+		'Превосходство не гарантируется'
+		'''
+	TribalCharm.Tooltip:
+		'''
+		При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме урона призывателя, на 30%
+		Даёт невосприимчивость к дебаффам [cbuff:Webbed] и [cbuff:FargowiltasSouls/PurifiedBuff]
+		'Идол древних обитателей джунглей...'
+		'''
+	WretchedPouch.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:ShadowFlame]
+		При атаке накапливает заряд теневого пламени, но снижает сопротивление урону до 10%
+		Прекратите атаковать, чтобы высвободить накопленный заряд в виде всплеска теневых щупалец, наносящих магический урон
+		'Проклятое теневое снадобье побеждённого врага'
+		'''
+	WyvernFeather.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффам [cbuff:FargowiltasSouls/ClippedWingsBuff] и [cbuff:FargowiltasSouls/CrippledBuff]
+		Периодически испускает светящиеся сферы, при прикосновении к которым восстанавливает время полёта
+		Стабилизирует гравитацию в космосе и жидкостях (работает из инвентаря или в слотах для украшений)
+		'Тёплое на ощупь'
+		'''
+	ColossusSoul.Tooltip:
+		'''
+		Увеличивает максимальный запас здоровья на 100, сопротивление урону на 10% и регенерацию здоровья на 5
+		Даёт невосприимчивость к отбрасыванию, нескольким дебаффам, [cbuff:Shimmer] и урону от падения
+		Враги чаще выбирают вас в качестве цели
+		Даёт эффекты от предметов «{$ItemName.BrainOfConfusion}», «{$ItemName.StarVeil}», «{$ItemName.CharmofMyths}» и «{$ItemName.BeeCloak}»
+		Даёт эффекты от предметов «{$ItemName.ShinyStone}», «{$ItemName.PaladinsShield}» и «{$ItemName.FrozenTurtleShell}»
+		'Ничто не может остановить вас'
+		'''
+	DimensionSoul.Tooltip:
+		'''
+		Увеличивает максимальный запас здоровья на 300, сопротивление урону на 20% и регенерацию здоровья на 8
+		Даёт невосприимчивость к отбрасыванию и нескольким дебаффам
+		Враги чаще выбирают вас в качестве цели
+		Позволяет бегать со скоростью звука и бесконечно летать, [c/BC5252:отключает все прыжки (можно переключить)]
+		Значительно увеличивает навык рыбной ловли, а все удочки получают 10 дополнительных поплавков
+		Увеличивает скорость размещения блоков и стен на 50%
+		Почти бесконечный радиус размещения блоков и добычи; увеличивает скорость добычи в 3 раза
+		Даёт эффекты от баффов [cbuff:Shine], [cbuff:Spelunker], [cbuff:Hunter] и [cbuff:Dangersense]
+		Автоматическая покраска и эффект актуатора
+		Даёт доступ к режиму строителя
+		Даёт эффекты от предметов «{$ItemName.BrainOfConfusion}», «{$ItemName.StarVeil}», «{$ItemName.SweetheartNecklace}», «{$ItemName.BeeCloak}», «{$ItemName.SporeSac}» и «{$ItemName.ShinyStone}»
+		Даёт эффекты от предметов «{$ItemName.PaladinsShield}», «{$ItemName.FrozenTurtleShell}», «{$ItemName.ArcticDivingGear}», «{$ItemName.FrogLeg}» и «{$ItemName.FlyingCarpet}»
+		Даёт эффекты от предметов «{$ItemName.LavaWaders}», «{$ItemName.AnglerTackleBag}», «{$ItemName.PaintSprayer}», «{$ItemName.ActuationAccessory}» и «{$ItemName.GravityGlobe}»
+		Даёт эффекты от предметов «{$ItemName.EoCShield}» и «{$ItemName.MasterNinjaGear}»
+		'Вселенная Террарии в ваших руках'
+		'''
+	TrawlerSoul.Tooltip:
+		'''
+		Значительно увеличивает навык рыбной ловли
+		Все удочки получают 10 дополнительных поплавков
+		Ловля рыбы происходит почти мгновенно
+		Даёт эффекты от баффов [cbuff:Sonar] и [cbuff:Crate]
+		Даёт эффекты от предметов «{$ItemName.AnglerTackleBag}», «{$ItemName.VolatileGelatin}» и «{$ItemName.SporeSac}»
+		Даёт эффекты от предметов «{$ItemName.BalloonHorseshoeSharkron}» и «{$ItemName.ArcticDivingGear}»
+		'Я - гроза рыб'
+		'''
+	RabiesShot.Tooltip: Исцеляет от дебаффа [cbuff:Rabies]
+	RabiesVaccine.Tooltip: Навсегда даёт невосприимчивость к дебаффу [cbuff:Rabies]
+	HellZone.Tooltip:
+		'''
+		Использует кости в качестве боеприпасов
+		<left> накладывает дебафф [cbuff:FargowiltasSouls/HellFireBuff]
+		Нажмите <right>, чтобы выстрелить черепом, который отмечает врагов
+		Отмеченные враги получают в 5 раз больше урона от дебаффа [cbuff:FargowiltasSouls/HellFireBuff]
+		80% шанс не использовать боеприпасы
+		'Награда за великое возмездие...'
+		'''
+	ComputationOrb.Tooltip:
+		'''
+		Не магические атаки и атаки миньонов наносят на 20% больше урона, но при этом вы подвержены дебаффу [cbuff:ManaSickness]
+		Не магическое оружие и оружие призывателя требуют маны для использования
+		'В глубинах ядра всё ещё горит искра надежды'
+		'''
+}
+
+ActiveSkills.FrigidGemstoneKeyEffect.Tooltip:
+	'''
+	Призывает блок льда в указанную позицию курсора
+	В хардмоде накладывает дебафф [cbuff:Frostburn]
+	'''

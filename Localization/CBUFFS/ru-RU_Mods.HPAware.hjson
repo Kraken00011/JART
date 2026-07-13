@@ -1,0 +1,4 @@
+Configs: {
+    EnablePSAudio.Tooltip: Проигрывает высокочастотный звук выпитого зелья, сигнализирующий о том, что дебафф [cbuff:PotionSickness] выветрился.
+	EnablePSVisual.Tooltip: Когда у игрока выветривается дебафф [cbuff:PotionSickness], над ним появляется иконка зелья с галочкой.
+}

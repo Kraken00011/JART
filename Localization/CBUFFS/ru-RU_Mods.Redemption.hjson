@@ -1,0 +1,120 @@
+GenericTooltips: {
+	Bonuses.FireBonus: Шанс наложить сильный дебафф [cbuff:OnFire] на воспламеняющихся врагов
+	RodOfHarmonyLine: Накладывает дебафф [cbuff:ChaosState] во время битвы с боссами из Redemption
+
+	ArmorSetBonus: {
+		PureIron.Bonus:
+			'''
+			Увеличивает сопротивление {0} на 20%
+			Увеличивает урон {1} на 10%
+			Обычное оружие с 33% шансом накладывает дебафф [cbuff:Redemption/PureChillDebuff]
+			Сверхчистое железное оружие со 100% шансом накладывает дебафф [cbuff:Redemption/PureChillDebuff]
+			'''
+		Xenomite.Bonus2: ", чтобы высвободить токсичный газ вокруг игрока, накладывающий дебафф [cbuff:Redemption/BileDebuff]"
+	}
+}
+
+Buffs: {
+	BileFlaskBuff.Description: Атаки ближнего боя накладывают дебафф [cbuff:Redemption/BileDebuff]
+	VendettaPotionBuff.Description: Атакующие также получают урон и дебафф [cbuff:Poisoned]
+	HydraCorrosionBuff.Description: Всё ядовитое оружие накладывает дебафф [cbuff:Redemption/HydraCorrosionBuff]
+}
+
+Items: {
+	GasMask.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:Redemption/RadioactiveFalloutDebuff]
+		'Хмпф-хмпф!'
+		'''
+	HEVSuit.Tooltip:
+		'''
+		Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+		Значительно увеличивает запас воздуха под водой
+		Даёт невосприимчивость к дебаффу [cbuff:Redemption/RadioactiveFalloutDebuff] и всем дебаффам заражения
+		Даёт защиту от радиации среднего уровня
+		'''
+	PocketSand.Tooltip:
+		'''
+		Создаёт облако пыли, которое немного снижает защиту и накладывает дебафф [cbuff:Confused]
+		'Песок в глаза!'
+		'''
+	BileFlask.Tooltip: Атаки ближнего боя накладывают дебафф [cbuff:Redemption/BileDebuff]
+	FirstAidKit.Tooltip:
+		'''
+		Не накладывает дебафф [cbuff:PotionSickness]
+		'Запасы ограничены'
+		'''
+	VendettaPotion.Tooltip:
+		'''
+		Атакующие также получают урон и дебафф [cbuff:Poisoned]
+		Увеличивает урон {0} на 10%
+		'''
+	DrillRevolver.Tooltip:
+		'''
+		Превращает пули в буровые наконечники, разрывающие врагов и блоки
+		Накладывает дебафф [cbuff:BrokenArmor], пробивая барьер врагов
+		'''
+	GolemStaff.Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Призывает голема-стража, излучающего усиливающую ауру
+		Внутри ауры миньоны накладывают мощный дебафф [cbuff:OnFire] и наносят на 8% больше урона
+		Нажмите <right>, чтобы деактивировать стража
+		'''
+	WireTaser.Tooltip:
+		'''
+		9 ед. урона от метки призывателя
+		{$CommonItemTooltip.Whips}
+		Наносит удар врагам наконечником электрошокера, оглушая их на секунду
+		Не оглушает врагов с невосприимчивостью к отбрасыванию
+		Накладывает дебафф [cbuff:Electrified]
+		'''
+	MythrilsBane.Tooltip:
+		'''
+		Удары клинком по вооружённым врагам накладывают дебаффы [cbuff:Redemption/DisarmedDebuff] и [cbuff:BrokenArmor]
+		[cbuff:Redemption/DisarmedDebuff] значительно снижает контактный урон и урон от оружия врага
+		Блокирует слабые физические снаряды
+		'''
+	KeepersClaw.Tooltip:
+		'''
+		При нанесении рубящего удара по врагам накладывает дебафф [cbuff:Redemption/NecroticGougeDebuff], заставляющий их взрываться кровью при смерти
+		Физические рубящие атаки наносят двойной урон нежити и скелетам
+		Удерживайте <left>, чтобы накопить заряд кровавой волны, жертвуя частью своего здоровья и выпуская снаряды, похищающие здоровье врагов
+		'Рука моей возлюбленной холодна и бездыханна...'
+		'''
+	KeepersKnife.Tooltip:
+		'''
+		Удары по врагам накладывают дебафф [cbuff:Redemption/NecroticGougeDebuff]
+		Наносит двойной урон нежити и скелетам
+		'О, убийца, пусть мой нож разит без промаха'
+		'''
+	GaucheStaff.Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Внутри ауры миньоны накладывают мощный дебафф [cbuff:OnFire] и наносят на 8% больше урона
+		Внутри ауры скорость и урон хлыстов увеличиваются на 15%
+		Нажмите <right>, чтобы деактивировать стража
+		'''
+	GildedSeaEmblem.Tooltip:
+		'''
+		Элементальное оружие {0} может наложить на врагов дебафф [cbuff:Redemption/SoakedDebuff]
+		Враги, на которых наложен дебафф [cbuff:Redemption/SoakedDebuff], двигаются медленнее и становятся более уязвимыми к урону {1}
+		Увеличивает урон {0} на 15%
+		Снижает сопротивление и урон {2} на 10%
+		'''
+	HydraCorrosionPotion.Tooltip:
+		'''
+		Оружие {0} накладывает дебафф [cbuff:Redemption/HydraAcidDebuff]
+		[cbuff:Redemption/HydraAcidDebuff] снижает защиту и лишает роботизированные цели сопротивления к урону {0}
+		'''
+	PureIronBow.Tooltip:
+		'''
+		Выпущенные стрелы оставляют за собой длительный туман, который накладывает дебафф [cbuff:Redemption/PureChillDebuff]
+		Наделяет деревянные стрелы дебаффом [cbuff:Frostburn]
+		'''
+	SpiderSerum.Tooltip:
+		'''
+		Роевые пауки становятся пассивными
+		Даёт невосприимчивость к дебаффу [cbuff:Webbed]
+		'''
+}
