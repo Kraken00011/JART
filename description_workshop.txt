@@ -45,7 +45,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Clamity Music
 [*] Cosmic Elemental Returns
 [*] Discordya
-[*] Equipment Modifiers & Reforging (склонение брони из пары модов)
+[*] Equipment Modifiers & Reforging (склонение предметов из пары модов)
 [*] Everware (помощь с официальным переводом)
 [*] Extra Beginnings
 [*] Extra World Sizes
@@ -54,7 +54,6 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Holospark Boots
 [*] Homeward Crossmod Worldgen Fix
 [*] Hypnos Mod
-[*] Infernal Eclipse Balancing
 [*] Infernum Master Patch
 [*] Item Relics
 [*] Javyz' Music Mod

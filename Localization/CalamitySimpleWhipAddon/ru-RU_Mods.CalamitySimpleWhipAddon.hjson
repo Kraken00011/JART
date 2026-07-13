@@ -263,7 +263,8 @@ Items: {
 		DisplayName: Неборвущая катушка
 		Tooltip:
 			'''
-			Враги, поражённые ударом хлыста, получают в 1,3 раза больше урона при следующем попадании миньона и выпускают электрические разряды, кратковременно электрифицирующие ближайших врагов и игнорирующие броню
+			Враги, поражённые ударом хлыста, получают в 1,3 раза больше урона при следующем попадании миньона и выпускают электрические разряды
+			Электрические разряды кратковременно электрифицируют ближайших врагов и игнорируют их броню
 			Вражеское сопротивление урону не игнорируется
 			'''
 	}
@@ -343,7 +344,7 @@ Items: {
 			'''
 			1 ед. урона от метки призывателя
 			Во всех врагов, поражённых ударом хлыста, запускается песочный шар при следующем попадании миньона, падающий от гравитации и наносящий 40% от урона миньона
-			Песочный шар взрывается при столкновении, нанося урон врагам по близости
+			Песочный шар взрывается при столкновении, нанося урон всем врагам по близости
 			'''
 	}
 
@@ -353,7 +354,7 @@ Items: {
 			'''
 			2 ед. урона от метки призывателя
 			Во всех врагов, поражённых ударом хлыста, запускается песочный шар при следующем попадании миньона, падающий от гравитации и наносящий 40% от урона миньона
-			Песочный шар взрывается при столкновении, нанося урон врагам по близости
+			Песочный шар взрывается при столкновении, нанося урон всем врагам по близости
 			'''
 	}
 
@@ -682,7 +683,7 @@ Items: {
 				Даёт невосприимчивость к дебаффам [cbuff:ShadowFlame] и [cbuff:CalamityMod/Irradiated]
 				Увеличивает урон призывателя на 22%
 				Увеличивает отбрасывание миньонов
-				Нельзя надеть со своими предыдущими или неотмытыми версиями
+				Нельзя экипировать со своими предыдущими или неотмытыми версиями
 				'''
 		}
 
@@ -693,7 +694,7 @@ Items: {
 				Увеличивает максимальное количество миньонов на 1
 				Увеличивает урон призывателя на 7%
 				Даёт невосприимчивость к дебаффу [cbuff:CalamityMod/Irradiated]
-				Нельзя надеть со своими неотмытыми версиями
+				Нельзя экипировать со своими неотмытыми версиями
 				'''
 		}
 
@@ -703,7 +704,7 @@ Items: {
 				'''
 				Увеличивает максимальное количество миньонов на 1
 				Увеличивает урон призывателя на 12%
-				Нельзя надеть со своими предыдущими или неотмытыми версиями
+				Нельзя экипировать со своими предыдущими или неотмытыми версиями
 				'''
 		}
 
@@ -713,7 +714,7 @@ Items: {
 				'''
 				Увеличивает максимальное количество миньонов на 1
 				Увеличивает урон призывателя на 10%
-				Нельзя надеть со своими неотмытыми версиями
+				Нельзя экипировать со своими неотмытыми версиями
 				'''
 		}
 
@@ -724,7 +725,7 @@ Items: {
 				Увеличивает максимальное количество миньонов на 2
 				Увеличивает урон призывателя на 15%
 				Даёт невосприимчивость к дебаффу [cbuff:CalamityMod/Irradiated]
-				Нельзя надеть со своими предыдущими или неотмытыми версиями
+				Нельзя экипировать со своими предыдущими или неотмытыми версиями
 				'''
 		}
 
@@ -735,7 +736,7 @@ Items: {
 				Увеличивает максимальное количество миньонов на 3
 				Увеличивает урон призывателя на 17%
 				Даёт невосприимчивость к дебаффу [cbuff:ShadowFlame]
-				Нельзя надеть со своими предыдущими или неотмытыми версиями
+				Нельзя экипировать со своими предыдущими или неотмытыми версиями
 				'''
 		}
 
@@ -745,7 +746,7 @@ Items: {
 				'''
 				Увеличивает максимальное количество миньонов на 1
 				Увеличивает урон призывателя на 5%
-				Нельзя надеть со своими неотмытыми версиями
+				Нельзя экипировать со своими неотмытыми версиями
 				'''
 		}
 
@@ -755,7 +756,7 @@ Items: {
 				'''
 				Увеличивает максимальное количество миньонов на 1
 				Увеличивает урон призывателя на 5%
-				Нельзя надеть со своими неотмытыми версиями
+				Нельзя экипировать со своими неотмытыми версиями
 				'''
 		}
 	}
@@ -1098,243 +1099,243 @@ Items: {
 
 Buffs: {
 	SimpleWhipDebuff: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff.Description
 		DisplayName: Дебафф простого хлыста
+		Description: ""
 	}
 
 	SimpleWhipDebuff10: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10.Description
 		DisplayName: Дебафф простого хлыста10
+		Description: ""
 	}
 
 	SimpleWhipDebuff70: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff70.Description
 		DisplayName: Дебафф простого хлыста70
+		Description: ""
 	}
 
 	SimpleWhipDebuff08: {
 		DisplayName: Дебафф простого хлыста08
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff08.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff10C: {
 		DisplayName: Дебафф простого хлыста10 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D09C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D09C.Description
 		DisplayName: Дебафф простого хлыста0 D09 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D08C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D08C.Description
 		DisplayName: Дебафф простого хлыста0 D08 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff09: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff09.Description
+		Description: ""
 		DisplayName: Дебафф простого хлыста09
 	}
 
 	SimpleWhipDebuff11: {
 		DisplayName: Дебафф простого хлыста11
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff11.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff12: {
 		DisplayName: Дебафф простого хлыста12
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff12.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff13: {
 		DisplayName: Дебафф простого хлыста13
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff13.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff14: {
 		DisplayName: Дебафф простого хлыста14
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff14.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff15: {
 		DisplayName: Дебафф простого хлыста15
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff20: {
 		DisplayName: Дебафф простого хлыста20
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff20.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff25: {
 		DisplayName: Дебафф простого хлыста25
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff25.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff5D05C: {
 		DisplayName: Дебафф простого хлыста5 D05 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff5D05C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff7D07C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C.Description
 		DisplayName: Дебафф простого хлыста7 D07 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D11C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D11C.Description
 		DisplayName: Дебафф простого хлыста0 D11 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D20C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D20C.Description
 		DisplayName: Дебафф простого хлыста0 D20 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff07: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff07.Description
 		DisplayName: Дебафф простого хлыста07
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D22C: {
 		DisplayName: Дебафф простого хлыста0 D22 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D22C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff27: {
 		DisplayName: Дебафф простого хлыста27
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff27.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff2x: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff2x.Description
 		DisplayName: Дебафф простого хлыста2x
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx1: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx1.Description
 		DisplayName: Дебафф простого хлыста Ex1
+		Description: ""
 	}
 
 	SimpleWhipDebuff10D10C: {
 		DisplayName: Дебафф простого хлыста10 D10 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10D10C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffC100: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100.Description
 		DisplayName: Дебафф простого хлыста C100
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D10C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D10C.Description
 		DisplayName: Дебафф простого хлыста0 D10 C
+		Description: ""
 	}
 
 	SimpleWhipDebuff30: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff30.Description
 		DisplayName: Дебафф простого хлыста30
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D25C: {
 		DisplayName: Дебафф простого хлыста0 D25 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D25C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff15D15C: {
 		DisplayName: Дебафф простого хлыста15 D15 C
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15D15C.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx2: {
 		DisplayName: Дебафф простого хлыста Ex2
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx2.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuff0D27C: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D27C.Description
 		DisplayName: Дебафф простого хлыста0 D27 C
+		Description: ""
 	}
 
 	SimpleWhipDebuffAc05: {
 		DisplayName: Дебафф простого хлыста Ac05
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffAcC05: {
 		DisplayName: Дебафф простого хлыста Ac C05
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcC05.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffAc05C05: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05C05.Description
 		DisplayName: Дебафф простого хлыста Ac05 C05
+		Description: ""
 	}
 
 	SimpleWhipDebuffAc07C07: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc07C07.Description
 		DisplayName: Дебафф простого хлыста Ac07 C07
+		Description: ""
 	}
 
 	SimpleWhipDebuffAc10C10: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc10C10.Description
 		DisplayName: Дебафф простого хлыста Ac10 C10
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx3: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx3.Description
 		DisplayName: Дебафф простого хлыста Ex3
+		Description: ""
 	}
 
 	SimpleWhipDebuffC100x3: {
 		DisplayName: Дебафф простого хлыста C100x3
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100x3.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffAcHo: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo.Description
 		DisplayName: Дебафф простого хлыста Ac Ho
+		Description: ""
 	}
 
 	SimpleWhipDebuffAcHo2: {
 		DisplayName: Дебафф простого хлыста Ac Ho2
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo2.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx4: {
 		DisplayName: Дебафф простого хлыста Ex4
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx4.Description
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx5: {
 		DisplayName: Дебафф простого хлыста Ex5
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx5.Description
+		Description: ""
 	}
 
 	BuddyEmblemBuff: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemBuff.Description
 		DisplayName: Эмблема дружка
+		Description: ""
 	}
 
 	BuddyEmblemSoloBuff: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloBuff.Description
 		DisplayName: Эмблема дружка одиночная
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx6: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx6.Description
 		DisplayName: Дебафф простого хлыста Ex6
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx7: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx7.Description
 		DisplayName: Дебафф простого хлыста Ex7
+		Description: ""
 	}
 
 	SimpleWhipDebuffEx8: {
-		Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx8.Description
 		DisplayName: Дебафф простого хлыста Ex8
+		Description: ""
 	}
 }
 
