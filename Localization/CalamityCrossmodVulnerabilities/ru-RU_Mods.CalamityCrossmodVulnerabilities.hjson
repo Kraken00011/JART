@@ -4,7 +4,7 @@ Configs: {
 
 		FargoSoulsVulnerabilityToggle: {
 			Label: Замена уязвимостей из Fargo's Souls DLC
-			Tooltip: Заменяет уязвимости из мода Fargo's Souls DLC на уязвимости, добавляемые данным модом
+			Tooltip: Заменяет уязвимости из мода Fargo's Souls DLC на уязвимости, добавляемые этим модом.
 		}
 	}
 }

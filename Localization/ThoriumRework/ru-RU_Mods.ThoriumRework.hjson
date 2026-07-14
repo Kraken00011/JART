@@ -8,14 +8,13 @@
 ProgressionTweaks: {
 	// GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
 	// AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
-	// AbyssionAndGolem: A powerful cult appears at world's edge!
+	// AbyssionAndGolem: Могущественный культ появляется на краю мира!
 }
 
 ItemDescriptions: {
 	/* ChampionsRebuttal:
 		'''
-		Allows the player to ram through an enemy
-		Double tap a direction
+		Дважды нажмите в нужном направлении, чтобы совершить таранный рывок, позволяющий пробираться сквозь врагов без получения урона
 		Twice the damage you take or the damage you deal ramming are added to your next attack
 		Up to a maximum of 300 bonus damage can be attained
 		''' */
@@ -46,9 +45,9 @@ ItemDescriptions: {
 		''' */
 	// TideTurnersGaze: Увеличивает метательный урон на 50 ед.
 	// MasterArbalestHood: Стрелковый урон игнорирует 100 ед. защиты
-	// MasterMarksmansScouter: Увеличивает скорострельность на 12%
+	// MasterMarksmansScouter: Увеличивает скорость стрельбы на 12%
 	// AssassinsGuard: Увеличивает стрелковый на 20 ед.
-	// AssassinsWalkers: Увеличивает скорострельность на 20%
+	// AssassinsWalkers: Увеличивает скорость стрельбы на 20%
 	/* MagmaSeersMask:
 		'''
 		Увеличивает скорость хлыстов на 40%
@@ -99,35 +98,35 @@ ItemDescriptions: {
 		''' */
 	/* IllumiteBarrage:
 		'''
-		Every 6th attack summons a portal that shoots nearby enemies
-		Hit enemies will be illuminated and take 10% more damage
+		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	/* IllumiteBlade:
 		'''
-		Dual wield two illumite blades
+		Для атаки использует 2 иллюмитовых клинка одновременно
 		Blasts nearby illuminated targets with illuminating beams
-		Hit enemies will be illuminated and take 10% more damage
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	/* IllumiteBlaster:
 		'''
-		Every 6th attack summons a portal that shoots nearby enemies
-		Hit enemies will be illuminated and take 10% more damage
+		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	/* IllumiteShotbow:
 		'''
-		Every 6th attack summons a portal that shoots nearby enemies
-		Hit enemies will be illuminated and take 10% more damage
+		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	/* IllumiteSpear:
 		'''
-		Every third attack shoots out an illumite spear image
+		При каждой 3 атаке выстреливает проекцией иллюмитового копья Every third attack shoots out an illumite spear image
 		The image shoots illuminating beams at nearby targets
-		Hit enemies will be illuminated and take 10% more damage
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	/* IllumiteScythe:
 		'''
 		Creates light slashes on a nearby enemy
-		Hit enemies will be illuminated and take 10% more damage
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
 		''' */
 	// CobaltPopper: Во время использования постепенно увеличивает защиту
 	// PalladiumSubmachineGun: Во время использования постепенно увеличивает скорость регенерации здоровья
@@ -264,7 +263,7 @@ ItemDescriptions: {
 		'''
 		Every fourth attack shoots a powerful beam dealing triple damage
 		Right Click to unleash a flurry of attacks that deal half damage
-		"We have a chainsaw sword at home"
+		'У нас уже меч-бензопила дома'
 		''' */
 	/* TitanArmor:
 		'''

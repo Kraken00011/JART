@@ -1,8 +1,8 @@
 Dwarf: {
-	// QuestName: Stolen memories
+	// QuestName: Краденные воспоминания
 	// QuestDescription: Somewhere deep within the frozen reaches of the winter biome lies an ancient Dwarven Anvil, half-buried beneath layers of ice and time. Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
-	// QuestStage: Collect Dwarven Anvil
-	// QuestProgress0: Thanks for the Anvil!
+	// QuestStage: Собрать дварфийскую наковальню
+	// QuestProgress0: Спасибо за наковальню!
 	/* QuestProgress1:
 		'''
 		Previously, the dwarves were digging in the mines in 
@@ -11,14 +11,14 @@ Dwarf: {
 		could you bring me one? And I'll give you some ore
 		''' */
 	// QuestProgress2: I know it's kinda hard to find but if you do I would be incredibly grateful!
-	// QuestButton: Accept
-	// QuestButtonGive: Give away
+	// QuestButton: Принять
+	// QuestButtonGive: Отдать
 	/* QuestCompleted:
 		'''
-		I can't believe that i see it again.. My father used it last 
-		time when he was alive.. Nevermind, there's a reward.
+		Поверить не могу, что снова вижу её... Мой отец ковал на ней,
+		когда ещё был жив... Ай, неважно, вот твоя награда.
 		''' */
-	// QuestCompletedFalse: You don't have an anvil yet.
+	// QuestCompletedFalse: У вас пока что нет наковальни.
 }
 
 Hunter: {
@@ -194,14 +194,14 @@ HellDwarfQuest_First: {
 }
 
 DwarfQuest_Second: {
-	// QuestName: Helmet of the Forsaken
+	// QuestName: Шлем для изгоя
 	// QuestDescription: Retrieve the second relic from the bottom of the undivided chest.
-	// QuestStage: Collect the Dwarven Helmet
+	// QuestStage: Собрать дварфийский шлем
 	// QuestProgress0: Thanks for the Dwarven Helmet, creation which bleeds with iron.
 	// QuestProgress1: I've been trying to recreate something from that dwarf who abandoned us before everything became broken. I only have fragments of memories left.
 	// QuestProgress2: Hmm... Some secrets are meant to be buried forever, perhaps
-	// QuestButton: Accept
-	// QuestButtonGive: Give the Helmet
+	// QuestButton: Принять
+	// QuestButtonGive: Отдать шлем
 	// QuestCompleted: How do you even know what his armor looked like? That's... Kind of suspicious. Are you hiding something too? Nevermind
 	// QuestCompletedFalse: You don't have the Dwarven Helmet yet
 }

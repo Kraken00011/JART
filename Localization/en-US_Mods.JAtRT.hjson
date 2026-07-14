@@ -443,9 +443,7 @@ Configs: {
 	JARTClientCfg: {
 		DisplayName: Клиентская конфигурация
 
-		Headers: {
-			Misc: Разное
-		}
+		Headers.Misc: Разное
 
 		ExtraClassTags: {
 			Label: "Дополнительные классовые теги"

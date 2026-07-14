@@ -44,13 +44,13 @@ HellDwarf: {
 		// Text1: Люди цепляются за сказки, как грешники за надежду. Я надеюсь ты им не поверил.
 		// Text2: Это место такое тихое, заброшенное ещё давным-давно... но всё же ощущается оно реальней, чем мир на поверхности. Ни лжи, не лицемерия. Просто руины.
 		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here.
-		// Text4: Они почитали червя как полубога. Ну а теперь, оглянись вокруг: ruins to the left, and a undivided cave to the right. Знаешь, а ведь вера - крайне хрупкая штука... всего-лишь одна правда и веры как небывало.
+		// Text4: Они почитали червя как полубога. Но теперь, оглянись вокруг: слева - руины, справа - целая пещера. Знаешь, а ведь вера - крайне хрупкая штука... всего-лишь одна правда и веры как небывало.
 		// Text5: Interesting, what's hidden under this bridge? Monsters can't let me dive in, maybe I can find something?
-		// Text6: They called me a traitor. That's the reason, why i leaved the Frostholm. But tell me, is it betrayal to reject a lie?
-		// Text7: They gave away the Heart of the Tundra for protection.. and called me a traitor for refusing to do the same. Jotunn knows the truth.
-		// Text8: The dwarves guarded it. Not out of faith.. but fear of what happens when it’s gone.
+		// Text6: Они оклеймили меня предателем. Именно поэтому я и покинул Фростхольм. Но скажи мне: разве отрицание лжи - это предательство?
+		// Text7: Они отдали сердце тундры на защиту... и назвали меня предателем за то, что я отказался сделать тоже самое. Только Джотун знает правду.
+		// Text8: Дварфы охраняли его. Но не от излишней преданности... а от страха того, что произойдёт после того, как оно пропадёт.
 		// Text9: Чаща... Какое любопытное местечко. Лес, позабытый солнцем. Последний раз когда я там был, меня встретили не особо дружелюбно.
-		// Text10: Lava shouldn’t breath, as you know. Those burning clouds are not smoke, but whispers of something trapped below.
+		// Text10: Как ты знаешь: лава не должна дышать. Эти пылающие облака не дым, а шёпот того, что заточено под ней.
 		// Text11: I can't believe I let them went away. Last time I was on the surface was 16 years ago.
 		// Text12: I’ve seen the flames rise without heat. The fire itself is trying to escape its own prison. All the sinners behind this place were the same.
 		// Text13: I still remember the Druid’s rage. I stopped blaming him a long time ago because i just used to it. The truth is worse people like him will always exist, waiting for a reason to justify it. That’s what I hate the most, not the curse, not the flames. The fact that humanity always finds a way to become the same thing.
@@ -65,7 +65,7 @@ HellDwarf: {
 		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх пересилил разум, они начали кормить этого зверя своей верой.
 		// Text23: Они меня бесят.
 		// Text24: Чем ближе ты стоишь к богоподобным созданиям, тем проще прощать чужие грехи.
-		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир канул в Лету. Мост разрушился, тогда бежать стало бесполезно. А руины возникли тогда, когда даже собственному сознанию доверять перестали. Ну а инфернальная крепость была уничтожена. Люди не превращались в демонов. Они стали тем, чем уже начали становиться ещё до этого.
+		// Text25: Монстры раньше называли это «Ужасной трагедией» - момент, когда мир канул в Лету. Мост разрушился, тогда бежать стало бесполезно. Руины возникли тогда, когда даже собственному сознанию доверять перестали. А инфернальная крепость была уничтожена. Люди не превращались в демонов. Они просто стали тем, чем уже начали становиться ещё до этого.
 		// PostGolemDialog1: Чувствуешь? [c/ff0000:Монолит адского сердца] пробудился. Пламя разгорается громче, и даже тишина кажется тяжкой. Это место вновь задышало.
 		// PostGolemDialog2: Я наблюдал, как крепость постепенно менялась. Раньше здешние создания охотились, движимые голодом и агонией. Но теперь они лишь наблюдают... Они боятся чего-то, что полнится непростительным гневом.
 		// PostGolemDialog3: Давным-давно, после одной ужасной трагедии, [c/ff0000:монолит адского сердца] решили сокрыть от чужих раз и навсегда. И баланс был снова нарушен. Инфернальная крепость никогда не должна была существовать без своего охотника.
@@ -74,7 +74,7 @@ HellDwarf: {
 		// SinlordDialog: Скажу честно - ты меня пугаешь. Ты и я даже чем-то схожи, но ты уничтожаешь тех, кто уничтожал других. Ты действительно думаешь, что лучше них?
 		// FirstMeetDialog: Я уж подумал, что навсегда забуду звучание голоса человеческого. Этот город угасал постепенно: песчинка за песчинкой, душа за душой. Забавно, что раньше я думал, если я за свою увижу ещё хоть кого-нибудь, то почувствую облегчение. Но кажется, это чувство ближе к тревоге.
 		// SerorkDialog: Как-то раз мне рассказывали одну друидскую сказку... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
-		// MolkDialog: Скажи-ка мне на милость, ты блять идиот?
+		// MolkDialog: Скажи-ка мне на милость, ты идиот?
 	}
 
 	TownNPCMood: {
