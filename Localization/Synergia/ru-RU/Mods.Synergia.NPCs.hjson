@@ -20,9 +20,9 @@ Cogworm: {
 // CogwormGhost.DisplayName: Призрак червелорда
 // AirElementalEnemy.DisplayName: Воздушный элементаль
 // WaterElementalEnemy.DisplayName: Водяной элементаль
-// ElderSnowman.DisplayName: Старший снеговик
+// ElderSnowman.DisplayName: Снеговик-старейшина
 // Snowykaze.DisplayName: Snowykaze
-// Sparky.DisplayName: Sparky
+// Sparky.DisplayName: Искряк
 
 HellDwarf: {
 	// DisplayName: Адский дварф
@@ -43,25 +43,25 @@ HellDwarf: {
 		// Text: Одиночество для меня не проклятие. Там, в инфернальной крепости, даже если все проклятые страдали вместе... они всё равно были одиноки. Похоже изгнание всё-таки было не приговором, а скорее возможностью обрести ясность в жизни.
 		// Text1: Люди цепляются за сказки, как грешники за надежду. Я надеюсь ты им не поверил.
 		// Text2: Это место такое тихое, заброшенное ещё давным-давно... но всё же ощущается оно реальней, чем мир на поверхности. Ни лжи, не лицемерия. Просто руины.
-		// Text3: People-Demons, they say.. a whole race of them. Funny, isn’t it? In every tale, demons were once something else, even here.
+		// Text3: Люди-демоны, говорят... целая раса таких. Забавно, не так ли? В любых сказках демоны всегда были чем-то иным; впрочем, как и здесь.
 		// Text4: Они почитали червя как полубога. Но теперь, оглянись вокруг: слева - руины, справа - целая пещера. Знаешь, а ведь вера - крайне хрупкая штука... всего-лишь одна правда и веры как небывало.
-		// Text5: Interesting, what's hidden under this bridge? Monsters can't let me dive in, maybe I can find something?
+		// Text5: Интересно, что же всё-таки скрывается под этим мостом? Эти твари не дают мне спуститься вниз, но, может, у тебя получится спуститься и проверить, что же там?
 		// Text6: Они оклеймили меня предателем. Именно поэтому я и покинул Фростхольм. Но скажи мне: разве отрицание лжи - это предательство?
-		// Text7: Они отдали сердце тундры на защиту... и назвали меня предателем за то, что я отказался сделать тоже самое. Только Джотун знает правду.
+		// Text7: Они отдали сердце тундры на защиту... и назвали меня предателем за то, что я отказался сделать тоже самое. Только Йотун знает правду.
 		// Text8: Дварфы охраняли его. Но не от излишней преданности... а от страха того, что произойдёт после того, как оно пропадёт.
 		// Text9: Чаща... Какое любопытное местечко. Лес, позабытый солнцем. Последний раз когда я там был, меня встретили не особо дружелюбно.
 		// Text10: Как ты знаешь: лава не должна дышать. Эти пылающие облака не дым, а шёпот того, что заточено под ней.
-		// Text11: I can't believe I let them went away. Last time I was on the surface was 16 years ago.
-		// Text12: I’ve seen the flames rise without heat. The fire itself is trying to escape its own prison. All the sinners behind this place were the same.
-		// Text13: I still remember the Druid’s rage. I stopped blaming him a long time ago because i just used to it. The truth is worse people like him will always exist, waiting for a reason to justify it. That’s what I hate the most, not the curse, not the flames. The fact that humanity always finds a way to become the same thing.
-		// Text14: Push kindness far enough, and it turns into hatred. Push hatred far enough, and it begins to resemble mercy. Most people will never see the difference.
-		// Text15: Glimpses of harmlessness in eyes of demons, sometimes they much closer to god, than people themselves.
+		// Text11: Не могу поверить, что позволил им просто так уйти. Последний раз, когда я посещал поверхность, был 16 лет назад.
+		// Text12: Однажды я увидел, как пламя разгоралось, но при этом теплее не становилось. Похоже само пламя пытается вырваться из оков своей собственной темницы. Все грешники этом месте были такими же.
+		// Text13: Я до сих пор припоминаю как на меня разгневался тот Друид. Я ещё давненько перестал его винить, ведь я уже просто привык к этому. Правда в том, что такие «люди» как он всегда были, есть и будут, в ожидании повода оправдать свои будущие деяния. Вот это я больше всего и ненавижу, не проклятия, не пламя, а то, что человечество всегда находит способ стать одним и тем же. // The fact that humanity always finds a way to become the same thing.
+		// Text14: Зайди в своей доброте слишком далеко, и она станет ненавистью. Зайди в своей ненависти слишком далеко, и она станет напоминать милосердие. Большинство людей так и не смогут увидеть разницы.
+		// Text15: Проблески доброты в глазах демонов... иногда они куда ближе к богу, чем сами люди.
 		// Text16: Одна жизнь или несколько... выбор за тобой, хоть он и ничего не значит. Опять же. Ты как Сизиф - только камень твой истекает кровью.
 		// Text17: Хуже. Устал. Но чуть меньше чем до этого.
 		// Text18: Грехокаменная магма... Давно я не слышал о ней. Даже огонь побаивается касаться её.
 		// Text19: Они считали, что монолит является источником силы. Но на самом деле не сердце существует для усиления тела, а тело существует для кормления сердца.
 		// Text20: Знаешь, что пугало меня больше всего? Спокойствие в голосах этих бездушных тварей.
-		// Text21: The priest in the Imperial Town spoke of enlightenment. Strange word for something that hollowed people from within.
+		// Text21: Священник имперского города говорил о каком-то «просветлении». Крайне странно они решили назвать то, что опустошало людей изнутри.
 		// Text22: Они думали, что их бог, червелорд, охранял город, но на самом деле город защищало нечто, скрытое под ним. А когда страх пересилил разум, они начали кормить этого зверя своей верой.
 		// Text23: Они меня бесят.
 		// Text24: Чем ближе ты стоишь к богоподобным созданиям, тем проще прощать чужие грехи.
@@ -73,16 +73,16 @@ HellDwarf: {
 		// ProdigyDialog: Думаешь Серафим сделает тебя ближе к Богу? Всё, что он делает - лишь показывает, что даже нечто свящённое можно легко сломать.
 		// SinlordDialog: Скажу честно - ты меня пугаешь. Ты и я даже чем-то схожи, но ты уничтожаешь тех, кто уничтожал других. Ты действительно думаешь, что лучше них?
 		// FirstMeetDialog: Я уж подумал, что навсегда забуду звучание голоса человеческого. Этот город угасал постепенно: песчинка за песчинкой, душа за душой. Забавно, что раньше я думал, если я за свою увижу ещё хоть кого-нибудь, то почувствую облегчение. Но кажется, это чувство ближе к тревоге.
-		// SerorkDialog: Как-то раз мне рассказывали одну друидскую сказку... There's a place so dark that you can't see the end. Where stories lie and all hopes and dreams are forgotten. Where the lights betray him and he loses himself. Everyone deserves a peaceful death.
+		// SerorkDialog: Как-то раз мне рассказывали одну друидскую сказку... В ней говорилось о месте настолько тёмном, что внутри него невозможно увидеть ни начала, ни конца. О месте, где любые истории - враньё, а все надежды и мечты навеки позабыты. О месте, где свет предаёт и сводит с ума. Все заслуживают мирной смерти.
 		// MolkDialog: Скажи-ка мне на милость, ты идиот?
 	}
 
 	TownNPCMood: {
-		// Content: Нахуй я на это согласился.
+		// Content:  мс ерм 346 ро 8 ольг 8нра.
 		// NoHome: Мне раф на миндальном молоке.
 		// FarFromHome: Тяжело...
 		// LoveSpace: А знаете где ещё много места?
-		// DislikeCrowded: Мне нравится быть окружённым кучей большихчёрных мужчин.
+		// DislikeCrowded: тпрпрпарпиьдзхъ.
 		// HateCrowded: гышвглоыфвфы.
 		// LikeNPC_Princess: куль.
 		// Princess_LovesNPC: принцесса.
@@ -117,11 +117,11 @@ ImperianCommander: {
 		// PostEp: Хороший выбор, а теперь посмотри, на что ты способен
 	}
 
-	// Emblem: Вам нужно {0}
+	// Emblem: Вам нужно: {0}
 
 	Buttons: {
 		// PreEp: Я хочу получить оружие
-		// EpText: I choose weapons on
+		// EpText: Я выбираю:
 	}
 }
 
@@ -139,13 +139,11 @@ Sinlord: {
 
 // SinlordBody.DisplayName: Греховный червелорд
 // SinlordTail.DisplayName: Греховный червелорд
-// FrogRider.DisplayName: Лягушачий наездник
-// MischievousDuo.DisplayName: Mischievous Duo
+// FrogRider.DisplayName: Наездник на лягушке
+// MischievousDuo.DisplayName: Озорные двойняшки
 // Swamling.DisplayName: Болотник
 // SwamplingWarrior.DisplayName: Болотничий воин
-// Swizzard_MaskOff.DisplayName: Swizzard_ Mask Off
-// Swizzard.DisplayName: Swizzard
-// Nibbler.DisplayName: Nibbler
+// Nibbler.DisplayName: Зубастик
 
 MossWitch: {
 	// DisplayName: Ведьма мха
@@ -156,15 +154,15 @@ MossWitch: {
 	}
 }
 
-// TaintedSlime.DisplayName: Осквернённый слизень
-// TaintedPickaxe.DisplayName: Осквернённая кирка
-// TaintedMummy.DisplayName: Осквернённая мумия
+// TaintedSlime.DisplayName: Порченный слизень
+// TaintedPickaxe.DisplayName: Порченная кирка
+// TaintedMummy.DisplayName: Порченная мумия
 
 Cruor: {
-	// DisplayName: Круйер
+	// DisplayName: Круор
 
 	BossChecklistIntegration: {
-		// EntryName: Круйер
+		// EntryName: Круор
 		/* SpawnInfo:
 			'''
 			После победы над Плантерой с врагов Темницы начнут иногда выпадать «Кристаллы души».
