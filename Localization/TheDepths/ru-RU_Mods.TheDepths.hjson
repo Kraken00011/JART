@@ -14,7 +14,7 @@ common: {
 }
 
 SetBonus: {
-	GeodeHelmet: Призывает 4 кристальных жеоды, наносящие 20 ед. урона
+	GeodeHelmet: Призывает 4 кристальных жеоды, наносящих по 20 ед. урона каждая
 	MercuryHelmet:
 		'''
 		Увеличивает защиту на 3 ед.
@@ -25,11 +25,7 @@ SetBonus: {
 		Удваивает продолжительность безвредной ходьбы по ртути
 		Снижает продолжительность отравления ртутью
 		'''
-	QuartzArmor:
-		'''
-		Увеличивает дальность хлыстов на 35%
-		Увеличивает скорость хлыстов на 35%
-		'''
+	QuartzArmor: Увеличивает дальность и скорость хлыстов на 35%
 	OnyxRobeWizard:
 		'''
 		Увеличивает защиту на 2 ед.
@@ -182,11 +178,11 @@ Tiles: {
 	DepthsOtherworldlyMusicBox.MapEntry: Музыкальная шкатулка
 	AltarOfGems.MapEntry: Алтарь самоцветов
 	ForTheSakeOfMakingGadgets.MapEntry: Ради создания гаджетов
-	ImPurrSonation.MapEntry: Я-Мур-лычу
+	ImPurrSonation.MapEntry: Картина «Я-Мур-лычу»
 	Mercury.MapEntry: Ртуть
 	MusiciansBestFriend.MapEntry: Лучшие друзья музыкантов
 	ChaosCat.MapEntry: Кошка Хаоса
-	DONOTDRINK.MapEntry: НЕ ПИТЬ
+	DONOTDRINK.MapEntry: Картина «НЕ ПИТЬ»
 	WaterGeyser.MapEntry: Водный гейзер
 	PlacedGems.MapEntry: Размещённые самоцветы
 	PlacedOnyx.MapEntry: Размещённый оникс
@@ -942,11 +938,11 @@ Items: {
 	}
 
 	OtherPortal: {
-		DisplayName: Другой портал
+		DisplayName: Картина «Другой портал»
 		Tooltip:
 			'''
 			'Стоит всего лишь бриллиант'
-			'L. Cake'
+			'Л. Кейк'
 			'''
 	}
 
@@ -1404,33 +1400,33 @@ Items: {
 	}
 
 	AltarOfGems: {
-		DisplayName: Алтарь самоцветов
-		Tooltip: "'L. Cake'"
+		DisplayName: Картина «Алтарь самоцветов»
+		Tooltip: "'Л. Кейк'"
 	}
 
 	ForTheSakeOfMakingGadgets: {
-		DisplayName: Ради создания гаджетов
-		Tooltip: "'L. Cake'"
+		DisplayName: Картина «Ради создания гаджетов»
+		Tooltip: "'Л. Кейк'"
 	}
 
 	ImPurrSonation: {
-		DisplayName: Я-мур-лычу
-		Tooltip: "'L. Cake & W. Sephi'"
+		DisplayName: Картина «Я-мур-лычу»
+		Tooltip: "'Л. Кейк & В. Сефи'"
 	}
 
 	MusiciansBestFriend: {
-		DisplayName: Лучшие друзья музыкантов
-		Tooltip: "'L. Cake'"
+		DisplayName: Картина «Лучшие друзья музыкантов»
+		Tooltip: "'Л. Кейк'"
 	}
 
 	ChaosCat: {
-		DisplayName: Кошка хаоса
-		Tooltip: "'L. Cake & B. Cat'"
+		DisplayName: Картина «Кот хаоса»
+		Tooltip: "'Л. Кейк & Б. Кэт'"
 	}
 
 	DONOTDRINK: {
-		DisplayName: НЕ ПИТЬ
-		Tooltip: "'L. Cake'"
+		DisplayName: Картина «НЕ ПИТЬ»
+		Tooltip: "'Л. Кейк'"
 	}
 
 	LivingFogDye: {
