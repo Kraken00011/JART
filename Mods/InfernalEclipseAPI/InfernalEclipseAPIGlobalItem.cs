@@ -34,6 +34,9 @@ public partial class InfernalEclipseAPIGlobalItem : GlobalItem
                 }
             }
 
+            if (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/Catlight").Type)
+                tooltips.RemoveAll((TooltipLine l) => l.Text == "-Воин-" || l.Text == "-Истинный воин-" || l.Text == "-Тяжёлый воин-" || l.Text == "-Друид-" || l.Text == "-Ритуалист-" || l.Text == "-Пустота-");
+
             if (ModLoader.HasMod("YouBoss") && item.type == ModContent.Find<ModItem>("YouBoss/FirstFractal").Type)
                 tooltip.Text = tooltip.Text.Replace("-Сигнатурное оружие вашего отражения-", "-Ваше сигнатурное оружие-");
 
