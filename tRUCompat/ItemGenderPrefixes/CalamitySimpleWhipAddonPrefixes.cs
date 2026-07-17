@@ -32,7 +32,16 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "NightButterfly",
                 "ActiasAliena",
                 "EtaCarinae",
-                "GildedReliquary"
+                "GildedReliquary",
+                "LeatherGrip",
+                "SilkGrip",
+                "RubberGrip",
+                "NecromanticGrip",
+                "EmperorsGrip",
+                "LightSpiritGrip",
+                "AirflowGrip",
+                "CommanderGrip",
+                "MagneticGrip"
             });
 
             tru.Call("AddNeuterItems", calSimWhips, new string[]
