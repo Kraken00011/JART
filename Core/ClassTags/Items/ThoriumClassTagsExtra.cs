@@ -128,7 +128,8 @@ public class ThoriumModClassTagsExtra : ItemTagsAdder
                     "BronzeBreastplate",
                     "LichCarapace",
                     "LichCowl",
-                    "LichTalon"
+                    "LichTalon",
+                    "NinjaEmblem"
                 };
 
                 result.AddRange(ClassTagsAdderHelper.GetTaggedItems(UnifiedThrower, "ThrowerTag", "ThoriumMod"));
