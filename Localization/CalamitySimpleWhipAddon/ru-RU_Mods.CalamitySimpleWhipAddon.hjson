@@ -762,7 +762,7 @@ Items: {
 	}
 
 	LeatherGrip: {
-		DisplayName: Кожаный хват
+		DisplayName: Кожаная рукоять
 		Tooltip:
 			'''
 			Увеличивает дальность хлыстов на 10%
@@ -772,7 +772,7 @@ Items: {
 	}
 
 	SilkGrip: {
-		DisplayName: Шёлковый хват
+		DisplayName: Шёлковая рукоять
 		Tooltip:
 			'''
 			Увеличивает дальность хлыстов на 10%
@@ -782,7 +782,7 @@ Items: {
 	}
 
 	RubberGrip: {
-		DisplayName: Резиновый хват
+		DisplayName: Резиновая рукоять
 		Tooltip:
 			'''
 			Увеличивает дальность хлыстов на 15%
@@ -793,7 +793,7 @@ Items: {
 	}
 
 	NecromanticGrip: {
-		DisplayName: Некротический хват
+		DisplayName: Некромантическая рукоять
 		Tooltip:
 			'''
 			Увеличивает максимальное количество миньонов на 1
@@ -806,7 +806,7 @@ Items: {
 	}
 
 	EmperorsGrip: {
-		DisplayName: Императорский хват
+		DisplayName: Императорская рукоять
 		Tooltip:
 			'''
 			Увеличивает максимальное количество миньонов на 2
@@ -819,7 +819,7 @@ Items: {
 	}
 
 	LightSpiritGrip: {
-		DisplayName: Хват эссенции света
+		DisplayName: Рукоять эссенции света
 		Tooltip:
 			'''
 			Позволяет хлыстам бить через стены
@@ -828,7 +828,7 @@ Items: {
 	}
 
 	AirflowGrip: {
-		DisplayName: Аэролётный хват
+		DisplayName: Аэрофазовая рукоять
 		Tooltip:
 			'''
 			Снижает дальность хлыстов на 15%
@@ -838,7 +838,7 @@ Items: {
 	}
 
 	CommanderGrip: {
-		DisplayName: Командирский хват
+		DisplayName: Командирская рукоять
 		Tooltip:
 			'''
 			Даёт снарядам миньонов кратковременную самонаводку на врагов, отмеченных хлыстом призывателя
@@ -847,7 +847,7 @@ Items: {
 	}
 
 	MagneticGrip: {
-		DisplayName: Магнетический хват
+		DisplayName: Магнетическая рукоять
 		Tooltip:
 			'''
 			Снижает дальность хлыстов на 15%

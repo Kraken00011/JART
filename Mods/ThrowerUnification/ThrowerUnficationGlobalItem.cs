@@ -42,7 +42,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного и [c/{color}:метательного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:метательного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -55,7 +55,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного и [c/{color}:разбойного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:разбойного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -68,7 +68,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного и [c/{color}:вероломного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:вероломного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -81,7 +81,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного и [c/{color}:кинетического] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:кинетического] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -95,7 +95,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного и [c/{color}:{custom}] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:{custom}] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -106,45 +106,33 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
             }
 
             // Теги моего мода
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
+            if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
             {
-                if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Thrower)
                 {
                     tooltip.Text = "-Метатель-";
                     tooltip.OverrideColor = new Color((int)ThrowerModConfig.Instance.TagR, (int)ThrowerModConfig.Instance.TagG, (int)ThrowerModConfig.Instance.TagB);
                 }
-            }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
-            {
-                if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Rogue)
                 {
                     tooltip.Text = "-Разбойник-";
                     tooltip.OverrideColor = new Color((int)ThrowerModConfig.Instance.TagR, (int)ThrowerModConfig.Instance.TagG, (int)ThrowerModConfig.Instance.TagB);
                 }
-            }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
-            {
-                if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Malevolent)
                 {
                     tooltip.Text = "-Веролом-";
                     tooltip.OverrideColor = new Color((int)ThrowerModConfig.Instance.TagR, (int)ThrowerModConfig.Instance.TagG, (int)ThrowerModConfig.Instance.TagB);
                 }
-            }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
-            {
-                if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Kinetic)
                 {
                     tooltip.Text = "-Кинетик-";
                     tooltip.OverrideColor = new Color((int)ThrowerModConfig.Instance.TagR, (int)ThrowerModConfig.Instance.TagG, (int)ThrowerModConfig.Instance.TagB);
                 }
-            }
 
-            if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
-            {
-                if (tooltip.Mod == "JAtRT" && (tooltip.Name == "ThrowerTag" || tooltip.Name == "RogueTag"))
+                if (ThrowerModConfig.Instance.TooltipOverride == TooltipOverrideStyle.Custom)
                 {
                     tooltip.Text = $"-{ThrowerModConfig.Instance.CustomTooltipOverride}-";
                     tooltip.OverrideColor = new Color((int)ThrowerModConfig.Instance.TagR, (int)ThrowerModConfig.Instance.TagG, (int)ThrowerModConfig.Instance.TagB);
