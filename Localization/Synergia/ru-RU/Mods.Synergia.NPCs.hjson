@@ -5,19 +5,7 @@ Dialog: {
 	// CityDwarf2: Интересно, как там поживает {0}, в тех холодных и ужасных для жизни землях
 }
 
-Cogworm: {
-	// DisplayName: Греховный червелорд
-
-	BossChecklistIntegration: {
-		// EntryName: Греховный червелорд
-		// SpawnInfo: Разбейте монолит адского сердца в пещере зверя.
-	}
-}
-
-// CogwormBody.DisplayName: Тело червелорда
-// CogwormTail.DisplayName: Хвост червелорда
 // HellheartMonolith.DisplayName: Монолит адского сердца
-// CogwormGhost.DisplayName: Призрак червелорда
 // AirElementalEnemy.DisplayName: Воздушный элементаль
 // WaterElementalEnemy.DisplayName: Водяной элементаль
 // ElderSnowman.DisplayName: Снеговик-старейшина
@@ -30,8 +18,8 @@ HellDwarf: {
 	Name: {
 		// Skyzephire: Верге
 		// Thorin: Торфинсон
-		// Belegar: Белигар
-		// Dragan: Дракан
+		// Belegar: Белегар
+		// Dragan: Драган
 		// Wulfrik: Вульфрик Кердо
 		// Molk: Молк
 		// Prophet: Пророк
@@ -121,7 +109,7 @@ ImperianCommander: {
 
 	Buttons: {
 		// PreEp: Я хочу получить оружие
-		// EpText: Я выбираю оружие на:
+		// EpText: я хочу оружие на:
 	}
 }
 
