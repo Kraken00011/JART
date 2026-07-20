@@ -94,12 +94,12 @@ HellDwarf: {
 ImperianCommander: {
 	Class: {
 		Name: {
-			// Class0: Воин
-			// Class1: Стрелок
-			// Class2: Маг
-			// Class3: Призыватель
+			// Class0: Воина
+			// Class1: Стрелка
+			// Class2: Мага
+			// Class3: Призывателя
 			// Class4: Ниндзя
-			// Class5: Друид
+			// Class5: Друида
 		}
 
 		Display: {
@@ -121,7 +121,7 @@ ImperianCommander: {
 
 	Buttons: {
 		// PreEp: Я хочу получить оружие
-		// EpText: Я выбираю:
+		// EpText: Я выбираю оружие на:
 	}
 }
 

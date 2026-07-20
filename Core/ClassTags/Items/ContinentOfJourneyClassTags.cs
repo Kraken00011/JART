@@ -30,6 +30,14 @@ public class ContinentOfJourneyClassTags : ItemTagsAdder
                 "TheBatter",
                 "TheHolyTrinity",
                 "RunnersLegging",
+                "AffluenceTicket",
+                "DebtTicket",
+                "FortuneTicket",
+                "JackpotTicket",
+                "LegacyTicket",
+                "LuckTicket",
+                "WealthTicket",
+                "WindfallTicket",
                 "SteadyCap"
             };
 
@@ -124,14 +132,6 @@ public class ContinentOfJourneyClassTags : ItemTagsAdder
                 "RunnersLeggings",
                 "StarQuiver",
                 //
-                "AffluenceTicket",
-                "DebtTicket",
-                "FortuneTicket",
-                "JackpotTicket",
-                "LegacyTicket",
-                "LuckTicket",
-                "WealthTicket",
-                "WindfallTicket",
                 "BurningWrap",
                 "CursedWrap",
                 "DivineWrap",

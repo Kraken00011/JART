@@ -14,8 +14,8 @@ NPCs: {
 Projectiles: {
 	Arena.DisplayName: Арена
 	EyePhantom.DisplayName: Глаз призрака
-	MoonLordText.DisplayName: Убей себя
-	MutantText.DisplayName: Убей себя 2.0
+	MoonLordText.DisplayName: Убейся
+	MutantText.DisplayName: Убейся 2.0
 	PhantasmalDeathrayIce.DisplayName: Ледяной луч смерти
 }
 

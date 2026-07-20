@@ -1,4 +1,4 @@
-[b]Jungle Bosses Rework[/b] - мод, перерабатывающий Голема и Плантеру.
+[b]Jungle Bosses Rework[/b] - мод, перерабатывающий битвы Големом и Плантерой.
 Раньше назывался «Golem Rework», но был переименован по очевидной причине.
 
 Особые благодарности Flandre Scarlet и Moonblast- за перевод на традиционный китайский
@@ -16,7 +16,7 @@
 Основные изменения:
 - Переработка яхщеров, обитающих в храме.
 - Переработка некоторых предметов от тира Пре-Плантеры до Пост-Голема.
-- Plantera has a new friend that assists her in battle.
+- У Плантеры появляется новый «друг», который будет помогать ей в бою.
 - Golem now uses a 2D Model as supposed to a static sprite. Each attack has a custom animation.
 - Golem's chamber room has been changed to be more rectangular and as well as have some lighting.
 - Golem now walks as supposed to jumping to move around. They only jump if their target is too high.

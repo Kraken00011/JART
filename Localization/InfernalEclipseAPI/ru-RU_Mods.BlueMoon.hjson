@@ -1,21 +1,21 @@
 Items: {
 	EmeraldRing: {
-		DisplayName: Кольцо Мятной луны
+		DisplayName: Кольцо мятной луны
 		Tooltip: Даёт бафф [cbuff:BlueMoon/MintyFreshnessBuff], увеличивающий урон и скорость передвижения на 7%
 	}
 
 	AmethystRing: {
-		DisplayName: Кольцо Вишнёвой луны
+		DisplayName: Кольцо вишнёвой луны
 		Tooltip: Даёт бафф [cbuff:BlueMoon/FloralBlessingBuff], увеличивающий регенерацию здоровья на 2 ед./сек
 	}
 
 	SapphireRing: {
-		DisplayName: Кольцо Голубой луны
+		DisplayName: Кольцо голубой луны
 		Tooltip: Даёт бафф [cbuff:BlueMoon/LunarEmpowermentBuff], увеличивающий удачу носителя; ещё сильнее увеличивает её в Хардмоде
 	}
 
 	TopazRing: {
-		DisplayName: Кольцо Урожайной луны
+		DisplayName: Кольцо урожайной луны
 		Tooltip: Даёт бафф [cbuff:BlueMoon/BountifulHarvestBuff], увеличивающий количество выпадаемых с врагов монет в 1,5 раза или в 2 в Хардмоде
 	}
 

@@ -24,7 +24,7 @@
 		}
 
 		Common: {
-			SuperMove: Сверхудар
+			SuperMove: Сверхспособность
 			Cooldown: "{0} {0^:секунда;секунды;секунд} перезарядки"
 			UsesFlow: Uses {0} seconds of flow
 			Bard: "'Станьте бардом (без крутых способностей)!'"

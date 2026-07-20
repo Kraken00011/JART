@@ -1,4 +1,4 @@
-/*UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
+UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
 
 Items: {
 	TwoPaths: {
@@ -6,8 +6,8 @@ Items: {
 		Tooltip:
 			'''
 			Даёт 4 эссенции души при прямом попадании
-			Нажмите ЛКМ, чтобы нанести полный урон по увеличенной площади
-			Нажмите ПКМ, чтобы использовать часть маны и призвать белые косы, рассекающие врага
+			Нажмите ЛКМ, чтобы наносить полный урон по увеличенной площади
+			Нажмите ПКМ, чтобы использовать часть маны и призвать белые косы, рассекающие врагов
 			'''
 	}
 
@@ -39,28 +39,36 @@ Items: {
 		DisplayName: Глубинный словесный водоворот
 		Tooltip:
 			'''
-			Лишь оболочка своей былой мощи
-			Его части были разбросаны по всему миру
-			На миг вам кажется, что в кислотных пузырях вокруг можно увидеть проблеск надежды
+			'Лишь оболочка своей былой мощи, части которой были разбросаны по всему свету'
+			[c/010057:На миг вам кажется, что в кислотных пузырях вокруг виднеется проблеск надежды]
 			'''
 	}
 
 	DeathsWhisper: {
 		DisplayName: Шёпот смерти
-		Tooltip: ""
+		Tooltip:
+			'''
+			Releases faith devouring flames that inflict [cbuff:CalamityMod/MarkedforDeath] and [cbuff:CalamityMod/GodSlayerInferno]
+			For every 5 flames that damage an enemy, release an inferno of homing flames
+			'''
 	}
 
 	BrimstoneHarp: {
 		DisplayName: Серная арфа
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fires a fan of 3 piercing brimstone skulls
+			Skulls on bounce split into 3 brimstone petals that fire at the closest enemy
+			'''
 	}
 
 	NecroticChorus: {
 		DisplayName: Некротический хор
 		Tooltip:
 			'''
-			Призывает самонаводящиеся огоньки
-			Нажмите ПКМ, чтобы атаковать кровавым плевком
+			Summons up to 10 wisps that home onto foes
+			<right> for an alternate blood spit attack 
+			Blood spit inflicts [cbuff:CalamityMod/ArmorCrunch] and [cbuff:CalamityMod/BurningBlood]
 			'''
 	}
 
@@ -82,7 +90,7 @@ Items: {
 			}
 
 			MothwingDagger: {
-				DisplayName: Мотыльковый крылатый кинжал
+				DisplayName: Крылатый мотыльковый кинжал
 				Tooltip:
 					'''
 					Бросает крылатый кинжал с лёгкой самонаводкой
@@ -101,7 +109,7 @@ Items: {
 		DisplayName: Великий громовой хлыст
 		Tooltip:
 			'''
-			5 ед. урона от метки призывателя
+			3 ед. урона от метки призывателя
 			При попадании накладывает дебафф [cbuff:Electrified]
 			'''
 	}
@@ -113,7 +121,7 @@ Items: {
 
 	SearingSpearTip: {
 		DisplayName: Опаляющий наконечник копья
-		Tooltip: Копья выделяют сероводород, обжигающий противников при столкновении
+		Tooltip: Копья выделяют сероводород, обжигающий врагов при контакте
 	}
 
 	ArcticSpearTip: {
@@ -125,9 +133,9 @@ Items: {
 		DisplayName: Часть мундштука
 		Tooltip:
 			'''
-			Мундштук восстановленного словесного водоворота
-			'Пермафрост в своих рассказах упоминал про свои встречи с племенем яхщеров.
-			Возможно, ему что-то известно.'
+			'Мундштук восстановленного словесного водоворота'
+			[c/010057:Когда-то Пермафрост рассказывал о своих стычках с племен яхщеров]
+			[c/010057:Возможно, ему что-то известно...]
 			'''
 	}
 
@@ -135,9 +143,9 @@ Items: {
 		DisplayName: Часть колокольчика
 		Tooltip:
 			'''
-			Колокольчик восстановленного словесного водоворота
-			'Чтобы удержать его силу от других, мундштук был выброшен в темницу.
-			Говорят, что ключ был сброшен в синие глубины внизу.'
+			'Колокольчик восстановленного словесного водоворота'
+			[c/010057:В попытке скрыть его истинную силу от остальных, мундштук был заточён в Темнице]
+			[c/010057:Поговаривают, что ключ был сброшен в голубые воды снизу]
 			'''
 	}
 
@@ -145,9 +153,9 @@ Items: {
 		DisplayName: Часть корпуса
 		Tooltip:
 			'''
-			Корпус восстановленного словесного водоворота
-			'Великое горнило душ станет завершающим штрихом, дабы вернуть его мощь.
-			Торопитесь, волны скоро обрушатся на ваш зов.'
+			'Корпус восстановленного словесного водоворота'
+			[c/010057:Великое горнило душ станет завершающим штрихом в возвращении его былой мощи]
+			[c/010057:Поторопитесь, волны скоро обрушатся на ваш зов]
 			'''
 	}
 
@@ -263,12 +271,13 @@ Items: {
 	}
 
 	NeonRipper: {
-		DisplayName: C-PMA Неоновый жнец
+		DisplayName: C-PMA Жнец
 		Tooltip:
 			'''
 			Даёт 3 эссенции души при прямом попадании
-			При попадании по врагу призывает электрифицирующих нано-ботов
-			Нажмите ПКМ, чтобы бросить косу, изгибающуюся по возвращении обратно
+			При попадании по врагу призывает нано-ботов, накладывающих дебафф [cbuff:Electrified]
+			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
+			В броске коса наносит на 30%
 			'''
 	}
 
@@ -288,8 +297,8 @@ Items: {
 		DisplayName: И-ЛЗР Инфрарифф
 		Tooltip:
 			'''
-			Создаёт световое шоу из инфракрасных волн, которые наносят урон врагам при попадании
-			'Та самая гитара, создающая микроволновое световое шоу'
+			Создаёт световое шоу из инфракрасных волн, наносящие урон врагам при контакте
+			'О, то же та самая микроволновая гитара светового шоу!'
 			'''
 	}
 
@@ -297,14 +306,26 @@ Items: {
 		DisplayName: С-ТСЛ Дефибриллянатор
 		Tooltip:
 			'''
-			Стреляет самонаводящимися сверхзаряженными молниями
-			Нажмите ПКМ, чтобы выпустить исцеляющие разряды, тратя ману
+			Использует расходуемое здоровье на накопление статического заряда
+			Максимальный заряд достигается за 5 использований
+			Нажмите ЛКМ с максимальным зарядом, чтобы выпустить каскад из самонаводящихся молний, которые наносят врагам урон
+			Нажмите ПКМ с максимальным зарядом, чтобы выпустить каскад из исцеляющих молний
+			'Готово!'
 			'''
 	}
 
 	ArckaneStaff: {
 		DisplayName: Чародейсксий посох
-		Tooltip: Стреляет перегруженным нестабильными элементами зарядом
+		Tooltip:
+			'''
+			Стреляет перегруженным зарядом нестабильных элементов
+			Крадёт 5 ед. здоровья и накладывает следующие дебаффы:
+			[cbuff:Ichor], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
+			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
+			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:ThoriumMod/MagickStaffDebuff],
+			[cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
+			'''
 	}
 
 	MystickStaff: {
@@ -312,7 +333,16 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет сверхмощным зарядом из всех известных стихий
-			'Сколько ещё тебе надо!?'
+			Крадёт 10 ед. здоровья и накладывает следующие дебаффы:
+			[cbuff:CalamityMod/Voidfrost], [cbuff:CalamityMod/Dragonfire], [cbuff:CalamityMod/GodSlayerInferno],
+			[cbuff:CalamityMod/HolyFlames], [cbuff:CalamityMod/ElementalMix], [cbuff:CalamityMod/Laceration],
+			[cbuff:CalamityMod/MarkedforDeath], [cbuff:CalamityMod/WhisperingDeath], [cbuff:CalamityMod/VulnerabilityHex],
+			[cbuff:CalamityMod/MiracleBlight], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
+			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
+			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:ThoriumMod/MagickStaffDebuff],
+			[cbuff:Ichor], [cbuff:ThoriumMod/Stunned] and [cbuff:ThoriumMod/Charmed]
+			'Сколько ещё вам надо!?'
 			'''
 	}
 
@@ -320,9 +350,10 @@ Items: {
 		DisplayName: Мрачный скорострел
 		Tooltip:
 			'''
-			Скорострельный ПП, выпускающий шар прыгучего проклятого пламени каждые 15 выстрелов
-			Нажмите ПКМ, чтобы использовать 200 ед. маны и войти в «мрачный порыв» на 10 секунд
-			«Мрачный порыв» увеличивает скорость передвижения на 25% и снижает разброс пуль, пока оружие находится в ваших руках
+			Скорострельный ПП с широким разбросом, стреляющий шаром проклятого инферно, накладывающий дебафф [rbuff:CursedInferno], каждые 20 выстрелов
+			Стрельба, пока у вас есть более 10 ед. маны расходует её, давая 1/3 секунды «мрачного порыва» и снижая разброс у следующего выстрела
+			«Мрачный порыв» увеличивает скорость передвижения на 25% во время ношения скорострела в руках
+			Урон этого оружия также снижается, когда на вас наложен дебафф [cbuff:ManaSickness]
 			'''
 	}
 
@@ -711,9 +742,9 @@ Items: {
 			'''
 			Вместо раскручивания коса взмахивает по диагонали
 			Имеет комбо из 3 взмахов:
-			    При каждом 1 взмахе коса стреляет 1 самонаводящимся огненным шаром и 2 лучами космической энергии
-			    При каждом 2 взмахе коса стреляет 1 лучом космической энергии и 2 самонаводящимися огненными шарами
-			    При каждом 3 взмахе коса прокручивается вокруг игрока
+			При каждом 1 взмахе коса стреляет 1 самонаводящимся огненным шаром и 2 лучами космической энергии
+			При каждом 2 взмахе коса стреляет 1 лучом космической энергии и 2 самонаводящимися огненными шарами
+			При каждом 3 взмахе коса прокручивается вокруг игрока
 			Во время раскручивания коса выпускает до 6 самонаводящихся огненных шаров и лучей космической энергии
 			Коса и огненные шары игнорируют 125 ед. защиты и накладывают дебафф [cbuff:CalamityMod/Dragonfire]
 			Лучи космической энергии игнорируют 75 ед. защиты и накладывают дебаффы [cbuff:CalamityMod/ElementalMix] и [cbuff:CatalystMod/AstralBlight]
@@ -827,7 +858,7 @@ Items: {
 			'''
 			75% базового урона
 			Flail weapons on first hit and for a chance every further hit create either a brimstone or blizzard spike ball
-			The Brimstone spike ball applies [cbuff:CalamityMod/BrimstoneFlames] to enemies and rarely grants the [iabuff:InfernalEclipseWeaponsDLC/HotFlailDmg] buff
+			The Brimstone spike ball applies [cbuff:CalamityMod/BrimstoneFlames] to enemies and rarely grants the [cbuff:InfernalEclipseWeaponsDLC/HotFlailDmg] buff
 			The Blizzard spike ball applies [cbuff:Frostburn2] to enemies and rarely grants the [cbuff:InfernalEclipseWeaponsDLC/ColdFlailDefense] buff
 			'''
 	}
@@ -839,7 +870,7 @@ Items: {
 			100% базового урона
 			Flail weapons on first hit create a perfect spike ball
 			Further flail hits have a chance to create more perfect spike balls
-			Perfect spike balls inflict [cbuff:CalamityMod/GodSlayerInferno] and rarely grant the [iabuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff] buff
+			Perfect spike balls inflict [cbuff:CalamityMod/GodSlayerInferno] and rarely grant the [cbuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff] buff
 			'''
 	}
 
@@ -859,9 +890,9 @@ Items: {
 			'''
 			Постепенно генерирует до 50 ед. жизненного щита
 			Даёт дополнительные эффекты в зависимости от того, какой бонус комплекта разорителя у вас:
-			    [i:CalamityMod/ReaverHeadTank]: Увеличивает максимальный запас здоровья 15 и сопротивление урону на 10%
-			    [i:CalamityMod/ReaverHeadMobility]: Увеличивает скорость передвижения на 10%, а также позволяет совершать таранящий рывок
-			    [i:CalamityMod/ReaverHeadExplore]: Увеличивает скорость прыжка на 20% и даёт невосприимчивость к урону от падения
+			[i:CalamityMod/ReaverHeadTank]: Увеличивает максимальный запас здоровья 15 и сопротивление урону на 10%
+			[i:CalamityMod/ReaverHeadMobility]: Увеличивает скорость передвижения на 10%, а также позволяет совершать таранящий рывок
+			[i:CalamityMod/ReaverHeadExplore]: Увеличивает скорость прыжка на 20% и даёт невосприимчивость к урону от падения
 			'''
 	}
 
@@ -1245,4 +1276,3 @@ Configs: {
 }
 
 "Keybinds.Absolute TV Remote Pause.DisplayName": Пауза высшего пульта от телевизора
-*/
