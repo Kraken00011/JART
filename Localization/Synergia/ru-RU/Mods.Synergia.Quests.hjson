@@ -19,16 +19,16 @@ Hunter: {
 	// QuestName: Шепчущий рогоз
 	// QuestDescription: In the damp stillness of the swamps grows a peculiar plant known as the Whispering Reed. Its thin stalks sway even when the air is unmoving, as if stirred by voices no one else can hear. Travelers often speak of faint murmurs echoing through the marsh at dusk. Secrets carried by the reeds themselves. Some believe they are remnants of lost souls, others say it is simply the swamplings lurking.
 	// QuestStage: Собрать шепчущую трость
-	// QuestProgress0: Thanks for it, you are doing great things!
+	// QuestProgress0: Спасибо тебе, ты просто невероятен!
 	// QuestProgress1: I heard stories about the swamps. They say something down there sings when the moon is high. Bring me a Whispering Reed, if you dare.
 	// QuestProgress2: Still searching, huh? Swamps don't give up their secrets easily. Listen for the hum thats how you'll know you're close.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать шепчущий рогоз
-	// QuestCompleted: So you found it, a Whispering Reed. You can almost hear their voices, can't you? Keep it close - it remembers those who listen.
+	// QuestCompleted: Так ты нашёл его - шепчущий рогоз. Тебе тоже слышаться эти голоса, верно? Держи его при себе - он помнит тех, кто слушает.
 	// QuestCompletedFalse: У тебя пока что нет шепчущего рогоза.
 }
 
-Artist: {
+/*Artist: {
 	// QuestName: Красный хитин
 	// QuestDescription: Red Husk grows quietly in the depths of the caves, clinging to stone where little else survives. Its dry and crimson shell feels fragile, almost like it could crumble at a touch. It doesn’t seem fully dead, but not alive either, just something left behind. Miners tend to ignore it, aldthough some say it appears more often in places where the air feels heavier than usual.
 	// QuestStage: Собрать красный хитин
@@ -39,7 +39,7 @@ Artist: {
 	// QuestButtonGive: Отдать красный хитин
 	// QuestCompleted: Ты просто посмотри на него - настоящий живой багрянец! With this, my painting will finally breathe. You've given me more than pigment… you've given me a heartbeat.
 	// QuestCompletedFalse: У тебя пока что нет красного хитина.
-}
+}*/
 
 Ninja: {
 	// QuestName: Морковь
@@ -69,15 +69,15 @@ Farmer: {
 
 Librarian: {
 	// QuestName: Древняя книжонка
-	// QuestDescription: Create tattered book, that can describe everything it experienced between its lines. Crazy Librarian said that people from Imperial City haven't heard about this.
+	// QuestDescription: Найдите потрёпанный фолиант, описывающий всё, что он испытал за этого время прямо между своих строк. Безумный библиотекарь говорил, что жители имперского города никогда не слышали о таком.
 	// QuestStage: Старые заголовки, новые неприятности.
 	// QuestProgress0: Спасибо!
-	// QuestProgress1: My first quest for you will be to collect Tattered Tome. I wanna try my skills on it. Who knows, what can i create
-	// QuestProgress2: Why are you staring at me? Run and find the book and you'll get a bonus.
+	// QuestProgress1: Моим первым заданием для тебя будет найти потрёпанный фолиант. Я хочу проверить на нём свои навыки. А то кто знает, что у меня получится сотворить.
+	// QuestProgress2: Ну чего ты на меня уставился как баран на новые ворота? Шевелись давай и притащи мне уже эту книженцию. За это я может быть дам чего-нибудь крутого.
 	// QuestButton: Принять
 	// QuestButtonGive: Вернуть книгу
-	// QuestCompleted: Oh yeah, that's it. Finally my plans can become true. Here is small trinket for you.
-	// QuestCompletedFalse: You don't have a tome, bruh.
+	// QuestCompleted: О да, а вот и он. Вот-вот мои планы скоро станут явью! А в награду за это я дам тебе одну свои небольших побрякушек.
+	// QuestCompletedFalse: Всё ещё нет фолианта? Да ты издеваешься.
 }
 
 Dwarf2.QuestName: ""
