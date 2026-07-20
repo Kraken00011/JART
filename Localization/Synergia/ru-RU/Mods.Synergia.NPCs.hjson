@@ -109,7 +109,7 @@ ImperianCommander: {
 
 	Buttons: {
 		// PreEp: Я хочу получить оружие
-		// EpText: я хочу оружие на:
+		// EpText: Мне нужно оружие на:
 	}
 }
 
@@ -130,7 +130,7 @@ Sinlord: {
 // FrogRider.DisplayName: Наездник на лягушке
 // MischievousDuo.DisplayName: Озорные двойняшки
 // Swamling.DisplayName: Болотник
-// SwamplingWarrior.DisplayName: Болотничий воин
+// SwamplingWarrior.DisplayName: Болотный воин
 // Nibbler.DisplayName: Зубастик
 
 MossWitch: {
