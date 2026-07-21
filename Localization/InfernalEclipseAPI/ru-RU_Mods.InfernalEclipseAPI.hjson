@@ -315,7 +315,7 @@ ItemTooltip: {
 		}
 
 		Charms: {
-			Orig: Критические удары могут взрывать врагов, нанося 100% урона
+			Orig: Критические удары могут взорвать врагов, нанося 100% урона
 			Nerf: Критические удары могут взорвать врагов, нанося 75% урона
 		}
 	}
@@ -631,9 +631,9 @@ ItemTooltip: {
 		SweetAlt: При получении урона вызывает звездопад и даёт бафф [cbuff:Honey]
 		COTS:
 			'''
-			Вы постепенно увеличиваете сопротивление урону до 15%
-			При получении урона кратковременно снижает этот бонус до -10%
-			Пока этот бонус выше 0%, увеличивает восполнение здоровья на 2 ед.
+			Вы быстро накапливаете сопротивление урону до 15% с течением времени
+			При получении удара этот бонус временно снижается до -10% сопротивления урону
+			Пока этот бонус выше 0%, вы получаете до 2 единиц восполнения здоровья и блокируете 1 атаку, наносящую урон
 			'''
 		DA:
 			'''
@@ -1866,11 +1866,11 @@ Items: {
 	}
 
 	InfernalTwilight: {
-		DisplayName: Инфернальные сумерки
+		DisplayName: Картина «Инфернальные сумерки»
 		Tooltip:
 			'''
-			Спасибо всей нашей команде: разработчикам, тестировщикам и всем-всем, кто поддерживал и поддерживает нас,
-			людям, которые вдохновили нас и тем, кто играет в этот мод и поддерживает его состояние!
+			Спасибо всей нашей команде: разработчикам, тестировщикам и всем-всем, кто поддерживал и продолжает поддерживать нас,
+			людям, которые вдохновили нас и тем, кто играет в этот мод и поддерживает его существование!
 			Эта картина слишком мала, чтобы уместить всю команду
 			Удерживайте Shift, чтобы увидеть всех разработчиков
 			'''
@@ -2959,7 +2959,7 @@ Buffs: {
 	}
 
 	SoulBurn: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -2969,7 +2969,7 @@ Buffs: {
 	}
 
 	SoulBurn2: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -2981,7 +2981,7 @@ Buffs: {
 	}
 
 	SoulBurn3: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -2993,7 +2993,7 @@ Buffs: {
 	}
 
 	SoulBurn4: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -3005,7 +3005,7 @@ Buffs: {
 	}
 
 	SoulBurn5: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -3017,7 +3017,7 @@ Buffs: {
 	}
 
 	SoulBurn6: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -3029,7 +3029,7 @@ Buffs: {
 	}
 
 	SoulBurn7: {
-		DisplayName: Духовное сгорание
+		DisplayName: Сгорание души
 		Description: Ваша смертность выставлена на показ...
 		ItemTooltip:
 			'''
@@ -3130,15 +3130,9 @@ KeyBindName: {
 	ItemAbility.DisplayName: Способность предмета
 }
 
-Keybinds: {
-	Mods: {
-		InfernalEclipseAPI: {
-			KeyBindName: {
-				SubspaceBoostHotkey.DisplayName: Субпространственный рывок
-				ItemAbility.DisplayName: Способность предмета
-			}
-		}
-	}
+Keybinds.Mods.InfernalEclipseAPI.KeyBindName: {
+	SubspaceBoostHotkey.DisplayName: Субпространственный рывок
+	ItemAbility.DisplayName: Способность предмета
 }
 
 Events: {
@@ -3160,7 +3154,7 @@ BossName: {
 	TitleScreen: Teardrops of Dragonfire - Заглавная тема Infernal Eclipse of Ragnarok
 	BereftVassal: Dead Kingdom's Champion - Обездоленный вассал (Рагнарёк)
 	DoG: Last Battle (Ballos Mix) - Пожиратель богов (3 фаза)
-	Interlude4: Calamity before the cynosure - 4 Интерлюдия
+	Interlude4: Calamity before the cynosure - 4 интерлюдия
 	Tier5: Descent Of Divinities - Босс-раш (5 ранг)
 	Tier6: Omiscience Of Gods - Босс-раш (6 ранг)
 	TierNameless: TWISTED GARDEN [Remix] - Безымянное божество (Босс-раш)

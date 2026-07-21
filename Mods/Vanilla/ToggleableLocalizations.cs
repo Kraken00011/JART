@@ -50,8 +50,9 @@ public class ToggleableLocalizations : OnPatcher
 			var orderedEntries = entries.OrderBy(e =>
 			{
 				if (e.Name.Contains("Localization/CBUFFS/")) return 2;
-				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 3;
-				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 4;
+				if (e.Name.Contains("Localization/CBUFFS(Cal+Fargos)/")) return 3;
+				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 4;
+				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 5;
 				return 1;
 			});
 
@@ -106,7 +107,7 @@ public class ToggleableLocalizations : OnPatcher
 					continue;
 
 				// Discordya
-				if (!JARTLocalizationConf.Instance.DiscordyaLocalization 
+				if (!JARTLocalizationConf.Instance.DiscordyaLocalization
 				&& modpath.Contains(@"JAtRT\Localization\Discordya\"))
 					continue;
 
@@ -444,8 +445,12 @@ public class ToggleableLocalizations : OnPatcher
 
 				// Другое
 
-				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || (!ModLoader.HasMod("CalamityMod") && ModLoader.HasMod("CalamityRuTranslate")))
+				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
 				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
+					continue;
+
+				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("FargowiltasSouls"))
+					&& modpath.Contains(@"JAtRT\Localization\CBUFFS(Cal+Fargos)\"))
 					continue;
 
 				using Stream stream = tModFile.GetStream(translationFile);

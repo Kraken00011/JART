@@ -42,7 +42,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:метательного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:метательного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -55,7 +55,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:разбойного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:разбойного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -68,7 +68,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:вероломного] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:вероломного] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -81,7 +81,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string num = tooltip.Text.Split(' ')[0];
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:кинетического] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:кинетического] [c/7746d7:урона]";
                         }
                         else
                         {
@@ -95,7 +95,7 @@ public partial class ThrowerUnificationGlobalItem : GlobalItem
                         string custom = ThrowerModConfig.Instance.CustomTooltipOverride.ToLower();
                         if (TRuConfig.Instance.ColoredDamageTypes)
                         {
-                            tooltip.Text = $"{num} ед. пустотного] и [c/{color}:{custom}] [c/7746d7:урона]";
+                            tooltip.Text = $"{num} ед. пустотного и] [c/{color}:{custom}] [c/7746d7:урона]";
                         }
                         else
                         {

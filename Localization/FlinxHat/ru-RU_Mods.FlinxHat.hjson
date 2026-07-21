@@ -1,36 +1,34 @@
-		Items: {
-			FlinxFurUshanka: {
-				SetBonus: Стражи и миньоны, а также удары хлыстом накладывают дебафф «Обжигающий холод»
-				DisplayName: Ушанка из меха флинкса
-				TooltipWhip: Увеличивает дальность хлыстов на 15%
-				TooltipMinion: Увеличивает максимальное количество миньонов на 1
-				Tooltip: ""
-			}
+Items.FlinxFurUshanka: {
+	SetBonus: Атаки стражей и миньонов, а также удары хлыстом накладывают дебафф «{$BuffName.Frostburn}»
+	DisplayName: Ушанка из меха флинкса
+	TooltipWhip: Увеличивает дальность хлыстов на 15%
+	TooltipMinion: Увеличивает максимальное количество миньонов на 1
+	Tooltip: ""
+}
+
+Configs: {
+	HatBonusMode: {
+		WhipRange: {
+			Label: К дальности хлыстов
+			Tooltip: Текст бонуса: «Увеличивает дальность хлыстов на 15%».
 		}
 
-		Configs: {
-			HatBonusMode: {
-				WhipRange: {
-					Label: К дальности хлыстов
-					Tooltip: Текст бонуса: «Увеличивает дальность хлыстов на 15%».
-				}
+		Tooltip: ""
 
-				Tooltip: ""
-
-				MinionSlot: {
-					Label: К количеству миньонов
-					Tooltip: Текст бонуса: «Увеличивает максимальное количество миньонов на 1».
-				}
-			}
-
-			FlinxHatConfig: {
-				DisplayName: Конфигурация
-
-				BonusMode: {
-					Label: Эффект ушанки из меха флинкса
-					Tooltip: Позволяет изменить бонус ушанки: либо к дальности хлыстов, либо к количеству миньонов.
-				}
-			}
+		MinionSlot: {
+			Label: К количеству миньонов
+			Tooltip: Текст бонуса: «Увеличивает максимальное количество миньонов на 1».
 		}
+	}
 
-		Config.UshankaHeader: "[i:FlinxHat/FlinxFurUshanka] Ушанка"
+	FlinxHatConfig: {
+		DisplayName: Конфигурация
+
+		BonusMode: {
+			Label: Эффект ушанки из меха флинкса
+			Tooltip: Позволяет изменить бонус ушанки: либо к дальности хлыстов, либо к количеству миньонов.
+		}
+	}
+}
+
+Config.UshankaHeader: "[i:FlinxHat/FlinxFurUshanka] Ушанка"

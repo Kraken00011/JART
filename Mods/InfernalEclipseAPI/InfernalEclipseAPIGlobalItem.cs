@@ -35,14 +35,14 @@ public partial class InfernalEclipseAPIGlobalItem : GlobalItem
             }
 
             if (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/Catlight").Type && tooltip.Mod == "JAtRT")
-                tooltip.Text == "";
+                tooltip.Text = "";
 
             if (ModLoader.HasMod("YouBoss") && item.type == ModContent.Find<ModItem>("YouBoss/FirstFractal").Type)
                 tooltip.Text = tooltip.Text.Replace("-Сигнатурное оружие вашего отражения-", "-Ваше сигнатурное оружие-");
 
             if (ModLoader.HasMod("SOTS") && item.type == ModContent.Find<ModItem>("SOTS/ChallengerRing").Type && tooltip.Name == "Tooltip5")
             {
-                if (tooltip.Text.Contains("Убитые враги имеют 50% шанс оставить дополнительные сердца "))
+                if (tooltip.Text.Contains("Убитые враги имеют 50% шанс оставить дополнительные сердца"))
                     tooltip.Text = "С убитых врагов с 50% шансом могут выпасть дополнительные сердца\nШанс увеличивается до 100%, если враг был убит критическим ударом";
             }
         }
