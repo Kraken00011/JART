@@ -41,7 +41,8 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "LightSpiritGrip",
                 "AirflowGrip",
                 "CommanderGrip",
-                "MagneticGrip"
+                "MagneticGrip",
+                "MassofWailing"
             });
 
             tru.Call("AddNeuterItems", calSimWhips, new string[]

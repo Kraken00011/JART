@@ -655,7 +655,7 @@ Items: {
 	}
 
 	MassofWailing: {
-		DisplayName: Месса палача
+		DisplayName: Вопиющая масса
 		Tooltip:
 			'''
 			5% шанс критического удара от метки призывателя
