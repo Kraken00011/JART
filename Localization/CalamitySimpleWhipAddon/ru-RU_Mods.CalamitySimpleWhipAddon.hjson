@@ -674,6 +674,19 @@ Items: {
 			'''
 	}
 
+	OpaqueOnyx: {
+		DisplayName: Матовый оникс
+		Tooltip:
+			'''
+			3 ед. урона от метки призывателя
+			5% шанс критического удара от метки призывателя
+			При ношении в руках призывает самоцвет, следующий за вами
+			Самоцвет будет атаковать всякий раз, когда миньон попадает по поражённому меткой призывателя врагу
+			Самоцвет наносит 75% от урона миньона, активировавшего сам самоцвет
+			Перед атакой самоцвет мгновенно заряжается, добавляя 10% от урона, нанесенного хлыстом во время зарядки, к своей атаке
+			'''
+	}
+
 	Accessories: {
 		BleachedNucleogenesis: {
 			DisplayName: Отмытый Нуклеогенез
@@ -897,28 +910,28 @@ Items: {
 	}
 
 	InvisibleSummonTagItem: {
-		Tooltip: ""
 		DisplayName: Невидимый предмет метки призывателя
+		Tooltip: ""
 	}
 
 	InvisibleSummonTagItem3: {
-		Tooltip: ""
 		DisplayName: Невидимый предмет метки призывателя3
+		Tooltip: ""
 	}
 
 	InvisibleSummonTagItem2: {
-		Tooltip: ""
 		DisplayName: Невидимый предмет метки призывателя2
+		Tooltip: ""
 	}
 
 	InvisibleSummonTagItem1: {
-		Tooltip: ""
 		DisplayName: Невидимый предмет метки призывателя1
+		Tooltip: ""
 	}
 
 	InvisibleBreezePiercer: {
-		Tooltip: ""
 		DisplayName: Невидимый пронзатель бризов
+		Tooltip: ""
 	}
 
 	InvisibleAncientBonds: {
