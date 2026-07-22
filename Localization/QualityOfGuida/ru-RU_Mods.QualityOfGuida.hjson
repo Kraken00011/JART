@@ -52,13 +52,13 @@ Items: {
 }
 
 Tiles: {
-	NetherPortal.MapEntry: Портал в ад
+	NetherPortal.MapEntry: Портал в незер
 	SpawnerTile.MapEntry: Рассадник
 }
 
 WorldGen: {
-	NetherPortalPassMessage: Создание портала в ад
-	SpawnerPassMessage: Создание Рассадников
+	NetherPortalPassMessage: Создание портала в незер
+	SpawnerPassMessage: Создание рассадников
 	SpawnEggPassMessage: Разбрасывание яиц призыва
 }
 
