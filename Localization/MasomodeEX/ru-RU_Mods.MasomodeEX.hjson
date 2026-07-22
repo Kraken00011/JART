@@ -106,15 +106,13 @@ MutantEnrage: {
 	DeviAbduction: Мутант входит в ярость из-за кражи своей сестры!
 }
 
-Configs: {
-	MasoEXClientConfig: {
-		DisplayName: Клиентская конфигурация
+Configs.MasoEXClientConfig: {
+	DisplayName: Клиентская конфигурация
 
-		GreetingMessage: {
-			Label: "[i:890] Приветственное сообщение"
-			Tooltip: Включает/Выключает приветственное сообщение, появляющееся при заходе в мир
-		}
-
-		Headers.Misc: Мир
+	GreetingMessage: {
+		Label: "[i:890] Приветственное сообщение"
+		Tooltip: Включает/Выключает приветственное сообщение, появляющееся при заходе в мир
 	}
+
+	Headers.Misc: Мир
 }
