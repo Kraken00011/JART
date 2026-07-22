@@ -369,8 +369,8 @@ Configs: {
 		}
 
 		MunchiesAuricSoulsAddonLocalization: {
-			Label: "Munchies All-Calamity Addon"
-			Tooltip: Включает/Выключает перевод мода Munchies All-Calamity Addon.
+			Label: "Munchies Crossmod Addon"
+			Tooltip: Включает/Выключает перевод мода Munchies Crossmod Addon.
 		}
 
 		ShoeSlotLocalization: {

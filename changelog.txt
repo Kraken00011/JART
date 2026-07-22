@@ -3,8 +3,8 @@ v{ModVersion}
 - Добавлены переводы Potion Slots; Pinnacle Reforges; Vanity + Dyable Cursors API; Celestial Shield; Movement Speed Fix; Experimental Infernum Extension; Inspiration Potions; InfiniteInteger's Mage Tweaks; Crown Set Bonuses; Unofficial Calamity Bard & Healer; Accessory Hearts; Beam Stops Spread; Multiclass Armors; Starforged [Old]; Ultimate Infinite Star и Mana Fruit
 - Добавлен фикс The Depths
 - Обновлены переводы Calamity Simple Whips Addon; Munchies Crossmod Addon; Armor Buffs; IEoR; Discordya и Revengeance+ до последней версии
-- Удалены переводы Everware, Draedon Expansion и Munchies Homeward Addon
-- Заморожены на неопределённый срок переводы Homeward Ragnarok и Turtle Boulder & Friends
+- Удалены переводы Everware, Draedon Expansion, Homeward Ragnarok и Munchies Homeward Addon
+- Заморожен на неопределённый срок перевод Turtle Boulder & Friends
 - ОЧЕНЬ много правок ошибок в почти всех переводах
 Другие изменения:
 - Добавлен предосмотр бонусов комплектов брони для переведённых модов

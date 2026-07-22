@@ -49,10 +49,6 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool HomewardRagnarokLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
     public bool HPAwareLocalization;
 
     [ReloadRequired]

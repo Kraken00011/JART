@@ -6,7 +6,7 @@ using JAtRT.Core.Config;
 
 public class HomewardRagnarokGlobalBuff : GlobalBuff
 {
-	public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.HomewardRagnarokLocalization && ModLoader.HasMod("HomewardRagnarok");
+	public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("HomewardRagnarok");
 	
 	public override void ModifyBuffText(int type, ref string displayName, ref string tooltip, ref int drawOffset)
 	{

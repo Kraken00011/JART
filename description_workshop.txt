@@ -17,7 +17,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Enchanted Moons
 [*] Evil Bosses Rework
 [*] Fargo Rush Mod
-[*] Homeward Ragnarok (перевод заморожен)
+[*] Homeward Ragnarok (помощь с переводом)
 [*] HP Awareness
 [*] Jungle Bosses Rework
 [*] Ophioid - A Boss fight mod

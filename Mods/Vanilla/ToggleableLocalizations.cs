@@ -152,11 +152,6 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath == @"JAtRT\Localization\HolosparkBoots\ru-RU_Mods.HolosparkBoots.hjson")
 					continue;
 
-				// Homeward Ragnarok
-				if ((!JARTLocalizationConf.Instance.HomewardRagnarokLocalization || !ModLoader.HasMod("HomewardRagnarok"))
-				&& modpath.Contains(@"JAtRT\Localization\HomewardRagnarok\"))
-					continue;
-
 				if (!JARTLocalizationConf.Instance.HomewardSubworldLocalization
 				&& modpath == @"JAtRT\Localization\HomewardSubworld\ru-RU_Mods.HomewardSubworld.hjson")
 					continue;

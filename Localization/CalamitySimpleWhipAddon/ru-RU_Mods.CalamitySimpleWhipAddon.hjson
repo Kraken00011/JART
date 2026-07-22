@@ -553,7 +553,7 @@ Items: {
 	}
 
 	GoldRush: {
-		DisplayName: Золотой прилив
+		DisplayName: Золотая лихорадка
 		Tooltip:
 			'''
 			8 ед. урона от метки призывателя
