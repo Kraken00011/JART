@@ -120,6 +120,12 @@ public class JARTLocalizationConf : ModConfig
     public bool CalamityCrossmodVulnerabilitiesLocalization;
 
     [ReloadRequired]
+    [Label("Calamity Overdrive")]
+    [Tooltip("Включает/Выключает перевод мода Calamity Overdrive.")]
+    [DefaultValue(true)]
+    public bool WulfrumExpansionLocalization;
+
+    [ReloadRequired]
     [Label("Celestial Shield")]
     [Tooltip("Включает/Выключает перевод мода Celestial Shield.")]
     [DefaultValue(true)]

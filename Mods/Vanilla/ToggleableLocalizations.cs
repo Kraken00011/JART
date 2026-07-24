@@ -438,6 +438,12 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\WHummusMultiModBalancing\"))
 					continue;
 
+				// 1.5.1.0
+
+				if ((!JARTLocalizationConf.Instance.WulfrumExpansionLocalization || !ModLoader.HasMod("WulfrumExpansion"))
+				&& modpath.Contains(@"JAtRT\Localization\WulfrumExpansion\"))
+					continue;
+
 				// Другое
 
 				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))

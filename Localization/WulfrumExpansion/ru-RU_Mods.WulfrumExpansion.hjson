@@ -1,0 +1,311 @@
+Buffs: {
+	ReactivePlatingBuff: {
+		DisplayName: Электрическая реакция!
+		Description: Урон и защита увеличены
+	}
+
+	ReactivePlatingCooldown: {
+		DisplayName: Электрический перегруз!
+		Description: Реактивная пластина на перезарядке
+	}
+
+	MetalashTagBuff: {
+		DisplayName: Метка металлохлёста
+		Description: Получаемый урон от миньонов увеличен
+	}
+}
+
+Configs: {
+	WulfrumExpansionConfig: {
+		DisplayName: Конфигурация Calamity Overdrive
+
+		Headers: {
+			Visuals: Внешний вид
+			BossIntros: Совместимость
+		}
+
+		UseAlternateRelicTexture: {
+			Label: Цветная реликвия
+			Tooltip: Заменяет текстуру Вульфрумового Прототанка на окрашенную версия.
+		}
+
+		BossIntroScreens: {
+			Label: Вступительные анимации для Infernum
+			Tooltip:
+				'''
+				Включает/Выключает отображение вступительных анимаций в стиле Infernum для боссов Calamity Overdrive.
+				Для работы требует Infernum Mode.
+				'''
+		}
+
+		EnableAmalgamationInfernumIntro: {
+			Label: Вступительные анимации для Infernum
+			Tooltip:
+				'''
+				Включает/Выключает отображение вступительных анимаций в стиле Infernum для боссов Calamity Overdrive.
+				Для работы требует Infernum Mode.
+				'''
+		}
+	}
+}
+
+Events: {
+	ScrapRush: {
+		DisplayName: Осада металлолома
+		SpawnInfo: Можно вызвать уничтожением вульфрумового пилона на поверхности или использованием [i:WulfrumExpansion/SignalInterceptor].
+	}
+}
+
+InfernumIntros.Amalgamation:
+	'''
+	НАГРОМОЖДЕНИЕ МЕТАЛЛОЛОМА
+	ВУЛЬФРУМОВЫЙ ПРОТОТАНК
+	'''
+
+Items: {
+	WulfrumSword: {
+		DisplayName: Мечтололом
+		Tooltip:
+			'''
+			Стреляет вульфрумовой шрапнелью, остающейся на поверхности
+			Шрапнель наносит контактный урон всем врагам, которые прошлись по ней
+			[c/83B87E:'В добавок для своей и так обильной армии автоматонов, вульфрумовое сопротивление также выковало для них немного базового вооружения']
+			[c/83B87E:'Но, из-за обилия воинов, состоявших в их армии, вооружение в большинстве своём делалось на скорую руку, то есть было очень хрупким и легко ломающимся в битве']
+			[c/83B87E:'Забавно, что, кажется, эти куски металлолома всё-таки больше помогают им в битвах, нежели мешают']
+			'''
+	}
+
+	WulfrumSapper: {
+		DisplayName: Энерговыжималка
+		Tooltip:
+			'''
+			Стреляет пробивающими энергетическими зарядами
+			На каждые 50 выстрелов расходует 1 [i:CalamityMod/EnergyCore] энергетическое ядро
+			[c/83B87E:'Вульфрумовое сопротивление пыталось создавать подобное штатное оружие для своих солдат']
+			[c/83B87E:'Исполнение этих дешёвых пистолетов оставляло желать лучшего, а их пули оказались слишком дорогой роскошью для дальнейшего использования']
+			[c/83B87E:'Однако установка энергопоглощающих систем весьма неплохо решило обе эти проблемы']
+			'''
+	}
+
+	ArcScepter: {
+		DisplayName: Дуговой скипетр
+		Tooltip:
+			'''
+			Стреляет непрерывным лучом энергии
+			Удерживайте ЛКМ, чтобы постепенно увеличивать его длину, но снижать урон
+			[c/83B87E:'Энергетические ядра, находящиеся в сердце каждого из вульфрумовых автоматонов играют важную роль в проявлении их впечатляющей силы']
+			[c/83B87E:'Инженеры сопротивления смогли найти способ извлечения чистой плазмы и электричества прямиком из этих ядер']
+			[c/83B87E:'Даже если и касаться их - не лучшая идея, они всё ещё являются поразительно красивыми и одновременно очень важными частями каждого из механизмов сопротивления']
+			'''
+	}
+
+	WulfrumChainsaw: {
+		DisplayName: Вульфрумовая бензопила
+		Tooltip: ""
+	}
+
+	WulfrumHealthKit: {
+		DisplayName: Вульфрумовая аптечка
+		Tooltip:
+			'''
+			Сокращает время действия всех наложенных на игрока дебаффов в 2 раза
+			'Ни о какой стерилизации и речи не идёт'
+			'''
+	}
+
+	WulfrumShield: {
+		DisplayName: Вульфрумовый щит
+		Tooltip: ""
+	}
+
+	ReactivePlating: {
+		DisplayName: Реактивная пластина
+		Tooltip:
+			'''
+			Получение более 50 ед. урона единовременно на 8 секунд увеличивает урон и защиту на 6 ед., а также немного скорость передвижения
+			Имеет 20 секунд перезарядки
+			Эксперт
+			'''
+	}
+
+	SignalInterceptor: {
+		DisplayName: Сигнальный перехватчик
+		Tooltip:
+			'''
+			Использование этого предмета разрешает или не разрешает вульфрумовым пилонам появляться в мире
+			Нажмите ЛКМ, чтобы переключить эффект
+			[STATE]
+			Можно использовать, чтобы источать вульфрумовый сигнал, приманивающий вульфрумовых творений к вам
+			'''
+		StateOn: "[c/83B87E:Вульфрумовые пилоны не могут появиться]"
+		StateOff: "[c/FF6A1A:Вульфрумовые пилоны могут появиться]"
+	}
+
+	WulfrumRadio: {
+		DisplayName: Вульфрумовое радио
+		Tooltip:
+			'''
+			Призывает Вульфрумовый прототанк
+			Не расходуется
+			'При встряхивании может выдавать сигналы на необычных частотах'
+			'''
+	}
+
+	Metalash: {
+		DisplayName: Металлохлёст
+		Tooltip:
+			'''
+			При попадании по врагу вонзает в него вульфрумовый кинжал
+			Пока вонзён во врага, кинжал наносит постоянный урон
+			Одновременно во врага может быть вонзён только 1 кинжал
+			[c/83B87E:'Кинжал на конце этого хлыста раньше являлся одним из многих видов штатного оружия']
+			[c/83B87E:'Хоть они и очень дешёвые и хлипкие, этим кинжалам всё ещё можно найти применение в виде усиления другого арсенала']
+			'''
+	}
+
+	WulfrumCircuitry: {
+		DisplayName: Электроузел
+		Tooltip: "'Шокирующе!'"
+	}
+
+	SystematicDefianceMusicBox: {
+		DisplayName: Музыкальная шкатулка (Вульфрумовый прототанк)
+		Tooltip: Проигрывает «Systematic Defiance» за авторством Brimstone Premium
+	}
+
+	WulfrumAmalgamationBag: {
+		DisplayName: Мешок с сокровищами (Вульфрумовый прототанк)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	WulfrumAmalgamationLore: {
+		DisplayName: История (Вульфрумовый прототанк)
+		Tooltip: "{$Mods.CalamityMod.Items.Lore.ShortTooltip}"
+		Lore:
+			'''
+			Творение вульфрумового сопротивления, это жалкое нагромождение довольно грубо сваренного между собой вульфрумового металла никогда не должно участвовать в реальных битвах
+			Его арсенал на текущем этапе вообще недоделан, а его движения крайне беспорядочны
+			Это мерзкое подобие, называемое себя «танком» и секунды бы протянуло в схватке со мной
+			Но всё же, эта машина сумела пережить окончательное уничтожение сил сопротивления, произошедшее скорее не от их собственной силы, а банальной трусости
+			Брошенная собственными создателями, эта машина всё ещё может пробудиться от своего вечного сна теми самыми частотами, которыми раньше её вызывали для прохождения ежедневных испытаний
+			'''
+	}
+
+	WulfrumRebellionLore: {
+		DisplayName: История (Вульфрумовое сопротивление)
+		Tooltip: "{$Mods.CalamityMod.Items.Lore.ShortTooltip}"
+		Lore:
+			'''
+			Во время моих завоеваний теперь уже известное вульфрумовое сопротивление начало расти
+			Это «сопротивление» доставляло лишь незначительные неудобства, но в будущем могло перерасти в куда более серьёзную проблему
+			Пока я поначалу не принимал это сопротивление всерьёз, Дрэйдон заинтересовался их энергетическим вооружением, которое было довольно эффективным
+			Это привело к поимке Вульфрумового корабля-носителя, отправленного уничтожить тех, кто его и создали
+			'''
+	}
+
+	PlasmaCore: {
+		DisplayName: Плазменное ядро
+		Tooltip:
+			'''
+			'ЭТОТ ПРЕДМЕТ СЕЙЧАС НЕ ДОСТУПЕН, ПОСКОЛЬКУ БОСС С КОТОРОГО ЭТОТ ПРЕДМЕТ ВЫПАДАЕТ ЕЩЁ НЕ БЫЛ ДОБАВЛЕН'
+			Увеличивает защиту на 5 ед.
+			Даёт энергетический щит, поглощающий получаемый урон
+			Щит перезаряжается в течении 4 секунд без получения урона
+			'''
+	}
+
+	WulfrumVoicebox: {
+		DisplayName: Поношенный голосовой аппарат
+		Tooltip:
+			'''
+			[c/83B87E:'ВШЫХА МЭАЕХНЯ СЭХАЛЫАШИОАТЕ? ПХАОЖШВАЛУЩЙСОТА, ОХАВТВХЕАХТЬТЕ']
+			[c/83B87E:'.....чего?']
+			'''
+	}
+
+	AmalgamationTrophy: {
+		DisplayName: Трофей Вульфрумового прототанка
+		Tooltip: ""
+	}
+
+	AmalgamationRelicItem: {
+		DisplayName: Реликвия Вульфрумового прототанка
+		Tooltip: ""
+	}
+
+	InfernalAmalgamationRelicItem: {
+		DisplayName: Инфернальная реликвия Вульфрумового прототанка
+		Tooltip: ""
+	}
+
+	WulfrumHaulerBanner: {
+		DisplayName: Знамя вульфрумового перевозчика
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumHauler.DisplayName}"
+	}
+
+	WulfrumSpringerBanner: {
+		DisplayName: Знамя вульфрумового прыгуна
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumSpringer.DisplayName}"
+	}
+
+	WulfrumBeaconBanner: {
+		DisplayName: Знамя вульфрумового пилона
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumBeacon.DisplayName}"
+	}
+
+	WulfrumRepairUnitBanner: {
+		DisplayName: Знамя вульфрумового дрона-ремонтника
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumRepairUnit.DisplayName}"
+	}
+
+	SpringCoil: {
+		DisplayName: Пружина
+		Tooltip: "'ЭТОТ ПРЕДМЕТ СЕЙЧАС НЕ ДОСТУПЕН, ПОСКОЛЬКУ БОСС С КОТОРОГО ЭТОТ ПРЕДМЕТ ВЫПАДАЕТ ЕЩЁ НЕ БЫЛ ДОБАВЛЕН'"
+	}
+}
+
+NPCs: {
+	WulfrumRepairUnit.DisplayName: Вульфрумовый дрон-ремонтник
+	WulfrumHauler.DisplayName: Вульфрумовый перевозчик
+	WulfrumSpringer.DisplayName: Вульфрумовый прыгун
+	WulfrumBeacon.DisplayName: Вульфрумовый пилон
+	WulfrumExcavatorHead.DisplayName: Вульфрумовый копатель
+	WulfrumExcavatorBody.DisplayName: Вульфрумовый копатель
+	WulfrumExcavatorTail.DisplayName: Вульфрумовый копатель
+	WulfrumMothership.DisplayName: Вульфрумовый корабль-носитель
+
+	WulfrumAmalgamation: {
+		DisplayName: Вульфрумовый прототанк
+		SpawnInfo: Появляется в конце осады металлолома или при использовании [i:WulfrumExpansion/WulfrumRadio].
+		DespawnMessage: Вульфрумовый прототанк погружается обратно в сон...
+		InfernumIntroTitle:
+			'''
+			НАГРОМОЖДЕНИЕ МЕТАЛЛОЛОМА
+			ВУЛЬФРУМОВЫЙ ПРОТОТАНК
+			'''
+	}
+}
+
+Projectiles: {
+	WulfrumHealingBolt.DisplayName: Исцеляющий вульфрумовый заряд
+	WulfrumChainsawProj.DisplayName: "{$Items.WulfrumChainsaw.DisplayName}"
+	WulfrumShrapnel.DisplayName: Вульфрумовая шрапнель
+	WulfrumLaser.DisplayName: Вульфрумовый лазер
+	SuperchargedWulfrumLaser.DisplayName: Сверхзаряженный вульфрумовый лазер
+	MetalashProj.DisplayName: "{$Items.Metalash.DisplayName}"
+	MetalashDagger.DisplayName: Вульфрумовый кинжал
+	FriendlyWulfrumLaser.DisplayName: Вульфрумовый лазер
+	ArcScepterBeam.DisplayName: Луч
+	ArcScepterHeld.DisplayName: "{$Items.ArcScepter.DisplayName}"
+	WulfrumBeam.DisplayName: Плазменный луч
+	WulfrumShrapnelEnemy.DisplayName: Вульфрумовая шрапнель
+	OverdriveWulfrumLaser.DisplayName: Сверхзаряженный вульфрумовый лазер
+}
+
+EventMessages.ScrapRushStart: Mods.WulfrumExpansion.EventMessages.ScrapRushStart
+BossChecklistIntegration.ScrapRush.EntryName: Осада металлолома
+
+Tiles: {
+	AmalgamationTrophyTile.MapEntry: Трофей босса
+	SystematicDefianceMusicBoxTile.MapEntry: Музыкальная шкатулка
+}
