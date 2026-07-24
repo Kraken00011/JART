@@ -244,7 +244,7 @@ Items: {
 	}
 
 	WulfrumSpringerBanner: {
-		DisplayName: Знамя вульфрумового прыгуна
+		DisplayName: Знамя вульфрумового пружинника
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumSpringer.DisplayName}"
 	}
 
@@ -267,7 +267,7 @@ Items: {
 NPCs: {
 	WulfrumRepairUnit.DisplayName: Вульфрумовый дрон-ремонтник
 	WulfrumHauler.DisplayName: Вульфрумовый перевозчик
-	WulfrumSpringer.DisplayName: Вульфрумовый прыгун
+	WulfrumSpringer.DisplayName: Вульфрумовый пружинник
 	WulfrumBeacon.DisplayName: Вульфрумовый пилон
 	WulfrumExcavatorHead.DisplayName: Вульфрумовый копатель
 	WulfrumExcavatorBody.DisplayName: Вульфрумовый копатель
