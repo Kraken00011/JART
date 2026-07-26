@@ -1,6 +1,6 @@
 v{ModVersion}
 Переводы:
 - Добавлен перевод Calamity Overdrive
-- Небольшие изменения в переводе Calamity Simple Whips Addon
+- Небольшие изменения в переводе Calamity Simple Whip Addon
 Другие изменения:
 - нет

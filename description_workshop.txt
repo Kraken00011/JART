@@ -14,6 +14,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 
 [h3]Средние моды[/h3]
 [list]
+[*] Calamity Simple Whip Addon (на странице мода находится сильно устаревшая версия перевода)
 [*] Enchanted Moons
 [*] Evil Bosses Rework
 [*] Fargo Rush Mod
@@ -22,7 +23,6 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Jungle Bosses Rework
 [*] Ophioid - A Boss fight mod
 [*] Revengeance+
-[*] Calamity Simple Whip Addon
 [*] Spirit Classic Bosses Rework
 [*] Unofficial Calamity Bard & Healer
 [*] Unofficial SOTS Bard, Thrower and Healer
@@ -41,6 +41,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Boss Cursor
 [*] Calamity Crossmod Vulnerabilities
 [*] Calamity Future Bosses Revived
+[*] Calamity Overdrive
 [*] Calamity Treads
 [*] Clamity Music
 [*] Cosmic Elemental Returns

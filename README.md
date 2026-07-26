@@ -39,6 +39,7 @@
 - [Boss Cursor](https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149)
 - [Calamity Crossmod Vulnerabilities](https://steamcommunity.com/sharedfiles/filedetails/?id=3351534238)
 - [Calamity Future Bosses Revived](https://steamcommunity.com/sharedfiles/filedetails/?id=3652044516)
+- [Calamity Overdrive](https://steamcommunity.com/sharedfiles/filedetails/?id=3748746256)
 - [Calamity Treads](https://steamcommunity.com/sharedfiles/filedetails/?id=3040406362)
 - [Celestial Shield](https://steamcommunity.com/sharedfiles/filedetails/?id=2832463123)
 - [Clamity Music](https://steamcommunity.com/sharedfiles/filedetails/?id=3161277410)
