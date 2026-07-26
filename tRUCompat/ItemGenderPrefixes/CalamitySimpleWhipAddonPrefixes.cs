@@ -32,7 +32,6 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "NightButterfly",
                 "ActiasAliena",
                 "EtaCarinae",
-                "GildedReliquary",
                 "LeatherGrip",
                 "SilkGrip",
                 "RubberGrip",
