@@ -5,7 +5,7 @@ RecipeGroups: {
 
 Items: {
 	WoodenWhip: {
-		DisplayName: Древесный хлыст
+		DisplayName: Деревянный хлыст
 		Tooltip: "1,07x множитель урона от метки призывателя"
 	}
 
