@@ -1,0 +1,39 @@
+// CarrotZombie.DisplayName: Carrot Zombie
+
+Ninja: {
+	// DisplayName: Ninja
+
+	TownNPCMood: {
+		// Content: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.Content}"
+		// LoveSpace: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LoveSpace}"
+		// NoHome: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.NoHome}"
+		// LikeBiome: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LikeBiome}"
+		// DislikeBiome: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.DislikeBiome}"
+		// LoveNPC: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LoveNPC}"
+		// LikeNPC: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LikeNPC}"
+		// DislikeNPC: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.DislikeNPC}"
+		// HateNPC: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.HateNPC}"
+		// Princess_LovesNPC: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.Princess_LovesNPC}"
+		// LikeNPC_Princess: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LikeNPC_Princess}"
+		// FarFromHome: Я слишком далеко от дома.
+		// DislikeCrowded: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.DislikeCrowded}"
+		// HateCrowded: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.HateCrowded}"
+		// LoveBiome: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.LoveBiome}"
+		// HateBiome: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.HateBiome}"
+	}
+}
+
+ExhaustedNinja: {
+	// DisplayName: Exhausted Ninja
+
+	TownNPCMood: {
+		// Content: Я довольный.
+		// NoHome: Терпеть не могу, когда у меня нет дома.
+		// FarFromHome: Я слишком далеко от дома.
+		// LoveSpace: Я люблю, когда так много пространства.
+		// DislikeCrowded: Мне не нравится то, как здесь людно.
+		// HateCrowded: Я ненавижу то, как здесь людно.
+		// LikeNPC_Princess: Мне нравится {NPCName}.
+		// Princess_LovesNPC: Мне нравится {NPCName}.
+	}
+}

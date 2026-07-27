@@ -9,7 +9,7 @@ BloodMoonDefeated: {
 
 		Blood moons can now occur randomly each night, or be forcefully conjured using a Bloody Tear [i:BloodMoonStarter].
 
-		(Подсказка: Bloody Tears [i:BloodMoonStarter] are rarely dropped by Grooms and Brides, that rarely spawn in Graveyards!)
+		(Подсказка: Кровавые слёзы [i:BloodMoonStarter] редко могут выпадать с are rarely dropped by Grooms and Brides, that rarely spawn in Graveyards!)
 		'''
 	Tooltip: Пережить кровавую луну
 }
@@ -23,7 +23,7 @@ DreadnautilusDefeated: {
 
 		The Dreadnautilus is a rare and viscious mollusk that surfaces during the toughest blood moons and is rarely reeled up when fishing during it.
 		'''
-	Tooltip: Одержать победу над Дреднаутилусом
+	Tooltip: Одержать победу над дреднаутилусом
 }
 
 SolarEclipseDefeated: {
@@ -45,34 +45,34 @@ OOAT1Defeated: {
 	Title: Армия древних
 	Contents:
 		'''
-		Delay the invasion of the Old One's Army by defeating the Dark Mage, a master conjurer leading a horde of skeletal servants.
+		Задержите вторжение армии Древних убийством тёмного мага - мастерского волшебника, ведущего за собой орды скелетов.
 
-		The Old One's Army can be summoned by placing an Eternia Crystal [i:DD2ElderCrystal] onto an Eternia Crystal Stand [i:DD2ElderCrystalStand]. Both can be purchased from the Tavernkeep.
+		Армию Древних можно призвать размещением кристала Этернии [i:DD2ElderCrystal] на стойку для кристала Этернии [i:DD2ElderCrystalStand]. Эти предметы можно купить у трактирщика.
 		'''
-	Tooltip: Одержать победу над армией древних - 1
+	Tooltip: Одержать победу над армией Древних - 1
 }
 
 OOAT2Defeated: {
-	Title: Армия древних (Реванш)
+	Title: Армия Древних (Реванш)
 	Contents:
 		'''
 		Repel the second invasion of the Old One's
 		Army by defeating the Ogre, a nasty brute with a fondness for clubbing.
 
-		The Ogre will only start march with the army after the defeat of a Mechanical Boss. [i:MechanicalEye][i:MechanicalWorm][i:MechanicalSkull]
+		Огр и его армия выйдут на бой только после победы над одним из механических боссов. [i:MechanicalEye][i:MechanicalWorm][i:MechanicalSkull]
 		'''
-	Tooltip: Одержать победу над армией древних - 2
+	Tooltip: Одержать победу над армией Древних - 2
 }
 
 OOAT3Defeated: {
-	Title: Армия древних (Последний рубеж)
+	Title: Армия Древних (Последний рубеж)
 	Contents:
 		'''
 		Defeat the strongest forces the Old One's Army can muster by felling the great Betsy.
 
-		Betsy will only take flight with the army after the defeat of Golem [i:LihzahrdAltar].
+		Бэтси вылетит со своей армией только после победы над Големом // Betsy will only take flight with the army after the defeat of Golem [i:LihzahrdAltar].
 		'''
-	Tooltip: Одержать победу над армией древних - 3
+	Tooltip: Одержать победу над армией Древних - 3
 }
 
 // ------------------------
@@ -86,7 +86,7 @@ GoblinArmyDefeated: {
 
 		The goblin army may come to wreck havoc and dismay at any point, but will immediately approach if invoked using a Goblin Battle Standard [i:GoblinBattleStandard].
 		'''
-	Tooltip: Defeat the Goblin Army
+	Tooltip: Одержать победу над армией гоблинов
 }
 
 PiratesDefeated: {
@@ -99,7 +99,7 @@ PiratesDefeated: {
 
 		The pirates may heave-ho and anchor down come any dawn, but will set their sails immediately if you find a special Pirate Map [i:PirateMap] from Ocean mobs.
 		'''
-	Tooltip: Defeat the Pirate Invasion
+	Tooltip: Одержать победу над вторжение пиратов
 }
 
 // <!> below doesnt need "how to", thats in a base quest before it <!>

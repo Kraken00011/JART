@@ -367,13 +367,8 @@ Items: {
 	}
 
 	CataclysmicGauntletVoid: {
-		DisplayName: Катаклизмическая рукавица
-		Tooltip:
-			'''
-			Наполняет ваши атаки серной энергией для нанесения ударов ближнего боя с высоким уроном
-			Имеет дополнительный эффект, если катастрофический длинный меч находится в соседнем слоте справа от неё
-			'Катаклизм!'
-			'''
+		DisplayName: {$Items.CataclysmicGauntlet.DisplayName}
+		Tooltip: {$Items.CataclysmicGauntlet.Tooltip}
 	}
 
 	CataclysmicGauntlet: {
@@ -387,12 +382,8 @@ Items: {
 	}
 
 	CatastrophicLongbladeVoid: {
-		DisplayName: Катастрофический длинный меч
-		Tooltip:
-			'''
-			Выстреливает в направлении курсора катастрофическим лучом серной энергии
-			Имеет дополнительный эффект, если катаклизмическая перчатка находится в соседнем слоте справа от него
-			'''
+		DisplayName: {$Items.CatastrophicLongblade.DisplayName}
+		Tooltip: {$Items.CatastrophicLongblade.Tooltip}
 	}
 
 	CatastrophicLongblade: {
@@ -677,13 +668,8 @@ Items: {
 	}
 
 	ThunderboltActionSniperVoid: {
-		DisplayName: Громовая снайперская винтовка
-		Tooltip:
-			'''
-			Стреляет мощными, высокоскоростными пулями
-			Также выстреливает молнией, наполненной пустотной энергией
-			Нажмите ПКМ, чтобы отдалить
-			'''
+		DisplayName: {$Items.ThunderboltActionSniper.DisplayName}
+		Tooltip: {$Items.ThunderboltActionSniper.Tooltip}
 	}
 
 	ThunderboltActionSniper: {

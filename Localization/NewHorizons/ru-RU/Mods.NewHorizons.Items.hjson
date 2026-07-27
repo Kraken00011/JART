@@ -1,0 +1,888 @@
+StarWand: {
+	// DisplayName: Звёздный жезл
+	// Tooltip: ""
+}
+
+Rock: {
+	// DisplayName: Камень
+	// Tooltip: ""
+}
+
+BoStuff: {
+	// DisplayName: Бо-посох
+	// Tooltip: ""
+}
+
+RopeWhip: {
+	// DisplayName: Верёвочный хлыст
+	// Tooltip: ""
+}
+
+WandOfMana: {
+	// DisplayName: Жезл маны
+	// Tooltip: Используйте, пока вы стоите на месте, чтобы восстановить 5 ед. маны
+}
+
+RottenCarrot: {
+	// DisplayName: Гнилая морковь
+	// Tooltip: ""
+}
+
+CorruptedCarrot: {
+	// DisplayName: Искажённая морковь
+	// Tooltip: ""
+}
+
+NinjasShuriken: {
+	// DisplayName: Сюрикен ниндзя
+	// Tooltip: ""
+}
+
+EyeOnStick: {
+	// DisplayName: Глаз на палке
+	// Tooltip: ""
+}
+
+HungryWorm: {
+	// DisplayName: Голодный червь
+	// Tooltip: ""
+}
+
+CrimerasTongue: {
+	// DisplayName: Язык химеры
+	// Tooltip: ""
+}
+
+Scorcher: {
+	// DisplayName: Выжигатель
+	// Tooltip: ""
+}
+
+BloodSpiller: {
+	// DisplayName: Blood Spiller
+	// Tooltip: ""
+}
+
+BoneKama: {
+	// DisplayName: Bone Kama
+	// Tooltip: ""
+}
+
+NightDagger: {
+	// DisplayName: Night Dagger
+	// Tooltip: ""
+}
+
+GlovesOfAgility: {
+	// DisplayName: Gloves Of Agility
+	// Tooltip: Increases throwing speed by 12%
+}
+
+HookLaucher: {
+	// DisplayName: Hook Laucher
+	// Tooltip: ""
+}
+
+MonocleOfTheMarksmanGold: {
+	// DisplayName: Monocle Of The Marksman
+	// Tooltip: Increases ranged critical strike chance by 4
+}
+
+MonocleOfTheMarksmanPlatinum: {
+	// DisplayName: Monocle Of The Marksman
+	// Tooltip: Increases ranged critical strike chance by 4
+}
+
+HandicraftedBlunderbuss: {
+	// DisplayName: Handicrafted Blunderbuss
+	// Tooltip: ""
+}
+
+Repeater: {
+	// DisplayName: Repeater
+	// Tooltip: ""
+}
+
+Carrot: {
+	// DisplayName: Carrot
+	// Tooltip: Barely edible, but can be cooked
+}
+
+TinyCarrot: {
+	// DisplayName: Tiny Carrot
+	// Tooltip: You can plant not only in good soil...
+}
+
+ScrollOfGenin: {
+	// DisplayName: Scroll Of Genin
+	// Tooltip: Allows you to throw two throwing at once
+}
+
+ShurikenWheel: {
+	// DisplayName: Shuriken Wheel
+	// Tooltip: Enables auto attack for throwing
+}
+
+CarrotCupcake: {
+	// DisplayName: Carrot Muffin
+	// Tooltip: Slightly increases stats
+}
+
+CarrotJuice: {
+	// DisplayName: Carrot Juice
+	// Tooltip: Increases critical strike chance by 3
+}
+
+MoltenDagger: {
+	// DisplayName: Molten Dagger
+	// Tooltip: ""
+}
+
+HandicraftedFlamethrower: {
+	// DisplayName: Handicrafted Flamethrower
+	// Tooltip: ""
+}
+
+RottenCloak: {
+	// DisplayName: Rotten Cloak
+	// Tooltip: Increases ranged damage and critical strike chance by 3%
+}
+
+RottenLeggings: {
+	// DisplayName: Rotten Leggings
+	/* Tooltip:
+		'''
+		Increases ranged damage and critical strike chance by 2%
+		Increases movement speed by 5%
+		''' */
+}
+
+RottenScarf: {
+	// DisplayName: Rotten Scarf
+	// Tooltip: Increases ranged damage and critical strike chance by 2%
+	/* SetBonus:
+		'''
+		Increases ranged damage and critical strike chance by 2%
+		Increases movement speed by 10%
+		''' */
+}
+
+MeteoriteBattery: {
+	// DisplayName: Meteorite Battery
+	// Tooltip: Increases laser weapon damage by 5% while wielding the weapon.
+}
+
+HoneyStaff: {
+	// DisplayName: Honey Staff
+	// Tooltip: ""
+}
+
+Naginata: {
+	// DisplayName: Naginata
+	// Tooltip: ""
+}
+
+PyroChest: {
+	// DisplayName: Pyromancer Chest
+	/* Tooltip:
+		'''
+		Increases damage and critical strike chance by 6%
+		Increases mana by 50
+		''' */
+}
+
+PyroHat: {
+	// DisplayName: Pyromancer Hat
+	/* Tooltip:
+		'''
+		Increases damage and critical strike chance by 6%
+		Increases mana by 50
+		''' */
+	/* SetBonus:
+		'''
+		Increases magic attack speed by 2% and reduces mana cost by 20%
+		Increases magic damage by 10%
+		''' */
+}
+
+PyroLegwear: {
+	/* Tooltip:
+		'''
+		Increases damage and critical strike chance by 6%
+		Increases running speed by 10%
+		''' */
+	// DisplayName: Pyromancer Legwear
+}
+
+BonespikeStaff: {
+	// Tooltip: Right click to summon Pinwheel
+	// DisplayName: Bonespike Staff
+}
+
+MythrilKnife: {
+	// DisplayName: Mythril Knife
+	// Tooltip: ""
+}
+
+ShinobisGloves: {
+	// DisplayName: Shinobis Gloves
+	/* Tooltip:
+		'''
+		"You will not be able to equip Gloves Of Agility"
+		Enables auto attack for throwing
+		Increases throwing speed by 12%
+		''' */
+}
+
+Onigiri: {
+	// Tooltip: Slightly increases stats
+	// DisplayName: Onigiri
+}
+
+BeastLeggings: {
+	// Tooltip: Increases running speed by 15%
+	// DisplayName: Beast Leggings
+}
+
+BeastHelmet: {
+	// Tooltip: Increases critical strike ranged by 10
+	// DisplayName: Beast Helmet
+	// SetBonus: Increased armor penetration by 2
+}
+
+BeastBreastplate: {
+	// Tooltip: Increases ranged damage by 7%
+	// DisplayName: Beast Breastplate
+}
+
+NightGlaive: {
+	// DisplayName: Night Glaive
+	// Tooltip: ""
+}
+
+TitaniumWarhammer: {
+	// DisplayName: Titanium Warhammer
+	// Tooltip: ""
+}
+
+OrichalcumKama: {
+	// DisplayName: Orichalcum Kama
+	// Tooltip: ""
+}
+
+AshenBreastplate: {
+	// DisplayName: Ashen Breastplate
+	// Tooltip: Increased damage of throwing by 5%
+}
+
+AshenLeggins: {
+	// DisplayName: Ashen Leggins
+	// Tooltip: Increased damage of throwing by 5%
+}
+
+AshenShroud: {
+	// DisplayName: Ashen Shroud
+	// Tooltip: Increased damage of throwing by 5%
+	// SetBonus: Increased critical strike chance of throwing by 10
+}
+
+MythrilJavelin: {
+	// Tooltip: ""
+	// DisplayName: Mythril Javelin
+}
+
+AdamantiteDagger: {
+	// DisplayName: Adamantite Jet-Blade
+	// Tooltip: ""
+}
+
+CobaltKunai: {
+	// Tooltip: Throws 3 kunai at once
+	// DisplayName: Cobalt Kunai
+}
+
+CrystalDagger: {
+	// DisplayName: Crystal Dagger
+	// Tooltip: ""
+}
+
+SkyCape: {
+	// DisplayName: Sky Cape
+	// Tooltip: Increased damage and critical strike of throwing by 3%.
+}
+
+SkyHood: {
+	// DisplayName: Sky Hood
+	// Tooltip: Increased damage and critical strike of throwing by 2%.
+	/* SetBonus:
+		'''
+		You feel light
+		Increases running speed by 30%
+		Increases jump height
+		''' */
+}
+
+SkyPants: {
+	// DisplayName: Sky Pants
+	// Tooltip: Increased damage and critical strike of throwing by 2%.
+}
+
+TitaniumHelm: {
+	// DisplayName: Titanium Helm
+	/* Tooltip:
+		'''
+		You will dodge the next attack
+		Increased damage of throwing by 16%
+		Increases critical strike chance of throwing by 10
+		''' */
+	// SetBonus: Attacking generates a defensive barrier of titanium shards
+}
+
+PalladiumWaraxe: {
+	// DisplayName: Palladium Waraxe
+	// Tooltip: Increases life regeneration, defense and damage after hitting an enemy
+}
+
+AncientScrap: {
+	// DisplayName: Ancient Scrap
+	// Tooltip: ""
+}
+
+AdamantiteHelm: {
+	// DisplayName: Adamantite Helm
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 14%
+		Increases critical strike chance of throwing by 8
+		''' */
+	// SetBonus: Increased running speed by 20% and throwing attack speed by 5%
+}
+
+CobaltHelm: {
+	// DisplayName: Cobalt Helm
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 10%
+		Increases critical strike chance of throwing by 8
+		''' */
+	// SetBonus: Increased attack speed of throwing by 15%
+}
+
+MythrilHelm: {
+	// DisplayName: Mythril Helm
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 12%
+		Increases critical strike chance of throwing by 5
+		''' */
+	/* SetBonus:
+		'''
+		Increased attack speed of throwing by 12%
+		Increases critical strike chance of throwing by 5
+		''' */
+}
+
+OrichalcumHelm: {
+	// DisplayName: Orichalcum Helm
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 7%
+		Increases critical strike chance of throwing by 12
+		Increased running speed by 10%
+		''' */
+	// SetBonus: Flower petals will fall on your target for extra damage
+}
+
+PalladiumHelm: {
+	// DisplayName: Palladium Helm
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 9%
+		Increases critical strike chance of throwing by 9
+		Increased attack speed of throwing by 5%
+		''' */
+	// SetBonus: Greatly increases life regeneration after striking an enemy
+}
+
+Hachimaki: {
+	// DisplayName: Hachimaki
+	/* Tooltip:
+		'''
+		Allows the player dash
+		Double tap a direction
+		''' */
+}
+
+NinjaEmblem: {
+	// DisplayName: Ninja Emblem
+	// Tooltip: 15% increased throwing damage
+}
+
+BigLens: {
+	// DisplayName: Big Lens
+	// Tooltip: ""
+}
+
+BlazingSaws: {
+	// DisplayName: Blazing Saws
+	// Tooltip: ""
+}
+
+TheSeaBeast: {
+	// DisplayName: The Sea Beast
+	// Tooltip: "[c/ff0000:Devitem]"
+}
+
+ScarletGungnir: {
+	// DisplayName: Scarlet Gungnir
+	// Tooltip: "[c/ff0000:Devitem]"
+}
+
+Wristblade: {
+	// Tooltip: ""
+	// DisplayName: Wristblade
+}
+
+ScrollOfChunin: {
+	/* Tooltip:
+		'''
+		"You will not be able to equip Scroll Of Genin"
+		Allows you to throw two throwing at once
+		Increases throwing speed by 8%
+		''' */
+	// DisplayName: Scroll Of Chunin
+}
+
+Windblade: {
+	// Tooltip: ""
+	// DisplayName: Windblade
+}
+
+WristbladeOfWind: {
+	/* Tooltip:
+		'''
+		"You will not be able to equip Shinobis Gloves"
+		You can dodge attacks while dashing
+		Reload time 30 seconds
+		Double tap a direction
+		Enables auto attack for throwing
+		Increases throwing speed by 5%
+		''' */
+	// DisplayName: Wristblade Of Wind
+}
+
+LivingWoodHat: {
+	// Tooltip: Increases magic damage by 6%
+	// SetBonus: Increases mana by 20
+	// DisplayName: Living Wood Hat
+}
+
+LivingWoodGreaves: {
+	// Tooltip: ""
+	// DisplayName: Living Wood Greaves
+}
+
+LivingWoodCrown: {
+	// Tooltip: Increases minion slot by 1
+	// SetBonus: Increases mana by 20
+	// DisplayName: Living Wood Crown
+}
+
+LivingWoodBreastplate: {
+	// Tooltip: Reduced mana consumption by 5%
+	// DisplayName: Living Wood Breastplate
+}
+
+HallowedHelm: {
+	/* Tooltip:
+		'''
+		Increased damage of throwing by 18%
+		Increases critical strike chance of throwing by 12
+		''' */
+	/* SetBonus:
+		'''
+		You will dodge the next attack
+		After successfully dodge, you get a buff that increases critical strike chance by 10
+		''' */
+	// DisplayName: Hallowed Helm
+}
+
+Carnwennan: {
+	// Tooltip: ""
+	// DisplayName: Carnwennan
+}
+
+ChlorophyteJavelin: {
+	// Tooltip: ""
+	// DisplayName: Chlorophyte Javelin
+}
+
+ClockworkShotgun: {
+	// DisplayName: Clockwork Shotgun
+	// Tooltip: ""
+}
+
+Graverobber: {
+	// DisplayName: Graverobber
+	// Tooltip: ""
+}
+
+NanotechBoots: {
+	// DisplayName: Nanotech Boots
+	/* Tooltip:
+		'''
+		Increases damage and critical strike chance of thrown weapons by 5%
+		Increases running speed by 12%
+		''' */
+}
+
+NanotechBreastplate: {
+	// DisplayName: Nanotech Breastplate
+	// Tooltip: Increases damage and critical strike chance of thrown weapons by 10%
+}
+
+NanotechHelmet: {
+	// DisplayName: Nanotech Helmet
+	// Tooltip: Increases damage and critical strike chance of thrown weapons by 5%
+	/* SetBonus:
+		'''
+		Increases throwing weapon speed by 10%
+		If you have less than half health, a holographic copy of your armor appears
+		Which attacks enemies
+		''' */
+}
+
+NanoJetpack: {
+	// DisplayName: Nano Jetpack
+	// Tooltip: Allows flight and slow fall
+}
+
+ScrollOfJonin: {
+	// DisplayName: Scroll Of Jonin
+	/* Tooltip:
+		'''
+		"You will not be able to equip Scroll Of Genin and Scroll Of Chunin"
+		Allows you to throw three throwing at once
+		Increases throwing speed by 12%
+		''' */
+}
+
+LeatherQuiver: {
+	// DisplayName: Leather Quiver
+	// Tooltip: Increases damage and shooting speed of bows by 5%
+}
+
+OutlawAcket: {
+	// DisplayName: Outlaw Acket
+	// Tooltip: Increases ranged combat speed by 10%
+}
+
+OutlawBandana: {
+	// DisplayName: Outlaw Bandana
+	// Tooltip: Increases ranged critical strike chance by 5
+	// SetBonus: 15% chance to not waste ammo
+}
+
+OutlawPants: {
+	// DisplayName: Outlaw Pants
+	// Tooltip: Increases running speed by 10%
+}
+
+NanoStar: {
+	// Tooltip: ""
+	// DisplayName: Nano Star
+}
+
+Ukulele: {
+	// DisplayName: Ukulele
+	/* Tooltip:
+		'''
+		There is a 5% chance that lightning will strike an enemy when you hit them
+		It will also hit nearby enemies
+		[c/00b0ff:...and his music was electric]
+		''' */
+}
+
+FlareCannon: {
+	// DisplayName: Flare Cannon
+	// Tooltip: ""
+}
+
+LooseCannon: {
+	// DisplayName: Loose Cannon
+	// Tooltip: Uses bombs as ammunition
+}
+
+HealingScepter: {
+	// DisplayName: Healing Scepter
+	/* Tooltip:
+		'''
+		Test item
+		When hitting a player, heals him
+		Works a little poorly
+		''' */
+}
+
+SpaceCowboy: {
+	// Tooltip: Right mouse button shoots faster but has poor accuracy
+	// DisplayName: Space Cowboy
+}
+
+HealTosser: {
+	// DisplayName: Heal Tosser
+	// Tooltip: ""
+}
+
+GraniteCharger: {
+	// DisplayName: Granite Charger
+	/* Tooltip:
+		'''
+		Holds to load weapon
+		The second charge deals 2x more damage
+		''' */
+}
+
+DemolitionistWest: {
+	// Tooltip: ""
+	// DisplayName: Demolitionist West
+}
+
+SpitterStaff: {
+	// Tooltip: ""
+	// DisplayName: Spitter Staff
+}
+
+HymnOfProtection: {
+	// Tooltip: When used, gives you and nearby players a 6 defense buff
+	// DisplayName: Hymn Of Protection
+}
+
+GelCanister: {
+	// Tooltip: Throw it at your enemies and set it on fire
+	// DisplayName: Gel Canister
+}
+
+LightMageHat: {
+	// DisplayName: Light Mage Hat
+	// Tooltip: Increases magic damage and critical chance by 10%
+	// SetBonus: When you damage an enemy, you have a 12% chance to heal yourself for 1 to 20
+}
+
+LightMagePants: {
+	// DisplayName: Light Mage Pants
+	/* Tooltip:
+		'''
+		Increases magic damage by 5%
+		Increases running speed by 10%
+		''' */
+}
+
+LightMageRobe: {
+	// DisplayName: Light Mage Robe
+	/* Tooltip:
+		'''
+		Increases magic damage and critical chance by 5%
+		Increases mana by 40
+		''' */
+}
+
+NightMageCape: {
+	// DisplayName: Night Mage Cape
+	// Tooltip: Increases magic damage and critical chance by 5%
+}
+
+NightMageHat: {
+	// DisplayName: Night Mage Hat
+	// Tooltip: Increases magic damage and critical chance by 10%
+	/* SetBonus:
+		'''
+		When dealing damage to an enemy, there is a chance that projectiles will appear from it that deal damage
+		Increases mana by 40
+		''' */
+}
+
+NightMagePants: {
+	// DisplayName: Night Mage Pants
+	/* Tooltip:
+		'''
+		Increases magic damage by 5%
+		Increases running speed by 10%
+		''' */
+}
+
+WyvernHunterBreastplate: {
+	// DisplayName: Wyvern Hunter Breastplate
+	/* Tooltip:
+		'''
+		Increases archer damage by 5%
+		Increases the archer's critical chance and attack speed by 5%
+		''' */
+}
+
+WyvernHunterHeadgear: {
+	// DisplayName: Wyvern Hunter Headgear
+	/* Tooltip:
+		'''
+		Increases archer damage by 15%
+		Increases the archer's critical chance and attack speed by 10%
+		''' */
+	// SetBonus: Increases armor penetration of arrows by 12%
+}
+
+WyvernHunterPants: {
+	// DisplayName: Wyvern Hunter Pants
+	/* Tooltip:
+		'''
+		Increases archer damage by 5%
+		Increases the archer's critical chance and attack speed by 5%
+		Increases running speed by 10%
+		''' */
+}
+
+RustyAxe: {
+	// DisplayName: Rusty Axe
+	// Tooltip: ""
+}
+
+Kunai: {
+	// DisplayName: Kunai
+	// Tooltip: ""
+}
+
+AdamantiteClusterGrenade: {
+	// DisplayName: Adamantite Cluster Grenade
+	// Tooltip: ""
+}
+
+DarkVolley: {
+	// DisplayName: Dark Volley
+	// Tooltip: ""
+}
+
+GammaBlade: {
+	// DisplayName: Gamma Blade
+	// Tooltip: ""
+}
+
+Pulsar: {
+	// DisplayName: Pulsar
+	// Tooltip: ""
+}
+
+NeutronCloak: {
+	// DisplayName: Neutron Cloak
+	// Tooltip: ""
+}
+
+NeutronHood: {
+	// DisplayName: Neutron Hood
+	/* Tooltip:
+		'''
+		Increases throwing damage by 15%
+		Increases critical throwing chance by 10%
+		''' */
+	/* SetBonus:
+		'''
+		You will be able to avoid a fatal outcome
+		After avoiding lethal damage you gain 100 HP and are given 2 seconds of invulnerability
+		Reload time 1 minute
+		''' */
+}
+
+NeutronLeggings: {
+	// DisplayName: Neutron Leggings
+	/* Tooltip:
+		'''
+		Increases throwing damage by 10%
+		Increases critical throwing chance by 10%
+		Increases running speed by 15%
+		''' */
+}
+
+NeutronMantle: {
+	// DisplayName: Neutron Mantle
+	/* Tooltip:
+		'''
+		Increases throwing damage by 10%
+		Increases critical throwing chance by 10%
+		Increases the throwing attack speed by 12%
+		''' */
+}
+
+CrystalGrenade: {
+	// DisplayName: Crystal Grenade
+	// Tooltip: ""
+}
+
+IncendiaryGrenade: {
+	// DisplayName: Incendiary Grenade
+	// Tooltip: ""
+}
+
+ReinforcedMiningHelmet: {
+	// DisplayName: Reinforced Mining Helmet
+	// Tooltip: ""
+}
+
+ReinforcedMiningLeggear: {
+	// DisplayName: Reinforced Mining Leggear
+	// Tooltip: ""
+}
+
+ReinforcedMiningСhest: {
+	// DisplayName: Reinforced MiningСhest
+	// Tooltip: ""
+}
+
+WarpBlade: {
+	// DisplayName: Warp Blade
+	/* Tooltip:
+		'''
+		"You will not be able to equip Shinobis Gloves and Wristblade Of Wind"
+		You can dodge attacks while dashing
+		Reload time 28 seconds
+		Double tap a direction
+		Enables auto attack for throwing
+		Increases throwing speed by 10%
+		''' */
+}
+
+DarkCore: {
+	// DisplayName: Dark Core
+	// Tooltip: ""
+}
+
+WyvernFur: {
+	// DisplayName: Wyvern Fur
+	// Tooltip: ""
+}
+
+NeutronDrill: {
+	// DisplayName: Neutron Drill
+	// Tooltip: ""
+}
+
+NeutronHamaxe: {
+	// DisplayName: Neutron Hamaxe
+	// Tooltip: ""
+}
+
+NeutronPickaxe: {
+	// DisplayName: Neutron Pickaxe
+	// Tooltip: ""
+}
+
+NeutronChainsaw: {
+	// Tooltip: ""
+	// DisplayName: Neutron Chainsaw
+}
+
+ExplosiveFlare: {
+	// DisplayName: Explosive Flare
+	// Tooltip: ""
+}
+
+FlamingFlare: {
+	// DisplayName: Flaming Flare
+	// Tooltip: ""
+}

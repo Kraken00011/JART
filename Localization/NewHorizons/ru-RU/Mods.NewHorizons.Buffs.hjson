@@ -1,0 +1,64 @@
+KillerBunnyBuff: {
+	DisplayName: Кролик
+	Description: За вас сражается самый обыкновенный кролик
+}
+
+EyeBuff: {
+	DisplayName: Летающий демонический глаз
+	Description: За вас сражается демонический глаз
+}
+
+HawkEyeBuff: {
+	DisplayName: Соколиный глаз
+	Description: Increases critical strike chance by 3
+}
+
+RighteousAngerBuff: {
+	DisplayName: Праведный гнев
+	Description: Increases critical strike chance by 10
+}
+
+CooldownPlayerDodge: {
+	DisplayName: Dodge Cooldown
+	Description: You won't be able to dodge
+}
+
+ReadyPlayerDodgeBuff: {
+	DisplayName: Рывок
+	Description: Урон от следующей вражеской атаки будет нивелирован
+}
+
+HymnOfProtectionBuff: {
+	DisplayName: Hymn Of Protection
+	Description: Increased armor by 6
+}
+
+SlimepalmedDebuff: {
+	DisplayName: Slimepalmed Debuff
+	Description: ""
+}
+
+FlammableDebuff: {
+	DisplayName: Flammable Debuff
+	Description: ""
+}
+
+DarkVeil: {
+	DisplayName: Тёмная вуаль
+	Description: You will be able to avoid a fatal outcome
+}
+
+Unveiled: {
+	DisplayName: Безвуальный
+	Description: Тёмная вуаль перезаряжается
+}
+
+WarpDodge: {
+	DisplayName: Warp Dodge
+	Description: You will dodge the attack
+}
+
+CooldownWarpDodge: {
+	DisplayName: Warp Dodge Cooldown
+	Description: You won't be able to dodge
+}

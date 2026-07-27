@@ -103,17 +103,17 @@ Chapter0: {
 
 			In Terraria, Houses require specific conditions to be valid:
 
-			- 60 blocks of space, covered with background walls
+			- 60 блоков свободного пространства, covered with background walls
 
-			- A chair [i:WoodenChair] and table [i:WoodenTable] (your
-			workbench [i:WorkBench] counts as a table too!)
+			- Стул [i:WoodenChair] и стол [i:WoodenTable] (ваш
+			верстак [i:WorkBench] также считается за стол!)
 
-			- A lightsource [i:Torch]
+			- Источник света [i:Torch]
 
-			- An entryway (try doors [i:WoodenDoor] or
-			platforms [i:WoodPlatform])
+			- Вход (для этого вы можете использовать двери [i:WoodenDoor] или
+			платформы [i:WoodPlatform])
 			''' */
-		// Tooltip: Build and move an NPC into a house
+		// Tooltip: Постройте дом и заселите в него любого НИПа
 	}
 
 	// --------------
@@ -280,7 +280,7 @@ Chapter0: {
 			Some herbs [i:Daybloom] only bloom at morning, some townsfolk only sell certain items at night, certain enemies only spawn during certain times, and so on.
 
 			Кроме этого, некоторые интересные события происходят
-			только вов время определённых фаз луны!
+			только во время определённых фаз луны!
 
 			Утро начинается в 4:30, а ночь в 19:30.
 
@@ -304,7 +304,7 @@ Chapter0: {
 }
 
 Chapter1: {
-	// Name: Пре-Хардмод
+	// Name: Пре-хардмод
 
 	ProgressionInfo: {
 		// Title: Recommended Combat Progression

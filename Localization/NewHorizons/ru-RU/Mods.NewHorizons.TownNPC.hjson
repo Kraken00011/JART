@@ -1,0 +1,62 @@
+Ninja: {
+	Dialogue: {
+		// MyName: My name is {0} and I'm ninja. And in gratitude I can teach you how to be ninja as well!
+		// Basic1: I have no idea how I ended up being trapped within that giant slimy creature. The last thing I remember is taking on a strange-looking crown I found.
+		// Basic2: When you fight your enemy, you must always be prepaired to die. Always go all in.
+		// Basic3: Clear your mind! There's only you and your foe. Nothing else matters!
+		// Basic4: Your techique is lacking. Train harder!
+		// Basic5: You can copy my technique all you want. Without understanding you will remain an amateur.
+		// Basic6: Always remember what you are fighting for!
+		// Special1: I cannot belive {0} thinks I'm not Japanese enough! I know about Japan more than anyone else!
+		// BloodMoon1: Let them come. I'll show them power of the ninja!
+		// BloodMoon2: Let's get this party started!
+		// BloodMoon3: It is time to sharpen my ninja skills!
+		// Evil: I can sense demons lurking around...
+		// Night: Each time I look into the night sky, I wonder what shall the new dawn bring us?
+		// Rain1: Let the rain wash away your anger and sorrow.
+		// Rain2: The summer rain is always so warm and soothing...
+		// Thunderstorm1: I always wanted to become as fast as the lightning. I must train harder!
+		// Thunderstorm2: Do you hear that? Raiden is furious.
+		// Wind1: Death is like the wind - always by my side.
+		// Windy31: Follow the wind, but watch your back.
+		// Graveyard1: This place smells like a battlefield...
+		// Graveyard2: The death takes on guise of the crow.
+		// Exhausted: ...Where am I? Am I finally free? You! Arigato for saving me!
+	}
+
+	Mood: {
+		// NoHome: Don't mind me, I'm just a ronin looking for a way home.
+		// DislikeCrowded: There are too many people around! I cannot meditate properly.
+		// LoveSpace: Such a calm and delightful day in the dojo...
+		// LoveBiome: There's nothing more beautiful than a forest during sakura blossom season! I feel myself truly at home.
+		// LikeBiome: This place reminds me of the mountain Fuji's peak. I like it here.
+		// DislikeBiome: The moisture here makes my armor rust. And rusty armor is a shame for any warrior!
+		// HateBiome: I'm barelly keeping my sakura bonsai alive! This place is the dead and dry wasteland and there's nothing beatiful about it.
+		// LoveNPC: At last, I've finally been able to reunite with my dear brother. All thanks to you!
+		// LikeNPC: Both I and {NPCName} share love for a good drink. Though he certainly lacks a sophistication to really get into sake.
+		// DislikeNPC: How dares {NPCName} make fun of my ninjutsu? Firearms will never replace a cold steel!
+		// Content: I feel inner peace.
+		// LikeNPC_Princess: I showed her highness, {NPCName} - sama, my manga collection and it made her so excited! I feel flattered!
+		// Princess_LovesNPC: "{NPCName} is so cool and I love his comic books!"
+	}
+
+	// Name1: Erikku
+	// Name2: Raian
+	// Name3: Tairaa
+	// Name4: Goodon
+	// Name5: Kurisu
+	// Name6: Furanki
+	// Name7: Aizakku
+	// Name8: Jakku
+	// Name9: Eduwaado
+	// Name10: Makkusu
+}
+
+Vanilla: {
+	Guide: {
+		// Ninja1: Don't mind my brother. He may seem odd, but he's a great guy!
+		// Ninja2: Wanna hear a secret? {N} is not his real name. He just took his old one and made it more..."Japanese"?
+		// Ninja3: Both me and {N} were ment to become the Guides. But then he found some random manga magazines...
+		// Ninja4: I'm so happy to see my little brother again! I can't wait to hear all the fascinating stories about his journey!
+	}
+}
