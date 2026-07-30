@@ -110,10 +110,10 @@ TheDestroyerDefeated: {
 	Title: Земледвиг
 	Contents:
 		'''
-		Defeat the Destroyer, a collossal burrowing
-		machine capable of wrecking entire biomes.
+		Одержите победу над Уничтожителем - колоссальным копателем,
+		способным разрывать целые биомы.
 
-		The Destroyer will tunnel through the world of Terraria during Hardmode and may arrive naturally, or be called using a Mechanical Worm [i:MechanicalWorm].
+		Уничтожитель начнёт раскапывать туннели по миру Террарии в Хардмоде, а прийти он сможет самостоятельно в одну из случайных ночей или же после использования механического червя [i:MechanicalWorm].
 		'''
 	Tooltip: Одержать победу над Уничтожителем
 }
@@ -122,8 +122,8 @@ TheTwinsDefeated: {
 	Title: Глаз на всех
 	Contents:
 		'''
-		Defeat The Twins, mechanical observers of
-		the night that blaze and laser all they see.
+		Одержите победу над Близнецами - механическими ночными наблюдателями,
+		выжигающими всё, что находят в поле своего зрения.
 
 		The Twins will patrol around the world of Terraria during Hardmode and may arrive
 		naturally, or be called using a Mechanical Eye [i:MechanicalEye].
@@ -135,7 +135,7 @@ SkeletronPrimeDefeated: {
 	Title: Без стальных костей
 	Contents:
 		'''
-		Defeat Skeletron Prime, a malicious machine instilling fear on all who are unfortunate to come across it in the cold nights.
+		Одержите победу над Скелетроном Праймом - злобной машине, наводящую страх на всех, кому на не посчастливилось с ним столкнуться в тени морозной ночи.
 
 		Skeletron Prime will terrorize the world of Terraria during Hardmode and may arrive
 		naturally, or be called using a Mechanical Skull [i:MechanicalSkull].

@@ -34,7 +34,7 @@ public partial class CombatTextPatch : ModSystem
             "ENRAGE IS NEAR!" => "БОСС СКОРО ВОЙДЁТ В ЯРОСТЬ!",
             // Infernal Eclipse API
             "REALITY COMPROMISED" => "РЕАЛЬНОСТЬ РУШИТСЯ",
-            "THE CLOWN HAS BEEN ENGAGED." => "КЛОУН ВЫШЕЛ ПОИГРАТЬ.",
+            "THE CLOWN HAS BEEN ENGAGED." => "КЛОУН ВЫШЕЛ НА ОХОТУ.",
             "VENGEANCE." => "МЕСТЬ.",
             "SUFFER." => "СТРАДАЙ.",
             _ => text
