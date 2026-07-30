@@ -15,7 +15,8 @@ internal class InfernalEclipseAPIPrefixes : ModSystem
             tru.Call("AddFeminineItems", eclipse, new string[]
             {
                 "NovaBomb",
-                "StellarSabre"
+                "StellarSabre",
+                "SplitFirebrand"
             });
 
             tru.Call("AddNeuterItems", eclipse, new string[]
@@ -25,7 +26,7 @@ internal class InfernalEclipseAPIPrefixes : ModSystem
                 "TheChickenWing",
                 "ShatteredSubcommunity"
             });
-            
+
             tru.Call("AddPluralItems", eclipse, new string[]
             {
                 "The454CasullandTheJackal"

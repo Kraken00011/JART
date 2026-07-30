@@ -1,6 +1,6 @@
 v{ModVersion}
 Переводы:
-- Добавлен перевод Calamity Overdrive
+- Обновлены переводы IEoR и Thrower Unification до последней версии
 - Небольшие изменения в переводе Calamity Simple Whip Addon
 Другие изменения:
-- нет
+- Исправлена ошибка в загрузке модов при игре с Gensokyo, Discordya и JART одновременно

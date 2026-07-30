@@ -1,6 +1,25 @@
-IntroScreen.AEWIntroScreen.TextToDisplay:
-	'''
-	ХРАНИТЕЛЬ БЕЗДНЫ
-	ПЕРВОЗДАННЫЙ ЗМИЙ
-	'''
-Status.MultiplayerWarning: Infernal Eclipse of Ragnarok: Официально, Infernum Mode НЕ поддерживает мультиплеер, и из-за этого в нём есть довольно много различных ошибок, связанных с этим. Хоть этот мод старается исправлять разные ошибки при игре в мультиплеере, вы всё ещё можете их встретить. Пожалуйста, не сообщайте о найденных ошибках команде Infernum Mode, лучше напишите о них на нашем Discord-сервере (https:discord.gg/ieor).
+IntroScreen: {
+	AEWIntroScreen.TextToDisplay:
+		'''
+		ХРАНИТЕЛЬ БЕЗДНЫ
+		ПЕРВОЗДАННЫЙ ЗМИЙ
+		'''
+	BossRushIntroText1.TextToDisplay:
+		'''
+		ИСПЫТАНИЕ КСЕРОКА
+		АНСАМБЛЬ ШУТОВ
+		'''
+	HypnosDraedonScreen.TextToDisplay:
+		'''
+		КОСМИЧЕСКИЙ ИНЖЕНЕР
+		ДРЭЙДОН
+		'''
+}
+
+Status: {
+	MultiplayerWarning: Infernal Eclipse of Ragnarok: Официально, Infernum Mode НЕ поддерживает мультиплеер, и из-за этого в нём есть довольно много различных ошибок, связанных с этим. Хоть этот мод старается исправлять разные ошибки при игре в мультиплеере, вы всё ещё можете их встретить. Пожалуйста, не сообщайте о найденных ошибках команде Infernum Mode, лучше напишите о них на нашем Discord-сервере (https:discord.gg/ieor).
+	TwinsForcefieldSummonSpazmatism: СПА-МК4: ЗАЩИТА ПРОРВАНА. ИНИЦИИРУЮ ПРОЦЕДУРУ ФФЛД-17ЕЦФ9.
+	TwinsForcefieldSummonRetinazer: РЕТ-МК7: ЗАЩИТА ПРОРВАНА. ИНИЦИИРУЮ ПРОЦЕДУРУ ФФЛД-17ЕЦФ9.
+	TwinsFinalPhaseSpazmatism: ПА-МК4: ВТОРИЧНАЯ ЕДИНИЦА НЕ ОБНАРУЖЕНА. СЖИГАНИЕ ИЗБЫТОЧНЫХ ЗАПАСОВ ТОПЛИВА.
+	TwinsFinalPhaseRetinazer: РЕТ-МК7: ВТОРИЧНАЯ ЕДИНИЦА НЕ ОБНАРУЖЕНА. СЖИГАНИЕ ИЗБЫТОЧНЫХ ЗАПАСОВ ТОПЛИВА.
+}
