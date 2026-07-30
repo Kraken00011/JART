@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class TheDepthsPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("TheDepths") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.TheDepthsFix && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.TheDepthsFix && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

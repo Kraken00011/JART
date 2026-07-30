@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class InfernalEclipseAPIPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("InfernalEclipseAPI") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.InfernalEclipseLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.InfernalEclipseLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

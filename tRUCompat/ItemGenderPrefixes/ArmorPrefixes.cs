@@ -1219,7 +1219,6 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "IntergelacticCloche",
                 "StatigelFoxMask",
                 "TarragonChapeau",
-                "TarragonParagonCrown",
                 "VictideAmmoniteHat",
                 "VoidFaquirChapeau"
             });

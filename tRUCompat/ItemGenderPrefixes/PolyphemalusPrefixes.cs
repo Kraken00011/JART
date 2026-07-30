@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class PolyphemalusPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("Polyphemalus") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.PolyphemalusLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.PolyphemalusLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class StartingWeaponsPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("StartingWeapons") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.StartingWeaponsLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.StartingWeaponsLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

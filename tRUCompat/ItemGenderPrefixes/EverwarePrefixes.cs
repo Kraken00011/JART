@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 internal class EverwarePrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("Everware") && ModLoader.HasMod("CalamityRuTranslate") && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

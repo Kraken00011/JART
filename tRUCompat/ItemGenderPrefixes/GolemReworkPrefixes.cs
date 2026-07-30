@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class GolemReworkPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("GolemRework") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.GolemReworkLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.GolemReworkLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

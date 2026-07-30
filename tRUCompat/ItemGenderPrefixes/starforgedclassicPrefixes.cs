@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class starforgedclassicPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("starforgedclassic") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.starforgedclassicLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.starforgedclassicLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

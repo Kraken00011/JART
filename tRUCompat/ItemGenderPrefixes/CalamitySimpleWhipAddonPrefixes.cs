@@ -4,10 +4,7 @@ using JAtRT.Core.Config;
 
 internal class CalamitySimpleWhipAddonPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModLoader.HasMod("CalamitySimpleWhipAddon") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.CalamitySimpleWhipAddonLocalization && Language.ActiveCulture.Name == "ru-RU";
-    }
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.CalamitySimpleWhipAddonLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

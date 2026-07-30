@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class WulfrumExpansionPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("WulfrumExpansion") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.WulfrumExpansionLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.WulfrumExpansionLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

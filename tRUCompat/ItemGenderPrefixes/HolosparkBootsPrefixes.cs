@@ -4,7 +4,7 @@ using JAtRT.Core.Config;
 
 internal class HolosparkBootsPrefixes : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("HolosparkBoots") && ModLoader.HasMod("CalamityRuTranslate") && JARTLocalizationConf.Instance.HolosparkBootsLocalization && Language.ActiveCulture.Name == "ru-RU";
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HolosparkBootsLocalization && Language.ActiveCulture.Name == "ru-RU";
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
