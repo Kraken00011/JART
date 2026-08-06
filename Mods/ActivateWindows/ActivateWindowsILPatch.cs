@@ -36,7 +36,7 @@ public class ActivateWindowsImgILPatch : ILPatcher
             Logging.PublicLogger.Warn("[JAtRT] ActivateWindows/ValentinesMenuStylePatch: строка не найдена!");
             return;
         }
-
+        
         cursor.Next.Operand = "JAtRT/Assets/ActivateWindows_ru";
     };
 }
