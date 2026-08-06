@@ -43,6 +43,6 @@ public class ActivateWindowsImgILPatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "JART-Main/Assets/ActivateWindows_ru";
+        cursor.Next.Operand = "JAtRT/Assets/ActivateWindows_ru";
     };
 }

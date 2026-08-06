@@ -36,6 +36,6 @@ public class BossNameDisplayFontPatch : ILPatcher
             return;
         }
 
-        cursor.Next.Operand = "JART-Main/Assets/Fonts/BossTitleCyrillic";
+        cursor.Next.Operand = "JAtRT/Assets/Fonts/BossTitleCyrillic";
     };
 }

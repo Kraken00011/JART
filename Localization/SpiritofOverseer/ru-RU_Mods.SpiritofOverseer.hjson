@@ -198,15 +198,15 @@ Configs: {
 
 	ReworkTogglesConfig: {
 		DisplayName: Конфигурация переработок боссов
-		
+
 		voyager: {
 			Label: "[i:SpiritMod/StarplateMask] Звёздопанцирный странник"
 			Tooltip: Включает/Выключает переработку Звёздопанцирного странника.
 		}
 
 		dusking: {
-			Label: "[i:SpiritMod/DuskingMask] Король мрака"
-			Tooltip: Включает/Выключает переработку Короля мрака.
+			Label: "[i:SpiritMod/DuskingMask] Сумрачный король"
+			Tooltip: Включает/Выключает переработку Сумрачного короля.
 		}
 
 		atlas: {
