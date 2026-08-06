@@ -1,6 +1,5 @@
 using Terraria.Localization;
 using Terraria.ModLoader;
-using JAtRT.Core.Config;
 
 internal class HomewardRagnarokPrefixes : ModSystem
 {

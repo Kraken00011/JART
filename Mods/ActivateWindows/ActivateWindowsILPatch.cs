@@ -1,12 +1,6 @@
-using System;
 using System.Reflection;
-using System.Text.RegularExpressions;
-using Microsoft.Xna.Framework;
 using MonoMod.Cil;
-using Mono.Cecil.Cil;
 using JAtRT.Core.MonoMod;
-using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;

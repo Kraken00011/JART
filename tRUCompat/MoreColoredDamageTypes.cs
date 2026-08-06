@@ -1,11 +1,5 @@
-using System;
 using System.Collections.Generic;
-using System.Reflection;
 using Microsoft.Xna.Framework;
-using JAtRT.Common;
-using JAtRT.Common.Utilities;
-using JAtRT.Core.Config;
-using JAtRT.Core.MonoMod;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.Localization;

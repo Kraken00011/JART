@@ -131,17 +131,17 @@ Configs: {
 
 		Calamity: {
 			Label: Calamity
-			Tooltip: Включает/Выключает объединение для класса Разбойник (Rogue) из Calamity.
+			Tooltip: Включает/Выключает объединение для класса разбойник (Rogue) из Calamity.
 		}
 
 		Vitality: {
 			Label: Vitality
-			Tooltip: Включает/Выключает объединение для класса Кровавый охотник (Blood Hunter) из Vitality.
+			Tooltip: Включает/Выключает объединение для класса кровавый охотник (Blood Hunter) из Vitality.
 		}
 
 		SacredTools: {
 			Label: Shadows of Abaddon
-			Tooltip: Включает/Выключает объединение для класса Ревенант (Revenant) из Shadows of Abaddon.
+			Tooltip: Включает/Выключает объединение для класса ревенант (Revenant) из Shadows of Abaddon.
 		}
 
 		TooltipOverride: {
