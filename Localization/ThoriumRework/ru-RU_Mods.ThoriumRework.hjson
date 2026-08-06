@@ -1,27 +1,28 @@
 /* PhotosensitivityWarning:
 	'''
 	ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ: мод Thorium Helheim добавляет множество мерцающих эффектов! Особенно во время битв с боссами!
-	Если у вас имеется повышенная светочувствительность, советую зайти в «Настройки» -> «Конфигурации модов» -> «Thorium Helheim» -> «Визуальные настройки» и выставить все ползунки на 0.
-	Если вы не хотите видеть это оповещение каждый раз, когда заходите в мир, отключите его в конфигурации этого же мода.
+	Если у вас имеется повышенная светочувствительность, рекомендуется перейти в «Настройки» -> «Конфигурация модов» -> «Thorium Helheim» -> «Визуальные настройки» и выставить там все ползунки на 0.
+	Если вы не хотите видеть это оповещение каждый раз, как заходите в мир, вы можете отключить его в конфигурации этого же мода.
 	''' */
 
 ProgressionTweaks: {
 	// GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
 	// AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
-	// AbyssionAndGolem: Могущественный культ появляется на краю мира!
+	// AbyssionAndGolem: Могущественный культ образовывается на краю мира!
 }
 
 ItemDescriptions: {
 	/* ChampionsRebuttal:
 		'''
-		Дважды нажмите в нужном направлении, чтобы совершить таранный рывок, позволяющий пробираться сквозь врагов без получения урона
-		Twice the damage you take or the damage you deal ramming are added to your next attack
-		Up to a maximum of 300 bonus damage can be attained
+		Дважды нажмите в нужном направлении, чтобы совершить таранящий рывок
+		Добавляет удвоенную сумму полученного или нанесённого урона во время рывка к урону от вашей следующей атаки
+		Может нанести до 300 ед. дополнительного урона
 		''' */
 	/* Rapier:
 		'''
 		Нанесение урона временно увеличивает сопротивление урону
-		Нажмите ПКМ, чтобы взмахивать как обычно // Right-click to swing normally, damage dealt is increased if stabbed more than thrice
+		Нажмите ПКМ, чтобы взмахивать как обычно
+		При обычных взмах может увеличить свой урон при нанесении более 3 ударов по врагу
 		''' */
 	// DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60
 	// DreamWeaversHood: Увеличивает максимальный запас здоровья на 100
@@ -83,18 +84,18 @@ ItemDescriptions: {
 	/* ChampionSwiftBlade:
 		'''
 		Стреляет мощной ударной волной, наносящей 50% урона оружия
-		При каждой 3 и 4 атаке дополнительно призывает проекции меча, атакующие в позиции курсора
+		При каждой 3 и 4 атаке дополнительно призывает проекции меча, атакующие в точке курсора
 		''' */
 	/* ChampionsTrifectaShot:
 		'''
-		Charge the bow to increase arrow power
+		Заряжайте лук, чтобы увеличить его силу
 		Overcharge the bow to convert the arrow into powerful elemental arrows
 		Certain arrow types can only be converted into one elemental arrow type
 		''' */
 	/* GraniteCrossbow:
 		'''
-		Every 3 shots, a volley of 3 granite arrows are shot which overflow enemies
-		Overflowed enemies take 5% more damage
+		Каждые 3 выстрела выпускает каскад из 3 гранитных стрел, перегружающих поражённых врагов энергией
+		Перегруженные враги получают на 5% больше урона
 		''' */
 	/* IllumiteBarrage:
 		'''
@@ -105,35 +106,29 @@ ItemDescriptions: {
 		'''
 		Для атаки использует 2 иллюмитовых клинка одновременно
 		Blasts nearby illuminated targets with illuminating beams
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно будут получать на 10% больше урона
 		''' */
 	/* IllumiteBlaster:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно будут получать на 10% больше урона
 		''' */
 	/* IllumiteShotbow:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно будут получать на 10% больше урона
 		''' */
 	/* IllumiteSpear:
 		'''
 		При каждой 3 атаке выстреливает проекцией иллюмитового копья Every third attack shoots out an illumite spear image
 		The image shoots illuminating beams at nearby targets
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно будут получать на 10% больше урона
 		''' */
 	/* IllumiteScythe:
 		'''
 		Creates light slashes on a nearby enemy
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно будут получать на 10% больше урона
 		''' */
-	// CobaltPopper: Во время использования постепенно увеличивает защиту
-	// PalladiumSubmachineGun: Во время использования постепенно увеличивает скорость регенерации здоровья
-	// MythrilPelter: Во время использования иногда может удвоить свою скорость атаки
-	// OrichalcumPelter: Во время использования значительно увеличивает скорость атаки с течением времени
-	// AdamantiteCarbine: Во время использования постепенно увеличивает шанс критического удара
-	// TitaniumRifle: Во время использования постепенно увеличивает пробивание брони
 	/* PyroclastStaff:
 		'''
 		Shoots a pattern of 1 to 5 pyroclastic fireballs
@@ -172,17 +167,12 @@ ItemDescriptions: {
 		Damage will sunder enemies, increasing the damage they take by 10%
 		Every third attack shoots magnetic payloads that home into sundered enemies
 		''' */
-	/* LodeStoneQuickDraw:
-		'''
-		Damage will sunder enemies, increasing the damage they take by 10%
-		Every third attack shoots magnetic payloads that home into sundered enemies
-		''' */
 	/* ValadiumBow:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
 		''' */
-	/* ValadiumFoeBlaster:
+	/* ValadiumBlaster:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
@@ -522,6 +512,15 @@ Items: {
 			'''
 			Throws tiny soul eaters that enrages after some distance
 			While enraged, they pierce indefinitely and can hit the same target multple times
+			''' */
+	}
+
+	DuelistSheath: {
+		// DisplayName: Duelist Sheath
+		/* Tooltip:
+			'''
+			Swords strike critically for {0}% if held and not used for {1} seconds
+			Getting hit or landing a critical strike increases melee attack speed and critical strike chance for {1} seconds
 			''' */
 	}
 
@@ -1276,8 +1275,12 @@ Configs: {
 				'''
 				Multiplies the movement speed of Thorium's bosses by this amount.
 				Limited to 2x speed as any higher breaks bosses.
-				1.35x is recommended for Infernum.
 				''' */
+		}
+
+		sheathFix: {
+			// Label: Sheath Fixes and Improvements
+			// Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords
 		}
 
 		terraItemsFix: {
@@ -1555,36 +1558,6 @@ Configs: {
 			// Tooltip: ""
 		}
 
-		CobaltPopper: {
-			// Label: "[i:ThoriumMod/CobaltPopper]Cobalt Popper"
-			// Tooltip: ""
-		}
-
-		PalladiumSubmachineGun: {
-			// Label: "[i:ThoriumMod/PalladiumSubmachineGun]Palladium Submachine Gun"
-			// Tooltip: ""
-		}
-
-		MythrilPelter: {
-			// Label: "[i:ThoriumMod/MythrilPelter]Mythril Pelter"
-			// Tooltip: ""
-		}
-
-		OrichalcumPelter: {
-			// Label: "[i:ThoriumMod/OrichalcumPelter]Orichalcum Pelter"
-			// Tooltip: ""
-		}
-
-		AdamantiteCarbine: {
-			// Label: "[i:ThoriumMod/AdamantiteCarbine]Adamantite Carbine"
-			// Tooltip: ""
-		}
-
-		TitaniumRifle: {
-			// Label: "[i:ThoriumMod/TitaniumRifle]Titanium Rifle"
-			// Tooltip: ""
-		}
-
 		HellishHalberd: {
 			// Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
 			// Tooltip: ""
@@ -1615,11 +1588,6 @@ Configs: {
 			// Tooltip: ""
 		}
 
-		LodeStoneQuickDraw: {
-			// Label: "[i:ThoriumMod/LodeStoneQuickDraw]Lodestone Quickdraw"
-			// Tooltip: ""
-		}
-
 		LodeStoneClaymore: {
 			// Label: "[i:ThoriumMod/LodeStoneClaymore]Lodestone Claymore"
 			// Tooltip: ""
@@ -1630,8 +1598,8 @@ Configs: {
 			// Tooltip: ""
 		}
 
-		ValadiumFoeBlaster: {
-			// Label: "[i:ThoriumMod/ValadiumFoeBlaster]Valadium Foe Blaster"
+		ValadiumBlaster: {
+			// Label: "[i:ThoriumMod/ValadiumBlaster]Valadium Blaster"
 			// Tooltip: ""
 		}
 
@@ -1757,11 +1725,6 @@ Configs: {
 		IllumiteScythe: {
 			// Label: "[i:ThoriumMod/IllumiteScythe]Illumite Scythe"
 			// Tooltip: ""
-		}
-
-		FallenPaladinArmor: {
-			// Label: "[i:ThoriumMod/FallenPaladinCuirass]Fallen Paladin Armor"
-			// Tooltip: This is a nerf, this armor set is stupid broken
 		}
 
 		TerrariumHolyScythe: {
@@ -1958,7 +1921,7 @@ Configs: {
 
 Achievements: {
 	CoreCollapse: {
-		// FriendlyName: Подрыв ядра // Core Collapse
+		// FriendlyName: Подрыв ядра
 		// Description: Уничтожить все ядра Звёздного разведчика, потратив на это не более 6 секунд. // Defeat all three of Star Scouter's cores in under six seconds
 	}
 

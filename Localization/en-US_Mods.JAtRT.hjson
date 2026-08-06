@@ -26,6 +26,11 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Mech Bosses Rework.
 		}
 
+		/*ThoriumReworkLocalization: {
+			Label: Thorium Helheim
+			Tooltip: Включает/Выключает перевод мода Thorium Helheim.
+		}*/
+		
 		# Средние моды
 
 		SevenItemsFromMinecraftLocalization: {
@@ -78,13 +83,26 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Unofficial SOTS Bard, Thrower & Healer.
 		}
 
-		# v1.3.2.0
-
 		CalamitySimpleWhipAddonLocalization: {
 			Label: "Calamity Simple Whip Addon"
 			Tooltip: Включает/Выключает перевод мода Calamity Simple Whip Addon.
 		}
 
+		CalamityBardHealerLocalization: {
+			Label: "Unofficial Calamity Bard & Healer"
+			Tooltip: Включает/Выключает перевод мода Unofficial Calamity Bard & Healer.
+		}
+
+		InfernalEclipseWeaponsDLCLocalization: {
+			Label: "Infernal Arsenal"
+			Tooltip: Включает/Выключает перевод мода Infernal Arsenal.
+		}
+
+		/*RedemptionBardHealerLocalization: {
+			Label: "Unofficial Redemption Bard, Thrower & Healer"
+			Tooltip: Включает/Выключает перевод мода Unofficial Redemption Bard, Thrower & Healer.
+		}*/
+		
 		# Мелкие моды
 
 		HomewardSubworldLocalization: {
@@ -292,8 +310,6 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода You.
 		}
 
-		# v1.3.1.0
-
 		CalamityShoesLocalization: {
 			Label: "Calamity Treads"
 			Tooltip: Включает/Выключает перевод мода Calamity Treads.
@@ -339,8 +355,6 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Wrath of the Beams.
 		}
 
-		# v1.3.2.0
-
 		InfernumMasterPatchLocalization: {
 			Label: "Infernum Master Patch"
 			Tooltip: Включает/Выключает перевод мода Infernum Master Patch.
@@ -355,8 +369,6 @@ Configs: {
 			Label: "Some Worm Bosses Actually Destroy Tiles"
 			Tooltip: Включает/Выключает перевод мода Some Worm Bosses Actually Destroy Tiles.
 		}
-
-		# v1.4.0.0
 
 		FutureBossesLocalization: {
 			Label: "Calamity Future Bosses Revived"
@@ -378,8 +390,6 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Shoe Slot.
 		}
 
-		# v1.4.1.0
-
 		EverwareLocalization: {
 			Label: "Everware"
 			Tooltip: Включает/Выключает перевод мода Everware.
@@ -388,6 +398,116 @@ Configs: {
 		HomewardWorldGenFixLocalization: {
 			Label: "Homeward Crossmod Worldgen Fix"
 			Tooltip: Включает/Выключает перевод мода Homeward Crossmod Worldgen Fix.
+		}
+
+		AccessoryHeartsLocalization: {
+			Label: "Accessory Hearts"
+			Tooltip: Включает/Выключает перевод мода Accessory Hearts.
+		}
+
+		ActivateWindowsLocalization: {
+			Label: "Activate Windows Mod"
+			Tooltip: Включает/Выключает перевод мода Activate Windows Mod.
+		}
+
+		AdditionalRelicsLocalization: {
+			Label: "Additional Relics"
+			Tooltip: Включает/Выключает перевод мода Additional Relics.
+		}
+
+		BeamStopsSpreadLocalization: {
+			Label: "Beam Stops Spread"
+			Tooltip: Включает/Выключает перевод мода Beam Stops Spread.
+		}
+
+		WulfrumExpansionLocalization: {
+			Label: "Calamity Overdrive"
+			Tooltip: Включает/Выключает перевод мода Calamity Overdrive.
+		}
+
+		CelestialShieldLocalization: {
+			Label: "Celestial Shield"
+			Tooltip: Включает/Выключает перевод мода Celestial Shield.
+		}
+
+		CleffyLocalization: {
+			Label: "Cleffy"
+			Tooltip: Включает/Выключает перевод мода Cleffy.
+		}
+
+		ComSlotLocalization: {
+			Label: "Community Slot"
+			Tooltip: Включает/Выключает перевод мода Community Slot.
+		}
+
+		CrownSetsLocalization: {
+			Label: "Crown Set Bonuses"
+			Tooltip: Включает/Выключает перевод мода Crown Set Bonuses.
+		}
+
+		InfernumFablesLocalization: {
+			Label: "Experimental Infernum Extension"
+			Tooltip: Включает/Выключает перевод мода Experimental Infernum Extension.
+		}
+
+		MageTweaksLocalization: {
+			Label: "InfiniteInteger's Mage Tweaks"
+			Tooltip: Включает/Выключает перевод мода InfiniteInteger's Mage Tweaks.
+		}
+
+		InfernumFablesLocalization: {
+			Label: "Inspiration Potions"
+			Tooltip: Включает/Выключает перевод мода Inspiration Potions.
+		}
+
+		MLManaFruitLocalization: {
+			Label: "Mana Fruit"
+			Tooltip: Включает/Выключает перевод мода Mana Fruit.
+		}
+
+		MoveSpeedFixLocalization: {
+			Label: "Movement Speed Fix"
+			Tooltip: Включает/Выключает перевод мода Movement Speed Fix.
+		}
+
+		MulticlassArmorsLocalization: {
+			Label: "Multiclass Armors"
+			Tooltip: Включает/Выключает перевод мода Multiclass Armors.
+		}
+
+		PinnacleReforgesLocalization: {
+			Label: "Pinnacle Reforges"
+			Tooltip: Включает/Выключает перевод мода Pinnacle Reforges.
+		}
+
+		PotionSlotsLocalization: {
+			Label: "Potion Slot"
+			Tooltip: Включает/Выключает перевод мода Potion Slot.
+		}
+
+		starforgedclassicLocalization: {
+			Label: "Starforged [Old]"
+			Tooltip: Включает/Выключает перевод мода Starforged.
+		}
+
+		UISLocalization: {
+			Label: "Ultimate Infinite Star"
+			Tooltip: Включает/Выключает перевод мода Ultimate Infinite Star.
+		}
+
+		AlternativeCompatLocalization: {
+			Label: "Unofficial Alternative Biomes Compatibility"
+			Tooltip: Включает/Выключает перевод мода Unofficial Alternative Biomes Compatibility.
+		}
+
+		NightshadeVanityCursorsLocalization: {
+			Label: "Vanity + Dyable Cursors API"
+			Tooltip: Включает/Выключает перевод мода Vanity + Dyable Cursors API.
+		}
+
+		WHummusMultiModBalancingLocalization: {
+			Label: "WHummus' Calamity/Thorium Balancing"
+			Tooltip: Включает/Выключает перевод мода WHummus' Calamity/Thorium Balancing.
 		}
 
 		# Фиксы
@@ -427,8 +547,6 @@ Configs: {
 			Tooltip: Включает/Выключает фикс перевода мода Tools Prefixes.
 		}
 
-		# v1.3.2.0
-
 		FlinxHatFix: {
 			Label: "Flinx Ushanka"
 			Tooltip: Включает/Выключает фикс перевода мода Flinx Ushanka.
@@ -438,19 +556,32 @@ Configs: {
 			Label: "Infernum Legendary and Master Patch (remastered)"
 			Tooltip: Включает/Выключает фикс перевода мода Infernum Legendary and Master Patch (remastered).
 		}
+
+		TheDepthsFix: {
+			Label: "The Depths"
+			Tooltip: Включает/Выключает перевод мода The Depths.
+		}
 	}
 
 	JARTClientCfg: {
 		DisplayName: Клиентская конфигурация
-
 		Headers.Misc: Разное
 
 		ExtraClassTags: {
-			Label: "Дополнительные классовые теги"
+			Label: "Дополнительные теги классов"
 			Tooltip:
 				'''
-				Включает/Выключает дополнительные классовые теги, появляющиеся над описанием предмета.
-				[c/DAA520:Для отображения тегов ванильных классов требуется включить Thorium Class Tags Consistency!]
+				Включает/Выключает дополнительные теги классов, появляющиеся над описанием предмета.
+				[c/DAA520:Для отображения тегов требуется включить Thorium Class Tags Consistency!]
+				'''
+		}
+
+		CBuffsForOtherMods: {
+			Label: "Иконки баффов/дебаффов"
+			Tooltip:
+				'''
+				Внедряет систему иконок баффов/дебаффов, добавляемую Calamity, в описания предметов из пары других модов, не связанных с Calamity.
+				[c/DAA520:Для работы требует Calamity Mod и Project tRU.]
 				'''
 		}
 	}

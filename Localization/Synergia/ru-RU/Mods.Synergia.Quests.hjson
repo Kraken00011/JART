@@ -17,14 +17,14 @@ Dwarf: {
 
 Hunter: {
 	// QuestName: Шепчущий рогоз
-	// QuestDescription: In the damp stillness of the swamps grows a peculiar plant known as the Whispering Reed. Its thin stalks sway even when the air is unmoving, as if stirred by voices no one else can hear. Travelers often speak of faint murmurs echoing through the marsh at dusk. Secrets carried by the reeds themselves. Some believe they are remnants of lost souls, others say it is simply the swamplings lurking.
+	// QuestDescription: Во влажных и тихих водах болот растёт драгоценное растение, известное как «шепчущий рогоз». Его узкий стебель покачивается даже в тех случаях, когда сам ветер затихает, как будто управляемый голосами, которые слышны только ему одному. Путники нередко рассказывают о том, что, как только солнце начинает светать, в болоте они начинают слышать лёгкое, едва заметное журчание. Может быть они пытаются рассказать нам какие-то тайны, известные лишь их стеблям? Одни верят в то, что это остатки заблудших душ, другие говорят, что это лишь болотники, притаившиеся в ожидании очередного недотёпы.
 	// QuestStage: Собрать шепчущую трость
 	// QuestProgress0: Спасибо тебе, ты просто невероятен!
-	// QuestProgress1: I heard stories about the swamps. They say something down there sings when the moon is high. Bring me a Whispering Reed, if you dare.
-	// QuestProgress2: Всё ещё в поисках? Болота никогда просто так не выдают свои секреты. Listen for the hum thats how you'll know you're close.
+	// QuestProgress1: Я многое слышал о болотах. They say something down there sings when the moon is high. Bring me a Whispering Reed, if you dare.
+	// QuestProgress2: Всё ещё в поисках? Болота никогда просто так не выдают свои секреты. Вслушивайся в гул болот - именно он подскажет тебе, что ты близок.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать шепчущий рогоз
-	// QuestCompleted: Так ты нашёл его - шепчущий рогоз. Тебе тоже слышаться эти голоса, верно? Держи его при себе - он помнит тех, кто слушает.
+	// QuestCompleted: Так ты нашёл его - шепчущий рогоз! Ты тоже слышал эти голоса, верно? Держи его при себе - он помнит лишь тех, кто его слушает.
 	// QuestCompletedFalse: У тебя пока что нет шепчущего рогоза.
 }
 
@@ -50,13 +50,13 @@ Ninja: {
 	// QuestProgress2: Всё ещё с пустыми руками? Хм-м-м. Уловки у кролей конечно довольно скользкие, но не настолько как твои отговорки.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать морковь
-	// QuestCompleted: Мощь, скрытая в этом овоще - совершенная маскировка. Ты хорошо постарался, мой теневой братишка.
+	// QuestCompleted: Мощь, скрытая в этом овоще - совершенная маскировка. Ты хорошо постарался, мой теневой дружище.
 	// QuestCompletedFalse: У тебя пока что не морковки.
 }
 
 Farmer: {
 	// QuestName: Еда
-	// QuestDescription: Принеси чего-нибудь поесть.
+	// QuestDescription: Принести чего-нибудь поесть.
 	// QuestStage: Собрать еды
 	// QuestProgress0: Спасибо за еду!
 	// QuestProgress1: После тяжёлого дня я так проголодался. Можешь принести мне немножко поесть?
@@ -86,10 +86,10 @@ BaseButton: Задание
 HellDwarf: {
 	// QuestName: Заточённый огонь
 	// QuestDescription: Deep within the Underworld, even the fire feels like it's trying to escape from something. Bring a bottle of hot liquid to the one who watches the ruins.
-	// QuestStage: Collect Bottled Lava
-	// QuestProgress0: Thanks for the Bottled Lava. It’s warm, but it doesn't bring any real heat.
+	// QuestStage: Собрать лаву в бутылке
+	// QuestProgress0: Спасибо тебе за эту бутылочку с ценной жидкостью. Она такая тёплая, но при этом не источающая никакого тепла.
 	// QuestProgress1: I can't even believe that I'm giving tasks to someone in such a terrible place though. I really need the bottled lava.
-	// QuestProgress2: You can't get it? No problem. Failure is the only honest thing
+	// QuestProgress2: Не можешь её найти? Не беда. Ошибки - вот что делает нас настоящими.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать лаву в банке
 	// QuestCompleted: Exactly, thank you so much. Take these magma chunks. They don't breathe, so they won't lie or hurt you.
@@ -99,14 +99,14 @@ HellDwarf: {
 HunterQuest_Frist: {
 	// QuestName: Проклятие чащи
 	// QuestDescription: Принесите череп Лотора охотнику. The horror that this druid brought in these lands cannot be described in words, even the hottest places are cursed by his presence.
-	// QuestStage: Collect the Lothor Skull
-	// QuestProgress0: Thanks for the Lothor Soul!
+	// QuestStage: Собрать череп Лотора
+	// QuestProgress0: Большое тебе человеческое спасибо за то, что смог принести мне череп Лотора!
 	// QuestProgress1: Hi again. Have you ever heard something about the Druid who became a monster? I would like to see his skull on my wall. Bring this if you're not a weakling
 	// QuestProgress2: Don't think you can do it that easily.
 	// QuestButton: Принять
 	// QuestButtonGive: Give the Skull
 	// QuestCompleted: So you beat it... Unbelievable I thought you were dead. Glad to see you, there is your reward. You said something about Orcish curse? I don't really care about it.
-	// QuestCompletedFalse: You don't have a Lothor Skull
+	// QuestCompletedFalse: У тебя пока-что не черепа Лотора.
 }
 
 DwarfQuest_Frist: {
@@ -274,18 +274,18 @@ HellDwarfQuest_Three: {
 	// QuestProgress2: I believe in you. It hides in a cave nearby - let me know when the beast is slain
 	// QuestButton: Принять
 	// QuestButtonGive: Give the remains back
-	// QuestCompleted: finally.... I can live out my life peacefully, thank you for everything, wanderer. I was scared that the same fate awaited me.
+	// QuestCompleted: Наконец-то... Я могу жить спокойно, спасибо тебе за всё, путник. I was scared that the same fate awaited me.
 	// QuestCompletedFalse: You don't have the Hellworm Scale
 }
 
 ImperianConsul: {
 	// QuestName: Начальное оружие
 	// QuestDescription: Выберите своё начальное снаряжение у НИПа {0}
-	// QuestDescription2: Разделите свой успех с НИПом по имени {0}
-	// QuestStage: Найдите себе начальное оружие
-	// QuestStage2: Вернитесь к НИПу {0}
+	// QuestDescription2: Разделите свой успех с НИПом {0}
+	// QuestStage: Найти себе начальное оружие
+	// QuestStage2: Вернуться к НИПу {0}
 	// QuestProgress0: А теперь удачи!
-	// QuestProgress1: I guess since you are new, you should go to the {0} and take some weapons!
+	// QuestProgress1: Так как ты у нас новенький, я рекомендую сходить тебе к нашему местному I guess since you are new, you should go to the {0} and take some weapons!
 	// QuestProgress2: Are you ready to set out on a journey?
 	// QuestButton: Принять
 	// QuestButtonGive: Я готов

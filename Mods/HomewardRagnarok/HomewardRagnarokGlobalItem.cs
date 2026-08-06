@@ -51,7 +51,7 @@ public partial class HomewardRagnarokGlobalItem : GlobalItem
         // Fission
         if (item.type == ModContent.ItemType<Fission>())
         {
-            ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "Vaporfied", afterMod: "Terraria");
+            ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "Vaporfied", afterName: "Tooltip0");
         }
 
         // Batter and Batter Cap

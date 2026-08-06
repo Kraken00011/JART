@@ -3,8 +3,6 @@
 
 [b][h2]Немного про мод[/h2][/b]
 Just Another RU Translator (JART) - очередной мод-русификатор, переводящий самые разные моды, у которых этого самого перевода либо нет вовсе, либо он мне просто не понравился.
-
-Хотите предложить мод на перевод? Напишите в комментариях, какой мод хотите и если он мне понравится, я добавлю его в свои планы и позже переведу.
 [h3]Крупные моды[/h3]
 [list]
 [*] Corruption Core Boss
@@ -44,6 +42,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Calamity Overdrive
 [*] Calamity Treads
 [*] Clamity Music
+[*] Community Slot
 [*] Cosmic Elemental Returns
 [*] Discordya
 [*] Equipment Modifiers & Reforging (склонение предметов из пары модов)
@@ -110,10 +109,11 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [list]
 [*] Thorium Helheim (после synergia)
 [*] Synergia и моды связанные с ней (в приоритете)
+[*] Infernal Arsenal (в приоритете)
 [*] QuestBooks
 [*] TNTerraria
 [*] Unofficial Redemption Bard, Thrower & Healer (после synergia)
-[*] Coralite (другой переводчик меня хз за что заблокал, так скорее всего не будет)
+[*] Coralite
 [*] Critical Strikes Overhaul
 [*] Quality of Life Compendium
 [*] Модов от [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url]
