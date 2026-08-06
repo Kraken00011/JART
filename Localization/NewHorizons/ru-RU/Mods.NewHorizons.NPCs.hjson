@@ -1,7 +1,7 @@
-// CarrotZombie.DisplayName: Carrot Zombie
+// CarrotZombie.DisplayName: Зомби с морковью
 
 Ninja: {
-	// DisplayName: Ninja
+	// DisplayName: Ниндзя
 
 	TownNPCMood: {
 		// Content: "{$Mods.NewHorizons.TownNPC.Ninja.Mood.Content}"
@@ -24,7 +24,7 @@ Ninja: {
 }
 
 ExhaustedNinja: {
-	// DisplayName: Exhausted Ninja
+	// DisplayName: Измотанный ниндзя
 
 	TownNPCMood: {
 		// Content: Я довольный.

@@ -10,17 +10,17 @@ EyeBuff: {
 
 HawkEyeBuff: {
 	DisplayName: Соколиный глаз
-	Description: Increases critical strike chance by 3
+	Description: Шанс критического удара увеличен на 3%
 }
 
 RighteousAngerBuff: {
 	DisplayName: Праведный гнев
-	Description: Increases critical strike chance by 10
+	Description: Шанс критического удара увеличен на 10%
 }
 
 CooldownPlayerDodge: {
-	DisplayName: Dodge Cooldown
-	Description: You won't be able to dodge
+	DisplayName: Перезарядка уклонения
+	Description: Вы не можете уклоняться
 }
 
 ReadyPlayerDodgeBuff: {
@@ -29,8 +29,8 @@ ReadyPlayerDodgeBuff: {
 }
 
 HymnOfProtectionBuff: {
-	DisplayName: Hymn Of Protection
-	Description: Increased armor by 6
+	DisplayName: Гимн защиты
+	Description: Защита увеличена на 6 ед.
 }
 
 SlimepalmedDebuff: {

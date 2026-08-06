@@ -1,6 +1,7 @@
 v{ModVersion}
 Переводы:
-- Обновлены переводы IEoR и Thrower Unification до последней версии
-- Небольшие изменения в переводе Calamity Simple Whip Addon
+- Добавлены переводы Activate Windows Mod; Infernal Arsenal; Community Slot; Additional Relics; Unofficial Redemption Bard, Thrower & Healer (WIP)
+- Обновлён перевод IEoR до последней версии
+- Небольшие изменения в нескольких переводах
 Другие изменения:
-- Исправлена ошибка в загрузке модов при игре с Gensokyo, Discordya и JART одновременно
+- нету

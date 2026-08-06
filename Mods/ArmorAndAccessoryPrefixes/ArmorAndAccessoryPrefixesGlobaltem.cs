@@ -15,9 +15,7 @@ public partial class ArmorAndAccessoryPrefixesGlobalItem : GlobalItem
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == $"Даёт {parts[1]} шанс не использовать боеприпасы")
-                {
                     tooltip.Text = $"+{parts[1]} к шансу не потратить боеприпасы";
-                }
             }
         }
     }

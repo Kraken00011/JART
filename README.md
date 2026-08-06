@@ -44,6 +44,7 @@
 - [Celestial Shield](https://steamcommunity.com/sharedfiles/filedetails/?id=2832463123)
 - [Clamity Music](https://steamcommunity.com/sharedfiles/filedetails/?id=3161277410)
 - [Cleffy: Musically sound Thorium Bards](https://steamcommunity.com/sharedfiles/filedetails/?id=3669506041)
+- [Community Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=3362195669)
 - [Cosmic Elemental Returns](https://steamcommunity.com/sharedfiles/filedetails/?id=3566616461)
 - [Crown Set Bonuses](https://steamcommunity.com/sharedfiles/filedetails/?id=3373612054)
 - [Discordya - Discord Rich Presence](https://steamcommunity.com/sharedfiles/filedetails/?id=2824854732)

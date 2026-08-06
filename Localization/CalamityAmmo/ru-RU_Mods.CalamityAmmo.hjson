@@ -10,8 +10,8 @@
 		LoveBiome: Don't even think about it, Choosing forest is just for your shopping convenience.
 		DislikeBiome: The sandstorm here makes me dirty, can I move to another place?
 		HateBiome: No cat in her right mind would jump into ocean to catch fish for dinner.
-		LikeNPC: "{NPCName}doesn't sell any scraps basically, he's pretty good."
-		LikeNPC_Princess: Why do I like {NPCName}? The official answer is: "Every NPC likes the princess." The private answer is: "The staff of resonance is too easy to use."
+		LikeNPC: "{NPCName} doesn't sell any scraps basically, he's pretty good."
+		LikeNPC_Princess: Почему мне нравится {NPCName}? The official answer is: "Every NPC likes the princess." The private answer is: "The staff of resonance is too easy to use."
 		LoveNPC: "{NPCName} chats well with me, is that because both we have animal ears?"
 		DislikeNPC: Everyday {NPCName} compete with me for business and stare at me , It's really uncomfortable.
 		HateNPC: "{NPCName} the naturally evil brat doesn't deserve to live next to me!"
@@ -154,11 +154,11 @@ Projectiles: {
 
 Items: {
 	ArcaneQuiver: {
-		DisplayName: Волшебный колчан
+		DisplayName: Магический колчан
 		Tooltip:
 			'''
 			Урон стрел зависит от дебаффа [cbuff:ManaSickness]
-			Оружие, использующее стрелы, теперь расходует ману, чтобы зачаровывать стрелы, увеличивая их урон
+			Оружие, использующее стрелы, станет расходовать ману, зачаровывая стрелы, тем самым увеличивая их урон
 			Увеличивает урон стрел соразмерно количеству оставшейся маны
 			Конвертирует любые стрелы в волшебные, если видимость аксессуара включена
 			Значительно увеличивает скорость стрел
@@ -168,8 +168,8 @@ Items: {
 	}
 
 	EvilMushroom: {
-		DisplayName: Злобный гриб
-		Tooltip: Попадание по врагу накладывает и на вас и на врага дебафф [cbuff:CalamityMod/MarkedForDeath]
+		DisplayName: Гриб зла
+		Tooltip: При попадании по врагу накладывает и на вас и на врага дебафф [cbuff:CalamityMod/MarkedForDeath]
 	}
 
 	FastHolster: {
@@ -178,22 +178,22 @@ Items: {
 			'''
 			Увеличивает скорострельность на 10%
 			Снижает шанс стрелкового критического удара на 4%
-			'Не беспокойся о своей точности. Главное - просто стреляй, а там уже и попадёшь в кого-нибудь!'
+			'Не беспокойся о своей меткости. Главное - просто стреляй, а там уже и попадёшь в кого-нибудь!'
 			'''
 	}
 
 	GrapeLauncher: {
 		DisplayName: Suspended Shotgun Shell Launcher
-		Tooltip: Fire a series of bullets after hit enemy 8 times in a row
+		Tooltip: При попадании по врагу 8 раз подряд выстреливает массивной очередью из пуль
 	}
 
 	InfectedCrabGill: {
 		DisplayName: Инфицированные крабовые жабры
 		Tooltip:
 			'''
-			Summons spores over time that will damage enemies
-			Guns have a chance to fire extra fungal round that splits on death.
-			Decrease life regeneration by 1
+			Призывает споры, наносящие урон врагам с течением времени
+			Стрельба из огнестрельного оружия может с определённым шансом выпустить дополнительную грибную пулю, разделяющуюся при столкновении
+			Снижает скорость регенерации здоровья на 1 ед.
 			'''
 	}
 
@@ -203,84 +203,85 @@ Items: {
 	}
 
 	MarvelousMycelium: {
-		DisplayName: Marvelous Mycelium
+		DisplayName: Изумительный мицелий
 		Tooltip:
 			'''
-			6% increased ranged damage and 9% increased ranged critical strike chance
-			Being hit removes these benefit for a short time and gives you Mushy
-			"Death goes life on, and life achieves death soon"
+			Увеличивает стрелковый урон на 6% и шанс критического удара на 9%
+			При получении урона кратковременно снимает эти бонусы и даёт бафф [cbuff:CalamityMod/Mushy]
+			'Death goes life on, and life achieves death soon'
 			'''
 	}
 
 	ModifiedCoil: {
-		DisplayName: Modified Coil
+		DisplayName: Модифицированная катушка
 		Tooltip:
 			'''
-			7% increased ranged damage
-			Slightly increases the velocity of ranged projectiles
-			"Exposed wires, handle carefully"
+			Увеличивает стрелковый урон на 7%
+			Немного увеличивает скорость стрелковых снарядов
+			'Осторожно! Оголённый провод'
 			'''
 	}
 
 	MushroomUnitedNations: {
-		DisplayName: Mushroom United Nations
+		DisplayName: Грибная ООН
 		Tooltip:
 			'''
-			Reduced defense by 5 and life regeneration by 2，15% increased ranged damage and 5% increased ranged critical strike chance
-			The above effect is briefly reversed after taking damage
-			Summons spores over time that will damage enemies
-			Guns have a chance to fire extral fungal round that splits on death
-			Being hit removes these benefit for a short time and gives you Mushy
-			Press [KEY] to activate Trripy buff
-			A mushroom sniper rifle hovers above your head, sniping the enemy farthest from you in range
-			Reducing chance for enemies to target you
-			"Why do I feel that our members are getting fewer and fewer?"
+			Снижает защиту на 5 ед. и скорость регенерации здоровья на 2 ед. 
+			Увеличивает стрелковый урон на 15% и шанс критического удара на 5%
+			При получении урона эффекты выше кратковременно становятся своими противоположностями
+			Призывает споры, наносящие урон врагам с течением времени
+			Стрельба из огнестрельного оружия может с определённым шансом выпустить дополнительную грибную пулю, разделяющуюся при столкновении
+			При получении урона кратковременно снимает эти бонусы и даёт бафф [cbuff:CalamityMod/Mushy]
+			Нажмите [KEY], чтобы наложить на себя бафф [cbuff:CalamityMod/Trippy]
+			Призывает над вашей головой грибную снайперскую винтовку, стреляющую в самого отдалённого от вас игрока на экране
+			Враги реже выбирают вас в качестве цели
+			'Почему наши участники продолжают спорить между собой?'
 			'''
 	}
 
 	OdddMushroom: {
-		DisplayName: Odd Mushroom
+		DisplayName: Странный гриб
 		Tooltip:
 			'''
-			Press [KEY] to activate Trripy buff
-			"You can't always trust what you see."
+			Нажмите [KEY], чтобы наложить на себя бафф [cbuff:CalamityMod/Trippy]
+			'Вы не всегда можете доверять своим глазам.'
 			'''
 	}
 
 	SuperCoil: {
-		DisplayName: Adamantite Coil
+		DisplayName: Адамантитовая катушка
 		Tooltip:
 			'''
-			Increased ranged critical strike chance based on your held weapon's use speed
-			Moderately increases the velocity of ranged projectiles
+			Увеличивает шанс стрелкового критического удара в зависимости от скорость стрельбы оружия, которого вы держите в руках
+			Умеренно увеличивает скорость стрелковых снарядов
 			'''
 	}
 
 	TitaniumCoil: {
-		DisplayName: Titanium Coil
+		DisplayName: Титановая катушка
 		Tooltip:
 			'''
-			Increased ranged damage based on your held weapon's use speed
-			Moderately increases the velocity of ranged projectiles
+			Увеличивает стрелковый урон в зависимости от скорость стрельбы оружия, которого вы держите в руках
+			Умеренно увеличивает скорость стрелковых снарядов
 			'''
 	}
 
 	WulfrumCoil: {
-		DisplayName: Wulfrum Coil
+		DisplayName: Вульфрумовая катушка
 		Tooltip:
 			'''
-			7% increased ranged damage
-			Slightly increases the velocity of ranged projectiles
+			Увеличивает стрелковый урон на 7%
+			Немного увеличивает скорость стрелковых снарядов
 			'''
 	}
 
 	AstralArrow: {
-		DisplayName: Astral Arrow
+		DisplayName: Астральная стрела
 		Tooltip: Defeat the terrors among the stars to complete our own evolution
 	}
 
 	AstralBullet: {
-		DisplayName: Astral Bullet
+		DisplayName: Астральная пуля
 		Tooltip: Defeat the terrors among the stars to complete our own evolution
 	}
 
@@ -290,53 +291,53 @@ Items: {
 	}
 
 	DazzlingAstralBullet: {
-		DisplayName: Dazzling Astral Bullet
+		DisplayName: Сверкающая астральная пуля
 		Tooltip: Planets and stars! Power for the taking!
 	}
 
 	FossilArrow: {
-		DisplayName: Fossil Arrow
+		DisplayName: Ископаемая стрела
 		Tooltip:
 			'''
-			Solid fossil smash enemy's defense
+			Твердые ископаемые разносят вражескую броню в щепки
 			Corroded fossil cause sulphuric poisoning
 			'''
 	}
 
 	FossilBullet: {
-		DisplayName: Fossil Bullet
+		DisplayName: Ископаемая пуля
 		Tooltip:
 			'''
-			Solid fossil smash enemy's defense
+			Твердые ископаемые разносят вражескую броню в щепки
 			Corroded fossil cause sulphuric poisoning
 			'''
 	}
 
 	HydrothermicArrow: {
-		DisplayName: Hydrothermic Arrow
+		DisplayName: Гидротермическая стрела
 		Tooltip:
 			'''
-			Releases hydrothermic explosion
-			"You dare strike my shield with your spear? That's gonna end with you in pieces!"
+			Вызывает гидротермический взрыв
+			'Да как ты смеешь пронзать мой щит своим жалким копьём? За это я порву тебя на куски!'
 			'''
 	}
 
 	HydrothermicBullet: {
-		DisplayName: Hydrothermic Bullet
+		DisplayName: Гидротермическая пуля
 		Tooltip:
 			'''
-			Summons a hydrothermic Volcano under the enemy
-			Hydrothermic Volcano will emit fire pillar and hydrothermic flames
-			"My body burns at over 1,400 degrees!"
+			При попадании вызывает под врагом гидротермический гейзер Summons a hydrothermic Volcano under the enemy
+			Гидротермический гейзер испускает столбы пламени и гидротермические огни
+			'Я горю при температуре в более чем 1,400 градусов!'
 			'''
 	}
 
 	NapalmBullet: {
-		DisplayName: Napalm Bullet
+		DisplayName: Напалмовая пуля
 		Tooltip:
 			'''
-			Causes Oiled and On Fire!
-			"Hehaha, a little fire never hurt nobody!"
+			Накладывает дебаффы [cbuff:Oiled] и [cbuff:OnFire]
+			'Хи-ха-ха, от небольшого огонька ещё никто не пострадал!'
 			'''
 	}
 
@@ -346,20 +347,20 @@ Items: {
 	}
 
 	WeakAstralArrow: {
-		DisplayName: Weak Astral Arrow
-		Tooltip: Defeating a Mech Behemoth infected by Astral to evolve
+		DisplayName: Ослабленная астральная стрела
+		Tooltip: Одолейте механическое нагромождение, инфицированное астральной заразой, чтобы эволюционировать
 	}
 
 	WeakAstralBullet: {
-		DisplayName: Weak Astral Bullet
-		Tooltip: Defeating a Mech Behemoth infected by Astral to evolve
+		DisplayName: Ослабленная астральная пуля
+		Tooltip: Одолейте механическое нагромождение, инфицированное астральной заразой, чтобы эволюционировать
 	}
 
 	ElementalBullet: {
-		DisplayName: Celestial Carrot
+		DisplayName: Неземная морковь
 		Tooltip:
 			'''
-			Inficts Elemental Mix
+			Накладывает дебафф Elemental Mix
 			Hits an enemy will let subsequent projectiles of the same type to receive a 100% damage bonus, linearly decay to 0 within 0.25 seconds
 			'''
 	}
@@ -383,57 +384,57 @@ Items: {
 		Tooltip:
 			'''
 			Homes in on the nearest enemy, piercing three times with decreasing damage each hit
-			"Made by pressing miserable souls into shell casings, may attract the same pitiful souls."
+			'Made by pressing miserable souls into shell casings, may attract the same pitiful souls.'
 			'''
 	}
 
 	BloodBullet: {
-		DisplayName: Blood Bullet
+		DisplayName: Кровавая пуля
 		Tooltip:
 			'''
-			Inflicts Burning Blood
+			Накладывает дебафф Burning Blood
 			Siphons health from enemies, healing you for 20% of damage dealt
-			“But at what cost?”
+			'Но какой ценой?'
 			'''
 	}
 
 	DesertFeatherArrow: {
-		DisplayName: Desert Feather Arrow
-		Tooltip: "When the feather was still on the vulture, it wasn't so fast "
+		DisplayName: Стрела из пустынных перьев
+		Tooltip: 'When the feather was still on the vulture, it wasn't so fast '
 	}
 
 	DesertFeather: {
-		DisplayName: Desert Feather
+		DisplayName: Пустынное перо
 		Tooltip: ""
 	}
 
 	ElectricArrow: {
-		DisplayName: Electric Arrow
+		DisplayName: Электрическая стрела
 		Tooltip: Chasing the storm
 	}
 
 	PearlArrow: {
-		DisplayName: Pearl Arrow
-		Tooltip: Summons pearl shard on impact
+		DisplayName: Жемчужная стрела
+		Tooltip: Выпускает жемчужные осколки при столкновении
 	}
 
 	PearlBullet: {
-		DisplayName: Pearl Bullet
+		DisplayName: Жемчужная пуля
 		Tooltip: Coats enemies in a calming nacreous sheen, slowing their movements
 	}
 
 	RottenBullet: {
-		DisplayName: Rotten Bullet
+		DisplayName: Гниющая стрела
 		Tooltip:
 			'''
-			Inflicts Brain Rot
-			Killing an enemy makes it explode into four shots
+			Накладывает дебафф [cbuff:CalamityMod/BrainRot]
+			Убийство врага разорвёт его и выпустит 4 дополнительных пули из его тела
 			'''
 	}
 
 	SPBullet: {
-		DisplayName: Sea Prism Bullet
-		Tooltip: Creates prism shards on impact
+		DisplayName: Пуля морской призмы
+		Tooltip: Выпускает морские призмы при столкновении
 	}
 
 	VictideArrow: {
@@ -455,11 +456,11 @@ Items: {
 	}
 
 	WulfrumArrow: {
-		DisplayName: Вульфрумовая стрела
+		DisplayName: Стрела из вульфрумового металлолома
 		Tooltip:
 			'''
-			"It's too heavy to make arrows at all."
-			"Really?"
+			'Этот металл слишком тяжёлый, чтобы делать из него стрелы'
+			'А да ну-у-у-у нафиг'
 			'''
 	}
 
@@ -467,9 +468,9 @@ Items: {
 		DisplayName: Пуля из вульфрумового металлолома
 		Tooltip:
 			'''
-			Выпускает слабо самонаводящиеся лучи вульфрумовой энергии
-			Лучи пробивают 10 ед. вражеской брони
-			'Это мой последний Хамон, сын'
+			Источает лучи вульфрумовой энергии с лёгкой самонаводкой
+			Лучи пробивают 10 ед. брони
+			'Это мой последний Хамон, сынок'
 			'''
 	}
 
@@ -478,8 +479,8 @@ Items: {
 		Tooltip: You should understand that darkness cannot be handled gently, we must use fire.
 		TooltipDay:
 			'''
-			A toast to all who sought to kill me!
-			You failed.
+			Тост за всех, кто пытался меня убить!
+			У вас ничего не получилось!
 			'''
 	}
 
@@ -487,7 +488,7 @@ Items: {
 		DisplayName: Жвачка
 		Tooltip:
 			'''
-			Increases view range for guns (Right click to zoom out)
+			Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)
 			When holding a gun, display a line of sight and replace cursor with a sight bead
 			'''
 	}
@@ -540,11 +541,11 @@ Items: {
 	}
 
 	SandRocket: {
-		DisplayName: Земелебойная ракетница
+		DisplayName: Землебойная ракетница
 		Tooltip:
 			'''
 			Проходит сквозь блоки и самонаводится на врагов
-			Движется быстрее находясь в песке
+			Движется быстрее, находясь в песке
 			'''
 	}
 
@@ -553,7 +554,7 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет хрупкими колючими шарами
-			Каждый 6 выстрел стреляет залпом песка
+			Каждый 6 выстрел стреляет шквалом песка
 			'''
 	}
 
@@ -571,19 +572,19 @@ Items: {
 		DisplayName: Сверкающая астральная стрела
 		Tooltip:
 			'''
-			'Посмотри на небо! Да там же все звёзды сошлись!'
+			'Посмотри на небо! Да там же звёзды сошлись!'
 			'Уверен?'
 			'''
 	}
 
 	DivineArrow: {
 		DisplayName: Божественная стрела
-		Tooltip: Призывает метеорит, волнующий даже сильнее, чем попадание Элизийца в какого-нибудь недотёпу
+		Tooltip: Вызывает метеорит, волнующий даже сильнее, чем Элизиец после попадания в какого-нибудь недотёпу
 	}
 
 	DivineBullet: {
 		DisplayName: Божественная пуля
-		Tooltip: Вызывает сильные взрывы божественного огня
+		Tooltip: Вызывает мощные взрывы божественного огня
 	}
 
 	Lore: {
@@ -604,7 +605,7 @@ Items: {
 	}
 
 	DeathMarkMagnum: {
-		DisplayName: Магнум тёмного клейма
+		DisplayName: Магнум тёмной метки
 		Tooltip:
 			'''
 			Выстрелы снижают вражескую защиту
@@ -650,8 +651,8 @@ Items: {
 		DisplayName: Трансформирующая катушка
 		Tooltip:
 			'''
-			Significantly increases the velocity of ranged projectiles
-			Ranged projectiles will cause Electrified, you are immune to Electrified
+			Значительно увеличивает скорость стрелковых снарядов
+			Даёт невосприимчивость к дебаффу [cbuff:Electrified], а ваши атаки будут накладывать его
 			A surge of electricity will flicker on the last two enemies you hit
 			'''
 	}
@@ -665,7 +666,7 @@ Items: {
 Buffs: {
 	Focus: {
 		DisplayName: Фокусировка
-		Description: Я могу делать это хоть весь день
+		Description: "'Я могу это делать хоть весь день'"
 	}
 
 	Heal: {
@@ -673,12 +674,13 @@ Buffs: {
 		Description:
 			'''
 			Скорость регенерации здоровья увеличена
-			'Сегодня тебе повезло, червяк... Нет, ничего страшного, вы ослышались'
+			'Сегодня тебе повезло, червяк...'
+			'Нет, ничего, вы ослышались'
 			'''
 	}
 
 	tideOfVictory: {
-		DisplayName: Волны победы
+		DisplayName: Волна победы
 		Description: Стрелковый урон, шанс критического удара, защиту, скорость передвижения, сопротивление урону и скорость регенерации здоровья увеличены
 	}
 }
@@ -708,9 +710,9 @@ NPCs: {
 	}
 }
 
-Bestiary.QianXing: Кошко-девочка, продающая боеприпасы, она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством денег, вы даже наверно сможете купить даже её саму (при условии, что за это вас не застрелят).
+Bestiary.QianXing: Кошкодевочка, продающая боеприпасы. Она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством монет, вы даже наверно сможете купить даже её саму (при условии, что за это вас не пристрелят).
 QX: Стерри
-Glove: Те-же самые эффекты накладываются и на стрелка
+Glove: Накладывает те же самые эффекты и на стрелковое оружие
 
 Keybinds: {
 	Odd.DisplayName: Трип
@@ -726,8 +728,8 @@ selectNearPlayer: Авто-наведение: Ближайший к игрок�
 selectNearMouse: Авто-наведение: Ближайший к курсору враг
 selectLowDefense: Авто-наведение: Ближайший к курсору враг
 selectHighDef: Авто-наведение: Враг с наибольшим показателем защиты
-Homeless1: Hmm... if you can see me, you must be a ranger!
-Homeless2: I can't believe you don't even have a room, can't you even build a basic NPC prison? Aughhhhhhhh
+Homeless1: Хмм... Если ты видишь меня? Значит ты должно быть играешь за стрелка!
+Homeless2: I can't believe you don't even have a room, can't you even build a basic NPC prison? Aughhhhhhhh.
 Any1: Why do I carrying this axe? Because it used to be a godly battle axe with 44 damage!
 Any2: If you start flipping through npc's conversation, I suggest going to find someone to join you online.
 Any3: Have you run out of ammunition materials since I came here?

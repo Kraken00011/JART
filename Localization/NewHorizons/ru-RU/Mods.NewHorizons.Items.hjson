@@ -59,276 +59,277 @@ Scorcher: {
 }
 
 BloodSpiller: {
-	// DisplayName: Blood Spiller
+	// DisplayName: Кровопроливатель
 	// Tooltip: ""
 }
 
 BoneKama: {
-	// DisplayName: Bone Kama
+	// DisplayName: Костяная кама
 	// Tooltip: ""
 }
 
 NightDagger: {
-	// DisplayName: Night Dagger
+	// DisplayName: Ночной клинок
 	// Tooltip: ""
 }
 
 GlovesOfAgility: {
-	// DisplayName: Gloves Of Agility
-	// Tooltip: Increases throwing speed by 12%
+	// DisplayName: Перчатки ловкости
+	// Tooltip: Увеличивает скорость метательных атак на 12%
 }
 
 HookLaucher: {
-	// DisplayName: Hook Laucher
+	// DisplayName: Крюкомёт
 	// Tooltip: ""
 }
 
 MonocleOfTheMarksmanGold: {
-	// DisplayName: Monocle Of The Marksman
-	// Tooltip: Increases ranged critical strike chance by 4
+	// DisplayName: Монокль стрелка
+	// Tooltip: Увеличивает шанс критического удара на 4%
 }
 
 MonocleOfTheMarksmanPlatinum: {
-	// DisplayName: Monocle Of The Marksman
-	// Tooltip: Increases ranged critical strike chance by 4
+	// DisplayName: Монокль стрелка
+	// Tooltip: Увеличивает шанс критического удара на 4%
 }
 
 HandicraftedBlunderbuss: {
-	// DisplayName: Handicrafted Blunderbuss
+	// DisplayName: Смастерённый мушкетон
 	// Tooltip: ""
 }
 
 Repeater: {
-	// DisplayName: Repeater
+	// DisplayName: Повторитель
 	// Tooltip: ""
 }
 
 Carrot: {
-	// DisplayName: Carrot
-	// Tooltip: Barely edible, but can be cooked
+	// DisplayName: Морковь
+	// Tooltip: Едва съедобная, но её можно приготовить
 }
 
 TinyCarrot: {
-	// DisplayName: Tiny Carrot
-	// Tooltip: You can plant not only in good soil...
+	// DisplayName: Мелкая морковь
+	// Tooltip: Вы ведь можете садить не только в хорошую почву...
 }
 
 ScrollOfGenin: {
-	// DisplayName: Scroll Of Genin
-	// Tooltip: Allows you to throw two throwing at once
+	// DisplayName: Свиток Генин
+	// Tooltip: Позволяет бросать 2 метательных предмета одновременно
 }
 
 ShurikenWheel: {
 	// DisplayName: Shuriken Wheel
-	// Tooltip: Enables auto attack for throwing
+	// Tooltip: Даёт автоатаку всем метательным предметам
 }
 
 CarrotCupcake: {
-	// DisplayName: Carrot Muffin
-	// Tooltip: Slightly increases stats
+	// DisplayName: Морковный кекс
+	// Tooltip: Немного увеличивает все характеристики
 }
 
 CarrotJuice: {
-	// DisplayName: Carrot Juice
-	// Tooltip: Increases critical strike chance by 3
+	// DisplayName: Морковный сок
+	// Tooltip: Увеличивает шанс критического удара на 3%
 }
 
 MoltenDagger: {
-	// DisplayName: Molten Dagger
+	// DisplayName: Раскалённый клинок
 	// Tooltip: ""
 }
 
 HandicraftedFlamethrower: {
-	// DisplayName: Handicrafted Flamethrower
+	// DisplayName: Смастерённый огнетушитель
 	// Tooltip: ""
 }
 
 RottenCloak: {
-	// DisplayName: Rotten Cloak
-	// Tooltip: Increases ranged damage and critical strike chance by 3%
+	// DisplayName: Гниющий плащ
+	// Tooltip: Увеличивает стрелковый урон и шанс критического удара на 3%
 }
 
 RottenLeggings: {
-	// DisplayName: Rotten Leggings
+	// DisplayName: Гниющие ботинки
 	/* Tooltip:
 		'''
-		Increases ranged damage and critical strike chance by 2%
-		Increases movement speed by 5%
+		Увеличивает стрелковый урон и шанс критического удара на 2%
+		Увеличивает скорость передвижения на 5%
 		''' */
 }
 
 RottenScarf: {
-	// DisplayName: Rotten Scarf
-	// Tooltip: Increases ranged damage and critical strike chance by 2%
+	// DisplayName: Гниющий шарф
+	// Tooltip: Увеличивает стрелковый урон и шанс критического удара на 2%
 	/* SetBonus:
 		'''
-		Increases ranged damage and critical strike chance by 2%
-		Increases movement speed by 10%
+		Увеличивает стрелковый урон и шанс критического удара на 2%
+		Увеличивает скорость передвижения на 10%
 		''' */
 }
 
 MeteoriteBattery: {
-	// DisplayName: Meteorite Battery
-	// Tooltip: Increases laser weapon damage by 5% while wielding the weapon.
+	// DisplayName: Метеоритный аккумулятор
+	// Tooltip: Увеличивает урон лазерных предметов на 5%
 }
 
 HoneyStaff: {
-	// DisplayName: Honey Staff
+	// DisplayName: Медовый посох
 	// Tooltip: ""
 }
 
 Naginata: {
-	// DisplayName: Naginata
+	// DisplayName: Нагината
 	// Tooltip: ""
 }
 
 PyroChest: {
-	// DisplayName: Pyromancer Chest
+	// DisplayName: Нагрудник поджигателя
 	/* Tooltip:
 		'''
-		Increases damage and critical strike chance by 6%
-		Increases mana by 50
+		Увеличивает урон и шанс критического удара на 6%
+		Увеличивает максимальный запас маны на 50
 		''' */
 }
 
 PyroHat: {
-	// DisplayName: Pyromancer Hat
+	// DisplayName: Шляпа поджигателя
 	/* Tooltip:
 		'''
-		Increases damage and critical strike chance by 6%
-		Increases mana by 50
+		Увеличивает урон и шанс критического удара на 6%
+		Увеличивает максимальный запас маны на 50
 		''' */
 	/* SetBonus:
 		'''
-		Increases magic attack speed by 2% and reduces mana cost by 20%
-		Increases magic damage by 10%
+		Увеличивает скорость магических атак на 2% 
+		Снижает расход маны на 20%
+		Увеличивает магический урон на 10%
 		''' */
 }
 
 PyroLegwear: {
+	// DisplayName: Ботинки поджигателя
 	/* Tooltip:
 		'''
-		Increases damage and critical strike chance by 6%
-		Increases running speed by 10%
+		Увеличивает урон и шанс критического удара на 6%
+		Увеличивает скорость бега на 10%
 		''' */
-	// DisplayName: Pyromancer Legwear
 }
 
 BonespikeStaff: {
-	// Tooltip: Right click to summon Pinwheel
-	// DisplayName: Bonespike Staff
+	// DisplayName: Посох костяного шпига
+	// Tooltip: Нажмите ПКМ, чтобы призвать вертушку
 }
 
 MythrilKnife: {
-	// DisplayName: Mythril Knife
+	// DisplayName: Мифриловый клинок
 	// Tooltip: ""
 }
 
 ShinobisGloves: {
-	// DisplayName: Shinobis Gloves
+	// DisplayName: Перчатки шиноби
 	/* Tooltip:
 		'''
-		"You will not be able to equip Gloves Of Agility"
-		Enables auto attack for throwing
-		Increases throwing speed by 12%
+		Даёт автоатаку всем метательным предметам
+		Увеличивает скорость метательных атак на 12%
+		Нельзя экипировать вместе с перчатками ловкости
 		''' */
 }
 
 Onigiri: {
-	// Tooltip: Slightly increases stats
-	// DisplayName: Onigiri
+	// DisplayName: Онигири
+	// Tooltip: Немного увеличивает все характеристики
 }
 
 BeastLeggings: {
-	// Tooltip: Increases running speed by 15%
-	// DisplayName: Beast Leggings
+	// DisplayName: Поножи зверя
+	// Tooltip: Увеличивает скорость бега 15%
 }
 
 BeastHelmet: {
-	// Tooltip: Increases critical strike ranged by 10
-	// DisplayName: Beast Helmet
-	// SetBonus: Increased armor penetration by 2
+	// DisplayName: Шлем зверя
+	// Tooltip: Увеличивает шанс стрелкового критического удара на 10%
+	// SetBonus: Увеличивает пробивание брони на 2 ед.
 }
 
 BeastBreastplate: {
-	// Tooltip: Increases ranged damage by 7%
-	// DisplayName: Beast Breastplate
+	// DisplayName: Нагрудник зверя
+	// Tooltip: Увеличивает стрелковый урон на 7%
 }
 
 NightGlaive: {
-	// DisplayName: Night Glaive
+	// DisplayName: Ночная глефа
 	// Tooltip: ""
 }
 
 TitaniumWarhammer: {
-	// DisplayName: Titanium Warhammer
+	// DisplayName: Титановый боевой молот
 	// Tooltip: ""
 }
 
 OrichalcumKama: {
-	// DisplayName: Orichalcum Kama
+	// DisplayName: Орихалковая кама
 	// Tooltip: ""
 }
 
 AshenBreastplate: {
-	// DisplayName: Ashen Breastplate
-	// Tooltip: Increased damage of throwing by 5%
+	// DisplayName: Пепельный нагрудник
+	// Tooltip: Увеличивает метательный урон на 5%
 }
 
 AshenLeggins: {
-	// DisplayName: Ashen Leggins
-	// Tooltip: Increased damage of throwing by 5%
+	// DisplayName: Пепельные поножи
+	// Tooltip: Увеличивает метательный урон на 5%
 }
 
 AshenShroud: {
-	// DisplayName: Ashen Shroud
-	// Tooltip: Increased damage of throwing by 5%
-	// SetBonus: Increased critical strike chance of throwing by 10
+	// DisplayName: Пепельный кожух
+	// Tooltip: Увеличивает метательный урон на 5%
+	// SetBonus: Увеличивает шанс метательного критического удара на 10%
 }
 
 MythrilJavelin: {
+	// DisplayName: Мифриловое копьё
 	// Tooltip: ""
-	// DisplayName: Mythril Javelin
 }
 
 AdamantiteDagger: {
-	// DisplayName: Adamantite Jet-Blade
+	// DisplayName: Адамантитовый джет-блэйд
 	// Tooltip: ""
 }
 
 CobaltKunai: {
-	// Tooltip: Throws 3 kunai at once
-	// DisplayName: Cobalt Kunai
+	// DisplayName: Кобальтовый кунай
+	// Tooltip: Бросает 3 куная одновременно
 }
 
 CrystalDagger: {
-	// DisplayName: Crystal Dagger
+	// DisplayName: Кристальный клинок
 	// Tooltip: ""
 }
 
 SkyCape: {
-	// DisplayName: Sky Cape
-	// Tooltip: Increased damage and critical strike of throwing by 3%.
+	// DisplayName: Небесный плащ
+	// Tooltip: Увеличивает метательный урон и шанс критического удара на 3%
 }
 
 SkyHood: {
-	// DisplayName: Sky Hood
-	// Tooltip: Increased damage and critical strike of throwing by 2%.
+	// DisplayName: Небесный капюшон
+	// Tooltip: Увеличивает метательный урон и шанс критического удара на 2%
 	/* SetBonus:
 		'''
-		You feel light
-		Increases running speed by 30%
-		Increases jump height
+		'Вы чувствуете себя легче'
+		Увеличивает скорость бега на 30%
+		Увеличивает высоту прыжка
 		''' */
 }
 
 SkyPants: {
-	// DisplayName: Sky Pants
-	// Tooltip: Increased damage and critical strike of throwing by 2%.
+	// DisplayName: Небесные поножи
+	// Tooltip: Увеличивает метательный урон и шанс критического удара на 2%
 }
 
 TitaniumHelm: {
-	// DisplayName: Titanium Helm
+	// DisplayName: Титановый шлем
 	/* Tooltip:
 		'''
 		You will dodge the next attack

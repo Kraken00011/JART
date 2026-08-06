@@ -438,10 +438,20 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\WHummusMultiModBalancing\"))
 					continue;
 
-				// 1.5.1.0
+				// 1.5.0.2
 
 				if ((!JARTLocalizationConf.Instance.WulfrumExpansionLocalization || !ModLoader.HasMod("WulfrumExpansion"))
 				&& modpath.Contains(@"JAtRT\Localization\WulfrumExpansion\"))
+					continue;
+
+				// 1.5.1.0
+
+				if ((!JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization || !ModLoader.HasMod("InfernalEclipseWeaponsDLC"))
+				&& modpath.Contains(@"JAtRT\Localization\InfernalEclipseWeaponsDLC\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.AdditionalRelicsLocalization || !ModLoader.HasMod("AdditionalRelics"))
+				&& modpath.Contains(@"JAtRT\Localization\AdditionalRelics\"))
 					continue;
 
 				// Другое

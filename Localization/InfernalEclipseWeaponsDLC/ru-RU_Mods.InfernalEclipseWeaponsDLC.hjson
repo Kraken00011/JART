@@ -1,4 +1,4 @@
-/*UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
+UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
 
 Items: {
 	TwoPaths: {
@@ -67,7 +67,7 @@ Items: {
 		Tooltip:
 			'''
 			Summons up to 10 wisps that home onto foes
-			<right> for an alternate blood spit attack 
+			<right> for an alternate blood spit attack
 			Blood spit inflicts [cbuff:CalamityMod/ArmorCrunch] and [cbuff:CalamityMod/BurningBlood]
 			'''
 	}
@@ -82,21 +82,19 @@ Items: {
 		Tooltip: ""
 	}
 
-	Weapons: {
-		Rogue: {
-			OcramKnife: {
-				DisplayName: Кинжал забытого
-				Tooltip: При скрытном ударе призывает дополнительные демонические косы, самонаводящиеся на врагов по мере ускорения
-			}
+	Weapons.Rogue: {
+		OcramKnife: {
+			DisplayName: Кинжал забытого
+			Tooltip: При скрытном ударе призывает дополнительные демонические косы, самонаводящиеся на врагов по мере ускорения
+		}
 
-			MothwingDagger: {
-				DisplayName: Крылатый мотыльковый кинжал
-				Tooltip:
-					'''
-					Бросает крылатый кинжал с лёгкой самонаводкой
-					При скрытном ударе выпускает светящиеся искры
-					'''
-			}
+		MothwingDagger: {
+			DisplayName: Крылатый мотыльковый кинжал
+			Tooltip:
+				'''
+				Бросает крылатый кинжал с лёгкой самонаводкой
+				При скрытном ударе выпускает светящиеся искры
+				'''
 		}
 	}
 
@@ -121,12 +119,12 @@ Items: {
 
 	SearingSpearTip: {
 		DisplayName: Опаляющий наконечник копья
-		Tooltip: Копья выделяют сероводород, обжигающий врагов при контакте
+		Tooltip: Копья будут выделять сероводород, обжигающий врагов при контакте
 	}
 
 	ArcticSpearTip: {
 		DisplayName: Арктический наконечник копья
-		Tooltip: Копья запускают не подверженные гравитации крионитовые наконечники, пробивающие до 5 врагов
+		Tooltip: Копья будут запускать не подверженные гравитации крионитовые наконечники, пробивающие до 5 врагов
 	}
 
 	DeepSeaDrawlShard1: {
@@ -134,7 +132,7 @@ Items: {
 		Tooltip:
 			'''
 			'Мундштук восстановленного словесного водоворота'
-			[c/010057:Когда-то Пермафрост рассказывал о своих стычках с племен яхщеров]
+			[c/010057:Когда-то Пермафрост рассказывал о своих стычках с племенем яхщеров]
 			[c/010057:Возможно, ему что-то известно...]
 			'''
 	}
@@ -168,7 +166,7 @@ Items: {
 		DisplayName: Восстановленный словесный водоворот
 		Tooltip:
 			'''
-			Призывает акулонадо, бросающее во врагов морские обломки
+			Призывает акулонадо, швыряющее во врагов морские обломки
 			Одновременно может существовать только 1 акулонадо
 			Нажмите ПКМ, чтобы атаковать тайфуном, тратя 2 очка вдохновения
 			'''
@@ -253,7 +251,7 @@ Items: {
 	}
 
 	DeepseaTrident: {
-		DisplayName: Змеевилка
+		DisplayName: Змеезубец
 		Tooltip: ""
 	}
 
@@ -315,24 +313,24 @@ Items: {
 	}
 
 	ArckaneStaff: {
-		DisplayName: Чародейсксий посох
+		DisplayName: Посох арканы
 		Tooltip:
 			'''
-			Стреляет перегруженным зарядом нестабильных элементов
+			Выпускает перегруженный сгусток колеблющихся элементов
 			Крадёт 5 ед. здоровья и накладывает следующие дебаффы:
 			[cbuff:Ichor], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
 			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
 			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
-			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:ThoriumMod/MagickStaffDebuff],
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames],
 			[cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
 			'''
 	}
 
 	MystickStaff: {
-		DisplayName: Колодовской посох
+		DisplayName: Посох мистики
 		Tooltip:
 			'''
-			Стреляет сверхмощным зарядом из всех известных стихий
+			Выпускает сверхмощный сгусток, наполненный энергией всех известных стихий
 			Крадёт 10 ед. здоровья и накладывает следующие дебаффы:
 			[cbuff:CalamityMod/Voidfrost], [cbuff:CalamityMod/Dragonfire], [cbuff:CalamityMod/GodSlayerInferno],
 			[cbuff:CalamityMod/HolyFlames], [cbuff:CalamityMod/ElementalMix], [cbuff:CalamityMod/Laceration],
@@ -340,20 +338,20 @@ Items: {
 			[cbuff:CalamityMod/MiracleBlight], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
 			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
 			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
-			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:ThoriumMod/MagickStaffDebuff],
-			[cbuff:Ichor], [cbuff:ThoriumMod/Stunned] and [cbuff:ThoriumMod/Charmed]
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:Ichor], 
+			[cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
 			'Сколько ещё вам надо!?'
 			'''
 	}
 
 	GloomSwitch: {
-		DisplayName: Мрачный скорострел
+		DisplayName: Мрачный свитч
 		Tooltip:
 			'''
 			Скорострельный ПП с широким разбросом, стреляющий шаром проклятого инферно, накладывающий дебафф [rbuff:CursedInferno], каждые 20 выстрелов
-			Стрельба, пока у вас есть более 10 ед. маны расходует её, давая 1/3 секунды «мрачного порыва» и снижая разброс у следующего выстрела
-			«Мрачный порыв» увеличивает скорость передвижения на 25% во время ношения скорострела в руках
-			Урон этого оружия также снижается, когда на вас наложен дебафф [cbuff:ManaSickness]
+			Пока у вас есть более 10 ед. маны, каждый выстрел будет расходовать её на эту же сумму, давая 0,33 секунды «мрачного порыва» и снижая разброс у следующего выстрела
+			«Мрачный порыв» увеличивает скорость передвижения на 25% во время ношения оружия в руках
+			Урон этого оружия снижается, когда на вас наложен дебафф [cbuff:ManaSickness]
 			'''
 	}
 
@@ -367,8 +365,8 @@ Items: {
 	}
 
 	CataclysmicGauntletVoid: {
-		DisplayName: {$Items.CataclysmicGauntlet.DisplayName}
-		Tooltip: {$Items.CataclysmicGauntlet.Tooltip}
+		DisplayName: "{$Items.CataclysmicGauntlet.DisplayName}"
+		Tooltip: "{$Items.CataclysmicGauntlet.Tooltip}"
 	}
 
 	CataclysmicGauntlet: {
@@ -382,8 +380,8 @@ Items: {
 	}
 
 	CatastrophicLongbladeVoid: {
-		DisplayName: {$Items.CatastrophicLongblade.DisplayName}
-		Tooltip: {$Items.CatastrophicLongblade.Tooltip}
+		DisplayName: "{$Items.CatastrophicLongblade.DisplayName}"
+		Tooltip: "{$Items.CatastrophicLongblade.Tooltip}"
 	}
 
 	CatastrophicLongblade: {
@@ -602,7 +600,7 @@ Items: {
 	}
 
 	GlowstringBiwa: {
-		DisplayName: Яркострунная бива
+		DisplayName: Светострунная бива
 		Tooltip: Стреляет 2 сверкающими сферами, соединёнными струной света
 	}
 
@@ -621,8 +619,8 @@ Items: {
 		Tooltip:
 			'''
 			Нажмите ЛКМ, чтобы выстрелить небольшой молнией, накладывающей дебафф [rbuff:Electrified]
-			Нажмите ПКМ, чтобы призвать мощную молнию над всеми ближайшими врагами, поражёнными дебаффом [rbuff:Electrified]
-			Эти молнии рассеивают дебафф [rbuff:Electrified], но наносят каскад из большого количества урона
+			Нажмите ПКМ, чтобы вызвать мощную молнию над всеми ближайшими врагами, поражёнными дебаффом [rbuff:Electrified]
+			Эти молнии снимают дебафф [rbuff:Electrified], но наносят мощный каскад урона
 			'''
 	}
 
@@ -633,10 +631,10 @@ Items: {
 			Выпускает разноцветные музыкальные ноты
 			Музыкальные ноты накладывают различные дебаффы в зависимости от цвета ноты
 			Выпускает до 5 дополнительных ноты за каждое уникальное усиление 2 уровня и выше, наложенное на вас
-			[c/1FFBFF:'Однажды я отправился на поиски «Ордена воинов», зовущих себя трекерами. Когда я всё-таки сумел их найти,]
-			[c/1FFBFF:одно из первых, что они показали мне - особый инструмент, похожий на музыкальную ноту, но с чем-то вроде рта.]
-			[c/1FFBFF:Как бы то ни было, мне удалось превратить его в оружие, улучшающееся от количества усилений того, кто его использует.]
-			[c/1FFBFF:Однако из-за этого мне пришлось сделать его намного... намного больше изначального варианта.']
+			[c/1FFBFF:'Однажды я отправился на поиски ордена воинов, зовущих себя «трекерами». И как-то раз мне всё-таки удалось их найти,']
+			[c/1FFBFF:'а первое, что они показали мне - особый инструмент, похожий на музыкальную ноту, но с чем-то вроде рта'.]
+			[c/1FFBFF:'Мне удалось превратить его в оружие, улучшающееся от количества усилений того, кто его использует'.]
+			[c/1FFBFF:'Однако из-за этого мне пришлось сделать его намного... намного больше изначального варианта.']
 			'''
 	}
 
@@ -658,7 +656,7 @@ Items: {
 	}
 
 	MagicPurpleBouncyBalls: {
-		DisplayName: 27 магических прыгучих фиолетовых шариков
+		DisplayName: 27 магических прыгучих фиолетовых мячиков
 		Tooltip: "'Фиолетовая энергия, пульсирующая силой 27 одновременных ошибок'"
 	}
 
@@ -668,8 +666,8 @@ Items: {
 	}
 
 	ThunderboltActionSniperVoid: {
-		DisplayName: {$Items.ThunderboltActionSniper.DisplayName}
-		Tooltip: {$Items.ThunderboltActionSniper.Tooltip}
+		DisplayName: "{$Items.ThunderboltActionSniper.DisplayName}"
+		Tooltip: "{$Items.ThunderboltActionSniper.Tooltip}"
 	}
 
 	ThunderboltActionSniper: {
@@ -689,10 +687,10 @@ Items: {
 			Увеличивает шанс критического удара на 10%
 			Увеличивает урон критических ударов
 			Увеличивает максимальное количество стражей на 2
-			Grants a greater zoom passively
-			Zoom effect can disabled with accessory visability
-			Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will freeze the camera in place
-			'I see a unbreakable fortress in your future'
+			Пассивно даёт усиленное приближение
+			Усиление приближения можно отключить вместе с видимостью аксессуара
+			Нажатие клавиши «{$Keybinds.AccessoryAbility.DisplayName}» остановит камеру на месте
+			'Я вижу нерушимую крепостью в твоём будущем'
 			'''
 	}
 
@@ -734,7 +732,7 @@ Items: {
 			Во время раскручивания коса выпускает до 6 самонаводящихся огненных шаров и лучей космической энергии
 			Коса и огненные шары игнорируют 125 ед. защиты и накладывают дебафф [cbuff:CalamityMod/Dragonfire]
 			Лучи космической энергии игнорируют 75 ед. защиты и накладывают дебаффы [cbuff:CalamityMod/ElementalMix] и [cbuff:CatalystMod/AstralBlight]
-			'ДАМЫ И ГОСПОДА... СЕЙЧАС У НАС ПРОГРАММЕ... РОК'Н РОЛЛ!!!'
+			'ДАМЫ И ГОСПОДА... РОК'Н РОЛЛ РОК'Н РОЛЛ РОК'Н РОЛЛ!!!'
 			'''
 	}
 
@@ -754,16 +752,8 @@ Items: {
 	}
 
 	GauntletofAnnihilationVoid: {
-		DisplayName: Рукавица изничтожения
-		Tooltip:
-			'''
-			Нажмите ЛКМ, чтобы выпустить каскад из 4 космических рукавиц, накладывающих дебафф [cbuff:CalamityMod/GodSlayerInferno]
-			Нажмите ПКМ, чтобы начать выпускать стремительные удары космической энергии, запускающие вас вперёд в направлении курсора
-			Выпад вперёд тратит лишь половину пустоты от стоимости использования и при столкновении отбрасывает вас назад
-			Нажатие ЛКМ не более чем через 3 кадра после получения урона выпустит рукавицу богоубийцы
-			Рукавица богоубийцы всегда наносит критический урон и накладывает дебафф [cbuff:CalamityMod/WhisperingDeath]
-			Становится источником света, если отмечена как «Избранное»
-			'''
+		DisplayName: "{$Items.GauntletofAnnihilation.DisplayName}"
+		Tooltip: "{$Items.GauntletofAnnihilation.Tooltip}"
 	}
 
 	GauntletofAnnihilation: {
@@ -771,8 +761,8 @@ Items: {
 		Tooltip:
 			'''
 			Нажмите ЛКМ, чтобы выпустить каскад из 4 космических рукавиц, накладывающих дебафф [cbuff:CalamityMod/GodSlayerInferno]
-			Нажмите ПКМ, чтобы начать выпускать стремительные удары космической энергии, запускающие вас вперёд в направлении курсора
-			Выпад отбрасывает вас назад при столкновении с чем-либо
+			Нажмите ПКМ, чтобы начать выпускать стремительные удары космической энергии, проталкивающие вас вперёд в направлении курсора
+			Во время проталкивания вас может отбросить назад при столкновении с чем-либо
 			Нажатие ЛКМ не более чем через 3 кадра после получения урона выпустит рукавицу богоубийцы
 			Рукавица богоубийцы всегда наносит критический урон и накладывает дебафф [cbuff:CalamityMod/WhisperingDeath]
 			Становится источником света, если отмечена как «Избранное»
@@ -793,7 +783,7 @@ Items: {
 	}
 
 	ImagiknightHeraldry: {
-		DisplayName: Рыцарство Imagiknight
+		DisplayName: Вестничество Imagiknight
 		Tooltip:
 			'''
 			Множитель урона зависит от того, на сколько близко вы находитесь к врагам
@@ -843,9 +833,10 @@ Items: {
 		Tooltip:
 			'''
 			75% базового урона
-			Flail weapons on first hit and for a chance every further hit create either a brimstone or blizzard spike ball
-			The Brimstone spike ball applies [cbuff:CalamityMod/BrimstoneFlames] to enemies and rarely grants the [cbuff:InfernalEclipseWeaponsDLC/HotFlailDmg] buff
-			The Blizzard spike ball applies [cbuff:Frostburn2] to enemies and rarely grants the [cbuff:InfernalEclipseWeaponsDLC/ColdFlailDefense] buff
+			Если первый удар по врагу был совершён любым цепным оружием, оно гарантировано выпустит либо серный, либо метельный шипастый шар
+			Последующие удары цепным оружием также могут с определённым шансом выпустить дополнительные либо серные, либо метельные шипастые шары
+			Серный шипастый шар накладывает на врагов дебафф [cbuff:CalamityMod/BrimstoneFlames] и иногда может дать игроку бафф [cbuff:InfernalEclipseWeaponsDLC/HotFlailDmg]
+			Метельный шипастый шар накладывает на врагов дебафф [cbuff:Frostburn2] и иногда может дать игроку бафф [cbuff:InfernalEclipseWeaponsDLC/ColdFlailDefense]
 			'''
 	}
 
@@ -854,9 +845,9 @@ Items: {
 		Tooltip:
 			'''
 			100% базового урона
-			Flail weapons on first hit create a perfect spike ball
-			Further flail hits have a chance to create more perfect spike balls
-			Perfect spike balls inflict [cbuff:CalamityMod/GodSlayerInferno] and rarely grant the [cbuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff] buff
+			Если первый удар по врагу был совершён любым цепным оружием, оно гарантировано выпустит совершенный шипастый шар
+			Последующие удары цепным оружием также могут с определённым шансом выпустить дополнительные совершенный шипастые шары
+			Совершенный шипастый шар накладывает на врагов дебафф [cbuff:CalamityMod/GodSlayerInferno] и иногда может дать игроку бафф [cbuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff]
 			'''
 	}
 
@@ -865,8 +856,9 @@ Items: {
 		Tooltip:
 			'''
 			300% базового урона
-			Flail weapon hits have a chance to create blackholes which home onto enemies, pulls enemies towards itself, and rarely inflicts [cbuff:CalamityMod/WitherDebuff]
-			'This shouldn't work you know? A blackhole this size can absolutely destory the planet... I guess we shouldn't question it'
+			Цепное оружие может выпустить чёрную дыру, самонаводящуюся на врагов и затягивающую их внутрь себя
+			Чёрная дыра может наложить на врагов дебафф [cbuff:CalamityMod/WitherDebuff]
+			'Знаешь, а ведь это не должно работать так, как работает сейчас. Чёрная дыра таких размеров может с лёгкостью поглотить нашу планету... но мне кажется, лучше нам не задаваться такими вопросами'
 			'''
 	}
 
@@ -876,9 +868,9 @@ Items: {
 			'''
 			Постепенно генерирует до 50 ед. жизненного щита
 			Даёт дополнительные эффекты в зависимости от того, какой бонус комплекта разорителя у вас:
-			[i:CalamityMod/ReaverHeadTank]: Увеличивает максимальный запас здоровья 15 и сопротивление урону на 10%
-			[i:CalamityMod/ReaverHeadMobility]: Увеличивает скорость передвижения на 10%, а также позволяет совершать таранящий рывок
-			[i:CalamityMod/ReaverHeadExplore]: Увеличивает скорость прыжка на 20% и даёт невосприимчивость к урону от падения
+			    [i:CalamityMod/ReaverHeadTank]: Увеличивает максимальный запас здоровья 15 и сопротивление урону на 10%
+			    [i:CalamityMod/ReaverHeadMobility]: Увеличивает скорость передвижения на 10%, а также позволяет совершать таранящий рывок
+			    [i:CalamityMod/ReaverHeadExplore]: Увеличивает скорость прыжка на 20% и даёт невосприимчивость к урону от падения
 			'''
 	}
 
@@ -916,31 +908,32 @@ Items: {
 }
 
 ItemTooltip: {
-	DuesFluteLore: Они обнаружили источник астральной инфекции и в попытке уничтожить его применили звёздное ядро к заражённому алтарю.
-	DuesFluteLore2: Однако алтарь отреагировал неожиданно... два огонька начали отталкиваться друг от друга, устремляясь в небо и открыв над ним разлом.
-	DuesFluteLore3: То, что вышло из него, поистине было не от мира сего, но их восхищению не суждено было продлиться - слуга звёзд бросился на них.
-	UniversalLore1: Кос принял свой последний бой. Израсходовал все свои козыри. Он проиграл им. Однако это не значило, что Затмение навсегда погасло.
-	UniversalLore2: Используя всю оставшуюся силу, что таилась в его душе, он призвал истинного богоубийцу: Пожирателя богов.
-	ParallelLore1: Как он и ожидал, они убили Штормового ткача. Но у Коса был припасен еще один туз в рукаве.
-	ParallelLore2: Внезапно, безо всякого предупреждения, Кос переместил всех в зазеркалье и призвал своего второго слугу: Сигнуса.
+	DuesFluteLore: Они обнаружили источник астральной инфекции и в попытке уничтожить его применили звёздное ядро к заражённому алтарю
+	DuesFluteLore2: Однако алтарь отреагировал неожиданно... два огонька начали отталкиваться друг от друга, устремляясь в небо и открыв над ним разлом
+	DuesFluteLore3: То, что вышло из него, поистине было не от мира сего, но их восхищению не суждено было продлиться - слуга звёзд бросился на них
+	UniversalLore1: Кос принял свой последний бой. Израсходовал все свои козыри. Он проиграл им. Однако это не значило, что Затмение навсегда погасло
+	UniversalLore2: Используя всю оставшуюся силу, что таилась в его душе, он призвал истинного богоубийцу: Пожирателя богов
+	ParallelLore1: Как он и ожидал, они убили Штормового ткача. Но у Коса был припасен еще один туз в рукаве
+	ParallelLore2: Внезапно, безо всякого предупреждения, Кос переместил всех в зазеркалье и призвал своего второго слугу: Сигнуса
 	TwoSideLore1: Они преодолели Рагнарёк, уничтожили Затмение, пережили муссон слизи,
 	TwoSideLore2: даже стояли на границе вечности, но лишь тогда Рен спросил их: «Какой путь вы изберёте?»
-	NeonRipperLore1: После поражения Голиаф Эрелиан решил переработать часть броневых пластин, что тот носил.
-	NeonRipperLore2: Так он создал два оружия: Первым стала коса, способная поглощать ауру, подобно способности Ками.
-	PBGBardALore2: Так он создал два оружия: Вторым стала гитара, стреляющая разноцветными микроволнами.
+	NeonRipperLore1: После поражения Голиаф Эрелиан решил переработать часть броневых пластин, что тот носил
+	NeonRipperLore2: Так он создал два оружия: Первым стала коса, способная поглощать ауру, подобно способности Ками
+	PBGBardALore2: Так он создал два оружия: Вторым стала гитара, стреляющая разноцветными микроволнами
 	SearingSpearTip: 150% базового урона
 	ArcticSpearTip: 115% базового урона
 	DoubleFlailLore:
 		'''
-		Каламитас и Пермафросту всегда удавалось хорошо работать в тандеме, как ученик с учителем, когда она ещё была юна.
-		Эти два цепа используют те же техники, чтобы совмещать лёд и пламя методами, губительными для ваших врагов.
+		Каламитас и Пермафросту всегда удавалось хорошо работать в тандеме, как ученик с учителем, когда она ещё была юна
+		Эти два цепа используют те же техники, чтобы совмещать лёд и пламя методами, губительными для ваших врагов
 		'''
 	PerfectPurpleLore:
 		'''
-		Но всё же, совершенен он не был.
-		Командная работа имеет свои пределы. В конце концов, лучший друг для самих себя - вы сами.
-		Вдвоём с самим собой можно добиться гораздо большего, ведь...
-		Именно в гармонии с самим собой вы становитесь по-настоящему совершенны.
+		Но всё же, совершенен он не был
+		У командной работы есть свои пределы
+		В конце-концов, вашим лучшим другом для себя являетесь вы сами
+		Лишь вместе с самим собой можно добиться гораздо большего, ведь...
+		Именно в гармонии с самим собой вы становитесь по-настоящему совершенны
 		'''
 	VerveineItem: "'Предмет, благословлённый орхидеей...'"
 	EngineGatling:
@@ -968,7 +961,7 @@ ItemTooltip: {
 	Playtester: - Предмет тестировщика -
 	Contributor: - Предмет участника -
 	Donor: - Предмет покровителя -
-	DedTo: - Посвящён игроку {0} -
+	DedTo: - Посвящается {0} -
 
 	Dedicated: {
 		Akira: Akira
@@ -1121,37 +1114,37 @@ Projectiles: {
 	MiniaturizedRequiemEngineTheBigOnePro3.DisplayName: The Big One
 	NecrosingerNote.DisplayName: Necrosinger Note
 	MagicPurpleBouncyBall.DisplayName: Magic Purple Bouncy Ball
-	EclipseEclipse.DisplayName: Eclipse
-	CatastrophicLongbladeHoldout.DisplayName: Catastrophic Longblade
-	CatastrophicLongbladeHoldoutVoid.DisplayName: Catastrophic Longblade
-	VoidBolt.DisplayName: Void Bolt
-	EclipsePulseDark.DisplayName: Dark Pulse
-	EclipsePulseLight.DisplayName: Holy Pulse
+	EclipseEclipse.DisplayName: Затмение
+	CatastrophicLongbladeHoldout.DisplayName: Катастрофический длинный меч
+	CatastrophicLongbladeHoldoutVoid.DisplayName: Катастрофический длинный меч
+	VoidBolt.DisplayName: Пустотный заряд
+	EclipsePulseDark.DisplayName: Тёмная волна
+	EclipsePulseLight.DisplayName: Святая волна
 	BardPulseRiffleBoom.DisplayName: Pulse Riffle Boom
-	BrimstonePetalPro.DisplayName: Brimstone Petal
-	SwordofaThousandTruthsSlashPro.DisplayName: Sword of a Thousand Truths
-	SwordofaThousandTruthsHoldPro.DisplayName: Sword of a Thousand Truths
-	SwordofaThousandTruthsPro.DisplayName: Sword of a Thousand Truths
-	AbsoluteTVRemotePausePro.DisplayName: Pause
+	BrimstonePetalPro.DisplayName: Серный лепесток
+	SwordofaThousandTruthsSlashPro.DisplayName: Меч тысячи правд
+	SwordofaThousandTruthsHoldPro.DisplayName: Меч тысячи правд
+	SwordofaThousandTruthsPro.DisplayName: Меч тысячи правд
+	AbsoluteTVRemotePausePro.DisplayName: Пауза
 	PlanetShaperFireball.DisplayName: Planet Shaper Fireball
 	PlanetShaperPro.DisplayName: Planet Shaper
 	PlanetShaperStar.DisplayName: Planet Shaper Star
-	MetalPipe.DisplayName: Auric Pipe
-	AbsoluteTVRemoteFastForwardPro.DisplayName: Fast Forward Aura
-	AbsoluteTVRemoteRewindPro.DisplayName: Rewind Aura
+	MetalPipe.DisplayName: Ауритовая труба
+	AbsoluteTVRemoteFastForwardPro.DisplayName: Аура быстрой перемотки
+	AbsoluteTVRemoteRewindPro.DisplayName: Аура отмотки
 	CosmicPunch.DisplayName: Cosmic Gauntlet
-	Melee.GauntletofAnnihilationPunches.DisplayName: Cosmic Punches
-	DivineAxeHoldout.DisplayName: Divine Axe
-	DivineExplosion.DisplayName: Divine Explosion
-	DivineSunAura.DisplayName: Divine Aura
+	Melee.GauntletofAnnihilationPunches.DisplayName: Космический улар
+	DivineAxeHoldout.DisplayName: Божественная секира
+	DivineExplosion.DisplayName: Божественный взрыв
+	DivineSunAura.DisplayName: Божественная аура
 	DivineAxeSunAura.DisplayName: Divine Axe Sun Aura
 	ColdFlailCorePro.DisplayName: Cold Flail Core
 	HotFlailCorePro.DisplayName: Hot Flail Core
 	PerfectFlailCorePro.DisplayName: Perfect Flail Core
 	BlackHoleFlailCorePro.DisplayName: Black Hole Flail Core
-	HolyFlailCorePro.DisplayName: Holy Flail Core
-	HolyFlailFire.DisplayName: Holy Fire
-	TerraOrb.DisplayName: Terra Orb
+	HolyFlailCorePro.DisplayName: Святое цеп-ядро
+	HolyFlailFire.DisplayName: Святое пламя
+	TerraOrb.DisplayName: Терра-сфера
 }
 
 Buffs: {
@@ -1205,7 +1198,7 @@ Buffs: {
 
 	LimbBurn: {
 		DisplayName: Полыхание конечностей
-		Description: Ваши мышцы атрофируются
+		Description: Вы чувствуете, как ваши мышцы атрофируются
 		ItemTooltip:
 			'''
 			Жар - 50 ед. урона/сек
@@ -1226,12 +1219,12 @@ Configs: {
 
 		AIGenedWeapons: {
 			Label: Оружие, идеи которого были сгенерированы ИИ
-			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сгенерированы ИИ в видео от Verveine 'Which AI Makes the Best Terraria Weapons?'.
+			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сгенерированы ИИ в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
 		}
 
 		GitGudWeapon: {
 			Label: Оружие, идеи которого были сделаны GitGudWO
-			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сделаны GitGudWO в видео от Verveine 'Which AI Makes the Best Terraria Weapons?'.
+			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сделаны GitGudWO в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
 		}
 
 		EnableScreenEffects: {
@@ -1262,4 +1255,3 @@ Configs: {
 }
 
 "Keybinds.Absolute TV Remote Pause.DisplayName": Пауза высшего пульта от телевизора
-*/

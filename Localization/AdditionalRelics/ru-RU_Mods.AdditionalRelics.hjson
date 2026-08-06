@@ -1,0 +1,106 @@
+Items: {
+	AresRelic: {
+		DisplayName: Реликвия ВУ-09 Ареса
+		Tooltip: ""
+	}
+
+	ArtemisRelic: {
+		DisplayName: Реликвия ВП-01 Артемиды
+		Tooltip: ""
+	}
+
+	ApolloRelic: {
+		DisplayName: Реликвия ВП-03 Аполлона
+		Tooltip: ""
+	}
+
+	ThatanatosRelic: {
+		DisplayName: Реликвия ВМ-05 Танатоса
+		Tooltip: ""
+	}
+
+	DreamEaterRelic: {
+		DisplayName: Реликвия Пожирателя снов 
+		Tooltip: ""
+	}
+
+	SlimeGodRelic: {
+		DisplayName: Реликвия Бога слизней
+		Tooltip: ""
+	}
+
+	AnotherTheOverwatcherRelic: {
+		DisplayName: Альтернативная реликвия Часового
+		Tooltip: ""
+	}
+
+	AnotherTheLifebringerRelic: {
+		DisplayName: Альтернативная реликвия Жизненосца
+		Tooltip: ""
+	}
+
+	AnotherTheMaterealizerRelic: {
+		DisplayName: Альтернативная реликвия Материализатора
+		Tooltip: ""
+	}
+
+	AnotherDarkMageRelic: {
+		DisplayName: Альтернативная реликвия Тёмного мага
+		Tooltip: ""
+	}
+
+	MechdusaRelic: {
+		DisplayName: Реликвия Мехдузы
+		Tooltip: ""
+	}
+
+	AnotherTheSlimeGodRelic: {
+		DisplayName: Альтернативная реликвия Бога слизней
+		Tooltip: ""
+	}
+
+	HwJTwinsRelic: {
+		DisplayName: Реликвия м-ра Спазматизма и м-ра Ретинайзера
+		Tooltip: ""
+	}
+
+	AnotherAstrageldonRelic: {
+		DisplayName: Альтернативная реликвия Астрагельдона
+		Tooltip: ""
+	}
+
+	MarsRelic: {
+		DisplayName: Реликвия ВГ-07 Марса
+		Tooltip: ""
+	}
+
+	AnotherNamelessDeityRelic: {
+		DisplayName: Альтернативная реликвия Безымянного божества
+		Tooltip: "'Ты прошёл испытание? О, ненаглядное божество, хватит ныть уже как идиот! Возвращайся когда станешь пикселизированным!'"
+	}
+
+	AnotherPharaohsCurseRelic: {
+		DisplayName: Альтернативная реликвия Проклятия Фараона
+		Tooltip: ""
+	}
+
+	AnotherPutridPinkyRelic: {
+		DisplayName: Альтернативная реликвия Гнилостного пинки
+		Tooltip: ""
+	}
+
+	AnotherTurkorRelic: {
+		DisplayName: Альтернативная реликвия Индейкора Неблагодарного
+		Tooltip: ""
+	}
+
+	AnotherPolterghastRelic: {
+		DisplayName: Альтернативная реликвия Полтергаста
+		Tooltip: ""
+	}
+
+	AnotherEyeofCthulhuRelic: {
+		DisplayName: Альтернативная реликвия Глаза Ктулху
+		Tooltip: ""
+	}
+}
