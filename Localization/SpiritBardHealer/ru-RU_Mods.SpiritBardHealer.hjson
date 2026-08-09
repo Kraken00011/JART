@@ -1,10 +1,10 @@
 ItemDescriptions: {
 	ElectricGuitar:
 		'''
-		Каждое попадание молнии по врагам восстанавливает 1 очко вдохновения
-		'Rock baby, rock!'
+		Каждое попадание цепной молнии восстанавливает 1 очко вдохновения
+		'Зажигай, детка, зажигай!'
 		'''
-	Ukelele: Попадание цепной может с определённым шансом восстановить 1 очко вдохновения
+	Ukelele: Попадание цепной молнии может с определённым шансом восстановить 1 очко вдохновения
 	TerrariumParticleSprinters: Значительно увеличивает манёвренность в воздухе
 	FrigidHelm:
 		'''
@@ -37,7 +37,7 @@ ItemDescriptions: {
 	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
 	WayfarerHead: Увеличивает скорость восстановления и шанс выпадения с врагов вдохновения на 5%
 	WayfarerBody: Увеличивает симфонический урон и скорость игры на 5%
-	WayfarerLegs: Увеличивает длительность усилений на 1 секунду
+	WayfarerLegs: Увеличивает длительность симфонических усилений на 1 секунду
 	WayfarerSetBonus: Улучшает симфонические усиления, связанные с передвижением
 }
 
@@ -47,7 +47,7 @@ Items: {
 		Tooltip:
 			'''
 			Вонзается в поражённых врагов
-			Во время этого наконечник начинает источать ауру теневого пламени
+			Во время того, как наконечник вонзён, он начинает источать ауру теневого пламени
 			Аура наносит урон всем врагам внутри неё
 			'''
 	}
@@ -65,9 +65,9 @@ Items: {
 		DisplayName: Ветровой клюв
 		Tooltip:
 			'''
-			This scythe is swung directionally instead of spun
+			Вместо вращения совершает взмахи косой
 			Creates turbulent wind in the direction it is swung
-			"Shwaaahaaahaaahaa"
+			'Shwaaahaaahaaahaa'
 			'''
 	}
 
@@ -88,7 +88,7 @@ Items: {
 			'''
 			Shoots a small, piercing star that bounces on any hit
 			Upon bouncing at least once, the star will fall down
-			"Sometimes, all you need is to float alone in space"
+			'Sometimes, all you need is to float alone in space'
 			'''
 	}
 
@@ -98,7 +98,7 @@ Items: {
 			'''
 			Shoots a cooling beam that heals allies
 			Does not trigger on-heal effects
-			"Ever felt the heat and got the thoughts of sleeping in your fridge?"
+			'Ever felt the heat and got the thoughts of sleeping in your fridge?'
 			'''
 	}
 
@@ -172,8 +172,8 @@ Items: {
 		DisplayName: Illumite Zapper
 		Tooltip:
 			'''
-			9 summon tag damage
-			Your summons will focus struck enemies
+			9 ед. урона от метки призывателя
+			{$CommonItemTooltip.Whips}
 			Fires a powerful burst of illuminating beams
 			Hit enemies will be illuminated and take 10% more damage
 			'''
@@ -195,8 +195,8 @@ Items: {
 			'''
 			В падении наносит больше урона
 			Разбрасывает несколько камней разные стороны при полном заряде
-			Damage will sunder enemies, increasing the damage they take by 10
-			"Magnetically attracted to the skulls of your enemies"
+			При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон от всех источников на 10%
+			'Магнетически притягивается к черепушкам ваших врагов'
 			'''
 	}
 
@@ -227,12 +227,12 @@ Items: {
 	}
 
 	ScreamofTerror: {
-		DisplayName: Scream of Terror
+		DisplayName: Крик ужаса
 		Tooltip:
 			'''
 			Shoots a blood shockwave that collapses then explodes
 			Shockwaves inflict 'Surging Anguish', slowly depleting enemy life
-			"Would it go like AHHHH or RAARGGHHHH?"
+			'Would it go like AHHHH or RAARGGHHHH?'
 			'''
 	}
 
@@ -288,7 +288,7 @@ Items: {
 		Tooltip:
 			'''
 			15 ед. урона от метки призывателя
-			Your summons will focus struck enemies
+			{$CommonItemTooltip.Whips}
 			Shoots an array of colorful lightning
 			'''
 	}

@@ -1,10 +1,8 @@
 using System.Collections.Generic;
-using System.Globalization;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 public partial class InfernalEclipseWeaponsDLCGlobalItem : GlobalItem
 {
