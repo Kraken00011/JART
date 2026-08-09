@@ -1,19 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text.RegularExpressions;
 using JAtRT.Core.Config;
 using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Terraria.GameInput;
-using Microsoft.Xna.Framework;
 using Polyphemalus;
 using Polyphemalus.Content.Items;
 using Polyphemalus.Content.Items.Magic;
-using System.Security;
 
 public class PolyphemalusGlobalItem : GlobalItem
 {

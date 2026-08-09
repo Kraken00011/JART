@@ -1,14 +1,8 @@
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text.RegularExpressions;
 using JAtRT.Core.Config;
 using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using SOTSBardHealer.Items;
 
 public partial class SOTSBardHealerGlobalItem : GlobalItem
 {

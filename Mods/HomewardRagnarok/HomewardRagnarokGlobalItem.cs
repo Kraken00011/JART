@@ -1,14 +1,8 @@
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text.RegularExpressions;
 using JAtRT.Common.Utilities;
-using JAtRT.Core.Config;
 using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 using CalamityMod.Items.Accessories;
 using ContinentOfJourney.Items;
 using ContinentOfJourney.Items.Accessories;
@@ -26,7 +20,7 @@ public partial class HomewardRagnarokGlobalItem : GlobalItem
         || item.type == ModContent.ItemType<JellyMushroom>() || item.type == ModContent.ItemType<FungusDeluxe>()
         || item.type == ModContent.ItemType<SpikyCover>())
             tooltips.RemoveAll((TooltipLine t) => t.Name == "Tooltip0");
-            
+
         // Gray Rook
         if (item.type == ModContent.ItemType<GrayRook>())
         {

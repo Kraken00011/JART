@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using JAtRT.Core.Config;
 
 namespace JAtRT.Core.ClassTags
 {

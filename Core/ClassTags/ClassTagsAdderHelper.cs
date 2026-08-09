@@ -1,13 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 using System.Linq;
 using Terraria;
 using Terraria.ModLoader;
-using Terraria.Localization;
 using JAtRT.Common.Utilities;
-using JAtRT.Common;
-using JAtRT.Core.Config;
 
 namespace JAtRT.Core.ClassTags
 {

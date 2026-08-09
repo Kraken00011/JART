@@ -1,12 +1,8 @@
 using System.Collections.Generic;
-using System.Globalization;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using InfernalEclipseAPI.Content.Items.Lore.Other;
-using InfernalEclipseAPI.Content.Items.Accessories;
 
 public partial class InfernalEclipseAPIGlobalItem : GlobalItem
 {

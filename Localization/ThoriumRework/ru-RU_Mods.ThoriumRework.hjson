@@ -23,13 +23,13 @@ ItemDescriptions: {
 		Нанесение урона временно увеличивает сопротивление урону
 		Нажмите ПКМ, чтобы взмахивать как обычно // Right-click to swing normally, damage dealt is increased if stabbed more than thrice
 		''' */
-	// DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60
-	// DreamWeaversHood: Увеличивает максимальный запас здоровья на 100
+	// DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60 ед.
+	// DreamWeaversHood: Увеличивает максимальный запас здоровья на 100 ед.
 	// DreamWeaversTabard: Увеличивает сопротивление урону на 20%
 	/* DreamWeaversTreads:
 		'''
 		Увеличивает лучезарную скорость на 20%
-		Увеличивает максимальный запас здоровья на 80
+		Увеличивает максимальный запас здоровья на 80 ед.
 		''' */
 	/* TideTurnerBreastplate:
 		'''
@@ -99,34 +99,34 @@ ItemDescriptions: {
 	/* IllumiteBarrage:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	/* IllumiteBlade:
 		'''
 		Для атаки использует 2 иллюмитовых клинка одновременно
 		Blasts nearby illuminated targets with illuminating beams
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	/* IllumiteBlaster:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	/* IllumiteShotbow:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	/* IllumiteSpear:
 		'''
 		При каждой 3 атаке выстреливает проекцией иллюмитового копья Every third attack shoots out an illumite spear image
 		The image shoots illuminating beams at nearby targets
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	/* IllumiteScythe:
 		'''
 		Creates light slashes on a nearby enemy
-		Поражённые враги получат дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}» и временно начнут получать на 10% больше урона
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		''' */
 	// CobaltPopper: Во время использования постепенно увеличивает защиту
 	// PalladiumSubmachineGun: Во время использования постепенно увеличивает скорость регенерации здоровья
@@ -349,7 +349,7 @@ Toggler: {
 	// ZephyrWings: Синергия Зефира
 	// QueenJellyPin: Regal Tentacles
 	// SierraChimera: Сьерра-Химера
-	// StarScoutReticle: Blink Dash
+	// StarScoutReticle: Мгновенный рывок
 	// StriderMouthguard: Ледяной укус шагателя
 	// StriderMouthguard2: Mighty Mytes
 	// UndyingGaze: Жатва душ
@@ -422,7 +422,7 @@ InfernumIntros: {
 		''' */
 	/* SlagFury:
 		'''
-		Primordial Flame
+		ИЗНАЧАЛЬНОЕ ПЛАМЯ
 		ШЛАКОВЫЙ ЯРОСТЕНЬ
 		''' */
 	/* StarScouter:
@@ -481,10 +481,10 @@ Items: {
 		// DisplayName: Воля Козникса
 		/* Tooltip:
 			'''
-			The third and fourth attacks shoots out an eradicating void beam
-			Critical strikes create a void bubble on hit target's location
-			The void bubble summons eyes to attack enemies for 50% damage
-			Only one void bubble can be active at a time
+			При каждой 3 и 4 атаке выпускает пустотный луч, искореняющий врагов
+			Нанесение критических ударов создаёт пустотный пузырь в точке поражённого врага
+			Пустотный пузырь призывает глаза, атакующие врагов на 50% от урона атаки
+			Одновременно может быть активен только 1 пустотный пузырь
 			''' */
 	}
 
@@ -492,9 +492,9 @@ Items: {
 		// DisplayName: Сердце Созерцателя
 		/* Tooltip:
 			'''
-			Увеличивает максимальный запас здоровья на 10 и бонусное исцеление на 1 ед.
-			Every 30 ally life healed releases a bolt of damaging radiant energy
-			Additionally, you recover life equal to bonus healing
+			Увеличивает максимальный запас здоровья на 10 ед. и бонусное исцеление на 1 ед.
+			Каждые 30 ед. исцелённого здоровья выпускает мощный, наносящий урон заряд лучезарной энергии
+			В дополнение вы восстанавливаете здоровье на сумму, равную вашему бонусному исцелению
 			''' */
 	}
 
@@ -502,7 +502,7 @@ Items: {
 		// DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
 		/* Tooltip:
 			'''
-			Attacks inflict Singed, damage against Singed targets are increased by 20%
+			Атаки накладывают дебафф «{$Mods.ThoriumMod.Buffs.Singed.DisplayName}», увеличивающий получаемый врагами урон на 20%
 			{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.Tooltip}
 			''' */
 	}
@@ -522,6 +522,15 @@ Items: {
 			'''
 			Throws tiny soul eaters that enrages after some distance
 			While enraged, they pierce indefinitely and can hit the same target multple times
+			''' */
+	}
+
+	DuelistSheath: {
+		// DisplayName: Ножны дуэлянта
+		/* Tooltip:
+			'''
+			{$Mods.ThoriumMod.Common.Sheath}
+			Getting hit or landing a critical strike increases melee attack speed and critical strike chance for {1} seconds
 			''' */
 	}
 
@@ -552,7 +561,7 @@ Items: {
 		// DisplayName: Crystallized Finality
 		/* Tooltip:
 			'''
-			Effects of [i:ThoriumRework/BeholderTentacles]{$ItemName.FrogLeg}, [i:ThoriumRework/BeholderTentacles]{$ItemName.LavaWaders} but without the lava immunity, and [i:ThoriumRework/StriderMouthguard]{$ItemName.HandWarmer}
+			Даёт эффекты от предметов [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}» и [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}», но без невосприимчивости к лаве
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
 			[i:ThoriumRework/UndyingGaze] Critical strikes grant Soul Essence, attacks that use life or already grant Soul Essence give more
@@ -634,7 +643,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Призывает крылатую флейту, стреляющую во врагов
-			Каждую атаку флейта даёт усиления «Время полёта II» и «Восстановление ресурсов I»
+			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'Does it look like it gives a flying flute?'
 			''' */
 	}
@@ -648,8 +657,8 @@ Items: {
 			Increases wind instrument homing speed by {2}%
 			Your wind instrument attacks now attempt to quickly home in on enemies
 			If the attack already homes onto enemies, it does so far more quickly
-			Summons a winged flute that will shoot enemies
-			Grants Flight Time II and Resource Regeneration I every time it attacks
+			Призывает крылатую флейту, стреляющую во врагов
+			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			''' */
 	}
 
@@ -737,7 +746,7 @@ Items: {
 	}
 
 	LichWhip: {
-		// DisplayName: Instrument of Torment
+		// DisplayName: Орудие пыток
 		/* Tooltip:
 			'''
 			Lashes out a triple whip empowered by soul fire
@@ -925,16 +934,16 @@ Items: {
 		// DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
 		/* Tooltip:
 			'''
-			Позволяет дышать в космосе и даёт эффекты от баффа «Ночное зрение»
+			Позволяет дышать в космосе и даёт эффекты от баффа «{$BuffName.NightOwl}»
 			Совершение рывка телепортирует вас на несколько блоков вперёд
 			Не работает с особыми рывками
-			Даёт рывок, если у вас его не было
+			Даёт рывок, если у вас его нет
 			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
 			''' */
 	}
 
 	StarScoutReticleCosmetic: {
-		// DisplayName: Star Scout Reticle
+		// DisplayName: Прицел Звёздного разведчика
 		// Tooltip: '''"Afraid of the dark? Don't worry, you have me!"'''
 	}
 
@@ -1052,8 +1061,8 @@ Items: {
 		/* Tooltip:
 			'''
 			Вместо вращения совершает взмахи по диагонали
-			Unleashes a short-ranged wave of dark energy that pierces
-			Damage will blast enemies with interdimensional energy
+			Выпускает шлейф тёмной энергии короткой дальности, пронзающий врагов
+			Нанесение урона разрывает врагов межпространственной энергией
 			''' */
 	}
 
@@ -1073,23 +1082,23 @@ Items: {
 
 	VampireCape: {
 		// DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
-		// Tooltip: Grants immunity to bleeding and Vampire's Curse
+		// Tooltip: Даёт невосприимчивость к дебаффам «{$BuffName.Bleeding}» и «{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
 	}
 
 	VampireCapeCosmetic: {
-		// DisplayName: Vampire Bat Cape
+		// DisplayName: Плащ летучей мыши-вампира
 		// Tooltip: ""
 	}
 
 	ZephyrsRuin: {
-		// DisplayName: Погибель Зефира // Zephyr's Ruin
+		// DisplayName: Зефирова погибель
 		/* Tooltip:
 			'''
-			Sticks into struck enemies, or the ground if it misses
-			Calls lightning to smite hit enemies after some time
-			Critical strikes smite enemies on initial hit
-			Не изматывает вас // Does not exhaust you
-			'А говорили молния в одно месте дважды не бьёт' // 'They say lightning never strikes the same place twice'
+			Вонзается во врагов или, если промахнётся, в поверхность
+			Через некоторое время в точку поражённого атакой врага ударяет наносящая урон молния
+			При нанесении критического удара молния мгновенно бьёт в поражённого врага
+			Вы не изматываетесь от использования этого предмета
+			'А говорили молния в одно месте дважды не бьёт'
 			''' */
 	}
 
@@ -1105,7 +1114,7 @@ Items: {
 	}
 
 	ZephyrWingsCosmetic: {
-		// DisplayName: Крылья Зефира
+		// DisplayName: Зефировы крылья
 		/* Tooltip:
 			'''
 			Позволяет летать и плавно парить
@@ -1137,7 +1146,7 @@ Buffs: {
 
 	StarCalled: {
 		// DisplayName: Star Called
-		// Description: They received your signal
+		// Description: Они приняли ваш сигнал
 	}
 
 	TerminalLucidity: {
@@ -1145,23 +1154,23 @@ Buffs: {
 		/* Description:
 			'''
 			-Механика босса-
-			Пока на вас наложен этот дебафф, Пожиратель снов не сможет получать урон // Dream Eater cannot be damaged while this debuff is active
-			По истечении времени действия этого дебаффа автоматически убивает вас // Kills you when the timer runs out
-			Touch a stable reality rift to start DPS phase and reset the timer
-			Stable reality rifts are the bright purple portals
+			Пока на вас наложен этот дебафф, Пожиратель снов не может получать урон
+			Мгновенно убивает вас по истечении времени действия этого дебаффа
+			Дотроньтесь до разлома стабильной реальности, чтобы обнулить таймер и начать фазу нанесения урона
+			Разломы стабильной реальности выглядят как ярко-фиолетовые порталы
 			'Судьба приближается...'
 			''' */
 	}
 
 	LucidRetaliation: {
-		// DisplayName: Lucid Retaliation
+		// DisplayName: Возмещающее ясновидение
 		/* Description:
 			'''
 			-Механика босса-
-			Dream Eater can be damaged while this buff is active
-			Getting hit by unstable reality rifts removes this buff early
-			Unstable reality rifts are the black cracks attacks
-			Grants infinite flight
+			Пока на вас наложен этот бафф, Пожиратель снов может получать урон
+			Получение урона от разломов нестабильной реальности преждевременно снимает этот бафф
+			Разломы нестабильной реальности выглядят как чёрные трещины // Unstable reality rifts are the black cracks attacks
+			Бесконечный полёт
 			'Судьба уже здесь...'
 			''' */
 	}
@@ -1175,17 +1184,17 @@ Buffs: {
 Prefixes: {
 	Careless: {
 		// DisplayName: Беспечный
-		// Description: +2 life cost
+		// Description: +2 к стоимости здоровья // life cost
 	}
 
 	Complicated: {
-		// DisplayName: Долгий
+		// DisplayName: Запутанный
 		// Description: +25% timer speed
 	}
 
 	Favored: {
 		// DisplayName: Favored
-		// Description: -25% timer speed
+		// Description: -25% к скорости таймер // timer speed
 	}
 
 	Risky: {
@@ -1194,7 +1203,7 @@ Prefixes: {
 	}
 
 	Simplified: {
-		// DisplayName: Упрощённый
+		// DisplayName: Простенький
 		// Description: -25% timer speed
 	}
 
@@ -1278,6 +1287,11 @@ Configs: {
 				Limited to 2x speed as any higher breaks bosses.
 				1.35x is recommended for Infernum.
 				''' */
+		}
+
+		sheathFix: {
+			// Label: Исправления и улучшения для ножн мечей
+			// Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords.
 		}
 
 		terraItemsFix: {

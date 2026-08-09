@@ -11,8 +11,6 @@ namespace JAtRT.Common.Utilities;
 
 internal static class TranslationHelper
 {
-    internal static bool IsRussianLanguage => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Russian);
-
     internal static void ModifyIL(ILContext il, string orig, string replace, int iterations = 1)
     {
         ILCursor cursor = new ILCursor(il);

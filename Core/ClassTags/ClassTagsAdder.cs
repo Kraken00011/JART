@@ -1,8 +1,5 @@
-using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using System.Linq;
-using Terraria;
 using Terraria.ModLoader;
 using Terraria.Localization;
 using JAtRT.Core.Config;
@@ -26,7 +23,7 @@ namespace JAtRT.Core.ClassTags
                 tags.Add(("SurvivabilityTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Survivability"), new Color(220, 20, 60)));
                 tags.Add(("ToolTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Tool"), new Color(224, 255, 255)));
                 tags.Add(("MiningTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Mining"), new Color(224, 255, 255)));
-                
+
                 tags.Add(("WarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Warrior"), new Color(229, 25, 25)));
                 tags.Add(("RangerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Ranger"), new Color(0, 170, 56)));
                 tags.Add(("SorcererTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Sorcerer"), new Color(14, 129, 244)));
@@ -37,15 +34,6 @@ namespace JAtRT.Core.ClassTags
                 {
                     tags.Add(("TrueWarriorTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.TrueWarrior"), new Color(229, 25, 25)));
                     tags.Add(("RogueTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Rogue"), new Color(255, 137, 0)));
-                }
-
-                if (ModLoader.HasMod("ThoriumMod"))
-                {
-                    tags.Add(("HealerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Healer"), new Color(255, 255, 91)));
-                    tags.Add(("DarkHealerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Healer"), new Color(178, 102, 255)));
-                    tags.Add(("BardTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Bard"), new Color(0, 255, 128)));
-                    tags.Add(("TransformationTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Transformation"), new Color(200, 175, 120)));
-                    tags.Add(("OmniShieldTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.OmniShield"), new Color(102, 255, 255)));
                 }
 
                 if (ModLoader.HasMod("Split"))
@@ -62,6 +50,15 @@ namespace JAtRT.Core.ClassTags
 
                 if (ModLoader.HasMod("RoA"))
                     tags.Add(("DruidTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Druid"), new Color(34, 139, 34)));
+            }
+
+            if (ModLoader.HasMod("ThoriumMod"))
+            {
+                tags.Add(("HealerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Healer"), new Color(255, 255, 91)));
+                tags.Add(("DarkHealerTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Healer"), new Color(178, 102, 255)));
+                tags.Add(("BardTag", Language.GetTextValue("Mods.JAtRT.Tags.Class.Bard"), new Color(0, 255, 128)));
+                tags.Add(("TransformationTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.Transformation"), new Color(200, 175, 120)));
+                tags.Add(("OmniShieldTag", Language.GetTextValue("Mods.JAtRT.Tags.Special.OmniShield"), new Color(102, 255, 255)));
             }
 
             Tags = tags.ToArray();

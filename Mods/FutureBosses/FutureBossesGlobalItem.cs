@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Globalization;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;

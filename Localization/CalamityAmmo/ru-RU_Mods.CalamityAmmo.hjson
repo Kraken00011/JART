@@ -10,8 +10,8 @@
 		LoveBiome: Don't even think about it, Choosing forest is just for your shopping convenience.
 		DislikeBiome: The sandstorm here makes me dirty, can I move to another place?
 		HateBiome: No cat in her right mind would jump into ocean to catch fish for dinner.
-		LikeNPC: "{NPCName}doesn't sell any scraps basically, he's pretty good."
-		LikeNPC_Princess: Why do I like {NPCName}? The official answer is: "Every NPC likes the princess." The private answer is: "The staff of resonance is too easy to use."
+		LikeNPC: "{NPCName} doesn't sell any scraps basically, he's pretty good."
+		LikeNPC_Princess: Почему мне нравится {NPCName}? Официальный ответ: «Всем НИПам нравится принцесса». Мой же ответ: «The staff of resonance is too easy to use».
 		LoveNPC: "{NPCName} chats well with me, is that because both we have animal ears?"
 		DislikeNPC: Everyday {NPCName} compete with me for business and stare at me , It's really uncomfortable.
 		HateNPC: "{NPCName} the naturally evil brat doesn't deserve to live next to me!"
@@ -206,9 +206,9 @@ Items: {
 		DisplayName: Marvelous Mycelium
 		Tooltip:
 			'''
-			6% increased ranged damage and 9% increased ranged critical strike chance
-			Being hit removes these benefit for a short time and gives you Mushy
-			"Death goes life on, and life achieves death soon"
+			Увеличивает стрелковый урон на 6% и шанс критического удара на 9%
+			При получении урона кратковременно снимает эти бонусы и даёт бафф [cbuff:CalamityMod/Mushy]
+			'Смерть переходит в жизнь, а жизнь вскоре снова переходит в смерть'
 			'''
 	}
 
@@ -216,9 +216,9 @@ Items: {
 		DisplayName: Modified Coil
 		Tooltip:
 			'''
-			7% increased ranged damage
-			Slightly increases the velocity of ranged projectiles
-			"Exposed wires, handle carefully"
+			Увеличивает стрелковый урон на 7%
+			Немного увеличивает скорость стрелковых снарядов
+			'Осторожно, оголённый провод!'
 			'''
 	}
 
@@ -275,17 +275,17 @@ Items: {
 	}
 
 	AstralArrow: {
-		DisplayName: Astral Arrow
-		Tooltip: Defeat the terrors among the stars to complete our own evolution
+		DisplayName: Астральная стрела
+		Tooltip: Одолейте межзвёздный ужас, чтобы завершить её эволюцию
 	}
 
 	AstralBullet: {
-		DisplayName: Astral Bullet
-		Tooltip: Defeat the terrors among the stars to complete our own evolution
+		DisplayName: Астральная пуля
+		Tooltip: Одолейте межзвёздный ужас, чтобы завершить её эволюцию
 	}
 
 	DazzlingAstralArrow: {
-		DisplayName: Dazzling Astral Arrow(Old)
+		DisplayName: Сверкающая астральная стрела
 		Tooltip: ""
 	}
 
@@ -458,8 +458,8 @@ Items: {
 		DisplayName: Вульфрумовая стрела
 		Tooltip:
 			'''
-			"It's too heavy to make arrows at all."
-			"Really?"
+			'Но этот металл слишком же тяжёлый, чтобы делать из него стрелы'
+			'А да ну-у-у-у на фиг'
 			'''
 	}
 
@@ -478,8 +478,8 @@ Items: {
 		Tooltip: You should understand that darkness cannot be handled gently, we must use fire.
 		TooltipDay:
 			'''
-			A toast to all who sought to kill me!
-			You failed.
+			'Тост за всех, кто пытался меня убить!'
+			'У вас ничего не вышло!'
 			'''
 	}
 
@@ -494,7 +494,7 @@ Items: {
 
 	ChewingGun: {
 		DisplayName: Жвачкомёт
-		Tooltip: "'Зачем это использовать?'"
+		Tooltip: "'И зачем это использовать?'"
 	}
 
 	HardTack: {
@@ -553,7 +553,7 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет хрупкими колючими шарами
-			Каждый 6 выстрел стреляет залпом песка
+			Каждый 6 выстрел стреляет каскадом песка
 			'''
 	}
 
@@ -578,7 +578,7 @@ Items: {
 
 	DivineArrow: {
 		DisplayName: Божественная стрела
-		Tooltip: Призывает метеорит, волнующий даже сильнее, чем попадание Элизийца в какого-нибудь недотёпу
+		Tooltip: Вызывает метеорит, волнующийся даже сильнее, чем Элизиец после попадания в какого-нибудь недотёпу
 	}
 
 	DivineBullet: {
@@ -599,7 +599,7 @@ Items: {
 		Tooltip:
 			'''
 			Накладывает дебафф [cbuff:CalamityMod/ElementalMix]
-			Увеличивает свой урон на 10% за каждого пробитого врага, до 4 раз
+			Увеличивает свой урон на 10% за каждого пробитого врага (до 4 раз)
 			'''
 	}
 
@@ -673,7 +673,8 @@ Buffs: {
 		Description:
 			'''
 			Скорость регенерации здоровья увеличена
-			'Сегодня тебе повезло, червяк... Нет, ничего страшного, вы ослышались'
+			'Сегодня тебе повезло, червяк...'
+			'А? Нет, ничего, вы ослышались'
 			'''
 	}
 
@@ -708,7 +709,7 @@ NPCs: {
 	}
 }
 
-Bestiary.QianXing: Кошко-девочка, продающая боеприпасы, она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством денег, вы даже наверно сможете купить даже её саму (при условии, что за это вас не застрелят).
+Bestiary.QianXing: Кошкодевочка, продающая боеприпасы. Она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством монет, вы даже наверное сможете купить её саму (при условии, что за это вас не пристрелят).
 QX: Стерри
 Glove: Те-же самые эффекты накладываются и на стрелка
 
