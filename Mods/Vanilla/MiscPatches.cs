@@ -18,7 +18,7 @@ public partial class MiscPatches : GlobalItem
             // Thorium
             if (ModLoader.HasMod("ThoriumMod"))
             {
-                if (tooltip.Name == "HealerAmount" && !ModLoader.HasMod("NoxusBossRu")) // Почему-то именно с RUnion конфликтует
+                if (tooltip.Name == "HealerAmount")
                 {
                     if (tooltip.Text.Contains("Heals ally life by "))
                         tooltip.Text = tooltip.Text.Replace("Heals ally life by ", "Лечит союзника на ") + " ед. здоровья";
