@@ -11,7 +11,7 @@
 		DislikeBiome: The sandstorm here makes me dirty, can I move to another place?
 		HateBiome: No cat in her right mind would jump into ocean to catch fish for dinner.
 		LikeNPC: "{NPCName} doesn't sell any scraps basically, he's pretty good."
-		LikeNPC_Princess: Почему мне нравится {NPCName}? The official answer is: "Every NPC likes the princess." The private answer is: "The staff of resonance is too easy to use."
+		LikeNPC_Princess: Почему мне нравится {NPCName}? Официальный ответ: «Всем НИПам нравится принцесса». Мой же ответ: «The staff of resonance is too easy to use».
 		LoveNPC: "{NPCName} chats well with me, is that because both we have animal ears?"
 		DislikeNPC: Everyday {NPCName} compete with me for business and stare at me , It's really uncomfortable.
 		HateNPC: "{NPCName} the naturally evil brat doesn't deserve to live next to me!"
@@ -208,7 +208,7 @@ Items: {
 			'''
 			Увеличивает стрелковый урон на 6% и шанс критического удара на 9%
 			При получении урона кратковременно снимает эти бонусы и даёт бафф [cbuff:CalamityMod/Mushy]
-			'Death goes life on, and life achieves death soon'
+			'Смерть переходит в жизнь, а жизнь вскоре снова переходит в смерть'
 			'''
 	}
 
@@ -218,7 +218,7 @@ Items: {
 			'''
 			Увеличивает стрелковый урон на 7%
 			Немного увеличивает скорость стрелковых снарядов
-			'Осторожно! Оголённый провод'
+			'Осторожно, оголённый провод!'
 			'''
 	}
 
@@ -277,16 +277,16 @@ Items: {
 
 	AstralArrow: {
 		DisplayName: Астральная стрела
-		Tooltip: Defeat the terrors among the stars to complete our own evolution
+		Tooltip: Одолейте межзвёздный ужас, чтобы завершить её эволюцию
 	}
 
 	AstralBullet: {
 		DisplayName: Астральная пуля
-		Tooltip: Defeat the terrors among the stars to complete our own evolution
+		Tooltip: Одолейте межзвёздный ужас, чтобы завершить её эволюцию
 	}
 
 	DazzlingAstralArrow: {
-		DisplayName: Dazzling Astral Arrow(Old)
+		DisplayName: Сверкающая астральная стрела
 		Tooltip: ""
 	}
 
@@ -459,8 +459,8 @@ Items: {
 		DisplayName: Стрела из вульфрумового металлолома
 		Tooltip:
 			'''
-			'Этот металл слишком тяжёлый, чтобы делать из него стрелы'
-			'А да ну-у-у-у нафиг'
+			'Но этот металл слишком же тяжёлый, чтобы делать из него стрелы'
+			'А да ну-у-у-у на фиг'
 			'''
 	}
 
@@ -479,8 +479,8 @@ Items: {
 		Tooltip: You should understand that darkness cannot be handled gently, we must use fire.
 		TooltipDay:
 			'''
-			Тост за всех, кто пытался меня убить!
-			У вас ничего не получилось!
+			'Тост за всех, кто пытался меня убить!'
+			'У вас ничего не вышло!'
 			'''
 	}
 
@@ -495,7 +495,7 @@ Items: {
 
 	ChewingGun: {
 		DisplayName: Жвачкомёт
-		Tooltip: "'Зачем это использовать?'"
+		Tooltip: "'И зачем это использовать?'"
 	}
 
 	HardTack: {
@@ -554,7 +554,7 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет хрупкими колючими шарами
-			Каждый 6 выстрел стреляет шквалом песка
+			Каждый 6 выстрел стреляет каскадом песка
 			'''
 	}
 
@@ -579,7 +579,7 @@ Items: {
 
 	DivineArrow: {
 		DisplayName: Божественная стрела
-		Tooltip: Вызывает метеорит, волнующий даже сильнее, чем Элизиец после попадания в какого-нибудь недотёпу
+		Tooltip: Вызывает метеорит, волнующийся даже сильнее, чем Элизиец после попадания в какого-нибудь недотёпу
 	}
 
 	DivineBullet: {
@@ -600,7 +600,7 @@ Items: {
 		Tooltip:
 			'''
 			Накладывает дебафф [cbuff:CalamityMod/ElementalMix]
-			Увеличивает свой урон на 10% за каждого пробитого врага, до 4 раз
+			Увеличивает свой урон на 10% за каждого пробитого врага (до 4 раз)
 			'''
 	}
 
@@ -675,7 +675,7 @@ Buffs: {
 			'''
 			Скорость регенерации здоровья увеличена
 			'Сегодня тебе повезло, червяк...'
-			'Нет, ничего, вы ослышались'
+			'А? Нет, ничего, вы ослышались'
 			'''
 	}
 
@@ -710,7 +710,7 @@ NPCs: {
 	}
 }
 
-Bestiary.QianXing: Кошкодевочка, продающая боеприпасы. Она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством монет, вы даже наверно сможете купить даже её саму (при условии, что за это вас не пристрелят).
+Bestiary.QianXing: Кошкодевочка, продающая боеприпасы. Она такая милашка, да ещё цены какие приятные выставляет. С достаточным количеством монет, вы даже наверное сможете купить её саму (при условии, что за это вас не пристрелят).
 QX: Стерри
 Glove: Накладывает те же самые эффекты и на стрелковое оружие
 

@@ -1,14 +1,11 @@
 using System.Collections.Generic;
 using System.Reflection;
-using System.Globalization;
-using JAtRT.Common;
 using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 public partial class MiscPatches : GlobalItem
 {

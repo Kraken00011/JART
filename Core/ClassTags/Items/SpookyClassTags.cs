@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using System.Linq;
 using JAtRT.Core.ClassTags;
 
 public class SpookyClassTags : ItemTagsAdder

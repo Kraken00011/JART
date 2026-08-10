@@ -1,8 +1,6 @@
 using ContinentOfJourney.Buffs;
-using Terraria;
 using Terraria.ModLoader;
 using Terraria.Localization;
-using JAtRT.Core.Config;
 
 public class HomewardRagnarokGlobalBuff : GlobalBuff
 {

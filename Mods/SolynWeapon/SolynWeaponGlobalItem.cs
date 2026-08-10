@@ -1,13 +1,8 @@
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text.RegularExpressions;
 using JAtRT.Core.Config;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria;
 
 public partial class SolynWeapon : GlobalItem
 {
