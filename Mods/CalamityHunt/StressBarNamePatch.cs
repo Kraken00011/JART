@@ -23,9 +23,7 @@ public class StressBarNamePatch : ILPatcher
                 return null;
             }
 
-            return type.GetNestedType("<>c", BindingFlags.NonPublic)
-                ?.GetMethod("<ModifyInterfaceLayers>b__7_1",
-                BindingFlags.Instance | BindingFlags.NonPublic);
+            return type.GetNestedType("<>c", BindingFlags.NonPublic) ?.GetMethod("<ModifyInterfaceLayers>b__7_1", BindingFlags.Instance | BindingFlags.NonPublic);
         }
     }
 
