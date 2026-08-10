@@ -38,7 +38,7 @@ InfernumIntros: {
 	AncientFlyer:
 		'''
 		ОЖИВШИЕ ОСТАНКИ
-		ДРЕВНИЙ ПТАХ
+		ДРЕВНЯЯ ПТИЦА
 		'''
 	Atlas:
 		'''
@@ -48,7 +48,7 @@ InfernumIntros: {
 	Dusking:
 		'''
 		ДУХ НОЧИ
-		КОРОЛЬ МРАКА
+		СУМРАЧНЫЙ КОРОЛЬ
 		'''
 	Infernon:
 		'''
@@ -63,7 +63,7 @@ InfernumIntros: {
 	ReachBoss:
 		'''
 		РАЗРАСТАЮЩИЙСЯ ЗАЩИТНИК
-		ПРОКЛЯТИЕ ТЕРНОВНИКА
+		ГНЕВОПЛЮЩ
 		'''
 	Scarabeus:
 		'''
@@ -198,15 +198,15 @@ Configs: {
 
 	ReworkTogglesConfig: {
 		DisplayName: Конфигурация переработок боссов
-		
+
 		voyager: {
 			Label: "[i:SpiritMod/StarplateMask] Звёздопанцирный странник"
 			Tooltip: Включает/Выключает переработку Звёздопанцирного странника.
 		}
 
 		dusking: {
-			Label: "[i:SpiritMod/DuskingMask] Король мрака"
-			Tooltip: Включает/Выключает переработку Короля мрака.
+			Label: "[i:SpiritMod/DuskingMask] Сумрачный король"
+			Tooltip: Включает/Выключает переработку Сумрачного короля.
 		}
 
 		atlas: {

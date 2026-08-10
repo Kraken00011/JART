@@ -1,8 +1,8 @@
-DefaultStealthStrikeTooltip: При скрытном ударе увеличивает урон и скорость снаряда на 75%
-DefaultStealthStrikeTooltipDamage: При скрытном ударе увеличивает урон снаряда на 75%
-DefaultStealthStrikeTooltipVelocity: При скрытном ударе увеличивает скорость снаряда на 75%
-CrumblingStrikeTooltip: При скрытном ударе увеличивает урон снаряда и накладывает 5-секундный дебафф [cbuff:CalamityMod/Crumbling]
-CrunchStrikeTooltip: При скрытном ударе увеличивает урон снаряда и накладывает 5-секундный дебафф [cbuff:CalamityMod/ArmorCrunch]
+DefaultStealthStrikeTooltip: При скрытном ударе атака наносит увеличенный урон и движется с большей скоростью
+DefaultStealthStrikeTooltipDamage: При скрытном ударе атака наносит на 75% больше урона
+DefaultStealthStrikeTooltipVelocity: При скрытном ударе выпускаемые снаряды движутся на 75% быстрее
+CrumblingStrikeTooltip: При скрытном ударе атака наносит увеличенный урон и накладывает 5-секундный дебафф [cbuff:CalamityMod/Crumbling]
+CrunchStrikeTooltip: При скрытном ударе атака наносит увеличенный урон и накладывает 5-секундный дебафф [cbuff:CalamityMod/ArmorCrunch]
 
 UI: {
 	IEoRNotice:
@@ -120,7 +120,7 @@ Configs: {
 		Headers: {
 			General: Основные настройки
 			ColoredDamageType: Цвет урона
-			ClassTag: Классовый тег
+			ClassTag: Тег класса
 			Experimental: Экспериментальные настройки
 		}
 
@@ -131,17 +131,17 @@ Configs: {
 
 		Calamity: {
 			Label: Calamity
-			Tooltip: Включает/Выключает объединение для класса Разбойник (Rogue) из Calamity.
+			Tooltip: Включает/Выключает объединение для класса разбойник (Rogue) из Calamity.
 		}
 
 		Vitality: {
 			Label: Vitality
-			Tooltip: Включает/Выключает объединение для класса Кровавый охотник (Blood Hunter) из Vitality.
+			Tooltip: Включает/Выключает объединение для класса кровавый охотник (Blood Hunter) из Vitality.
 		}
 
 		SacredTools: {
 			Label: Shadows of Abaddon
-			Tooltip: Включает/Выключает объединение для класса Ревенант (Revenant) из Shadows of Abaddon.
+			Tooltip: Включает/Выключает объединение для класса ревенант (Revenant) из Shadows of Abaddon.
 		}
 
 		TooltipOverride: {

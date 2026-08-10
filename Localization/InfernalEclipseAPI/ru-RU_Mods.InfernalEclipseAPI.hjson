@@ -149,7 +149,7 @@ BossCheesePrevention: {
 
 ItemBalance: {
 	Modified: Этот предмет был изменён модом Infernal Eclipse of Ragnarok
-	Modified2: Удерживайте {0}, чтобы просмотреть изменения
+	Modified2: Удерживайте {0} для просмотра изменений в характеристиках
 	DamageUpGeneric: "    Урон увеличен на [c/00A36C:{0}%]"
 	DamageDownGeneric: "    Урон снижен на [c/FF0000:{0}%]"
 	ShootSpeedUpGeneric: "    Скорость снарядов снижена на [c/FF0000:{0}%]"
@@ -158,19 +158,20 @@ ItemBalance: {
 	UseTimeDownGeneric: "    Длительность использования снижена на [c/FF0000:{0}%]"
 	UseAnimationUpGeneric: "    Анимация использования увеличена на [c/00A36C:{0}%]"
 	UseAnimationDownGeneric: "    Анимация использования снижена на [c/FF0000:{0}%]"
-	UseSpeedUpGeneric: "    Скорость использования увеличена на [c/00A36C:{0}%]"
-	UseSpeedDownGeneric: "    Скорость использования снижена на [c/FF0000:{0}%]"
+	UseSpeedUpGeneric: "    Скорость атаки увеличена на [c/00A36C:{0}%]"
+	UseSpeedDownGeneric: "    Скорость атаки снижена на [c/FF0000:{0}%]"
 	PickUpGeneric: "    Мощность кирки увеличена на [c/FF0000:{0}%]"
 	PickDownGeneric: "    Мощность кирки снижена на [c/FF0000:{0}%]"
 	CritUpGeneric: "    Шанс критического удара увеличен на [c/00A36C:{0}%]"
 	CritDownGeneric: "    Шанс критического удара снижен на [c/FF0000:{0}%]"
-	DefenseUpGeneric: "    Защита увеличена на {0} ед."
-	DefenseDownGeneric: "    Защита снижена на {0} ед."
+	DefenseUpGeneric: "    Защита увеличена на [c/00A36C:{0} ед.]"
+	DefenseDownGeneric: "    Защита снижена на [c/FF0000:{0} ед.]"
 }
 
 ItemTooltip: {
 	BasicDamage: ед. базового урона
 	OmniShield: -Универсальный щит-
+	Donor: - Предмет покровителя -
 	Playtester: - Предмет тестировщика -
 	Contributor: - Предмет участника -
 	NamelessDowned: Сперва, вы должны пройти испытание
@@ -320,7 +321,7 @@ ItemTooltip: {
 		Увеличивает количество пустоты, получаемое от еды, на 25%
 		Получение одного и того же баффа просуммирует его длительность, вместо того, чтобы сбросить его к базовому значению
 		'''
-	MutantSkeletron: "[IEoR] Этот предмет невозможно использовать до победы над Скелетроном. Используйте вместо него предмет призыва из Infernum."
+	MutantSkeletron: "[IEoR] Этот предмет нельзя использовать до победы над Скелетроном. Используйте вместо него предмет призыва из Infernum."
 	VibePotion: Увеличивает скорость атаки на 10%, если вы не двигаетесь, и на 5%, если двигаетесь
 	BloodPotion: Увеличивает скорость добычи на 15%
 	FrenzyPotion: Увеличивает скорость атаки на 5%
@@ -429,7 +430,7 @@ ItemTooltip: {
 		'''
 
 	DissolvingElements: {
-		NatureFlipped: Увеличивает скорость регенерации здоровья на 0,25 ед./сек за каждый элемент в инвентаре, вплоть до 1
+		NatureFlipped: Увеличивает скорость регенерации здоровья на 0,25 ед./сек за каждый элемент в инвентаре, вплоть до 1 ед./сек
 		EarthFlipped: Увеличивает защиту на 1 ед. за каждый элемент в инвентаре, вплоть до 4 ед.
 		AuroraFlipped: Увеличивает скорость передвижения на 1% за каждый элемент в инвентаре, вплоть до 4%
 		DelugeFlipped: Увеличивает стрелковый урон на 2% за каждый элемент в инвентаре, вплоть до 8%
@@ -551,6 +552,7 @@ ItemTooltip: {
 		Puzzles: Mr. Puzzles
 		cat: StarlightCat
 		Arkangel: Arkangel
+		Minesky: Mineskye
 	}
 
 	MergedCraftingTreeTooltip: {
@@ -641,9 +643,9 @@ ItemTooltip: {
 			'''
 		Skull:
 			'''
-			Enemies struck by the tips of summoner whips take {0}% extra damage, become cursed, and spawn up to [c/{1}:{2}] wisps
-			Right Click with a whip to send the wisps towards your cursor, damaging nearby enemies
-			Killing cursed enemies or continually damaging bosses releases an exploding ghost dealing 40 damage, which can also curse enemies
+			Враги, поражённые кончиком хлыста призывателя, получают на {0}% больше урона, становятся проклятыми и создают до [c/{1}:{2}] огоньков
+			Нажмите ПКМ, держа в руках хлыст, чтобы направить огоньки в сторону курсора, нанося урон ближайшим врагам
+			Убийство проклятых врагов или непрерывное нанесение урона боссам выпускает взрывающегося призрака, который наносит 40 ед. урона и также может проклясть врагов
 			'''
 		CyanPearl: Вдвое снижает штраф на урон для стражей
 		Watch: Призванные стражи существуют бесконечно и увеличивают свой урон на 15% в течении первых 2 минут
@@ -1858,7 +1860,7 @@ Items: {
 		# Opposite of Sloth, Diligence
 		I0:
 			'''
-			Увеличивает скорость размещения блоков и стен на 20%, а также дальность их размещения на 3 блока
+			Увеличивает скорость размещения блоков и стен на 20%, а также дальность дальность их размещения на 3 блока
 			Увеличивает скорость передвижения на 20%
 			'''
 		# Opposite of Wrath, Patience
@@ -1884,9 +1886,9 @@ Items: {
 		# Opposite of Pride, Humility
 		I5:
 			'''
-			Increase defense based on a third of damage, then decreases damage by defense buff
-			Increases defense by {0}
-			Decreases damage by {1}%
+			Увеличивает защиту на треть вашего урона, а затем снижает ваш урон на треть от полученного бонуса к урону
+			Увеличивает защиту на {0} ед.
+			Снижает урон на {1}%
 			'''
 		# Opposite of Lust, Chastity
 		I6:
@@ -2351,6 +2353,49 @@ Items: {
 			Удерживайте SHIFT, чтобы увидеть полный список
 			'''
 	}
+
+	BlixerCore: {
+		DisplayName: Ядро Бликсера
+		Tooltip:
+			'''
+			Призывает руки Бликсера сражаться за вас
+			Руки занимают 4 слота миньонов и могут быть призваны лишь в одном экземпляре
+			Нажатие ПКМ позволяет переключаться между 2 режимами атаки
+			'''
+		DefaultMode:
+			'''
+			Базовый режим:
+			A set of two hands and two cannons will be attached to the arms
+			Hands automatically attack nearby enemies within range
+			Cannons will fire towards your mouse cursor while using any item
+			'''
+		LaserMode:
+			'''
+			Режим лазера:
+			A set of four cannons will be attached to the arms
+			Cannons will fire precise lasers towards the curson while using any item
+			'''
+	}
+
+	InterludeFourMusicBox: {
+		DisplayName: Музыкальная шкатулка (4 интерлюдия)
+		Tooltip: Проигрывает «Calamity before the cynosure» за авторством theforge129
+	}
+
+	LastBattleMusicBox: {
+		DisplayName: Музыкальная шкатулка (Пожиратель богов - Финальная фаза)
+		Tooltip: Проигрывает «Last Battle (Ballos Mix)» за авторством DM DOKURO
+	}
+
+	PlanteraMusicBox: {
+		DisplayName: Музыкальная шкатулка (Плантера - Инфернум)
+		Tooltip: Проигрывает «Floral Animosity» за авторством PinpinNeon
+	}
+
+	QueenSlimeMusicBox: {
+		DisplayName: Музыкальная шкатулка (Королева слизней - Инфернум)
+		Tooltip: Проигрывает «Crowned Before One's End» за авторством PinpinNeon
+	}
 }
 
 Projectiles: {
@@ -2723,7 +2768,7 @@ Configs: {
 
 		MothershipMusic: {
 			Label: Трек Вульфрумового корабля-носителя
-			Tooltip: Переключает темы, проигрывающиеся при битве с Вульфрумовым кораблём-носителем.
+			Tooltip: Позволяет переключать темы, проигрывающиеся при битве с Вульфрумовым кораблём-носителем.
 		}
 
 		MaxVoidOnRespawn: {
@@ -2742,8 +2787,13 @@ Configs: {
 		}
 
 		DisableUnnecessaryContent: {
-			Label: Отключить необязательный контент
+			Label: Необязательный контент
 			Tooltip: ""
+		}
+
+		EnableCodebreakerInterlude: {
+			Label: Интерлюдия после сборки Дешифратора
+			Tooltip: Включает/Выключает проигрывание особых интерлюдий после установки последней части Дешифратора в первый раз.
 		}
 	}
 

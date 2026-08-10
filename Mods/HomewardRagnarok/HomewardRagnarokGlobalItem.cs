@@ -45,7 +45,7 @@ public partial class HomewardRagnarokGlobalItem : GlobalItem
         // Fission
         if (item.type == ModContent.ItemType<Fission>())
         {
-            ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "Vaporfied", afterMod: "Terraria");
+            ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "Vaporfied", afterName: "Tooltip0");
         }
 
         // Batter and Batter Cap
@@ -170,6 +170,6 @@ public partial class HomewardRagnarokGlobalItem : GlobalItem
         }
 
         // Whale Bone Charm
-        ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "WhaleBoneCharmRebalance", "Работает только во время битвы с Вечно падающим китом или Часовым", afterMod: "Terraria");
+        ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "WhaleBoneCharmRebalance", "Работает только во время битвы с Вечно падающим китом конца света или Часовым", afterMod: "Terraria");
     }
 }

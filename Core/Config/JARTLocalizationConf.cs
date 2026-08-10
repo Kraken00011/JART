@@ -52,6 +52,10 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
+    public bool InfernalEclipseWeaponsDLCLocalization;
+
+    [ReloadRequired]
+    [DefaultValue(true)]
     public bool GolemReworkLocalization;
 
     [ReloadRequired]
@@ -67,22 +71,26 @@ public class JARTLocalizationConf : ModConfig
     public bool SOTSBardHealerLocalization;
 
     [ReloadRequired]
-    [Label("Unofficial Calamity Bard & Healer")]
-    [Tooltip("Включает/Выключает перевод мода Unofficial Calamity Bard & Healer.")]
     [DefaultValue(true)]
     public bool CalamityBardHealerLocalization;
 
     [Header("SmallMod")]
 
     [ReloadRequired]
-    [Label("Accessory Hearts")]
-    [Tooltip("Включает/Выключает перевод мода Accessory Hearts.")]
+    [DefaultValue(true)]
+    public bool HomewardSubworldLocalization;
+
+    [ReloadRequired]
     [DefaultValue(true)]
     public bool AccessoryHeartsLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool HomewardSubworldLocalization;
+    public bool ActivateWindowsLocalization;
+
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool AdditionalRelicsLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]
@@ -93,8 +101,6 @@ public class JARTLocalizationConf : ModConfig
     public bool ArmorBuffsLocalization;
 
     [ReloadRequired]
-    [Label("Beam Stops Spread")]
-    [Tooltip("Включает/Выключает перевод мода Beam Stops Spread.")]
     [DefaultValue(true)]
     public bool BeamStopsSpreadLocalization;
 
@@ -119,22 +125,20 @@ public class JARTLocalizationConf : ModConfig
     public bool CalamityCrossmodVulnerabilitiesLocalization;
 
     [ReloadRequired]
-    [Label("Calamity Overdrive")]
-    [Tooltip("Включает/Выключает перевод мода Calamity Overdrive.")]
     [DefaultValue(true)]
     public bool WulfrumExpansionLocalization;
 
     [ReloadRequired]
-    [Label("Celestial Shield")]
-    [Tooltip("Включает/Выключает перевод мода Celestial Shield.")]
     [DefaultValue(true)]
     public bool CelestialShieldLocalization;
 
     [ReloadRequired]
-    [Label("Cleffy")]
-    [Tooltip("Включает/Выключает перевод мода Cleffy.")]
     [DefaultValue(true)]
     public bool CleffyLocalization;
+
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool ComSlotLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]
@@ -145,8 +149,6 @@ public class JARTLocalizationConf : ModConfig
     public bool CosmicElementalPetLocalization;
 
     [ReloadRequired]
-    [Label("Crown Set bonuses")]
-    [Tooltip("Включает/Выключает перевод мода Crown Set bonuses.")]
     [DefaultValue(true)]
     public bool CrownSetsLocalization;
 
@@ -159,8 +161,6 @@ public class JARTLocalizationConf : ModConfig
     public bool EvilPylonLocalization;
 
     [ReloadRequired]
-    [Label("Experimental Infernum Extension")]
-    [Tooltip("Включает/Выключает перевод мода Experimental Infernum Extension.")]
     [DefaultValue(true)]
     public bool InfernumFablesLocalization;
 
@@ -181,14 +181,10 @@ public class JARTLocalizationConf : ModConfig
     public bool FutureBossesLocalization;
 
     [ReloadRequired]
-    [Label("InfiniteInteger's Mage Tweaks")]
-    [Tooltip("Включает/Выключает перевод мода InfiniteInteger's Mage Tweaks.")]
     [DefaultValue(true)]
     public bool MageTweaksLocalization;
 
     [ReloadRequired]
-    [Label("Inspiration Potions")]
-    [Tooltip("Включает/Выключает перевод мода Inspiration Potions.")]
     [DefaultValue(true)]
     public bool InspirationPotionsLocalization;
 
@@ -229,8 +225,6 @@ public class JARTLocalizationConf : ModConfig
     public bool ItemRelicsLocalization;
 
     [ReloadRequired]
-    [Label("Mana Fruit")]
-    [Tooltip("Включает/Выключает перевод мода Mana Fruit.")]
     [DefaultValue(true)]
     public bool MLManaFruitLocalization;
 
@@ -247,14 +241,10 @@ public class JARTLocalizationConf : ModConfig
     public bool MoreBeamsLocalization;
 
     [ReloadRequired]
-    [Label("Movement Speed Fix")]
-    [Tooltip("Включает/Выключает перевод мода Movement Speed Fix.")]
     [DefaultValue(true)]
     public bool MoveSpeedFixLocalization;
 
     [ReloadRequired]
-    [Label("Multiclass Armors")]
-    [Tooltip("Включает/Выключает перевод мода Multiclass Armors.")]
     [DefaultValue(true)]
     public bool MulticlassArmorsLocalization;
 
@@ -283,8 +273,6 @@ public class JARTLocalizationConf : ModConfig
     public bool PetrifiedVoodooDollLocalization;
 
     [ReloadRequired]
-    [Label("Pinnacle Reforges")]
-    [Tooltip("Включает/Выключает перевод мода Pinnacle Reforges.")]
     [DefaultValue(true)]
     public bool PinnacleReforgesLocalization;
 
@@ -293,8 +281,6 @@ public class JARTLocalizationConf : ModConfig
     public bool PolyphemalusLocalization;
 
     [ReloadRequired]
-    [Label("Potion Slot")]
-    [Tooltip("Включает/Выключает перевод мода Potion Slot.")]
     [DefaultValue(true)]
     public bool PotionSlotsLocalization;
 
@@ -335,8 +321,6 @@ public class JARTLocalizationConf : ModConfig
     public bool SpiritofOverseerLocalization;
 
     [ReloadRequired]
-    [Label("Starforged [Classic]")]
-    [Tooltip("Включает/Выключает перевод мода Starforged.")]
     [DefaultValue(true)]
     public bool starforgedclassicLocalization;
 
@@ -361,14 +345,10 @@ public class JARTLocalizationConf : ModConfig
     public bool TurtleBoulderLocalization;
 
     [ReloadRequired]
-    [Label("Ultimate Infinite Star")]
-    [Tooltip("Включает/Выключает перевод мода Ultimate Infinite Star.")]
     [DefaultValue(true)]
     public bool UISLocalization;
 
     [ReloadRequired]
-    [Label("Unofficial Alternative Biomes Compatibility")]
-    [Tooltip("Включает/Выключает перевод мода Unofficial Alternative Biomes Compatibility.")]
     [DefaultValue(true)]
     public bool AlternativeCompatLocalization;
 
@@ -381,8 +361,6 @@ public class JARTLocalizationConf : ModConfig
     public bool UnCalamityMusicLocalization;
 
     [ReloadRequired]
-    [Label("Vanity + Dyable Cursors API")]
-    [Tooltip("Включает/Выключает перевод мода Vanity + Dyable Cursors API.")]
     [DefaultValue(true)]
     public bool NightshadeVanityCursorsLocalization;
 
@@ -395,8 +373,6 @@ public class JARTLocalizationConf : ModConfig
     public bool GauntletsLocalization;
 
     [ReloadRequired]
-    [Label("WHummus' Calamity/Thorium Balancing")]
-    [Tooltip("Включает/Выключает перевод мода WHummus' Calamity/Thorium Balancing.")]
     [DefaultValue(true)]
     public bool WHummusMultiModBalancingLocalization;
 
@@ -443,8 +419,6 @@ public class JARTLocalizationConf : ModConfig
     public bool InfernumLegendAndMasFix;
 
     [ReloadRequired]
-    [Label("The Depths")]
-    [Tooltip("Включает/Выключает фикс перевода мода The Depths.")]
     [DefaultValue(true)]
     public bool TheDepthsFix;
 
@@ -469,14 +443,10 @@ public class JARTClientCfg : ModConfig
     public bool ExtraClassTags;
 
     [ReloadRequired]
-    [Label("Иконки баффов/дебаффов")]
-    [Tooltip("Внедряет систему иконок баффов/дебаффов, добавляемую Calamity, в описания предметов из пары других модов, не связанных с Calamity.\n[c/DAA520:Для работы требует Calamity Mod и Project tRU.]")]
     [DefaultValue(true)]
     public bool CBuffsForOtherMods;
 
     [ReloadRequired]
-    [Label("Проверка совместимости модов")]
-    [Tooltip("Включает/Выключает проверку переведённых модов на совместимость версий как это делает Project tRU.\n[c/DAA520:Для работы требует Project tRU.]")]
     [DefaultValue(true)]
     public bool CheckModCompatibility;
 }

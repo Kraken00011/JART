@@ -1,0 +1,473 @@
+/*Items: {
+	AtomSplitter: {
+		DisplayName: Атомный расщепитель
+		Tooltip:
+			'''
+			Нажмите ЛКМ, чтобы бросить радиоактивный топорик, пронзающий бесконечное количество врагов
+			Нажмите ПКМ, чтобы разместить нестабильное ядро в точке курсора
+			Одновременно можно разместить только 1 нестабильное ядро
+			При попадании по ядру любым метательным предметом тот разделит этот предмет на три
+			Если поблизости находятся враги, при разделении снаряды наведутся на них
+			В дополнение, ядро разделяется на 2 самонаводящихся стабильных изотопа
+			'Ядерное расщепление!'
+			'''
+	}
+
+	BlackPlague: {
+		DisplayName: Чёрная смерть
+		Tooltip:
+			'''
+			Вращает заражающую косу, накладывающую на врагов дебафф «{$BuffName.Poisoned}»
+			Иногда может выпускать потоки инфекции
+			'''
+	}
+
+	CrusadersWarHorn: {
+		DisplayName: Боевой рог крестоносца
+		Tooltip:
+			'''
+			Стреляет прыгучими сферами света
+			'За землю святую!'
+			'''
+	}
+
+	CursedSporeKnife: {
+		DisplayName: Проклятый споровый клинок
+		Tooltip:
+			'''
+			Бросает отравленный клинок средней дальности
+			При нанесении критического удара призывает небольшое облако токсичных спор
+			'''
+	}
+
+	EaglecrestTambourine: {
+		DisplayName: Бубен Клювогорья
+		Tooltip:
+			'''
+			Удерживайте ЛКМ, чтобы играть на бубне, тем самым заряжая его
+			Зарядка оружия может увеличить его урон вплоть до 1000%
+			Отпустите ЛКМ, чтобы бросить его
+			'''
+	}
+
+	EaglecrestTomahawk: {
+		DisplayName: Томагавк Клювогорья
+		Tooltip:
+			'''
+			Бросает земляной томагавк, падающий с течением времени
+			При попадании вызывает взрыв
+			Чем дольше будет падать томагавк, тем больше урона он нанесёт (до 600%)
+			Этот множитель работает только при прямых попадания по врагу
+			'Заруби себе на носу: Я здесь главный!'
+			'''
+	}
+
+	EMStabber: {
+		DisplayName: Э.М. Протыкатель
+		Tooltip:
+			'''
+			При попадании вонзается во врага
+			(6[i:Redemption/EnergyCell]) Перегружает ваши ножи
+			Пока вонзены во врага, перегруженные ножи будут испускать наносящее урон электромагнитное поле
+			Можно использовать без Энергоячейки
+			'''
+	}
+
+	GroomsGift: {
+		DisplayName: Дар Грум
+		Tooltip:
+			'''
+			Стреляет духом со слабой самонаводкой
+			'Никто не знает, что это такое, но все знают, что это одна из её особо ценных вещиц'
+			'''
+	}
+
+	HalfLife: {
+		DisplayName: Half-Life
+		Tooltip:
+			'''
+			Вместо вращения совершает взмахи по диагонали
+			Испускает альфа-частицы при каждом 1 и 2 взмахе
+			Альфа-частицы не пронзают врагов, но кратковременно застревают в них, нанося дополнительный урон
+			При каждом 3 взмахе коса раскручивается и выпускает множество бета-частиц
+			Бета-частицы пробивают блоки и врагов, но наносят меньше урона в сравнении с альфа-частицами
+			'The third one will come once Thorium-232 reaches its half-life'
+			'''
+	}
+
+	HardlightMask: {
+		DisplayName: Твёрдосветовая маска
+		Tooltip:
+			'''
+			Снижает весь урон, кроме лучезарного, на 33%
+			Увеличивает лучезарный урон на 13%
+			Увеличивает шанс лучезарного критического удара на 10%
+			Исцеляющие заклинания восстанавливают дополнительно 6 единиц здоровья
+			'''
+		SetBonus:
+			'''
+			Призывает дронов-починщиков, исцеляющих игроков с наименьшим здоровьем
+			Дроны-починщики восстанавливают здоровье на сумму, равную 10x бонусного исцеления
+			'''
+	}
+
+	HardlightReticle: {
+		DisplayName: Твёрдосветовой прицел
+		Tooltip:
+			'''
+			Увеличивает метательный урон на 13%
+			Даёт 33% шанс не потратить метательный предмет
+			Увеличивает максимальное число очков техники на 2
+			'''
+		SetBonus: Призывает орбитальную бомбардировку рядом с игроком
+	}
+
+	HardlightVisage: {
+		DisplayName: Твёрдосветовой лик
+		Tooltip:
+			'''
+			Увеличивает симфонический урон на 13%
+			Увеличивает скорость симфонической игры на 7%
+			Увеличивает максимальный запас вдохновения на 4
+			Увеличивает длительность накладываемых усилений на 2 секунды
+			'''
+		SetBonus:
+			'''
+			Проигрывает отвлекающий дроп, дающий усиление Вариативность I
+			В дополнение, также стремительно восстанавливает до 40 очков вдохновения
+			'''
+	}
+
+	HauntedGramophone: {
+		DisplayName: Зловещий граммофон
+		Tooltip:
+			'''
+			Проигрывает зловещий звук, накладывающий на врагов дебафф «{$Mods.ThoriumMod.Buffs.Tuned.DisplayName}»
+			<right> to make the sound travel omni-directionally
+			Враги, подверженные дебаффу «{$Mods.ThoriumMod.Buffs.Tuned.DisplayName}», получают на 5% больше урона
+			'Жуть какая, он даже звуки сам собой воспроизводит'
+			'''
+	}
+
+	HolyChalice: {
+		DisplayName: Чаша святой воды
+		Tooltip:
+			'''
+			Разбрызгивает капли святой воды
+			'Тфвоя душа будет оцфифена!'
+			'''
+	}
+
+	IonWind: {
+		DisplayName: Ионный ветер
+		Tooltip:
+			'''
+			Стреляет самонаводящимся ионизированныи ветром
+			Ионизированный ветер терзает поражённых врагов
+			Расходует энергию ([i:Redemption/EnergyCell]) на сумму, равную расходу вдохновения
+			Требуется наличие Энергоячейки в инвентаре
+			'''
+	}
+
+	KillswitchEngineer: {
+		DisplayName: Killswitch Engineer
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			If there is an Energy Pack in your inventory the scythe will:
+			Alternates between releasing scorching shockwaves and a volley of homing bolts every swing if it has any energy
+			Projectile attacks from this weapon causes additional slashes to appear above 33% energy
+			Direct hits and scorching shockwaves recharge yout Energy Pack equal to Soul Essence granted below 33% energy
+			Расходует энергию ([i:Redemption/EnergyCell]) на сумму, равную получаемому количеству эссенций души
+			'''
+	}
+
+	LeafLyre: {
+		DisplayName: Лира листолюба
+		Tooltip: Launches little lacerating leaves
+	}
+
+	Milkomeda: {
+		DisplayName: Млечномета
+		Tooltip:
+			'''
+			Throw two cosmic chakrams that occasionally collide with each other
+			Generates stars every collision
+			Stars can home into enemies
+			'The beautiful billion-year dance of two merging galaxies'
+			'''
+	}
+
+	MutagenBard: {
+		DisplayName: Мутаген барда
+		Tooltip:
+			'''
+			Увеличивает симфонический урон на 15%
+			Увеличивает шанс симфонического критического удара на 10%
+			Увеличивает максимальный запас вдохновения на 4
+			'''
+	}
+
+	MutagenHealer: {
+		DisplayName: Мутаген целителя
+		Tooltip:
+			'''
+			Увеличивает лучезарный урон на 15%
+			Увеличивает шанс лучезарного критического удара на 10%
+			Исцеляющие заклинания восстанавливают дополнительно 2 единицы здоровья
+			'''
+	}
+
+	MutagenThrower: {
+		DisplayName: Мутаген ниндзя
+		Tooltip:
+			'''
+			Увеличивает метательный урон на 15%
+			Увеличивает шанс метательного критического удара на 10%
+			Увеличивает максимальное число очков техники наы 1
+			'''
+	}
+
+	NoceboEffect: {
+		DisplayName: Эффект ноцебо
+		Tooltip:
+			'''
+			Инъецирует смертельный вирус в поражённых врагов
+			'Больно не будет! (Больно будет, ещё как будет...)'
+			'''
+	}
+
+	Oboeterator: {
+		DisplayName: Гобойлитерратор
+		Tooltip:
+			'''
+			Одновременно считается и электронным, и духовым инструментом
+			Shoots hit-scan lightning above 50% energy that deal [i:Redemption/Thunder] damage
+			Lightning strikes gain aim-assist from wind homing speed and range
+			Lightning strikes also return 1 inspiration on critical hits
+			Fires homing plasma bolts below 50% energy that deal [i:Redemption/Fire] damage
+			Plasma bolts recharge your Energy Pack on critical hits
+			Consumes energy ([i:Redemption/EnergyCell]) equal to inspiration cost
+			Требуется наличие Энергоячейки в инвентаре
+			'Облетерирует бедные барабанные перепонки ваших врагов'
+			'''
+	}
+
+	OmegaDefibrillator: {
+		DisplayName: Омега-дефибриллятор
+		Tooltip:
+			'''
+			(2[i:Redemption/EnergyCell]) Cast powerful electromagnetic fields that targets both allies and enemies
+			Can target up to three allies or enemies at once, enemies are higher priority
+			Allies are healed once every pulse and recharges (1[i:Redemption/EnergyCell]) per healed ally
+			Enemies are damaged by the electromagnetic field and recharges (1[i:Redemption/EnergyCell]) on crit
+			Требуется наличие Энергоячейки в инвентаре
+			"Restart your ally's heartbeat whilst stopping the enemy's"
+			'''
+	}
+
+	RadiumGuitar: {
+		DisplayName: Радиевая гитара
+		Tooltip:
+			'''
+			Выпускает сконцентрированные лучи гамма-излучения в направлении курсора
+			The emissions linger for quite a while
+			'Тяжёлый технологический рок!'
+			'''
+	}
+
+	RendingCoil: {
+		DisplayName: Rending Coil
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			If there is an Energy Pack in your inventory the scythe will:
+			Release electric shockwaves every swing if it has any energy
+			The shockwaves will cause chain lightning if above 50% energy
+			Consumes energy ([i:Redemption/EnergyCell]) equal to Soul Essence granted
+			'''
+	}
+
+	ReverseGeigerCounter: {
+		DisplayName: Reverse Geiger Counter
+		Tooltip:
+			'''
+			Emits weak, radioactive rays that poisons enemies
+			"Still technically an instrument, just not in a traditional sense"
+			'''
+	}
+
+	SeventhSeraph: {
+		DisplayName: Седьмой серафим
+		Tooltip:
+			'''
+			Causes deadly stars to rain down
+			The stars have aim-assist
+			'Call upon the apocalypse...'
+			'''
+	}
+
+	ScorchingScalpel: {
+		DisplayName: Опаляющий скальпель
+		Tooltip:
+			'''
+			Shoots a volley of three scorching scalpels
+			(4[i:Redemption/EnergyCell]) Overcharges your knives
+			Overcharged knives spawn apparitions on hit
+			Knife apparitions lock onto targets and stab them after some time
+			Can be used without an Energy Pack
+			'Операция раскалённым до предела скальпелем? Уже на подходе!'
+			'''
+	}
+
+	Shockriken: {
+		DisplayName: Шок-рикен
+		Tooltip:
+			'''
+			(2[i:Redemption/EnergyCell]) Throw taser-infused shurikens
+			Can tase up to three enemies at once within a 40 tile radius
+			Deals 15% less damage per every enemy being tased
+			Требуется наличие Энергоячейки в инвентаре
+			'''
+	}
+
+	Synthesizer: {
+		DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+		Tooltip: "{$Mods.Redemption.Items.Synthesizer.Tooltip}"
+	}
+
+	TheTwig: {
+		DisplayName: Ветвь
+		Tooltip:
+			'''
+			Вместо вращения совершает взмахи по диагонали
+			Poisons enemies on hit and occasionally spews out tiny splinters
+			Splinters build up inside targets and dealing damage can cause them to shoot everywhere
+			'Это не просто ветка, эта ТА САМАЯ ветка, палочка-выручалочка прямиком из твоего ДЕТСТВА'
+			'''
+	}
+
+	VirtuousFavor: {
+		DisplayName: Virtuous Favor
+		Tooltip:
+			'''
+			Casts a redempting beam that homes into allies and heals them
+			Upon healing an ally, it returns to the user, healing half as much
+			'Возлюби ближнего своего, как самого себя.'
+			'''
+	}
+
+	VlitchSynthesizer: {
+		DisplayName: Vlitch Synthesizer
+		Tooltip:
+			'''
+			Стреляет самонаводящимися лучами синтезатора
+			(2[i:Redemption/EnergyCell]) Creates inaccurate lightning strikes that spawn more synthesizer beams
+			Can be used without an Energy Pack
+			'А сейчас, вы слушаете [ИНФОРМАЦИЯ УДАЛЕНА] FM! Здесь, мы проигрываем только [ИНФОРМАЦИЯ УДАЛЕНА] треки!'
+			'''
+	}
+}
+
+Projectiles: {
+	AtomSplitter.DisplayName: Atom Splitter
+	BlackPlague.DisplayName: Black Plague
+	BlackPlagueStrain.DisplayName: Strains of the Black Plague
+	CrusadersWarCry.DisplayName: Crusader's War Cry
+	CursedSporeCloud.DisplayName: Cursed Spore Cloud
+	CursedSporeKnife.DisplayName: Cursed Spore Knife
+	EaglecrestTambourine.DisplayName: Eaglecrest Tambourine
+	EaglecrestTomahawk.DisplayName: Eaglecrest Tomahawk
+	EaglecrestTomahawkBlast.DisplayName: Eaglecrest Tomahawk
+	EMStabber.DisplayName: E. M. Stabber
+	GammaRadiation.DisplayName: Gamma Radiation
+	GroomsGift.DisplayName: Groom's Gift
+	HalfLife.DisplayName: Half Life
+	HalfLifeRadiation.DisplayName: Half Life
+	HardlightBeatDrop.DisplayName: Beat Drop
+	HardlightBomberDrone.DisplayName: Bomber Drone Mk. 17
+	HardlightGrenade.DisplayName: Hardlight Grenade
+	HardlightHealingDrone.DisplayName: Healing Drone Mk.99
+	HauntedNoise.DisplayName: Haunted Noise
+	HauntedSound.DisplayName: Haunted Sound
+	HolyWater.DisplayName: Droplets of Holy Water
+	IonWind.DisplayName: Ion Wind
+	KillswitchBolt.DisplayName: Killswitch Engineer
+	KillswitchEngineer.DisplayName: Killswitch Engineer
+	KillswitchSlice.DisplayName: Killswitch Engineer
+	KillswitchWave.DisplayName: Killswitch Engineer
+	LeafLyre.DisplayName: Leaf
+	LightStrike.DisplayName: Light Strike
+	Oboeterator.DisplayName: Oboeterator
+	OboeteratorLightning.DisplayName: Oboeterator
+	OmegaDefibrillation.DisplayName: Omega Defibrillation
+	Milkomeda.DisplayName: Milkomeda
+	NoceboEffect.DisplayName: Nocebo Effect
+	RedemptionBeam.DisplayName: Redemption Beam
+	RendingCoil.DisplayName: Rending Coil
+	RendingCoilWave.DisplayName: Rending Coil
+	RendingJolt.DisplayName: Rending Jolt
+	ScorchingScalpel.DisplayName: Scorching Scalpel
+	ScorchingScalpelApparition.DisplayName: Scorching Scalpel
+	SeventhSeraphStar.DisplayName: Seventh Seraph Star
+	Shockriken.DisplayName: Shockriken
+	Splinter.DisplayName: Splinter
+	Synthesizer.DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+	SynthesizerBeam.DisplayName: Synthesizing Beam
+	SynthesizerLightning.DisplayName: Synthesizing Lightning
+	SynthNote.DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+	TheTwig.DisplayName: The Twig
+	UnstableNucleus.DisplayName: Unstable Nucleus
+	Violin.DisplayName: Violin
+	WeakRadiation.DisplayName: Weak Radiation
+	MilkomedaStar.DisplayName: Milkomeda Star
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: Конфигурация баланса
+
+		elements: {
+			Label: Автоматическое присваивание элементов
+			Tooltip: Автоматически присваивает определённый элементальный тип урона предметам, добавляемым не Ваниллой и не Redemption.
+		}
+
+		thrower: {
+			Label: Множитель урона оружия метателя
+			Tooltip:
+				'''
+				Увеличивает урон метательного оружия из этого мода под заданный множитель.
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		bard: {
+			Label: Множитель урона оружия барда
+			Tooltip:
+				'''
+				Увеличивает урон симфонического оружия из этого мода под заданный множитель.
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		radiant: {
+			Label: Множительно урона оружия целителя
+			Tooltip:
+				'''
+				Увеличивает урон лучезарного оружия из этого мода под заданный множитель.
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+
+		soulEssence: {
+			Label: Множитель количества эссенций души
+			Tooltip:
+				'''
+				Увеличивает количество получаемых эссенций души с использованием лучезарного оружия из этого мода под заданный множитель.
+				Максимальное количество эссенций души, которое можно получить: 5.
+				(Для лучшей работы этой настройки требуется перезайти в мир!)
+				'''
+		}
+	}
+}
+*/
