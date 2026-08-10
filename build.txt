@@ -1,6 +1,6 @@
 displayName = Just Another RU Translator (JART)
 author = Kraken
-version = 1.5.0.3
+version = 1.5.0.4
 translationMod = true
 hideCode = true
 side = Both
