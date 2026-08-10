@@ -445,9 +445,9 @@ public class ToggleableLocalizations : OnPatcher
 
 				// 1.5.1.0
 
-				if ((!JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization || !ModLoader.HasMod("InfernalEclipseWeaponsDLC"))
+				/*if ((!JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization || !ModLoader.HasMod("InfernalEclipseWeaponsDLC"))
 				&& modpath.Contains(@"JAtRT\Localization\InfernalEclipseWeaponsDLC\"))
-					continue;
+					continue;*/
 
 				if ((!JARTLocalizationConf.Instance.AdditionalRelicsLocalization || !ModLoader.HasMod("AdditionalRelics"))
 				&& modpath.Contains(@"JAtRT\Localization\AdditionalRelics\"))

@@ -76,7 +76,7 @@ Items: {
 
 	AnotherNamelessDeityRelic: {
 		DisplayName: Альтернативная реликвия Безымянного божества
-		Tooltip: "'Ты прошёл испытание? О, ненаглядное божество, хватит ныть уже как идиот! Возвращайся когда станешь пикселизированным!'"
+		Tooltip: ""
 	}
 
 	AnotherPharaohsCurseRelic: {

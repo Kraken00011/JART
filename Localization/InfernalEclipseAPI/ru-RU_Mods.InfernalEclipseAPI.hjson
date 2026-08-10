@@ -1181,7 +1181,7 @@ Items: {
 		}
 
 		LorePharaoh: {
-			DisplayName: История (Проклятье Фараона)
+			DisplayName: История (Проклятие Фараона)
 			Tooltip: ""
 			Lore:
 				'''
@@ -1767,7 +1767,7 @@ Items: {
 	}
 
 	PharohsCurseRelic: {
-		DisplayName: Инфернальная реликвия Проклятья Фараона
+		DisplayName: Инфернальная реликвия Проклятия Фараона
 		Tooltip: "{0}"
 	}
 

@@ -50,9 +50,9 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool HPAwareLocalization;
 
-    [ReloadRequired]
+    /*[ReloadRequired]
     [DefaultValue(true)]
-    public bool InfernalEclipseWeaponsDLCLocalization;
+    public bool InfernalEclipseWeaponsDLCLocalization;*/
 
     [ReloadRequired]
     [DefaultValue(true)]
@@ -84,9 +84,9 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool AccessoryHeartsLocalization;
 
-    [ReloadRequired]
+    /*[ReloadRequired]
     [DefaultValue(true)]
-    public bool ActivateWindowsLocalization;
+    public bool ActivateWindowsLocalization;*/
 
     [ReloadRequired]
     [DefaultValue(true)]
