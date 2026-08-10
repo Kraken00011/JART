@@ -1,7 +1,5 @@
-using System;
 using System.Reflection;
 using MonoMod.Cil;
-using Mono.Cecil.Cil;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.MonoMod;

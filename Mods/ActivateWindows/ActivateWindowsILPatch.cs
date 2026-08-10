@@ -1,4 +1,4 @@
-using System.Reflection;
+/*using System.Reflection;
 using MonoMod.Cil;
 using JAtRT.Core.MonoMod;
 using Terraria.Localization;
@@ -40,3 +40,4 @@ public class ActivateWindowsImgILPatch : ILPatcher
         cursor.Next.Operand = "JAtRT/Assets/ActivateWindows_ru";
     };
 }
+*/

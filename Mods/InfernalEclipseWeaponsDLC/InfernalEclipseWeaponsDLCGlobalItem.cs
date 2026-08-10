@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 public partial class InfernalEclipseWeaponsDLCGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("InfernalEclipseWeaponsDLC") && JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization;
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("InfernalEclipseWeaponsDLC"); //&& JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization;
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         foreach (TooltipLine tooltip in tooltips)
