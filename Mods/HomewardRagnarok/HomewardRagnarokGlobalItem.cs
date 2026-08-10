@@ -176,6 +176,6 @@ public partial class HomewardRagnarokGlobalItem : GlobalItem
         }
 
         // Whale Bone Charm
-        ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "WhaleBoneCharmRebalance", "Работает только во время битвы с Вечно падающим китом или Часовым", afterMod: "Terraria");
+        ItemHelper.ReplaceTooltip(tooltips, "HomewardRagnarok", "WhaleBoneCharmRebalance", "Работает только во время битвы с Вечно падающим китом конца света или Часовым", afterMod: "Terraria");
     }
 }

@@ -1,4 +1,4 @@
-Items: {
+/*Items: {
 	AtomSplitter: {
 		DisplayName: Атомный расщепитель
 		Tooltip:
@@ -470,3 +470,4 @@ Configs: {
 		}
 	}
 }
+*/

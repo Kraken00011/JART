@@ -1,7 +1,7 @@
 v{ModVersion}
 Переводы:
-- Добавлены переводы Activate Windows Mod; Infernal Arsenal; Community Slot; Additional Relics; Unofficial Redemption Bard, Thrower & Healer (WIP)
-- Обновлён перевод IEoR до последней версии
+- Добавлены переводы Community Slot; Additional Relics
+- Обновлены некоторые переводы до последней версии
 - Небольшие изменения в нескольких переводах
 Другие изменения:
-- нету
+- Разработка ВСЕХ аддонов на каламити заморожена на неопределённый срок, ибо сам мод умер и причины их делать/обновлять попросту нет

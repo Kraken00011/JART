@@ -103,4 +103,59 @@ Items: {
 		DisplayName: Альтернативная реликвия Глаза Ктулху
 		Tooltip: ""
 	}
+
+	CatastropheRelic: {
+		DisplayName: Реликвия высшего Катастрофа
+		Tooltip: ""
+	}
+
+	CataclysmRelic: {
+		DisplayName: Реликвия высшего Катаклизма
+		Tooltip: ""
+	}
+
+	EbonianBehemuckRelic: {
+		DisplayName: Реликвия Эбонитового гряземота
+		Tooltip: ""
+	}
+
+	CrimulanGlopstrosityRelic: {
+		DisplayName: Реликвия Багротанового каплища
+		Tooltip: ""
+	}
+
+	DivineGargooptuarRelic: {
+		DisplayName: Реликвия Божественного бурдантюа
+		Tooltip: ""
+	}
+
+	StellarGeliathRelic: {
+		DisplayName: Реликвия Звёздного гелиафа
+		Tooltip: ""
+	}
+
+	TheJanitorRelic: {
+		DisplayName: Реликвия уборщика
+		Tooltip: ""
+	}
+
+	ProtectorVoltRelic: {
+		DisplayName: Реликвия защитника Вольт
+		Tooltip: ""
+	}
+
+	MACEProjectRelic: {
+		DisplayName: Реликвия проекта «БУЛАВА»
+		Tooltip: ""
+	}
+
+	IrradiatedBehemothRelic: {
+		DisplayName: Реликвия облучённого исполина
+		Tooltip: ""
+	}
+
+	BlisterfaceRelic: {
+		DisplayName: Реликвия нарыволицего
+		Tooltip: ""
+	}
 }

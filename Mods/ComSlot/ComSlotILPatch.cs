@@ -6,7 +6,7 @@ using JAtRT.Core.MonoMod;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-public class ComSlotAccessorySlotILPatch : ILPatcher
+public class ComSlotILPatch : ILPatcher
 {
     public override bool AutoLoad => Language.ActiveCulture.Name == "ru-RU" && ModLoader.HasMod("ComSlot") && JARTLocalizationConf.Instance.ComSlotLocalization;
 

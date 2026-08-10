@@ -1,4 +1,4 @@
-ItemDescriptions: {
+/*ItemDescriptions: {
 	ElectricGuitar:
 		'''
 		Каждое попадание цепной молнии восстанавливает 1 очко вдохновения
@@ -474,3 +474,4 @@ Configs: {
 		}
 	}
 }
+*/
