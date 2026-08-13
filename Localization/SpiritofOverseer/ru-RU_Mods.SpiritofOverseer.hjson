@@ -9,16 +9,16 @@ ItemDescriptions: {
 		Каждый взмах выпускает несколько лучей теневого пламени, наносящих небольшую часть урона от основной атаки
 		При прямом попадании по врагу есть небольшой шанс взорвать его, но только в случае, если тот подвержен дебаффу «{$BuffName.ShadowFlame}»
 		'''
-	ShadowSphere: Призывает руническое кольцо теневого пламени, выпускающее антитеневые огни, преследующие ближайших врагов
-	UmbraStaff: Стреляет каскадом антитеневых черепов
+	ShadowSphere: Призывает руническое кольцо теневого пламени, выпускающее полутеневые огни, преследующие ближайших врагов
+	UmbraStaff: Стреляет каскадом полутеневых черепов
 }
 
 Projectiles: {
 	AtlasDebris.DisplayName: Земляные останки
-	AntumbralFlame.DisplayName: Антитеневое пламя
-	AntumbralFlameF.DisplayName: Антитеневое пламя
-	AntumbralSkull.DisplayName: Антитеневой череп
-	AntumbralSkullF.DisplayName: Антитеневой череп
+	AntumbralFlame.DisplayName: Полутеневое пламя
+	AntumbralFlameF.DisplayName: Полутеневое пламя
+	AntumbralSkull.DisplayName: Полутеневой череп
+	AntumbralSkullF.DisplayName: Полутеневой череп
 	DuskBeam.DisplayName: Мрачный луч
 	FallingAsteroid.DisplayName: Падающий астероид
 	ShadowflameSword.DisplayName: Меч теневого пламени
