@@ -1,4 +1,4 @@
-/*Items: {
+Items: {
 	AtomSplitter: {
 		DisplayName: Атомный расщепитель
 		Tooltip:
@@ -68,8 +68,8 @@
 			'''
 			При попадании вонзается во врага
 			(6[i:Redemption/EnergyCell]) Перегружает ваши ножи
-			Пока вонзены во врага, перегруженные ножи будут испускать наносящее урон электромагнитное поле
-			Можно использовать без Энергоячейки
+			Пока вонзены во врага, перегруженные ножи будут испускать наносящие урон электромагнитные поля
+			Не требует наличия Энергоячейки в инвентаре
 			'''
 	}
 
@@ -83,15 +83,15 @@
 	}
 
 	HalfLife: {
-		DisplayName: Half-Life
+		DisplayName: Сталкер
 		Tooltip:
 			'''
 			Вместо вращения совершает взмахи по диагонали
-			Испускает альфа-частицы при каждом 1 и 2 взмахе
+			Выпускает альфа-частицы в направлении курсора при каждом 1 и 2 взмахе
 			Альфа-частицы не пронзают врагов, но кратковременно застревают в них, нанося дополнительный урон
-			При каждом 3 взмахе коса раскручивается и выпускает множество бета-частиц
+			При каждом 3 взмахе коса раскручивается и выбрасывает множество бета-частиц в разные стороны
 			Бета-частицы пробивают блоки и врагов, но наносят меньше урона в сравнении с альфа-частицами
-			'The third one will come once Thorium-232 reaches its half-life'
+			'Сталкера коса кормит'
 			'''
 	}
 
@@ -143,7 +143,7 @@
 		Tooltip:
 			'''
 			Проигрывает зловещий звук, накладывающий на врагов дебафф «{$Mods.ThoriumMod.Buffs.Tuned.DisplayName}»
-			<right> to make the sound travel omni-directionally
+			Нажмите ПКМ, чтобы издавать звук во все стороны
 			Враги, подверженные дебаффу «{$Mods.ThoriumMod.Buffs.Tuned.DisplayName}», получают на 5% больше урона
 			'Жуть какая, он даже звуки сам собой воспроизводит'
 			'''
@@ -170,7 +170,7 @@
 	}
 
 	KillswitchEngineer: {
-		DisplayName: Killswitch Engineer
+		DisplayName: Убильник
 		Tooltip:
 			'''
 			This scythe is swung directionally instead of spun
@@ -183,18 +183,17 @@
 	}
 
 	LeafLyre: {
-		DisplayName: Лира листолюба
-		Tooltip: Launches little lacerating leaves
+		DisplayName: Лира листофила
+		Tooltip: Стреляет маленькими рассекающими листками
 	}
 
 	Milkomeda: {
-		DisplayName: Млечномета
+		DisplayName: Млечномеда
 		Tooltip:
 			'''
-			Throw two cosmic chakrams that occasionally collide with each other
-			Generates stars every collision
-			Stars can home into enemies
-			'The beautiful billion-year dance of two merging galaxies'
+			Бросает 2 космических чакрама, которые со временем начинают сталкиваться друг с другом
+			При каждом столкновении выпускает множество самонаводящихся звёзд
+			'Прекрасный танец, длящийся вот уже более двух миллиардов лет, символизирует слияние двух галактик'
 			'''
 	}
 
@@ -224,7 +223,7 @@
 			'''
 			Увеличивает метательный урон на 15%
 			Увеличивает шанс метательного критического удара на 10%
-			Увеличивает максимальное число очков техники наы 1
+			Увеличивает максимальное число очков техники на 1
 			'''
 	}
 
@@ -289,7 +288,7 @@
 	}
 
 	ReverseGeigerCounter: {
-		DisplayName: Reverse Geiger Counter
+		DisplayName: Обратный счётчик гейгера
 		Tooltip:
 			'''
 			Emits weak, radioactive rays that poisons enemies
@@ -364,7 +363,7 @@
 			Стреляет самонаводящимися лучами синтезатора
 			(2[i:Redemption/EnergyCell]) Creates inaccurate lightning strikes that spawn more synthesizer beams
 			Can be used without an Energy Pack
-			'А сейчас, вы слушаете [ИНФОРМАЦИЯ УДАЛЕНА] FM! Здесь, мы проигрываем только [ИНФОРМАЦИЯ УДАЛЕНА] треки!'
+			'А сейчас, вы слушаете [ИНФОРМАЦИЯ УДАЛЕНА] FM! Здесь, мы проигрываем только самые [ИНФОРМАЦИЯ УДАЛЕНА] треки!'
 			'''
 	}
 }
@@ -470,4 +469,3 @@ Configs: {
 		}
 	}
 }
-*/

@@ -55,7 +55,7 @@ public class MoreColoredDamageTypes : GlobalItem
                     if (item.DamageType == voidMelee)
                     {
                         string[] parts = tooltip.Text.Split(' ');
-
+                        
                         if (tooltip.Text.Contains("пустотного урона и") && tooltip.Text.Contains("ближнего боя"))
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного урона и] [c/ff5555:урона ближнего боя]";
                     }
@@ -120,13 +120,6 @@ public class MoreColoredDamageTypes : GlobalItem
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("симфонического урона"))
                             tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:симфонического] [c/7746d7:урона]";
-                    }
-
-                    if (item.DamageType == voidThrowing ||
-                        item.DamageType == voidRadiant ||
-                        item.DamageType == voidSymphonic)
-                    {
-                        tooltip.OverrideColor = new Color(119, 70, 215);
                     }
                 }
 

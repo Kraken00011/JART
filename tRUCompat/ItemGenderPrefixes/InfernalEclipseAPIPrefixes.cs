@@ -24,7 +24,8 @@ internal class InfernalEclipseAPIPrefixes : ModSystem
                 "CelestialIllumination",
                 "RingofTix",
                 "TheChickenWing",
-                "ShatteredSubcommunity"
+                "ShatteredSubcommunity",
+                "BlixerCore"
             });
 
             tru.Call("AddPluralItems", eclipse, new string[]
