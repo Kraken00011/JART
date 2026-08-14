@@ -173,11 +173,11 @@ Items: {
 		DisplayName: Убильник
 		Tooltip:
 			'''
-			This scythe is swung directionally instead of spun
-			If there is an Energy Pack in your inventory the scythe will:
-			Alternates between releasing scorching shockwaves and a volley of homing bolts every swing if it has any energy
-			Projectile attacks from this weapon causes additional slashes to appear above 33% energy
-			Direct hits and scorching shockwaves recharge yout Energy Pack equal to Soul Essence granted below 33% energy
+			Вместо вращения совершает взмахи по диагонали
+			Пока в вашем инвентаре находится Энергоячейка, коса будет:
+			Пока у вас есть заряд первым взмахом выпускать опаляющие ударные волны, а вторым каскады самонаводящихся снарядов
+			При заряде выше 33% снаряды этой косы вызывают дополнительные разрезы в движении
+			При заряде ниже 33% прямые попадания и ударные волны заряжают вашу Энергоячейку на сумму, равную получаемому количеству эссенций души
 			Расходует энергию ([i:Redemption/EnergyCell]) на сумму, равную получаемому количеству эссенций души
 			'''
 	}
@@ -193,7 +193,7 @@ Items: {
 			'''
 			Бросает 2 космических чакрама, которые со временем начинают сталкиваться друг с другом
 			При каждом столкновении выпускает множество самонаводящихся звёзд
-			'Прекрасный танец, длящийся вот уже более двух миллиардов лет, символизирует слияние двух галактик'
+			'Прекрасный танец, длящийся вот уже более двух миллиардов лет, символизирует слияние двух величественных галактик'
 			'''
 	}
 
@@ -237,18 +237,18 @@ Items: {
 	}
 
 	Oboeterator: {
-		DisplayName: Гобойлитерратор
+		DisplayName: Гобойлитератор
 		Tooltip:
 			'''
 			Одновременно считается и электронным, и духовым инструментом
-			Shoots hit-scan lightning above 50% energy that deal [i:Redemption/Thunder] damage
+			При заряде выше 50% начинает стрелять сверхскоростными молниями, наносящими 50% урона [i:Redemption/Thunder]
 			Lightning strikes gain aim-assist from wind homing speed and range
 			Lightning strikes also return 1 inspiration on critical hits
 			Fires homing plasma bolts below 50% energy that deal [i:Redemption/Fire] damage
 			Plasma bolts recharge your Energy Pack on critical hits
-			Consumes energy ([i:Redemption/EnergyCell]) equal to inspiration cost
+			Расходует энергию ([i:Redemption/EnergyCell]) на сумму, равную стоимости вдохновения
 			Требуется наличие Энергоячейки в инвентаре
-			'Облетерирует бедные барабанные перепонки ваших врагов'
+			'Облитерирует бедные барабанные перепонки ваших врагов'
 			'''
 	}
 
@@ -271,19 +271,19 @@ Items: {
 			'''
 			Выпускает сконцентрированные лучи гамма-излучения в направлении курсора
 			The emissions linger for quite a while
-			'Тяжёлый технологический рок!'
+			'Тяжёлый технорок!'
 			'''
 	}
 
 	RendingCoil: {
-		DisplayName: Rending Coil
+		DisplayName: Кромсающий виток
 		Tooltip:
 			'''
 			This scythe is swung directionally instead of spun
 			If there is an Energy Pack in your inventory the scythe will:
 			Release electric shockwaves every swing if it has any energy
 			The shockwaves will cause chain lightning if above 50% energy
-			Consumes energy ([i:Redemption/EnergyCell]) equal to Soul Essence granted
+			Расходует энергию ([i:Redemption/EnergyCell]) на сумму, равную получаемому количеству эссенций души
 			'''
 	}
 
@@ -291,8 +291,8 @@ Items: {
 		DisplayName: Обратный счётчик гейгера
 		Tooltip:
 			'''
-			Emits weak, radioactive rays that poisons enemies
-			"Still technically an instrument, just not in a traditional sense"
+			Излучает слабые лучи радиации, накладывающие на врагов дебафф «{$BuffName.Poisoned}»
+			'Технически - это всё ещё музыкальный инструмент, просто не в совсем привычном понимании'
 			'''
 	}
 
@@ -300,8 +300,7 @@ Items: {
 		DisplayName: Седьмой серафим
 		Tooltip:
 			'''
-			Causes deadly stars to rain down
-			The stars have aim-assist
+			Вызывает падающие в небес самонаводящиеся звёзды
 			'Call upon the apocalypse...'
 			'''
 	}
@@ -310,8 +309,8 @@ Items: {
 		DisplayName: Опаляющий скальпель
 		Tooltip:
 			'''
-			Shoots a volley of three scorching scalpels
-			(4[i:Redemption/EnergyCell]) Overcharges your knives
+			Стреляет разбросом из 3 опаляющих скальпелей
+			(4[i:Redemption/EnergyCell]) Перегружает ваши скальпели
 			Overcharged knives spawn apparitions on hit
 			Knife apparitions lock onto targets and stab them after some time
 			Can be used without an Energy Pack
@@ -357,7 +356,7 @@ Items: {
 	}
 
 	VlitchSynthesizer: {
-		DisplayName: Vlitch Synthesizer
+		DisplayName: Влючный синтезатор
 		Tooltip:
 			'''
 			Стреляет самонаводящимися лучами синтезатора

@@ -1,0 +1,11 @@
+SteamInactive: Steam недоступен или не работает.
+AchievementPushCommandDescription: Обновляет Steam выполненными в данный момент достижениями.
+AchievementPullCommandDescription: Обновляет достижения Террарии при получении достижения в Steam.
+AchievementsPushed: "Загружено {0} {^0:достижение;достижения;достижений}!"
+AchievementsPulled: "{0} {^0:достижение;достижения;достижений} было выгружено из сохранений Steam!"
+
+Config: {
+	DisplayName: Общая конфигурация
+	EnableAutoSync: Автосинхронизация при входе в мир
+	EnableAutoSyncTooltip: Автоматически выполняет все полученные вами достижения в Steam при входе в мир.
+}
