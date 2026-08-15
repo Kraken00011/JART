@@ -1,4 +1,4 @@
-/*UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
+UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
 
 Items: {
 	TwoPaths: {
@@ -13,7 +13,15 @@ Items: {
 
 	TheParallel: {
 		DisplayName: Параллель
-		Tooltip: ""
+		Tooltip:
+			'''
+			Выпускает каскад космических кинжалов из иного измерения
+			После отскока от поверхности космические кинжалы войдут в осадное состояние
+			Кинжалы, вошедшие в осадное состояние, будут некоторое время вращаться, тем самым заряжаясь
+			Как только кинжал полностью зарядится, тот мгновенно броситься в направлении ближайшего врага, нанеся ему утроенный урон
+			Одновременно в осадном состоянии может находится до 27 кинжалов
+			Космические кинжалы, отскакивающие после этого, будут просто сразу же самонаводиться на ближайшего врага
+			'''
 	}
 
 	SuperShotgun: {
@@ -48,8 +56,8 @@ Items: {
 		DisplayName: Шёпот смерти
 		Tooltip:
 			'''
-			Releases faith devouring flames that inflict [cbuff:CalamityMod/MarkedforDeath] and [cbuff:CalamityMod/GodSlayerInferno]
-			For every 5 flames that damage an enemy, release an inferno of homing flames
+			Выпускает сгусток пожирающего пламени, накладывающий дебаффы [cbuff:CalamityMod/MarkedforDeath] и [cbuff:CalamityMod/GodSlayerInferno]
+			При каждом 5 успешном попадании по врагу выпускает вихрь самонаводящихся огней
 			'''
 	}
 
@@ -57,8 +65,8 @@ Items: {
 		DisplayName: Серная арфа
 		Tooltip:
 			'''
-			Fires a fan of 3 piercing brimstone skulls
-			Skulls on bounce split into 3 brimstone petals that fire at the closest enemy
+			Стреляет веером из 3 пронзающих серных черепов
+			При столкновении череп выпускает 3 наносящих урон лепестка в направлении ближайшего врага
 			'''
 	}
 
@@ -66,9 +74,9 @@ Items: {
 		DisplayName: Некротический хор
 		Tooltip:
 			'''
-			Summons up to 10 wisps that home onto foes
-			<right> for an alternate blood spit attack
-			Blood spit inflicts [cbuff:CalamityMod/ArmorCrunch] and [cbuff:CalamityMod/BurningBlood]
+			Призывает до 10 самонаводящихся огоньков
+			Нажмите ПКМ, чтобы использовать альтернативную атаку плевками кровью
+			Плевки накладывают дебаффы [cbuff:CalamityMod/ArmorCrunch] и [cbuff:CalamityMod/BurningBlood]
 			'''
 	}
 
@@ -178,17 +186,15 @@ Items: {
 	}
 
 	ExecutionersSword: {
-		DisplayName: Меч палача
+		DisplayName: Большой меч экзорциста
 		Tooltip:
 			'''
 			Нажмите ЛКМ, чтобы взмахнуть мечом, восстанавливающим 5 ед. здоровья при попадании
 			Нажмите ПКМ, чтобы бросить меч, вонзающийся во врага при попадании
-			Когда меч вонзается, он начинает выпускать светлую и тёмную энергию
+			Когда меч вонзается, он начинает источать светлую и тёмную энергию
 			Светлая энергия самонаводится на ближайших союзников и исцеляет здоровье на величину, равную вашему бонусному исцелению
 			Тёмная энергия самонаводится на ближайших врагов, нанося им урон
 			Одновременно можно бросить только 1 меч
-			Обладает силой вершить судьбы
-			'Изъятие... и КАЗНЬ!'
 			'''
 	}
 
@@ -213,15 +219,15 @@ Items: {
 	}
 
 	AirPodShawty: {
-		DisplayName: Аирпод детка
+		DisplayName: AirPod Shawty
 		Tooltip:
 			'''
-			Позволяет совершить 2 стремительных выстрела, после чего уходит на перезарядку
-			Нажмите ЛКМ, чтобы выстрелить Аирподом, вызывающим звуковой взрыв при столкновении; выстрел тратит вдохновение
-			Урон Аирпода увеличивается с количеством использованных патронов
-			Нажмите ПКМ, чтобы выстрелить каскадом из пуль (не даёт усилений)
-			Урон пуль масштабируется от усилений барда и стрелковых бонусов
-			'Аирпод, детка, вижу твое тело, выглядит реально сасно'
+			Может выстрелить 2 раза, после чего уходит на кратковременную перезарядку
+			Нажмите ЛКМ, чтобы использовать немного вдохновения и выстрелить наушником, вызывающим взрыв звуков при попадании по врагу
+			Урон от наушника увеличивает соразмерно использованному для выстрела боеприпасу
+			Нажмите ПКМ, чтобы выстрелить картечью из используемых в качестве боеприпасов пуль без наложения усилений
+			Урон этих пуль зависит от наложенных на оружие перековок и стрелковых бонусов
+			'Airpod shawty ima catch a body lookin real sussy'
 			'''
 	}
 
@@ -285,9 +291,9 @@ Items: {
 			'''
 			Выпускает 3 плазменных луча в направлении курсора
 			Удерживайте ПКМ, чтобы зарядить мощную звуковую волну
-			[c/1FFBFF:'Когда-то мне удалось выковать музыкальные инструменты, способные атаковать.]
-			[c/1FFBFF:Это один из них, однако их массовое производство я так и не смог наладить,]
-			[c/1FFBFF:поскольку армия Тирана не могла на них играть.']
+			[c/1FFBFF:'Когда-то мне удалось выковать музыкальные инструменты, способные атаковать.']
+			[c/1FFBFF:'Это один из них, однако их массовое производство я так и не смог наладить,']
+			[c/1FFBFF:'поскольку армия Тирана не могла на них играть.']
 			'''
 	}
 
@@ -321,8 +327,7 @@ Items: {
 			[cbuff:Ichor], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
 			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
 			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
-			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames],
-			[cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
 			'''
 	}
 
@@ -338,8 +343,7 @@ Items: {
 			[cbuff:CalamityMod/MiracleBlight], [cbuff:Confused], [cbuff:OnFire], [cbuff:Frostburn],
 			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
 			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
-			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:Ichor], 
-			[cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
+			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:Ichor], [cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
 			'Сколько ещё вам надо!?'
 			'''
 	}
@@ -360,7 +364,7 @@ Items: {
 		Tooltip:
 			'''
 			Извергает шары серной магии, образующие звездообразный узор
-			'Думаешь только ведьма умеет читать такие заклинания?'
+			'Думаете только ведьма умеет читать такие заклинания?'
 			'''
 	}
 
@@ -374,7 +378,7 @@ Items: {
 		Tooltip:
 			'''
 			Наполняет ваши атаки серной энергией для нанесения ударов ближнего боя с высоким уроном
-			Имеет дополнительный эффект, если катастрофический длинный меч находится в соседнем слоте справа от неё
+			Синергируется с катастрофическим длинным мечом, если тот находится в соседнем слоте справа от неё
 			'Катаклизм!'
 			'''
 	}
@@ -389,7 +393,7 @@ Items: {
 		Tooltip:
 			'''
 			Выстреливает в направлении курсора катастрофическим лучом серной энергии
-			Имеет дополнительный эффект, если катаклизмическая перчатка находится в соседнем слоте справа от него
+			Синергируется с катаклизмической перчаткой, если та находится в соседнем слоте справа от него
 			'''
 	}
 
@@ -731,7 +735,7 @@ Items: {
 			При каждом 3 взмахе коса прокручивается вокруг игрока
 			Во время раскручивания коса выпускает до 6 самонаводящихся огненных шаров и лучей космической энергии
 			Коса и огненные шары игнорируют 125 ед. защиты и накладывают дебафф [cbuff:CalamityMod/Dragonfire]
-			Лучи космической энергии игнорируют 75 ед. защиты и накладывают дебаффы [cbuff:CalamityMod/ElementalMix] и [cbuff:CatalystMod/AstralBlight]
+			Лучи космической энергии игнорируют 75 ед. защиты и накладывают дебаффы [cbuff:CalamityMod/ElementalMix] и «Астральная зараза»
 			'ДАМЫ И ГОСПОДА... РОК'Н РОЛЛ РОК'Н РОЛЛ РОК'Н РОЛЛ!!!'
 			'''
 	}
@@ -1255,4 +1259,3 @@ Configs: {
 }
 
 "Keybinds.Absolute TV Remote Pause.DisplayName": Пауза высшего пульта от телевизора
-*/
