@@ -35,7 +35,7 @@
 	GraniteHelmet: "{$Mods.SpiritMod.Items.GraniteHelm.Tooltip}"
 	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
 	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
-	WayfarerHead: Увеличивает скорость восстановления и шанс выпадения с врагов вдохновения на 5%
+	WayfarerHead: Увеличивает скорость восстановления вдохновения и шанс выпадения нот на 5%
 	WayfarerBody: Увеличивает симфонический урон и скорость игры на 5%
 	WayfarerLegs: Увеличивает длительность симфонических усилений на 1 секунду
 	WayfarerSetBonus: Улучшает симфонические усиления, связанные с передвижением

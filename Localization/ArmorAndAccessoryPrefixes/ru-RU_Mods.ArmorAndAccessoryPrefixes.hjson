@@ -34,10 +34,10 @@ Prefixes: {
 
 PrefixTooltips: {
 	MinionKnockbackTooltip: +{0} к отбрасыванию миньонов
-	TileReachTooltip: +{0} к дальности установки блоков
+	TileReachTooltip: +{0} {^0:блок;блока;блоков} к дальности размещения блоков
 	PickupRangePrefix: +{0} к дальности подбора предметов
 	MiningSpeedTooltip: +{0}% к скорости добычи блоков
-	MaxHPTooltip: +{0} ед. здоровья
+	MaxHPTooltip: +{0} ед. к максимальному запасу здоровья
 	CritDamageTooltip: +{0}% к критическому урону
 	IncreaseAggroTooltip: Увеличивает агрессивность врагов
 	ReducedAggroTooltip: Снижает агрессивность врагов
@@ -56,18 +56,18 @@ Configs: {
 		DisplayName: Серверная конфигурация
 
 		EnableArmorPrefixes: {
-			Label: Перековки для брони
+			Label: Префиксы для брони
 			Tooltip: ""
 		}
 
 		EnableNewAccessoryPrefixes: {
-			Label: Новые перековки для аксессуаров
+			Label: Новые префиксы для аксессуаров
 			Tooltip: ""
 		}
 
 		RemoveOddTierPrefixes: {
-			Label: Убрать перековки с нечётным бонусом
-			Tooltip: Убирает возможность получения перековок «{$Prefix.Armored}», «{$Prefix.Jagged}», «{$Prefix.Angry}», «{$Prefix.Brisk}», «{$Prefix.Hasty}», «{$Prefix.Wild}» и «{$Prefix.Intrepid}» на ваши аксессуары.
+			Label: Убрать префиксы с нечётным бонусом
+			Tooltip: Убирает возможность получения префиксов «{$Prefix.Armored}», «{$Prefix.Jagged}», «{$Prefix.Angry}», «{$Prefix.Brisk}», «{$Prefix.Hasty}», «{$Prefix.Wild}» и «{$Prefix.Intrepid}» на ваши аксессуары.
 		}
 	}
 }

@@ -1,7 +1,7 @@
 [h1]Infernal Eclipse of Ragnarok[/h1]
 [h3]Ультрамодифицированный аддон для Infernum[/h3]
 
-[b]Советуем вам первым делом оценить соответствующий модпак по этой ссылке:[/b]
+[b]Первым делом советуем вам оценить соответствующий модпак по этой ссылке:[/b]
 https://steamcommunity.com/sharedfiles/filedetails/?id=3456508757
 
 Infernal Eclipse of Ragnarok - ультрамодифицированный аддон для Infernum Mode, добавляющий поддержку крупных контентных модов, находящихся в самой сборке:
@@ -54,9 +54,9 @@ Infernal Eclipse of Ragnarok - ультрамодифицированный ад
 
 Огромное спасибо командам Calamity, Fargo's, Bereft Souls, нашим покровителям, а также каждому отдельному разработчику модов, находящихся в этой сборке, за то, что сделали создание этого возможным.
 
-Код бросания косы был предоставлен [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url] (огромное ему за это спасибо!).
+Код бросания кос был предоставлен [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url] (огромное ему за это спасибо!).
 
-Мод создан командой Infernal Eclipse of Ragnarok:
+Мод был создан командой Infernal Eclipse of Ragnarok:
 Разработчики: Akira, Wardrobe Hummus, Advantaje
 Дизайнеры: Wardrobe Hummus, Yob, Tyr, ma3allim
 История: Akira, Yob
@@ -66,7 +66,7 @@ Infernal Eclipse of Ragnarok - ультрамодифицированный ад
 Композиторы: Peter Fung, Techhy
 Локализация: Pudd1ng (Китайский упрощённый), Kraken (Русский)
 
-Музыкальные треки и их авторы:
+И отдельная благодарность следующим композиторам за музыку в этом моде:
 «Teardrops of Dragonfire» за авторством Peter Fung
 «Seahorse Scrutiny (Rebirth)» за авторством Brimston Premium
 «Dead Kingdom's Champion» за авторством Techhy

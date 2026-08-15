@@ -23,7 +23,7 @@ Projectiles: {
 
 Buffs.GracedWings: {
 	DisplayName: Возвышенные крылья
-	Description: Подвижность во время полёта улучшена
+	Description: Манёвренность в полёте улучшена
 }
 
 Items: {
