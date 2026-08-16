@@ -26,10 +26,10 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Mech Bosses Rework.
 		}
 
-		/*ThoriumReworkLocalization: {
+		ThoriumReworkLocalization: {
 			Label: Thorium Helheim
 			Tooltip: Включает/Выключает перевод мода Thorium Helheim.
-		}*/
+		}
 		
 		# Средние моды
 
@@ -98,10 +98,10 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Infernal Arsenal.
 		}
 
-		/*RedemptionBardHealerLocalization: {
+		RedemptionBardHealerLocalization: {
 			Label: "Unofficial Redemption Bard, Thrower & Healer"
 			Tooltip: Включает/Выключает перевод мода Unofficial Redemption Bard, Thrower & Healer.
-		}*/
+		}
 		
 		# Мелкие моды
 

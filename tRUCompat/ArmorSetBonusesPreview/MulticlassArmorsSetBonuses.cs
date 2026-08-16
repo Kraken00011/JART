@@ -9,43 +9,43 @@ internal class MulticlassArmorsSetBonuses : ModSystem
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
-        ModLoader.TryGetMod("MulticlassArmors", out Mod hmOreHelms);
+        ModLoader.TryGetMod("MulticlassArmors", out Mod multiclass);
 
-        if (tru != null && hmOreHelms != null)
+        if (tru != null && multiclass != null)
         {
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("HeatVoltConductorHelmet").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("HeatVoltConductorHelmet").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.HeatVoltConductorHelmet.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("CavernaryFlameHeadgear").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("CavernaryFlameHeadgear").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.CavernaryFlameHeadgear.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("CavernaryFlameHelm").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("CavernaryFlameHelm").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.CavernaryFlameHelm.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("ElderMagesHat").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("ElderMagesHat").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.ElderMagesHat.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("AshensteelHood").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("AshensteelHood").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.AshensteelHood.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("AshensteelHelm").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("AshensteelHelm").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.AshensteelHelm.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("VacuumHood").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("VacuumHood").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.VacuumHood.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("MechanicalBeastHelmet").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("MechanicalBeastHelmet").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.MechanicalBeastHelmet.SetBonus")
             ));
 
-            tru.Call("AddArmorSetBonusPreview", hmOreHelms.Find<ModItem>("NaturePurifierHelm").Type, (Func<string>)(() =>
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("NaturePurifierHelm").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.NaturePurifierHelm.SetBonus")
             ));
         }
