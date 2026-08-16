@@ -1385,5 +1385,22 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "MercuryGreaves"
             });
         }
+
+        if (ModLoader.TryGetMod("InfernalEclipseWeaponsDLC", out Mod infernal) && JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization)
+        {
+            tru.Call("AddFeminineItems", infernal, new[]
+            {
+                "SuperCellCirclet"
+            });
+
+            tru.Call("AddPluralItems", infernal, new[]
+            {
+                "EclipseGreaves",
+                "NecrosingerAnkles",
+                "NecrosingerRibs",
+                "SuperCellGuard",
+                "SuperCellSabatons"
+            });
+        }
     }
 }
