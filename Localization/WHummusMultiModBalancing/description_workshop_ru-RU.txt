@@ -1,0 +1,52 @@
+[h2]A mod that utilises tPackBuilder to create as cohesive an experience possible between the Thorium and Calamity mods![/h2]
+
+[h3]Changes include:[/h3]
+[*] Modifying item recipes to fit into Calamity progression
+[*] Adding recipes to keep Thorium and Calamity recipes consistent
+[*] Balance changes to Vanilla, Thorium and Calamity weapons with the aim to make every weapon viable and fun to use for when they are available
+
+[h3]ВАЖНОЕ ПРИМЕЧАНИЕ:[/h3]
+
+[*] Added a text warning on start-up warning to turn off Ragnarok Mod's «Generic Weapon Tweaks» config, since if they are on, the balance changes from this and that mod stack in unintended ways. This message in question can be turned off in configs of this mod too
+[*] As well as this in Ragnarok Mod's configs, Calamity Bard & Healer deduplication needs to be set to off for certain armors to be correctly craftable
+
+[h3]Обязательные моды:[/h3]
+[*] tPackBuilder
+[*] Calamity
+[*] Calamity Mod Music
+[*] Thorium
+[*] Unofficial Calamity Bard/Healer
+[*] Ragnarok
+[*] Thorium Bosses Reworked
+[*] Thrower Unification
+[*] Calamity Crossmod Vulnerabilities
+[*] Infernal Arsenal
+
+[h3]Необязательные, но совместимые моды[/h3]
+[*] Catalyst
+[*] Calamity: Hunt of the Old God
+
+[h3]Рекомендованные дополнительные моды:
+[*] Calamity: Wrath of the Gods
+[*] Thorium Chest Loot Tweaks
+
+[h3]Несовместимые/Нерекомендуемые к использованию моды:[/h3]
+[*] Thorium + Calamity Convergence Mod REDUX
+
+[h3]Также рекомендуем оценить:[/h3]
+[*] Infernal Eclipse of Ragnarok
+https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686
+
+
+[h3]Полный подробный список изменений:[/h3]
+https://docs.google.com/document/d/1OXvTO6N6GqzAbOSZU_1n-OKzIuk4gCR6c1Otr_dAiiE/edit?tab=t.0#heading=h.o92rlt67w89w
+
+[h3]Discord-сервер:[/h3]
+Wanna suggest some changes, report bugs or just chat Terraria? Join the server!
+https://discord.gg/8qpjNQt6TS
+
+[h3]Поддержать команду можно по этой ссылке:[/h3]
+https://www.patreon.com/cw/InfernalEclipseofRagnarokTeam
+
+Перевод на китайский упрощённый был выполнен [url=https://steamcommunity.com/id/426875391/]Pudd1ng[/url] и De1tA5.
+Перевод на русский был выполнен [url=https://steamcommunity.com/id/426875391/]Kraken[/url].

@@ -18,7 +18,9 @@ internal class InfernalEclipseWeaponsDLCSetBonuses : ModSystem
                 string setBonusExtra = Language.GetTextValue("Mods.InfernalEclipseWeaponsDLC.Items.EclipseHelm.SetBonusExtra");
 
                 if (ModLoader.HasMod("InfernalEclipseAPI") || ModLoader.HasMod("WHummusMultiModBalancing"))
+                {
                     return Language.GetTextValue("Mods.InfernalEclipseWeaponsDLC.Items.EclipseHelm.SetBonus") + "\n" + setBonusExtra;
+                }
                 else
                     return Language.GetTextValue("Mods.InfernalEclipseWeaponsDLC.Items.EclipseHelm.SetBonus");
             }));

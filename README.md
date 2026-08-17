@@ -96,7 +96,7 @@
 - [Vanity + Dyable Cursors API](https://steamcommunity.com/sharedfiles/filedetails/?id=3594305382)
 - [WADTU (What Ammo Does This Use)](https://steamcommunity.com/sharedfiles/filedetails/?id=3088232292)
 - [Whip Accessories](https://steamcommunity.com/sharedfiles/filedetails/?id=2931940759)
-- [Whummus' Calamity/Thorium Balancing](https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528)
+- [WHummus' Calamity/Thorium Balancing](https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528)
 - [Wing Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=2942702352)
 - [Wrath of the Beams](https://steamcommunity.com/sharedfiles/filedetails/?id=3540490482)
 - [Wrath of the Empress](https://steamcommunity.com/sharedfiles/filedetails/?id=3257237354)
@@ -118,15 +118,11 @@
 
 # Дополнительная информация
 **Участники:**
- - [Kraken](https://github.com/Kraken00011) - Главный переводчик и по совместительству кодер мода (Discord: kkk_raken)
+ - [Kraken](https://github.com/Kraken00011) - Главный переводчик (Discord: kkk_raken)
  - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно (Discord: Htoya23)
 
 **В моде также есть доп. фишки кроме переводов**
 1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные теги начинают отображаться только если он включён)*
-
-2. *Конфигурация, в который в можете отключить ненужные вам переводы и не только*
-
-3. *Внедрение системы отображения иконок баффов/дебаффов, добавляемой Calamity, в описания других модов (Для работы требуется включить и Calamity, и Project tRU!)*
 
 <details><summary><b>Полный список совместимых модов (Без гиперссылок, сорри)</b></summary>
 
@@ -178,12 +174,14 @@
    - Starforged [Classic]
    - Whip Accessories
 
-   В скором времени добавится поддержка для ещё большего количества модов!
-
 </details>
+
+2. *Конфигурация, в который в можете отключить ненужные вам переводы и не только*
+
+3. *Внедрение системы отображения иконок баффов/дебаффов, добавляемой Calamity, в описания других модов (Для работы требуется включить и Calamity, и Project tRU!)*
 
 ***Хотите предложить мод на перевод?*** *Напишите в комментариях на [странице мода в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3628393177) название того мода, который хотите, чтобы был переведён*
 
 ***Нашли опечатку, ошибку или у вас просто есть вариант как можно «сделать лучше»?*** *Сделайте Pull Request и поменяйте нужный вам текст на иной, а описании реквеста напишите по какой причине ваш вариант подходит больше нынешнего, либо вы можете написать напрямую одному из переводчиков в Discord и попросить его исправить какую-либо ошибку (опять же с объяснением зачем)*
 
-***Мод имеет ~~почти~~ ПОЛНУЮ интеграцию с [Project tRU](https://steamcommunity.com/sharedfiles/filedetails/?id=2831360228)****, начиная со склонения предметов и перековок по родам, заканчивая добавлением цветного урона для модов, непереведённых ими*
+***Мод имеет ПОЛНУЮ интеграцию с [Project tRU](https://steamcommunity.com/sharedfiles/filedetails/?id=2831360228)****, начиная со склонения перековок по родам предметов, заканчивая добавлением цветной маркировки урона для модов, непереведённых ими*

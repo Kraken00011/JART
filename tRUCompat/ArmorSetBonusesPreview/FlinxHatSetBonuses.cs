@@ -14,7 +14,7 @@ internal class FlinxHatSetBonuses : ModSystem
         if (tru != null && FlinxHat != null)
         {
             tru.Call("AddArmorSetBonusPreview", FlinxHat.Find<ModItem>("FlinxFurUshanka").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.Items.FlinxFurUshanka.SetBonus")
+                Language.GetTextValue("Mods.FlinxHat.Items.FlinxFurUshanka.SetBonus")
             ));
         }
     }

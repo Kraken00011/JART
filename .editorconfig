@@ -1,5 +1,0 @@
-[*.cs]
-dotnet_diagnostic.CS0012.severity = none
-dotnet_diagnostic.CS7069.severity = none
-dotnet_diagnostic.CS1929.severity = none
-dotnet_diagnostic.CS8130.severity = none

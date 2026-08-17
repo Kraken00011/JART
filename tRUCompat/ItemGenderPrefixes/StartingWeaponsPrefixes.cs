@@ -15,7 +15,8 @@ internal class StartingWeaponsPrefixes : ModSystem
             tru.Call("AddFeminineItems", startWeap, new string[]
             {
                 "StickGunItem",
-                "WoodenStickItem"
+                "WoodenStickItem",
+                "WoodenClub"
             });
         }
     }

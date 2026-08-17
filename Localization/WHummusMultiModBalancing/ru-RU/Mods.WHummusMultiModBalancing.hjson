@@ -189,7 +189,7 @@ Projectiles: {
 	TidalWaveWhirlpool.DisplayName: Tidal Wave Whirlpool
 	FireAxeSS.DisplayName: Fire Axe SS
 	PlayerBrimstoneGigablast.DisplayName: Player Brimstone Gigablast
-	ThoriumHeavyScytheSpark.DisplayName: Thorium Heavy Scythe Spark
+	ThoriumHeavyScytheSpark.DisplayName: Искра ториевой тяжёлой косы
 }
 
 Conditions.ArmsDealerNearNurse: Если рядом находится медсестра

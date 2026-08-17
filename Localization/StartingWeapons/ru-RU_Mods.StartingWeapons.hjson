@@ -19,7 +19,7 @@ Items: {
 	}
 
 	WoodenDaggerItem: {
-		DisplayName: Древесный кинжал
+		DisplayName: Деревянный кинжал
 		Tooltip:
 			'''
 			При попадании отскакивает в ближайшего врага
@@ -51,7 +51,7 @@ Items: {
 		Tooltip:
 			'''
 			Использует силу воображения, чтобы «пружинить» над врагами
-			'Я бы назвал его «Жизнь уносящий»!'
+			'Я бы назвал его «жизнь уносящий»!'
 			'''
 	}
 
@@ -90,15 +90,15 @@ Items: {
 		Tooltip:
 			'''
 			Призывает из-под земли заросшие колючками шипы, пронзающие ваших врагов
-			'Это же точно не посох колючек, верно?'
+			'Не путать с посохом колючек!'
 			'''
 	}
 }
 
 Projectiles: {
 	StickGunProjectile.DisplayName: Палка-стрелялка
-	StickGunRicochetProjectile.DisplayName: Древесный рикошет
-	WoodenDaggerProjectile.DisplayName: Древесный клинок
+	StickGunRicochetProjectile.DisplayName: Рикошет
+	WoodenDaggerProjectile.DisplayName: Деревянный клинок
 	WoodenStickSwingProjectile.DisplayName: Деревянная палка
 	WoodenStickSlamProjectile.DisplayName: Деревянная палка
 	GrassWhipProjectile.DisplayName: Травяной хлыст
@@ -106,5 +106,5 @@ Projectiles: {
 	WandOfPlantingProjectile.DisplayName: Жезл роста
 	WandOfPlantingExplosionProjectile.DisplayName: Жезл роста
 	WoodenStickProjectile.DisplayName: Деревянная палка
-	Rogue.WoodenDaggerProjectile.DisplayName: Древесный клинок
+	Rogue.WoodenDaggerProjectile.DisplayName: Деревянный клинок
 }
