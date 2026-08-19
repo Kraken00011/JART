@@ -1275,7 +1275,9 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "HeatVoltConductorHelmet",
                 "MechanicalBeastHelmet",
                 "NaturePurifierHelm",
-                "VacuumBreastplate"
+                "VacuumBreastplate",
+                "PumpkinLordHead",
+                "CelestitePlate"
             });
 
             tru.Call("AddNeuterItems", multArm, new[]
@@ -1290,7 +1292,10 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "AshensteelBoots",
                 "MechanicalBeastLeggings",
                 "NaturePurifierBoots",
-                "VacuumLeggings"
+                "VacuumLeggings",
+                "CelestiteLeggings",
+                "PumpkinLordBoots",
+                "TwinSunsLeggings"
             });
         }
 

@@ -232,74 +232,74 @@ Items: {
 
 	TwinSunsHelmet: {
 		DisplayName: Шлем солнц-двойняшек
-		Tooltip: Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 12%
+		Tooltip: Увеличивает шанс критического удара ближнего боя и стрелкового критического удара на 12%
 		SetBonus:
 			'''
-			12% increased Melee and ranged damage
-			Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 6%
+			Увеличивает урон ближнего боя и стрелковый урон на 12%
+			Увеличивает шанс критического удара ближнего боя и стрелкового критического удара на 6%
 			Даёт 25% шанс не потратить боеприпасы
 			'''
 	}
 
 	PumpkinLordHood: {
-		DisplayName: Pumpkin Lord Hood
+		DisplayName: Капюшон тыквенного властелина
 		Tooltip:
 			'''
-			8% increased Melee and magic damage
-			8% increased Melee and magic crit chance
-			Increases mana regeneration by 20
+			Увеличивает урон ближнего боя и магический урон на 8%
+			Увеличивает шанс критического удара ближнего боя и магического критического удара на 8%
+			Увеличивает скорость восстановления маны на 20 ед.
 			'''
 		SetBonus:
 			'''
-			Increases maximum mana by 80
-			Reduces damage taken by 10%
+			Увеличивает максимальный запас маны на 80 ед.
+			Увеличивает сопротивление урону на 10%
 			'''
 	}
 
 	PumpkinLordHead: {
-		DisplayName: Pumpkin Lord Head
+		DisplayName: Голова тыквенного властелина
 		Tooltip:
 			'''
-			4% increased Melee and magic damage
-			4% increased Melee and magic crit chance
-			Increases mana regeneration by 10
+			Увеличивает урон ближнего боя и магический урон на 4%
+			Увеличивает шанс критического удара ближнего боя и магического критического удара на 4%
+			Увеличивает скорость восстановления маны на 10 ед.
 			'''
 		SetBonus:
 			'''
-			Increases maximum mana by 80
-			Reduces damage taken by 10%
+			Увеличивает максимальный запас маны на 80 ед.
+			Увеличивает сопротивление урону на 10%
 			'''
 	}
 
 	CelestiteHelm: {
-		DisplayName: Celestite Helm
+		DisplayName: Целеститовый шлем
 		Tooltip:
 			'''
-			8% increased Melee damage
-			12% increased Melee knockback
+			Увеличивает урон ближнего боя на 8%
+			Увеличивает отбрасывание ближнего боя на 12%
 			'''
 		SetBonus:
 			'''
-			6% increased Melee crit chance
-			Increases your max number of minions by 1
+			Увеличивает шанс критического удара ближнего боя на 6%
+			Увеличивает максимальное количество миньонов на 1
 			'''
 	}
 
 	CelestiteLeggings: {
-		DisplayName: Celestite Leggings
+		DisplayName: Целеститовые поножи
 		Tooltip:
 			'''
-			Increases summon damage by 8%
-			14% increased movement speed
+			Увеличивает урон призывателя на 8%
+			Увеличивает скорость передвижения на 14%
 			'''
 	}
 
 	CelestitePlate: {
-		DisplayName: Celestite Plate
+		DisplayName: Целеститовая пластина
 		Tooltip:
 			'''
-			8% increased Melee and summon damage
-			Increases your max number of minions by 1
+			Увеличивает урон ближнего боя и призывателя на 8%
+			Увеличивает максимальное количество миньонов на 1
 			'''
 	}
 
@@ -335,13 +335,13 @@ Items: {
 		Tooltip:
 			'''
 			Увеличивает урон ближнего боя и стрелковый урон на 6%
-			Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 4%
+			Увеличивает шанс критического удара ближнего боя и стрелкового критического удара на 4%
 			Увеличивает скорость передвижения на 10%
 			'''
 	}
 
 	CelestiteBar: {
-		DisplayName: Неземнитовый слиток
+		DisplayName: Целеститовый слиток
 		Tooltip: ""
 	}
 

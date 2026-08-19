@@ -48,6 +48,22 @@ internal class MulticlassArmorsSetBonuses : ModSystem
             tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("NaturePurifierHelm").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.MulticlassArmors.Items.NaturePurifierHelm.SetBonus")
             ));
+
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("TwinSunsHelmet").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.TwinSunsHelmet.SetBonus")
+            ));
+
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("PumpkinLordHood").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.PumpkinLordHood.SetBonus")
+            ));
+
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("PumpkinLordHead").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.PumpkinLordHead.SetBonus")
+            ));
+
+            tru.Call("AddArmorSetBonusPreview", multiclass.Find<ModItem>("CelestiteHelm").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.MulticlassArmors.Items.CelestiteHelm.SetBonus")
+            ));
         }
     }
 }
