@@ -1,0 +1,560 @@
+Items: {
+	DebugItem: {
+		DisplayName: Предмет отладки
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	MusketHeldProj.DisplayName: Musket Held Proj
+	ShadowflameTendrilVFX.DisplayName: Shadowflame Tendril V F X
+	HeatRayVFX.DisplayName: Heat Ray V F X
+	ThunderBall.DisplayName: Thunder Ball
+	SolsearBombExplosion.DisplayName: Solsear Bomb Explosion
+	OrbTests.DisplayName: Orb Tests
+	GoozmaPrismStudy.DisplayName: Goozma Prism Study
+	CurvingFeather.DisplayName: Curving Feather
+	OrbitingFeather.DisplayName: Orbiting Feather
+	StopAndStartFeather.DisplayName: Stop And Start Feather
+	StraightFeather.DisplayName: Straight Feather
+	TalonSlash.DisplayName: Talon Slash
+	WindBarrier.DisplayName: Wind Barrier
+	SupernovaScatterSots.DisplayName: Supernova Scatter Sots
+	ClingerStaffVFX.DisplayName: Clinger Staff V F X
+	RainbowGunVFX.DisplayName: Rainbow Gun V F X
+	EnergyShieldDash.DisplayName: Energy Shield Dash
+	ElectricityBolt.DisplayName: Electricity Bolt
+	ShocklashProjectile.DisplayName: Shocklash Projectile
+	MadisonTornado.DisplayName: Madison Tornado
+	ExplodingExplosionTest.DisplayName: Exploding Explosion Test
+	FFWindOrb.DisplayName: F F Wind Orb
+	ShadowbeamStaffVFX.DisplayName: Shadowbeam Staff V F X
+	VilethornVFX.DisplayName: Vilethorn V F X
+	LifeDrainVFX.DisplayName: Life Drain V F X
+	TornadoTest.DisplayName: Tornado Test
+	GraydeeTileShockwave.DisplayName: Graydee Tile Shockwave
+	OtherWindOrb.DisplayName: Other Wind Orb
+	LunarExplosionAnim.DisplayName: Lunar Explosion Anim
+	BasicOrbitingFeather.DisplayName: Basic Orbiting Feather
+	SpinShotFeather.DisplayName: Spin Shot Feather
+	Stormwall.DisplayName: Stormwall
+	WindPulse.DisplayName: Wind Pulse
+	UmbrellaTelegraph.DisplayName: Umbrella Telegraph
+	WindAnimTest.DisplayName: Wind Anim Test
+	FireBar.DisplayName: Fire Bar
+	InfernoForkVFX.DisplayName: Inferno Fork V F X
+	BurdenOfFleshBeam.DisplayName: Burden Of Flesh Beam
+	RazorpineVFX.DisplayName: Razorpine V F X
+	LightningTest.DisplayName: Lightning Test
+	JuttedLightning.DisplayName: Jutted Lightning
+	MagnetSphereLightningVFX.DisplayName: Magnet Sphere Lightning V F X
+	RainbowSigilTest.DisplayName: Rainbow Sigil Test
+	ArrowTest.DisplayName: Arrow Test
+	MusketTest.DisplayName: Musket Test
+	ShotgunTest.DisplayName: Shotgun Test
+	MusketTest2.DisplayName: Musket Test2
+	MinisharkTest.DisplayName: Minishark Test
+	MinisharkTestSkylight.DisplayName: Minishark Test Skylight
+	BasicGunProjLong.DisplayName: Basic Gun Proj Long
+	BasicGunProjMiddle.DisplayName: Basic Gun Proj Middle
+	ShotgunProj.DisplayName: Shotgun Proj
+	LineBarrier.DisplayName: Line Barrier
+	BasicBowProjLong.DisplayName: Basic Bow Proj Long
+	GaussExplosionVFX.DisplayName: Gauss Explosion V F X
+	GaussianStar.DisplayName: Gaussian Star
+	BasicRecoilProj.DisplayName: Basic Recoil Proj
+	DarknessDart.DisplayName: Darkness Dart
+	CavernsYoyoVFX.DisplayName: Caverns Yoyo V F X
+	CavernsYoyoProj.DisplayName: Caverns Yoyo Proj
+	GlacierProj.DisplayName: Glacier Proj
+	HiveProjectile.DisplayName: Hive Projectile
+	CrystalCrescentProj.DisplayName: Crystal Crescent Proj
+	CrystalCrescentProjVFX.DisplayName: Crystal Crescent Proj V F X
+	EocTest.DisplayName: Eoc Test
+	CyverCannonLaser.DisplayName: Cyver Cannon Laser
+	CyverCannonProjectile.DisplayName: Cyver Cannon Projectile
+	CyverCannonHyperBeam.DisplayName: Cyver Cannon Hyper Beam
+	CyverCannonFinaleProjectile.DisplayName: Cyver Cannon Finale Projectile
+	StormbowVFX.DisplayName: Stormbow V F X
+	BloodRainBowVFX.DisplayName: Blood Rain Bow V F X
+	EoCDashTest.DisplayName: Eo C Dash Test
+	StormRazorProj.DisplayName: Storm Razor Proj
+	IchorHitFlare.DisplayName: Ichor Hit Flare
+	GlacierStormProj.DisplayName: Glacier Storm Proj
+	JackOFace.DisplayName: Jack O Face
+	NightglowPulseVFX.DisplayName: Nightglow Pulse V F X
+	NightglowPulseVFX2.DisplayName: Nightglow Pulse V F X2
+	EventideStarVFX.DisplayName: Eventide Star V F X
+	LucentBeamHeldProj.DisplayName: Lucent Beam Held Proj
+	LucentBeamTest.DisplayName: Lucent Beam Test
+	BloodHitAnim.DisplayName: Blood Hit Anim
+	FFMaelstrom.DisplayName: F F Maelstrom
+	LotusFlower.DisplayName: Lotus Flower
+	MadisonVFX.DisplayName: Madison V F X
+	MadisonVFXOld.DisplayName: Madison V F X Old
+	ShadowbeamStarVFX.DisplayName: Shadowbeam Star V F X
+	PopStar.DisplayName: Pop Star
+	SyctheTest.DisplayName: Sycthe Test
+	WindTrail.DisplayName: Wind Trail
+	WindPulseTest.DisplayName: Wind Pulse Test
+	FFWindOrb2.DisplayName: F F Wind Orb2
+	RelativeToProjFeather.DisplayName: Relative To Proj Feather
+	OblivionFinaleSwing.DisplayName: Oblivion Finale Swing
+	OblivionHeldProjectile.DisplayName: Oblivion Held Projectile
+	OblivionExplosionPulse.DisplayName: Oblivion Explosion Pulse
+	TrojanForceWhipProj.DisplayName: Trojan Force Whip Proj
+	OblivionActivateAnimation.DisplayName: Oblivion Activate Animation
+	OblivionActivate.DisplayName: Oblivion Activate
+	CavernSwordProj.DisplayName: Cavern Sword Proj
+	CavernSwordProjAlt.DisplayName: Cavern Sword Proj Alt
+	CavernSwordWhatDoICallThis.DisplayName: Cavern Sword What Do I Call This
+	CavernSwordElecShot.DisplayName: Cavern Sword Elec Shot
+	CavernSwordElecChain.DisplayName: Cavern Sword Elec Chain
+	HoverTestThing.DisplayName: Hover Test Thing
+	WindPulseTest2.DisplayName: Wind Pulse Test2
+	WindTrail2.DisplayName: Wind Trail2
+	TrojanForceWhipProjTryAgain.DisplayName: Trojan Force Whip Proj Try Again
+	InfernoForkVFXImOld.DisplayName: Inferno Fork V F X Im Old
+	BeeDrawingTest.DisplayName: Bee Drawing Test
+	StingerTest.DisplayName: Stinger Test
+	SmokeTest.DisplayName: Smoke Test
+	SmokeTest2.DisplayName: Smoke Test2
+	SmokeTest3.DisplayName: Smoke Test3
+	SmokeTest4.DisplayName: Smoke Test4
+	SmokeTest5.DisplayName: Smoke Test5
+	OrbitPlayerFeather.DisplayName: Orbit Player Feather
+	WindDirShotNado.DisplayName: Wind Dir Shot Nado
+	FireEye.DisplayName: Fire Eye
+	TrailTestOmega.DisplayName: Trail Test Omega
+	H3Impact.DisplayName: H3 Impact
+	StingerTest2.DisplayName: Stinger Test2
+	StopAndStartStinger.DisplayName: Stop And Start Stinger
+	FFWindOrb3.DisplayName: F F Wind Orb3
+	CrackTest.DisplayName: Crack Test
+	BooyahBombProj.DisplayName: Booyah Bomb Proj
+	BooyahHeldProj.DisplayName: Booyah Held Proj
+	BooyahBombRecoil.DisplayName: Booyah Bomb Recoil
+	BooyahBombExplosion.DisplayName: Booyah Bomb Explosion
+	WindTrail3.DisplayName: Wind Trail3
+	CrackTest2.DisplayName: Crack Test2
+	TrojanForceBotTest.DisplayName: Trojan Force Bot Test
+	TrojanForceEnergyBall.DisplayName: Trojan Force Energy Ball
+	TrojanForceDagger.DisplayName: Trojan Force Dagger
+	FireSpawner.DisplayName: Fire Spawner
+	BurdenOfFleshTest.DisplayName: Burden Of Flesh Test
+	AngleGlow.DisplayName: Angle Glow
+	AngleGlowTest.DisplayName: Angle Glow Test
+	AngleGlowTest2.DisplayName: Angle Glow Test2
+	LunarTrailTest.DisplayName: Lunar Trail Test
+	FlowTest.DisplayName: Flow Test
+	TornadoTestFF.DisplayName: Tornado Test F F
+	TornadoTestGreen.DisplayName: Tornado Test Green
+	TornadoTestPosterized.DisplayName: Tornado Test Posterized
+	ExplosionPulse.DisplayName: Explosion Pulse
+	PaintballGunPulse.DisplayName: Paintball Gun Pulse
+	ExplosionPulseAlt.DisplayName: Explosion Pulse Alt
+	PaintballGunPulseBIG.DisplayName: Paintball Gun Pulse B I G
+	OnyxPulse.DisplayName: Onyx Pulse
+	JackOFaceNew.DisplayName: Jack O Face New
+}
+
+Configs: {
+	VFXPlusConfigToggles.DisplayName: Конфигурация VFX+
+
+	VFXPlusToggles: {
+		DisplayName: Изменения VFX+
+
+		MagicToggle: {
+			Label: "[i:3457] Магическое оружие [i:3457]"
+			Tooltip: ""
+		}
+	}
+
+	MagicToggles: {
+		Tooltip: ""
+
+		Headers: {
+			Wands: Жезлы
+			MagicGuns: Магические пушки
+			Tomes: Книги
+			Misc: Разное
+			Staves: Посохи
+		}
+
+		WandOfSparkingToggle: {
+			Label: "[i:3069] {$ItemName.WandofSparking}"
+			Tooltip: ""
+		}
+
+		WandOfFrostingToggle: {
+			Label: "[i:5147] {$ItemName.WandofFrosting}"
+			Tooltip: ""
+		}
+
+		AmethystStaffToggle: {
+			Label: "[i:739] {$ItemName.AmethystStaff}"
+			Tooltip: ""
+		}
+
+		TopazStaffToggle: {
+			Label: "[i:740] {$ItemName.TopazStaff}"
+			Tooltip: ""
+		}
+
+		SapphireStaffToggle: {
+			Label: "[i:741] {$ItemName.SapphireStaff}"
+			Tooltip: ""
+		}
+
+		EmeraldStaffToggle: {
+			Label: "[i:742] {$ItemName.EmeraldStaff}"
+			Tooltip: ""
+		}
+
+		RubyStaffToggle: {
+			Label: "[i:743] {$ItemName.RubyStaff}"
+			Tooltip: ""
+		}
+
+		AmberStaffToggle: {
+			Label: "[i:3377] {$ItemName.AmberStaff}"
+			Tooltip: ""
+		}
+
+		DiamondStaffToggle: {
+			Label: "[i:744] {$ItemName.DiamondStaff}"
+			Tooltip: ""
+		}
+
+		ThunderZapperToggle: {
+			Label: "[i:4062] {$ItemName.ThunderStaff}"
+			Tooltip: ""
+		}
+
+		VilethornToggle: {
+			Label: "[i:64] {$ItemName.Vilethorn}"
+			Tooltip: ""
+		}
+
+		AquaScepter: {
+			Label: "[i:157] {$ItemName.AquaScepter}"
+			Tooltip: ""
+		}
+
+		WeatherPain: {
+			Label: "[i:5118] {$ItemName.WeatherPain}"
+			Tooltip: ""
+		}
+
+		SkyFractureToggle: {
+			Label: "[i:3787] {$ItemName.SkyFracture}"
+			Tooltip: ""
+		}
+
+		CrystalSerpentToggle: {
+			Label: "[i:3209] {$ItemName.CrystalSerpent}"
+			Tooltip: ""
+		}
+
+		FrostStaffToggle: {
+			Label: "[i:726] {$ItemName.FrostStaff}"
+			Tooltip: ""
+		}
+
+		PoisonStaffToggle: {
+			Label: "[i:1308] {$ItemName.PoisonStaff}"
+			Tooltip: ""
+		}
+
+		MeteorStaffToggle: {
+			Label: "[i:2750] {$ItemName.MeteorStaff}"
+			Tooltip: ""
+		}
+
+		CrystalVileShardToggle: {
+			Label: "[i:3051] {$ItemName.CrystalVileShard}"
+			Tooltip: ""
+		}
+
+		ClingerStaffToggle: {
+			Label: "[i:3014] {$ItemName.ClingerStaff}"
+			Tooltip: ""
+		}
+
+		LifeDrainToggle: {
+			Label: "[i:3006] {$ItemName.SoulDrain}"
+			Tooltip: ""
+		}
+
+		UnholyTridentToggle: {
+			Label: "[i:683] {$ItemName.UnholyTrident}"
+			Tooltip: ""
+		}
+
+		TomeOfInfiniteWisdomToggle: {
+			Label: "[i:3852] {$ItemName.BookStaff}"
+			Tooltip: ""
+		}
+
+		NettleBurstToggle: {
+			Label: "[i:788] {$ItemName.NettleBurst}"
+			Tooltip: ""
+		}
+
+		VenomStaffToggle: {
+			Label: "[i:2188] {$ItemName.VenomStaff}"
+			Tooltip: ""
+		}
+
+		SpecterStaffToggle: {
+			Label: "[i:1446] {$ItemName.SpectreStaff}"
+			Tooltip: ""
+		}
+
+		ShadowbeamStaffToggle: {
+			Label: "[i:1444] {$ItemName.ShadowbeamStaff}"
+			Tooltip: ""
+		}
+
+		InfernoForkToggle: {
+			Label: "[i:1445] {$ItemName.InfernoFork}"
+			Tooltip: ""
+		}
+
+		BatScepterToggle: {
+			Label: "[i:1801] {$ItemName.BatScepter}"
+			Tooltip: ""
+		}
+
+		BlizzardStaffToggle: {
+			Label: "[i:1931] {$ItemName.BlizzardStaff}"
+			Tooltip: ""
+		}
+
+		RazorpineToggle: {
+			Label: "[i:1930] {$ItemName.Razorpine}"
+			Tooltip: ""
+		}
+
+		StaffOfEarthToggle: {
+			Label: "[i:1296] {$ItemName.StaffOfEarth}"
+			Tooltip: ""
+		}
+
+		SpaceGunToggle: {
+			Label: "[i:127] {$ItemName.SpaceGun}"
+			Tooltip: ""
+		}
+
+		ZapinatorToggle: {
+			Label: "[i:4347][i:4348] Запинаторы"
+			Tooltip: ""
+		}
+
+		BeeGun: {
+			Label: "[i:1121] {$ItemName.BeeGun}"
+			Tooltip: Не влияет на выпускаемых ею пчёл.
+		}
+
+		LaserRifleToggle: {
+			Label: "[i:514] {$ItemName.LaserRifle}"
+			Tooltip: ""
+		}
+
+		WaspGunToggle: {
+			Label: "[i:1155] {$ItemName.WaspGun}"
+			Tooltip: ""
+		}
+
+		LeafBlowerToggle: {
+			Label: "[i:1178] {$ItemName.LeafBlower}"
+			Tooltip: ""
+		}
+
+		RainbowGunToggle: {
+			Label: "[i:1260] {$ItemName.RainbowGun}"
+			Tooltip: ""
+		}
+
+		HeatRayToggle: {
+			Label: "[i:1295] {$ItemName.HeatRay}"
+			Tooltip: ""
+		}
+
+		LaserMachinegunToggle: {
+			Label: "[i:2795] {$ItemName.LaserMachinegun}"
+			Tooltip: ""
+		}
+
+		ChargedBlasterCannonToggle: {
+			Label: "[i:2882] {$ItemName.ChargedBlasterCannon}"
+			Tooltip: ""
+		}
+
+		BubbleGunToggle: {
+			Label: "[i:2623] {$ItemName.BubbleGun}"
+			Tooltip: ""
+		}
+
+		WaterboltToggle: {
+			Label: "[i:165] {$ItemName.Waterbolt}"
+			Tooltip: ""
+		}
+
+		BookOfSkullsToggle: {
+			Label: "[i:1313] {$ItemName.BookOfSkulls}"
+			Tooltip: ""
+		}
+
+		DemonScytheToggle: {
+			Label: "[i:272] {$ItemName.DemonScythe}"
+			Tooltip: ""
+		}
+
+		CrystalStormToggle: {
+			Label: "[i:518] {$ItemName.CrystalStorm}"
+			Tooltip: ""
+		}
+
+		CursedFlamesToggle: {
+			Label: "[i:519] {$ItemName.CursedFlames}"
+			Tooltip: ""
+		}
+
+		GoldenShowerToggle: {
+			Label: "[i:1336] {$ItemName.GoldenShower}"
+			Tooltip: ""
+		}
+
+		MagnetSphereToggle: {
+			Label: "[i:1266] {$ItemName.MagnetSphere}"
+			Tooltip: ""
+		}
+
+		RazorbladeTyphoonToggle: {
+			Label: "[i:2622] {$ItemName.RazorbladeTyphoon}"
+			Tooltip: ""
+		}
+
+		LunarFlareToggle: {
+			Label: "[i:3570] {$ItemName.LunarFlare}"
+			Tooltip: ""
+		}
+
+		CrimsonRodToggle: {
+			Label: "[i:1256] {$ItemName.CrimsonRod}"
+			Tooltip: ""
+		}
+
+		NimbusRodToggle: {
+			Label: "[i:1244] {$ItemName.NimbusRod}"
+			Tooltip: ""
+		}
+
+		FlowerOfFireToggle: {
+			Label: "[i:112] {$ItemName.FlowerOfFire}"
+			Tooltip: ""
+		}
+
+		FlowerOfFrostToggle: {
+			Label: "[i:1264] {$ItemName.FlowerOfFrost}"
+			Tooltip: ""
+		}
+
+		ShadowflameHexDollToggle: {
+			Label: "[i:3053] {$ItemName.ShadowflameHexDoll}"
+			Tooltip: ""
+		}
+
+		MagicDaggerToggle: {
+			Label: "[i:517] {$ItemName.MagicDagger}"
+			Tooltip: ""
+		}
+
+		MedusaHeadToggle: {
+			Label: "[i:3269] {$ItemName.MedusaHead}"
+			Tooltip: ""
+		}
+
+		IceRodToggle: {
+			Label: "[i:496] {$ItemName.IceRod}"
+			Tooltip: ""
+		}
+
+		SpiritFlameToggle: {
+			Label: "[i:3779] {$ItemName.SpiritFlame}"
+			Tooltip: ""
+		}
+
+		BloodThornToggle: {
+			Label: "[i:4270] {$ItemName.SharpTears}"
+			Tooltip: ""
+		}
+
+		MagicHarpToggle: {
+			Label: "[i:494] {$ItemName.MagicalHarp}"
+			Tooltip: ""
+		}
+
+		ToxicFlaskToggle: {
+			Label: "[i:3105] {$ItemName.ToxicFlask}"
+			Tooltip: ""
+		}
+
+		StellarTuneToggle: {
+			Label: "[i:4715] {$ItemName.SparkleGuitar}"
+			Tooltip: ""
+		}
+
+		NebulaArcanumToggle: {
+			Label: "[i:3476] {$ItemName.NebulaArcanum}"
+			Tooltip: ""
+		}
+
+		NebulaBlazeToggleToggle: {
+			Label: "[i:3542] {$ItemName.NebulaBlaze}"
+			Tooltip: ""
+		}
+
+		LastPrismToggle: {
+			Label: "[i:3541] {$ItemName.LastPrism}"
+			Tooltip: ""
+		}
+
+		BeeGunToggle: {
+			Label: "[i:1121] {$ItemName.BeeGun}"
+			Tooltip: Не влияет на выпускаемых ею пчёл.
+		}
+
+		BetsysWrathToggle: {
+			Label: "[i:3870] {$ItemName.ApprenticeStaffT3}"
+			Tooltip: ""
+		}
+
+		NightglowToggle: {
+			Label: "[i:4952] {$ItemName.FairyQueenMagicItem}"
+			Tooltip: ""
+		}
+
+		DisplayName: Изменения магических предметов
+	}
+
+	MiscCustomization: {
+		DisplayName: Разная кастомизация
+
+		LastPrismPrideColor: {
+			Label: Цвет прайд-флага последней призмы
+			Tooltip: ""
+		}
+	}
+}
+
+NPCs: {
+	FeatheredFoe.DisplayName: Feathered Foe
+	ReduxQueenBee.DisplayName: Redux Queen Bee
+	FeatheredFoeBoss.DisplayName: Feathered Foe Boss
+	HittableBee.DisplayName: Hittable Bee
+	AsgoreBee.DisplayName: Asgore Bee
+	OphanaimBee.DisplayName: Ophanaim Bee
+	WalledDashBee.DisplayName: Walled Dash Bee
+}

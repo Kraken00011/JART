@@ -229,4 +229,129 @@ Items: {
 			Увеличивает скорость передвижения на 10%
 			'''
 	}
+
+	TwinSunsHelmet: {
+		DisplayName: Шлем солнц-двойняшек
+		Tooltip: Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 12%
+		SetBonus:
+			'''
+			12% increased Melee and ranged damage
+			Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 6%
+			Даёт 25% шанс не потратить боеприпасы
+			'''
+	}
+
+	PumpkinLordHood: {
+		DisplayName: Pumpkin Lord Hood
+		Tooltip:
+			'''
+			8% increased Melee and magic damage
+			8% increased Melee and magic crit chance
+			Increases mana regeneration by 20
+			'''
+		SetBonus:
+			'''
+			Increases maximum mana by 80
+			Reduces damage taken by 10%
+			'''
+	}
+
+	PumpkinLordHead: {
+		DisplayName: Pumpkin Lord Head
+		Tooltip:
+			'''
+			4% increased Melee and magic damage
+			4% increased Melee and magic crit chance
+			Increases mana regeneration by 10
+			'''
+		SetBonus:
+			'''
+			Increases maximum mana by 80
+			Reduces damage taken by 10%
+			'''
+	}
+
+	CelestiteHelm: {
+		DisplayName: Celestite Helm
+		Tooltip:
+			'''
+			8% increased Melee damage
+			12% increased Melee knockback
+			'''
+		SetBonus:
+			'''
+			6% increased Melee crit chance
+			Increases your max number of minions by 1
+			'''
+	}
+
+	CelestiteLeggings: {
+		DisplayName: Celestite Leggings
+		Tooltip:
+			'''
+			Increases summon damage by 8%
+			14% increased movement speed
+			'''
+	}
+
+	CelestitePlate: {
+		DisplayName: Celestite Plate
+		Tooltip:
+			'''
+			8% increased Melee and summon damage
+			Increases your max number of minions by 1
+			'''
+	}
+
+	PumpkinLordBoots: {
+		DisplayName: Поножи тыквенного властелина
+		Tooltip:
+			'''
+			Увеличивает урон ближнего боя и магический урон на 12%
+			Увеличивает шанс магического критического удара на 6%
+			'''
+	}
+
+	PumpkinLordCloak: {
+		DisplayName: Плащ тыквенного властелина
+		Tooltip:
+			'''
+			Увеличивает урон ближнего боя и магический урон на 6%
+			Увеличивает шанс критического удара ближнего боя на 12%
+			'''
+	}
+
+	TwinSunsBreastplate: {
+		DisplayName: Нагрудник солнц-двойняшек
+		Tooltip:
+			'''
+			Увеличивает урон ближнего боя и стрелковый урон на 18%
+			Увеличивает скорость стрелковых атак и ближнего боя на 10%
+			'''
+	}
+
+	TwinSunsLeggings: {
+		DisplayName: Поножи солнц-двойняшек
+		Tooltip:
+			'''
+			Увеличивает урон ближнего боя и стрелковый урон на 6%
+			Увеличивает шанс критического удара ближнего боя и шанс стрелкового критического удара на 4%
+			Увеличивает скорость передвижения на 10%
+			'''
+	}
+
+	CelestiteBar: {
+		DisplayName: Неземнитовый слиток
+		Tooltip: ""
+	}
+
+	EnchantedPumpkin: {
+		DisplayName: Зачарованная тыква
+		Tooltip: "'Целая тыква, полученная из остатков Тыквенного короля'"
+	}
+
+	FragmentTwinSuns: {
+		DisplayName: Фрагмент солнц-двойняшек
+		Tooltip: "'Свет двух гигантских звёзд отражается в этом фрагменте'"
+	}
 }

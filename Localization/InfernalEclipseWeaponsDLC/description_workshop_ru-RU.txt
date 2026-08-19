@@ -2,7 +2,7 @@
 [h3]Официальное дополнение к [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686]Infernal Eclipse of Ragnarok[/url][/h3]
 [b]Этот мод не требует IEoR, из-за этого с ним можно играть вне основного модпака.[/b]
 
-Infernal Arsenal - мод, заполняющий слабые места игровой прогрессии новыми, интересными предметами, из-за этого мод также можно считать и расширением для [url=https://steamcommunity.com/workshop/filedetails/?id=3142064272]Unofficial Calamity Bard & Healer[/url], ведь фактически они выполняют примерно одну и ту же функцию.
+Infernal Arsenal - мод, заполняющий слабые места игровой прогрессии новыми, интересными предметами (в следствии чего этот мод также можно считать расширением для [url=https://steamcommunity.com/workshop/filedetails/?id=3142064272]Unofficial Calamity Bard & Healer[/url], ведь фактически они выполняют примерно одну и ту же функцию).
 
 На данный момент мод добавляет:
 [list]
@@ -18,15 +18,15 @@ Infernal Arsenal - мод, заполняющий слабые места игр
 	[*] 13 аксессуаров
 [/list]
 
-Для лучшего ознакомления с предметами, добавляемыми этим модом, мы рекомендуем вам посетить официальную [url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/Weapons_(Weapons_DLC)]вики-страницу[/url] Infernal Arsenal!
+Для ознакомления с предметами, добавляемыми этим модом, мы рекомендуем вам посетить официальную [url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/Weapons_(Weapons_DLC)]вики[/url] Infernal Arsenal!
 
 Для получения лучшего игрового опыта мы также рекомендуем вам играть с модом [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2619954303&searchtext=recipe]Recipe Browser[/url] для отображения способов получения новых предметов.
 
-У этого также есть поддержка Consolaria и Secrets Of The Shadows This.
+Этот мод также поддерживает Consolaria и Secrets Of The Shadows, добавляя немного дополнительного контента при игре с ними.
 
-Если вы замечали какие-либо ошибки, возникающие благодаря этому моду, не стесняйтесь писать о них на нашем [url=https://discord.gg/tc5nZdRvaU]Discord-сервере[/url]. 
+Если вы заметили какие-либо ошибки, возникающие из-за этого мода, не стесняйтесь писать о них на нашем [url=https://discord.gg/tc5nZdRvaU]Discord-сервере[/url]. 
 
-Также рекомендуем вам ознакомиться и с:
+Также рекомендуем вам ознакомиться и с другими модами от нашей команды:
 [list]
 	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686]Infernal Eclipse of Ragnarok[/url]
 	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309]Thrower Unification[/url]
@@ -40,6 +40,6 @@ Infernal Arsenal - мод, заполняющий слабые места игр
 Особые благодарности посвящаются [url=https://steamcommunity.com/id/skitter5]Feldy[/url], [url=https://steamcommunity.com/id/taco_con_kvass]TacoConKvass[/url], [url=https://steamcommunity.com/profiles/76561199098100065/myworkshopfiles/?appid=1281930]KainSett[/url] и [url=https://steamcommunity.com/profiles/76561198041992238] Verveine[/url] за помощь с созданием пары предметов для этого мода; [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url] за предоставление кода тяжёлых и бросаемых кос, а также Pil за созданием пары спрайтов в моде!
 
 Перевод на упрощённый китайский был выполнен [url=https://steamcommunity.com/id/426875391]Pudd1ng[/url].
-Перевод на русский был выполнен [url=https://steamcommunity.com/profiles/76561199198456364]Kraken[/url].
+Перевод на русский был выполнен [url=https://steamcommunity.com/profiles/76561199198456364]Kraken[/url] совместно с Htoya23.
 
-Создано командой Infernal Eclipse of Ragnarok
+[b]Создано командой Infernal Eclipse of Ragnarok[/b]

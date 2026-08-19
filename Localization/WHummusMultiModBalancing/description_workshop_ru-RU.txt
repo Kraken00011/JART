@@ -15,7 +15,7 @@
 [*] Calamity
 [*] Calamity Mod Music
 [*] Thorium
-[*] Unofficial Calamity Bard/Healer
+[*] Unofficial Calamity Bard & Healer
 [*] Ragnarok
 [*] Thorium Bosses Reworked
 [*] Thrower Unification
@@ -30,10 +30,10 @@
 [*] Calamity: Wrath of the Gods
 [*] Thorium Chest Loot Tweaks
 
-[h3]Несовместимые/Нерекомендуемые к использованию моды:[/h3]
+[h3]Несовместимые/Нерекомендуемые моды:[/h3]
 [*] Thorium + Calamity Convergence Mod REDUX
 
-[h3]Также рекомендуем оценить:[/h3]
+[h3]Также рекомендуем попробовать:[/h3]
 [*] Infernal Eclipse of Ragnarok
 https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686
 
