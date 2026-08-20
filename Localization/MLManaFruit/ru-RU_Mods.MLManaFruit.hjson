@@ -5,17 +5,17 @@ Items: {
 	}
 
 	ManaFruitSnow: {
-		DisplayName: Фрукт маны
-		Tooltip: Навсегда увеличивает максимальный запас маны на 5 ед.
+		DisplayName: "{$Items.ManaFruit.DisplayName}"
+		Tooltip: "{$Items.ManaFruit.Tooltip}"
 	}
 }
 
 Tiles: {
-	ManaFruit.MapEntry: Фрукт маны
-	ManaFruitSnow.MapEntry: Фрукт маны
+	ManaFruit.MapEntry: "{$Items.ManaFruit.DisplayName}"
+	ManaFruitSnow.MapEntry: "{$Items.ManaFruit.DisplayName}"
 }
 
-Acquisition.ManaFruit: Фрукт маны
+Acquisition.ManaFruit: "{$Items.ManaFruit.DisplayName}"
 
 Configs: {
 	ModConfigs: {
