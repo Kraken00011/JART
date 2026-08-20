@@ -33,7 +33,7 @@ public partial class MiscPatches : GlobalItem
                     }
 
                     if (tooltip.Text.Contains("Heals ally life equal to your bonus healing"))
-                        tooltip.Text = "Лечит здоровье союзников на сумму, равную вашему бонусному исцелению";
+                        tooltip.Text = "Лечит здоровье союзников на величину, равную вашему бонусному исцелению";
                 }
             }
 
