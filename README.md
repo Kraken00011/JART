@@ -119,7 +119,7 @@
 # Дополнительная информация
 **Участники:**
  - [Kraken](https://github.com/Kraken00011) - Главный переводчик (Discord: kkk_raken)
- - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, начавший локализировать моды относительно недавно (Discord: Htoya23)
+ - [Htoya23](https://github.com/emirabdyzhaparov08-maker)/[Кающийся](https://github.com/emirabdyzhaparov08-maker) - Второй переводчик, локализирующий моды относительно небольшое количество времени (Discord: Htoya23)
 
 **В моде также есть доп. фишки кроме переводов**
 1. *Теги для предметов, появляющиеся над их описанием (идея взята с мода [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385), а также сами дополнительные теги начинают отображаться только если он включён)*

@@ -245,7 +245,7 @@ Items: {
 			Lightning strikes gain aim-assist from wind homing speed and range
 			Lightning strikes also return 1 inspiration on critical hits
 			Fires homing plasma bolts below 50% energy that deal [i:Redemption/Fire] damage
-			Plasma bolts recharge your Energy Pack on critical hits
+			Нанесение критических ударов плазменными снарядами заряжает вашу Энергоячейку
 			Расходует энергию ([i:Redemption/EnergyCell]) на величину, равную потраченному на атаку вдохновению
 			Требуется наличие Энергоячейки в инвентаре
 			'Облитерирует барабанные перепонки ваших бедных врагов'
@@ -346,7 +346,7 @@ Items: {
 	}
 
 	VirtuousFavor: {
-		DisplayName: Virtuous Favor
+		DisplayName: Благословение добродетели
 		Tooltip:
 			'''
 			Casts a redempting beam that homes into allies and heals them
@@ -362,7 +362,7 @@ Items: {
 			Стреляет самонаводящимися лучами синтезатора
 			(2[i:Redemption/EnergyCell]) Creates inaccurate lightning strikes that spawn more synthesizer beams
 			Can be used without an Energy Pack
-			'А сейчас, вы слушаете [ИНФОРМАЦИЯ УДАЛЕНА] FM! Здесь, мы проигрываем только самые [ИНФОРМАЦИЯ УДАЛЕНА] треки!'
+			'А сейчас, вы слушаете [ИНФОРМАЦИЯ УДАЛЕНА]-FM! Здесь, мы проигрываем только самые [ИНФОРМАЦИЯ УДАЛЕНА] треки!'
 			'''
 	}
 }

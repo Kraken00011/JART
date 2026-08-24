@@ -6,11 +6,11 @@ Ninja: {
 		// Basic3: Clear your mind! There's only you and your foe. Nothing else matters!
 		// Basic4: Тебе очень недостаёт техники. А это значит, что тебе нужно больше тренироваться!
 		// Basic5: You can copy my technique all you want. Without understanding you will remain an amateur.
-		// Basic6: Always remember what you are fighting for!
-		// Special1: I cannot belive {0} thinks I'm not Japanese enough! I know about Japan more than anyone else!
+		// Basic6: Всегда помни, за что бьёшься!
+		// Special1: Да как так-то? {0} не считает, что Я, не достоит называть себя японцем! I know about Japan more than anyone else!
 		// BloodMoon1: Let them come. I'll show them power of the ninja!
-		// BloodMoon2: Let's get this party started!
-		// BloodMoon3: It is time to sharpen my ninja skills!
+		// BloodMoon2: Да начнётся мясо!
+		// BloodMoon3: Время подточить свои навыки ниндзя!
 		// Evil: Я чувствую как демоны рыщут где-то по-близости...
 		// Night: Each time I look into the night sky, I wonder what shall the new dawn bring us?
 		// Rain1: Let the rain wash away your anger and sorrow.
@@ -25,9 +25,9 @@ Ninja: {
 	}
 
 	Mood: {
-		// NoHome: Don't mind me, I'm just a ronin looking for a way home.
-		// DislikeCrowded: There are too many people around! I cannot meditate properly.
-		// LoveSpace: Such a calm and delightful day in the dojo...
+		// NoHome: Не беспокойся обо мне, я всего-лишь обычный ронин, ищущий себе пристанище.
+		// DislikeCrowded: Здесь столько народу! Ну и как мне медитировать в такой обстановке?
+		// LoveSpace: Такой тихий и прекрасный день в додзё...
 		// LoveBiome: There's nothing more beautiful than a forest during sakura blossom season! I feel myself truly at home.
 		// LikeBiome: This place reminds me of the mountain Fuji's peak. I like it here.
 		// DislikeBiome: The moisture here makes my armor rust. And rusty armor is a shame for any warrior!

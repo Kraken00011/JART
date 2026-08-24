@@ -15,7 +15,7 @@ Config: {
 	}
 
 	DisplayHealthToggle.Label: Отображать здоровье игрока
-	DisplayManaToggle.Label: Отображать количество маны игрока
+	DisplayManaToggle.Label: Отображать запас маны игрока
 	DisplayTimeToggle.Label: Отображать время суток
 	DisplayDefenseToggle.Label: Отображать защиту
 	DisplayBossFightsToggle.Label: Отображать битвы с боссами
@@ -75,7 +75,7 @@ Event: {
 		PumpkinMoon: Проходит Тыквенную луну
 		FrostMoon: Проходит Морозную луну
 		SolarEclipse: В Солнечном затмении
-		MartianEvent: Проходит Марсианское безумии
+		MartianEvent: Проходит Марсианское безумие
 		SolarPillar: Проходит Башню солнца
 		VortexPillar: Проходит Башню вихря
 		NebulaPillar: Проходит Башню туманности
