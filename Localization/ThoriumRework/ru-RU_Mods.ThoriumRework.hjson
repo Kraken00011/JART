@@ -1,147 +1,147 @@
-/* PhotosensitivityWarning:
+PhotosensitivityWarning:
 	'''
 	ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ: мод Thorium Helheim добавляет множество мерцающих эффектов! Особенно во время битв с боссами!
 	Если у вас имеется повышенная светочувствительность, рекомендуется перейти в «Настройки» -> «Конфигурация модов» -> «Thorium Helheim» -> «Визуальные настройки» и выставить там все ползунки на 0.
 	Если вы не хотите видеть это оповещение каждый раз, как заходите в мир, вы можете отключить его в конфигурации этого же мода.
-	''' */
+	'''
 
 ProgressionTweaks: {
-	// GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
-	// AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
-	// AbyssionAndGolem: Могущественный культ образовывается на краю мира!
+	GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
+	AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
+	AbyssionAndGolem: Могущественный культ образовывается на краю мира!
 }
 
 ItemDescriptions: {
-	/* ChampionsRebuttal:
+	ChampionsRebuttal:
 		'''
 		Дважды нажмите в нужном направлении, чтобы совершить таранящий рывок
 		Добавляет удвоенную сумму полученного или нанесённого урона во время рывка к урону от вашей следующей атаки
 		Может нанести до 300 ед. дополнительного урона
-		''' */
-	/* Rapier:
+		'''
+	Rapier:
 		'''
 		Нанесение урона временно увеличивает сопротивление урону
 		Нажмите ПКМ, чтобы взмахивать как обычно
 		При обычных взмах может увеличить свой урон при нанесении более 3 ударов по врагу
-		''' */
-	// DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60 ед.
-	// DreamWeaversHood: Увеличивает максимальный запас здоровья на 100 ед.
-	// DreamWeaversTabard: Увеличивает сопротивление урону на 20%
-	/* DreamWeaversTreads:
+		'''
+	DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60 ед.
+	DreamWeaversHood: Увеличивает максимальный запас здоровья на 100 ед.
+	DreamWeaversTabard: Увеличивает сопротивление урону на 20%
+	DreamWeaversTreads:
 		'''
 		Увеличивает лучезарную скорость на 20%
 		Увеличивает максимальный запас здоровья на 80 ед.
-		''' */
-	/* TideTurnerBreastplate:
+		'''
+	TideTurnerBreastplate:
 		'''
 		Увеличивает сопротивление урону на 10%
 		Увеличивает защиту и сопротивление урону соразмерно снижению здоровья носителя
 		Максимальный бонус к защите: 100 ед., а к сопротивлению урону: 60%
-		''' */
-	// TideTurnerGreaves: Увеличивает скорость атаки ближнего боя и метательных атак на 20%
-	/* TideTurnerHelmet:
+		'''
+	TideTurnerGreaves: Увеличивает скорость атаки ближнего боя и метательных атак на 20%
+	TideTurnerHelmet:
 		'''
 		Увеличивает скорость атаки ближнего соразмерно снижению здоровья носителя
 		Максимальный бонус к скорости атаки ближнего боя: 200%
-		''' */
-	// TideTurnersGaze: Увеличивает метательный урон на 50 ед.
-	// MasterArbalestHood: Стрелковый урон игнорирует 100 ед. защиты
-	// MasterMarksmansScouter: Увеличивает скорость стрельбы на 12%
-	// AssassinsGuard: Увеличивает стрелковый урон на 20 ед.
-	// AssassinsWalkers: Увеличивает скорость стрельбы на 20%
-	/* MagmaSeersMask:
+		'''
+	TideTurnersGaze: Увеличивает метательный урон на 50 ед.
+	MasterArbalestHood: Стрелковый урон игнорирует 100 ед. защиты
+	MasterMarksmansScouter: Увеличивает скорость стрельбы на 12%
+	AssassinsGuard: Увеличивает стрелковый урон на 20 ед.
+	AssassinsWalkers: Увеличивает скорость стрельбы на 20%
+	MagmaSeersMask:
 		'''
 		Увеличивает скорость хлыстов на 40%
 		Увеличивает урон призывателя на 30 ед.
-		''' */
-	// PyromancerCowl: Снижает расход маны на 40%
-	/* PyromancerLeggings:
+		'''
+	PyromancerCowl: Снижает расход маны на 40%
+	PyromancerLeggings:
 		'''
 		Увеличивает скорость произнесения заклинаний на 30%
 		Увеличивает максимальное количество стражей на 1
-		''' */
-	/* PyromancerTabard:
+		'''
+	PyromancerTabard:
 		'''
 		Увеличивает дальность хлыстов на 75%
 		Увеличивает максимальное количество миньонов на 2
-		''' */
-	// InspiratorsHelmet: Увеличивает скорость симфонической игры на 25%
-	// RhapsodistChestWoofer: Симфонический урон игнорирует 250 ед. защиты
-	// RhapsodistBoots: Удваивает радиус действия усилений
-	// SoloistHat: Увеличивает максимальный запас вдохновения на 8 очков
-	/* ThoriumArmor:
+		'''
+	InspiratorsHelmet: Увеличивает скорость симфонической игры на 25%
+	RhapsodistChestWoofer: Симфонический урон игнорирует 250 ед. защиты
+	RhapsodistBoots: Удваивает радиус действия усилений
+	SoloistHat: Увеличивает максимальный запас вдохновения на 8 очков
+	ThoriumArmor:
 		'''
 		Нанесение критических ударов заряжает шкалу, которая при достижении полного заряда заставляет последующие создавать отложенные электрические вспышки
 		Использование предметов, созданных из ториевых слитков, заряжает шкалу при любом ударе, а не только критическом
-		''' */
-	// ThoriumRevolver: Конвертирует сигнальные ракеты в средней дальности громовые разряды
-	// ThoriumSpear: При атаке выпускает слабую молнию в направлении курсора
-	/* ChampionBomberStaff:
+		'''
+	ThoriumRevolver: Конвертирует сигнальные ракеты в средней дальности громовые разряды
+	ThoriumSpear: При атаке выпускает слабую молнию в направлении курсора
+	ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that pierces through mobs before exploding
 		Critical strikes causes missiles to last longer and pierce an additional time	
-		''' */
-	/* ChampionSwiftBlade:
+		'''
+	ChampionSwiftBlade:
 		'''
 		Стреляет мощной ударной волной, наносящей 50% урона оружия
 		При каждой 3 и 4 атаке дополнительно призывает проекции меча, атакующие в точке курсора
-		''' */
-	/* ChampionsTrifectaShot:
+		'''
+	ChampionsTrifectaShot:
 		'''
 		Заряжайте лук, чтобы увеличить его силу
 		Overcharge the bow to convert the arrow into powerful elemental arrows
 		Certain arrow types can only be converted into one elemental arrow type
-		''' */
-	/* GraniteCrossbow:
+		'''
+	GraniteCrossbow:
 		'''
 		Каждые 3 выстрела выпускает каскад из 3 гранитных стрел, перегружающих поражённых врагов энергией
 		Перегруженные враги получают на 5% больше урона
-		''' */
-	/* IllumiteBarrage:
+		'''
+	IllumiteBarrage:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* IllumiteBlade:
+		'''
+	IllumiteBlade:
 		'''
 		Для атаки использует 2 иллюмитовых клинка одновременно
 		Blasts nearby illuminated targets with illuminating beams
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* IllumiteBlaster:
+		'''
+	IllumiteBlaster:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* IllumiteShotbow:
+		'''
+	IllumiteShotbow:
 		'''
 		При каждой 6 атаке призывает портал, стреляющий в ближайших к нему врагов
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* IllumiteSpear:
+		'''
+	IllumiteSpear:
 		'''
 		При каждой 3 атаке выстреливает проекцией иллюмитового копья
-		The image shoots illuminating beams at nearby targets
+		Проекция копья выпускает подсвечивающие лучи в направлении ближайших врагов
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* IllumiteScythe:
+		'''
+	IllumiteScythe:
 		'''
 		Creates light slashes on a nearby enemy
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
-		''' */
-	/* PyroclastStaff:
+		'''
+	PyroclastStaff:
 		'''
 		Стреляет от 1 до 5 пирокластовых огненных шаров за раз
 		При столкновении пирокластовые огненные шары разделяются на суббоеприпасы
-		''' */
-	/* Obliterator:
+		'''
+	Obliterator:
 		'''
 		Left Click to shoot a non-piercing laser beam
 		Right Click to shoot a fireball that explodes into a circular spread of bullets that deal 50% damage
 		Shooting the fireball with the laser will cause it to bounce towards nearby targets or other fireballs
 		Each bounce increases its damage by 100% of its initial damage, eventually capping out at 1000%
-		''' */
-	/* OmegaBlaster:
+		'''
+	OmegaBlaster:
 		'''
 		Tap fire to shoot a triple burst of energy blasts, charge to empower the burst
 		Fully charge the weapon to fire a powerful energy beam that deal 800% damage
@@ -149,157 +149,157 @@ ItemDescriptions: {
 		When the meter is full, Right Click to unleash a powerful beam saber that deals 1100% damage
 		After beam saber is used, the energy gauge cannot build up for 10 seconds
 		However, the weapon will cost no mana
-		'Become Heavenhold's greatest guardian'
-		''' */
-	/* HitScanner:
+		'Станьте величайшим стражником Хевенхолда'
+		'''
+	HitScanner:
 		'''
 		Musket balls shot from this gun have no travel time and ignore 50 defense
 		Musket balls also phase through tiles for a brief amount of time
-		''' */
-	/* ParticleWhip:
+		'''
+	ParticleWhip:
 		'''
 		Стреляет ускоренным лучом частиц, отскакивающим между врагами
 		При отскоке луч частиц превращается в изгибающуюся молнию
 		'Это не совсем тот хлыст...'
-		''' */
-	/* LodeStoneBow:
+		'''
+	LodeStoneBow:
 		'''
 		Damage will sunder enemies, increasing the damage they take by 10%
 		Every third attack shoots magnetic payloads that home into sundered enemies
-		''' */
-	/* ValadiumBow:
+		'''
+	ValadiumBow:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
-		''' */
-	/* ValadiumBlaster:
+		'''
+	ValadiumBlaster:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
-		''' */
-	/* ValadiumSpear:
+		'''
+	ValadiumSpear:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Damage also spawns a flurry void light that slashes enemies quickly
-		''' */
-	// OrnateArmor: Big instruments can no longer be mistimed but inspiration regeneration is frozen when holding any
-	/* SoulRender:
+		'''
+	OrnateArmor: Big instruments can no longer be mistimed but inspiration regeneration is frozen when holding any
+	SoulRender:
 		'''
 		Every third and fourth attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
 		Volatile soul blades deal more damage the higher your attack speed is to compensate with reduced projectiles shot
-		''' */
-	/* FleshSkewer:
+		'''
+	FleshSkewer:
 		'''
 		Attacks have a chance to steal life, but briefly prevent life regeneration
 		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
-		''' */
-	/* ToothOfTheConsumer:
+		'''
+	ToothOfTheConsumer:
 		'''
 		Dual wield two, life-stealing daggers
 		Attacks have a chance to steal life, but briefly prevent life regeneration
 		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
 		Right Click to release grasping blood at the cost of 1 life
-		''' */
-	/* DragonTooth:
+		'''
+	DragonTooth:
 		'''
 		Every fourth attack releases a cursed dragon spirit
 		Critical strikes create a ring of cursed inferno
-		''' */
-	// DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
-	/* DreadBlaster:
+		'''
+	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
+	DreadBlaster:
 		'''
 		Tap left click to fire a burst of dread pulses
 		Hold left click to unleash a barrage of dread pulses
 		Hitting enemies expel offensive dread energy
-		''' */
-	/* DemonBloodStaff:
+		'''
+	DemonBloodStaff:
 		'''
 		Unleash a barrage of homing demon blood souls and as well as ichor souls every fourth attack
 		Dealing damage will grant you a blood charge
 		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
-		''' */
-	/* DreadRazor:
+		'''
+	DreadRazor:
 		'''
 		Every third and fourth attack unleashes a cursed dragon spirit
 		Right click to release a stream of dread energy
 		Attacking automatically accumulates dread energy
-		''' */
-	/* DreadTearer:
+		'''
+	DreadTearer:
 		'''
 		Rapidly spins a highly corrupted scythe around you
 		Gaining soul essence with this weapon causes its next five swings to generate dread energy
 		Hitting enemies expel offensive dread energy
-		''' */
-	/* DemonBloodSword:
+		'''
+	DemonBloodSword:
 		'''
 		When blood harvest is on cooldown, this weapon shoots homing blood hearts
 		Dealing damage will grant you a blood charge
 		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
-		''' */
-	/* DemonBloodRipper:
+		'''
+	DemonBloodRipper:
 		'''
 		Rapidly spins a demon-fueled scythe around you
 		Gaining soul essence with this weapon causes your next five swings to summon homing blood hearts
 		Dealing damage will grant you a blood charge
 		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
-		''' */
-	/* DemonBloodSpear:
+		'''
+	DemonBloodSpear:
 		'''
 		Unleash a barrage of bloody spear images every third attack
 		Dealing damage will grant you a blood charge
 		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
-		''' */
-	/* PrimesFury:
+		'''
+	PrimesFury:
 		'''
 		Every fourth attack shoots a powerful beam dealing triple damage
 		Right Click to unleash a flurry of attacks that deal half damage
 		'У нас уже меч-бензопила дома'
-		''' */
-	/* TitanArmor:
 		'''
-		Critical strikes give the player +2 shield
-		Increases critical strike chance based on total shield
-		''' */
-	/* TitanBoomerang:
+	TitanArmor:
+		'''
+		Нанесение критических ударов даёт игроку 2 ед. щита
+		Увеличивает шанс критического удара соразмерно количеству накопленного щита
+		'''
+	TitanBoomerang:
 		'''
 		Throw fast titanic disks that form a whirlpool before returning
-		Critical strikes will deal additional damage
-		''' */
-	/* TitanSword:
+		Критические удары этим оружием наносят дополнительный урон
 		'''
-		Dual wield two, titanic blades
-		Critical strikes will deal additional damage
-		''' */
-	/* TitanScythe:
+	TitanSword:
 		'''
-		Rapidly spin a titanic dual scythe
+		Для атаки использует 2 титанических меча одновременно
+		Критические удары этим оружием наносят дополнительный урон
+		'''
+	TitanScythe:
+		'''
+		Стремительно вращает двойную титаническую косу
 		Gaining soul essence with this weapon creates an expanding whirlpool
-		Critical strikes will deal additional damage
-		''' */
-	/* TerrariumBomber:
+		Критические удары этим оружием наносят дополнительный урон
 		'''
-		Slowly fires homing chromatic missiles
-		Chromatic missiles split into three on enemy hit
+	TerrariumBomber:
+		'''
+		Медленно выпускает хроматические ракеты
+		При попадании по врагу хроматические ракеты разлетаются на 3 дополнительных снаряда
 		25% не потратить боеприпасы
-		''' */
-	/* TerrariumPulseRifle:
+		'''
+	TerrariumPulseRifle:
 		'''
 		Стреляет очередью из 4 пуль
 		Converts suitable ammo into pulse rays that inherit the on-hit effect of your bullets
 		15% не потратить боеприпасы
-		''' */
-	/* TerrariumSaber:
 		'''
-		Dual wield two Terrarium sabers
-		Releases homing Terrarium energy on hit
-		''' */
-	/* RealitySlasher:
+	TerrariumSaber:
+		'''
+		Для атаки использует 2 террариевых сабли одновременно
+		При попадании по врагу высвобождает самонаводящуюся террариевую энергию
+		'''
+	RealitySlasher:
 		'''
 		Hold left click to spin a reality rending scythe that builds up speed
 		When maximum speed is reached, release left click to throw the scythe
 		When thrown, hold left click again to move the scythe to your cursor
-		''' */
-	/* DoomSayersCoin:
+		'''
+	DoomSayersCoin:
 		'''
 		Inflicts Terminal Lucidity in phase 2, boss cannot be damaged until it is removed
 		Fly into purple circles you see if you want to live and remove Terminal Lucidity
@@ -309,247 +309,247 @@ ItemDescriptions: {
 		Dream Eater is permanently damageable during rematch fights
 		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
 		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
-		''' */
-	/* DoomSayersCoinNoLucidity:
+		'''
+	DoomSayersCoinNoLucidity:
 		'''
 		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
 		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
-		''' */
+		'''
 }
 
 NPCRenames: {
-	// Beholder: Слуга Козникса
-	// FallenBeholder: Козникс, Падший Созерцатель
-	// FallenBeholder2: Козникс, Превознёсшийся
-	// Lich: Лич, Ученик Осквернителя
-	// LichHeadless: Лич, Апостол смерти
-	// ForgottenOne: Оболочка Забытого
-	// ForgottenOneCracked: Абиссион, Забытый
-	// ForgottenOneReleased: Абиссион, Забытый бог приливов
-	// DreamEater: Угасающая реальность, Рагнарёк
+	Beholder: Слуга Козникса
+	FallenBeholder: Козникс, Падший Созерцатель
+	FallenBeholder2: Козникс, Превознёсшийся
+	Lich: Лич, Ученик Осквернителя
+	LichHeadless: Лич, Апостол смерти
+	ForgottenOne: Оболочка Забытого
+	ForgottenOneCracked: Абиссион, Забытый
+	ForgottenOneReleased: Абиссион, Забытый бог приливов
+	DreamEater: Угасающая реальность, Рагнарёк
 }
 
 Toggler: {
-	// BandofCratons: Прилив силы
-	// BannerofWar: Rally Banner
-	// BeholderTentacles: Запал Созерцателя
-	// BeholderTentacles2: Измерение Созерцателя
-	// CrystallizedFinality: Кристаллизованное заключение
-	// DeepDarkShellShield: Over-overshield
-	// ZephyrWings: Синергия Зефира
-	// QueenJellyPin: Regal Tentacles
-	// SierraChimera: Сьерра-Химера
-	// StarScoutReticle: Мгновенный рывок
-	// StriderMouthguard: Ледяной укус шагателя
-	// StriderMouthguard2: Mighty Mytes
-	// UndyingGaze: Жатва душ
-	// ValkyrienSkyStone: Небесный камень валькирии
-	// VampireCape: Превращение в стаю летучих мышей
+	BandofCratons: Прилив силы
+	BannerofWar: Rally Banner
+	BeholderTentacles: Запал Созерцателя
+	BeholderTentacles2: Измерение Созерцателя
+	CrystallizedFinality: Кристаллизованное заключение
+	DeepDarkShellShield: Over-overshield
+	ZephyrWings: Синергия Зефира
+	QueenJellyPin: Regal Tentacles
+	SierraChimera: Сьерра-Химера
+	StarScoutReticle: Мгновенный рывок
+	StriderMouthguard: Ледяной укус шагателя
+	StriderMouthguard2: Mighty Mytes
+	UndyingGaze: Жатва душ
+	ValkyrienSkyStone: Небесный камень валькирии
+	VampireCape: Превращение в стаю летучих мышей
 }
 
 ActiveSkills: {
 	BeholderTentacles2: {
-		// DisplayName: Измерение Созерцателя
-		// Tooltip: Призывает глаз Созерцателя, стремительно высасывающий здоровье из врагов и исцеляющий этим здоровьем игрока
+		DisplayName: Измерение Созерцателя
+		Tooltip: Призывает глаз Созерцателя, стремительно высасывающий здоровье из врагов и исцеляющий этим здоровьем игрока
 	}
 
 	VampireCape: {
-		// DisplayName: Стая летучих мышей
-		// Tooltip: Превращает вас в стаю летучих мышей, следующих за вашим курсором
+		DisplayName: Стая летучих мышей
+		Tooltip: Превращает вас в стаю летучих мышей, следующих за вашим курсором
 	}
 }
 
 InfernumIntros: {
-	/* Aquaius:
+	Aquaius:
 		'''
 		БЕСКОНЕЧНЫЙ ПРИЛИВ
 		АКВАУС
-		''' */
-	/* BoreanStrider:
+		'''
+	BoreanStrider:
 		'''
 		ХЛАДНОКРОВНЫЙ ПАУК
 		БОРЕЙСКИЙ ШАГАТЕЛЬ
-		''' */
-	/* BuriedChampion:
+		'''
+	BuriedChampion:
 		'''
 		ДРЕВНИЙ ВОИН
 		ПОГРЕБЁННЫЙ ЧЕМПИОН
-		''' */
-	/* DreamEater:
+		'''
+	DreamEater:
 		'''
 		УГАСАЮЩАЯ РЕАЛЬНОСТЬ
 		РАГНАРЁК
-		''' */
-	/* FallenBeholder:
+		'''
+	FallenBeholder:
 		'''
 		ПРЕВОСХОДЯЩИЙ СОЗЕРЦАТЕЛЬ
 		КОЗНИКС
-		''' */
-	/* ForgottenOne:
+		'''
+	ForgottenOne:
 		'''
 		СТАРЫЙ БОГ ПРИЛИВОВ
 		АБИССИОН
-		''' */
-	/* GraniteEnergyStorm:
+		'''
+	GraniteEnergyStorm:
 		'''
 		НЕСТАБИЛЬНАЯ ЭНЕРГИЯ
 		ГРАНИТНЫЙ ЭНЕРГЕТИЧЕСКИЙ ШТОРМ
-		''' */
-	/* Lich:
+		'''
+	Lich:
 		'''
 		АПОСТОЛ ОСКВЕРНИТЕЛЯ ЖИЗНИ
 		ЛИЧ
-		''' */
-	/* QueenJellyfish:
+		'''
+	QueenJellyfish:
 		'''
 		ЦАРСКАЯ МЕДУЗА-МУТАНТ
 		КОРОЛЕВА МЕДУЗ
-		''' */
-	/* Omnicide:
+		'''
+	Omnicide:
 		'''
 		ОСКВЕРНИТЕЛЬ ЖИЗНИ
 		ОМНИЦИД
-		''' */
-	/* SlagFury:
+		'''
+	SlagFury:
 		'''
 		ИЗНАЧАЛЬНОЕ ПЛАМЯ
 		ШЛАКОВЫЙ ЯРОСТЕНЬ
-		''' */
-	/* StarScouter:
+		'''
+	StarScouter:
 		'''
 		КОСМИЧЕСКИЙ СТРАННИК
 		ЗВЁЗДНЫЙ РАЗВЕДЧИК
-		''' */
-	/* TheGrandThunderBird:
+		'''
+	TheGrandThunderBird:
 		'''
 		ДИКАЯ ПАДАЛЬЩИЦА
 		ВЕЛИКАЯ ГРОМОВАЯ ПТИЦА
-		''' */
-	/* Viscount:
+		'''
+	Viscount:
 		'''
 		ПЕЩЕРНЫЙ ГЕРЦОГ
 		ВИКОНТ
-		''' */
+		'''
 }
 
 Items: {
 	BandofCratons: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Даёт невосприимчивость к перегрузке, а ваши атаки накладывают её Grants immunity to Overflowed and makes your attacks inflict it
 			Даёт 40 ед. пассивного щита
 			Restores player resources based on the amount of shield lost
 			Losing more than 20 shield creates an electric shock that destroys 3 nearby projectiles
 			{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.Tooltip}
-			''' */
+			'''
 	}
 
 	BandofCratonsCosmetic: {
-		// DisplayName: Повязка кратонов
-		// Tooltip: "'Достаточно прочна, чтобы выдержать сдвиг континентальных плит'"
+		DisplayName: Повязка кратонов
+		Tooltip: "'Достаточно прочна, чтобы выдержать сдвиг континентальных плит'"
 	}
 
 	BannerofWar: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Damage and bonus healing slowly increases over time while in combat
 			These bonuses gradually fade when out of combat
 			While in combat, periodically emit a healing pulse that heals allies equal to bonus healing
 			The frequency of the pulses increases the longer you are in combat
 			Bard empowerment range affects the range of the healing pulse
-			''' */
+			'''
 	}
 
 	BannerofWarCosmetic: {
-		// DisplayName: Знамя войны
-		// Tooltip: ""
+		DisplayName: Знамя войны
+		Tooltip: ""
 	}
 
 	BeholderBlade: {
-		// DisplayName: Воля Козникса
-		/* Tooltip:
+		DisplayName: Воля Козникса
+		Tooltip:
 			'''
 			При каждой 3 и 4 атаке выпускает пустотный луч, искореняющий врагов
 			Нанесение критических ударов создаёт пустотный пузырь в точке поражённого врага
 			Пустотный пузырь призывает глаза, атакующие врагов на 50% от урона атаки
 			Одновременно может быть активен только 1 пустотный пузырь
-			''' */
+			'''
 	}
 
 	BeholderHeart: {
-		// DisplayName: Сердце Созерцателя
-		/* Tooltip:
+		DisplayName: Сердце Созерцателя
+		Tooltip:
 			'''
 			Увеличивает максимальный запас здоровья на 10 ед. и бонусное исцеление на 1 ед.
 			Каждые 30 ед. исцелённого здоровья выпускает мощный, наносящий урон заряд лучезарной энергии
-			В дополнение вы восстанавливаете здоровье на сумму, равную вашему бонусному исцелению
-			''' */
+			В дополнение вы восстанавливаете здоровье на величину, равную вашему бонусному исцелению
+			'''
 	}
 
 	BeholderTentacles: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Атаки накладывают дебафф «{$Mods.ThoriumMod.Buffs.Singed.DisplayName}», увеличивающий получаемый врагами урон на 20%
 			{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.Tooltip}
-			''' */
+			'''
 	}
 
 	BeholderTentaclesCosmetic: {
-		// DisplayName: Щупальца созерцателя
-		/* Tooltip:
+		DisplayName: Щупальца созерцателя
+		Tooltip:
 			'''
 			Даёт эффекты от предметов «{$ItemName.FrogLeg}» и «{$ItemName.LavaWaders}», но без невосприимчивости к лаве
 			'Должно быть у них сильная воля'
-			''' */
+			'''
 	}
 
 	BiterofSouls: {
-		// DisplayName: Кусатель душ
-		/* Tooltip:
+		DisplayName: Кусатель душ
+		Tooltip:
 			'''
 			Бросает крошечных пожирателей душ, которые входят в ярость после некоторого количества пройденных блоков
 			Во время нахождения в ярости, пожиратели могут пронзать бесконечно и наносить урон по одному и тому же врагу несколько раз подряд
-			''' */
+			'''
 	}
 
 	DuelistSheath: {
-		// DisplayName: Ножны дуэлянта
-		/* Tooltip:
+		DisplayName: Ножны дуэлянта
+		Tooltip:
 			'''
 			{$Mods.ThoriumMod.Common.Sheath}
-			Getting hit or landing a critical strike increases melee attack speed and critical strike chance for {1} seconds
-			''' */
+			При получении урона или нанесении критического удара увеличивает скорость атаки и шанс критического улара ближнего боя на {1} {1^:секунду;секунды;секунд}
+			'''
 	}
 
 	ChampionWarHorn: {
-		// DisplayName: Чемпионский боевой рог
-		/* Tooltip:
+		DisplayName: Чемпионский боевой рог
+		Tooltip:
 			'''
 			Стреляет самонаводящимся боевым эхо
 			'В АТАКУ!'
-			''' */
+			'''
 	}
 
 	ChironsCure: {
-		// DisplayName: Лекарство Хирона
-		// Tooltip: Exchanges life for a life-mending beam that cures some basic debuffs
+		DisplayName: Лекарство Хирона
+		Tooltip: Выпускает исцеляющий луч, снимающий некоторые базовые дебаффы в обмен на здоровье игрока
 	}
 
 	ConcussiveInstrument: {
-		// DisplayName: Сотрясающий инструмент
-		/* Tooltip:
+		DisplayName: Сотрясающий инструмент
+		Tooltip:
 			'''
-			Атаки ударных инструментов выпускают вверх падающие молоточки
+			Атаки ударных инструментов запускают вверх падающие молоточки
 			'Это что... просто молоточек?'
-			''' */
+			'''
 	}
 
 	CrystallizedFinality: {
-		// DisplayName: Кристаллизованное заключение
-		/* Tooltip:
+		DisplayName: Кристаллизованное заключение
+		Tooltip:
 			'''
 			Даёт эффекты от предметов [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}» и [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}», но без невосприимчивости к лаве
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
@@ -557,66 +557,66 @@ Items: {
 			[i:ThoriumRework/UndyingGaze] Critical strikes grant Soul Essence, attacks that use life or already grant Soul Essence give more
 			[i:ThoriumRework/DeepDarkShellShield] Grants a passive 20 shield, immunity to knockback and doubles the health boost from shield while also increasing defensive stats
 			'ПОСЛЕДНИЙ. АКТ. ЭНТРОПИИ.'
-			''' */
+			'''
 	}
 
 	DeathsingerPotion: {
-		// DisplayName: Зелье певца смерти
-		// Tooltip: Увеличивает симфонический урон и скорость игры на 7%
+		DisplayName: Зелье певца смерти
+		Tooltip: Увеличивает симфонический урон и скорость игры на 7%
 	}
 
 	DeepDarkShellShield: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.Tooltip}
 			Doubles the health boost from shield
 			В дополнение, щит также увеличивает защиту и сопротивление урону
-			''' */
+			'''
 	}
 
 	DeepDarkShellShieldCosmetic: {
-		// DisplayName: Щит тёмного панциря глубин
-		/* Tooltip:
+		DisplayName: Щит тёмного панциря глубин
+		Tooltip:
 			'''
 			Даёт 20 ед. пассивного щита
 			Даёт невосприимчивость к отбрасыванию
-			''' */
+			'''
 	}
 
 	DukeFish: {
-		// DisplayName: Герцог Рыб
-		/* Tooltip:
+		DisplayName: Герцог Рыб
+		Tooltip:
 			'''
 			Удерживайте ЛКМ, чтобы начать надувать пузырь, а затем отпустите, чтобы выпустить его
 			Пузырь исцеляет союзников и даёт им щит
 			'Если что, его зовут Рон'
-			''' */
+			'''
 	}
 
 	EaterPiper: {
-		// DisplayName: Трубка Пожирателя
-		/* Tooltip:
+		DisplayName: Трубка Пожирателя
+		Tooltip:
 			'''
 			Игнорирует 15 ед. защиты врага
 			Призывает извивающихся червей, кусающих врагов
 			'Дайте им баночку маринованных перцев'
-			''' */
+			'''
 	}
 
 	ExecutionersContract: {
-		// DisplayName: Договор палача
-		/* Tooltip:
+		DisplayName: Договор палача
+		Tooltip:
 			'''
 			Получение эссенций души, используя лучезарные косы, даёт 1 стак агрегатного заряда
 			Нанесение лучезарного урона снарядами кос или любым оружием, кроме кос, расходует все накопленные стаки агрегатного заряда и взамен даёт эссенции души
 			'Принеси мне их души...'
-			''' */
+			'''
 	}
 
 	FanDonations: {
-		// DisplayName: Пожертвования фанатов
-		/* Tooltip:
+		DisplayName: Пожертвования фанатов
+		Tooltip:
 			'''
 			All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
 			Piercing string instrument attacks increase in speed every hit and no longer lose damage
@@ -625,22 +625,22 @@ Items: {
 			Electronic instrument projectiles are significantly faster
 			Increases max inspiration by 5
 			'Does not sell much, unfortunately. At least someone is kind enough to provide...'
-			''' */
+			'''
 	}
 
 	FlyingFlute: {
-		// DisplayName: Парящая флейта
-		/* Tooltip:
+		DisplayName: Парящая флейта
+		Tooltip:
 			'''
 			Призывает крылатую флейту, стреляющую во врагов
 			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'Does it look like it gives a flying flute?'
-			''' */
+			'''
 	}
 
 	GildedFlyingFlute: {
-		// DisplayName: Позолоченная парящая флейта
-		/* Tooltip:
+		DisplayName: Позолоченная парящая флейта
+		Tooltip:
 			'''
 			Увеличивает симфонический урон на {0}%
 			Увеличивает скорость симфонической игры на {1}%
@@ -649,33 +649,33 @@ Items: {
 			If the attack already homes onto enemies, it does so far more quickly
 			Призывает крылатую флейту, стреляющую во врагов
 			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
-			''' */
+			'''
 	}
 
 	HandheldRocket: {
-		// DisplayName: Ручная ракета
-		/* Tooltip:
+		DisplayName: Ручная ракета
+		Tooltip:
 			'''
 			Throw a handheld rocket that will explode four times at a set distance
 			'Карманная ракета!'
-			'''*/
+			'''
 	}
 
 	HeadHunter: {
-		// DisplayName: Головорез
-		/* Tooltip:
+		DisplayName: Головорез
+		Tooltip:
 			'''
 			This scythe is swung directionally and is spun twice every 2 swings
 			Gaining soul essence, landing crits or being in combat creates ice shards that follow you
 			Ice shards give the user +10 defense each but there can only be 4 at once
 			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
 			'Belongs to a certain demon who allegedly runs a coffee shop...'
-			''' */
+			'''
 	}
 
 	HelheimSoul: {
-		// DisplayName: Душа Хельхейма
-		/* Tooltip:
+		DisplayName: Душа Хельхейма
+		Tooltip:
 			'''
 			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«Кровотечение», [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
 			Даёт эффекты от предметов [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}» и [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}»
@@ -692,105 +692,105 @@ Items: {
 			[i:ThoriumRework/StarScoutReticle] Dashing teleports you a few blocks forward and gives you a dash if you don't have one yet
 			[i:ThoriumRework/BannerofWar] Damage and bonus healing increases over time while in combat but gradually fade when out of combat
 			[i:ThoriumRework/BannerofWar] While in combat, periodically emit a pulse that heals allies equal to bonus healing, bard empowerment range affects the range, and the frequency increases over time
-			''' */
+			'''
 	}
 
 	ImpulseAmplifier: {
-		// DisplayName: Импульсный усилитель
-		// Tooltip: Electronic instrument projectiles are significantly faster
+		DisplayName: Импульсный усилитель
+		Tooltip: Значительно увеличивает скорость снарядов электронных инструментов
 	}
 
 	InspirationRegenerationPotion: {
-		// DisplayName: Inspiration Regeneration Potion
-		// Tooltip: Increased inspiration regeneration
+		DisplayName: Зелье восстановления вдохновения
+		Tooltip: Увеличивает скорость восстановления вдохновения
 	}
 
 	FluteofCurses: {
-		// DisplayName: Флейта проклятий
-		// Tooltip: Shoots cursed skulls that latch onto enemies, dealing continuous damage
+		DisplayName: Флейта проклятий
+		Tooltip: Стреляет проклятым черепом, присасывающимся к врагам, нанося постоянный урон
 	}
 
 	JellyfishJam: {
-		// DisplayName: Медузное варенье
-		// Tooltip: Shoots dancing jellyfish that pierce
+		DisplayName: Медузный джем
+		Tooltip: Стреляет танцующими и пронзающими медузами
 	}
 
 	KingTrumpet: {
-		// DisplayName: Королевская труба
-		/* Tooltip:
+		DisplayName: Королевская труба
+		Tooltip:
 			'''
 			Sprays a burst of spores that infect hit targets
 			Ignores 10 points of enemy Defense
-			''' */
+			'''
 	}
 
 	Kusarigama: {
-		// DisplayName: Кусаригама
-		/* Tooltip:
+		DisplayName: Кусаригама
+		Tooltip:
 			'''
 			This mace counts as a scythe
 			Hitting enemies with the blade generates soul essence
 			Hitting enemies with the hilt generates lingering healing energy
 			Up to 2 healing energy can exist at once
-			''' */
+			'''
 	}
 
 	LichWhip: {
-		// DisplayName: Орудие пыток
-		/* Tooltip:
+		DisplayName: Орудие пыток
+		Tooltip:
 			'''
 			Lashes out a triple whip empowered by soul fire
 			Struck enemies will bleed their souls out and heal their targets
-			"A tool used to torment souls in the afterlife"
-			''' */
+			'A tool used to torment souls in the afterlife'
+			'''
 	}
 
 	LodeStoneMagnetMace: {
-		// DisplayName: Магнетитовая притягивающая булава
-		/* Tooltip:
+		DisplayName: Магнетитовая притягивающая булава
+		Tooltip:
 			'''
 			Swings a magnetic mace that releases lingering healing energy on its first hit
 			Up to 4 healing energy can exist at once
 			Damage will sunder enemies, increasing the damage they take by 10% and attracting the mace to them
-			''' */
+			'''
 	}
 
 	Loudener: {
-		// DisplayName: Угромчитель
-		/* Tooltip:
+		DisplayName: Угромчитель
+		Tooltip:
 			'''
 			Wind and brass instrument attacks explode on hit
 			Explosion size varies based on the instrument played
 			Explosions deal 50% less critical strike damage
 			'У тебя есть заглушитель, а у меня угромчитель!'
-			''' */
+			'''
 	}
 
 	LunateCharm: {
-		// DisplayName: Лунный амулет
-		// Tooltip: Gaining soul essence grants shield when health is full
+		DisplayName: Амулет-полумесяц
+		Tooltip: При полном запасе здоровья получение эссенций души будет давать щит, дополнительно увеличивающий ваше здоровье
 	}
 
 	RedCresent: {
-		// DisplayName: Алая луна
-		/* Tooltip:
+		DisplayName: Алая луна
+		Tooltip:
 			'''
 			Выпускает летучих мышей, возвращающихся при попадании по врагу с их кровью, отдавая её вам
 			Нажмите ПКМ, чтобы потратить кровь и выпустить летучих мышей, исцеляющих союзников на <healAmount> ед. здоровья
-			<legendaryModeOnly>Использует здоровье, если сложность мира - «Легенда»
+			<legendaryModeOnly>Использует здоровье на сложности Легенда
 			Blood Siphon: <bloodSiphon>
 			'Блаженная баллада о летучих мышах'
-			''' */
+			'''
 	}
 
 	MagicalHarp: {
-		// DisplayName: "{$ItemName.MagicalHarp}"
-		// Tooltip: ""
+		DisplayName: "{$ItemName.MagicalHarp}"
+		Tooltip: ""
 	}
 
 	Oneirophobia: {
-		// DisplayName: Онеирофобия
-		/* Tooltip:
+		DisplayName: Онеирофобия
+		Tooltip:
 			'''
 			Создаёт осознанную проекцию, функционирующую как случайный вид оружия
 			На первые 2 атаки оружие будет работать как меч
@@ -801,92 +801,92 @@ Items: {
 			На 6 атаку оружие превращается в лазерный пистолет с автонаводкой
 			Превращается в сражающегося за вас миньона, пока не используется как основное оружие
 			'Олицетворение иррационального страха снов и кошмаров'
-			''' */
+			'''
 	}
 
 	QueenJellyPin: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Даёт невосприимчивость к дебаффу «{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}»
 			Призывает вокруг вас присасывающиеся к врагам щупальца
 			Урон щупалец увеличивается в зависимости от вашей защиты
 			При попадании щупальца дают бонусы к восстановлению здоровья и ресурсов
 			{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.Tooltip}
-			''' */
+			'''
 	}
 
 	QueenJellyPinCosmetic: {
-		// DisplayName: Заколка Королевы медуз
-		// Tooltip: "'Прямо на голову!'"
+		DisplayName: Заколка Королевы медуз
+		Tooltip: "'Прямо на голову!'"
 	}
 
 	PickShapedPebble: {
-		// DisplayName: Медиаторообразный камушек
-		/* Tooltip:
+		DisplayName: Медиаторообразный камешек
+		Tooltip:
 			'''
 			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
 			'It's for rock music!'
-			''' */
+			'''
 	}
 
 	PocketEnergyStorm: {
-		// DisplayName: Карманный энергетический шторм
-		/* Tooltip:
+		DisplayName: Карманный энергетический шторм
+		Tooltip:
 			'''
 			Бросает до 20 сфер нестабильной энергии, перегружающие врагов энергией
 			Перегруженные враги получают на 5% больше урона
 			Отпустите ЛКМ, чтобы выпустить все накопленные сферы
 			Не изматывает при использовании
 			'Оставляет синяки на ваших врагах!'
-			''' */
+			'''
 	}
 
 	RepurposedStarCaller: {
-		// DisplayName: Переделанный звёздный передатчик
-		/* Tooltip:
+		DisplayName: Переделанный звёздный передатчик
+		Tooltip:
 			'''
 			Призывает элементальные ядра Звёздного разведчика сражаться за вас
 			Пиро-ядра накладывают дебафф «{$BuffName.OnFire}», Био-ядра «{$BuffName.Poisoned}», а Крио-ядра «{$BuffName.Frostburn}»
 			'Ну, прибыли мы на твой зов, и что дальше?'
-			''' */
+			'''
 	}
 
 	SealedContract: {
-		// DisplayName: Подписанный договор
-		/* Tooltip:
+		DisplayName: Заключённый договор
+		Tooltip:
 			'''
 			Увеличивает максимальный запас здоровья на 60 ед.
-			Healing spells grant an additional 5 life
+			Исцеляющие заклинания восстанавливают дополнительно 5 ед. здоровья
 			Gaining soul essence with radiant scythes grant a stack of aggregate charge and shield when health is full
 			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
 			'Договор - не приговор!'
-			''' */
+			'''
 	}
 
 	Shellxophone: {
-		// DisplayName: Глубоководная одиссея
-		/* Tooltip:
+		DisplayName: Глубоководная одиссея
+		Tooltip:
 			'''
 			Shoots bouncing ripples accompanied by homing abyssal strikes
 			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration
 			Healing is increased for every unique empowerment allies have according to its level
 			"Calling the lurkers of the aquatic depths to play the finest symphony"
-			''' */
+			'''
 	}
 
 	ShoulderBlade: {
-		// DisplayName: Shoulder Blade
-		/* Tooltip:
+		DisplayName: Shoulder Blade
+		Tooltip:
 			'''
 			Throws a flesh hatchet that stops at a certain distance
 			While stationary, the weapon has a brief sweet spot where it summons homing leech bolts on hit
-			''' */
+			'''
 	}
 
 	SierraChimera: {
-		// DisplayName: Сьерра-Химера
-		/* Tooltip:
+		DisplayName: Сьерра-Химера
+		Tooltip:
 			'''
 			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]Bubbled, [i:ThoriumRework/VampireCape]Bleeding and [i:ThoriumRework/VampireCape]Vampire's Curse
 			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit
@@ -894,170 +894,171 @@ Items: {
 			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
 			[i:ThoriumRework/ZephyrWings] Grappling in the air with Zephyr's Grip's hatchling extends flight time
 			[i:ThoriumRework/ZephyrWings] Zephyr's Grip's hatchling can be summoned again after gliding for a bit, dealing damage replenishes it faster
-			''' */
+			'''
 	}
 
 	SoulSnatcher: {
-		// DisplayName: Духолов
-		/* Tooltip:
+		DisplayName: Духолов
+		Tooltip:
 			'''
 			Работает как булава, но считается косой
 			При попадании по врагу лезвием даёт эссенции души
 			Hitting enemies with the hilt generates lingering healing energy
 			Up to 5 healing energy can exist at once
-			'Your soul belongs to snatcher!'
-			''' */
+			'Твой дух принадлежит ловцу!'
+			'''
 	}
 
 	SpittingShroomStaff: {
-		// DisplayName: Посох грибов-плевунов
-		/* Tooltip:
+		DisplayName: Посох грибов-плевунов
+		Tooltip:
 			'''
 			Призывает плюющийся спорами гриб сражаться за вас
 			Если враг подбирается близко к грибу, тот спрячется за своей шляпкой и вызовет мощный взрыв
-			''' */
+			'''
 	}
 
 	StarScoutReticle: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Позволяет дышать в космосе и даёт эффекты от баффа «{$BuffName.NightOwl}»
 			Совершение рывка телепортирует вас на несколько блоков вперёд
 			Не работает с особыми рывками
 			Даёт рывок, если у вас его нет
 			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
-			''' */
+			'''
 	}
 
 	StarScoutReticleCosmetic: {
-		// DisplayName: Прицел Звёздного разведчика
-		// Tooltip: "'Боишься темноты? Не волнуйся, у тебя же есть я!'"
+		DisplayName: Прицел Звёздного разведчика
+		Tooltip: "'Боишься темноты? Не волнуйся, у тебя же есть я!'"
 	}
 
 	StellarTune: {
-		// DisplayName: "{$ItemName.SparkleGuitar}"
-		// Tooltip: "{$ItemTooltip.SparkleGuitar}"
+		DisplayName: "{$ItemName.SparkleGuitar}"
+		Tooltip: "{$ItemTooltip.SparkleGuitar}"
 	}
 
 	StriderMouthguard: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			Атаки накладывают дебафф «{$BuffName.Frostburn}»
 			Даёт щит при нанесении урона по врагам, подверженным дебаффом «{$BuffName.Frostburn}»
-			Hold attack to generate up to three Frost Mytes, stop attacking to unleash them
+			Удерживайте ЛКМ, чтобы призывать до 3 морозных митов
+			Отпустите ЛКМ, чтобы высвободить их
 			{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.Tooltip}
-			''' */
+			'''
 	}
 
 	StriderMouthguardCosmetic: {
-		// DisplayName: Капа шагателя
-		// Tooltip: Даёт эффекты от предмета «{$ItemName.HandWarmer}»
+		DisplayName: Капа шагателя
+		Tooltip: Даёт эффекты от предмета «{$ItemName.HandWarmer}»
 	}
 
 	TerrariumSoulScourge: {
-		// DisplayName: Террариевый бич душ
-		/* Tooltip:
+		DisplayName: Террариевый бич душ
+		Tooltip:
 			'''
 			Swings a prismatic mace that releases lingering healing energy on its first hit
 			Up to 10 healing energy can exist at once
 			Summons rainbow copies of itself on healing orb generation
-			''' */
+			'''
 	}
 
 	TitanHat: {
-		// DisplayName: Титаническая шляпа
-		/* Tooltip:
+		DisplayName: Титаническая шляпа
+		Tooltip:
 			'''
 			'Наполнен первородной энергией'
 			Increases symphonic playing speed and inspiration regeneration rate by 15%
 			Increases empowerment duration by 3 seconds
 			Greatly increases empowerment range
-			''' */
+			'''
 	}
 
 	TitanHood: {
-		// DisplayName: Титанический капюшон
-		/* Tooltip:
+		DisplayName: Титанический капюшон
+		Tooltip:
 			'''
 			'Наполнен первородной энергией'
 			Увеличивает скорость метательных атак на 15%
 			Увеличивает максимальное число очков техники на 3
-			Не расходующееся метательное оружие будет изматывать вас на 40% слабее // Non-consumable throwing weapons take 40% longer to exhaust you
-			''' */
+			Не расходуемое метательное оружие будет изматывать вас на 40% слабее
+			'''
 	}
 
 	TitanVisage: {
-		// DisplayName: Титанический лик
-		/* Tooltip:
+		DisplayName: Титанический лик
+		Tooltip:
 			'''
 			'Наполнен первородной энергией'
-			Increases radiant damage and casting speed by 15%
-			Healing spells will heal an additional 6 life
-			Your healing spells can critically strike, doubling its healing
-			''' */
+			Увеличивает лучезарный урон и скорость произнесения заклинаний на 15%
+			Исцеляющие заклинания восстанавливают дополнительно 6 ед. здоровья
+			Позволяет исцеляющим заклинаниям наносить критические удары, удваивающие их исцеление
+			'''
 	}
 
 	TitanVisor: {
-		// DisplayName: Титаническая личина
-		/* Tooltip:
+		DisplayName: Титаническая личина
+		Tooltip:
 			'''
 			'Наполнен первородной энергией'
 			Увеличивает максимальное количество миньонов на 3 и стражей на 1
 			Увеличивает дальность хлыстов 15%
 			Увеличивает шанс критического удара призывателя на 6%
 			Даёт возможность миньонам и стражами наносить критические удары
-			''' */
+			'''
 	}
 
 	ThoriumBludgeon: {
-		// DisplayName: Ториевая дубинка
-		/* Tooltip:
+		DisplayName: Ториевая дубинка
+		Tooltip:
 			'''
-			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии // Swings a radioactive mace that releases lingering healing energy on its first hit
+			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии Swings a radioactive mace that releases lingering healing energy on its first hit
 			Одновременно может существовать только 2 таких заряда
-			''' */
+			'''
 	}
 
 	ThoriumHeavyScythe: {
-		// DisplayName: Тяжёлая ториевая коса
-		// Tooltip: Вместо вращения совершает взмахи по диагонали
+		DisplayName: Тяжёлая ториевая коса
+		Tooltip: Вместо вращения совершает взмахи по диагонали
 	}
 
 	ThoriumWhistle: {
-		// DisplayName: Ториевый свисток
-		// Tooltip: Стреляет очередью из нескольких молний
+		DisplayName: Ториевый свисток
+		Tooltip: Стреляет очередью из нескольких молний
 	}
 
 	UndyingGaze: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
+		Tooltip:
 			'''
-			Нанесение критического удара будет гарантировано давать эссенции души // Any critical strike now grants Soul Essence
-			Атаки, расходующие здоровье для атаки, также будут эссенции при любом попадании // Attacks that use life will grant Soul Essence on any hit
-			Атаки, уже дающие эссенции души, будут давать их увеличенное количество // Attacks that already grant Soul Essence will grant an extra charge
-			''' */
+			Нанесение критического удара будет гарантировано давать эссенции души Any critical strike now grants Soul Essence
+			Атаки, расходующие здоровье для атаки, также будут эссенции при любом попадании Attacks that use life will grant Soul Essence on any hit
+			Атаки, уже дающие эссенции души, будут давать их увеличенное количество Attacks that already grant Soul Essence will grant an extra charge
+			'''
 	}
 
 	UndyingGazeCosmetic: {
-		// DisplayName: Бессмертная благодать
-		// Tooltip: Ваши глаза будут слегка подсвечены
+		DisplayName: Бессмертная благодать
+		Tooltip: Ваши глаза будут слегка подсвечены
 	}
 
 	ValadiumHeavyScythe: {
-		// DisplayName: Тяжёлая валадиумовая коса
-		/* Tooltip:
+		DisplayName: Тяжёлая валадиумовая коса
+		Tooltip:
 			'''
 			Вместо вращения совершает взмахи по диагонали
 			Выпускает шлейф тёмной энергии короткой дальности, пронзающий врагов
 			Нанесение урона разрывает врагов межпространственной энергией
-			''' */
+			'''
 	}
 
 	ValkyrienSkyStone: {
-		// DisplayName: Небесный камень валькирии
-		/* Tooltip:
+		DisplayName: Валькирский камень небес
+		Tooltip:
 			'''
 			[i:ThoriumRework/StarScoutReticle] Allows breathing in space and grants night vision
 			[i:ThoriumRework/StarScoutReticle] Dashing teleports you a few blocks forward and gives you a dash if you don't have one yet
@@ -1066,81 +1067,81 @@ Items: {
 			[i:ThoriumRework/BannerofWar] The frequency of the pulses increases the longer you are in combat
 			[i:ThoriumRework/BandofCratons] Grants a passive 40 shield, immunity to Overflowed and makes your attacks inflict it
 			[i:ThoriumRework/BandofCratons] Restores player resources based on the amount of shield lost, losing more than 20 shield creates an electric shock that destroys 3 projectiles
-			''' */
+			'''
 	}
 
 	VampireCape: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
-		// Tooltip: Даёт невосприимчивость к дебаффам «{$BuffName.Bleeding}» и «{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
+		DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
+		Tooltip: Даёт невосприимчивость к дебаффам «{$BuffName.Bleeding}» и «{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
 	}
 
 	VampireCapeCosmetic: {
-		// DisplayName: Плащ летучей мыши-вампира
-		// Tooltip: ""
+		DisplayName: Плащ летучей мыши-вампира
+		Tooltip: ""
 	}
 
 	ZephyrsRuin: {
-		// DisplayName: Зефирова погибель
-		/* Tooltip:
+		DisplayName: Зефирова погибель
+		Tooltip:
 			'''
 			Вонзается во врагов или, если промахнётся, в поверхность
 			Через некоторое время в точку поражённого атакой врага ударяет наносящая урон молния
 			При нанесении критического удара молния мгновенно бьёт в поражённого врага
 			Вы не изматываетесь от использования этого предмета
 			'А говорили молния в одно месте дважды не бьёт'
-			''' */
+			'''
 	}
 
 	ZephyrWings: {
-		// DisplayName: "{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.DisplayName}"
-		/* Tooltip:
+		DisplayName: "{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.DisplayName}"
+		Tooltip:
 			'''
 			{$Mods.ThoriumRework.Items.ZephyrWingsCosmetic.Tooltip}
-			Grappling in the air with Zephyr's Grip's hatchling extends flight duration
+			Зацепление за воздух с помощью хватки Зефира увеличивает время полёта
 			Zephyr's Grip's hatchling can be summoned again after gliding for a while
 			Dealing damage allows the hatchling to be resummonable much sooner
-			''' */
+			'''
 	}
 
 	ZephyrWingsCosmetic: {
-		// DisplayName: Зефировы крылья
-		/* Tooltip:
+		DisplayName: Зефировы крылья
+		Tooltip:
 			'''
 			Позволяет летать и плавно парить
 			Имеет те же характеристики, что и крылья птенца
-			''' */
+			'''
 	}
 }
 
 Buffs: {
 	BubblyShield: {
-		// DisplayName: Пузырьковый щит
-		// Description: +10 defense, overshield and special damage reduction
+		DisplayName: Пузырьковый щит
+		Description: +10 defense, overshield and special damage reduction
 	}
 
 	Deathsinger: {
-		// DisplayName: Певец смерти
-		// Description: Симфонический урон и скорость игры увеличены на 7%
+		DisplayName: Певец смерти
+		Description: Симфонический урон и скорость игры увеличены на 7%
 	}
 
 	Inspired: {
-		// DisplayName: Вдохновлён
-		// Description: Скорость восстановления вдохновения увеличена
+		DisplayName: Вдохновлён
+		Description: Скорость восстановления вдохновения увеличена
 	}
 
 	SoulBleed: {
-		// DisplayName: Soul Bleed
-		// Description: Your soul is dissipating...
+		DisplayName: Духотечение
+		Description: Ваша душа растворяется...
 	}
 
 	StarCalled: {
-		// DisplayName: Звёздная передача
-		// Description: Они приняли ваш сигнал
+		DisplayName: Звёздная передача
+		Description: Они приняли ваш сигнал
 	}
 
 	TerminalLucidity: {
-		// DisplayName: Терминальное ясновидение
-		/* Description:
+		DisplayName: Терминальное ясновидение
+		Description:
 			'''
 			-Механика босса-
 			Пока на вас наложен этот дебафф, Пожиратель снов не может получать урон
@@ -1148,12 +1149,12 @@ Buffs: {
 			Дотроньтесь до разлома стабильной реальности, чтобы обнулить таймер и начать фазу нанесения урона
 			Разломы стабильной реальности выглядят как ярко-фиолетовые порталы
 			'Судьба приближается...'
-			''' */
+			'''
 	}
 
 	LucidRetaliation: {
-		// DisplayName: Возмещающее ясновидение
-		/* Description:
+		DisplayName: Возмещающее ясновидение
+		Description:
 			'''
 			-Механика босса-
 			Пока на вас наложен этот бафф, Пожиратель снов может получать урон
@@ -1161,322 +1162,343 @@ Buffs: {
 			Разломы нестабильной реальности выглядят как чёрные трещины
 			Бесконечный полёт
 			'Судьба уже здесь...'
-			''' */
+			'''
 	}
 
 	VampireCape: {
-		// DisplayName: Стая летучих мышей-вампиров
-		// Description: Вы превращены в стаю летучих мышей-вампиров
+		DisplayName: Стая летучих мышей-вампиров
+		Description: Вы превращены в стаю летучих мышей-вампиров
 	}
 }
 
 Prefixes: {
 	Careless: {
-		// DisplayName: Беспечный
-		// Description: +2 ед. к стоимости здоровья
+		DisplayName: Беспечный
+		Description: +2 ед. к стоимости здоровья
 	}
 
 	Complicated: {
-		// DisplayName: Запутанный
-		// Description: +25% к скорости стрелки таймера
+		DisplayName: Запутанный
+		Description: +25% к скорости стрелки таймера
 	}
 
 	Favored: {
-		// DisplayName: Благодатный
-		// Description: -25% к скорости стрелки таймера
+		DisplayName: Благодатный
+		Description: -25% к скорости стрелки таймера
 	}
 
 	Risky: {
-		// DisplayName: Рискованный
-		// Description: +1 ед. к стоимости здоровья
+		DisplayName: Рискованный
+		Description: +1 ед. к стоимости здоровья
 	}
 
 	Simplified: {
-		// DisplayName: Простенький
-		// Description: -25% к скорости стрелки таймера
+		DisplayName: Простенький
+		Description: -25% к скорости стрелки таймера
 	}
 
 	Suicidal: {
-		// DisplayName: Самоубийственный
-		// Description: +3 ед. к стоимости здоровья
+		DisplayName: Самоубийственный
+		Description: +3 ед. к стоимости здоровья
 	}
 }
 
 Configs: {
 	ReworkConfig: {
-		// DisplayName: Клиентская конфигурация
+		DisplayName: Клиентская конфигурация
 
 		flash: {
-			// Label: Flashing lights intensity
-			// Tooltip: How bright or how dim flashes are.
+			Label: Flashing lights intensity
+			Tooltip: How bright or how dim flashes are.
 		}
 
 		overlay: {
-			// Label: Overlay intensity
-			// Tooltip: How transparent screen overlays are.
+			Label: Overlay intensity
+			Tooltip: How transparent screen overlays are.
 		}
 
 		seizures: {
-			// Label: Photosensitivity warning
-			// Tooltip: Prompts a photosensitivity warning when joining a world.
+			Label: Photosensitivity warning
+			Tooltip: Prompts a photosensitivity warning when joining a world.
 		}
 
 		bossRenames: {
-			// Label: Переименовывание боссов
-			// Tooltip: Включает/Выключает переименовывание некоторых боссов из Thorium.
+			Label: Переименовывание боссов
+			Tooltip: Включает/Выключает переименовывание некоторых боссов из Thorium.
 		}
 
 		starScouterEnrageText: {
-			// Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text"
+			Tooltip:
 				'''
 				Whether or not Star Scouter shows a text pop-up indicating enrage.
 				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
-				''' */
+				'''
 		}
 
 		starScouterEnrageVisuals: {
-			// Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
+			Tooltip:
 				'''
 				Whether or not Star Scouter turns red when enraged.
 				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
-				''' */
+				'''
 		}
 
 		lichOutline: {
-			// Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
+			Tooltip:
 				'''
 				Controls the intensity of the faint red glow around the Lich.
 				Only works on reworked Lich, the unreworked version is unaffected by this setting.
 				Use this if you want visual parity with the original design or if you're having troubles seeing him.
-				''' */
+				'''
 		}
 	}
 
 	CompatConfig: {
-		// DisplayName: Cross Mod Compatibility Settings
+		DisplayName: Настройки кросс-совместимости
 
 		healthScale: {
-			// Label: Множитель здоровья
-			// Tooltip: Multiplies the health of Thorium's bosses by this amount.
+			Label: Множитель здоровья
+			Tooltip: Multiplies the health of Thorium's bosses by this amount.
 		}
 
 		damageScale: {
-			// Label: Множитель урона
-			// Tooltip: Multiplies the attack damage of Thorium's bosses by this amount.
+			Label: Множитель урона
+			Tooltip: Multiplies the attack damage of Thorium's bosses by this amount.
 		}
 
 		speedScale: {
-			// Label: Множитель скорости
-			/* Tooltip:
+			Label: Множитель скорости
+			Tooltip:
 				'''
 				Multiplies the movement speed of Thorium's bosses by this amount.
 				Limited to 2x speed as any higher breaks bosses.
-				''' */
+				'''
 		}
 
 		sheathFix: {
-			// Label: Исправления и улучшения ножен мечей
-			// Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords.
+			Label: Исправления и улучшения ножен мечей
+			Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords.
 		}
 
 		terraItemsFix: {
-			// Label: Thorium Terra Item Recipes Parity
-			/* Tooltip:
+			Label: Паритовность рецептов терра-предметов Thorium
+			Tooltip:
 				'''
 				(Рекомендовано!)
 				Changes all of the Terra weapons from Thorium to use similar recipes to the vanilla Terra Blade.
 				Automatically disabled if Unofficial Calamity Bard & Healer is installed as that mod already does this.
-				''' */
+				'''
 		}
 
 		extraItems: {
-			// Label: Extra Item Contents
-			/* Tooltip:
+			Label: Новые предметы
+			Tooltip:
 				'''
 				(Необязательно)
 				Adds some unrelated items that are from this mod.
-				''' */
+				'''
 		}
 
 		extraPotions: {
-			// Label: Extra Potion Contents
-			/* Tooltip:
+			Label: Новые зелья
+			Tooltip:
 				'''
 				(Необязательно)
 				Adds some buff potions relating to Thorium's class that are from this mod.
-				''' */
+				'''
 		}
 
 		extraPrefixes: {
-			// Label: Extra Prefix Contents
-			/* Tooltip:
+			Label: Новые префиксы
+			Tooltip:
 				'''
 				(Необязательно)
 				Adds some prefixes relating to Thorium's class items that are from this mod.
-				''' */
+				'''
 		}
 
 		masterDrops: {
-			// Label: Master Mode Drops
-			/* Tooltip:
+			Label: Master Mode Drops
+			Tooltip:
 				'''
 				(Рекомендовано!)
 				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode.
-				''' */
+				'''
+		}
+
+		masterDropRate: {
+			Label: Частота выпадения предметов сложности Мастер в процентах
+			Tooltip: NOTE: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
 		}
 
 		masterDropsAreNonExclusive: {
-			// Label: Master weapon drops are expert drops
-			/* Tooltip:
+			Label: Master weapon drops are expert drops
+			Tooltip:
 				'''
 				Master mode exclusive weapons drop in expert mode.
 				Recommended if you don't like playing on master or other mods break master drops.
 				(e.g. eternity mode becoming masochist mode or infernum not being usable in master mode)
-				''' */
+				'''
 		}
 
 		itemReworks: {
-			// Label: Переработка некоторых предметов Thorium
-			/* Tooltip:
+			Label: Переработка некоторых предметов Thorium
+			Tooltip:
 				'''
 				(Рекомендовано!)
 				Reworks some items from Thorium mod to be a lot better.
-				''' */
+				'''
 		}
 
 		postDoGRag: {
-			// Label: Перемещение Первородных в прогрессии с Calamity или Fargo's
-			/* Tooltip:
+			Label: Перемещение Первородных в прогрессии с Calamity или Fargo's
+			Tooltip:
 				'''
 				(Рекомендовано!)
-				Makes the Primordials post-Devourer in progression.
-				Pre-Eridanus in Fargo's Souls.
-				In between if both of those mods are enabled.
-				''' */
+				Перемещает битву с Первородными на этап пост-Пожиратель богов в игровой прогрессии.
+				Перемещает на пре-Эридан с Fargo's Souls.
+				Если включены оба мода, перемещает битву на этап между ними.
+				'''
 		}
 
 		vanillaBard: {
-			// Label: Конвертация звёздного мотива и магической арфы в класс барда
-			// Tooltip: Stellar Tune and Magical Harp are now string instruments and grant empowerments.
+			Label: Конвертация звёздного мотива и магической арфы в класс барда
+			Tooltip: Конвертирует класс звёздного мотива и магической арфы в барда, делая их струнными инструментами, способными накладывать усиления.
 		}
 
 		DoD: {
-			// Label: Пожиратель грёз (Шуточная настройка)
-			/* Tooltip:
+			Label: Пожиратель грёз (Шуточная настройка)
+			Tooltip:
 				'''
 				This setting is entirely a joke, it gives Devourer of Gods Dream Eater's original attacks.
 				May or may not be fair and balanced.
-				''' */
+				'''
 		}
 
 		thorlamityBR: {
-			// Label: Боссы Thorium в Босс-раше Calamity
-			// Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression.
+			Label: Боссы Thorium в Босс-раше Calamity
+			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression.
+		}
+
+		auricBar: {
+			Label: Создание ауритового слитка требует материалы из Thorium
+			Tooltip: При включении ауритовые слитки из Calamity будут требовать для создания 3 эссенции Первородных.
 		}
 
 		defenseDamage: {
-			// Label: Поддержка урона по защите
-			/* Tooltip:
+			Label: Поддержка урона по защите
+			Tooltip:
 				'''
 				Позволяет некоторым атакам боссов из Spirit наносить урон по защите.
 				Работает только, если включён Calamity Mod.
-				''' */
+				'''
 		}
 
 		eternityModeOnly: {
-			// Label: Только в режиме Вечность
-			/* Tooltip:
+			Label: Только в режиме Вечность
+			Tooltip:
 				'''
-				The boss reworks from this mod only applies when eternity mode is active.
+				При включении переработки боссов этого мода будут работать только, если включён режим Вечность или Мазохист.
 				Also changes master weapon drops (if enabled) into eternity weapon drops.
 				Additionally, Thorium bosses can now drop eternity mode accessories.
 				This setting does nothing if Fargo's Souls is not installed.
-				''' */
+				'''
 		}
 
 		infernumModeOnly: {
-			// Label: Только в режиме Инфернум
-			/* Tooltip:
+			Label: Только в режиме Инфернум
+			Tooltip:
 				'''
-				The boss reworks from this mod only applies when infernum mode is active.
-				This setting does nothing if Infernum is not installed.
-				''' */
+				При включении переработки боссов этого мода будут работать только, если включён режим Инфернум.
+				Ничего не делает, если не включён Infernum Mode.
+				'''
 		}
 	}
 
 	ReworkTogglesConfig: {
-		// DisplayName: Конфигурация переработок боссов
+		DisplayName: Конфигурация переработок боссов
 
 		bird: {
-			// Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Великая громовая птица"
-			// Tooltip: Включает/Выключает переработку Великой громовой птицы.
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Великая громовая птица"
+			Tooltip: Включает/Выключает переработку Великой громовой птицы.
 		}
 
 		jelly: {
-			// Label: "[i:ThoriumMod/QueenJellyfishMask]Королева медуз"
-			// Tooltip: Включает/Выключает переработку Королевы медуз.
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Королева медуз"
+			Tooltip: Включает/Выключает переработку Королевы медуз.
+		}
+
+		qjLagReduction: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Режим снижения нагрузки для столбов пузырей"
+			Tooltip:
+				'''
+				Настройка специально для людей, у которых есть проблемы с производительностью во время использования Королевой медуз атаки столбами пузырей.
+				0 - Отключено (если ваше устройство не нагружается от этой атаки, можете использовать этот режим).
+				1 - Только в одиночной игре.
+				2 - Всегда включено (ПРЕДУПРЕЖДЕНИЕ: Подобного рода оптимизация может некорректно работать при игре в мультиплеере!).
+				'''
 		}
 
 		bat: {
-			// Label: "[i:ThoriumMod/ViscountMask]Виконт"
-			// Tooltip: Включает/Выключает переработку Виконта.
+			Label: "[i:ThoriumMod/ViscountMask]Виконт"
+			Tooltip: Включает/Выключает переработку Виконта.
 		}
 
 		champ: {
-			// Label: "[i:ThoriumMod/BuriedChampionMask]Погребённый чемпион"
-			// Tooltip: Включает/Выключает переработку Погребённого чемпиона.
+			Label: "[i:ThoriumMod/BuriedChampionMask]Погребённый чемпион"
+			Tooltip: Включает/Выключает переработку Погребённого чемпиона.
 		}
 
 		ges: {
-			// Label: "[i:ThoriumMod/GraniteEnergyStormMask]Гранитный энергетический шторм"
-			// Tooltip: Включает/Выключает переработку Гранитного энергетического шторма.
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]Гранитный энергетический шторм"
+			Tooltip: Включает/Выключает переработку Гранитного энергетического шторма.
 		}
 
 		scout: {
-			// Label: "[i:ThoriumMod/StarScouterMask]Звёздный разведчик"
-			// Tooltip: Включает/Выключает переработку Звёздного разведчика.
+			Label: "[i:ThoriumMod/StarScouterMask]Звёздный разведчик"
+			Tooltip: Включает/Выключает переработку Звёздного разведчика.
 		}
 
 		coznix: {
-			// Label: "[i:ThoriumMod/FallenBeholderMask]Козникс"
-			// Tooltip: Включает/Выключает переработку Падшего Созерцателя.
+			Label: "[i:ThoriumMod/FallenBeholderMask]Козникс"
+			Tooltip: Включает/Выключает переработку Падшего Созерцателя.
 		}
 
 		strider: {
-			// Label: "[i:ThoriumMod/BoreanStriderMask]Борейский шагатель"
-			// Tooltip: Включает/Выключает переработку Борейского шагателя.
+			Label: "[i:ThoriumMod/BoreanStriderMask]Борейский шагатель"
+			Tooltip: Включает/Выключает переработку Борейского шагателя.
 		}
 
 		lich: {
-			// Label: "[i:ThoriumMod/LichMask]Лич"
-			// Tooltip: Включает/Выключает переработку Лича.
+			Label: "[i:ThoriumMod/LichMask]Лич"
+			Tooltip: Включает/Выключает переработку Лича.
 		}
 
 		abyssion: {
-			// Label: "[i:ThoriumMod/ForgottenOneMask]Абссион"
-			// Tooltip: Включает/Выключает переработку Забытого.
+			Label: "[i:ThoriumMod/ForgottenOneMask]Абссион"
+			Tooltip: Включает/Выключает переработку Забытого.
 		}
 
 		requireAbyssion: {
-			// Label: "[i:ThoriumMod/ForgottenOneMask]Обязательная победа над Абиссионом"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/ForgottenOneMask]Обязательная победа над Абиссионом"
+			Tooltip:
 				'''
 				При включении победа над Забытым как и над Големом станет обязательной для появления Культиста-лунатика.
 				Автоматически отключается в мирах без акватических глубин.
-				''' */
+				'''
 		}
 
 		rag: {
-			// Label: "[i:ThoriumMod/TheOmegaCore]Рагнарёк"
-			// Tooltip: Включает/Выключает переработку Первородных и Пожирателя снов.
+			Label: "[i:ThoriumMod/TheOmegaCore]Рагнарёк"
+			Tooltip: Включает/Выключает переработку Первородных и Пожирателя снов.
 		}
 
 		terminalLucidity: {
-			// Label: "[i:ThoriumMod/TheOmegaCore]Минимальная сложность для появления терминального ясновидения"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/TheOmegaCore]Минимальная сложность для появления терминального ясновидения"
+			Tooltip:
 				'''
 				Определяет, с какой сложности терминальное ясновидение начнёт появляться.
 				0 - Только в Босс-раше.
@@ -1484,628 +1506,643 @@ Configs: {
 				2 - Только в режимах Мастер или Месть.
 				3 - Только в режимах Легенда, Смерть или Вечность.
 				4 - Только в генерации GFB или режимах Инфернум, Мазохист или Вечная смерть.
-				''' */
+				'''
 		}
 	}
 
 	ItemReworksConfig: {
-		// DisplayName: Переключение переработок/усилений предметов
+		DisplayName: Переключение переработок/усилений предметов
 
 		showItemReworks: {
-			// Label: Отображение переработок предметов
-			/* Tooltip:
+			Label: Отображение переработок предметов
+			Tooltip:
 				'''
 				Отображает в описании переработанных предметов, что они были переработаны.
-				KNOWN ISSUE: Does not work correctly when mod load order is messed up.
+				ИЗВЕСТНАЯ ОШИБКА: Does not work correctly when mod load order is messed up.
 				Also low-key kinda not works on certain armors and bard weapons.
-				''' */
+				'''
+		}
+
+		oldContract: {
+			Label: Старое поведение подписанного договора/договора палача
+			Tooltip: Включает/Выключает старый функционал подписанного договора/договора палача.
 		}
 
 		ThoriumArmor: {
-			// Label: "[i:ThoriumMod/ThoriumMail]Ториевая броня"
-			// Tooltip: Note: The set bonus is what's reworked, not the armor itself.
+			Label: "[i:ThoriumMod/ThoriumMail]Ториевая броня"
+			Tooltip: Примечание: Единственное, что было изменено в броне - её бонус комплекта.
 		}
 
 		ThoriumRevolver: {
-			// Label: "[i:ThoriumMod/ThoriumRevolver]{$Mods.ThoriumMod.Items.ThoriumRevolver.DisplayName}"
-			// Tooltip: Примечание: Также возвращает рецепт создания этого предмета.
+			Label: "[i:ThoriumMod/ThoriumRevolver]{$Mods.ThoriumMod.Items.ThoriumRevolver.DisplayName}"
+			Tooltip: Примечание: Также возвращает рецепт создания этого предмета.
 		}
 
 		ThoriumSpear: {
-			// Label: "[i:ThoriumMod/ThoriumSpear]{$Mods.ThoriumMod.Items.ThoriumSpear.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ThoriumSpear]{$Mods.ThoriumMod.Items.ThoriumSpear.DisplayName}"
+			Tooltip: ""
+		}
+
+		BuccaneerBlunderBuss: {
+			Label: "[i:ThoriumMod/BuccaneerBlunderBuss]{$Mods.ThoriumMod.Items.BuccaneerBlunderBuss.DisplayName}"
+			Tooltip: ""
 		}
 
 		HitScanner: {
-			// Label: "[i:ThoriumMod/HitScanner]{$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/HitScanner]{$Mods.ThoriumMod.Items.HitScanner.DisplayName}"
+			Tooltip: ""
 		}
 
 		ParticleWhip: {
-			// Label: "[i:ThoriumMod/ParticleWhip]{$Mods.ThoriumMod.Items.ParticleWhip.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ParticleWhip]{$Mods.ThoriumMod.Items.ParticleWhip.DisplayName}"
+			Tooltip: ""
 		}
 
 		ChampionBomberStaff: {
-			// Label: "[i:ThoriumMod/ChampionBomberStaff]{$Mods.ThoriumMod.Items.ChampionBomberStaff.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ChampionBomberStaff]{$Mods.ThoriumMod.Items.ChampionBomberStaff.DisplayName}"
+			Tooltip: ""
 		}
 
 		ChampionSwiftBlade: {
-			// Label: "[i:ThoriumMod/ChampionSwiftBlade]{$Mods.ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ChampionSwiftBlade]{$Mods.ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
+			Tooltip: ""
 		}
 
 		ChampionsTrifectaShot: {
-			// Label: "[i:ThoriumMod/ChampionsTrifectaShot]{$Mods.ThoriumMod.Items.ChampionsTrifectaShot.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ChampionsTrifectaShot]{$Mods.ThoriumMod.Items.ChampionsTrifectaShot.DisplayName}"
+			Tooltip: ""
 		}
 
 		ChampionsRebuttal: {
-			// Label: "[i:ThoriumMod/ChampionsRebuttal]{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ChampionsRebuttal]{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}"
+			Tooltip: ""
 		}
 
 		GraniteCrossbow: {
-			// Label: "[i:ThoriumMod/GraniteCrossbow]{$Mods.ThoriumMod.Items.GraniteCrossbow.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/GraniteCrossbow]{$Mods.ThoriumMod.Items.GraniteCrossbow.DisplayName}"
+			Tooltip: ""
 		}
 
 		GraniteReflector: {
-			// Label: "[i:ThoriumMod/GraniteReflector]{$Mods.ThoriumMod.Items.GraniteReflector.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/GraniteReflector]{$Mods.ThoriumMod.Items.GraniteReflector.DisplayName}"
+			Tooltip: ""
 		}
 
 		EnergyStormPartisan: {
-			// Label: "[i:ThoriumMod/EnergyStormPartisan]{$Mods.ThoriumMod.Items.EnergyStormPartisan.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/EnergyStormPartisan]{$Mods.ThoriumMod.Items.EnergyStormPartisan.DisplayName}"
+			Tooltip: ""
 		}
 
 		HellishHalberd: {
-			// Label: "[i:ThoriumMod/HellishHalberd]{$Mods.ThoriumMod.Items.HellishHalberd.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/HellishHalberd]{$Mods.ThoriumMod.Items.HellishHalberd.DisplayName}"
+			Tooltip: ""
 		}
 
 		Obliterator: {
-			// Label: "[i:ThoriumMod/Obliterator]{$Mods.ThoriumMod.Items.Obliterator.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Obliterator]{$Mods.ThoriumMod.Items.Obliterator.DisplayName}"
+			Tooltip: ""
 		}
 
 		PyroclastStaff: {
-			// Label: "[i:ThoriumMod/PyroclastStaff]{$Mods.ThoriumMod.Items.PyroclastStaff.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/PyroclastStaff]{$Mods.ThoriumMod.Items.PyroclastStaff.DisplayName}"
+			Tooltip: ""
 		}
 
 		OmegaBlaster: {
-			// Label: "[i:ThoriumMod/OmegaBlaster]{$Mods.ThoriumMod.Items.OmegaBlaster.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/OmegaBlaster]{$Mods.ThoriumMod.Items.OmegaBlaster.DisplayName}"
+			Tooltip: ""
 		}
 
 		SuperPlasmaCannon: {
-			// Label: "[i:ThoriumMod/SuperPlasmaCannon]{$Mods.ThoriumMod.Items.SuperPlasmaCannon.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/SuperPlasmaCannon]{$Mods.ThoriumMod.Items.SuperPlasmaCannon.DisplayName}"
+			Tooltip: ""
 		}
 
 		LodeStoneBow: {
-			// Label: "[i:ThoriumMod/LodeStoneBow]{$Mods.ThoriumMod.Items.LodeStoneBow.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/LodeStoneBow]{$Mods.ThoriumMod.Items.LodeStoneBow.DisplayName}"
+			Tooltip: ""
 		}
 
 		LodeStoneClaymore: {
-			// Label: "[i:ThoriumMod/LodeStoneClaymore]{$Mods.ThoriumMod.Items.LodeStoneClaymore.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/LodeStoneClaymore]{$Mods.ThoriumMod.Items.LodeStoneClaymore.DisplayName}"
+			Tooltip: ""
 		}
 
 		ValadiumBow: {
-			// Label: "[i:ThoriumMod/ValadiumBow]{$Mods.ThoriumMod.Items.ValadiumBow.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ValadiumBow]{$Mods.ThoriumMod.Items.ValadiumBow.DisplayName}"
+			Tooltip: ""
 		}
 
 		ValadiumBlaster: {
-			// Label: "[i:ThoriumMod/ValadiumBlaster]{$Mods.ThoriumMod.Items.ValadiumBlaster.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ValadiumBlaster]{$Mods.ThoriumMod.Items.ValadiumBlaster.DisplayName}"
+			Tooltip: ""
 		}
 
 		ValadiumSpear: {
-			// Label: "[i:ThoriumMod/ValadiumSpear]{$Mods.ThoriumMod.Items.ValadiumSpear.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ValadiumSpear]{$Mods.ThoriumMod.Items.ValadiumSpear.DisplayName}"
+			Tooltip: ""
 		}
 
 		ValadiumSlicer: {
-			// Label: "[i:ThoriumMod/ValadiumSlicer]{$Mods.ThoriumMod.Items.ValadiumSlicer.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ValadiumSlicer]{$Mods.ThoriumMod.Items.ValadiumSlicer.DisplayName}"
+			Tooltip: ""
 		}
 
 		PrimesFury: {
-			// Label: "[i:ThoriumMod/PrimesFury]{$Mods.ThoriumMod.Items.PrimesFury.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/PrimesFury]{$Mods.ThoriumMod.Items.PrimesFury.DisplayName}"
+			Tooltip: ""
 		}
 
 		EnergyCatalyst: {
-			// Label: "[i:ThoriumMod/EnergyCatalyst]{$Mods.ThoriumMod.Items.EnergyCatalyst.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/EnergyCatalyst]{$Mods.ThoriumMod.Items.EnergyCatalyst.DisplayName}"
+			Tooltip: ""
 		}
 
 		OrnateArmor: {
-			// Label: "[i:ThoriumMod/OrnateJerkin]Ornate Armor"
-			// Tooltip: Note: The set bonus is what's reworked, not the armor itself
+			Label: "[i:ThoriumMod/OrnateJerkin]Изысканная броня"
+			Tooltip: Примечание: Единственное, что было изменено в броне - её бонус комплекта.
 		}
 
 		SoulRender: {
-			// Label: "[i:ThoriumMod/SoulRender]{$Mods.ThoriumMod.Items.SoulRender.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/SoulRender]{$Mods.ThoriumMod.Items.SoulRender.DisplayName}"
+			Tooltip: ""
 		}
 
 		SoulCleaver: {
-			// Label: "[i:ThoriumMod/SoulCleaver]{$Mods.ThoriumMod.Items.SoulCleaver.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/SoulCleaver]{$Mods.ThoriumMod.Items.SoulCleaver.DisplayName}"
+			Tooltip: ""
 		}
 
 		FleshSkewer: {
-			// Label: "[i:ThoriumMod/FleshSkewer]{$Mods.ThoriumMod.Items.FleshSkewer.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/FleshSkewer]{$Mods.ThoriumMod.Items.FleshSkewer.DisplayName}"
+			Tooltip: ""
 		}
 
 		FleshHorn: {
-			// Label: "[i:ThoriumMod/FleshHorn]{$Mods.ThoriumMod.Items.FleshHorn.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/FleshHorn]{$Mods.ThoriumMod.Items.FleshHorn.DisplayName}"
+			Tooltip: ""
 		}
 
 		ToothOfTheConsumer: {
-			// Label: "[i:ThoriumMod/ToothOfTheConsumer]{$Mods.ThoriumMod.Items.ToothOfTheConsumer.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/ToothOfTheConsumer]{$Mods.ThoriumMod.Items.ToothOfTheConsumer.DisplayName}"
+			Tooltip: ""
 		}
 
 		DragonsGaze: {
-			// Label: "[i:ThoriumMod/DragonsGaze]{$Mods.ThoriumMod.Items.DragonsGaze.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DragonsGaze]{$Mods.ThoriumMod.Items.DragonsGaze.DisplayName}"
+			Tooltip: ""
 		}
 
 		DragonTooth: {
-			// Label: "[i:ThoriumMod/DragonTooth]{$Mods.ThoriumMod.Items.DragonTooth.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DragonTooth]{$Mods.ThoriumMod.Items.DragonTooth.DisplayName}"
+			Tooltip: ""
 		}
 
 		DragonTalon: {
-			// Label: "[i:ThoriumMod/DragonTalon]{$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DragonTalon]{$Mods.ThoriumMod.Items.DragonTalon.DisplayName}"
+			Tooltip: ""
 		}
 
 		DragonsWail: {
-			// Label: "[i:ThoriumMod/DragonsWail]{$Mods.ThoriumMod.Items.DragonsWail.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DragonsWail]{$Mods.ThoriumMod.Items.DragonsWail.DisplayName}"
+			Tooltip: ""
 		}
 
 		TitanArmor: {
-			// Label: "[i:ThoriumMod/TitanBreastplate]Титаническая броня"
-			/* Tooltip:
+			Label: "[i:ThoriumMod/TitanBreastplate]Титаническая броня"
+			Tooltip:
 				'''
 				Примечание: Единственное, что было изменено в броне - её бонус комплекта.
 				Дополнительные титанические шлема отключаются в настройке «{Configs..Label}» Also, the added helmets are toggled via Extra Items, not this.
-				''' */
+				'''
 		}
 
 		TitanBoomerang: {
-			// Label: "[i:ThoriumMod/TitanBoomerang]{$Mods.ThoriumMod.Items.TitanBoomerang.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TitanBoomerang]{$Mods.ThoriumMod.Items.TitanBoomerang.DisplayName}"
+			Tooltip: ""
 		}
 
 		TitanSword: {
-			// Label: "[i:ThoriumMod/TitanSword]{$Mods.ThoriumMod.Items.TitanSword.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TitanSword]{$Mods.ThoriumMod.Items.TitanSword.DisplayName}"
+			Tooltip: ""
 		}
 
 		TitanScythe: {
-			// Label: "[i:ThoriumMod/TitanScythe]{$Mods.ThoriumMod.Items.TitanScythe.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TitanScythe]{$Mods.ThoriumMod.Items.TitanScythe.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteBarrage: {
-			// Label: "[i:ThoriumMod/IllumiteBarrage]]{$Mods.ThoriumMod.Items.IllumiteBarrage.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteBarrage]{$Mods.ThoriumMod.Items.IllumiteBarrage.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteBlaster: {
-			// Label: "[i:ThoriumMod/IllumiteBlaster]]{$Mods.ThoriumMod.Items.IllumiteBlaster.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteBlaster]{$Mods.ThoriumMod.Items.IllumiteBlaster.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteShotbow: {
-			// Label: "[i:ThoriumMod/IllumiteShotbow]]{$Mods.ThoriumMod.Items.IllumiteShotbow.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteShotbow]{$Mods.ThoriumMod.Items.IllumiteShotbow.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteBlade: {
-			// Label: "[i:ThoriumMod/IllumiteBlade]]{$Mods.ThoriumMod.Items.IllumiteBlade.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteBlade]{$Mods.ThoriumMod.Items.IllumiteBlade.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteSpear: {
-			// Label: "[i:ThoriumMod/IllumiteSpear]]{$Mods.ThoriumMod.Items.IllumiteSpear.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteSpear]{$Mods.ThoriumMod.Items.IllumiteSpear.DisplayName}"
+			Tooltip: ""
 		}
 
 		IllumiteScythe: {
-			// Label: "[i:ThoriumMod/IllumiteScythe]]{$Mods.ThoriumMod.Items.IllumiteScythe.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/IllumiteScythe]{$Mods.ThoriumMod.Items.IllumiteScythe.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumHolyScythe: {
-			// Label: "[i:ThoriumMod/TerrariumHolyScythe]]{$Mods.ThoriumMod.Items.TerrariumHolyScythe.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumHolyScythe]{$Mods.ThoriumMod.Items.TerrariumHolyScythe.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumSaber: {
-			// Label: "[i:ThoriumMod/TerrariumSaber]]{$Mods.ThoriumMod.Items.TerrariumSaber.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumSaber]{$Mods.ThoriumMod.Items.TerrariumSaber.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumRippleKnife: {
-			// Label: "[i:ThoriumMod/TerrariumRippleKnife]]{$Mods.ThoriumMod.Items.TerrariumRippleKnife.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumRippleKnife]{$Mods.ThoriumMod.Items.TerrariumRippleKnife.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumBomber: {
-			// Label: "[i:ThoriumMod/TerrariumBomber]]{$Mods.ThoriumMod.Items.TerrariumBomber.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumBomber]{$Mods.ThoriumMod.Items.TerrariumBomber.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumPulseRifle: {
-			// Label: "[i:ThoriumMod/TerrariumPulseRifle]]{$Mods.ThoriumMod.Items.TerrariumPulseRifle.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumPulseRifle]{$Mods.ThoriumMod.Items.TerrariumPulseRifle.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerrariumAutoharp: {
-			// Label: "[i:ThoriumMod/TerrariumAutoharp]]{$Mods.ThoriumMod.Items.TerrariumAutoharp.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerrariumAutoharp]{$Mods.ThoriumMod.Items.TerrariumAutoharp.DisplayName}"
+			Tooltip: ""
 		}
 
 		RealitySlasher: {
-			// Label: "[i:ThoriumMod/RealitySlasher]]{$Mods.ThoriumMod.Items.RealitySlasher.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/RealitySlasher]{$Mods.ThoriumMod.Items.RealitySlasher.DisplayName}"
+			Tooltip: ""
 		}
 
 		Lucidity: {
-			// Label: "[i:ThoriumMod/Lucidity]]{$Mods.ThoriumMod.Items.Lucidity.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Lucidity]{$Mods.ThoriumMod.Items.Lucidity.DisplayName}"
+			Tooltip: ""
 		}
 
 		BlackMIDI: {
-			// Label: "[i:ThoriumMod/BlackMIDI]]{$Mods.ThoriumMod.Items.BlackMIDI.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/BlackMIDI]{$Mods.ThoriumMod.Items.BlackMIDI.DisplayName}"
+			Tooltip: ""
 		}
 
 		TheJavelin: {
-			// Label: "[i:ThoriumMod/TheJavelin]]{$Mods.ThoriumMod.Items.TheJavelin.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TheJavelin]{$Mods.ThoriumMod.Items.TheJavelin.DisplayName}"
+			Tooltip: ""
 		}
 
 		OmniCannon: {
-			// Label: "[i:ThoriumMod/OmniCannon]]{$Mods.ThoriumMod.Items.OmniCannon.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/OmniCannon]{$Mods.ThoriumMod.Items.OmniCannon.DisplayName}"
+			Tooltip: ""
 		}
 
 		OmniBow: {
-			// Label: "[i:ThoriumMod/OmniBow]]{$Mods.ThoriumMod.Items.OmniBow.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/OmniBow]{$Mods.ThoriumMod.Items.OmniBow.DisplayName}"
+			Tooltip: ""
 		}
 
 		WyrmDecimator: {
-			// Label: "[i:ThoriumMod/WyrmDecimator]]{$Mods.ThoriumMod.Items.WyrmDecimator.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/WyrmDecimator]{$Mods.ThoriumMod.Items.WyrmDecimator.DisplayName}"
+			Tooltip: ""
 		}
 
 		SevenSeasDevastator: {
-			// Label: "[i:ThoriumMod/SevenSeasDevastator]]{$Mods.ThoriumMod.Items.SevenSeasDevastator.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/SevenSeasDevastator]{$Mods.ThoriumMod.Items.SevenSeasDevastator.DisplayName}"
+			Tooltip: ""
 		}
 
 		DevilsClaw: {
-			// Label: "[i:ThoriumMod/DevilsClaw]]{$Mods.ThoriumMod.Items.DevilsClaw.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DevilsClaw]{$Mods.ThoriumMod.Items.DevilsClaw.DisplayName}"
+			Tooltip: ""
 		}
 
 		AlmanacofAgony: {
-			// Label: "[i:ThoriumMod/AlmanacofAgony]]{$Mods.ThoriumMod.Items.AlmanacofAgony.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/AlmanacofAgony]{$Mods.ThoriumMod.Items.AlmanacofAgony.DisplayName}"
+			Tooltip: ""
 		}
 
 		TidalWave: {
-			// Label: "[i:ThoriumMod/TidalWave]]{$Mods.ThoriumMod.Items.TidalWave.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TidalWave]{$Mods.ThoriumMod.Items.TidalWave.DisplayName}"
+			Tooltip: ""
 		}
 
 		DeitysTrefork: {
-			// Label: "[i:ThoriumMod/DeitysTrefork]]{$Mods.ThoriumMod.Items.DeitysTrefork.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DeitysTrefork]{$Mods.ThoriumMod.Items.DeitysTrefork.DisplayName}"
+			Tooltip: ""
 		}
 
 		EdgeofImagination: {
-			// Label: "[i:ThoriumMod/EdgeofImagination]]{$Mods.ThoriumMod.Items.EdgeofImagination.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/EdgeofImagination]{$Mods.ThoriumMod.Items.EdgeofImagination.DisplayName}"
+			Tooltip: ""
 		}
 
 		Holophonor: {
-			// Label: "[i:ThoriumMod/Holophonor]]{$Mods.ThoriumMod.Items.Holophonor.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Holophonor]{$Mods.ThoriumMod.Items.Holophonor.DisplayName}"
+			Tooltip: ""
 		}
 
 		Sousaphone: {
-			// Label: "[i:ThoriumMod/Sousaphone]]{$Mods.ThoriumMod.Items.Sousaphone.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Sousaphone]{$Mods.ThoriumMod.Items.Sousaphone.DisplayName}"
+			Tooltip: ""
 		}
 
 		TheSet: {
-			// Label: "[i:ThoriumMod/TheSet]]{$Mods.ThoriumMod.Items.TheSet.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TheSet]{$Mods.ThoriumMod.Items.TheSet.DisplayName}"
+			Tooltip: ""
 		}
 
 		Mjolnir: {
-			// Label: "[i:ThoriumMod/Mjolnir]]{$Mods.ThoriumMod.Items.Mjolnir.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Mjolnir]{$Mods.ThoriumMod.Items.Mjolnir.DisplayName}"
+			Tooltip: ""
 		}
 
 		DreadBlaster: {
-			// Label: "[i:ThoriumMod/DreadBlaster]]{$Mods.ThoriumMod.Items.DreadBlaster.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DreadBlaster]{$Mods.ThoriumMod.Items.DreadBlaster.DisplayName}"
+			Tooltip: ""
 		}
 
 		DemonBloodStaff: {
-			// Label: "[i:ThoriumMod/DemonBloodStaff]]{$Mods.ThoriumMod.Items.DemonBloodStaff.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DemonBloodStaff]{$Mods.ThoriumMod.Items.DemonBloodStaff.DisplayName}"
+			Tooltip: ""
 		}
 
 		DreadRazor: {
-			// Label: "[i:ThoriumMod/DreadRazor]]{$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DreadRazor]{$Mods.ThoriumMod.Items.DreadRazor.DisplayName}"
+			Tooltip: ""
 		}
 
 		DemonBloodSword: {
-			// Label: "[i:ThoriumMod/DemonBloodSword]]{$Mods.ThoriumMod.Items.DemonBloodSword.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DemonBloodSword]{$Mods.ThoriumMod.Items.DemonBloodSword.DisplayName}"
+			Tooltip: ""
 		}
 
 		DreadTearer: {
-			// Label: "[i:ThoriumMod/DreadTearer]]{$Mods.ThoriumMod.Items.DreadTearer.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DreadTearer]{$Mods.ThoriumMod.Items.DreadTearer.DisplayName}"
+			Tooltip: ""
 		}
 
 		DemonBloodRipper: {
-			// Label: "[i:ThoriumMod/DemonBloodRipper]]{$Mods.ThoriumMod.Items.DemonBloodRipper.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DemonBloodRipper]{$Mods.ThoriumMod.Items.DemonBloodRipper.DisplayName}"
+			Tooltip: ""
 		}
 
 		DreadFork: {
-			// Label: "[i:ThoriumMod/DreadFork]]{$Mods.ThoriumMod.Items.DreadFork.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DreadFork]{$Mods.ThoriumMod.Items.DreadFork.DisplayName}"
+			Tooltip: ""
 		}
 
 		DemonBloodSpear: {
-			// Label: "[i:ThoriumMod/DemonBloodSpear]]{$Mods.ThoriumMod.Items.DemonBloodSpear.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/DemonBloodSpear]{$Mods.ThoriumMod.Items.DemonBloodSpear.DisplayName}"
+			Tooltip: ""
 		}
 
 		HallowedScythe: {
-			// Label: "[i:ThoriumMod/HallowedScythe]]{$Mods.ThoriumMod.Items.HallowedScythe.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/HallowedScythe]{$Mods.ThoriumMod.Items.HallowedScythe.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerraScythe: {
-			// Label: "[i:ThoriumMod/TerraScythe]]{$Mods.ThoriumMod.Items.TerraScythe.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerraScythe]{$Mods.ThoriumMod.Items.TerraScythe.DisplayName}"
+			Tooltip: ""
 		}
 
 		TerraKnife: {
-			// Label: "[i:ThoriumMod/TerraKnife]]{$Mods.ThoriumMod.Items.TerraKnife.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/TerraKnife]{$Mods.ThoriumMod.Items.TerraKnife.DisplayName}"
+			Tooltip: ""
 		}
 
 		OnemanQuartet: {
-			// Label: "[i:ThoriumMod/OnemanQuartet]]{$Mods.ThoriumMod.Items.OnemanQuartet.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/OnemanQuartet]{$Mods.ThoriumMod.Items.OnemanQuartet.DisplayName}"
+			Tooltip: ""
 		}
 
 		Rapier: {
-			// Label: "[i:ThoriumMod/Rapier]]{$Mods.ThoriumMod.Items.Rapier.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/Rapier]{$Mods.ThoriumMod.Items.Rapier.DisplayName}"
+			Tooltip: ""
 		}
 
 		PearlPike: {
-			// Label: "[i:ThoriumMod/PearlPike]]{$Mods.ThoriumMod.Items.PearlPike.DisplayName}"
-			// Tooltip: ""
+			Label: "[i:ThoriumMod/PearlPike]{$Mods.ThoriumMod.Items.PearlPike.DisplayName}"
+			Tooltip: ""
 		}
 
 		IncandescentAlacrity: {
-			// Label: "[i:ThoriumMod/IncandescentAlacrity]]{$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
-			// Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
+			Label: "[i:ThoriumMod/IncandescentAlacrity]{$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
+			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
+		}
+
+		WrithingSheath: {
+			Label: "[i:ThoriumMod/WrithingSheath]{$Mods.ThoriumMod.Items.WrithingSheath.DisplayName}"
+			Tooltip: ""
 		}
 	}
 }
 
 Achievements: {
 	CoreCollapse: {
-		// FriendlyName: Подрыв ядра
-		// Description: Уничтожить все ядра Звёздного разведчика, потратив на это не более 6 секунд. // Defeat all three of Star Scouter's cores in under six seconds
+		FriendlyName: Подрыв ядра
+		Description: Уничтожить все ядра Звёздного разведчика, потратив на это не более 6 секунд. Defeat all three of Star Scouter's cores in under six seconds
 	}
 
 	MyBatsAreKindaChamberless: {
-		// FriendlyName: Бескровные кровосиси
-		// Description: Одержать победу над Виконтом, не позволив ни одной его летучей мыши высосать из вас кровь. // Defeat Viscount without letting a single Bitey Baby siphon life from you
+		FriendlyName: Бескровные кровосиси
+		Description: Одержать победу над Виконтом, не позволив ни одной его летучей мыши высосать из вас кровь. Defeat Viscount without letting a single Bitey Baby siphon life from you
 	}
 }
 
 Projectiles: {
-	// AbyssalApparition.DisplayName: Abyssal Apparition
-	// AbyssBubble.DisplayName: Toxic Bubble
-	// AbyssBubble2.DisplayName: Toxic Bubble
-	// AquaiusBubble.DisplayName: Bubble
-	// AquaiusPunchAttack.DisplayName: Hands of Tide
-	// AquaiusWhirlpool.DisplayName: Relentless Whirlpool
-	// BannerofWar.DisplayName: Banner of War
-	// BandofCratons.DisplayName: Band of Cratons
-	// BeamSaber.DisplayName: Beam Saber
-	// BeholderBlade.DisplayName: Will of Coznix
-	// BeholdersDomain.DisplayName: Eye of the Beholder
-	// BiterofSouls.DisplayName: Biter of Souls
-	// BiteyBaby.DisplayName: Bitey Baby
-	// BlackHole.DisplayName: Black Hole
-	// BubbleBomb.DisplayName: Big Bubble Bomb
-	// BubbleColumn.DisplayName: Bubble Column
-	// ChampionBomber.DisplayName: Magical Burst
-	// ChampionBomberF.DisplayName: Magical Burst
-	// ChampionShield.DisplayName: Champion's Rebuttal
-	// ChampionSlash.DisplayName: Champion's Swift Blade
-	// ChampionSlice.DisplayName: Buried Shock
-	// ChampionSliceF.DisplayName: Buried Shock
-	// ChampionsRebuttal.DisplayName: Champion's Rebuttal
-	// ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
-	// ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	// ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
-	// ChampionWarHorn.DisplayName: Champion's Warhorn
-	// ChironsCure.DisplayName: Chiron's Cure
-	// ConcussiveInstrument.DisplayName: Concussive Instrument
-	// DancingJellyfish.DisplayName: Dancing Jellyfish
-	// Darkness.DisplayName: Darkness
-	// DeathRain.DisplayName: Death Rain
-	// DemonBloodSword.DisplayName: Demon Blood Sword
-	// DragonTooth.DisplayName: Dragon Tooth
-	// DragonToothDragon.DisplayName: Dragon Tooth
-	// DreadRazor.DisplayName: Dread Razor
-	// DreadPulse.DisplayName: Dread Pulse
-	// DukeFish.DisplayName: Duke Fish
-	// DukeFishBubble.DisplayName: Duke Fish Bubble
-	// DyingReality.DisplayName: Dying Reality
-	// EaterPiper.DisplayName: Eater Piper
-	// EightNote.DisplayName: "{$ProjectileName.EightNote}"
-	// EnergizedGranite.DisplayName: Energized Granite
-	// EnergyBurst.DisplayName: Granite Energy Burst
-	// EnergySpike.DisplayName: Granite Energy Spike
-	// EnergySurge.DisplayName: Granite Energy Surge
-	// EnergySurgeTelegraph.DisplayName: Granite Energy Surge
-	// EradicationBeam.DisplayName: Eradication Beam
-	// EradicationBeamF.DisplayName: Eradication Beam
-	// EradicationRay.DisplayName: Eradication Ray
-	// EraserLaser.DisplayName: Eraser Laser
-	// ExtinctionRay.DisplayName: Extinction Ray
-	// FalseBeholder.DisplayName: False Beholder
-	// FalseSun.DisplayName: False Sun
-	// FlareSlash.DisplayName: Flare Slash
-	// Flash.DisplayName: Flash
-	// FluteofCurses.DisplayName: Flute of Curses
-	// FlyingFlute.DisplayName: Flying Flute
-	// FlyingFlute2.DisplayName: Flying Flute
-	// GildedFlyingFlute.DisplayName: Gilded Flying Flute
-	// Glacier.DisplayName: Glacier
-	// Glacier2.DisplayName: Glacier
-	// GrandThunder.DisplayName: Grand Thunder
-	// GrandThunderBirdEffects.DisplayName: Grand Thunder
-	// GrandThunderF.DisplayName: Grand Thunder
-	// GrandThunderTelegraph.DisplayName: Grand Thunder
-	// GraniteCharge.DisplayName: Granite Charge
-	// GraniteEnergyStormEffects.DisplayName: Granite Energy
-	// GravitonOrb.DisplayName: Graviton Orb
-	// HandheldRocket.DisplayName: Handheld Rocket
-	// HeadHunter.DisplayName: Head Hunter
-	// HeadHunterShard.DisplayName: Head Hunter
-	// HealingOrbRainbow.DisplayName: Healing Orb
-	// HealingOrbTeal.DisplayName: Healing Orb
-	// HealingOrbYellow.DisplayName: Healing Orb
-	// HighTide.DisplayName: High Tide
-	// HighTideWave.DisplayName: High Tide
-	// HitScan.DisplayName: Hit-Scan
-	// IceAnomaly.DisplayName: Ice Anomaly
-	// IceShard.DisplayName: Ice Shard
-	// IllumiteBlade.DisplayName: Illumite Blade
-	// IllumitePortal.DisplayName: Illumite Portal
-	// ImpendingDread.DisplayName: Impending Dread
-	// ImpendingDreadF.DisplayName: Impending Dread
-	// InfernalRay.DisplayName: Infernal Ray
-	// InfernalRayTelegraph.DisplayName: Infernal Ray
-	// JammingJellyfish.DisplayName: Jamming Jellyfish
-	// JellyfishJam.DisplayName: Jamming Jellyfish
-	// JellyfishShock.DisplayName: Jellyfish Shock
-	// KingTrumpet.DisplayName: King Trumpet
-	// Kusarigama.DisplayName: Kusarigama
-	// KusarigamaOrb.DisplayName: Orb of the Wind
-	// LichLantern.DisplayName: Volatile Lantern
-	// LichWhip.DisplayName: Instrument of Torment
-	// LodeStoneClaymore.DisplayName: Lodestone Claymore
-	// LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
-	// Loudener.DisplayName: Loudener
-	// LucidNuke.DisplayName: Lucid Energy
-	// LucidRay.DisplayName: Lucid Energy
-	// LucidRayTelegraph.DisplayName: Lucid Energy
-	// MightyMyte.DisplayName: Mighty Myte
-	// Mjolnir.DisplayName: Legendary Lightning
-	// NightmareClaw.DisplayName: Nightmare Claw
-	// NightmareSlash.DisplayName: Nightmare Claw
-	// Obliterator.DisplayName: Obliterator
-	// ObliteratorRay.DisplayName: Obliterator
-	// OmegaRay.DisplayName: Omega Ray
-	// OmniBoom.DisplayName: Nuclear Explosion
-	// OmniBurst.DisplayName: Nuclear Explosion
-	// OmniSlash.DisplayName: Death Slash
-	// OmnicidePunchAttack.DisplayName: Fist of Havoc
-	// Oneirophobia.DisplayName: Oneirophobia
-	// OneirophobiaBlade.DisplayName: Lucid Edge
-	// OneirophobiaBolt.DisplayName: Lucid Missile
-	// OneirophobiaLaser.DisplayName: Lucid Ray
-	// OneirophobiaMinion.DisplayName: Lucid Instrument
-	// OneirophobiaNuke.DisplayName: Lucid Blast
-	// OneirophobiaSlice.DisplayName: Lucid Slash
-	// Paylode.DisplayName: Magnetic Payload
-	// PrimesFury.DisplayName: Prime's Fury
-	// QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
-	// QueenJellyPin.DisplayName: Queen Jelly-Pin
-	// SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
-	// ShellxophoneHealing.DisplayName: Tidal Restoration
-	// ShellxophoneBubble.DisplayName: Toxic Bubble
-	// ShellxophoneStrike.DisplayName: Abyssal Strike
-	// ShoulderBlade.DisplayName: Shoulder Blade
-	// ShoulderBlade2.DisplayName: Shoulder Blade
-	// SoulBleed.DisplayName: Soul Bleed
-	// SoulRender.DisplayName: Soul Render
-	// SoulSnatcher.DisplayName: Soul Snatcher
-	// SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
-	// SpittingShroom.DisplayName: Spitting Shroom
-	// SpittingShroomSpore.DisplayName: Spitting Shroom Spore
-	// SpittingShroomSporeBurst.DisplayName: Spitting Shroom Spore Burst
-	// StableRealityRift.DisplayName: Stable Reality Rift
-	// StarCore.DisplayName: Star Core
-	// StarScouterEffects.DisplayName: Star Scouter
-	// StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
-	// Stuff.DisplayName: Stuff
-	// TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
-	// TerrariumSaber.DisplayName: Terrarium Saber
-	// TerrariumSoulScourge.DisplayName: Terrarium Soul Scourge
-	// TerrariumSoulScourge2.DisplayName: Terrarium Soul Scourge
-	// ThoriumBludgeon.DisplayName: Thorium Bludgeon
-	// ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
-	// ThoriumRevolver.DisplayName: Thunder Zap
-	// ThoriumSpear.DisplayName: Thunder Zap
-	// ThoriumWhistle.DisplayName: Thunder Zap
-	// TideDagger.DisplayName: Aqua Rainstorm
-	// TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
-	// TitanSword.DisplayName: Titan Sword
-	// TitanWhirlpool.DisplayName: Titan Whirlpool
-	// ToothOfTheConsumer.DisplayName: Tooth of The Consumer
-	// ValadiumHeavyScythe.DisplayName: Valadium Heavy Scythe
-	// ValadiumHeavyScytheWave.DisplayName: Valadium Heavy Scythe
-	// ValadiumRay.DisplayName: Void Ray
-	// ValadiumSlash.DisplayName: Void Slash
-	// ValadiumSlicer.DisplayName: Valadium Slicer
-	// VampireCape.DisplayName: Vampire Bat
-	// Vaporize.DisplayName: Vaporizer
-	// VaporizingBeam.DisplayName: Vaporizing Beam
-	// VaporizingFlames.DisplayName: Vaporizing Flames
-	// VaporizingFreeze.DisplayName: Vaporizing Freeze
-	// VaporizingPoison.DisplayName: Vaporizing Poison
-	// VisualCrack.DisplayName: Crack
-	// VisualShockwave.DisplayName: Shockwave
-	// Void.DisplayName: the void
-	// VoidEye.DisplayName: Eye of Coznix
-	// VoidEyeF.DisplayName: Will of Coznix
-	// ZephyrFeather.DisplayName: Zephyr's Feather
-	// ZephyrsRuin.DisplayName: Zephyr's Ruin
-	// FallingSand.DisplayName: Falling Sand
+	AbyssalApparition.DisplayName: Abyssal Apparition
+	AbyssBubble.DisplayName: Toxic Bubble
+	AbyssBubble2.DisplayName: Toxic Bubble
+	AquaiusBubble.DisplayName: Bubble
+	AquaiusPunchAttack.DisplayName: Hands of Tide
+	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
+	BannerofWar.DisplayName: Banner of War
+	BandofCratons.DisplayName: Band of Cratons
+	BeamSaber.DisplayName: Beam Saber
+	BeholderBlade.DisplayName: Will of Coznix
+	BeholdersDomain.DisplayName: Eye of the Beholder
+	BiterofSouls.DisplayName: Biter of Souls
+	BiteyBaby.DisplayName: Bitey Baby
+	BlackHole.DisplayName: Black Hole
+	BubbleBomb.DisplayName: Big Bubble Bomb
+	BubbleColumn.DisplayName: Bubble Column
+	ChampionBomber.DisplayName: Magical Burst
+	ChampionBomberF.DisplayName: Magical Burst
+	ChampionShield.DisplayName: Champion's Rebuttal
+	ChampionSlash.DisplayName: Champion's Swift Blade
+	ChampionSlice.DisplayName: Buried Shock
+	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsRebuttal.DisplayName: Champion's Rebuttal
+	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
+	ChampionWarHorn.DisplayName: Champion's Warhorn
+	ChironsCure.DisplayName: Chiron's Cure
+	ConcussiveInstrument.DisplayName: Concussive Instrument
+	DancingJellyfish.DisplayName: Dancing Jellyfish
+	Darkness.DisplayName: Darkness
+	DeathRain.DisplayName: Death Rain
+	DemonBloodSword.DisplayName: Demon Blood Sword
+	DragonTooth.DisplayName: Dragon Tooth
+	DragonToothDragon.DisplayName: Dragon Tooth
+	DreadRazor.DisplayName: Dread Razor
+	DreadPulse.DisplayName: Dread Pulse
+	DukeFish.DisplayName: Duke Fish
+	DukeFishBubble.DisplayName: Duke Fish Bubble
+	DyingReality.DisplayName: Dying Reality
+	EaterPiper.DisplayName: Eater Piper
+	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergizedGranite.DisplayName: Energized Granite
+	EnergyBurst.DisplayName: Granite Energy Burst
+	EnergySpike.DisplayName: Granite Energy Spike
+	EnergySurge.DisplayName: Granite Energy Surge
+	EnergySurgeTelegraph.DisplayName: Granite Energy Surge
+	EradicationBeam.DisplayName: Eradication Beam
+	EradicationBeamF.DisplayName: Eradication Beam
+	EradicationRay.DisplayName: Eradication Ray
+	EraserLaser.DisplayName: Eraser Laser
+	ExtinctionRay.DisplayName: Extinction Ray
+	FalseBeholder.DisplayName: False Beholder
+	FalseSun.DisplayName: False Sun
+	FlareSlash.DisplayName: Flare Slash
+	Flash.DisplayName: Flash
+	FluteofCurses.DisplayName: Flute of Curses
+	FlyingFlute.DisplayName: Flying Flute
+	FlyingFlute2.DisplayName: Flying Flute
+	GildedFlyingFlute.DisplayName: Gilded Flying Flute
+	Glacier.DisplayName: Glacier
+	Glacier2.DisplayName: Glacier
+	GrandThunder.DisplayName: Grand Thunder
+	GrandThunderBirdEffects.DisplayName: Grand Thunder
+	GrandThunderF.DisplayName: Grand Thunder
+	GrandThunderTelegraph.DisplayName: Grand Thunder
+	GraniteCharge.DisplayName: Granite Charge
+	GraniteEnergyStormEffects.DisplayName: Granite Energy
+	GravitonOrb.DisplayName: Graviton Orb
+	HandheldRocket.DisplayName: Handheld Rocket
+	HeadHunter.DisplayName: Head Hunter
+	HeadHunterShard.DisplayName: Head Hunter
+	HealingOrbRainbow.DisplayName: Healing Orb
+	HealingOrbTeal.DisplayName: Healing Orb
+	HealingOrbYellow.DisplayName: Healing Orb
+	HighTide.DisplayName: High Tide
+	HighTideWave.DisplayName: High Tide
+	HitScan.DisplayName: Hit-Scan
+	IceAnomaly.DisplayName: Ice Anomaly
+	IceShard.DisplayName: Ice Shard
+	IllumiteBlade.DisplayName: Illumite Blade
+	IllumitePortal.DisplayName: Illumite Portal
+	ImpendingDread.DisplayName: Impending Dread
+	ImpendingDreadF.DisplayName: Impending Dread
+	InfernalRay.DisplayName: Infernal Ray
+	InfernalRayTelegraph.DisplayName: Infernal Ray
+	JammingJellyfish.DisplayName: Jamming Jellyfish
+	JellyfishJam.DisplayName: Jamming Jellyfish
+	JellyfishShock.DisplayName: Jellyfish Shock
+	KingTrumpet.DisplayName: King Trumpet
+	Kusarigama.DisplayName: Kusarigama
+	KusarigamaOrb.DisplayName: Orb of the Wind
+	LichLantern.DisplayName: Volatile Lantern
+	LichWhip.DisplayName: Instrument of Torment
+	LodeStoneClaymore.DisplayName: Lodestone Claymore
+	LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
+	Loudener.DisplayName: Loudener
+	LucidNuke.DisplayName: Lucid Energy
+	LucidRay.DisplayName: Lucid Energy
+	LucidRayTelegraph.DisplayName: Lucid Energy
+	MightyMyte.DisplayName: Mighty Myte
+	Mjolnir.DisplayName: Legendary Lightning
+	NightmareClaw.DisplayName: Nightmare Claw
+	NightmareSlash.DisplayName: Nightmare Claw
+	Obliterator.DisplayName: Obliterator
+	ObliteratorRay.DisplayName: Obliterator
+	OmegaRay.DisplayName: Omega Ray
+	OmniBoom.DisplayName: Nuclear Explosion
+	OmniBurst.DisplayName: Nuclear Explosion
+	OmniSlash.DisplayName: Death Slash
+	OmnicidePunchAttack.DisplayName: Fist of Havoc
+	Oneirophobia.DisplayName: Oneirophobia
+	OneirophobiaBlade.DisplayName: Lucid Edge
+	OneirophobiaBolt.DisplayName: Lucid Missile
+	OneirophobiaLaser.DisplayName: Lucid Ray
+	OneirophobiaMinion.DisplayName: Lucid Instrument
+	OneirophobiaNuke.DisplayName: Lucid Blast
+	OneirophobiaSlice.DisplayName: Lucid Slash
+	Paylode.DisplayName: Magnetic Payload
+	PrimesFury.DisplayName: Prime's Fury
+	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	QueenJellyPin.DisplayName: Queen Jelly-Pin
+	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	ShellxophoneHealing.DisplayName: Tidal Restoration
+	ShellxophoneBubble.DisplayName: Toxic Bubble
+	ShellxophoneStrike.DisplayName: Abyssal Strike
+	ShoulderBlade.DisplayName: Shoulder Blade
+	ShoulderBlade2.DisplayName: Shoulder Blade
+	SoulBleed.DisplayName: Soul Bleed
+	SoulRender.DisplayName: Soul Render
+	SoulSnatcher.DisplayName: Soul Snatcher
+	SoulSteal.DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	SpittingShroom.DisplayName: Spitting Shroom
+	SpittingShroomSpore.DisplayName: Spitting Shroom Spore
+	SpittingShroomSporeBurst.DisplayName: Spitting Shroom Spore Burst
+	StableRealityRift.DisplayName: Stable Reality Rift
+	StarCore.DisplayName: Star Core
+	StarScouterEffects.DisplayName: Star Scouter
+	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	Stuff.DisplayName: Stuff
+	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
+	TerrariumSaber.DisplayName: Terrarium Saber
+	TerrariumSoulScourge.DisplayName: Terrarium Soul Scourge
+	TerrariumSoulScourge2.DisplayName: Terrarium Soul Scourge
+	ThoriumBludgeon.DisplayName: Thorium Bludgeon
+	ThoriumHeavyScythe.DisplayName: Thorium Heavy Scythe
+	ThoriumRevolver.DisplayName: Thunder Zap
+	ThoriumSpear.DisplayName: Thunder Zap
+	ThoriumWhistle.DisplayName: Thunder Zap
+	TideDagger.DisplayName: Aqua Rainstorm
+	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	TitanSword.DisplayName: Titan Sword
+	TitanWhirlpool.DisplayName: Titan Whirlpool
+	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	ValadiumHeavyScythe.DisplayName: Valadium Heavy Scythe
+	ValadiumHeavyScytheWave.DisplayName: Valadium Heavy Scythe
+	ValadiumRay.DisplayName: Void Ray
+	ValadiumSlash.DisplayName: Void Slash
+	ValadiumSlicer.DisplayName: Valadium Slicer
+	VampireCape.DisplayName: Vampire Bat
+	Vaporize.DisplayName: Vaporizer
+	VaporizingBeam.DisplayName: Vaporizing Beam
+	VaporizingFlames.DisplayName: Vaporizing Flames
+	VaporizingFreeze.DisplayName: Vaporizing Freeze
+	VaporizingPoison.DisplayName: Vaporizing Poison
+	VisualCrack.DisplayName: Crack
+	VisualShockwave.DisplayName: Shockwave
+	Void.DisplayName: the void
+	VoidEye.DisplayName: Eye of Coznix
+	VoidEyeF.DisplayName: Will of Coznix
+	ZephyrFeather.DisplayName: Zephyr's Feather
+	ZephyrsRuin.DisplayName: Zephyr's Ruin
+	FallingSand.DisplayName: Falling Sand
 }
