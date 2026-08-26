@@ -74,7 +74,7 @@ ItemDescriptions: {
 		Нанесение критических ударов заряжает шкалу, которая при достижении полного заряда заставляет последующие создавать отложенные электрические вспышки
 		Использование предметов, созданных из ториевых слитков, заряжает шкалу при любом ударе, а не только критическом
 		'''
-	ThoriumRevolver: Конвертирует сигнальные ракеты в средней дальности громовые разряды
+	ThoriumRevolver: Конвертирует сигнальные ракеты в громовые разряды средней дальности
 	ThoriumSpear: При атаке выпускает слабую молнию в направлении курсора
 	ChampionBomberStaff:
 		'''
@@ -94,7 +94,7 @@ ItemDescriptions: {
 		'''
 	GraniteCrossbow:
 		'''
-		Каждые 3 выстрела выпускает каскад из 3 гранитных стрел, перегружающих поражённых врагов энергией
+		Каждые 3 выстрел выпускает каскад из 3 гранитных стрел, перегружающих поражённых врагов энергией
 		Перегруженные враги получают на 5% больше урона
 		'''
 	IllumiteBarrage:
@@ -323,7 +323,7 @@ NPCRenames: {
 	FallenBeholder2: Козникс, Превознёсшийся
 	Lich: Лич, Ученик Осквернителя
 	LichHeadless: Лич, Апостол смерти
-	ForgottenOne: Оболочка Забытого
+	ForgottenOne: Панцирь Забытого
 	ForgottenOneCracked: Абиссион, Забытый
 	ForgottenOneReleased: Абиссион, Забытый бог приливов
 	DreamEater: Угасающая реальность, Рагнарёк
@@ -434,14 +434,14 @@ InfernumIntros: {
 
 Items: {
 	BandofCratons: {
-		DisplayName: "{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.DisplayName}"
+		DisplayName: "{$Items.BandofCratonsCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			Даёт невосприимчивость к перегрузке, а ваши атаки накладывают её Grants immunity to Overflowed and makes your attacks inflict it
-			Даёт 40 ед. пассивного щита
-			Restores player resources based on the amount of shield lost
-			Losing more than 20 shield creates an electric shock that destroys 3 nearby projectiles
-			{$Mods.ThoriumRework.Items.BandofCratonsCosmetic.Tooltip}
+			Даёт невосприимчивость к гранитной перегрузке, а ваши атаки будут накладывать её
+			Даёт 40 ед. жизненного щита
+			Восстанавливает ресурсы игрока в зависимости от количества потерянного щита Restores player resources based on the amount of shield lost
+			При потере более 20 ед. щита выпускает электрошок, уничтожающий 3 ближайших снаряда
+			{$Items.BandofCratonsCosmetic.Tooltip}
 			'''
 	}
 
@@ -451,14 +451,14 @@ Items: {
 	}
 
 	BannerofWar: {
-		DisplayName: "{$Mods.ThoriumRework.Items.BannerofWarCosmetic.DisplayName}"
+		DisplayName: "{$Items.BannerofWarCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			Damage and bonus healing slowly increases over time while in combat
-			These bonuses gradually fade when out of combat
-			While in combat, periodically emit a healing pulse that heals allies equal to bonus healing
-			The frequency of the pulses increases the longer you are in combat
-			Bard empowerment range affects the range of the healing pulse
+			В бою урон и бонусное исцеление постепенно увеличиваются
+			Пока вы не находитесь в бою эти бонусы стремительно угасают
+			В бою периодически высвобождает исцеляющие импульсы, восстанавливающие здоровье на величину, равную вашему бонусному исцелению
+			Пока вы находитесь в бою частота импульсов постепенно увеличивается с течением времени
+			Радиус действия симфонических усилений также влияет и на радиус исцеляющих импульсов
 			'''
 	}
 
@@ -483,17 +483,17 @@ Items: {
 		Tooltip:
 			'''
 			Увеличивает максимальный запас здоровья на 10 ед. и бонусное исцеление на 1 ед.
-			Каждые 30 ед. исцелённого здоровья выпускает мощный, наносящий урон заряд лучезарной энергии
+			Каждые 30 ед. исцелённого здоровья высвобождает мощный, наносящий урон заряд лучезарной энергии
 			В дополнение вы восстанавливаете здоровье на величину, равную вашему бонусному исцелению
 			'''
 	}
 
 	BeholderTentacles: {
-		DisplayName: "{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.DisplayName}"
+		DisplayName: "{$Items.BeholderTentaclesCosmetic.DisplayName}"
 		Tooltip:
 			'''
 			Атаки накладывают дебафф «{$Mods.ThoriumMod.Buffs.Singed.DisplayName}», увеличивающий получаемый врагами урон на 20%
-			{$Mods.ThoriumRework.Items.BeholderTentaclesCosmetic.Tooltip}
+			{$Items.BeholderTentaclesCosmetic.Tooltip}
 			'''
 	}
 
@@ -519,8 +519,8 @@ Items: {
 		DisplayName: Ножны дуэлянта
 		Tooltip:
 			'''
-			{$Mods.ThoriumMod.Common.Sheath}
-			При получении урона или нанесении критического удара увеличивает скорость атаки и шанс критического улара ближнего боя на {1} {1^:секунду;секунды;секунд}
+			{$Mods.ThoriumMod.Common.Tooltips.Sheath}
+			При получении урона или нанесении критического удара увеличивает скорость атаки и шанс критического улара ближнего боя на {1} {^1:секунду;секунды;секунд}
 			'''
 	}
 
@@ -566,20 +566,20 @@ Items: {
 	}
 
 	DeepDarkShellShield: {
-		DisplayName: "{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.DisplayName}"
+		DisplayName: "{$Items.DeepDarkShellShieldCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			{$Mods.ThoriumRework.Items.DeepDarkShellShieldCosmetic.Tooltip}
-			Doubles the health boost from shield
-			В дополнение, щит также увеличивает защиту и сопротивление урону
+			{$Items.DeepDarkShellShieldCosmetic.Tooltip}
+			Удваивает получаемый от щита бонус к здоровью
+			В дополнение, щит также будет увеличивать защиту и сопротивление урону
 			'''
 	}
 
 	DeepDarkShellShieldCosmetic: {
-		DisplayName: Щит тёмного панциря глубин
+		DisplayName: Щит из панциря тёмных глубин
 		Tooltip:
 			'''
-			Даёт 20 ед. пассивного щита
+			Даёт 20 ед. жизненного щита
 			Даёт невосприимчивость к отбрасыванию
 			'''
 	}
@@ -677,7 +677,7 @@ Items: {
 		DisplayName: Душа Хельхейма
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«Кровотечение», [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}», [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
 			Даёт эффекты от предметов [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}» и [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}»
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
@@ -762,7 +762,7 @@ Items: {
 			Wind and brass instrument attacks explode on hit
 			Explosion size varies based on the instrument played
 			Explosions deal 50% less critical strike damage
-			'У тебя есть заглушитель, а у меня угромчитель!'
+			'У тебя заглушитель, а у меня угромчитель!'
 			'''
 	}
 
@@ -792,12 +792,12 @@ Items: {
 		DisplayName: Онеирофобия
 		Tooltip:
 			'''
-			Создаёт осознанную проекцию, функционирующую как случайный вид оружия
+			Создаёт осознанную проекцию, функционирующую как определённый вид оружия
 			На первые 2 атаки оружие будет работать как меч
 			При первом взмахе меч будет выпускать яростную ударную волну, а при втором взмахе 3 таких волны
 			На 3 атаку меч швыряется в направлении курсора
 			На 4 атаку оружие превращается в косу и раскручивается, выпуская самонаводящиеся заряды
-			На 5 атаку оружие превращается в магический посох и выстреливает сферой нестабильной энергии, взрывающейся по истечении определённого количества времени
+			На 5 атаку оружие превращается в магический посох и выстреливает сферой нестабильной энергии, взрывающейся по истечение определённого количества времени
 			На 6 атаку оружие превращается в лазерный пистолет с автонаводкой
 			Превращается в сражающегося за вас миньона, пока не используется как основное оружие
 			'Олицетворение иррационального страха снов и кошмаров'
@@ -888,7 +888,7 @@ Items: {
 		DisplayName: Сьерра-Химера
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]Bubbled, [i:ThoriumRework/VampireCape]Bleeding and [i:ThoriumRework/VampireCape]Vampire's Curse
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}», [i:ThoriumRework/VampireCape]«{BuffName.Bleeding}» и [i:ThoriumRework/VampireCape]«{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
 			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit
 			[i:ThoriumRework/QueenJellyPin] Tentacle damage increases based on defense
 			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
@@ -903,8 +903,8 @@ Items: {
 			'''
 			Работает как булава, но считается косой
 			При попадании по врагу лезвием даёт эссенции души
-			Hitting enemies with the hilt generates lingering healing energy
-			Up to 5 healing energy can exist at once
+			При попадании по врагу выпускает парящие на месте заряды исцеляющей энергии
+			Одновременно может существовать только 5 таких зарядов
 			'Твой дух принадлежит ловцу!'
 			'''
 	}
@@ -1016,7 +1016,7 @@ Items: {
 		DisplayName: Ториевая дубинка
 		Tooltip:
 			'''
-			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии Swings a radioactive mace that releases lingering healing energy on its first hit
+			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии, если первый удар по врагу был нанесён именно этим оружием
 			Одновременно может существовать только 2 таких заряда
 			'''
 	}
