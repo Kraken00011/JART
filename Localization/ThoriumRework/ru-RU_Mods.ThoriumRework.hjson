@@ -71,11 +71,12 @@ ItemDescriptions: {
 	SoloistHat: Увеличивает максимальный запас вдохновения на 8 очков
 	ThoriumArmor:
 		'''
-		Нанесение критических ударов заряжает шкалу, которая при достижении полного заряда заставляет последующие создавать отложенные электрические вспышки
-		Использование предметов, созданных из ториевых слитков, заряжает шкалу при любом ударе, а не только критическом
+		Нанесение критических ударов заряжает шкалу
+		Атаки после полного заполнения шкалы создают отложенные электрические вспышки, наносящие урон
+		Использование предметов, созданных из ториевых слитков, будет заряжать шкалу и при обычных атаках
 		'''
 	ThoriumRevolver: Конвертирует сигнальные ракеты в громовые разряды средней дальности
-	ThoriumSpear: При атаке выпускает слабую молнию в направлении курсора
+	ThoriumSpear: При атаке стреляет слабой молнией в направлении курсора
 	ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that pierces through mobs before exploding
@@ -226,34 +227,34 @@ ItemDescriptions: {
 		'''
 	DreadTearer:
 		'''
-		Rapidly spins a highly corrupted scythe around you
-		Gaining soul essence with this weapon causes its next five swings to generate dread energy
-		Hitting enemies expel offensive dread energy
+		Стремительно вращает вокруг вас пропитанную злом косу
+		Получение эссенций души этим оружием заставит следующие 5 взмахов извергать агрессивную энергию ужаса
+		При нанесении урона извергает агрессивную энергию ужаса
 		'''
 	DemonBloodSword:
 		'''
-		When blood harvest is on cooldown, this weapon shoots homing blood hearts
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		Пока на вас наложен бафф «{$Mods.ThoriumMod.Buffs.BloodHarvest.DisplayName}», этот меч будет выстреливать самонаводящимися кровавыми сердцами
+		При нанесении урона даёт заряд крови
+		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
 	DemonBloodRipper:
 		'''
-		Rapidly spins a demon-fueled scythe around you
-		Gaining soul essence with this weapon causes your next five swings to summon homing blood hearts
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		Стремительно вращает вокруг вас демоническую косу
+		Получение эссенций души этим оружием заставит следующие 5 взмахов призывать самонаводящиеся кровавые сердца
+		При нанесении урона даёт заряд крови
+		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
 	DemonBloodSpear:
 		'''
-		Unleash a barrage of bloody spear images every third attack
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		Каждую 3 атаку выпускает 3 кровавых наконечника копья в направлении курсора
+		При нанесении урона даёт заряд крови
+		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
 	PrimesFury:
 		'''
-		Every fourth attack shoots a powerful beam dealing triple damage
-		Right Click to unleash a flurry of attacks that deal half damage
-		'У нас уже меч-бензопила дома'
+		Каждую 3 атаку выстреливает мощным лучом, наносящим тройной урон атаки
+		Нажмите ПКМ, чтобы начать яростно взмахивать мечом, нанося половину урона атаки
+		'Сынок, у нас уже меч-бензопила дома'
 		'''
 	TitanArmor:
 		'''
@@ -262,19 +263,20 @@ ItemDescriptions: {
 		'''
 	TitanBoomerang:
 		'''
-		Throw fast titanic disks that form a whirlpool before returning
-		Критические удары этим оружием наносят дополнительный урон
+		Бросает быстрые отскакивающие от поверхностей титанические диски
+		При выполнении 2 отскоков или попадании по врагу титанические диски вызывают наносящий урон вихрь после чего возвращаются обратно к игроку
+		Критические удары наносят дополнительный урон
 		'''
 	TitanSword:
 		'''
-		Для атаки использует 2 титанических меча одновременно
-		Критические удары этим оружием наносят дополнительный урон
+		Атакует 2 титаническими мечами одновременно
+		Критические удары наносят дополнительный урон
 		'''
 	TitanScythe:
 		'''
-		Стремительно вращает двойную титаническую косу
-		Gaining soul essence with this weapon creates an expanding whirlpool
-		Критические удары этим оружием наносят дополнительный урон
+		Стремительно вращает вокруг вас двойную титаническую косу
+		Получение эссенций души этим оружием вызывает стремительно расширяющийся вихрь
+		Критические удары наносят дополнительный урон
 		'''
 	TerrariumBomber:
 		'''
@@ -285,12 +287,12 @@ ItemDescriptions: {
 	TerrariumPulseRifle:
 		'''
 		Стреляет очередью из 4 пуль
-		Converts suitable ammo into pulse rays that inherit the on-hit effect of your bullets
+		Конвертирует определённые боеприпасы в импульсные лучи, наследующие эффекты при попадании по врагу от конвертированных пуль
 		15% не потратить боеприпасы
 		'''
 	TerrariumSaber:
 		'''
-		Для атаки использует 2 террариевых сабли одновременно
+		Атакует 2 террариевыми саблями одновременно
 		При попадании по врагу высвобождает самонаводящуюся террариевую энергию
 		'''
 	RealitySlasher:
@@ -337,7 +339,7 @@ Toggler: {
 	CrystallizedFinality: Кристаллизованное заключение
 	DeepDarkShellShield: Over-overshield
 	ZephyrWings: Синергия Зефира
-	QueenJellyPin: Regal Tentacles
+	QueenJellyPin: Царские щупальца
 	SierraChimera: Сьерра-Химера
 	StarScoutReticle: Мгновенный рывок
 	StriderMouthguard: Ледяной укус шагателя
@@ -623,7 +625,7 @@ Items: {
 			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
 			Percussion instrument attacks launch hammers upward that eventually fall down
 			Electronic instrument projectiles are significantly faster
-			Increases max inspiration by 5
+			Увеличивает максимальный запас вдохновения на 5 очков
 			'Does not sell much, unfortunately. At least someone is kind enough to provide...'
 			'''
 	}
