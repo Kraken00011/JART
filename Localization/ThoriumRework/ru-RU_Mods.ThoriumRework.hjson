@@ -1,28 +1,28 @@
 PhotosensitivityWarning:
 	'''
-	ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ: мод Thorium Helheim добавляет множество мерцающих эффектов! Особенно во время битв с боссами!
+	ПРЕДУПРЕЖДЕНИЕ О СВЕТОЧУВСТВИТЕЛЬНОСТИ: Мод Thorium Helheim добавляет множество мерцающих эффектов! Особенно во время битв с боссами!
 	Если у вас имеется повышенная светочувствительность, рекомендуется перейти в «Настройки» -> «Конфигурация модов» -> «Thorium Helheim» -> «Визуальные настройки» и выставить там все ползунки на 0.
 	Если вы не хотите видеть это оповещение каждый раз, как заходите в мир, вы можете отключить его в конфигурации этого же мода.
 	'''
 
 ProgressionTweaks: {
-	GolemNoAbyssion: A forgotten being stirs in the aquatic depths to protect the lunar cult...
-	AbyssionNoGolem: An ancient guardian in the jungle hums to life to protect the lunar cult...
-	AbyssionAndGolem: Могущественный культ образовывается на краю мира!
+	GolemNoAbyssion: Силы забытого существа, скитающегося по акватических глубинах, не позволяют появится лунному культу...
+	AbyssionNoGolem: Сила древнего хранителя джунглей не позволяет появится лунному культу...
+	AbyssionAndGolem: Могущественный культ явился на краю мира!
 }
 
 ItemDescriptions: {
 	ChampionsRebuttal:
 		'''
 		Дважды нажмите в нужном направлении, чтобы совершить таранящий рывок
-		Добавляет удвоенную сумму полученного или нанесённого урона во время рывка к урону от вашей следующей атаки
-		Может нанести до 300 ед. дополнительного урона
+		После совершения рывка увеличивает урон любой следующей атаки на сумму урона, полученного или нанесённого во время рывка
+		Максимальный бонус к урону: 300 ед.
 		'''
 	Rapier:
 		'''
 		Нанесение урона временно увеличивает сопротивление урону
 		Нажмите ПКМ, чтобы взмахивать как обычно
-		При обычных взмах может увеличить свой урон при нанесении более 3 ударов по врагу
+		Увеличивает собственный урон при попадании по врагу более 3 раз обычными взмахами
 		'''
 	DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60 ед.
 	DreamWeaversHood: Увеличивает максимальный запас здоровья на 100 ед.
@@ -65,7 +65,7 @@ ItemDescriptions: {
 		Увеличивает дальность хлыстов на 75%
 		Увеличивает максимальное количество миньонов на 2
 		'''
-	InspiratorsHelmet: Увеличивает скорость симфонической игры на 25%
+	InspiratorsHelmet: Увеличивает скорость симфонической игры на инструменте на 25%
 	RhapsodistChestWoofer: Симфонический урон игнорирует 250 ед. защиты
 	RhapsodistBoots: Удваивает радиус действия усилений
 	SoloistHat: Увеличивает максимальный запас вдохновения на 8 очков
@@ -76,7 +76,7 @@ ItemDescriptions: {
 		Использование предметов, созданных из ториевых слитков, будет заряжать шкалу и при обычных атаках
 		'''
 	ThoriumRevolver: Конвертирует сигнальные ракеты в громовые разряды средней дальности
-	ThoriumSpear: При атаке стреляет слабой молнией в направлении курсора
+	ThoriumSpear: Стреляет слабой молнией в направлении курсора
 	ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that pierces through mobs before exploding
@@ -233,7 +233,7 @@ ItemDescriptions: {
 		'''
 	DemonBloodSword:
 		'''
-		Пока на вас наложен бафф «{$Mods.ThoriumMod.Buffs.BloodHarvest.DisplayName}», этот меч будет выстреливать самонаводящимися кровавыми сердцами
+		Пока вы подвержены дебаффом «{$Mods.ThoriumMod.Buffs.BloodHarvest.DisplayName}», этот меч будет выстреливать самонаводящимися кровавыми сердцами
 		При нанесении урона даёт заряд крови
 		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
@@ -807,14 +807,14 @@ Items: {
 	}
 
 	QueenJellyPin: {
-		DisplayName: "{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.DisplayName}"
+		DisplayName: "{$Items.QueenJellyPinCosmetic.DisplayName}"
 		Tooltip:
 			'''
 			Даёт невосприимчивость к дебаффу «{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}»
 			Призывает вокруг вас присасывающиеся к врагам щупальца
 			Урон щупалец увеличивается в зависимости от вашей защиты
 			При попадании щупальца дают бонусы к восстановлению здоровья и ресурсов
-			{$Mods.ThoriumRework.Items.QueenJellyPinCosmetic.Tooltip}
+			{$Items.QueenJellyPinCosmetic.Tooltip}
 			'''
 	}
 
@@ -837,7 +837,7 @@ Items: {
 		Tooltip:
 			'''
 			Бросает до 20 сфер нестабильной энергии, перегружающие врагов дебаффом «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}»
-			Враги, подвергнутые дебаффу «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}», получают на 5% больше урона
+			Враги, подверженные дебаффу «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}», получают на 5% больше урона
 			Отпустите ЛКМ, чтобы выпустить все накопленные сферы
 			Не изматывает при использовании
 			'Оставляет синяки на ваших врагах!'
@@ -921,14 +921,14 @@ Items: {
 	}
 
 	StarScoutReticle: {
-		DisplayName: "{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.DisplayName}"
+		DisplayName: "{$Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
 			'''
 			Позволяет дышать в космосе и даёт эффекты от баффа «{$BuffName.NightOwl}»
 			Совершение рывка телепортирует вас на несколько блоков вперёд
 			Не работает с особыми рывками
 			Даёт рывок, если у вас его нет
-			{$Mods.ThoriumRework.Items.StarScoutReticleCosmetic.Tooltip}
+			{$Items.StarScoutReticleCosmetic.Tooltip}
 			'''
 	}
 
@@ -943,14 +943,14 @@ Items: {
 	}
 
 	StriderMouthguard: {
-		DisplayName: "{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.DisplayName}"
+		DisplayName: "{$Items.StriderMouthguardCosmetic.DisplayName}"
 		Tooltip:
 			'''
 			Атаки накладывают дебафф «{$BuffName.Frostburn}»
 			Даёт щит при нанесении урона по врагам, подверженным дебаффом «{$BuffName.Frostburn}»
 			Удерживайте ЛКМ, чтобы призывать до 3 морозных митов
 			Отпустите ЛКМ, чтобы высвободить их
-			{$Mods.ThoriumRework.Items.StriderMouthguardCosmetic.Tooltip}
+			{$Items.StriderMouthguardCosmetic.Tooltip}
 			'''
 	}
 
@@ -974,9 +974,9 @@ Items: {
 		Tooltip:
 			'''
 			'Наполнен первородной энергией'
-			Increases symphonic playing speed and inspiration regeneration rate by 15%
-			Increases empowerment duration by 3 seconds
-			Greatly increases empowerment range
+			Увеличивает скорость симфонической игры и скорость восстановления вдохновения на 15%
+			Увеличивает длительность усилений на 3 секунды
+			Значительно увеличивает радиус действия усилений
 			'''
 	}
 
@@ -1010,15 +1010,15 @@ Items: {
 			Увеличивает максимальное количество миньонов на 3 и стражей на 1
 			Увеличивает дальность хлыстов 15%
 			Увеличивает шанс критического удара призывателя на 6%
-			Даёт возможность миньонам и стражами наносить критические удары
+			Позволяет миньонам и стражами периодически наносить критические удары
 			'''
 	}
 
 	ThoriumBludgeon: {
-		DisplayName: Ториевая дубинка
+		DisplayName: Ториевая колотушка
 		Tooltip:
 			'''
-			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии, если первый удар по врагу был нанесён именно этим оружием
+			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии при условии, что первый удар по врагу был нанесён именно этим оружием
 			Одновременно может существовать только 2 таких заряда
 			'''
 	}
