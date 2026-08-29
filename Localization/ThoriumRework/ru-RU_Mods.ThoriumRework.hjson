@@ -636,7 +636,7 @@ Items: {
 			'''
 			Призывает крылатую флейту, стреляющую во врагов
 			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
-			'Does it look like it gives a flying flute?'
+			'Полковник! Взгляните на радар!'
 			'''
 	}
 
@@ -646,9 +646,9 @@ Items: {
 			'''
 			Увеличивает симфонический урон на {0}%
 			Увеличивает скорость симфонической игры на {1}%
-			Increases wind instrument homing speed by {2}%
-			Your wind instrument attacks now attempt to quickly home in on enemies
-			If the attack already homes onto enemies, it does so far more quickly
+			Увеличивает скорость наведения духовых инструментов на {2}%
+			Атаки ваших духовых инструментов теперь быстрее нацеливаются на врагов
+            Если атака уже нацелена на врага, она делает это гораздо быстрее
 			Призывает крылатую флейту, стреляющую во врагов
 			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'''
@@ -721,8 +721,8 @@ Items: {
 		DisplayName: Королевская труба
 		Tooltip:
 			'''
-			Sprays a burst of spores that infect hit targets
-			Ignores 10 points of enemy Defense
+			Игнорирует 10 ед. защиты
+			Распыляет каскад заражающих спор
 			'''
 	}
 
@@ -780,8 +780,8 @@ Items: {
 			Выпускает летучих мышей, возвращающихся при попадании по врагу с их кровью, отдавая её вам
 			Нажмите ПКМ, чтобы потратить кровь и выпустить летучих мышей, исцеляющих союзников на <healAmount> ед. здоровья
 			<legendaryModeOnly>Использует здоровье на сложности Легенда
-			Blood Siphon: <bloodSiphon>
-			'Блаженная баллада о летучих мышах'
+			Накоплено <bloodSiphon> ед. крови
+			'Великая баллада о мышах летучих'
 			'''
 	}
 
