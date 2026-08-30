@@ -19,12 +19,12 @@ Items: {
 	}
 
 	MainframePaint: {
-		DisplayName: Картина Mainframe
+		DisplayName: Картина «Mainframe»
 		Tooltip: "'Награда за славную резню'"
 	}
 
 	EternalMonolith: {
-		DisplayName: Монолит вечности
+		DisplayName: Вечный монолит
 		Tooltip: "'Содержит немного вечной энергии'"
 	}
 }
@@ -40,7 +40,7 @@ Tiles: {
 
 Achievements: {
 	DefeatedBossRushAchievement: {
-		FriendlyName: Чистильщик вечности
+		FriendlyName: Рассекатель вечности
 		Description: Завершить Босс-раш.
 	}
 }

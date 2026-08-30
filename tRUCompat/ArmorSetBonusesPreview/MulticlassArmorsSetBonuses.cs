@@ -2,10 +2,11 @@ using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;
+using CalamityRuTranslate.Core.Config;
 
 internal class MulticlassArmorsSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.MulticlassArmorsLocalization;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.MulticlassArmorsLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

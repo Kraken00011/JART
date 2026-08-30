@@ -35,6 +35,12 @@ public partial class MiscPatches : GlobalItem
                     if (tooltip.Text.Contains("Heals ally life equal to your bonus healing"))
                         tooltip.Text = "Лечит здоровье союзников на величину, равную вашему бонусному исцелению";
                 }
+
+                if (tooltip.Name == "AccessoryDamage")
+                {
+                    tooltip.Text = tooltip.Text.Replace("% basic damage", "% базового урона");
+                    tooltip.Text = tooltip.Text.Replace("basic damage", "ед. базового урона");
+                }
             }
 
             // ??? (При включении какого-то из модов у реликвий добавился этот текст в строке Master и я решил его перевести)

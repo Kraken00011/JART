@@ -325,11 +325,6 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Hollow Knight!.
 		}
 
-		InfernalEclipseBalanceLocalization: {
-			Label: "Infernal Eclipse Balancing"
-			Tooltip: Включает/Выключает перевод мода Infernal Eclipse Balancing.
-		}
-
 		MunchiesHomewardLocalization: {
 			Label: "Munchies - Homeward Journey Addon"
 			Tooltip: Включает/Выключает перевод мода Munchies - Homeward Journey Addon.
@@ -455,7 +450,7 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода InfiniteInteger's Mage Tweaks.
 		}
 
-		InfernumFablesLocalization: {
+		InspirationPotionsLocalization: {
 			Label: "Inspiration Potions"
 			Tooltip: Включает/Выключает перевод мода Inspiration Potions.
 		}

@@ -24,6 +24,10 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool PrimeReworkLocalization;
 
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool ThoriumReworkLocalization;
+
     [Header("MediumMod")]
 
     [ReloadRequired]
@@ -182,18 +186,6 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool MageTweaksLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
-    public bool InspirationPotionsLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
-    public bool FargosAltMusicModLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
     public bool LifeSourcesLightLocalization;
 
     [ReloadRequired]
@@ -214,15 +206,24 @@ public class JARTLocalizationConf : ModConfig
 
     [ReloadRequired]
     [DefaultValue(true)]
-    public bool InfernalEclipseBalanceLocalization;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
     public bool InfernumMasterPatchLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]
+    public bool MageTweaksLocalization;
+
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool InspirationPotionsLocalization;
+
+
+    [ReloadRequired]
+    [DefaultValue(true)]
     public bool ItemRelicsLocalization;
+
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool FargosAltMusicModLocalization;
 
     [ReloadRequired]
     [DefaultValue(true)]

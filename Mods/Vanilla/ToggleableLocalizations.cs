@@ -16,6 +16,7 @@ using Terraria.ModLoader.Core;
 
 public class ToggleableLocalizations : OnPatcher
 {
+	// Для отключающихся локализаций
 	private static HashSet<string> _customKeys = new();
 
 	public override bool AutoLoad => Language.ActiveCulture.Name == "ru-RU";

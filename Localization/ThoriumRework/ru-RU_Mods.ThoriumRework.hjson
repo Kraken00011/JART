@@ -24,6 +24,12 @@ ItemDescriptions: {
 		Нажмите ПКМ, чтобы взмахивать как обычно
 		Увеличивает собственный урон при попадании по врагу более 3 раз обычными взмахами
 		'''
+	DetachedBlaster:
+		'''
+		Стреляет мощным энергетическим импульсом, усиливающимся пропорционально долготе полёта
+		Нажмите ПКМ, чтобы выстрелить перегруженной энергетической сферой, самонаводящейся во врагов
+		Выстрел сферой имеет 5 секунд перезарядки
+		'''
 	DreamWeaversHelmet: Увеличивает максимальный запас здоровья на 60 ед.
 	DreamWeaversHood: Увеличивает максимальный запас здоровья на 100 ед.
 	DreamWeaversTabard: Увеличивает сопротивление урону на 20%
@@ -71,7 +77,7 @@ ItemDescriptions: {
 	SoloistHat: Увеличивает максимальный запас вдохновения на 8 очков
 	ThoriumArmor:
 		'''
-		Нанесение критических ударов заряжает шкалу
+		Даёт особую шкалу, которая заряжается при нанесении критических ударов
 		Атаки после полного заполнения шкалы создают отложенные электрические вспышки, наносящие урон
 		Использование предметов, созданных из ториевых слитков, будет заряжать шкалу и при обычных атаках
 		'''
@@ -79,19 +85,19 @@ ItemDescriptions: {
 	ThoriumSpear: Стреляет слабой молнией в направлении курсора
 	ChampionBomberStaff:
 		'''
-		Shoots a magical burster missile that pierces through mobs before exploding
-		Critical strikes causes missiles to last longer and pierce an additional time	
+		Стреляет магическим разрывным зарядом, взрывающимся после первого пронзания врага
+		Критические удары дают разрывному заряду 1 дополнительное пронзание
 		'''
 	ChampionSwiftBlade:
 		'''
 		Стреляет мощной ударной волной, наносящей 50% урона оружия
-		При каждой 3 и 4 атаке дополнительно призывает проекции меча, атакующие в точке курсора
+		Каждую 3 и 4 атаку дополнительно призывает проекции меча, атакующие в точке курсора
 		'''
 	ChampionsTrifectaShot:
 		'''
 		Заряжайте лук, чтобы увеличить его силу
-		Overcharge the bow to convert the arrow into powerful elemental arrows
-		Certain arrow types can only be converted into one elemental arrow type
+		Полностью заряженные выстрелы конвертируют выпущенные стрелы в элементальные
+		Некоторые стрелы могут быть конвертированы только под определённый элемент
 		'''
 	GraniteCrossbow:
 		'''
@@ -105,8 +111,8 @@ ItemDescriptions: {
 		'''
 	IllumiteBlade:
 		'''
-		Для атаки использует 2 иллюмитовых клинка одновременно
-		Blasts nearby illuminated targets with illuminating beams
+		Атакует 2 иллюмитовыми клинками одновременно
+		Поражает ближайших врагов подсвечивающими лучами
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		'''
 	IllumiteBlaster:
@@ -127,7 +133,8 @@ ItemDescriptions: {
 		'''
 	IllumiteScythe:
 		'''
-		Creates light slashes on a nearby enemy
+		Стремительно вращает вокруг вас светящуюся косу
+		Рассекает ближайших врагов подсвечивающими разрезами
 		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», увеличивающий получаемый врагами урон на 10%
 		'''
 	PyroclastStaff:
@@ -137,19 +144,21 @@ ItemDescriptions: {
 		'''
 	Obliterator:
 		'''
-		Left Click to shoot a non-piercing laser beam
-		Right Click to shoot a fireball that explodes into a circular spread of bullets that deal 50% damage
-		Shooting the fireball with the laser will cause it to bounce towards nearby targets or other fireballs
-		Each bounce increases its damage by 100% of its initial damage, eventually capping out at 1000%
+		Нажмите ЛКМ, чтобы выстрелить не пронзающим лазерным лучом
+		Нажмите ПКМ, чтобы выпустить огненный шар, который при попадании по врагу взрывается и выпускает каскад пуль во все стороны
+		Пули наносят 50% урона атаки
+		Выстрелите лазером по огненному шару, чтобы заставить его отскочить в направлении ближайшего врага и другого огненного шара
+		Каждый отскок увеличивает урон лазера на 100% от изначального значения (до 1000%)
 		'''
 	OmegaBlaster:
 		'''
-		Tap fire to shoot a triple burst of energy blasts, charge to empower the burst
-		Fully charge the weapon to fire a powerful energy beam that deal 800% damage
-		Dealing damage with energy blasts build up a meter
-		When the meter is full, Right Click to unleash a powerful beam saber that deals 1100% damage
-		After beam saber is used, the energy gauge cannot build up for 10 seconds
-		However, the weapon will cost no mana
+		Нажмите ЛКМ, чтобы выстрелить очередью из 3 энергетических зарядов
+		Удерживайте ЛКМ, чтобы зарядить выстрел
+		Полностью зарядите выстрел, чтобы выстрелить мощным энергетическим лучом, наносящим 800% урона атаки
+		Нанесение урона заполняет энергетическую шкалу
+		Когда шкала полностью заполнится нажмите ПКМ, чтобы совершить быстрый рывок в направлении курсора, нанеся 1100% урона атаки всем поражённым врагам
+		После совершения рывка энергетическая шкала не сможет заполняться в течение следующих 10 секунд
+		Но взамен во время этого оружие не будет тратить ману
 		'Станьте величайшим стражником Хевенхолда'
 		'''
 	HitScanner:
@@ -170,17 +179,17 @@ ItemDescriptions: {
 		'''
 	ValadiumBow:
 		'''
-		Damage will blast enemies with interdimensional energy
+		Атаки временно поражают врагов межпространственной энергией
 		Every third attack smites the closest light accursed enemy with void light
 		'''
 	ValadiumBlaster:
 		'''
-		Damage will blast enemies with interdimensional energy
+		Атаки временно поражают врагов межпространственной энергией
 		Every third attack smites the closest light accursed enemy with void light
 		'''
 	ValadiumSpear:
 		'''
-		Damage will blast enemies with interdimensional energy
+		Атаки временно поражают врагов межпространственной энергией
 		Damage also spawns a flurry void light that slashes enemies quickly
 		'''
 	OrnateArmor: Big instruments can no longer be mistimed but inspiration regeneration is frozen when holding any
@@ -206,7 +215,7 @@ ItemDescriptions: {
 		Every fourth attack releases a cursed dragon spirit
 		Critical strikes create a ring of cursed inferno
 		'''
-	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
+	DragonTalon: Выпускает дыхание проклятым инферно из наконечника копья
 	DreadBlaster:
 		'''
 		Tap left click to fire a burst of dread pulses
@@ -216,8 +225,8 @@ ItemDescriptions: {
 	DemonBloodStaff:
 		'''
 		Unleash a barrage of homing demon blood souls and as well as ichor souls every fourth attack
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		При нанесении урона даёт заряд крови
+		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
 	DreadRazor:
 		'''
@@ -233,7 +242,7 @@ ItemDescriptions: {
 		'''
 	DemonBloodSword:
 		'''
-		Пока вы подвержены дебаффом «{$Mods.ThoriumMod.Buffs.BloodHarvest.DisplayName}», этот меч будет выстреливать самонаводящимися кровавыми сердцами
+		Пока вы подвержены дебаффу «{$Mods.ThoriumMod.Buffs.BloodHarvest.DisplayName}», этот меч будет выстреливать самонаводящимися кровавыми сердцами
 		При нанесении урона даёт заряд крови
 		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
@@ -252,19 +261,19 @@ ItemDescriptions: {
 		'''
 	PrimesFury:
 		'''
-		Каждую 3 атаку выстреливает мощным лучом, наносящим тройной урон атаки
+		Каждую 4 атаку выстреливает мощным лучом, наносящим тройной урон атаки
 		Нажмите ПКМ, чтобы начать яростно взмахивать мечом, нанося половину урона атаки
-		'Сынок, у нас уже меч-бензопила дома'
+		'Сынок, у нас же уже меч-бензопила дома'
 		'''
 	TitanArmor:
 		'''
-		Нанесение критических ударов даёт игроку 2 ед. щита
-		Увеличивает шанс критического удара соразмерно количеству накопленного щита
+		Нанесение критических ударов даёт игроку 2 ед. жизненного щита
+		Увеличивает шанс критического удара соразмерно количеству накопленного жизненного щита
 		'''
 	TitanBoomerang:
 		'''
 		Бросает быстрые отскакивающие от поверхностей титанические диски
-		При выполнении 2 отскоков или попадании по врагу титанические диски вызывают наносящий урон вихрь после чего возвращаются обратно к игроку
+		При попадании по врагу титанические диски вызывают наносящий урон вихрь после чего возвращаются обратно к игроку
 		Критические удары наносят дополнительный урон
 		'''
 	TitanSword:
@@ -435,6 +444,11 @@ InfernumIntros: {
 }
 
 Items: {
+	ADropRateTooLow: {
+		DisplayName: Картина «A Drop Rate Too Low?»
+		Tooltip: От (Not) Una Nancy Owen
+	}
+
 	BandofCratons: {
 		DisplayName: "{$Items.BandofCratonsCosmetic.DisplayName}"
 		Tooltip:
@@ -485,7 +499,7 @@ Items: {
 		Tooltip:
 			'''
 			Увеличивает максимальный запас здоровья на 10 ед. и бонусное исцеление на 1 ед.
-			Каждые 30 ед. исцелённого здоровья высвобождает мощный, наносящий урон заряд лучезарной энергии
+			За каждые восстановленные 30 ед. здоровья союзнику выпускается заряд разрушительной лучезарной энергии
 			В дополнение вы восстанавливаете здоровье на величину, равную вашему бонусному исцелению
 			'''
 	}
@@ -514,15 +528,6 @@ Items: {
 			'''
 			Бросает крошечных пожирателей душ, которые входят в ярость после некоторого количества пройденных блоков
 			Во время нахождения в ярости, пожиратели могут пронзать бесконечно и наносить урон по одному и тому же врагу несколько раз подряд
-			'''
-	}
-
-	DuelistSheath: {
-		DisplayName: Ножны дуэлянта
-		Tooltip:
-			'''
-			{$Mods.ThoriumMod.Common.Tooltips.Sheath}
-			При получении урона или нанесении критического удара увеличивает скорость атаки и шанс критического улара ближнего боя на {1} {^1:секунду;секунды;секунд}
 			'''
 	}
 
@@ -586,6 +591,15 @@ Items: {
 			'''
 	}
 
+	DuelistSheath: {
+		DisplayName: Ножны дуэлянта
+		Tooltip:
+			'''
+			{$Mods.ThoriumMod.Common.Tooltips.Sheath}
+			При получении урона или нанесении критического удара увеличивает скорость атаки и шанс критического удара ближнего боя на {1} {^1:секунду;секунды;секунд}
+			'''
+	}
+
 	DukeFish: {
 		DisplayName: Герцог Рыб
 		Tooltip:
@@ -604,6 +618,11 @@ Items: {
 			Призывает извивающихся червей, кусающих врагов
 			'Дайте им баночку маринованных перцев'
 			'''
+	}
+
+	ElectronSpearTip: {
+		DisplayName: Электронный наконечник копья
+		Tooltip: Spear weapons will release a plasmic shockwave that severely burns enemies
 	}
 
 	ExecutionersContract: {
@@ -635,8 +654,8 @@ Items: {
 		Tooltip:
 			'''
 			Призывает крылатую флейту, стреляющую во врагов
-			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
-			'Полковник! Взгляните на радар!'
+			Каждый выстрел флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
+			'Полковник, взгляните на радар!'
 			'''
 	}
 
@@ -648,9 +667,9 @@ Items: {
 			Увеличивает скорость симфонической игры на {1}%
 			Увеличивает скорость наведения духовых инструментов на {2}%
 			Атаки ваших духовых инструментов теперь быстрее нацеливаются на врагов
-            Если атака уже нацелена на врага, она делает это гораздо быстрее
+			Если атака уже нацелена на врага, она делает это гораздо быстрее
 			Призывает крылатую флейту, стреляющую во врагов
-			Каждую атаку флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
+			Каждый выстрел флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'''
 	}
 
@@ -697,6 +716,17 @@ Items: {
 			'''
 	}
 
+	HolySheath: {
+		DisplayName: Holy Sheath
+		Tooltip:
+			'''
+			Swords strike critically for {0}% if held and not used for {1} seconds
+			Landing a critical strike calls down a beam of light on your last hit target
+			The beam of light deals variably less damage on segmented targets
+			"Your opponents would be saying this item's name when they see what it does"
+			'''
+	}
+
 	ImpulseAmplifier: {
 		DisplayName: Импульсный усилитель
 		Tooltip: Значительно увеличивает скорость снарядов электронных инструментов
@@ -722,7 +752,7 @@ Items: {
 		Tooltip:
 			'''
 			Игнорирует 10 ед. защиты
-			Распыляет каскад заражающих спор
+			Выпускает каскад заражающих спор
 			'''
 	}
 
@@ -741,9 +771,9 @@ Items: {
 		DisplayName: Орудие пыток
 		Tooltip:
 			'''
-			Lashes out a triple whip empowered by soul fire
-			Struck enemies will bleed their souls out and heal their targets
-			'A tool used to torment souls in the afterlife'
+			Взмахивает тройным хлыстом, усиленный огнём душ
+			При попадании по врагу вытягивает из него души и исцеляет выбранным им же цель
+			'Орудие, использованное для пыток грешных душ в загробном мире'
 			'''
 	}
 
@@ -790,6 +820,15 @@ Items: {
 		Tooltip: ""
 	}
 
+	NotSoLovelyLadies: {
+		DisplayName: (Not So) Lovely Ladies
+		Tooltip:
+			'''
+			"Hot singles in your area that want you! (Dead and ripped to pieces)"
+			By (Not) Una Nancy Owen
+			'''
+	}
+
 	Oneirophobia: {
 		DisplayName: Онеирофобия
 		Tooltip:
@@ -820,14 +859,14 @@ Items: {
 
 	QueenJellyPinCosmetic: {
 		DisplayName: Заколка Королевы медуз
-		Tooltip: "'Прямо на голову!'"
+		Tooltip: "'Прикольная штучка!'"
 	}
 
 	PickShapedPebble: {
 		DisplayName: Медиаторообразный камешек
 		Tooltip:
 			'''
-			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
+			Атаки некоторых струнных инструментов, активирующих эффекты при столкновении с блоками, будут активировать тот же эффект и при попадании по врагу
 			'It's for rock music!'
 			'''
 	}
@@ -840,7 +879,7 @@ Items: {
 			Враги, подверженные дебаффу «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}», получают на 5% больше урона
 			Отпустите ЛКМ, чтобы выпустить все накопленные сферы
 			Не изматывает при использовании
-			'Оставляет синяки на ваших врагах!'
+			'Синяки после атаки гарантированы!'
 			'''
 	}
 
@@ -920,6 +959,11 @@ Items: {
 			'''
 	}
 
+	SporeTip: {
+		DisplayName: Spore Tip
+		Tooltip: Spear weapons will release a hovering spore tip
+	}
+
 	StarScoutReticle: {
 		DisplayName: "{$Items.StarScoutReticleCosmetic.DisplayName}"
 		Tooltip:
@@ -947,7 +991,7 @@ Items: {
 		Tooltip:
 			'''
 			Атаки накладывают дебафф «{$BuffName.Frostburn}»
-			Даёт щит при нанесении урона по врагам, подверженным дебаффом «{$BuffName.Frostburn}»
+			Даёт жизненный щит при нанесении урона по врагам, подверженным дебаффом «{$BuffName.Frostburn}»
 			Удерживайте ЛКМ, чтобы призывать до 3 морозных митов
 			Отпустите ЛКМ, чтобы высвободить их
 			{$Items.StriderMouthguardCosmetic.Tooltip}
@@ -1080,6 +1124,17 @@ Items: {
 	VampireCapeCosmetic: {
 		DisplayName: Плащ летучей мыши-вампира
 		Tooltip: ""
+	}
+
+	WhistlersHat: {
+		DisplayName: Whistler's Hat
+		Tooltip: Increases inspiration regeneration rate by 10%
+		SetBonus: Each unique empowerment you have increases your movement speed by 2%
+	}
+
+	WhistlersTunic: {
+		DisplayName: Whistler's Tunic
+		Tooltip: Increases symphonic playing speed by 5%
 	}
 
 	ZephyrsRuin: {
@@ -1394,7 +1449,7 @@ Configs: {
 			Label: Поддержка урона по защите
 			Tooltip:
 				'''
-				Позволяет некоторым атакам боссов из Spirit наносить урон по защите.
+				Позволяет некоторым атакам боссов из Thorium наносить урон по защите.
 				Работает только, если включён Calamity Mod.
 				'''
 		}
@@ -1510,6 +1565,16 @@ Configs: {
 				4 - Только в генерации GFB или режимах Инфернум, Мазохист или Вечная смерть.
 				'''
 		}
+
+		corpsebloom: {
+			Label: Трупоцвет
+			Tooltip: Reworks Corpse Bloom to be less annoying to randomly encounter
+		}
+
+		hags: {
+			Label: Колдуньи
+			Tooltip: Reworks hags to be proper mini-bosses and as well as making them less annoying
+		}
 	}
 
 	ItemReworksConfig: {
@@ -1547,6 +1612,11 @@ Configs: {
 
 		BuccaneerBlunderBuss: {
 			Label: "[i:ThoriumMod/BuccaneerBlunderBuss]{$Mods.ThoriumMod.Items.BuccaneerBlunderBuss.DisplayName}"
+			Tooltip: ""
+		}
+
+		DetachedBlaster: {
+			Label: "[i:ThoriumMod/DetachedBlaster]{$Mods.ThoriumMod.Items.DetachedBlaster.DisplayName}"
 			Tooltip: ""
 		}
 
@@ -1967,9 +2037,24 @@ Achievements: {
 		Description: Уничтожить все ядра Звёздного разведчика, потратив на это не более 6 секунд. Defeat all three of Star Scouter's cores in under six seconds
 	}
 
+	ElectricalSafetyTraining: {
+		FriendlyName: Electrical Safety Training
+		Description: Defeat Granite Energy Storm without making any contact with Energy Conduits
+	}
+
 	MyBatsAreKindaChamberless: {
 		FriendlyName: Бескровные кровосиси
 		Description: Одержать победу над Виконтом, не позволив ни одной его летучей мыши высосать из вас кровь. Defeat Viscount without letting a single Bitey Baby siphon life from you
+	}
+
+	OnEvenGrounds: {
+		FriendlyName: On Even Grounds
+		Description: Defeat the Buried Champion by only dealing melee damage in phase 1, ranged damage in phase 2, and magic or summon damage in phase 3
+	}
+
+	PreservationEfforts: {
+		FriendlyName: Preservation Efforts
+		Description: Defeat Grand Thunderbird without harming any Storm Hatchlings
 	}
 }
 

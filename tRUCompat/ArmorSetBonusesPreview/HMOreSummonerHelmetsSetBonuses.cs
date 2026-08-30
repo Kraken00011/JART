@@ -2,10 +2,11 @@ using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;
+using CalamityRuTranslate.Core.Config;
 
 internal class HMOreSummonerHelmetsSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.HMOreSummonerHelmetsLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

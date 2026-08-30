@@ -2,10 +2,11 @@ using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;
+using CalamityRuTranslate.Core.Config;
 
 internal class InfernalEclipseWeaponsDLCSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
