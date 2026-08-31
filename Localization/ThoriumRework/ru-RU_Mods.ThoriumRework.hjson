@@ -147,7 +147,7 @@ ItemDescriptions: {
 		Нажмите ЛКМ, чтобы выстрелить не пронзающим лазерным лучом
 		Нажмите ПКМ, чтобы выпустить огненный шар, который при попадании по врагу взрывается и выпускает каскад пуль во все стороны
 		Пули наносят 50% урона атаки
-		Выстрелите лазером по огненному шару, чтобы заставить его отскочить в направлении ближайшего врага и другого огненного шара
+		Выстрелите лазером по огненному шару, чтобы заставить его отскочить в направлении ближайшего врага или другого огненного шара
 		Каждый отскок увеличивает урон лазера на 100% от изначального значения (до 1000%)
 		'''
 	OmegaBlaster:
@@ -155,16 +155,16 @@ ItemDescriptions: {
 		Нажмите ЛКМ, чтобы выстрелить очередью из 3 энергетических зарядов
 		Удерживайте ЛКМ, чтобы зарядить выстрел
 		Полностью зарядите выстрел, чтобы выстрелить мощным энергетическим лучом, наносящим 800% урона атаки
-		Нанесение урона заполняет энергетическую шкалу
+		При нанесении урона заполняет энергетический индикатор
 		Когда шкала полностью заполнится нажмите ПКМ, чтобы совершить быстрый рывок в направлении курсора, нанеся 1100% урона атаки всем поражённым врагам
-		После совершения рывка энергетическая шкала не сможет заполняться в течение следующих 10 секунд
+		После совершения рывка энергетический индикатор не сможет заполняться в течение следующих 10 секунд
 		Но взамен во время этого оружие не будет тратить ману
 		'Станьте величайшим стражником Хевенхолда'
 		'''
 	HitScanner:
 		'''
-		Musket balls shot from this gun have no travel time and ignore 50 defense
-		Musket balls also phase through tiles for a brief amount of time
+		Конвертирует обычные мушкетные пули в мгновенные фиолетовые лучи энергии
+		Лучи энергии игнорируют 50 ед. защиты
 		'''
 	ParticleWhip:
 		'''
@@ -174,48 +174,47 @@ ItemDescriptions: {
 		'''
 	LodeStoneBow:
 		'''
-		Damage will sunder enemies, increasing the damage they take by 10%
-		Every third attack shoots magnetic payloads that home into sundered enemies
+		При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон на 10%
+		Каждый 3 выстрел дополнительно выпускает несколько магнитных стрел, самонаводящихся в ближайшего врага, подверженного дебаффу «{$Mods.ThoriumMod.Buffs.Sundered.DisplayName}»
 		'''
 	ValadiumBow:
 		'''
 		Атаки временно поражают врагов межпространственной энергией
-		Every third attack smites the closest light accursed enemy with void light
+		Каждый 3 выстрел поражает ближайшего врага, подверженного дебаффу «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», пустотной молнией
 		'''
 	ValadiumBlaster:
 		'''
 		Атаки временно поражают врагов межпространственной энергией
-		Every third attack smites the closest light accursed enemy with void light
+		Каждая выстрел поражает ближайшего врага, подверженного дебаффу «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», пустотной молнией
 		'''
 	ValadiumSpear:
 		'''
 		Атаки временно поражают врагов межпространственной энергией
-		Damage also spawns a flurry void light that slashes enemies quickly
+		При попадании призывает лучи пустотного света, стремительно рассекающие врагов
 		'''
-	OrnateArmor: Big instruments can no longer be mistimed but inspiration regeneration is frozen when holding any
+	OrnateArmor: Отключает возможность сфальшивить при игре на большом инструменте, но взамен останавливает восстановление вдохновения пока вы держите любой подобный инструмент
 	SoulRender:
 		'''
-		Every third and fourth attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
-		Volatile soul blades deal more damage the higher your attack speed is to compensate with reduced projectiles shot
+		При каждой 3 и 4 атаке коса раскручивается, выпуская во все стороны нестабильные клинки душ, наносящие 40% урона атаки
+		Нестабильные клинки душ будут наносить увеличенный урон пропорционально вашей скорости атаки, но взамен количество выпускаемых клинков будет сокращаться
 		'''
 	FleshSkewer:
 		'''
-		Attacks have a chance to steal life, but briefly prevent life regeneration
-		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
+		Атаки могут с определённым шансом похитить здоровье у врага, но взамен ненадолго остановить его регенерацию у вас
+		При нанесении критического удара атака гарантировано похитит здоровье без остановки его регенерации
 		'''
 	ToothOfTheConsumer:
 		'''
-		Dual wield two, life-stealing daggers
-		Attacks have a chance to steal life, but briefly prevent life regeneration
-		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
-		Right Click to release grasping blood at the cost of 1 life
+		Атакует 2 похищающими здоровье клинками
+		{$ItemDescriptions.FleshSkewer}
+		Нажмите ПКМ, чтобы выпустить хваткую кровь ценой 1 ед. здоровья
 		'''
 	DragonTooth:
 		'''
 		Every fourth attack releases a cursed dragon spirit
 		Critical strikes create a ring of cursed inferno
 		'''
-	DragonTalon: Выпускает дыхание проклятым инферно из наконечника копья
+	DragonTalon: Выпускает пламя проклятого инферно из наконечника копья
 	DreadBlaster:
 		'''
 		Tap left click to fire a burst of dread pulses
@@ -347,7 +346,7 @@ Toggler: {
 	BeholderTentacles2: Измерение Созерцателя
 	CrystallizedFinality: Кристаллизованное заключение
 	DeepDarkShellShield: Over-overshield
-	ZephyrWings: Синергия Зефира
+	ZephyrWings: Зефирова синергия
 	QueenJellyPin: Царские щупальца
 	SierraChimera: Сьерра-Химера
 	StarScoutReticle: Мгновенный рывок
@@ -455,7 +454,7 @@ Items: {
 			'''
 			Даёт невосприимчивость к дебаффу «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}», а ваши атаки будут накладывать его
 			Даёт 40 ед. жизненного щита
-			Восстанавливает ресурсы игрока в зависимости от количества потерянного щита Restores player resources based on the amount of shield lost
+			Восстанавливает ресурсы игрока в зависимости от количества потерянного щита
 			При потере более 20 ед. щита выпускает электрошок, уничтожающий 3 ближайших снаряда
 			{$Items.BandofCratonsCosmetic.Tooltip}
 			'''
@@ -526,8 +525,8 @@ Items: {
 		DisplayName: Кусатель душ
 		Tooltip:
 			'''
-			Бросает крошечных пожирателей душ, которые входят в ярость после некоторого количества пройденных блоков
-			Во время нахождения в ярости, пожиратели могут пронзать бесконечно и наносить урон по одному и тому же врагу несколько раз подряд
+			Бросает крошечных пожирателей душ, которые входят в ярость после некоторого количества блоков
+			Во время нахождения в ярости, пожиратели могут бесконечно пронзать, проходить сквозь блоки и наносить урон по одному и тому же врагу несколько раз подряд
 			'''
 	}
 
@@ -536,7 +535,7 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет самонаводящимся боевым эхо
-			'В АТАКУ!'
+			'В БОЙ!'
 			'''
 	}
 
@@ -604,19 +603,19 @@ Items: {
 		DisplayName: Герцог Рыб
 		Tooltip:
 			'''
-			Удерживайте ЛКМ, чтобы начать надувать пузырь, а затем отпустите, чтобы выпустить его
-			Пузырь исцеляет союзников и даёт им щит
+			Удерживайте ЛКМ, чтобы надувать пузырь, а затем отпустите, чтобы выпустить его
+			Пузырь исцеляет союзников и даёт им жизненный щит
 			'Если что, его зовут Рон'
 			'''
 	}
 
 	EaterPiper: {
-		DisplayName: Трубка Пожирателя
+		DisplayName: Дудка Пожирателя
 		Tooltip:
 			'''
 			Игнорирует 15 ед. защиты врага
 			Призывает извивающихся червей, кусающих врагов
-			'Дайте им баночку маринованных перцев'
+			'Дайте им уже баночку маринованных перцев'
 			'''
 	}
 
@@ -698,7 +697,7 @@ Items: {
 		DisplayName: Душа Хельхейма
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}», [i:ThoriumRework/VampireCape]Vampire's Curse and [i:ThoriumRework/DeepDarkShellShield]knockback
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}», [i:ThoriumRework/VampireCape]Vampire's Curse и [i:ThoriumRework/DeepDarkShellShield]отбрасыванию
 			Даёт эффекты от предметов [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}» и [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}»
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
@@ -717,13 +716,13 @@ Items: {
 	}
 
 	HolySheath: {
-		DisplayName: Holy Sheath
+		DisplayName: Освящённые ножны
 		Tooltip:
 			'''
-			Swords strike critically for {0}% if held and not used for {1} seconds
+			{$Mods.ThoriumMod.Common.Tooltips.Sheath}
 			Landing a critical strike calls down a beam of light on your last hit target
 			The beam of light deals variably less damage on segmented targets
-			"Your opponents would be saying this item's name when they see what it does"
+			'Your opponents would be saying this item's name when they see what it does'
 			'''
 	}
 
@@ -794,7 +793,7 @@ Items: {
 			Wind and brass instrument attacks explode on hit
 			Explosion size varies based on the instrument played
 			Explosions deal 50% less critical strike damage
-			'У тебя заглушитель, а у меня угромчитель!'
+			'У тебя есть заглушитель, а у меня угромчитель!'
 			'''
 	}
 
@@ -810,7 +809,7 @@ Items: {
 			Выпускает летучих мышей, возвращающихся при попадании по врагу с их кровью, отдавая её вам
 			Нажмите ПКМ, чтобы потратить кровь и выпустить летучих мышей, исцеляющих союзников на <healAmount> ед. здоровья
 			<legendaryModeOnly>Использует здоровье на сложности Легенда
-			Накоплено <bloodSiphon> ед. крови
+			Высосано <bloodSiphon> ед. крови
 			'Великая баллада о мышах летучих'
 			'''
 	}
@@ -821,11 +820,11 @@ Items: {
 	}
 
 	NotSoLovelyLadies: {
-		DisplayName: (Not So) Lovely Ladies
+		DisplayName: Картина «(Не такие уж и) очаровательные дамы»
 		Tooltip:
 			'''
-			"Hot singles in your area that want you! (Dead and ripped to pieces)"
-			By (Not) Una Nancy Owen
+			'Горяченькие мамочки-одиночки на вашем районе так и жаждут встречи! (С вашим разорванным трупом)'
+			От (Not) Una Nancy Owen
 			'''
 	}
 
@@ -875,11 +874,11 @@ Items: {
 		DisplayName: Карманный энергетический шторм
 		Tooltip:
 			'''
-			Бросает до 20 сфер нестабильной энергии, перегружающие врагов дебаффом «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}»
+			Бросает до 20 сфер нестабильной энергии, перегружающих врагов дебаффом «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}»
 			Враги, подверженные дебаффу «{$Mods.ThoriumMod.Buffs.GraniteSurge.DisplayName}», получают на 5% больше урона
 			Отпустите ЛКМ, чтобы выпустить все накопленные сферы
 			Не изматывает при использовании
-			'Синяки после атаки гарантированы!'
+			'«Синяки» гарантированы!'
 			'''
 	}
 
@@ -912,12 +911,12 @@ Items: {
 			Shoots bouncing ripples accompanied by homing abyssal strikes
 			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration
 			Healing is increased for every unique empowerment allies have according to its level
-			"Calling the lurkers of the aquatic depths to play the finest symphony"
+			'Calling the lurkers of the aquatic depths to play the finest symphony'
 			'''
 	}
 
 	ShoulderBlade: {
-		DisplayName: Shoulder Blade
+		DisplayName: Лопатка
 		Tooltip:
 			'''
 			Throws a flesh hatchet that stops at a certain distance
@@ -929,7 +928,7 @@ Items: {
 		DisplayName: Сьерра-Химера
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}», [i:ThoriumRework/VampireCape]«{BuffName.Bleeding}» и [i:ThoriumRework/VampireCape]«{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}» и [i:ThoriumRework/VampireCape]«{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
 			[i:ThoriumRework/QueenJellyPin] Summons tentacles around you that latches onto enemies which boost life and resource regeneration on hit
 			[i:ThoriumRework/QueenJellyPin] Tentacle damage increases based on defense
 			[i:ThoriumRework/VampireCape] You take significantly less damage and much less likely to be targeted by enemies while Bat Swarm is active
@@ -944,7 +943,7 @@ Items: {
 			'''
 			Работает как булава, но считается косой
 			При попадании по врагу лезвием даёт эссенции души
-			При попадании по врагу выпускает парящие на месте заряды исцеляющей энергии
+			При попадании по врагу выпускает парящие в воздухе заряды исцеляющей энергии
 			Одновременно может существовать только 5 таких зарядов
 			'Твой дух принадлежит ловцу!'
 			'''
@@ -960,7 +959,7 @@ Items: {
 	}
 
 	SporeTip: {
-		DisplayName: Spore Tip
+		DisplayName: Споровый наконечник копья
 		Tooltip: Spear weapons will release a hovering spore tip
 	}
 
@@ -1078,7 +1077,7 @@ Items: {
 	}
 
 	UndyingGaze: {
-		DisplayName: "{$Mods.ThoriumRework.Items.UndyingGazeCosmetic.DisplayName}"
+		DisplayName: "{$Items.UndyingGazeCosmetic.DisplayName}"
 		Tooltip:
 			'''
 			Нанесение критического удара будет гарантировано давать эссенции души Any critical strike now grants Soul Essence
@@ -1117,7 +1116,7 @@ Items: {
 	}
 
 	VampireCape: {
-		DisplayName: "{$Mods.ThoriumRework.Items.VampireCapeCosmetic.DisplayName}"
+		DisplayName: "{$Items.VampireCapeCosmetic.DisplayName}"
 		Tooltip: Даёт невосприимчивость к дебаффам «{$BuffName.Bleeding}» и «{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}»
 	}
 
@@ -1127,14 +1126,14 @@ Items: {
 	}
 
 	WhistlersHat: {
-		DisplayName: Whistler's Hat
-		Tooltip: Increases inspiration regeneration rate by 10%
-		SetBonus: Each unique empowerment you have increases your movement speed by 2%
+		DisplayName: Шляпа свистуна
+		Tooltip: Увеличивает скорость восстановления вдохновения на 10%
+		SetBonus: Каждое уникальное симфоническое усиление, наложенное на вас, будет дополнительно увеличивать скорость передвижения на 2%
 	}
 
 	WhistlersTunic: {
-		DisplayName: Whistler's Tunic
-		Tooltip: Increases symphonic playing speed by 5%
+		DisplayName: Туника свистуна
+		Tooltip: Увеличивает скорость симфонической игры на инструменте на 5%
 	}
 
 	ZephyrsRuin: {
@@ -1142,9 +1141,9 @@ Items: {
 		Tooltip:
 			'''
 			Вонзается во врагов или, если промахнётся, в поверхность
-			Через некоторое время в точку поражённого атакой врага ударяет наносящая урон молния
+			Через некоторое время в позицию вонзённого копья ударяет наносящая урон молния
 			При нанесении критического удара молния мгновенно бьёт в поражённого врага
-			Вы не изматываетесь от использования этого предмета
+			Вы не изматываетесь от использования этого оружия
 			'А говорили молния в одно месте дважды не бьёт'
 			'''
 	}
@@ -1173,7 +1172,7 @@ Items: {
 Buffs: {
 	BubblyShield: {
 		DisplayName: Пузырьковый щит
-		Description: +10 defense, overshield and special damage reduction
+		Description: Защита увеличена на 10 ед.; возможность получения дополнительного жизненного щита при полном здоровье и сопротивление особому урону +10 defense, overshield and special damage reduction
 	}
 
 	Deathsinger: {
@@ -1182,7 +1181,7 @@ Buffs: {
 	}
 
 	Inspired: {
-		DisplayName: Вдохновлён
+		DisplayName: Вдохновлённость
 		Description: Скорость восстановления вдохновения увеличена
 	}
 
@@ -1210,7 +1209,7 @@ Buffs: {
 	}
 
 	LucidRetaliation: {
-		DisplayName: Возмещающее ясновидение
+		DisplayName: Возмездное ясновидение
 		Description:
 			'''
 			-Механика босса-
@@ -1236,12 +1235,12 @@ Prefixes: {
 
 	Complicated: {
 		DisplayName: Запутанный
-		Description: +25% к скорости стрелки таймера
+		Description: +25% к скорости стрелки у больших инструментов
 	}
 
 	Favored: {
 		DisplayName: Благодатный
-		Description: -25% к скорости стрелки таймера
+		Description: -25% к скорости стрелки у больших инструментов
 	}
 
 	Risky: {
@@ -1251,7 +1250,7 @@ Prefixes: {
 
 	Simplified: {
 		DisplayName: Простенький
-		Description: -25% к скорости стрелки таймера
+		Description: -25% к скорости стрелки у больших инструментов
 	}
 
 	Suicidal: {
@@ -1280,8 +1279,8 @@ Configs: {
 		}
 
 		bossRenames: {
-			Label: Переименовывание боссов
-			Tooltip: Включает/Выключает переименовывание некоторых боссов из Thorium.
+			Label: Изменение имён боссов
+			Tooltip: Включает/Выключает изменение имён у некоторых боссов из Thorium.
 		}
 
 		starScouterEnrageText: {
@@ -1387,7 +1386,7 @@ Configs: {
 		}
 
 		masterDropRate: {
-			Label: Частота выпадения предметов сложности Мастер в процентах
+			Label: Частота выпадения предметов сложности Мастер (в процентах)
 			Tooltip: NOTE: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
 		}
 
@@ -1460,8 +1459,8 @@ Configs: {
 				'''
 				При включении переработки боссов этого мода будут работать только, если включён режим Вечность или Мазохист.
 				Also changes master weapon drops (if enabled) into eternity weapon drops.
-				Additionally, Thorium bosses can now drop eternity mode accessories.
-				This setting does nothing if Fargo's Souls is not installed.
+				В дополнение, с боссов из Thorium начнут выпадать уникальные для режима Вечность аксессуары.
+				Работает только, если включён Fargo's Souls.
 				'''
 		}
 
@@ -1470,7 +1469,7 @@ Configs: {
 			Tooltip:
 				'''
 				При включении переработки боссов этого мода будут работать только, если включён режим Инфернум.
-				Ничего не делает, если не включён Infernum Mode.
+				Работает только, если включён Infernum Mode.
 				'''
 		}
 	}
@@ -1543,8 +1542,8 @@ Configs: {
 			Label: "[i:ThoriumMod/ForgottenOneMask]Обязательная победа над Абиссионом"
 			Tooltip:
 				'''
-				При включении победа над Забытым как и над Големом станет обязательной для появления Культиста-лунатика.
-				Автоматически отключается в мирах без акватических глубин.
+				При включении делает победу над Забытым как и над Големом обязательной для появления в мире Культиста-лунатика.
+				Автоматически отключается в мирах, где акватические глубины не смогли появится.
 				'''
 		}
 
@@ -1554,39 +1553,39 @@ Configs: {
 		}
 
 		terminalLucidity: {
-			Label: "[i:ThoriumMod/TheOmegaCore]Минимальная сложность для появления терминального ясновидения"
+			Label: "[i:ThoriumMod/TheOmegaCore]Мин. сложность для терминального ясновидения"
 			Tooltip:
 				'''
-				Определяет, с какой сложности терминальное ясновидение начнёт появляться.
+				Устанавливает, с какой сложности дебафф «{$Buffs.TerminalLucidity.DisplayName}» начнёт накладываться.
 				0 - Только в Босс-раше.
 				1 - Всегда.
-				2 - Только в режимах Мастер или Месть.
-				3 - Только в режимах Легенда, Смерть или Вечность.
-				4 - Только в генерации GFB или режимах Инфернум, Мазохист или Вечная смерть.
+				2 - Начиная с режимов Мастер или Месть.
+				3 - Начиная с режимов Легенда, Смерть или Вечность.
+				4 - Только в генерации GFB или начиная с режимов Инфернум, Мазохист или Вечная смерть.
 				'''
 		}
 
 		corpsebloom: {
 			Label: Трупоцвет
-			Tooltip: Reworks Corpse Bloom to be less annoying to randomly encounter
+			Tooltip: Перерабатывает Трупоцвет, делая его менее раздражающим во время случайных встреч.
 		}
 
 		hags: {
 			Label: Колдуньи
-			Tooltip: Reworks hags to be proper mini-bosses and as well as making them less annoying
+			Tooltip: Перерабатывает битвы с колдуньями, делая из них полноценных мини-боссов, а также снижая их частоту появления.
 		}
 	}
 
 	ItemReworksConfig: {
-		DisplayName: Переключение переработок/усилений предметов
+		DisplayName: Переключение переработок/изменений предметов
 
 		showItemReworks: {
 			Label: Отображение переработок предметов
 			Tooltip:
 				'''
 				Отображает в описании переработанных предметов, что они были переработаны.
-				ИЗВЕСТНАЯ ОШИБКА: Does not work correctly when mod load order is messed up.
-				Also low-key kinda not works on certain armors and bard weapons.
+				ИЗВЕСТНАЯ ОШИБКА: Не будет работать так как задумано, если порядок загрузки модов выставлен неправильно.
+				Также возможно не работает на некоторые предметы барда и броню.
 				'''
 		}
 
@@ -2021,7 +2020,7 @@ Configs: {
 
 		IncandescentAlacrity: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity]{$Mods.ThoriumMod.Items.IncandescentAlacrity.DisplayName}"
-			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
+			Tooltip: Не перерабатывает предмет. Просто позволяет ему работать с [i:EmpressFlightBooster] парящей инсигнией.
 		}
 
 		WrithingSheath: {
@@ -2038,18 +2037,18 @@ Achievements: {
 	}
 
 	ElectricalSafetyTraining: {
-		FriendlyName: Electrical Safety Training
-		Description: Defeat Granite Energy Storm without making any contact with Energy Conduits
+		FriendlyName: Электробезопасность превыше всего!
+		Description: Одержать победу над Гранитным энергетическим штормом без получения от его энергетических проводников.
 	}
 
 	MyBatsAreKindaChamberless: {
-		FriendlyName: Бескровные кровосиси
-		Description: Одержать победу над Виконтом, не позволив ни одной его летучей мыши высосать из вас кровь. Defeat Viscount without letting a single Bitey Baby siphon life from you
+		FriendlyName: Кровосиси теперь без крово
+		Description: Одержать победу над Виконтом, не позволив ни одной из его летучих мышей высосать из вас кровь.
 	}
 
 	OnEvenGrounds: {
-		FriendlyName: On Even Grounds
-		Description: Defeat the Buried Champion by only dealing melee damage in phase 1, ranged damage in phase 2, and magic or summon damage in phase 3
+		FriendlyName: Наконец-то, достойный соперник! / Честный бой (хз, какой варик лучше)
+		Description: Одержать победу над Погребённым чемпионом, нанося по нему только урон ближнего боя в 1 фазе, стрелковый урон - во 2, и магический либо урон призывателя - в 3 фазе.
 	}
 
 	PreservationEfforts: {

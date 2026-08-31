@@ -33,6 +33,10 @@ internal class ThoriumReworkSetBonuses : ModSystem
             tru.Call("AddArmorSetBonusPreview", thRew.Find<ModItem>("TitanVisor").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.ThoriumMod.Items.TitanHelmet.SetBonus", 18) + "\n" + titanRework
             ));
+
+            tru.Call("AddArmorSetBonusPreview", thRew.Find<ModItem>("WhistlersHat").Type, (Func<string>)(() =>
+                Language.GetTextValue("Mods.ThoriumMod.Items.WhistlersHat.SetBonus")
+            ));
         }
     }
 }
