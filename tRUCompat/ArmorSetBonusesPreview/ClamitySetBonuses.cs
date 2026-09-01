@@ -18,7 +18,7 @@ internal class ClamitySetBonuses : ModSystem
             tru.Call("AddArmorSetBonusPreview", clam.Find<ModItem>("FrozenHellstoneVisor").Type, (Func<string>)(() =>
             {
                 string hotkey = CalamityUtils.TooltipHotkeyString(CalamityKeybinds.ArmorSetBonusHotKey);
-                return Language.GetTextValue("Mods.Clamity.Items.Armor.FrozenHellstone.FrozenHellstoneVisor.SetBonus", hotkey);
+                return Language.GetTextValue("Mods.Clamity.Items.Armor.FrozenHellstone.FrozenHellstoneHeadMelee.SetBonus", hotkey);
             }));
 
             tru.Call("AddArmorSetBonusPreview", clam.Find<ModItem>("ClamitasShellmet").Type, (Func<string>)(() =>

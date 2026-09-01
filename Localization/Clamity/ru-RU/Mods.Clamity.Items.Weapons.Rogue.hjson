@@ -1,0 +1,61 @@
+MoltenPiercer: {
+	DisplayName: Раскалённый пронзатель
+	Tooltip:
+		'''
+		Бросает пламенные кинжалы
+		При скрытном ударе создаёт огненные обсидиановые осколки после попадании кинжалом
+		'''
+}
+
+WulfrumShockCutter: {
+	DisplayName: Вульфрумовый ударный резак
+	Tooltip: ""
+}
+
+FrozenStarShuriken: {
+	DisplayName: Сюрикен морозной звезды
+	Tooltip:
+		'''
+		При попадании призывает самонаводящиеся туманные заряды
+		При скрытном ударе создаёт больше зарядов
+		'''
+}
+
+ExoBall: {
+	DisplayName: Экзо-шар
+	Tooltip:
+		'''
+		Бросает самонаводящиеся колючие шары, втыкающиеся за врагов
+		Воткнутые во врагов шары периодически призывают вихрь экзо-взрывов
+		При скрытном ударе шары самонаводятся быстрее и чаще наносят урон
+		'''
+}
+
+AuricKunai: {
+	DisplayName: Ауритовый кунай
+	Tooltip:
+		'''
+		Стреляет быстрым шквалом кунаев
+		При скрытном ударе вызывает 5 молний после попадания по врагу
+		'''
+}
+
+StarfishFromTheDepth: {
+	DisplayName: Морская звезда бездны
+	Tooltip:
+		'''
+		Морская звезда самонаводится на ближайшего врага до 5 попаданий по нему
+		Нажмите ПКМ или отпустите ЛКМ, чтобы вернуть выпущенные звёзды обратно
+		При скрытном ударе бросает 3 морские звезды одновременно
+		'''
+}
+
+SubzeroSlicer: {
+	DisplayName: Subzero Slicer
+	Tooltip:
+		'''
+		Throwns a fast blades made of coldest material
+		Homes on target and creates an vortex on his position
+		On Stealth Strike throw multiple blades in bigger vortex
+		'''
+}

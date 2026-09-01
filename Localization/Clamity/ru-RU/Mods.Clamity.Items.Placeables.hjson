@@ -1,0 +1,48 @@
+Relics: {
+	PyrogenRelic: {
+		DisplayName: Реликвия Пирогена
+		Tooltip: ""
+	}
+
+	ClamitasRelic: {
+		DisplayName: Реликвия Каламидии
+		Tooltip: "'Выплавлена с использованием адского камня'"
+	}
+
+	WoBRelic: {
+		DisplayName: Реликвия Стены бронзы
+		Tooltip: ""
+	}
+}
+
+Trophies: {
+	PyrogenTrophy: {
+		DisplayName: Трофей Пирогена
+		Tooltip: ""
+	}
+
+	WoBTrophy: {
+		DisplayName: Трофей Стены бронзы
+		Tooltip: ""
+	}
+}
+
+FrozenHellstone: {
+	DisplayName: Обледенелый адский камень
+	Tooltip: ""
+}
+
+FrozenAsh: {
+	DisplayName: Обледенелый пепел
+	Tooltip: ""
+}
+
+PyroplateWall: {
+	DisplayName: Стена из пирообшивки
+	Tooltip: ""
+}
+
+Pyroplate: {
+	DisplayName: Пирообшика
+	Tooltip: Она резонирует с потусторонней энергией
+}

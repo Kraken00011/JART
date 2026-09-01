@@ -1,0 +1,24 @@
+Ammo: {
+	Dart.ProfanedDart: {
+		DisplayName: Осквернённый дротик
+		Tooltip:
+			'''
+			Отскакивает между врагами
+			Взрывается при столкновении
+			'''
+	}
+
+	Arrow.FrostfireArrow: {
+		DisplayName: Стрела ледяного огня
+		Tooltip: Взрывается при столкновении
+	}
+
+	Solution.CyanSolution: {
+		DisplayName: Голубой раствор
+		Tooltip:
+			'''
+			Используется «Очистителем»
+			Распространяет замороженную преисподнюю
+			'''
+	}
+}

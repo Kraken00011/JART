@@ -1,0 +1,34 @@
+HuskOfCalamity: {
+	DisplayName: Бедственный панцирь
+	Tooltip: "'Останки адского моллюска'"
+}
+
+ClamitousPearl: {
+	DisplayName: Жемчужина Каламидии
+	Tooltip: "'Настал час моллюска!'"
+}
+
+EnchantedMetal: {
+	DisplayName: Зачарованный металл
+	Tooltip: "'Металл, наполненный силами души самого мира Террарии'"
+}
+
+MetalFeather: {
+	DisplayName: Металлическое перо
+	Tooltip: ""
+}
+
+RarePlanteraFruit: {
+	DisplayName: Редкий фрукт Плантеры
+	Tooltip: ""
+}
+
+CoralskinFoolfish: {
+	DisplayName: Коралочешуйчатая рыба-болван
+	Tooltip: "'Камуфляж - один из лучших способов защиты в природе'"
+}
+
+EndobsidianBar: {
+	DisplayName: Эндообсидиановый слиток
+	Tooltip: Weird material. Cold on touch but feel warm at same time.
+}

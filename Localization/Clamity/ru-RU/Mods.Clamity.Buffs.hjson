@@ -1,0 +1,54 @@
+SupremeLucky: {
+	DisplayName: Высшая удача
+	Description: Вы ощущаете себя невероятно удачливым
+}
+
+HellstoneShellfishStaffBuff: {
+	DisplayName: Моллюск адского камня
+	Description: За вас сражаются моллюски адского камня
+}
+
+HellsBellsBuff: {
+	DisplayName: Обсидиановый колокол
+	Description: За вас сражаются адские колокола
+}
+
+WarCleave: {
+	DisplayName: Боевой клич
+	Description: ""
+}
+
+ExoBaguetteBuff: {
+	DisplayName: Экзо-багет
+	Description: "[c/04c000:'Экзо-бонжур' ~WitherTaco]"
+}
+
+BrimChairBuff: {
+	DisplayName: Серный трон
+	Description: Сидушка довольно горячая, но всё ещё довольно приятная
+}
+
+PlagueChairBuff: {
+	DisplayName: Чумное кресло
+	Description: Вы восседаете на геймерском кресле, бросающем вызов физике
+}
+
+PlanterrorStaffBuff: {
+	DisplayName: Гантера
+	Description: "'Добро пожаловать в джунгли!'"
+}
+
+HeavyMetalTrashCanBuff: {
+	DisplayName: Мини-ботти
+	Description: Хитори Готок следует за вами
+}
+
+TitanScalePotionBuff: {
+	DisplayName: Титаническая чешуя
+	Description: За каждое попадание оружием истинного ближнего боя ваша защита увеличивается на 5 ед., а сопротивление урону и отбрасывание ближнего боя на 5%
+}
+
+GlacialRevenge: {
+	DisplayName: Ледниковая месть
+	Description: ""
+}

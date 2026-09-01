@@ -1,0 +1,9 @@
+PyrogenBag: {
+	DisplayName: Мешок с сокровищами (Пироген)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+WoBTreasureBag: {
+	DisplayName: Коробка с сокровищами (Стена бронзы)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}

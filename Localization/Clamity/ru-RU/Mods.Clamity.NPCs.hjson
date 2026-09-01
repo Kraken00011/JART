@@ -1,0 +1,51 @@
+ClamitasBoss: {
+	DisplayName: Каламидия, высший моллюск
+	Bestiary: Будучи проклятым самой Каламитас, гигантский моллюск впитал в себя силу серы. Когда в нём не осталось ни капли силы океана, он превратился в Каламидию, силе которой никто и ничто не может противостоять.
+
+	BossChecklistIntegration: {
+		SpawnInfo: Используйте [i:Clamity/ClamitasSummoningItem], находясь на серных утёсах.
+		DespawnMessage: "[c/FFD700:Каламидия возвращается в укрытие в своём укромном гроте.]"
+	}
+}
+
+PyrogenBoss: {
+	DisplayName: Пироген
+	Bestiary: Колоссальная магическая печь, выкованная неизвестным кузнецом пламени, содержащая большое количество эссенции пламени. «Более 1000 скоростей света в секунду!».
+
+	BossChecklistIntegration: {
+		SpawnInfo: Используйте [i:Clamity/PyroKey], находясь в пустыне.
+		DespawnMessage: "[c/FFD700:Пироген вновь спустился в своё пылающее озеро.]"
+	}
+}
+
+Stupid.DisplayName: Самая легендарная среди высших Каламидий Каламидия в одежде Ксерока от Supreme
+StormElemental.DisplayName: Штормовой элементаль
+PyrogenShield.DisplayName: Щит Пирогена
+WallOfBronzeTorret.DisplayName: Бронзовая турель
+WallOfBronzeLaser.DisplayName: Бронзовая лазерная машина
+WallOfBronzeClaw.DisplayName: Бронзовый коготь
+
+WallOfBronze: {
+	DisplayName: Стена бронзы
+	Bestiary: Древняя машина, хранитель более могущественных духов, чем духи из Стены плоти. Один из них может заморозить даже такое жаркое место, как преисподняя.
+
+	BossChecklistIntegration: {
+		SpawnInfo: Нажмите ПКМ по любому блоку с помощью [i:Clamity/AncientConsole], находясь в преисподней.
+		DespawnMessage: "[c/FFD700:Колоссальная машина продолжает свой вечный путь по преисподней.]"
+	}
+}
+
+ClockworkBat: {
+	DisplayName: Бронзовая летучая мышь
+	Bestiary: Обычные дроны Стены бронзы, ставшие неуправляемыми после уничтожения Стены бронзы.
+}
+
+GlacialSlime: {
+	DisplayName: Обледенелый слизень
+	Bestiary: Адский слизень, напитавшийся эссенцией мороза. Слизень пытался взорваться, но разница температур превращает его попытки в обледенелые колючки.
+}
+
+MetalMaw.DisplayName: Металлическая пасть
+MechanicalLeechTail.DisplayName: Механическая пиявка
+MechanicalLeechHead.DisplayName: Механическая пиявка
+MechanicalLeechBody.DisplayName: Механическая пиявка
