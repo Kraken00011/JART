@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;
@@ -14,10 +12,10 @@ internal class ThoriumReworkSetBonuses : ModSystem
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
         ModLoader.TryGetMod("ThoriumRework", out Mod thRew);
 
-        string titanRework = Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.TitanArmor");
-
         if (tru != null && thRew != null)
         {
+            string titanRework = Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.TitanArmor");
+
             tru.Call("AddArmorSetBonusPreview", thRew.Find<ModItem>("TitanHat").Type, (Func<string>)(() =>
                 Language.GetTextValue("Mods.ThoriumMod.Items.TitanHelmet.SetBonus", 18) + "\n" + titanRework
             ));

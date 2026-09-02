@@ -620,30 +620,31 @@ Items: {
 
 	ElectronSpearTip: {
 		DisplayName: Электронный наконечник копья
-		Tooltip: Spear weapons will release a plasmic shockwave that severely burns enemies
+		Tooltip: Копья будут выпускать плазменные ударные волны, обжигающие врагов мощным пламенем
 	}
 
 	ExecutionersContract: {
 		DisplayName: Договор палача
 		Tooltip:
 			'''
-			Получение эссенций души, используя лучезарные косы, даёт 1 стак агрегатного заряда
-			Нанесение лучезарного урона снарядами кос или любым оружием, кроме кос, расходует все накопленные стаки агрегатного заряда и взамен даёт эссенции души
+			Получение эссенций души во время использования лучезарных кос будет давать 1 стак агрегатного заряда
+			Нанесение лучезарного урона снарядами кос или любым оружием, кроме самих кос, расходует все накопленные стаки агрегатного заряда и взамен даёт эссенции души
 			'Принеси мне их души...'
 			'''
 	}
 
 	FanDonations: {
-		DisplayName: Пожертвования фанатов
+		DisplayName: Подарки от фаната
 		Tooltip:
 			'''
-			All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
-			Piercing string instrument attacks increase in speed every hit and no longer lose damage
-			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
-			Percussion instrument attacks launch hammers upward that eventually fall down
-			Electronic instrument projectiles are significantly faster
+			Все симфонические атаки при попадании по врагу будут вызывать взрыв варьирующегося размера, наносящий на 50% меньше критического урона
+			Пронзающие снаряды струнных инструментов будут увеличивать свою скорость с каждым попаданием
+			Полностью снимает штраф к урону от пронзающих атак струнных инструментов
+			Атаки некоторых струнных инструментов, активирующие эффекты при столкновении с блоками, будут активировать тот же эффект и при попадании по врагу
+			Атаки ударных инструментов запускают вверх падающие молоточки
+			Значительно увеличивает скорость снарядов всех электронных инструментов
 			Увеличивает максимальный запас вдохновения на 5 очков
-			'Does not sell much, unfortunately. At least someone is kind enough to provide...'
+			'Жалко, но многого сейчас не продаётся. По крайней мере, этот добрый человек был готов кое-чем вас снабдить...'
 			'''
 	}
 
@@ -675,20 +676,20 @@ Items: {
 		DisplayName: Ручная ракета
 		Tooltip:
 			'''
-			Throw a handheld rocket that will explode four times at a set distance
+			Бросает ручную ракету, вызывающую 4 взрыва после определённого количества пройденных блоков
 			'Карманная ракета!'
 			'''
 	}
 
 	HeadHunter: {
-		DisplayName: Головорез
+		DisplayName: Охотник за головами
 		Tooltip:
 			'''
 			This scythe is swung directionally and is spun twice every 2 swings
 			Gaining soul essence, landing crits or being in combat creates ice shards that follow you
 			Ice shards give the user +10 defense each but there can only be 4 at once
 			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
-			'Belongs to a certain demon who allegedly runs a coffee shop...'
+			'Принадлежит одному демону, который, по слухам, владеет кофейней...'
 			'''
 	}
 
@@ -822,7 +823,7 @@ Items: {
 		DisplayName: Картина «(Не такие уж и) очаровательные дамы»
 		Tooltip:
 			'''
-			'Горяченькие мамочки-одиночки на вашем районе так и жаждут встречи! (С вашим разорванным трупом)'
+			'Горяченькие мамочки-одиночки на вашем районе так и жаждут встречи! (с вашим разорванным трупом)'
 			От (Not) Una Nancy Owen
 			'''
 	}
@@ -897,8 +898,8 @@ Items: {
 			'''
 			Увеличивает максимальный запас здоровья на 60 ед.
 			Исцеляющие заклинания восстанавливают дополнительно 5 ед. здоровья
-			Gaining soul essence with radiant scythes grant a stack of aggregate charge and shield when health is full
-			Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
+			Получение эссенций души во время использования лучезарных кос будет давать 1 стак агрегатного заряда
+			Нанесение лучезарного урона снарядами кос или любым оружием, кроме самих кос, расходует все накопленные стаки агрегатного заряда и взамен даёт эссенции души
 			'Договор - не приговор!'
 			'''
 	}
@@ -969,7 +970,7 @@ Items: {
 			Позволяет дышать в космосе и даёт эффекты от баффа «{$BuffName.NightOwl}»
 			Совершение рывка телепортирует вас на несколько блоков вперёд
 			Не работает с особыми рывками
-			Даёт рывок, если у вас его нет
+			Даёт возможность совершать рывок, если у вас нет такой способности
 			{$Items.StarScoutReticleCosmetic.Tooltip}
 			'''
 	}
@@ -1783,7 +1784,7 @@ Configs: {
 			Tooltip:
 				'''
 				Примечание: Единственное, что было изменено в броне - её бонус комплекта.
-				Дополнительные титанические шлема отключаются в настройке «{Configs..Label}» Also, the added helmets are toggled via Extra Items, not this.
+				Новые титанические шлема отключаются в настройке «{$Configs.CompatConfig.extraItems.Label}», эта настройка их не добавляет, а значит и не отключает.
 				'''
 		}
 
@@ -2041,12 +2042,12 @@ Achievements: {
 	}
 
 	MyBatsAreKindaChamberless: {
-		FriendlyName: Кровосиси теперь без крово
+		FriendlyName: (Не такие уж и) кровосиси
 		Description: Одержать победу над Виконтом, не позволив ни одной из его летучих мышей высосать из вас кровь.
 	}
 
 	OnEvenGrounds: {
-		FriendlyName: Наконец-то, достойный соперник! / Честный бой (хз, какой варик лучше)
+		FriendlyName: Наконец-то, достойный соперник!
 		Description: Одержать победу над Погребённым чемпионом, нанося по нему только урон ближнего боя в 1 фазе, стрелковый урон - во 2, и магический либо урон призывателя - в 3 фазе.
 	}
 

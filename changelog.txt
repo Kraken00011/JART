@@ -1,7 +1,7 @@
 v{ModVersion} (Бета-чейнджлог)
 Переводы:
-- Добавлены переводы модов Unofficial Redemption Bard, Thrower & Healer (заморожен, продолжу когда снова захочу); Infernal Arsenal (почти доделан, осталась «проверка качества»); Thorium Helheim (WIP); Ragnarok Mod (ещё не начат, в планах после helheim)
-- Обновлён перевод мода Multiclass Armors до последней версии
+- Добавлены переводы модов Unofficial Redemption Bard, Thrower & Healer (заморожен, продолжу чуть позже); Infernal Arsenal (почти доделан, осталась «проверка качества»); Thorium Helheim (WIP); Ragnarok Mod (ещё не начат, в планах после helheim) и VFX+
+- Обновлены переводы модов Multiclass Armors и Cataclysm до последней версии
 - Значительные изменения в некоторых уже добавленных переводах
 Другие изменения:
-- Добавлена поддержка tRU (и всё с ней прилагающееся) для модов Crown Set Bonuses; Unofficial Redemption Bard, Thrower & Healer (будет); Infernal Arsenal; Thorium Helheim (частично); Ragnarok Mod (будет)
+- Добавлена поддержка tRU (и всё с ней прилагающееся) для модов Crown Set Bonuses; Unofficial Redemption Bard, Thrower & Healer (будет); Infernal Arsenal; Thorium Helheim (частично) и Ragnarok Mod (будет)
