@@ -35,7 +35,7 @@ internal class ThoriumReworkSetBonuses : ModSystem
             ));
 
             tru.Call("AddArmorSetBonusPreview", thRew.Find<ModItem>("WhistlersHat").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.ThoriumMod.Items.WhistlersHat.SetBonus")
+                Language.GetTextValue("Mods.ThoriumRework.Items.WhistlersHat.SetBonus")
             ));
         }
     }

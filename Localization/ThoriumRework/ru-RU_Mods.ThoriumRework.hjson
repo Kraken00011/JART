@@ -185,12 +185,12 @@ ItemDescriptions: {
 	ValadiumBlaster:
 		'''
 		Атаки временно поражают врагов межпространственной энергией
-		Каждая выстрел поражает ближайшего врага, подверженного дебаффу «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», пустотной молнией
+		Каждый выстрел поражает ближайшего врага, подверженного дебаффу «{$Mods.ThoriumMod.Buffs.IlluminatedNPC.DisplayName}», пустотной молнией
 		'''
 	ValadiumSpear:
 		'''
 		Атаки временно поражают врагов межпространственной энергией
-		При попадании призывает лучи пустотного света, стремительно рассекающие врагов
+		При попадании призывает лучи пустотного света, стремительно рассекающие поражённых врагов
 		'''
 	OrnateArmor: Отключает возможность сфальшивить при игре на большом инструменте, но взамен останавливает восстановление вдохновения пока вы держите любой подобный инструмент
 	SoulRender:
@@ -211,27 +211,27 @@ ItemDescriptions: {
 		'''
 	DragonTooth:
 		'''
-		Every fourth attack releases a cursed dragon spirit
-		Critical strikes create a ring of cursed inferno
+		Каждую 4 атаку высвобождает дух проклятого дракона в направлении курсора
+		При нанесении критического удара создаёт кольцо проклятого инферно
 		'''
 	DragonTalon: Выпускает пламя проклятого инферно из наконечника копья
 	DreadBlaster:
 		'''
-		Tap left click to fire a burst of dread pulses
-		Hold left click to unleash a barrage of dread pulses
-		Hitting enemies expel offensive dread energy
+		Нажмите ЛКМ, чтобы выстрелить очередью устрашающих импульсов
+		Удерживайте ЛКМ, чтобы высвободить каскад устрашающих импульсов с огромным разбросом
+		При попадании извергает атакующую энергию ужаса
 		'''
 	DemonBloodStaff:
 		'''
-		Unleash a barrage of homing demon blood souls and as well as ichor souls every fourth attack
+		Высвобождает каскад самонаводящихся духов демонической крови, а каждую 4 атаку дополнительно высвобождает ихорного духа
 		При нанесении урона даёт заряд крови
 		При максимальном количестве зарядов следующая атака нанесёт двойной урон и исцелит на 20% от нанесённого урона
 		'''
 	DreadRazor:
 		'''
-		Every third and fourth attack unleashes a cursed dragon spirit
-		Right click to release a stream of dread energy
-		Attacking automatically accumulates dread energy
+		Каждую 3 и 4 атаку высвобождает дух проклятого дракона в направлении курсора
+		Нажмите ПКМ, чтобы выпустить поток энергии ужаса
+		При попадании извергает атакующую энергию ужаса
 		'''
 	DreadTearer:
 		'''
@@ -305,25 +305,24 @@ ItemDescriptions: {
 		'''
 	RealitySlasher:
 		'''
-		Hold left click to spin a reality rending scythe that builds up speed
-		When maximum speed is reached, release left click to throw the scythe
-		When thrown, hold left click again to move the scythe to your cursor
+		Удерживайте ЛКМ, чтобы раскрутить разрывающую реальность косу, постепенно увеличивая скорость её вращения
+		Отпустите ЛКМ после достижения максимальной скорости вращения, чтобы бросить косу в направлении курсора
+		Пока коса находится в броске, удерживайте ЛКМ, чтобы управлять её движением
 		'''
 	DoomSayersCoin:
 		'''
-		Inflicts Terminal Lucidity in phase 2, boss cannot be damaged until it is removed
-		Fly into purple circles you see if you want to live and remove Terminal Lucidity
-		These purple circles are highlighted by an arrow placed on your location
-		When Terminal Lucidity is removed, DPS phase begins and lasts for 20 seconds
-		If Terminal Lucidity timer runs out, you will die instantly
-		Dream Eater is permanently damageable during rematch fights
-		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
-		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		Во 2 фазе накладывает дебафф «{$Buffs.TerminalLucidity.DisplayName}», во время действия которого босс не может получать урон
+		Пролетайте через фиолетовые сферы, чтобы выжить и снять «{$Buffs.TerminalLucidity.DisplayName}»
+		Фиолетовая стрелка, появляющаяся внутри персонажа, укажет на их местоположение
+		Если у вас удастся снять «{$Buffs.TerminalLucidity.DisplayName}», защита босса спадёт, но всего на 20 секунд; во время этого вы должны нанести как можно больше урона
+		Если же таймер «Терминального ясновидения» истечёт, вы мгновенно погибнете
+		Во время повторных сражений Пожиратель снов всегда уязвим к атакам
+		{$ItemDescriptions.DoomSayersCoinNoLucidity}
 		'''
 	DoomSayersCoinNoLucidity:
 		'''
-		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
-		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		Если вы одолели Пожирателя снов хотя бы 1 раз, нажмите ПКМ, чтобы призвать его сразу же, без битвы с Первородными
+		Кроме того, если Первородные во время нажатия ПКМ оставались живыми, они мгновенно исчезнут
 		'''
 }
 
@@ -653,7 +652,7 @@ Items: {
 		Tooltip:
 			'''
 			Призывает крылатую флейту, стреляющую во врагов
-			Каждый выстрел флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
+			Каждый выстрел флейта накладывает усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'Полковник, взгляните на радар!'
 			'''
 	}
@@ -668,7 +667,7 @@ Items: {
 			Атаки ваших духовых инструментов теперь быстрее нацеливаются на врагов
 			Если атака уже нацелена на врага, она делает это гораздо быстрее
 			Призывает крылатую флейту, стреляющую во врагов
-			Каждый выстрел флейта даёт усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
+			Каждый выстрел флейта накладывает усиления «{$Mods.ThoriumMod.Empowerments.FlightTime.DisplayName} II» и «{$Mods.ThoriumMod.Empowerments.ResourceRegen.DisplayName} I»
 			'''
 	}
 
