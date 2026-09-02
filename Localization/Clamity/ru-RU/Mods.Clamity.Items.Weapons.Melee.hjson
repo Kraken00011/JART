@@ -10,7 +10,7 @@ ClamitasCrusher: {
 
 SearedShredder: {
 	DisplayName: Обожжённый измельчитель
-	Tooltip: Releases a flaming scythe that follows your mouse and returns after a short time
+	Tooltip: Выпускает пламенную косу, следующую за вашим курсором и возвращающуюся обратно через несколько секунд
 }
 
 RGBMurasama: {
@@ -40,7 +40,7 @@ WulfrumLeechDagger: {
 
 Everest: {
 	DisplayName: Эверест
-	Tooltip: Стреляет каскадом огненных вулканических шаров
+	Tooltip: Выпускает каскад вулканических огненных шаров
 }
 
 Hyperion: {
@@ -49,17 +49,17 @@ Hyperion: {
 }
 
 GreatestPeak: {
-	DisplayName: Greatest Peak
+	DisplayName: Величайший пик
 	Tooltip:
 		'''
-		Swings a slow and heavy coldest blade with powerful knockback
-		Holding <right> will begin charging a strengthened swing
-		Releasing <right> while fully charged will unleash a devastating slash that always critically strikes, and cold lingering mist
-		[c/91C5CE:'Very Peak']
+		Взмахивает медленным, обмораживающим клинком с мощным отбрасыванием
+		Удерживайте ПКМ, чтобы подготовить усиленный замах
+		Если отпустить ПКМ при полном заряде, вы совершите сокрушительный взмах, всегда наносящий критический удар и вызывающий морозный туман, наносящий урон
+		[c/91C5CE:'Какой же это пик']
 		'''
 }
 
 StunGun: {
-	DisplayName: Stun Gun
+	DisplayName: Оглу-пушка
 	Tooltip: ""
 }

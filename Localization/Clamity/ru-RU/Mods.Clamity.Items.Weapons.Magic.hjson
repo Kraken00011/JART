@@ -11,12 +11,12 @@ Unicron: {
 
 TheGenerator: {
 	DisplayName: Генератор
-	Tooltip: Запускает мастер-символ короны, самонаводящийся и притягивающий ближайших врагов
+	Tooltip: Выпускает мастер-символ короны, самонаводящийся и притягивающий ближайших врагов
 }
 
 MoonstoneKnives: {
 	DisplayName: Кинжалы лунного камня
-	Tooltip: Бросает несколько кинжалов, восстанавливающих ману игрока
+	Tooltip: Бросает несколько кинжалов, восстанавливающих ману при попадании
 }
 
 EtherealKnives: {
@@ -30,6 +30,6 @@ GaiaRose: {
 }
 
 PetalOfEverest: {
-	DisplayName: Petal Of Everest
-	Tooltip: You see it very WIP!!
+	DisplayName: Лепесток Эвереста
+	Tooltip: Этот предмет пока-что находится в разработке!!
 }

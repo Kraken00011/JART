@@ -51,11 +51,11 @@ StarfishFromTheDepth: {
 }
 
 SubzeroSlicer: {
-	DisplayName: Subzero Slicer
+	DisplayName: Рассекатель абсолютного нуля
 	Tooltip:
 		'''
-		Throwns a fast blades made of coldest material
-		Homes on target and creates an vortex on his position
-		On Stealth Strike throw multiple blades in bigger vortex
+		Бросает быстрые лезвия, выкованные из самого холодного металла террарии
+		Самонаводится на врагов и при попадании вызывает вихрь
+		При скрытном ударе вызывает усиленный вихрь
 		'''
 }

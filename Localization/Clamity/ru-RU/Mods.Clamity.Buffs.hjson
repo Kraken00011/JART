@@ -35,7 +35,7 @@ PlagueChairBuff: {
 
 PlanterrorStaffBuff: {
 	DisplayName: Гантера
-	Description: "'Добро пожаловать в джунгли!'"
+	Description: Welcome To The Jungle!
 }
 
 HeavyMetalTrashCanBuff: {
@@ -45,7 +45,7 @@ HeavyMetalTrashCanBuff: {
 
 TitanScalePotionBuff: {
 	DisplayName: Титаническая чешуя
-	Description: За каждое попадание оружием истинного ближнего боя ваша защита увеличивается на 5 ед., а сопротивление урону и отбрасывание ближнего боя на 5%
+	Description: За каждое попадание оружием истинного ближнего боя ваша защита увеличивается на 5 ед., а также сопротивление урону и отбрасывание ближнего боя на 5%
 }
 
 GlacialRevenge: {
