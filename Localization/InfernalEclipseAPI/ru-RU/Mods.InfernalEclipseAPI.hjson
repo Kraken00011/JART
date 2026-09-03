@@ -2395,6 +2395,26 @@ Items: {
 		DisplayName: Музыкальная шкатулка (Королева слизней - Инфернум)
 		Tooltip: Проигрывает «Crowned Before One's End» за авторством PinpinNeon
 	}
+
+	CodebreakerMusicBox: {
+		DisplayName: Музыкальная шкатулка (Интерлюдия Дешифратора)
+		Tooltip: Проигрывает 'Arsenal' за авторством TheTrester
+	}
+
+	ProvidenceNightMusicBox: {
+		DisplayName: Музыкальная шкатулка (Провиденс - Ночь)
+		Tooltip: Проигрывает «Unholy Finality» за авторством Brimston Premium
+	}
+
+	ThunderBirdMusicBox: {
+		DisplayName: Музыкальная шкатулка (Великая громовая птица - Рагнарёк)
+		Tooltip: Проигрывает «Infernal Thunder Bird» за авторством Techhy
+	}
+
+	VassalMusicBox: {
+		DisplayName: Музыкальная шкатулка (Обездоленный вассал - Рагнарёк)
+		Tooltip: Проигрывает «Dead Kingdom's Champion» за авторством Techhy
+	}
 }
 
 Projectiles: {
