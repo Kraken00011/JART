@@ -28,12 +28,12 @@ Trophies: {
 }
 
 FrozenHellstone: {
-	DisplayName: Обледенелый адский камень
+	DisplayName: Эндообсидиан
 	Tooltip: ""
 }
 
 FrozenAsh: {
-	DisplayName: Обледенелый пепел
+	DisplayName: Заледенелый пепел
 	Tooltip: ""
 }
 

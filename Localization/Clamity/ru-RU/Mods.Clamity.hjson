@@ -74,26 +74,26 @@ Misc: {
 	None: ""
 	DefeatedWoB: После победы над Стеной бронзы
 	FrozenHellMessege: Вы чувствуете, как центр преисподней леденеет
-	GeneratedFrozenHell: Если замёрзшая преисподняя не сгенерировалась или активна особая конфигурация
+	GeneratedFrozenHell: Если заледенелая преисподняя не сгенерировалась или активна особая конфигурация
 	NanotechEthereal: Разбойные снаряды взрываются и выпускают самонаводящихся душов при столкновении
 }
 
 Tiles: {
-	FrozenHellstoneTile.MapEntry: Обледенелый адский камень
-	FrozenAshTile.MapEntry: Обледенелый пепел
+	FrozenHellstoneTile.MapEntry: Эндообсидиан
+	FrozenAshTile.MapEntry: Заледенелый пепел
 }
 
 Biomes: {
 	FrozenHell: {
-		TownNPCDialogueName: Замёрзшая преисподняя
-		DisplayName: Замёрзшая преисподняя
+		TownNPCDialogueName: Заледенелая преисподняя
+		DisplayName: Заледенелая преисподняя
 	}
 }
 
 InfernumIntro: {
 	Pyrogen:
 		'''
-		ПЕЧЬ АЗАФУРА
+		АЗАФУРСКАЯ ПЕЧЬ
 		ПИРОГЕН
 		'''
 	WoB:
@@ -128,7 +128,7 @@ Configs: {
 		}
 
 		PermafrostSoldEnchantedMetal: {
-			Label: "[i:Clamity/Endobsidian] Возможность покупки эндообсидиана у Пермафроста"
+			Label: "[i:Clamity/EndobsidianBar] Возможность покупки эндообсидиана у Пермафроста"
 			Tooltip: Позволяет Пермафросту продавать зачарованный метал, игнорируя существование замёрзшей преисподней.
 		}
 	}

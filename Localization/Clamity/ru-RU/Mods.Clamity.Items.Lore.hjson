@@ -3,14 +3,14 @@ LoreWhat: {
 	Tooltip: ""
 	Lore:
 		'''
-		Following the reduction of Illmeris to the desert wasteland it has become,
-		most of the surviving creatures fled, seeking refuge within the surrounding ecosystems.
-		This, however, I did not anticipate. A clam taking refuge in the Azafure - a place that at first glace is not suitable for life.
-		Such a journey would not have been made though conventional means,
-		as to reach a place such as Azafure speaks to a remarkable degree of control... or desperation.
-		Absorbing a huge amount of sulfur into its enchanted pearl, it was cursed, and yet, it endured and gained unprecedented power.
-		It is a reminder that the will to survive knows no bounds.
-		I have seen lesser beings crumble under far less... and others rise beyond what should have ever been possible.
+		После полного испепеления Ильмериса и его последующего становления безжизненной пустошью
+		большинство выживших существ бежали в поисках убежища в ближайшие экосистемы
+		Но того, что моллюск нашёл себе убежище в Азафуре - месте, которое на первый взгляд абсолютно не пригодно для жизни, - я точно не предвидел
+		Такое «путешествие» невозможно было проделать обычными способами,
+		ибо для переезда в такое место, как Азафур, нужно быть либо крайне самоотверженным... либо крайне отчаянным
+		Поглощение недюжинного количества серы её зачарованной жемчужной прокляло её, но даже так она выжила и даже напиталась огромной силой после этого
+		Это небольшое напоминание о том, что существо, желающее выжить, не знает никаких границ и может найти себе покой даже в подобных местах
+		Я видел более низшие существа прогибались под тяжестью своего бремени... и как другие поднимались к высотам, казавшимся невозможными
 		'''
 }
 
@@ -19,8 +19,9 @@ LorePyrogen: {
 	Tooltip: ""
 	Lore:
 		'''
-		The ancient furnace of the blacksmith god. It shares an auric soul with its master.
-		But after my crusade, he was gone. I didn't take care of the second part of this soul, which led to the uncontrollability of the furnace and got a mind.
+		Старинная печь божества-кузнеца, разделяющая ауритовую душу вместе со своим хозяином
+		Но после моего крестового похода его не стало 
+		Я не «позаботился» о второй части его души, что привело к тому, что эта печь озверела и стала разумной, хотя разумной - это грубо сказано
 		'''
 }
 
@@ -29,9 +30,9 @@ LoreWallOfBronze: {
 	Tooltip: ""
 	Lore:
 		'''
-		Scripts tell of an ancient, underworld-dwelling people that existed long before even the dragons.
-		According to these records, it was they who constructed the metal behemoth to both protect from threats powerful enough to devastate them,
-		and to act as a secondary source of power to keep even the Underworld geothermically active.
+		Старинные манускрипты повествовали о расе древних людей, обитавших в преисподней и существовавших ещё задолго до драконов
+		Из этих манускриптов можно сделать вывод, что именно они сотворили это металлическое чудовище для собственной защиты от опасностей, способных полностью уничтожить их
+		And to act as a secondary source of power to keep even the Underworld geothermically active.
 		With it gone, the delicate balance of the Underworld may now be in jeopardy, and I question what will become of the creatures that depend on it.
 		Regardless, it is impressive that people capable of such feats could vanish from history, and it speaks not only to the fragily of civilization,
 		but to its inevitablity. All things rise. All things fall.
