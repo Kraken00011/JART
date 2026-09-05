@@ -16,10 +16,7 @@ Calamity Simple Whips - небольшой аддон для Calamity Mod, ра�
 Этот мод НЕ меняет баланс Calamity.
 Он просто предлагает дополнительные возможности и альтернативы, учитывающие производительность.
 
-Список хлыстов:
-https://steamcommunity.com/workshop/filedetails/discussion/3630305943/690873811210351881/
-
-Список аксессуаров:
-https://steamcommunity.com/workshop/filedetails/discussion/3630305943/690873811210383777/
+Страница вики мода:
+https://terrariamods.wiki.gg/wiki/Calamity_Simple_Whip_Addon
 
 Для работы необходим Calamity Mod.
