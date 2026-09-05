@@ -637,7 +637,7 @@ Items: {
 		DisplayName: Подарки от фаната
 		Tooltip:
 			'''
-			Все симфонические атаки при попадании по врагу будут вызывать взрыв варьирующегося размера, наносящий на 50% меньше критического урона
+			Все симфонические атаки при попадании по врагу будут вызывать взрыв варьирующегося размера, наносящий на 50% меньше урона во время критического удара
 			Пронзающие снаряды струнных инструментов будут увеличивать свою скорость с каждым попаданием
 			Полностью снимает штраф к урону от пронзающих атак струнных инструментов
 			Атаки некоторых струнных инструментов, активирующие эффекты при столкновении с блоками, будут активировать тот же эффект и при попадании по врагу
@@ -685,10 +685,12 @@ Items: {
 		DisplayName: Охотник за головами
 		Tooltip:
 			'''
-			This scythe is swung directionally and is spun twice every 2 swings
-			Gaining soul essence, landing crits or being in combat creates ice shards that follow you
-			Ice shards give the user +10 defense each but there can only be 4 at once
-			<right> or switch weapons to shoot all the ice shards to the closest enemy to your cursor
+			Вместо вращения совершает взмахи по диагонали
+			Каждые 2 взмаха раскручивает косу вокруг вас
+			При получении эссенций души, нанесении критических ударов или нахождении в бою призывает за вашей спиной ледяные осколки
+			Каждый ледяной осколок увеличивает защиту на 10 ед.
+			Только 4 таких осколка может существовать одновременно
+			Нажмите ПКМ или переключитесь на другой слот, чтобы выпустить все накопленные осколки в направлении ближайшего к курсору врага
 			'Принадлежит одному демону, который, по слухам, владеет кофейней...'
 			'''
 	}
@@ -697,7 +699,7 @@ Items: {
 		DisplayName: Душа Хельхейма
 		Tooltip:
 			'''
-			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«Bubbled», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}», [i:ThoriumRework/VampireCape]Vampire's Curse и [i:ThoriumRework/DeepDarkShellShield]отбрасыванию
+			Даёт невосприимчивость к дебаффам [i:ThoriumRework/QueenJellyPin]«{$Mods.ThoriumMod.Buffs.Bubbled.DisplayName}», [i:ThoriumRework/VampireCape]«{$BuffName.Bleeding}», [i:ThoriumRework/VampireCape]«{$Mods.ThoriumMod.Buffs.VampiresCurseBuff.DisplayName}» и [i:ThoriumRework/DeepDarkShellShield]отбрасыванию
 			Даёт эффекты от предметов [i:ThoriumRework/BeholderTentacles]«{$ItemName.FrogLeg}», [i:ThoriumRework/BeholderTentacles]«{$ItemName.LavaWaders}» и [i:ThoriumRework/StriderMouthguard]«{$ItemName.HandWarmer}»
 			[i:ThoriumRework/BeholderTentacles][i:ThoriumRework/StriderMouthguard] Attacks inflict Frostbite and Hellfire, deal increased damage to, and gain shield from targets affected by either debuffs
 			[i:ThoriumRework/StriderMouthguard][i:ThoriumRework/UndyingGaze] Hold attack to generate up to three Frost Mytes, stop attacking to unleash them, granting Soul Essence on hit
@@ -716,12 +718,12 @@ Items: {
 	}
 
 	HolySheath: {
-		DisplayName: Освящённые ножны
+		DisplayName: Holy Sheath
 		Tooltip:
 			'''
 			{$Mods.ThoriumMod.Common.Tooltips.Sheath}
-			Landing a critical strike calls down a beam of light on your last hit target
-			The beam of light deals variably less damage on segmented targets
+			При попадании критическим ударом от ножен вызывает луч света в точке последнего поражённого врага
+			Луч света наносит значительно меньше урона по сегментированным врагам
 			'Your opponents would be saying this item's name when they see what it does'
 			'''
 	}
@@ -759,10 +761,10 @@ Items: {
 		DisplayName: Кусаригама
 		Tooltip:
 			'''
-			This mace counts as a scythe
-			Hitting enemies with the blade generates soul essence
-			Hitting enemies with the hilt generates lingering healing energy
-			Up to 2 healing energy can exist at once
+			Работает как булава, но считается косой
+			При попадании по врагу лезвием даёт эссенции души
+			При попадании по врагу ядром высвобождает парящие на месте заряды исцеляющей энергии
+			Только 2 таких заряда могут существовать одновременно
 			'''
 	}
 
@@ -780,9 +782,9 @@ Items: {
 		DisplayName: Магнетитовая притягивающая булава
 		Tooltip:
 			'''
-			Swings a magnetic mace that releases lingering healing energy on its first hit
-			Up to 4 healing energy can exist at once
-			Damage will sunder enemies, increasing the damage they take by 10% and attracting the mace to them
+			Взмахивает притягивающей булавой, высвобождающей парящие на месте заряды исцеляющей энергии при первом попадании по врагу
+			Только 4 таких заряда может существовать одновременно
+			При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон на 10%
 			'''
 	}
 
@@ -790,10 +792,10 @@ Items: {
 		DisplayName: Угромчитель
 		Tooltip:
 			'''
-			Wind and brass instrument attacks explode on hit
-			Explosion size varies based on the instrument played
-			Explosions deal 50% less critical strike damage
-			'У тебя есть заглушитель, а у меня угромчитель!'
+			Атаки духовых и медных инструментов будут вызывать взрыв при попадании по врагу
+			Размер взрыва зависит от инструмента, на котором играет игрок
+			Взрывы наносят на 50% меньше урона во время критических ударов
+			'У тебя есть заглушитель, а у меня есть угромчитель!'
 			'''
 	}
 
@@ -908,10 +910,10 @@ Items: {
 		DisplayName: Глубоководная одиссея
 		Tooltip:
 			'''
-			Shoots bouncing ripples accompanied by homing abyssal strikes
-			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration
-			Healing is increased for every unique empowerment allies have according to its level
-			'Calling the lurkers of the aquatic depths to play the finest symphony'
+			Стреляет 3 прыгучими пузырями и 1 самонаводящимся зарядом бездны
+			Нажмите ПКМ, чтобы потратить 10 очков вдохновения и выпустить самонаводящуюся каплю, исцеляющую врагов
+			Количество исцеляемого здоровья увеличивается в зависимости от количества уникальных усилений, наложенных на союзников, и их уровней
+			'Взывает к обитателям акватических глубин, чтобы те исполнили одну из величайших симфоний'
 			'''
 	}
 
@@ -968,9 +970,9 @@ Items: {
 		Tooltip:
 			'''
 			Позволяет дышать в космосе и даёт эффекты от баффа «{$BuffName.NightOwl}»
-			Совершение рывка телепортирует вас на несколько блоков вперёд
+			При совершении рывка телепортирует вас на несколько блоков вперёд в направлении движения
 			Не работает с особыми рывками
-			Даёт возможность совершать рывок, если у вас нет такой способности
+			Даёт возможность совершать рывок, если у вас не было такой возможности
 			{$Items.StarScoutReticleCosmetic.Tooltip}
 			'''
 	}
@@ -1003,7 +1005,7 @@ Items: {
 	}
 
 	TerrariumSoulScourge: {
-		DisplayName: Террариевый бич душ
+		DisplayName: Террариевый душехлёст
 		Tooltip:
 			'''
 			Swings a prismatic mace that releases lingering healing energy on its first hit
@@ -1061,8 +1063,8 @@ Items: {
 		DisplayName: Ториевая колотушка
 		Tooltip:
 			'''
-			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии при условии, что первый удар по врагу был нанесён именно этим оружием
-			Одновременно может существовать только 2 таких заряда
+			Взмахивает радиоактивной булавой, выпускающей парящие на месте заряды исцеляющей энергии при первом попадании по врагу
+			Только 2 таких заряда может существовать одновременно
 			'''
 	}
 
@@ -1080,9 +1082,9 @@ Items: {
 		DisplayName: "{$Items.UndyingGazeCosmetic.DisplayName}"
 		Tooltip:
 			'''
-			Нанесение критического удара будет гарантировано давать эссенции души Any critical strike now grants Soul Essence
-			Атаки, расходующие здоровье для атаки, также будут эссенции при любом попадании Attacks that use life will grant Soul Essence on any hit
-			Атаки, уже дающие эссенции души, будут давать их увеличенное количество Attacks that already grant Soul Essence will grant an extra charge
+			Нанесение критического удара будет гарантировано давать эссенции души
+			Атаки, расходующие здоровье для атаки, также будут давать эссенции при любом попадании
+			Атаки, изначально дающие эссенции души, будут давать их увеличенное количество
 			'''
 	}
 
