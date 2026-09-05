@@ -22,7 +22,6 @@ internal class CalamitySimpleWhipAddonPrefixes : ModSystem
                 "KusariGama",
                 "MermaidsTear",
                 "ResonantVoid",
-                "SkybreakerCoil",
                 "RapierWhip",
                 "StrikerEmblem",
                 "LayeredPain",

@@ -1,4 +1,5 @@
 Cooldowns: {
 	ShieldConduitDurability: Прочность щитового проводника
 	ShieldConduitRecharge: Перезарядка щитового проводника
+	ShieldConduitRecovery: Восстановление щитового проводника
 }
