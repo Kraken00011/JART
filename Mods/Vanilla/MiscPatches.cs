@@ -34,6 +34,12 @@ public partial class MiscPatches : GlobalItem
 
                     if (tooltip.Text.Contains("Heals ally life equal to your bonus healing"))
                         tooltip.Text = "Лечит здоровье союзников на величину, равную вашему бонусному исцелению";
+
+                    if (tooltip.Text.Contains("Heals ally and player life equal ") && tooltip.Text.Contains(" Max)"))
+                    {
+                        tooltip.Text = tooltip.Text.Replace("Heals ally and player life equal to your bonus healing (", "Лечит союзника и игрока на величину, равную вашему бонусному исцелению (максимум ") + " ед.)";
+                        tooltip.Text = tooltip.Text.Replace(" Max)", "");
+                    }
                 }
 
                 if (tooltip.Name == "AccessoryDamage")

@@ -1273,18 +1273,18 @@ Configs: {
 		DisplayName: Клиентская конфигурация
 
 		flash: {
-			Label: Flashing lights intensity
-			Tooltip: How bright or how dim flashes are.
+			Label: Интенсивность мигающих вспышек
+			Tooltip: Меняет яркость вспышек в моде под заданное значение.
 		}
 
 		overlay: {
-			Label: Overlay intensity
-			Tooltip: How transparent screen overlays are.
+			Label: Интенсивность оверлея
+			Tooltip: Меняет прозрачность оверлеев в моде под заданное значение.
 		}
 
 		seizures: {
-			Label: Photosensitivity warning
-			Tooltip: Prompts a photosensitivity warning when joining a world.
+			Label: Предупреждение о светочувствительности
+			Tooltip: Выводит в чат особое сообщение, предупреждающее игрока о большом количестве ярких вспышек в моде при заходе в мир.
 		}
 
 		bossRenames: {
@@ -1293,7 +1293,7 @@ Configs: {
 		}
 
 		starScouterEnrageText: {
-			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Text"
+			Label: "[i:ThoriumMod/StarScouterMask]Текст во время перехода Звёздного разведчика в ярость"
 			Tooltip:
 				'''
 				Whether or not Star Scouter shows a text pop-up indicating enrage.
@@ -1302,7 +1302,7 @@ Configs: {
 		}
 
 		starScouterEnrageVisuals: {
-			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter Enrage Visuals"
+			Label: "[i:ThoriumMod/StarScouterMask]Визуальные эффекты ярости Звёздного разведчика"
 			Tooltip:
 				'''
 				Whether or not Star Scouter turns red when enraged.
@@ -1311,7 +1311,7 @@ Configs: {
 		}
 
 		lichOutline: {
-			Label: "[i:ThoriumMod/LichMask]Lich Aura Intensity"
+			Label: "[i:ThoriumMod/LichMask]Интенсивность ауры Лича"
 			Tooltip:
 				'''
 				Controls the intensity of the faint red glow around the Lich.
@@ -1326,20 +1326,20 @@ Configs: {
 
 		healthScale: {
 			Label: Множитель здоровья
-			Tooltip: Multiplies the health of Thorium's bosses by this amount.
+			Tooltip: Увеличивает здоровье боссов из Thorium под заданный множитель.
 		}
 
 		damageScale: {
 			Label: Множитель урона
-			Tooltip: Multiplies the attack damage of Thorium's bosses by this amount.
+			Tooltip: Увеличивает урон от атак боссов из Thorium под заданный множитель.
 		}
 
 		speedScale: {
 			Label: Множитель скорости
 			Tooltip:
 				'''
-				Multiplies the movement speed of Thorium's bosses by this amount.
-				Limited to 2x speed as any higher breaks bosses.
+				Увеличивает скорость боссов из Thorium под заданный множитель.
+				Максимальное значение - 2x, ибо значения выше ломают ИИ боссов.
 				'''
 		}
 
@@ -1363,7 +1363,7 @@ Configs: {
 			Tooltip:
 				'''
 				(Необязательно)
-				Adds some unrelated items that are from this mod.
+				Добавляет несколько несвязанных с основной тематикой мода предметов.
 				'''
 		}
 
@@ -1372,7 +1372,7 @@ Configs: {
 			Tooltip:
 				'''
 				(Необязательно)
-				Adds some buff potions relating to Thorium's class that are from this mod.
+				Добавляет несколько новых зелий, связанных с классами из Thorium.
 				'''
 		}
 
@@ -1381,31 +1381,31 @@ Configs: {
 			Tooltip:
 				'''
 				(Необязательно)
-				Adds some prefixes relating to Thorium's class items that are from this mod.
+				Добавляет несколько новых перековок, связанных с классовыми предметами из Thorium.
 				'''
 		}
 
 		masterDrops: {
-			Label: Master Mode Drops
+			Label: Эксклюзивная добыча для сложности Мастер
 			Tooltip:
 				'''
 				(Рекомендовано!)
-				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode.
+				На сложностях Мастер, Месть или Вечность с боссов Thorium будет выпадать эксклюзивное для этих сложностей оружие.
 				'''
 		}
 
 		masterDropRate: {
 			Label: Частота выпадения предметов сложности Мастер (в процентах)
-			Tooltip: NOTE: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
+			Tooltip: ПРИМЕЧАНИЕ: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
 		}
 
 		masterDropsAreNonExclusive: {
-			Label: Master weapon drops are expert drops
+			Label: Оружие сложности Мастер может выпадать и на Эксперте
 			Tooltip:
 				'''
-				Master mode exclusive weapons drop in expert mode.
-				Recommended if you don't like playing on master or other mods break master drops.
-				(e.g. eternity mode becoming masochist mode or infernum not being usable in master mode)
+				Эксклюзивное для сложности Мастер оружие теперь сможет выпадать и на сложности Эксперт.
+				Рекомендуется, если вам не нравится играть на Мастере или сторонние моды его ломают.
+				(Например: режим Вечность на Мастере становится Мазохистом, а Инфернум не позволяет играть на Мастере вообще)
 				'''
 		}
 
@@ -1414,7 +1414,7 @@ Configs: {
 			Tooltip:
 				'''
 				(Рекомендовано!)
-				Reworks some items from Thorium mod to be a lot better.
+				Перерабатывает некоторые предметы из Thorium, делая их намного более полезными.
 				'''
 		}
 
@@ -1438,14 +1438,14 @@ Configs: {
 			Label: Пожиратель грёз (Шуточная настройка)
 			Tooltip:
 				'''
-				This setting is entirely a joke, it gives Devourer of Gods Dream Eater's original attacks.
-				May or may not be fair and balanced.
+				Эта настройка полностью шуточная, а всё, что она делает - лишь даёт Пожирателю богов оригинальные атаки Пожирателя снов.
+				Возможно вы получите честный и сбалансированный игровой опыт с этой настройкой, а возможно и нет.
 				'''
 		}
 
 		thorlamityBR: {
 			Label: Боссы Thorium в Босс-раше Calamity
-			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression.
+			Tooltip: Боссы Thorium смогут появиться в Босс-раше Calamity в порядке своей обычной прогрессии.
 		}
 
 		auricBar: {
@@ -1467,7 +1467,7 @@ Configs: {
 			Tooltip:
 				'''
 				При включении переработки боссов этого мода будут работать только, если включён режим Вечность или Мазохист.
-				Also changes master weapon drops (if enabled) into eternity weapon drops.
+				Также конвертирует эксклюзивные для сложности Мастер предметы (если они включены) в предметы режима Вечность.
 				В дополнение, с боссов из Thorium начнут выпадать уникальные для режима Вечность аксессуары.
 				Работает только, если включён Fargo's Souls.
 				'''
