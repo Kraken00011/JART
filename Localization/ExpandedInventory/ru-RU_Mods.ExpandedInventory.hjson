@@ -1,0 +1,47 @@
+Keybinds: {
+	"Next Item Page.DisplayName": Следующая страница
+	"Previous Item Page.DisplayName": Предыдущая страница
+}
+
+Configs: {
+	EIClientConfig: {
+		DisplayName: Клиентская конфигурация Expanded Inventory
+
+		PositionX: {
+			Label: Местоположение по X
+			Tooltip: Местоположение по X в процентах от ширины экрана.
+		}
+
+		PositionY: {
+			Label: Местоположение по Y
+			Tooltip: Местоположение по Y в процентах от ширины экрана.
+		}
+
+		PositionXWithChest: {
+			Label: Местоположение по X с сундуком
+			Tooltip:
+				'''
+				Местоположение по X в процентах от ширины экрана.
+				Используйте эту настройку, чтобы сменить местоположение с открытым сундуком.
+				'''
+		}
+
+		PositionYWithChest: {
+			Label: Местоположение по Y с сундуком
+			Tooltip:
+				'''
+				Местоположение по Y в процентах от ширины экрана.
+				Используйте эту настройку, чтобы сменить местоположение с открытым сундуком.
+				'''
+		}
+	}
+
+	EIConfig: {
+		DisplayName: Конфигурация Expanded Inventory
+
+		NumberOfPages: {
+			Label: Количество страниц
+			Tooltip: ""
+		}
+	}
+}

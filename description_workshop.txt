@@ -52,6 +52,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Discordya
 [*] Equipment Modifiers & Reforging (склонение предметов из пары модов)
 [*] Everware (помощь с официальным переводом)
+[*] Expanded Inventory
 [*] Extra Beginnings
 [*] Extra World Sizes
 [*] Fancy Whips
