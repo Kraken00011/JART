@@ -11,6 +11,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Corruption Core Boss
 [*] Infernal Eclipse of Ragnarok
 [*] Mech Bosses Rework
+[*] Thorium Helheim
 [/list]
 
 [h3]Средние моды[/h3]

@@ -530,7 +530,7 @@ Items: {
 	}
 
 	ChampionWarHorn: {
-		DisplayName: Чемпионский боевой рог
+		DisplayName: Боевой рог чемпиона
 		Tooltip:
 			'''
 			Стреляет самонаводящимся боевым эхо
@@ -957,7 +957,7 @@ Items: {
 	}
 
 	SpittingShroomStaff: {
-		DisplayName: Посох грибов-плевунов
+		DisplayName: Посох гриба-плевуна
 		Tooltip:
 			'''
 			Призывает плюющийся спорами гриб сражаться за вас

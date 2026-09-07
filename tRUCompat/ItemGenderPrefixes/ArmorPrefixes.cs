@@ -1407,5 +1407,16 @@ public class ArmorPrefixesPrefixes : ModSystem
                 "SuperCellSabatons"
             });
         }
+
+        if (ModLoader.TryGetMod("ThoriumRework", out Mod thRew) && JARTLocalizationConf.Instance.ThoriumReworkLocalization)
+        {
+            tru.Call("AddFeminineItems", thRew, new[]
+            {
+                "TitanHat",
+                "TitanVisor",
+                "WhistlersHat",
+                "WhistlersTunic"
+            });
+        }
     }
 }
