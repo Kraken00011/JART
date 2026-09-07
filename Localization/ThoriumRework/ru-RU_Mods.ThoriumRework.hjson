@@ -1296,8 +1296,8 @@ Configs: {
 			Label: "[i:ThoriumMod/StarScouterMask]Текст во время перехода Звёздного разведчика в ярость"
 			Tooltip:
 				'''
-				Whether or not Star Scouter shows a text pop-up indicating enrage.
-				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
+				Включает/Выключает текстовое оповещение, предвещающее переход Звёздного разведчика в ярость.
+				Работает только, если включена переработка Звёздного разведчика в настройках мода.
 				'''
 		}
 
@@ -1305,8 +1305,8 @@ Configs: {
 			Label: "[i:ThoriumMod/StarScouterMask]Визуальные эффекты ярости Звёздного разведчика"
 			Tooltip:
 				'''
-				Whether or not Star Scouter turns red when enraged.
-				Only works on reworked Star Scouter, the unreworked version is unaffected by this setting as it cannot enrage.
+				Включает/Выключает окрашивание Звёздного разведчика в красный во время ярости.
+				Работает только, если включена переработка Звёздного разведчика в настройках мода.
 				'''
 		}
 
@@ -1314,9 +1314,9 @@ Configs: {
 			Label: "[i:ThoriumMod/LichMask]Интенсивность ауры Лича"
 			Tooltip:
 				'''
-				Controls the intensity of the faint red glow around the Lich.
-				Only works on reworked Lich, the unreworked version is unaffected by this setting.
-				Use this if you want visual parity with the original design or if you're having troubles seeing him.
+				Меняет интенсивность слабого красного свечения вокруг Лича под заданное значение.
+				Работает только, если включена переработка Лича в настройках мода.
+				Включите, если хотите видеть дизайн, более соответствующий оригинальному Личу , или если вам сложно следить за ним во время битвы.
 				'''
 		}
 	}
@@ -1345,16 +1345,16 @@ Configs: {
 
 		sheathFix: {
 			Label: Исправления и улучшения ножен мечей
-			Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords.
+			Tooltip: Исправляет некоторые проблемы, связанные с ножнами, позволяя им работать на большем количестве мечей.
 		}
 
 		terraItemsFix: {
-			Label: Паритовность рецептов терра-предметов Thorium
+			Label: Соответствие рецептов терра-предметов Thorium
 			Tooltip:
 				'''
 				(Рекомендовано!)
-				Changes all of the Terra weapons from Thorium to use similar recipes to the vanilla Terra Blade.
-				Automatically disabled if Unofficial Calamity Bard & Healer is installed as that mod already does this.
+				Меняет все рецепты терра-оружия из Thorium так, чтобы они использовали схожие с ванильным терра-клинком рецепты создания.
+				Автоматически отключается, если включён мод Unofficial Calamity Bard & Healer, ибо он делает ровно то же самое.
 				'''
 		}
 
@@ -1396,11 +1396,15 @@ Configs: {
 
 		masterDropRate: {
 			Label: Частота выпадения предметов сложности Мастер (в процентах)
-			Tooltip: ПРИМЕЧАНИЕ: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
+			Tooltip: 
+				'''
+				ПРИМЕЧАНИЕ: Эта настройка не работает, пока включена настройка «{$eternityModeOnly.Label}».
+				Это сделано для соответствия с шансами выпадения других вечных предметов из Fargo's.
+				'''
 		}
 
 		masterDropsAreNonExclusive: {
-			Label: Оружие сложности Мастер может выпадать и на Эксперте
+			Label: Выпадение оружия Мастера на сложности Эксперт
 			Tooltip:
 				'''
 				Эксклюзивное для сложности Мастер оружие теперь сможет выпадать и на сложности Эксперт.
@@ -2061,59 +2065,59 @@ Achievements: {
 	}
 
 	PreservationEfforts: {
-		FriendlyName: Preservation Efforts
-		Description: Defeat Grand Thunderbird without harming any Storm Hatchlings
+		FriendlyName: Сберегательные меры
+		Description: Одержать победу над Великой громовой птицей, не навредив не одному из её громовых птенцов.
 	}
 }
 
 Projectiles: {
-	AbyssalApparition.DisplayName: Abyssal Apparition
-	AbyssBubble.DisplayName: Toxic Bubble
-	AbyssBubble2.DisplayName: Toxic Bubble
-	AquaiusBubble.DisplayName: Bubble
-	AquaiusPunchAttack.DisplayName: Hands of Tide
-	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
-	BannerofWar.DisplayName: Banner of War
-	BandofCratons.DisplayName: Band of Cratons
-	BeamSaber.DisplayName: Beam Saber
-	BeholderBlade.DisplayName: Will of Coznix
-	BeholdersDomain.DisplayName: Eye of the Beholder
-	BiterofSouls.DisplayName: Biter of Souls
-	BiteyBaby.DisplayName: Bitey Baby
-	BlackHole.DisplayName: Black Hole
-	BubbleBomb.DisplayName: Big Bubble Bomb
-	BubbleColumn.DisplayName: Bubble Column
-	ChampionBomber.DisplayName: Magical Burst
-	ChampionBomberF.DisplayName: Magical Burst
-	ChampionShield.DisplayName: Champion's Rebuttal
-	ChampionSlash.DisplayName: Champion's Swift Blade
-	ChampionSlice.DisplayName: Buried Shock
-	ChampionSliceF.DisplayName: Buried Shock
-	ChampionsRebuttal.DisplayName: Champion's Rebuttal
-	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
-	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
-	ChampionWarHorn.DisplayName: Champion's Warhorn
-	ChironsCure.DisplayName: Chiron's Cure
-	ConcussiveInstrument.DisplayName: Concussive Instrument
-	DancingJellyfish.DisplayName: Dancing Jellyfish
-	Darkness.DisplayName: Darkness
-	DeathRain.DisplayName: Death Rain
-	DemonBloodSword.DisplayName: Demon Blood Sword
-	DragonTooth.DisplayName: Dragon Tooth
-	DragonToothDragon.DisplayName: Dragon Tooth
-	DreadRazor.DisplayName: Dread Razor
-	DreadPulse.DisplayName: Dread Pulse
-	DukeFish.DisplayName: Duke Fish
-	DukeFishBubble.DisplayName: Duke Fish Bubble
-	DyingReality.DisplayName: Dying Reality
+	AbyssalApparition.DisplayName: Призрак бездны
+	AbyssBubble.DisplayName: Токсичный пузырь
+	AbyssBubble2.DisplayName: Токсичный пузырь
+	AquaiusBubble.DisplayName: Пузырь
+	AquaiusPunchAttack.DisplayName: Длани волн
+	AquaiusWhirlpool.DisplayName: Безжалостный водоворот
+	BannerofWar.DisplayName: "{$Items.BannerofWar.DisplayName}"
+	BandofCratons.DisplayName: "{$Items.BandofCratons.DisplayName}"
+	BeamSaber.DisplayName: Лучевая сабля
+	BeholderBlade.DisplayName: "{$Items.BeholderBlade.DisplayName}"
+	BeholdersDomain.DisplayName: Глаз Созерцателя
+	BiterofSouls.DisplayName: Кусатель душ
+	BiteyBaby.DisplayName: Кусучий малыш
+	BlackHole.DisplayName: Чёрная дыра
+	BubbleBomb.DisplayName: Большая пузырьковая бомба
+	BubbleColumn.DisplayName: Пузырьковый столб
+	ChampionBomber.DisplayName: Магический взрыв
+	ChampionBomberF.DisplayName: Магический взрыв
+	ChampionShield.DisplayName: "{$ThoriumMod.Items.ChampionsRebuttal.DisplayName}"
+	ChampionSlash.DisplayName: "{$ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
+	ChampionSlice.DisplayName: Погребённый шок
+	ChampionSliceF.DisplayName: Погребённый шок
+	ChampionsRebuttal.DisplayName: "{$ThoriumMod.Items.ChampionsRebuttal.DisplayName}"
+	ChampionsSwiftBlade.DisplayName: "{$ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
+	ChampionsSwiftBladeClone.DisplayName: "{$ThoriumMod.Items.ChampionSwiftBlade.DisplayName}"
+	ChampionsTrifectaShot.DisplayName: "{$ThoriumMod.Items.ChampionsTrifectaShot.DisplayName}"
+	ChampionWarHorn.DisplayName: Боевой рог чемпиона
+	ChironsCure.DisplayName: Лекарство Хирона
+	ConcussiveInstrument.DisplayName: "{$Items.ConcussiveInstrument.DisplayName}"
+	DancingJellyfish.DisplayName: Танцующая медуза
+	Darkness.DisplayName: Тьма
+	DeathRain.DisplayName: Дождь смерти
+	DemonBloodSword.DisplayName: "{$ThoriumMod.Items.DemonBloodSword.DisplayName}"
+	DragonTooth.DisplayName: "{$ThoriumMod.Items.DragonTooth.DisplayName}"
+	DragonToothDragon.DisplayName: "{$ThoriumMod.Items.DragonTooth.DisplayName}"
+	DreadRazor.DisplayName: "{$ThoriumMod.Items.DreadRazor.DisplayName}"
+	DreadPulse.DisplayName: Устрашающий импульс
+	DukeFish.DisplayName: "{$Items.DukeFish.DisplayName}"
+	DukeFishBubble.DisplayName: Пузырь герцога рыба
+	DyingReality.DisplayName: Угасающая реальность
 	EaterPiper.DisplayName: Eater Piper
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
-	EnergizedGranite.DisplayName: Energized Granite
-	EnergyBurst.DisplayName: Granite Energy Burst
-	EnergySpike.DisplayName: Granite Energy Spike
-	EnergySurge.DisplayName: Granite Energy Surge
-	EnergySurgeTelegraph.DisplayName: Granite Energy Surge
+	EnergizedGranite.DisplayName: Энергетический гранит
+	EnergyBurst.DisplayName: Гранитный энергетический взрыв
+	EnergySpike.DisplayName: Гранитный энергетический шип
+	EnergySurge.DisplayName: Гранитный энергетический всплеск
+	EnergySurgeTelegraph.DisplayName: Гранитный энергетический всплеск
 	EradicationBeam.DisplayName: Eradication Beam
 	EradicationBeamF.DisplayName: Eradication Beam
 	EradicationRay.DisplayName: Eradication Ray
@@ -2122,20 +2126,20 @@ Projectiles: {
 	FalseBeholder.DisplayName: False Beholder
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
-	Flash.DisplayName: Flash
+	Flash.DisplayName: Ослепление
 	FluteofCurses.DisplayName: Flute of Curses
 	FlyingFlute.DisplayName: Flying Flute
 	FlyingFlute2.DisplayName: Flying Flute
 	GildedFlyingFlute.DisplayName: Gilded Flying Flute
-	Glacier.DisplayName: Glacier
-	Glacier2.DisplayName: Glacier
-	GrandThunder.DisplayName: Grand Thunder
-	GrandThunderBirdEffects.DisplayName: Grand Thunder
-	GrandThunderF.DisplayName: Grand Thunder
-	GrandThunderTelegraph.DisplayName: Grand Thunder
-	GraniteCharge.DisplayName: Granite Charge
-	GraniteEnergyStormEffects.DisplayName: Granite Energy
-	GravitonOrb.DisplayName: Graviton Orb
+	Glacier.DisplayName: Ледник
+	Glacier2.DisplayName: Ледник
+	GrandThunder.DisplayName: Великий гром
+	GrandThunderBirdEffects.DisplayName: Великий гром
+	GrandThunderF.DisplayName: Великий гром
+	GrandThunderTelegraph.DisplayName: Великий гром
+	GraniteCharge.DisplayName: Гранитный заряд
+	GraniteEnergyStormEffects.DisplayName: Гранитная энергия
+	GravitonOrb.DisplayName: Гравитационная сфера
 	HandheldRocket.DisplayName: Handheld Rocket
 	HeadHunter.DisplayName: Head Hunter
 	HeadHunterShard.DisplayName: Head Hunter
@@ -2145,17 +2149,17 @@ Projectiles: {
 	HighTide.DisplayName: High Tide
 	HighTideWave.DisplayName: High Tide
 	HitScan.DisplayName: Hit-Scan
-	IceAnomaly.DisplayName: Ice Anomaly
-	IceShard.DisplayName: Ice Shard
+	IceAnomaly.DisplayName: Ледяная аномалия
+	IceShard.DisplayName: Ледяной осколок
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
-	ImpendingDread.DisplayName: Impending Dread
-	ImpendingDreadF.DisplayName: Impending Dread
-	InfernalRay.DisplayName: Infernal Ray
-	InfernalRayTelegraph.DisplayName: Infernal Ray
+	ImpendingDread.DisplayName: Надвигающийся ужас
+	ImpendingDreadF.DisplayName: Надвигающийся ужас
+	InfernalRay.DisplayName: Инфернальный луч
+	InfernalRayTelegraph.DisplayName: Инфернальный луч
 	JammingJellyfish.DisplayName: Jamming Jellyfish
 	JellyfishJam.DisplayName: Jamming Jellyfish
-	JellyfishShock.DisplayName: Jellyfish Shock
+	JellyfishShock.DisplayName: Медузный шок
 	KingTrumpet.DisplayName: King Trumpet
 	Kusarigama.DisplayName: Kusarigama
 	KusarigamaOrb.DisplayName: Orb of the Wind
@@ -2164,9 +2168,9 @@ Projectiles: {
 	LodeStoneClaymore.DisplayName: Lodestone Claymore
 	LodeStoneMagnetMace.DisplayName: Lodestone Magnet Mace
 	Loudener.DisplayName: Loudener
-	LucidNuke.DisplayName: Lucid Energy
-	LucidRay.DisplayName: Lucid Energy
-	LucidRayTelegraph.DisplayName: Lucid Energy
+	LucidNuke.DisplayName: Ясновидная энергия
+	LucidRay.DisplayName: Ясновидная энергия
+	LucidRayTelegraph.DisplayName: Ясновидная энергия
 	MightyMyte.DisplayName: Mighty Myte
 	Mjolnir.DisplayName: Legendary Lightning
 	NightmareClaw.DisplayName: Nightmare Claw
@@ -2174,11 +2178,11 @@ Projectiles: {
 	Obliterator.DisplayName: Obliterator
 	ObliteratorRay.DisplayName: Obliterator
 	OmegaRay.DisplayName: Omega Ray
-	OmniBoom.DisplayName: Nuclear Explosion
-	OmniBurst.DisplayName: Nuclear Explosion
+	OmniBoom.DisplayName: Ядерный взрыв
+	OmniBurst.DisplayName: Ядерный взрыв
 	OmniSlash.DisplayName: Death Slash
 	OmnicidePunchAttack.DisplayName: Fist of Havoc
-	Oneirophobia.DisplayName: Oneirophobia
+	Oneirophobia.DisplayName: Онейрофобия
 	OneirophobiaBlade.DisplayName: Lucid Edge
 	OneirophobiaBolt.DisplayName: Lucid Missile
 	OneirophobiaLaser.DisplayName: Lucid Ray
@@ -2226,18 +2230,18 @@ Projectiles: {
 	ValadiumRay.DisplayName: Void Ray
 	ValadiumSlash.DisplayName: Void Slash
 	ValadiumSlicer.DisplayName: Valadium Slicer
-	VampireCape.DisplayName: Vampire Bat
+	VampireCape.DisplayName: Летучая мышь-вампир
 	Vaporize.DisplayName: Vaporizer
 	VaporizingBeam.DisplayName: Vaporizing Beam
 	VaporizingFlames.DisplayName: Vaporizing Flames
 	VaporizingFreeze.DisplayName: Vaporizing Freeze
 	VaporizingPoison.DisplayName: Vaporizing Poison
-	VisualCrack.DisplayName: Crack
-	VisualShockwave.DisplayName: Shockwave
-	Void.DisplayName: the void
+	VisualCrack.DisplayName: Разлом
+	VisualShockwave.DisplayName: Ударная волна
+	Void.DisplayName: пустота
 	VoidEye.DisplayName: Eye of Coznix
-	VoidEyeF.DisplayName: Will of Coznix
-	ZephyrFeather.DisplayName: Zephyr's Feather
+	VoidEyeF.DisplayName: Воля Козникса
+	ZephyrFeather.DisplayName: Зефирово перо
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	FallingSand.DisplayName: Falling Sand
+	FallingSand.DisplayName: Падающий песок
 }
