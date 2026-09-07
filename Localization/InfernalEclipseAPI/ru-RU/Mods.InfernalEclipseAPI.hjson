@@ -2500,19 +2500,19 @@ Projectiles: {
 	EvilStrike.DisplayName: Злобный удар
 	CelestialIlluminationBeam.DisplayName: Луч внеземного озарения
 	CelestialIlluminationStar.DisplayName: Звезда внеземного озарения
-	Melee.TyrantYharimsUltiswordThrownBlade.DisplayName: Tyrant Yharims Ultisword Thrown Blade
+	Melee.TyrantYharimsUltiswordThrownBlade.DisplayName: Лезвие богоубийцы
 	CasullandJackalProj.DisplayName: .454 Кассул и Шакал
 	CatlightDeathray.DisplayName: Луч смерти Catlight
 	CatlightDeathrayJR.DisplayName: Луч смерти Catlight джуниор
 	CatlightDeathrayJRR.DisplayName: Луч смерти Catlight джуниор джуниор
-	ChickenWingHoldout.DisplayName: Куриное крылышко
-	EclipseHeadphonesProj.DisplayName: Eclipse Headphones Proj
+	ChickenWingHoldout.DisplayName: Куриное крыло
+	EclipseHeadphonesProj.DisplayName: Затменные наушники
 	SplitFirebrandProjectile.DisplayName: Split Firebrand Projectile
 	SplitFirebrandFlailProjectile.DisplayName: Split Firebrand Flail Projectile
-	SplitFirebrandExplosion.DisplayName: Split Firebrand Explosion
-	BlixerArm.DisplayName: Blixer Arm
-	BlixerHand.DisplayName: Blixer Hand
-	BlixerCannonPro.DisplayName: Blixer Bullet
+	SplitFirebrandExplosion.DisplayName: Взрыв раскалённой огнеплети
+	BlixerArm.DisplayName: Рука Бликсера
+	BlixerHand.DisplayName: Ладонь Бликсера
+	BlixerCannonPro.DisplayName: Пуля Бликсера
 }
 
 DiaryTooltip:
