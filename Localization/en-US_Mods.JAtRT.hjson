@@ -6,7 +6,7 @@ Configs: {
 			BigMod: "[c/DC143C:Крупные моды]"
 			MediumMod: "[c/7B68EE:Средние моды]"
 			SmallMod: "[c/00BFFF:Небольшие моды]"
-			Fix: "[c/00FA9A:Фиксы]"
+			Fix: "[c/00FA9A:«Исправления»]"
 		}
 
 		# Крупные моды
@@ -176,8 +176,8 @@ Configs: {
 		}
 
 		HypnosModLocalization: {
-			Label: "Hypnos Mod"
-			Tooltip: Включает/Выключает перевод мода Hypnos Mod.
+			Label: "Hypnos in Calamity Mod"
+			Tooltip: Включает/Выключает перевод мода Hypnos in Calamity Mod.
 		}
 
 		HolosparkBootsLocalization: {
@@ -260,7 +260,7 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода Starting Weapons Reborn.
 		}
 
-		FixedAchievements: {
+		FixedAchievementsLocalization: {
 			Label: "Steam Achievement Fix"
 			Tooltip: Включает/Выключает перевод мода Steam Achievement Fix.
 		}
@@ -505,56 +505,62 @@ Configs: {
 			Tooltip: Включает/Выключает перевод мода WHummus' Calamity/Thorium Balancing.
 		}
 
+		// 1.6
+		ThrowerUnificationLocalization: {
+			Label: "Thrower Unification"
+			Tooltip: Включает/Выключает перевод мода Thrower Unification.
+		}
+
+		ExpandedInventoryLocalization: {
+			Label: "Expanded Inventory"
+			Tooltip: Включает/Выключает перевод мода Expanded Inventory.
+		}
+
 		# Фиксы
 
 		FargowiltasCrossmodFix: {
 			Label: "Calamity - Fargo's Souls DLC"
-			Tooltip: Включает/Выключает фикс перевода мода Calamity - Fargo's Souls DLC.
+			Tooltip: Включает/Выключает «исправление» перевода мода Calamity - Fargo's Souls DLC.
 		}
 
 		CalamityHuntFix: {
 			Label: "Calamity: Hunt of the Old God"
-			Tooltip: Включает/Выключает фикс перевода мода Calamity: Hunt of the Old God.
+			Tooltip: Включает/Выключает «исправление» перевода мода Calamity: Hunt of the Old God.
 		}
 
 		ClamityFix: {
 			Label: "Clamity Addon"
-			Tooltip: Включает/Выключает фикс перевода мода Clamity Addon.
+			Tooltip: Включает/Выключает «исправление» перевода мода Clamity Addon.
 		}
 
 		CompactModsFix: {
 			Label: "Compact Mods (For TML)"
-			Tooltip: Включает/Выключает фикс перевода мода Compact Mods (For TML).
+			Tooltip: Включает/Выключает «исправление» перевода мода Compact Mods (For TML).
 		}
 
 		DraedonExpansionFix: {
 			Label: "Draedon's Expansion"
-			Tooltip: Включает/Выключает фикс перевода мода Draedon's Expansion.
-		}
-
-		ThrowerUnificationFix: {
-			Label: "Thrower Unification"
-			Tooltip: Включает/Выключает фикс перевода мода Thrower Unification.
+			Tooltip: Включает/Выключает «исправление» перевода мода Draedon's Expansion.
 		}
 
 		ToolsPrefixesFix: {
 			Label: "Tools Prefixes"
-			Tooltip: Включает/Выключает фикс перевода мода Tools Prefixes.
+			Tooltip: Включает/Выключает «исправление» перевода мода Tools Prefixes.
 		}
 
 		FlinxHatFix: {
 			Label: "Flinx Ushanka"
-			Tooltip: Включает/Выключает фикс перевода мода Flinx Ushanka.
+			Tooltip: Включает/Выключает «исправление» перевода мода Flinx Ushanka.
 		}
 
 		InfernumLegendAndMasFix: {
-			Label: "Infernum Legendary and Master Patch (remastered)"
-			Tooltip: Включает/Выключает фикс перевода мода Infernum Legendary and Master Patch (remastered).
+			Label: "Infernum difficulties and generation patch"
+			Tooltip: Включает/Выключает «исправление» перевода мода Infernum difficulties and generation patch.
 		}
 
 		TheDepthsFix: {
 			Label: "The Depths"
-			Tooltip: Включает/Выключает перевод мода The Depths.
+			Tooltip: Включает/Выключает «исправление» перевода мода The Depths.
 		}
 	}
 

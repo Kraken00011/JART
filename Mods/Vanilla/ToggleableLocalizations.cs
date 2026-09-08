@@ -16,7 +16,7 @@ using Terraria.ModLoader.Core;
 
 public class ToggleableLocalizations : OnPatcher
 {
-	// Для отключающихся локализаций
+	// Для отключения локализаций
 	private static HashSet<string> _customKeys = new();
 
 	public override bool AutoLoad => Language.ActiveCulture.Name == "ru-RU";
@@ -51,8 +51,9 @@ public class ToggleableLocalizations : OnPatcher
 			{
 				if (e.Name.Contains("Localization/CBUFFS/")) return 2;
 				if (e.Name.Contains("Localization/CBUFFS(Cal+Fargos)/")) return 3;
-				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 4;
-				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 5;
+				if (e.Name.Contains("Localization/RagnarokMod/")) return 4;
+				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 5;
+				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 6;
 				return 1;
 			});
 
@@ -217,7 +218,7 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\ThoriumClassTagsConsistency\"))
 					continue;
 
-				if ((!JARTLocalizationConf.Instance.ThrowerUnificationFix || !ModLoader.HasMod("ThrowerUnification"))
+				if ((!JARTLocalizationConf.Instance.ThrowerUnificationLocalization || !ModLoader.HasMod("ThrowerUnification"))
 				&& modpath.Contains(@"JAtRT\Localization\ThrowerUnification\"))
 					continue;
 
@@ -444,14 +445,18 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\WulfrumExpansion\"))
 					continue;
 
-				// 1.5.1.0
+				// 1.6
 
-				/*if ((!JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization || !ModLoader.HasMod("InfernalEclipseWeaponsDLC"))
+				if ((!JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization || !ModLoader.HasMod("InfernalEclipseWeaponsDLC"))
 				&& modpath.Contains(@"JAtRT\Localization\InfernalEclipseWeaponsDLC\"))
-					continue;*/
+					continue;
 
 				if ((!JARTLocalizationConf.Instance.AdditionalRelicsLocalization || !ModLoader.HasMod("AdditionalRelics"))
 				&& modpath.Contains(@"JAtRT\Localization\AdditionalRelics\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.ExpandedInventoryLocalization || !ModLoader.HasMod("ExpandedInventory"))
+				&& modpath.Contains(@"JAtRT\Localization\ExpandedInventory\"))
 					continue;
 
 				// Другое

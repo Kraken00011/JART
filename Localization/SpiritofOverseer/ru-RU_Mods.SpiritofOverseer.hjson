@@ -19,7 +19,7 @@ Projectiles: {
 	AntumbralFlameF.DisplayName: Полутеневое пламя
 	AntumbralSkull.DisplayName: Полутеневой череп
 	AntumbralSkullF.DisplayName: Полутеневой череп
-	DuskBeam.DisplayName: Мрачный луч
+	DuskBeam.DisplayName: Сумрачный луч
 	FallingAsteroid.DisplayName: Падающий астероид
 	ShadowflameSword.DisplayName: Меч теневого пламени
 	ShadowPulseWave.DisplayName: Теневая пульсирующая волна
@@ -29,7 +29,7 @@ Projectiles: {
 	StarplateBeamLarge.DisplayName: Карманная сверхновая
 	StarplateBeamSpawner.DisplayName: Падающая звезда
 	StarplateConstellation.DisplayName: Падающие созвездия
-	StarplateVoyagerDash.DisplayName: Рывок Звёздопанцирного странника
+	StarplateVoyagerDash.DisplayName: Рывок Звездопанцирного странника
 	MiracleRay.DisplayName: Чудный луч
 	AtlasFlash.DisplayName: Ослепление Атланта
 }

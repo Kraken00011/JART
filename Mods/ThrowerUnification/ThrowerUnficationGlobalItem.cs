@@ -9,7 +9,7 @@ using CalamityRuTranslate.Core.Config;
 
 public partial class ThrowerUnificationGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ThrowerUnification") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationFix;
+    public override bool IsLoadingEnabled(Mod mod) => ModLoader.HasMod("ThrowerUnification") && Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationLocalization;
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {

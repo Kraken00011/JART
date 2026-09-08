@@ -8,7 +8,7 @@ using ThrowerUnification;
 
 public partial class ThrowerBonusesGlobalItem : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationFix && ModLoader.HasMod("ThrowerUnification");
+    public override bool IsLoadingEnabled(Mod mod) => Language.ActiveCulture.Name == "ru-RU" && JARTLocalizationConf.Instance.ThrowerUnificationLocalization && ModLoader.HasMod("ThrowerUnification");
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
         if (item.defense <= 0 && !item.accessory)

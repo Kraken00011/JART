@@ -22,6 +22,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Fargo Rush Mod
 [*] Homeward Ragnarok (помощь с официальным переводом)
 [*] HP Awareness
+[*] Infernal Arsenal
 [*] Jungle Bosses Rework
 [*] Ophioid - A Boss fight mod
 [*] Revengeance+
@@ -69,15 +70,15 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] More Beams
 [*] More Pylons
 [*] Multiclass Armors
-[*] Munchies - Consumables Checklist
 [*] Munchies - Calamity Addon
+[*] Munchies - Consumables Checklist
 [*] Munchies Crossmod Addon
 [*] Music Box Slot
 [*] Ore Helmets for Summoner
 [*] Petrified Voodoo Doll
-[*] Potion Slots
 [*] Playthrough Modlist Loader
 [*] Polyphemalus (Calamity Fandom Boss)
+[*] Potion Slots
 [*] Reforged
 [*] Robes Of Calamity
 [*] Shimmer Gun
@@ -88,6 +89,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Steam Achievement Fix
 [*] Talisman of Friendship
 [*] Thorium Class Tags Consistency
+[*] Thrower Unification (встройка)
 [*] Turtle Boulder & Friends (перевод заморожен)
 [*] Ultimate Infinite Star
 [*] Unofficial Fargo's Souls Pets
@@ -107,7 +109,6 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Cataclysm Mod (Clamity)
 [*] Compact Mods (For TML)
 [*] The Depths
-[*] Thrower Unification (встройка)
 [*] Tools Prefixes
 [/list]
 
