@@ -1,19 +1,19 @@
-// UIConfig.DisplayName: UI Config
-// BossConfig.DisplayName: Boss Config
+// UIConfig.DisplayName: Конфигурация интерфейса UI Config
+// BossConfig.DisplayName: Конфигурация боссов Boss Config
 
 Config: {
 	UI: {
-		// NewUI: New Progress bar for events
-		// NewUITooltip: Activates new Bismuth-styled UI for every event.
-		// ResetUITooltip: Resets the UIs position
-		// ResetUI: Reset UI
-		// HoverUITooltip: Allows you to modify position user interface elements.
-		// HoverUI: Modify position UI
-		// ActiveSummonUITooltip: If it bothers you, you can enable it by default value enabled.
-		// ActiveSummonUI: Active Summon UI
-		// SummonUI: Summon UI
-		// NewFont: New Font
-		// NewFontTooltip: Replaces the default font with the new ones. Please note that the changes will take effect in the main menu or in agame world.
+		// NewUI: Новая шкала прогресса для событий New Progress bar for events
+		// NewUITooltip: Активирует новый интерфейс в стиле Bismuth Activates new Bismuth-styled UI for every event.
+		// ResetUITooltip: Сбрасывает расположение интерфейса Resets the UIs position
+		// ResetUI: Сброс интерфейса Reset UI
+		// HoverUITooltip: Позволяет вам изменять позицию интерфейса Allows you to modify position user interface elements.
+		// HoverUI: Изменения позиции интерфейса Modify position UI
+		// ActiveSummonUITooltip: Если это вас беспокоит, то вы можете это выключить If it bothers you, you can enable it by default value enabled.
+		// ActiveSummonUI: Интерфейс призывателя Active Summon UI
+		// SummonUI: Интерфейс призыва Summon UI
+		// NewFont: Новый шрифт New Font
+		// NewFontTooltip: Изменяет стандартный шрифт на новый. Учитывайте, что это изменение коснёться как меню, так и внутриигровой мир. Replaces the default font with the new ones. Please note that the changes will take effect in the main menu or in agame world.
 	}
 
 	SynegiaConfig: {
@@ -28,60 +28,60 @@ Config: {
 	}
 
 	SynergiaConfig: {
-		// NewRecipe: New Recipes
-		// NewRecipeTooltip: Enables more than 600 recipe tweaks.
-		// PapuanWizardHardAIEnabled: Papuan Wizard changed AI
-		// PapuanWizardHardAIEnabledTooltip: Enables Papuan Wizard tweaks.
-		// KingSlimeAI: Papuan King Slime AI
-		// KingSlimeAITooltip: Enables King Slime rework.
-		// BrainOfCthulhuAI: Brain of Cthulhu changed AI
-		// BrainOfCthulhuAITooltip: Enables Brain of Cthulhu tweaks.
-		// WallOfFleshAI: Wall of Flesh AI
-		// WallOfFleshAITooltip: Enables Wall of Flesh tweaks.
-		// TwinsAI: Twins AI
-		// TwinsAITooltip: Enables Twins rework.
-		// DestroyerAI: Destroyer AI
-		// DestroyerAITooltip: Enables Destroyer rework.
-		// SkeletronPrimeAI: Skeletron Prime AI
-		// SkeletronPrimeAITooltip: Enables Skeletron Prime tweaks.
-		// PlanteraAI: Plantera AI
-		// PlanteraAITooltip: Enables Plantera tweaks.
-		// GolemAI: Golem AI
-		// GolemAITooltip: Enables Golem tweaks.
-		// CultistAI: Cultist AI
-		// CultistAITooltip: Enables Cultist Lunatic rework.
-		// OcramAI: Ocram AI
-		// OcramAITooltip: Enables Ocram rework.
-		// TurkorAI: Turkor AI
-		// TurkorAITooltip: Enables Turkor tweaks.
-		// ColdFatherAI: Cold Father AI
-		// ColdFatherAITooltip: Enables Cold Father tweaks.
-		// JadeEmperorAI: Jade Emperor AI
-		// JadeEmperorAITooltip: Enables Jade Emperor rework.
-		// NecromancerAI: Necromancer AI
-		// NecromancerAITooltip: Enables Necromancer rework.
-		// MinotaurAI: Minotaur AI
-		// MinotaurAITooltip: Enables Minotaur tweaks.
-		// LothorAI: Lothor AI
-		// LothorAITooltip: Enables Lothor the Wild tweaks.
-		// DesertBeakAI: Desert Beak AI
-		// DesertBeakAITooltip: Enables Desert Beak tweaks.
-		// ColossalCarnageAI: Colossal Carnage AI
-		// ColossalCarnageAITooltip: Enables Colossal Carnage tweaks.
-		// DynamicalPrices: Dynamical Prices
+		// NewRecipe: Новые рецепты New Recipes
+		// NewRecipeTooltip: Включает более 600 изменений рецептов Enables more than 600 recipe tweaks.
+		// PapuanWizardHardAIEnabled: Изменение ИИ папуаса-мага Papuan Wizard changed AI
+		// PapuanWizardHardAIEnabledTooltip: Включает изменения папуаса-мага Enables Papuan Wizard tweaks.
+		// KingSlimeAI: ИИ Короля слизней King Slime AI
+		// KingSlimeAITooltip: Включает реворк Короля слизней Enables King Slime rework.
+		// BrainOfCthulhuAI: Изменение ИИ Мозга Ктулзу Brain of Cthulhu changed AI
+		// BrainOfCthulhuAITooltip: Включает изменения Мозга Ктулху Enables Brain of Cthulhu tweaks.
+		// WallOfFleshAI: ИИ Стены плоти Wall of Flesh AI
+		// WallOfFleshAITooltip: Включает изменения Стены плоти Enables Wall of Flesh tweaks.
+		// TwinsAI: ИИ Близнецов Twins AI
+		// TwinsAITooltip: Включает реворк Близнецов Enables Twins rework.
+		// DestroyerAI: ИИ Уничтожителя Destroyer AI
+		// DestroyerAITooltip: Включает реворк Уничтожителя Enables Destroyer rework.
+		// SkeletronPrimeAI: ИИ Скелетрона Прайма Skeletron Prime AI
+		// SkeletronPrimeAITooltip: Включает изменения Скелетрона Прайма Enables Skeletron Prime tweaks.
+		// PlanteraAI: ИИ Плантеры Plantera AI
+		// PlanteraAITooltip: Включает изменения Плантеры Enables Plantera tweaks.
+		// GolemAI: ИИ Голема Golem AI
+		// GolemAITooltip: Включает изменения Голема Enables Golem tweaks.
+		// CultistAI: ИИ Культиста Cultist AI
+		// CultistAITooltip: Включает реворк Лунатика-Культиста Enables Cultist Lunatic rework.
+		// OcramAI: ИИ Окрама Ocram AI
+		// OcramAITooltip: Включает реворк Окрама Enables Ocram rework.
+		// TurkorAI: ИИ Индекора Turkor AI
+		// TurkorAITooltip: Включает изменения Индекора Enables Turkor tweaks.
+		// ColdFatherAI: ИИ Отца холода Cold Father AI
+		// ColdFatherAITooltip: Включает изменения Отца холода Enables Cold Father tweaks.
+		// JadeEmperorAI: ИИ Изумрудного императора Jade Emperor AI
+		// JadeEmperorAITooltip: Включает реворк Изумрудного императора Enables Jade Emperor rework.
+		// NecromancerAI: ИИ Некроманта Necromancer AI
+		// NecromancerAITooltip: Включает реворк Некроманта Enables Necromancer rework.
+		// MinotaurAI: ИИ Минотавра Minotaur AI
+		// MinotaurAITooltip: Включает изменения Минотавра Enables Minotaur tweaks.
+		// LothorAI: ИИ Лотора  Lothor AI
+		// LothorAITooltip: Включает изменения Лотора лютого Enables Lothor the Wild tweaks.
+		// DesertBeakAI: ИИ Пустынного клюва Desert Beak AI
+		// DesertBeakAITooltip: Включает изменения Пустынного клюва Enables Desert Beak tweaks.
+		// ColossalCarnageAI: ИИ Колоссального осьминога Colossal Carnage AI
+		// ColossalCarnageAITooltip: Включает изменения Колоссального осьминога Enables Colossal Carnage tweaks.
+		// DynamicalPrices: Динамические цены Dynamical Prices
 		// DynamicalPricesTooltip: Enables dynamical prices in NPCs shops
-		// StaminaHooks: Stamina Hooks
-		// StaminaHooksTooltip: Enables all hooks depending on stamina
-		// HPScaling: Npc Hp Scaling
-		// HPScalingTooltip: Enables 100+ SetDefaults changes to NPCs
-		// WeaponsScaling: Weapons Scaling
-		// WeaponsScalingTooltip: Enables 250+ Balance changes to the weapons
+		// StaminaHooks: Крюки выносливости Stamina Hooks
+		// StaminaHooksTooltip: Включает зависимость всех крюков от выносливости Enables all hooks depending on stamina
+		// HPScaling: Усиление со временем у НИПов Npc Hp Scaling
+		// HPScalingTooltip: Включает 100+ изменений для НИПов Enables 100+ SetDefaults changes to NPCs
+		// WeaponsScaling: Улучшение оружия Weapons Scaling
+		// WeaponsScalingTooltip: Включает 250+ изменений для оружия Enables 250+ Balance changes to the weapons
 	}
 
 	UnconsumableConfig: {
-		// EnableUnconsumableSummons: Enable Unconsumable summons
-		// EnableUnconsumableSummonsTooltip: Makes summon items unconsumable
+		// EnableUnconsumableSummons: Включить нерасходуемые предметы призыва Enable Unconsumable summons
+		// EnableUnconsumableSummonsTooltip: Предметы призыва теперь нерасходуемые Makes summon items unconsumable
 	}
 }
 
-// MechanicsConfig.DisplayName: Mechanics Config
+// MechanicsConfig.DisplayName: Конфигурация механик Mechanics Config
