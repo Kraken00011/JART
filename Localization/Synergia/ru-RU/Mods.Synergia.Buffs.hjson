@@ -1,77 +1,77 @@
 BloodBuff: {
-	// CurrentLevel: Current Level:
-	// LevelMax: Your Max Level
-	// Level: Bonus For Level:
-	// PressShift: Hold down the shift key to see the bonuses.
-	// PressCtrl: Hold down the control key to see the total number of bonuses.
-	// Tir0: Increases your throwing damage by 10%
+	// CurrentLevel: Ваш уровень: Current Level:
+	// LevelMax: Ваш максимальный уровень Your Max Level
+	// Level: Бонусный опыт Bonus For Level:
+	// PressShift: Удерживайте кнопку Shift, чтобы увидеть бонусы Hold down the shift key to see the bonuses.
+	// PressCtrl: Удерживайте кнопку CTRL, чтобы увидеть общее число бонусов Hold down the control key to see the total number of bonuses.
+	// Tir0: Увеличивает метательный урон на 10% Increases your throwing damage by 10%
 	// Tir1: "{0}"
-	// Tir2: You have a chance to avoid any damage.
-	// Tir3: Increases your movement speed by 7%
+	// Tir2: У вас есть шанс увернуться от любого урона You have a chance to avoid any damage.
+	// Tir3: Увеличивает вашу скорост передвижения на 7% Increases your movement speed by 7%
 	// Tir4: "{0}"
-	// Tir5: A bloody aura appears around the player, dealing damage to enemies.
-	// Tir6: Increases damage resistance by 15%
-	// Tir7: Adds a 50% chance to fire a blood projectile when attacking.
+	// Tir5: Кровавая аура окружает игрока, нанося урон врагам A bloody aura appears around the player, dealing damage to enemies.
+	// Tir6: Увеличивает сопротивление к урону на 15% Increases damage resistance by 15%
+	// Tir7: При атаке даёт шанс в 50% выпустить кровавый снаряд Adds a 50% chance to fire a blood projectile when attacking.
 	// Tir8: "{0}"
-	// Tir9: Allows you to make a bloody dash.
-	// Tir10: Adds a vampirism effect to your weapons.
-	// Bonus: Bonus
-	// Pasive: Pasive Skills
-	// MovmentBonus: Increases your movement speed by {0}%.
-	// ThrowingSpeedBonus: Increases your throwing speed by {0}%.
-	// DamageResist: Increases your damage resistance by {0}%.
-	// Dodge: Chance to avoid any damage.
-	// Aura: Bloody Aura surrounds you.
-	// Shot: Chance for an additional projectile.
-	// Dash: Bloody Dash.
-	// Vampirism: Vampirism Effect.
-	// Info: Every 10% of the completed bestiary grants one level of buff.
+	// Tir9: Даёт возможность делать кровавый рывок Allows you to make a bloody dash.
+	// Tir10: Добавляет эффект вампиризма вашему оружию Adds a vampirism effect to your weapons.
+	// Bonus: Бонус Bonus
+	// Pasive: Пассивные навыки Pasive Skills
+	// MovmentBonus: Увеличивает скорость передвижения Increases your movement speed by {0}%.
+	// ThrowingSpeedBonus: Увеличивает ваш метательный урон Increases your throwing speed by {0}%.
+	// DamageResist: Увеличивает ваше сопротивление к урону Increases your damage resistance by {0}%.
+	// Dodge: Шанс увернуться от любого урона Chance to avoid any damage.
+	// Aura: Кровавая аура окружает вас Bloody Aura surrounds you.
+	// Shot: Шанс выпустить дополнительный снаряд Chance for an additional projectile.
+	// Dash: Кровавый рывок Bloody Dash.
+	// Vampirism: Эффект вампиризма Vampirism Effect.
+	// Info: Каждые 10% заполненного бестиария даёт один уровень баффа Every 10% of the completed bestiary grants one level of buff.
 }
 
 FadingHellEffect_Shadowflame: {
-	// Description: 33% to dodge incoming attack.
-	// DisplayName: Shadowflame
+	// Description: 33% шанс увернуться от атаки 33% to dodge incoming attack.
+	// DisplayName: Теневой огонь Shadowflame
 }
 
 FadingHellEffect_OnFire: {
-	// Description: Enemies can spawn Hellfire on hit that aimes at nearby enemy and explodes.
-	// DisplayName: Fire
+	// Description: Враги могут создать адский огонь при нанесении урона, который наводится на ближайшего противника и взрывается Enemies can spawn Hellfire on hit that aimes at nearby enemy and explodes.
+	// DisplayName: Огонь Fire
 }
 
 FadingHellEffect_Frostburn: {
 	/* Description:
 		'''
-		You gain frost shield that grows over time and reduces incoming damage.
-		With fully grown shield, you can dash into enemies to deal massive damage.
+		Вы получаете ледяной щит, который растёт со временем и снижает получаемый урон You gain frost shield that grows over time and reduces incoming damage.
+		При максимальном росте щита, вы можете совершить рывок во врага, нанеся огромный урон With fully grown shield, you can dash into enemies to deal massive damage.
 		''' */
-	// DisplayName: Frostburn
+	// DisplayName: Морозный огонь Frostburn
 }
 
 FadingHellEffect_CursedInferno: {
 	/* Description:
 		'''
-		Attacked enemies become weaker and more vulnerable to damage.
-		The more damage you deal, the more weak enemy becomes
+		Атакованные враги становятся слабее и более уязвимыми к урону Attacked enemies become weaker and more vulnerable to damage.
+		Чем больше урона вы наносите, тем слабее враг становится The more damage you deal, the more weak enemy becomes
 		''' */
-	// DisplayName: Cursed Inferno
+	// DisplayName: Проклятое инферно Cursed Inferno
 }
 
 FadingHellEffect_Base: {
-	// Description: no
-	// DisplayName: no
+	// Description: нет. no
+	// DisplayName: нет. no
 }
 
 CurseOfDemise: {
-	// DisplayName: Curse Of Demise
-	// Description: You doomed to death.
+	// DisplayName: Проклятье погибели Curse Of Demise
+	// Description: Вы обречены на смерть You are doomed to death.
 }
 
 ProdigyBuff: {
-	// Description: Prodigal Seraph fights for you
-	// DisplayName: Prodigy Buff
+	// Description: Блудный серафим сражается за вас Prodigal Seraph fights for you
+	// DisplayName: Блудный бафф Prodigy Buff
 }
 
 HotEggBuff: {
-	// DisplayName: Hot Egg
-	// Description: OOOf this egg really hot...
+	// DisplayName: Горячее яйцо Hot Egg
+	// Description: АУУУУч, это яйцо реально горячее... OOOf this egg really hot...
 }
