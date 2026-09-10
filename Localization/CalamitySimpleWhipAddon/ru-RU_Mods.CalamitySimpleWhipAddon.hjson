@@ -128,7 +128,7 @@ Configs: {
 
 		HummusBalancing: {
 			Label: Изменения баланса от WHummus
-			Tooltip: Включает/Выключает изменения баланса, сделанные для игры с модом Infernal Eclipse of Ragnarok, даже если сам мод не включён.
+			Tooltip: Включает изменения баланса, сделанные для игры с модом Infernal Eclipse of Ragnarok, даже если сам мод не включён.
 		}
 	}
 }

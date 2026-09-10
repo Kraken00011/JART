@@ -1,0 +1,153 @@
+Projectiles: {
+	BloodBubble.DisplayName: Кровавый пузырь
+	BloodRain.DisplayName: Кровавый дождь
+	BloodReel.DisplayName: Кровавый дугорь
+	BloodShot.DisplayName: Кровавый выстрел
+	BloodThorn.DisplayName: Кровавая колючка
+	BloodTyphoon.DisplayName: Кровавый водоворот
+	DreadCatcher.DisplayName: Dread Catcher
+	Drillobite.DisplayName: Дрельобит
+	DripplerCrippler.DisplayName: Drippler Crippler
+	EelectricShock.DisplayName: Eelectric Shock
+	HemogoblinSharkToothNecklace.DisplayName: Tachycardia Necklace
+	HemolysedBubble.DisplayName: Hemolysed Bubble
+	Hypertension.DisplayName: Hypertension
+	Nautibuss.DisplayName: Nautibuss
+	RedTide.DisplayName: Алая волна
+	RedTideShock.DisplayName: Алая волна
+}
+
+Items: {
+	Atlateel: {
+		DisplayName: Atlateel
+		Tooltip:
+			'''
+			Использует дротики в качестве боеприпасов
+			Slowly increases damage dealt the longer you don't attack
+			Might not shoot correctly if ranged attack speed is increased
+			'''
+	}
+
+	BloodReel: {
+		DisplayName: Кровавый дугорь
+		Tooltip:
+			'''
+			Can hook into enemies, but the player is more vulnerable
+			Unhooks automatically when destination is reached, but horizontal momentum is reduced
+			'''
+	}
+
+	DreadCatcher: {
+		DisplayName: Устрашающий хвататель
+		Tooltip: Greatly increased chance to fish up enemies during a Blood Moon
+	}
+
+	DreadnautilusEye: {
+		DisplayName: Глаз Дреднаутилуса
+		Tooltip: Increases health and resource regeneration for every hostile targeting the wearer
+	}
+
+	Drillobite: {
+		DisplayName: Бурлобит
+		Tooltip: Способен добывать блоки со значительно большей скоростью
+	}
+
+	HemogoblinSharkToothNecklace: {
+		DisplayName: Ожерелье тахикардии
+		Tooltip:
+			'''
+			Нажмите дважды в нужном направлении, чтобы совершить рывок
+			You are immune to damage and unaffected by gravity while dashing
+			However, you cannot attack while dashing and vice versa
+			'''
+	}
+
+	HemolysedShell: {
+		DisplayName: Hemolysed Shell
+		Tooltip:
+			'''
+			Unleashes a barrage of blood bubbles
+			Synergizes with Blood Thorn
+			'''
+	}
+
+	Hypertension: {
+		DisplayName: Гипертония
+		Tooltip:
+			'''
+			Hold <left> to charge up a barrage of blood shots
+			'The demon's heart crying, the blood gushing bright'
+			'''
+	}
+
+	Nautibuss: {
+		DisplayName: Наутибус
+		Tooltip:
+			'''
+			Can only shoot if loaded with bullets, <right> to load bullets
+			Can be loaded up to 4 times, and is able to use multiple ammo types simultaneously
+			'''
+	}
+
+	RedTide: {
+		DisplayName: Алая волна
+		Tooltip:
+			'''
+			При попадании вызывает электрические вспышки, наносящие урон врагам внутри
+			Только 5 таких вспышек может существовать одновременно
+			Пока вы держите это оружие увеличивает манёвренность по водой
+			Удерживайте ВВЕРХ, чтобы погружаться медленнее
+			'''
+	}
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: Конфигурация переработок
+
+		dread: {
+			Label: Дреднаутилус
+			Tooltip: ""
+		}
+
+		shark: {
+			Label: Гемоглобиновая акула
+			Tooltip: ""
+		}
+
+		eel: {
+			Label: Кровавый угорь
+			Tooltip: Note: If it glows, it takes more damage to the head.
+		}
+
+		squid: {
+			Label: Blood Squid
+			Tooltip: Note: This enemy is now in the blood moon fishing pool and is no longer spawned by the Dreadnautilus.
+		}
+
+		eyefish: {
+			Label: Wandering Eye Fish
+			Tooltip: ""
+		}
+
+		merman: {
+			Label: Zombie Merman
+			Tooltip: ""
+		}
+
+		mapIcons: {
+			Label: Иконки на карте
+			Tooltip: Adds map icons and boss health bars for Dreadnautilus, Hemogoblin Shark and Blood Eel.
+		}
+
+		hmStatFix: {
+			Label: Исправление масштабирования характеристик в Хардмоде
+			Tooltip: Disables hardmode stat scaling for Dreadnautilus, Hemogoblin Shark and Blood Eel because it causes them to have bloated stats.
+		}
+
+		expertDrops: {
+			Label: Эксклюзивные предметы на сложности Эксперт
+			Tooltip: ""
+		}
+	}
+}

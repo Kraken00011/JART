@@ -28,6 +28,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Revengeance+
 [*] Spirit Classic Bosses Rework
 [*] Unofficial Calamity Bard & Healer
+[*] Unofficial Redemption Bard, Thrower & Healer
 [*] Unofficial SOTS Bard, Thrower and Healer
 [/list]
 

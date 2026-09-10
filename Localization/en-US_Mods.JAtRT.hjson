@@ -13,554 +13,554 @@ Configs: {
 
 		CorruptionBossLocalization: {
 			Label: "Corruption Core Boss"
-			Tooltip: Включает/Выключает перевод мода Corruption Core Boss.
+			Tooltip: Включает перевод мода Corruption Core Boss.
 		}
 
 		InfernalEclipseLocalization: {
 			Label: "Infernal Eclipse of Ragnarok"
-			Tooltip: Включает/Выключает перевод мода Infernal Eclipse of Ragnarok.
+			Tooltip: Включает перевод мода Infernal Eclipse of Ragnarok.
 		}
 
 		PrimeReworkLocalization: {
 			Label: "Mech Bosses Rework"
-			Tooltip: Включает/Выключает перевод мода Mech Bosses Rework.
+			Tooltip: Включает перевод мода Mech Bosses Rework.
 		}
 
 		ThoriumReworkLocalization: {
 			Label: Thorium Helheim
-			Tooltip: Включает/Выключает перевод мода Thorium Helheim.
+			Tooltip: Включает перевод мода Thorium Helheim.
 		}
 		
 		# Средние моды
 
 		SevenItemsFromMinecraftLocalization: {
 			Label: "7 Useful Items from Minecraft"
-			Tooltip: Включает/Выключает перевод мода 7 Useful Items from Minecraft.
+			Tooltip: Включает перевод мода 7 Useful Items from Minecraft.
 		}
 
 		BlueMoonLocalization: {
 			Label: "Enchanted Moons"
-			Tooltip: Включает/Выключает перевод мода Enchanted Moons.
+			Tooltip: Включает перевод мода Enchanted Moons.
 		}
 
 		EvilBossesReworkLocalization: {
 			Label: "Evil Bosses Rework"
-			Tooltip: Включает/Выключает перевод мода Evil Bosses Rework.
+			Tooltip: Включает перевод мода Evil Bosses Rework.
 		}
 
 		SoulsBossRushLocalization: {
 			Label: "Fargo Rush Mod"
-			Tooltip: Включает/Выключает перевод мода Fargo Rush Mod.
+			Tooltip: Включает перевод мода Fargo Rush Mod.
 		}
 
 		HomewardRagnarokLocalization: {
 			Label: "Homeward Ragnarok"
-			Tooltip: Включает/Выключает перевод мода Homeward Ragnarok.
+			Tooltip: Включает перевод мода Homeward Ragnarok.
 		}
 
 		HPAwareLocalization: {
 			Label: "HP Awareness"
-			Tooltip: Включает/Выключает перевод мода HP Awareness.
+			Tooltip: Включает перевод мода HP Awareness.
 		}
 
 		GolemReworkLocalization: {
 			Label: "Jungle Bosses Rework"
-			Tooltip: Включает/Выключает перевод мода Jungle Bosses Rework.
+			Tooltip: Включает перевод мода Jungle Bosses Rework.
 		}
 
 		OphioidLocalization: {
 			Label: "Ophioid - A Boss fight mod"
-			Tooltip: Включает/Выключает перевод мода Ophioid - A Boss fight mod.
+			Tooltip: Включает перевод мода Ophioid - A Boss fight mod.
 		}
 
 		RevengeancePlusLocalization: {
 			Label: "Revengeance+"
-			Tooltip: Включает/Выключает перевод мода Revengeance+.
+			Tooltip: Включает перевод мода Revengeance+.
 		}
 
 		SOTSBardHealerLocalization: {
 			Label: "Unofficial SOTS Bard, Thrower & Healer"
-			Tooltip: Включает/Выключает перевод мода Unofficial SOTS Bard, Thrower & Healer.
+			Tooltip: Включает перевод мода Unofficial SOTS Bard, Thrower & Healer.
 		}
 
 		CalamitySimpleWhipAddonLocalization: {
 			Label: "Calamity Simple Whip Addon"
-			Tooltip: Включает/Выключает перевод мода Calamity Simple Whip Addon.
+			Tooltip: Включает перевод мода Calamity Simple Whip Addon.
 		}
 
 		CalamityBardHealerLocalization: {
 			Label: "Unofficial Calamity Bard & Healer"
-			Tooltip: Включает/Выключает перевод мода Unofficial Calamity Bard & Healer.
+			Tooltip: Включает перевод мода Unofficial Calamity Bard & Healer.
 		}
 
 		InfernalEclipseWeaponsDLCLocalization: {
 			Label: "Infernal Arsenal"
-			Tooltip: Включает/Выключает перевод мода Infernal Arsenal.
+			Tooltip: Включает перевод мода Infernal Arsenal.
 		}
 
 		RedemptionBardHealerLocalization: {
 			Label: "Unofficial Redemption Bard, Thrower & Healer"
-			Tooltip: Включает/Выключает перевод мода Unofficial Redemption Bard, Thrower & Healer.
+			Tooltip: Включает перевод мода Unofficial Redemption Bard, Thrower & Healer.
 		}
 		
 		# Мелкие моды
 
 		HomewardSubworldLocalization: {
 			Label: "Abyssal Subworld"
-			Tooltip: Включает/Выключает перевод мода Abyssal Subworld.
+			Tooltip: Включает перевод мода Abyssal Subworld.
 		}
 
 		ArmorAndAccessoryPrefixesLocalization: {
 			Label: "Armor And Accessory Prefixes"
-			Tooltip: Включает/Выключает перевод мода Armor And Accessory Prefixes.
+			Tooltip: Включает перевод мода Armor And Accessory Prefixes.
 		}
 
 		ArmorBuffsLocalization: {
 			Label: "Armor Buffs"
-			Tooltip: Включает/Выключает перевод мода Armor Buffs.
+			Tooltip: Включает перевод мода Armor Buffs.
 		}
 
 		CalamityZenithLocalization: {
 			Label: "Better Zenith in Calamity"
-			Tooltip: Включает/Выключает перевод мода Better Zenith in Calamity.
+			Tooltip: Включает перевод мода Better Zenith in Calamity.
 		}
 
 		BossCursorLocalization: {
 			Label: "Boss Cursor"
-			Tooltip: Включает/Выключает перевод мода Boss Cursor.
+			Tooltip: Включает перевод мода Boss Cursor.
 		}
 
 		CalamityCrossmodVulnerabilitiesLocalization: {
 			Label: "Calamity Crossmod Vulnerabilities"
-			Tooltip: Включает/Выключает перевод мода Calamity Crossmod Vlunerabilities.
+			Tooltip: Включает перевод мода Calamity Crossmod Vlunerabilities.
 		}
 
 		ClamityMusicLocalization: {
 			Label: "Clamity Music"
-			Tooltip: Включает/Выключает перевод мода Clamity Music.
+			Tooltip: Включает перевод мода Clamity Music.
 		}
 
 		ConsolariaLegecyItemsLocalization: {
 			Label: "Consolaria Legacy Items"
-			Tooltip: Включает/Выключает перевод мода Consolaria Legacy Items.
+			Tooltip: Включает перевод мода Consolaria Legacy Items.
 		}
 
 		DiscordyaLocalization: {
 			Label: "Discordya"
-			Tooltip: Включает/Выключает перевод мода Discordya.
+			Tooltip: Включает перевод мода Discordya.
 		}
 
 		ExtraWorldSizesLocalization: {
 			Label: "Extra World Sizes"
-			Tooltip: Включает/Выключает перевод мода Extra World Sizes.
+			Tooltip: Включает перевод мода Extra World Sizes.
 		}
 
 		FancyWhipsLocalization: {
 			Label: "Fancy Whips"
-			Tooltip: Включает/Выключает перевод мода Fancy Whips.
+			Tooltip: Включает перевод мода Fancy Whips.
 		}
 
 		FargosAltMusicModLocalization: {
 			Label: "Javyz' Music Mod"
-			Tooltip: Включает/Выключает перевод мода Javyz' Music Mod.
+			Tooltip: Включает перевод мода Javyz' Music Mod.
 		}
 
 		SpiritofOverseerLocalization: {
 			Label: "Spirit Classic Bosses Rework"
-			Tooltip: Включает/Выключает перевод Spirit Classic Bosses Rework.
+			Tooltip: Включает перевод Spirit Classic Bosses Rework.
 		}
 
 		LifeSourcesLightLocalization: {
 			Label: "Heart Crystal & Life Fruit Glow"
-			Tooltip: Включает/Выключает перевод Heart Crystal & Life Fruit Glow.
+			Tooltip: Включает перевод Heart Crystal & Life Fruit Glow.
 		}
 
 		HypnosModLocalization: {
 			Label: "Hypnos in Calamity Mod"
-			Tooltip: Включает/Выключает перевод мода Hypnos in Calamity Mod.
+			Tooltip: Включает перевод мода Hypnos in Calamity Mod.
 		}
 
 		HolosparkBootsLocalization: {
 			Label: "Holospark Boots"
-			Tooltip: Включает/Выключает перевод мода Holospark Boots.
+			Tooltip: Включает перевод мода Holospark Boots.
 		}
 
 		ItemRelicsLocalization: {
 			Label: "Item Relics"
-			Tooltip: Включает/Выключает перевод мода Item Relics.
+			Tooltip: Включает перевод мода Item Relics.
 		}
 
 		MasomodeEXLocalization: {
 			Label: "Masochist Mode EX"
-			Tooltip: Включает/Выключает перевод мода Masochist Mode EX.
+			Tooltip: Включает перевод мода Masochist Mode EX.
 		}
 
 		MiscellanariaLocalization: {
 			Label: "Miscellanaria"
-			Tooltip: Включает/Выключает перевод мода Miscellanaria.
+			Tooltip: Включает перевод мода Miscellanaria.
 		}
 
 		EvilPylonLocalization: {
 			Label: "More Pylons"
-			Tooltip: Включает/Выключает перевод мода More Pylons.
+			Tooltip: Включает перевод мода More Pylons.
 		}
 
 		MoreBeamsLocalization: {
 			Label: "More Beams"
-			Tooltip: Включает/Выключает перевод мода More Beams.
+			Tooltip: Включает перевод мода More Beams.
 		}
 
 		MunchiesLocalization: {
 			Label: "Munchies - Consumable Checklist"
-			Tooltip: Включает/Выключает перевод мода Munchies - Consumable Checklist.
+			Tooltip: Включает перевод мода Munchies - Consumable Checklist.
 		}
 
 		MunchiesCalamityAddonLocalization: {
 			Label: "Munchies - Calamity Addon"
-			Tooltip: Включает/Выключает перевод мода Munchies - Calamity Addon.
+			Tooltip: Включает перевод мода Munchies - Calamity Addon.
 		}
 
 		HMOreSummonerHelmetsLocalization: {
 			Label: "Ore Helmets for Summoner"
-			Tooltip: Включает/Выключает перевод мода Ore Helmets for Summoner.
+			Tooltip: Включает перевод мода Ore Helmets for Summoner.
 		}
 
 		PetrifiedVoodooDollLocalization: {
 			Label: "Petrified Voodoo Doll"
-			Tooltip: Включает/Выключает перевод мода Petrified Voodoo Doll.
+			Tooltip: Включает перевод мода Petrified Voodoo Doll.
 		}
 
 		PolyphemalusLocalization: {
 			Label: "Polyphemalus (Calamity Fandom Boss)"
-			Tooltip: Включает/Выключает перевод мода Polyphemalus (Calamity Fandom Boss).
+			Tooltip: Включает перевод мода Polyphemalus (Calamity Fandom Boss).
 		}
 
 		ModlistIncompatibilitySolverLocalization: {
 			Label: "Playthrough Modlist Loader"
-			Tooltip: Включает/Выключает перевод мода Playthrough Modlist Loader.
+			Tooltip: Включает перевод мода Playthrough Modlist Loader.
 		}
 
 		ColouredModsRelicsLocalization: {
 			Label: "Rainbow Master: Colored Relics"
-			Tooltip: Включает/Выключает перевод мода Rainbow Master: Colored Relics.
+			Tooltip: Включает перевод мода Rainbow Master: Colored Relics.
 		}
 
 		ReforgedLocalization: {
 			Label: "Reforged"
-			Tooltip: Включает/Выключает перевод мода Reforged.
+			Tooltip: Включает перевод мода Reforged.
 		}
 
 		ShimmerGunLocalization: {
 			Label: "Shimmer Gun"
-			Tooltip: Включает/Выключает перевод мода Shimmer Gun.
+			Tooltip: Включает перевод мода Shimmer Gun.
 		}
 
 		StartingWeaponsLocalization: {
 			Label: "Starting Weapons Reborn"
-			Tooltip: Включает/Выключает перевод мода Starting Weapons Reborn.
+			Tooltip: Включает перевод мода Starting Weapons Reborn.
 		}
 
 		FixedAchievementsLocalization: {
 			Label: "Steam Achievement Fix"
-			Tooltip: Включает/Выключает перевод мода Steam Achievement Fix.
+			Tooltip: Включает перевод мода Steam Achievement Fix.
 		}
 
 		TalismanofFriendshipLocalization: {
 			Label: "Talisman of Friendship"
-			Tooltip: Включает/Выключает перевод мода Talisman of Friendship.
+			Tooltip: Включает перевод мода Talisman of Friendship.
 		}
 
 		ThoriumClassTagsConsistencyLocalization: {
 			Label: "Thorium Class Tags Consistency"
-			Tooltip: Включает/Выключает перевод мода Thorium Class Tags Consistency.
+			Tooltip: Включает перевод мода Thorium Class Tags Consistency.
 		}
 
 		TurtleBoulderLocalization: {
 			Label: "Turtle Boulder & Friends"
-			Tooltip: Включает/Выключает перевод мода Turtle Boulder & Friends.
+			Tooltip: Включает перевод мода Turtle Boulder & Friends.
 		}
 
 		FargoUnofficialPetsLocalization: {
 			Label: "Unofficial Fargo's Souls Pets"
-			Tooltip: Включает/Выключает перевод мода Unofficial Fargo's Souls Pets.
+			Tooltip: Включает перевод мода Unofficial Fargo's Souls Pets.
 		}
 
 		WADTULocalization: {
 			Label: "WADTU (What Ammo Does This Use)"
-			Tooltip: Включает/Выключает перевод мода WADTU (What Ammo Does This Use).
+			Tooltip: Включает перевод мода WADTU (What Ammo Does This Use).
 		}
 
 		GauntletsLocalization: {
 			Label: "Whip Accessories"
-			Tooltip: Включает/Выключает перевод мода Whip Accessories.
+			Tooltip: Включает перевод мода Whip Accessories.
 		}
 
 		WingSlotLocalization: {
 			Label: "Wing Slot"
-			Tooltip: Включает/Выключает перевод мода Wing Slot.
+			Tooltip: Включает перевод мода Wing Slot.
 		}
 
 		WoTELocalization: {
 			Label: "Wrath of the Empress"
-			Tooltip: Включает/Выключает перевод мода Wrath Of The Empress.
+			Tooltip: Включает перевод мода Wrath Of The Empress.
 		}
 
 		YouBossLocalization: {
 			Label: "You"
-			Tooltip: Включает/Выключает перевод мода You.
+			Tooltip: Включает перевод мода You.
 		}
 
 		CalamityShoesLocalization: {
 			Label: "Calamity Treads"
-			Tooltip: Включает/Выключает перевод мода Calamity Treads.
+			Tooltip: Включает перевод мода Calamity Treads.
 		}
 
 		CosmicElementalPetLocalization: {
 			Label: "Cosmic Elemental Returns"
-			Tooltip: Включает/Выключает перевод мода Cosmic Elemental Returns.
+			Tooltip: Включает перевод мода Cosmic Elemental Returns.
 		}
 
 		HollowKnightLocalization: {
 			Label: "Hollow Knight!"
-			Tooltip: Включает/Выключает перевод мода Hollow Knight!.
+			Tooltip: Включает перевод мода Hollow Knight!.
 		}
 
 		MunchiesHomewardLocalization: {
 			Label: "Munchies - Homeward Journey Addon"
-			Tooltip: Включает/Выключает перевод мода Munchies - Homeward Journey Addon.
+			Tooltip: Включает перевод мода Munchies - Homeward Journey Addon.
 		}
 
 		MusicBoxSlotLocalization: {
 			Label: "Music Box Slot"
-			Tooltip: Включает/Выключает перевод мода Music Box Slot.
+			Tooltip: Включает перевод мода Music Box Slot.
 		}
 
 		RobesOfCalamityLocalization: {
 			Label: "Robes Of Calamity"
-			Tooltip: Включает/Выключает перевод мода Robes Of Calamity.
+			Tooltip: Включает перевод мода Robes Of Calamity.
 		}
 
 		UnCalamityMusicLocalization: {
 			Label: "Vanilla Calamity Mod Music"
-			Tooltip: Включает/Выключает перевод мода Vanilla Calamity Mod Music.
+			Tooltip: Включает перевод мода Vanilla Calamity Mod Music.
 		}
 
 		SolynWeaponLocalization: {
 			Label: "Wrath of the Beams"
-			Tooltip: Включает/Выключает перевод мода Wrath of the Beams.
+			Tooltip: Включает перевод мода Wrath of the Beams.
 		}
 
 		InfernumMasterPatchLocalization: {
 			Label: "Infernum Master Patch"
-			Tooltip: Включает/Выключает перевод мода Infernum Master Patch.
+			Tooltip: Включает перевод мода Infernum Master Patch.
 		}
 
 		ShroomariaLocalization: {
 			Label: "Shroomaria"
-			Tooltip: Включает/Выключает перевод мода Shroomaria.
+			Tooltip: Включает перевод мода Shroomaria.
 		}
 
 		SWBADTsLocalization: {
 			Label: "Some Worm Bosses Actually Destroy Tiles"
-			Tooltip: Включает/Выключает перевод мода Some Worm Bosses Actually Destroy Tiles.
+			Tooltip: Включает перевод мода Some Worm Bosses Actually Destroy Tiles.
 		}
 
 		FutureBossesLocalization: {
 			Label: "Calamity Future Bosses Revived"
-			Tooltip: Включает/Выключает перевод мода Calamity Future Bosses Revived.
+			Tooltip: Включает перевод мода Calamity Future Bosses Revived.
 		}
 
 		ExtraBeginningsLocalization: {
 			Label: "Extra Beginnings"
-			Tooltip: Включает/Выключает перевод мода Extra Beginnings.
+			Tooltip: Включает перевод мода Extra Beginnings.
 		}
 
 		MunchiesAuricSoulsAddonLocalization: {
 			Label: "Munchies Crossmod Addon"
-			Tooltip: Включает/Выключает перевод мода Munchies Crossmod Addon.
+			Tooltip: Включает перевод мода Munchies Crossmod Addon.
 		}
 
 		ShoeSlotLocalization: {
 			Label: "Shoe Slot"
-			Tooltip: Включает/Выключает перевод мода Shoe Slot.
+			Tooltip: Включает перевод мода Shoe Slot.
 		}
 
 		EverwareLocalization: {
 			Label: "Everware"
-			Tooltip: Включает/Выключает перевод мода Everware.
+			Tooltip: Включает перевод мода Everware.
 		}
 
 		HomewardWorldGenFixLocalization: {
 			Label: "Homeward Crossmod Worldgen Fix"
-			Tooltip: Включает/Выключает перевод мода Homeward Crossmod Worldgen Fix.
+			Tooltip: Включает перевод мода Homeward Crossmod Worldgen Fix.
 		}
 
 		AccessoryHeartsLocalization: {
 			Label: "Accessory Hearts"
-			Tooltip: Включает/Выключает перевод мода Accessory Hearts.
+			Tooltip: Включает перевод мода Accessory Hearts.
 		}
 
 		ActivateWindowsLocalization: {
 			Label: "Activate Windows Mod"
-			Tooltip: Включает/Выключает перевод мода Activate Windows Mod.
+			Tooltip: Включает перевод мода Activate Windows Mod.
 		}
 
 		AdditionalRelicsLocalization: {
 			Label: "Additional Relics"
-			Tooltip: Включает/Выключает перевод мода Additional Relics.
+			Tooltip: Включает перевод мода Additional Relics.
 		}
 
 		BeamStopsSpreadLocalization: {
 			Label: "Beam Stops Spread"
-			Tooltip: Включает/Выключает перевод мода Beam Stops Spread.
+			Tooltip: Включает перевод мода Beam Stops Spread.
 		}
 
 		WulfrumExpansionLocalization: {
 			Label: "Calamity Overdrive"
-			Tooltip: Включает/Выключает перевод мода Calamity Overdrive.
+			Tooltip: Включает перевод мода Calamity Overdrive.
 		}
 
 		CelestialShieldLocalization: {
 			Label: "Celestial Shield"
-			Tooltip: Включает/Выключает перевод мода Celestial Shield.
+			Tooltip: Включает перевод мода Celestial Shield.
 		}
 
 		CleffyLocalization: {
 			Label: "Cleffy"
-			Tooltip: Включает/Выключает перевод мода Cleffy.
+			Tooltip: Включает перевод мода Cleffy.
 		}
 
 		ComSlotLocalization: {
 			Label: "Community Slot"
-			Tooltip: Включает/Выключает перевод мода Community Slot.
+			Tooltip: Включает перевод мода Community Slot.
 		}
 
 		CrownSetsLocalization: {
 			Label: "Crown Set Bonuses"
-			Tooltip: Включает/Выключает перевод мода Crown Set Bonuses.
+			Tooltip: Включает перевод мода Crown Set Bonuses.
 		}
 
 		InfernumFablesLocalization: {
 			Label: "Experimental Infernum Extension"
-			Tooltip: Включает/Выключает перевод мода Experimental Infernum Extension.
+			Tooltip: Включает перевод мода Experimental Infernum Extension.
 		}
 
 		MageTweaksLocalization: {
 			Label: "InfiniteInteger's Mage Tweaks"
-			Tooltip: Включает/Выключает перевод мода InfiniteInteger's Mage Tweaks.
+			Tooltip: Включает перевод мода InfiniteInteger's Mage Tweaks.
 		}
 
 		InspirationPotionsLocalization: {
 			Label: "Inspiration Potions"
-			Tooltip: Включает/Выключает перевод мода Inspiration Potions.
+			Tooltip: Включает перевод мода Inspiration Potions.
 		}
 
 		MLManaFruitLocalization: {
 			Label: "Mana Fruit"
-			Tooltip: Включает/Выключает перевод мода Mana Fruit.
+			Tooltip: Включает перевод мода Mana Fruit.
 		}
 
 		MoveSpeedFixLocalization: {
 			Label: "Movement Speed Fix"
-			Tooltip: Включает/Выключает перевод мода Movement Speed Fix.
+			Tooltip: Включает перевод мода Movement Speed Fix.
 		}
 
 		MulticlassArmorsLocalization: {
 			Label: "Multiclass Armors"
-			Tooltip: Включает/Выключает перевод мода Multiclass Armors.
+			Tooltip: Включает перевод мода Multiclass Armors.
 		}
 
 		PinnacleReforgesLocalization: {
 			Label: "Pinnacle Reforges"
-			Tooltip: Включает/Выключает перевод мода Pinnacle Reforges.
+			Tooltip: Включает перевод мода Pinnacle Reforges.
 		}
 
 		PotionSlotsLocalization: {
 			Label: "Potion Slot"
-			Tooltip: Включает/Выключает перевод мода Potion Slot.
+			Tooltip: Включает перевод мода Potion Slot.
 		}
 
 		starforgedclassicLocalization: {
 			Label: "Starforged [Old]"
-			Tooltip: Включает/Выключает перевод мода Starforged.
+			Tooltip: Включает перевод мода Starforged.
 		}
 
 		UISLocalization: {
 			Label: "Ultimate Infinite Star"
-			Tooltip: Включает/Выключает перевод мода Ultimate Infinite Star.
+			Tooltip: Включает перевод мода Ultimate Infinite Star.
 		}
 
 		AlternativeCompatLocalization: {
 			Label: "Unofficial Alternative Biomes Compatibility"
-			Tooltip: Включает/Выключает перевод мода Unofficial Alternative Biomes Compatibility.
+			Tooltip: Включает перевод мода Unofficial Alternative Biomes Compatibility.
 		}
 
 		NightshadeVanityCursorsLocalization: {
 			Label: "Vanity + Dyable Cursors API"
-			Tooltip: Включает/Выключает перевод мода Vanity + Dyable Cursors API.
+			Tooltip: Включает перевод мода Vanity + Dyable Cursors API.
 		}
 
 		WHummusMultiModBalancingLocalization: {
 			Label: "WHummus' Calamity/Thorium Balancing"
-			Tooltip: Включает/Выключает перевод мода WHummus' Calamity/Thorium Balancing.
+			Tooltip: Включает перевод мода WHummus' Calamity/Thorium Balancing.
 		}
 
 		// 1.6
 		ThrowerUnificationLocalization: {
 			Label: "Thrower Unification"
-			Tooltip: Включает/Выключает перевод мода Thrower Unification.
+			Tooltip: Включает перевод мода Thrower Unification.
 		}
 
 		ExpandedInventoryLocalization: {
 			Label: "Expanded Inventory"
-			Tooltip: Включает/Выключает перевод мода Expanded Inventory.
+			Tooltip: Включает перевод мода Expanded Inventory.
 		}
 
 		# Фиксы
 
 		FargowiltasCrossmodFix: {
 			Label: "Calamity - Fargo's Souls DLC"
-			Tooltip: Включает/Выключает «исправление» перевода мода Calamity - Fargo's Souls DLC.
+			Tooltip: Включает «исправление» перевода мода Calamity - Fargo's Souls DLC.
 		}
 
 		CalamityHuntFix: {
 			Label: "Calamity: Hunt of the Old God"
-			Tooltip: Включает/Выключает «исправление» перевода мода Calamity: Hunt of the Old God.
+			Tooltip: Включает «исправление» перевода мода Calamity: Hunt of the Old God.
 		}
 
 		ClamityFix: {
 			Label: "Clamity Addon"
-			Tooltip: Включает/Выключает «исправление» перевода мода Clamity Addon.
+			Tooltip: Включает «исправление» перевода мода Clamity Addon.
 		}
 
 		CompactModsFix: {
 			Label: "Compact Mods (For TML)"
-			Tooltip: Включает/Выключает «исправление» перевода мода Compact Mods (For TML).
+			Tooltip: Включает «исправление» перевода мода Compact Mods (For TML).
 		}
 
 		DraedonExpansionFix: {
 			Label: "Draedon's Expansion"
-			Tooltip: Включает/Выключает «исправление» перевода мода Draedon's Expansion.
+			Tooltip: Включает «исправление» перевода мода Draedon's Expansion.
 		}
 
 		ToolsPrefixesFix: {
 			Label: "Tools Prefixes"
-			Tooltip: Включает/Выключает «исправление» перевода мода Tools Prefixes.
+			Tooltip: Включает «исправление» перевода мода Tools Prefixes.
 		}
 
 		FlinxHatFix: {
 			Label: "Flinx Ushanka"
-			Tooltip: Включает/Выключает «исправление» перевода мода Flinx Ushanka.
+			Tooltip: Включает «исправление» перевода мода Flinx Ushanka.
 		}
 
 		InfernumLegendAndMasFix: {
 			Label: "Infernum difficulties and generation patch"
-			Tooltip: Включает/Выключает «исправление» перевода мода Infernum difficulties and generation patch.
+			Tooltip: Включает «исправление» перевода мода Infernum difficulties and generation patch.
 		}
 
 		TheDepthsFix: {
 			Label: "The Depths"
-			Tooltip: Включает/Выключает «исправление» перевода мода The Depths.
+			Tooltip: Включает «исправление» перевода мода The Depths.
 		}
 	}
 
@@ -572,7 +572,7 @@ Configs: {
 			Label: "Дополнительные теги классов"
 			Tooltip:
 				'''
-				Включает/Выключает дополнительные теги классов, появляющиеся над описанием предмета.
+				Включает дополнительные теги классов, появляющиеся над описанием предмета.
 				[c/DAA520:Для отображения тегов требуется включить Thorium Class Tags Consistency!]
 				'''
 		}

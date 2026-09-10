@@ -18,12 +18,18 @@ internal class CalamityBardHealerSetBonuses : ModSystem
         if (tru != null && calBardHealer != null)
         {
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AerospecBiretta").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.AerospecBiretta.SetBonus")
-            ));
+            {
+                string aerospecCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PreHardmode.AerospecBreastplate.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.AerospecBiretta.SetBonus") + "\n" + aerospecCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("AerospecHeadphones").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.AerospecHeadphones.SetBonus")
-            ));
+            {
+                string aerospecCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PreHardmode.AerospecBreastplate.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.AerospecHeadphones.SetBonus") + "\n" + aerospecCommon;
+            }));
 
             if (ModLoader.HasMod("CatalystMod"))
             {
@@ -127,47 +133,67 @@ internal class CalamityBardHealerSetBonuses : ModSystem
             ));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("SilvaGuardianHelmet").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.SilvaGuardianHelmet.SetBonus")
-            ));
+            {
+                string silvaCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PostMoonLord.SilvaArmor.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.SilvaGuardianHelmet.SetBonus") + "\n" + silvaCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("StatigelFoxMask").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.StatigelFoxMask.SetBonus")
-            ));
+            {
+                string statigelCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PreHardmode.StatigelArmor.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.StatigelFoxMask.SetBonus") + "\n" + statigelCommon;
+            }));
+
+            tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("StatigelEarrings").Type, (Func<string>)(() =>
+            {
+                string statigelCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PreHardmode.StatigelArmor.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.StatigelFoxMask.SetBonus") + "\n" + statigelCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("TarragonChapeau").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.TarragonChapeau.SetBonus")
-            ));
+            {
+                string tarragonCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.TarragonChapeau.SetBonus") + "\n" + tarragonCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("TarragonParagonCrown").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.TarragonParagonCrown.SetBonus")
-            ));
+            {
+                string tarragonCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.TarragonParagonCrown.SetBonus") + "\n" + tarragonCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VictideAmmoniteHat").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.VictideAmmoniteHat.SetBonus")
-            ));
-
-            if (ModLoader.HasMod("CalamityEntropy"))
             {
-                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirBiretta").Type, (Func<string>)(() =>
-                    Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirBiretta.SetBonus")
-                ));
+                string victideCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PreHardmode.VictideBreastplate.CommonSetBonus");
 
-                tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("VoidFaquirChapeau").Type, (Func<string>)(() =>
-                    Language.GetTextValue("Mods.CalamityBardHealer.Items.VoidFaquirChapeau.SetBonus")
-                ));
-            }
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.VictideAmmoniteHat.SetBonus") + "\n" + victideCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("HydrothermicHat").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.HydrothermicHat.SetBonus")
-            ));
+            {
+                string hydrothermicCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.Hardmode.HydrothermicArmor.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.HydrothermicHat.SetBonus") + "\n" + hydrothermicCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("HydrothermicGasMask").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.HydrothermicGasMask.SetBonus")
-            ));
+            {
+                string hydrothermicCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.Hardmode.HydrothermicArmor.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.HydrothermicGasMask.SetBonus") + "\n" + hydrothermicCommon;
+            }));
 
             tru.Call("AddArmorSetBonusPreview", calBardHealer.Find<ModItem>("GodSlayerDeathsingerCowl").Type, (Func<string>)(() =>
-                Language.GetTextValue("Mods.CalamityBardHealer.Items.GodSlayerDeathsingerCowl.SetBonus")
-            ));
+            {
+                string godSlayerCommon = Language.GetTextValue("Mods.CalamityMod.Items.Armor.PostMoonLord.GodSlayerChestplate.CommonSetBonus");
+
+                return Language.GetTextValue("Mods.CalamityBardHealer.Items.GodSlayerDeathsingerCowl.SetBonus") + "\n" + godSlayerCommon;
+            }));
         }
     }
 }

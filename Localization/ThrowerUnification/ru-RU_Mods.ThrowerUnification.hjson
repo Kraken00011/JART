@@ -244,7 +244,7 @@ Configs: {
 }
 
 Projectiles: {
-	FireAxeStealthPro.DisplayName: Подожжённый пожарный топор
+	FireAxeStealthPro.DisplayName: Горящий пожарный топор
 	RogueSpectreBlast.DisplayName: Спектральный выстрел
 	TidalWaveWhirlpool.DisplayName: Водоворот приливной волны
 	ShinobiGelStealthPro.DisplayName: Колючка резака шиноби

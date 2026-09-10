@@ -337,7 +337,7 @@ Configs: {
 		}
 
 		StaffOfEarthToggle: {
-			Label: "[i:1296] {$ItemName.StaffOfEarth}"
+			Label: "[i:1296] {$ItemName.StaffofEarth}"
 			Tooltip: ""
 		}
 
@@ -397,12 +397,12 @@ Configs: {
 		}
 
 		WaterboltToggle: {
-			Label: "[i:165] {$ItemName.Waterbolt}"
+			Label: "[i:165] {$ItemName.WaterBolt}"
 			Tooltip: ""
 		}
 
 		BookOfSkullsToggle: {
-			Label: "[i:1313] {$ItemName.BookOfSkulls}"
+			Label: "[i:1313] {$ItemName.BookofSkulls}"
 			Tooltip: ""
 		}
 
@@ -437,7 +437,7 @@ Configs: {
 		}
 
 		LunarFlareToggle: {
-			Label: "[i:3570] {$ItemName.LunarFlare}"
+			Label: "[i:3570] {$ItemName.LunarFlareBook}"
 			Tooltip: ""
 		}
 
@@ -452,17 +452,17 @@ Configs: {
 		}
 
 		FlowerOfFireToggle: {
-			Label: "[i:112] {$ItemName.FlowerOfFire}"
+			Label: "[i:112] {$ItemName.FlowerofFire}"
 			Tooltip: ""
 		}
 
 		FlowerOfFrostToggle: {
-			Label: "[i:1264] {$ItemName.FlowerOfFrost}"
+			Label: "[i:1264] {$ItemName.FlowerofFrost}"
 			Tooltip: ""
 		}
 
 		ShadowflameHexDollToggle: {
-			Label: "[i:3053] {$ItemName.ShadowflameHexDoll}"
+			Label: "[i:3053] {$ItemName.ShadowFlameHexDoll}"
 			Tooltip: ""
 		}
 

@@ -9,8 +9,8 @@ NPCs.TerraBladeBoss: {
 
 Projectiles: {
 	AcceleratingTerraBeam.DisplayName: Терра-луч
-	ArcingLightBeam.DisplayName: Светлый луч
-	ArcingNightBeam.DisplayName: Тёмный луч
+	ArcingLightBeam.DisplayName: Луч света
+	ArcingNightBeam.DisplayName: Луч тьмы
 	ArcingTerraBeam.DisplayName: Терра-луч
 	TelegraphedTerraBeam.DisplayName: Терра-луч
 	TerraBladeSplit.DisplayName: Компонент Терра-клинка
@@ -22,7 +22,7 @@ Projectiles: {
 }
 
 Buffs.GracedWings: {
-	DisplayName: Возвышенные крылья
+	DisplayName: Грациозные крылья
 	Description: Манёвренность в полёте улучшена
 }
 

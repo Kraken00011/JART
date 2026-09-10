@@ -50,7 +50,7 @@ Buffs: {
 	}
 
 	ToxicCoatingBuff: {
-		DisplayName: Смазанное метательное оружие: токсичность
+		DisplayName: Смазанное разбойное оружие: токсичность
 		Description: Разбойные атаки могут отравить врагов
 	}
 
@@ -141,15 +141,15 @@ Items: {
 
 	BronzeBreastplate: {
 		// DisplayName: Bronze Breastplate
-		Tooltip: 20% increased rogue damage
+		Tooltip: Увеличивает разбойный урон на 20%
 	}
 
 	BronzeGreaves: {
 		// DisplayName: Bronze Greaves
 		Tooltip:
 			'''
-			10% increased rogue speed
-			10% increased movement speed
+			Увеличивает разбойный урон на 10%
+			Увеличивает скорость передвижения на 10%
 			'''
 	}
 
@@ -157,8 +157,8 @@ Items: {
 		// DisplayName: Bronze Helmet
 		Tooltip:
 			'''
-			10% increased rogue critical strike chance
-			10% increased rogue weapon velocity
+			Увеличивает шанс разбойного критического удара на 10%
+			Увеличивает скорость разбойных снарядов на 10%
 			'''
 	}
 

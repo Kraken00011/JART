@@ -16,31 +16,14 @@ public class ThoriumReworkGlobalItem : GlobalItem
             // Замена текста предосмотра для реворкнутой ториумной брони
             if (TRuConfig.Instance.ArmorSetBonusPreview && tooltip.Name == "ArmorSetBonusInfo" && tooltip.Mod == "CalamityRuTranslate")
             {
-                string titanRework = Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.TitanArmor");
-                string thoriumRework = Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.ThoriumArmor");
-                string ornateRework = Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.OrnateArmor");
-
-                if (item.type == ModContent.Find<ModItem>("ThoriumMod/TitanHeadgear").Type || item.type == ModContent.Find<ModItem>("ThoriumMod/TitanHelmet").Type
-                ||  item.type == ModContent.Find<ModItem>("ThoriumMod/TitanMask").Type)
-                {
-                    tooltip.Text = tooltip.Text.Replace(
-                        Language.GetTextValue("Mods.ThoriumMod.Items.TitanHelmet.SetBonus", 18),
-                        Language.GetTextValue("Mods.ThoriumMod.Items.TitanHelmet.SetBonus", 18) + "\n" + titanRework);
-                }
+                if (item.type == ModContent.Find<ModItem>("ThoriumMod/TitanHeadgear").Type || item.type == ModContent.Find<ModItem>("ThoriumMod/TitanHelmet").Type || item.type == ModContent.Find<ModItem>("ThoriumMod/TitanMask").Type)
+                    tooltip.Text += "\n" + Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.TitanArmor");
 
                 if (item.type == ModContent.Find<ModItem>("ThoriumMod/ThoriumHelmet").Type)
-                {
-                    tooltip.Text = tooltip.Text.Replace(
-                        Language.GetTextValue("Mods.ThoriumMod.Items.ThoriumHelmet.SetBonus", 10),
-                        Language.GetTextValue("Mods.ThoriumMod.Items.ThoriumHelmet.SetBonus", 10) + "\n" + thoriumRework);
-                }
+                    tooltip.Text += "\n" + Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.ThoriumArmor");
 
                 if (item.type == ModContent.Find<ModItem>("ThoriumMod/OrnateHat").Type)
-                {
-                    tooltip.Text = tooltip.Text.Replace(
-                        Language.GetTextValue("Mods.ThoriumMod.Items.OrnateHat.SetBonus", 5),
-                        Language.GetTextValue("Mods.ThoriumMod.Items.OrnateHat.SetBonus", 5) + "\n" + ornateRework);
-                }
+                    tooltip.Text += "\n" + Language.GetTextValue("Mods.ThoriumRework.ItemDescriptions.OrnateArmor");
             }
         }
     }
