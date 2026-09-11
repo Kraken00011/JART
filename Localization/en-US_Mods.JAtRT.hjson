@@ -516,6 +516,16 @@ Configs: {
 			Tooltip: Включает перевод мода Expanded Inventory.
 		}
 
+		FargowiltasSoulsDLCLocalization: {
+			Label: "Fargo's Souls Mod Extras"
+			Tooltip: Включает перевод мода Fargo's Souls Mod Extras.
+		}
+
+		BloodMoonEnemiesReworkLocalization: {
+			Label: "Blood Moon Enemies Rework"
+			Tooltip: Включает перевод мода Blood Moon Enemies Rework.
+		}
+
 		# Фиксы
 
 		FargowiltasCrossmodFix: {

@@ -1,30 +1,30 @@
 Projectiles: {
 	BloodBubble.DisplayName: Кровавый пузырь
 	BloodRain.DisplayName: Кровавый дождь
-	BloodReel.DisplayName: Кровавый дугорь
+	BloodReel.DisplayName: "{Items.BloodReel.DisplayName}"
 	BloodShot.DisplayName: Кровавый выстрел
-	BloodThorn.DisplayName: Кровавая колючка
-	BloodTyphoon.DisplayName: Кровавый водоворот
-	DreadCatcher.DisplayName: Dread Catcher
-	Drillobite.DisplayName: Дрельобит
-	DripplerCrippler.DisplayName: Drippler Crippler
-	EelectricShock.DisplayName: Eelectric Shock
-	HemogoblinSharkToothNecklace.DisplayName: Tachycardia Necklace
-	HemolysedBubble.DisplayName: Hemolysed Bubble
-	Hypertension.DisplayName: Hypertension
-	Nautibuss.DisplayName: Nautibuss
-	RedTide.DisplayName: Алая волна
-	RedTideShock.DisplayName: Алая волна
+	BloodThorn.DisplayName: "{$ItemName.SharpTears}"
+	BloodTyphoon.DisplayName: Кровавый тайфун
+	DreadCatcher.DisplayName: "{Items.DreadCatcher.DisplayName}"
+	Drillobite.DisplayName: "{Items.Drillobite.DisplayName}"
+	DripplerCrippler.DisplayName: "{$ItemName.DripplerFlail}"
+	EelectricShock.DisplayName: Электровспышка
+	HemogoblinSharkToothNecklace.DisplayName: "{Items.HemogoblinSharkToothNecklace.DisplayName}"
+	HemolysedBubble.DisplayName: Гемолизированный пузырь
+	Hypertension.DisplayName: "{Items.Hypertension.DisplayName}"
+	Nautibuss.DisplayName: "{Items.Nautibuss.DisplayName}"
+	RedTide.DisplayName: "{Items.RedTide.DisplayName}"
+	RedTideShock.DisplayName: "{Items.RedTide.DisplayName}"
 }
 
 Items: {
 	Atlateel: {
-		DisplayName: Atlateel
+		DisplayName: Угреметалка
 		Tooltip:
 			'''
 			Использует дротики в качестве боеприпасов
-			Slowly increases damage dealt the longer you don't attack
-			Might not shoot correctly if ranged attack speed is increased
+			Постепенно увеличивает наносимый урон в зависимости от времени, прошедшего с последней атаки
+			Поведение предмета может сломаться при достаточно высокой скорости стрелковых атак
 			'''
 	}
 
@@ -32,14 +32,14 @@ Items: {
 		DisplayName: Кровавый дугорь
 		Tooltip:
 			'''
-			Can hook into enemies, but the player is more vulnerable
-			Unhooks automatically when destination is reached, but horizontal momentum is reduced
+			Позволяет цепляться за врагов, но делает игрока более уязвимым во время этого
+			Автоматически отцепляется при достижении цели, но значительно снижает горизонтальную скорость
 			'''
 	}
 
 	DreadCatcher: {
-		DisplayName: Устрашающий хвататель
-		Tooltip: Greatly increased chance to fish up enemies during a Blood Moon
+		DisplayName: Устрашающий ловец
+		Tooltip: Имеет значительно больший шанс выловить врагов из водоёмов во время кровавой луны в сравнении с другими удочками
 	}
 
 	DreadnautilusEye: {
@@ -57,17 +57,17 @@ Items: {
 		Tooltip:
 			'''
 			Нажмите дважды в нужном направлении, чтобы совершить рывок
-			You are immune to damage and unaffected by gravity while dashing
-			However, you cannot attack while dashing and vice versa
+			Во время этого рывка вы невосприимчивы к любому типу урона, а также не подвержены гравитации
+			Но во время рывка вы не можете атаковать, а во время атаки - совершать рывок
 			'''
 	}
 
 	HemolysedShell: {
-		DisplayName: Hemolysed Shell
+		DisplayName: Гемолизированный панцирь
 		Tooltip:
 			'''
-			Unleashes a barrage of blood bubbles
-			Synergizes with Blood Thorn
+			Высвобождает шквал кровавых пузырей
+			Имеет особую синергию с кровавой колючкой
 			'''
 	}
 
@@ -75,17 +75,18 @@ Items: {
 		DisplayName: Гипертония
 		Tooltip:
 			'''
-			Hold <left> to charge up a barrage of blood shots
-			'The demon's heart crying, the blood gushing bright'
+			Удерживайте ЛКМ, чтобы зарядить шквал пронзающих кровавых сгустков
+			'Сердце демона рыдает, ярко хлещет кровь струёй'
 			'''
 	}
 
 	Nautibuss: {
-		DisplayName: Наутибус
+		DisplayName: Наутилон
 		Tooltip:
 			'''
-			Can only shoot if loaded with bullets, <right> to load bullets
-			Can be loaded up to 4 times, and is able to use multiple ammo types simultaneously
+			Может стрелять, только если заряжено пулями
+			Нажмите ПКМ, чтобы зарядить оружие до 4 раз
+			Может использовать разные виды боеприпасов одновременно
 			'''
 	}
 
@@ -93,8 +94,8 @@ Items: {
 		DisplayName: Алая волна
 		Tooltip:
 			'''
-			При попадании вызывает электрические вспышки, наносящие урон врагам внутри
-			Только 5 таких вспышек может существовать одновременно
+			При попадании вызывает электрические вспышки, наносящие урон врагам внутри них
+			Только 5 таких вспышек могут существовать одновременно
 			Пока вы держите это оружие увеличивает манёвренность по водой
 			Удерживайте ВВЕРХ, чтобы погружаться медленнее
 			'''
@@ -106,32 +107,32 @@ Configs: {
 		DisplayName: Конфигурация переработок
 
 		dread: {
-			Label: Дреднаутилус
+			Label: "{$NPCName.BloodNautilus}"
 			Tooltip: ""
 		}
 
 		shark: {
-			Label: Гемоглобиновая акула
+			Label: "{$NPCName.GoblinShark}"
 			Tooltip: ""
 		}
 
 		eel: {
-			Label: Кровавый угорь
-			Tooltip: Note: If it glows, it takes more damage to the head.
+			Label: "{$NPCName.BloodEelBody}"
+			Tooltip: Примечание: Когда он начинает светиться If it glows, it takes more damage to the head.
 		}
 
 		squid: {
-			Label: Blood Squid
-			Tooltip: Note: This enemy is now in the blood moon fishing pool and is no longer spawned by the Dreadnautilus.
+			Label: "{$NPCName.BloodSquid}"
+			Tooltip: Примечание: This enemy is now in the blood moon fishing pool and is no longer spawned by the Dreadnautilus.
 		}
 
 		eyefish: {
-			Label: Wandering Eye Fish
+			Label: "{$NPCName.EyeballFlyingFish}"
 			Tooltip: ""
 		}
 
 		merman: {
-			Label: Zombie Merman
+			Label: "{$NPCName.ZombieMerman}"
 			Tooltip: ""
 		}
 

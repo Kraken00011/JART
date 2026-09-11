@@ -459,6 +459,14 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\ExpandedInventory\"))
 					continue;
 
+				if ((!JARTLocalizationConf.Instance.FargowiltasSoulsDLCLocalization || !ModLoader.HasMod("FargowiltasSoulsDLC"))
+				&& modpath.Contains(@"JAtRT\Localization\FargowiltasSoulsDLC\"))
+					continue;
+
+				if ((!JARTLocalizationConf.Instance.BloodMoonEnemiesReworkLocalization || !ModLoader.HasMod("BloodMoonEnemiesRework"))
+				&& modpath.Contains(@"JAtRT\Localization\BloodMoonEnemiesRework\"))
+					continue;
+
 				// Другое
 
 				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))

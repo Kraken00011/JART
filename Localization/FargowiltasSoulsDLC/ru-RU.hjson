@@ -1,0 +1,59 @@
+Mods: {
+	FargowiltasSoulsDLC: {
+		Items: {
+			NekomiEnchantment: {
+				DisplayName: Усиление Некоми
+				Tooltip: ""
+			}
+
+			GaiaEnchantment: {
+				DisplayName: Усиление Гайи
+				Tooltip: ""
+			}
+
+			EridanusEnchantment: {
+				DisplayName: Усиление Эридана
+				Tooltip: ""
+			}
+
+			StyxEnchantment: {
+				DisplayName: Усиление Стикс
+				Tooltip: ""
+			}
+
+			TrueMutantEnchantment: {
+				DisplayName: Вечное усиление
+				Tooltip: ""
+			}
+
+			EternityForce: {
+				DisplayName: Сила вечности
+				Tooltip:
+					'''
+					[i:FargowiltasSoulsDLC/NekomiEnchantment] [i:FargowiltasSoulsDLC/GaiaEnchantment] [i:FargowiltasSoulsDLC/EridanusEnchantment] [i:FargowiltasSoulsDLC/StyxEnchantment] [i:FargowiltasSoulsDLC/TrueMutantEnchantment]
+					Даёт эффекты от всех усилений, использовавшихся в создании
+					'Испытайте 0,00001% мощи лесоруба!'
+					'''
+			}
+
+			PandorasBox: {
+				DisplayName: Ящик Пандоры
+				Tooltip:
+					'''
+					Призывает что-то
+					Выдаёт куда более дружелюбные к игроку вещи утром
+					'''
+			}
+
+			PandoraTwo: {
+				DisplayName: Фолиант Пандоры
+				Tooltip: Настоящее цунами из снарядов
+			}
+
+			VoidSoul: {
+				DisplayName: Душа пустоты
+				Tooltip: Призывает ЧТО-ТО
+			}
+		}
+	}
+}

@@ -141,6 +141,11 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool BossCursorLocalization;
 
+    // Blood Moon Enemies Rework
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool BloodMoonEnemiesReworkLocalization;
+
     // Calamity Crossmod Vulnerabilities
     [ReloadRequired]
     [DefaultValue(true)]
@@ -230,6 +235,11 @@ public class JARTLocalizationConf : ModConfig
     [ReloadRequired]
     [DefaultValue(true)]
     public bool FancyWhipsLocalization;
+
+    // Fargo's Souls Mod Extras
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool FargowiltasSoulsDLCLocalization;
 
     // Heart Crystal & Life Fruit Glow
     [ReloadRequired]

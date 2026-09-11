@@ -43,6 +43,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Armor Modifiers & Reforging (склонение брони из кучи модов)
 [*] Beam Stops Spread
 [*] Better Zenith in Calamity
+[*] Blood Moon Enemies Rework
 [*] Boss Cursor
 [*] Calamity Crossmod Vulnerabilities
 [*] Calamity Future Bosses Revived
@@ -59,6 +60,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Extra Beginnings
 [*] Extra World Sizes
 [*] Fancy Whips
+[*] Fargo's Souls Mod Extras
 [*] Hollow Knight!
 [*] Holospark Boots
 [*] Homeward Crossmod Worldgen Fix
@@ -124,3 +126,4 @@ Just Another RU Translator (JART) - очередной мод-русификат
 
 [h3][b]Послесловие[/b][/h3]
 Дополнительную информацию о моде и по совместительству его репозиторий на GitHub вы можете найти по [url=https://github.com/Kraken00011/JART]этой ссылке[/url]
+Отдельную благодарность также хочу выразить Alino4kaHvosch за предоставленную помощь в некоторых переводах
