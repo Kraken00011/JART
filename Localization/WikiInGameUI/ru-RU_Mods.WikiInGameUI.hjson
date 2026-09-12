@@ -1,0 +1,127 @@
+Keybinds: {
+	// ToggleWiki.DisplayName: Открыть/Закрыть вики
+	// ToggleProgression.DisplayName: Отобр./Скр. классовую прогрессию
+	// LookUpHovered.DisplayName: Осмотреть наведённый предмет
+}
+
+Configs: {
+	ClientConfig: {
+		// DisplayName: Конфигурация вики
+
+		Headers: {
+			// Wiki: Окно вики
+			// Buttons: Экранные кнопки
+			// Progression: Панель прогрессии
+		}
+
+		SearchDescriptions: {
+			// Label: Search descriptions
+			/* Tooltip:
+				'''
+				Match an item's description as well as its name.
+				Modded gear is usually remembered by what it does rather than
+				by what it is called.
+				''' */
+		}
+
+		ShowButtons: {
+			// Label: Show buttons
+			/* Tooltip:
+				'''
+				When the on-screen wiki and progression buttons are drawn.
+				The keybinds work either way.
+				''' */
+		}
+
+		LauncherVisibility: {
+			// Tooltip: ""
+			// WithInventory.Label: With the inventory
+			// Always.Label: Always
+			// Never.Label: Never
+		}
+
+		PinnedOpacity: {
+			// Label: Pinned opacity
+			/* Tooltip:
+				'''
+				How faded the progression panel goes once pinned.
+				A pinned panel is click-through, so this is all that separates
+				the checklist from the fight behind it.
+				''' */
+		}
+
+		ShowModdedSuggestions: {
+			// Label: Suggest modded gear
+			/* Tooltip:
+				'''
+				Adds weapons and armor from your other mods to each tier, matched by
+				rarity and damage class. These are worked out from item data rather
+				than written by hand, so treat them as a starting point.
+				''' */
+		}
+
+		WikiScale: {
+			// Label: Wiki scale
+			// Tooltip: Size of the wiki window and everything in it.
+		}
+
+		PanelOpacity: {
+			// Label: Panel opacity
+			// Tooltip: How solid both windows are drawn.
+		}
+
+		MaxEntriesPerPage: {
+			// Label: Maximum rows per list
+			/* Tooltip:
+				'''
+				How many entries a single list on a page may show.
+				Large mod lists can put several hundred recipes behind one material; past this
+				many rows a page is faster to search than to scroll.
+				''' */
+		}
+
+		ShowItemTooltips: {
+			// Label: Show item tooltips
+			// Tooltip: Show Terraria's own tooltip when hovering an item anywhere in these windows.
+		}
+
+		ShowProgressionPanel: {
+			// Label: Show progression panel
+			// Tooltip: Uncheck to keep the class progression panel off entirely.
+		}
+
+		FollowWorldProgress: {
+			// Label: Follow world progress
+			// Tooltip: Jump the panel to your world's current stage whenever a boss falls.
+		}
+
+		MarkOwnedItems: {
+			// Label: Mark items you own
+			// Tooltip: Tick and dim items already in your inventory, equipment or piggy bank.
+		}
+
+		ProgressionScale: {
+			// Label: Progression panel scale
+			// Tooltip: Size of the class progression panel.
+		}
+	}
+
+	LauncherVisibility: {
+		// Tooltip: ""
+
+		WithInventory: {
+			// Label: With Inventory
+			// Tooltip: ""
+		}
+
+		Always: {
+			// Label: Always
+			// Tooltip: ""
+		}
+
+		Never: {
+			// Label: Never
+			// Tooltip: ""
+		}
+	}
+}

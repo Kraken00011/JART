@@ -41,11 +41,7 @@ internal class InfernalEclipseWeaponsDLCPrefixes : ModSystem
 
             tru.Call("AddNeuterItems", infernal, new string[]
             {
-                "ImagiknightHeraldry",
-                "RingofTix",
-                "TheChickenWing",
-                "ShatteredSubcommunity",
-                "BlixerCore"
+                "ImagiknightHeraldry"
             });
 
             tru.Call("AddPluralItems", infernal, new string[]

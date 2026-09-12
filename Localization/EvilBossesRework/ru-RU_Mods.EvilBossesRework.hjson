@@ -33,7 +33,7 @@ Items: {
 
 	DevilsRifle: {
 		DisplayName: Дьявольская винтовка
-		Tooltip: При каждом выстреле выпускает 1 теневое щупальце
+		Tooltip: Каждый выстрел выпускает теневое щупальце
 	}
 
 	DiggerofHoles: {

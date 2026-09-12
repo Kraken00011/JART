@@ -44,7 +44,7 @@ Items: {
 
 	DreadnautilusEye: {
 		DisplayName: Глаз Дреднаутилуса
-		Tooltip: Increases health and resource regeneration for every hostile targeting the wearer
+		Tooltip: Увеличивает скорость регенерации здоровья и восстановления ресурсов за каждого врага, выбравшего вас в качестве цели
 	}
 
 	Drillobite: {
@@ -118,12 +118,16 @@ Configs: {
 
 		eel: {
 			Label: "{$NPCName.BloodEelBody}"
-			Tooltip: Примечание: Когда он начинает светиться If it glows, it takes more damage to the head.
+			Tooltip:
+				'''
+				Примечание: кровавый угорь может периодически подсвечиваться. 
+				Во время этого он будет получать больше урона по голове.
+				'''
 		}
 
 		squid: {
 			Label: "{$NPCName.BloodSquid}"
-			Tooltip: Примечание: This enemy is now in the blood moon fishing pool and is no longer spawned by the Dreadnautilus.
+			Tooltip: Примечание: теперь этого врага можно будет призвать только выловив его во время кровавой луны, Дреднаутилус его больше не призывает.
 		}
 
 		eyefish: {
@@ -138,12 +142,12 @@ Configs: {
 
 		mapIcons: {
 			Label: Иконки на карте
-			Tooltip: Adds map icons and boss health bars for Dreadnautilus, Hemogoblin Shark and Blood Eel.
+			Tooltip: Добавляет иконку на карту и шкалу здоровья для Дреднаутилуса, акулы-гемогоблина и кровавого угря.
 		}
 
 		hmStatFix: {
 			Label: Исправление масштабирования характеристик в Хардмоде
-			Tooltip: Disables hardmode stat scaling for Dreadnautilus, Hemogoblin Shark and Blood Eel because it causes them to have bloated stats.
+			Tooltip: Отключает хардмодное масштабирование характеристик для Дреднаутилуса, акулы-гемогоблина и кровавого угря, ибо это слишком сильно раздувает их характеристики.
 		}
 
 		expertDrops: {

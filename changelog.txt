@@ -1,8 +1,8 @@
 v{ModVersion} (Демо-чейнджлог)
 Переводы:
-- Добавлены переводы модов Unofficial Redemption Bard, Thrower & Healer; Blood Moon Enemies Rework (WIP); Fargo's Souls Mod Extras; Infernal Arsenal (почти доделан, осталась «проверка качества»); Thorium Helheim; Ragnarok Mod (WIP); Expanded Inventory и VFX+
+- Добавлены переводы модов Unofficial Redemption Bard, Thrower & Healer; Blood Moon Enemies Rework; Fargo's Souls Mod Extras; Infernal Arsenal (почти доделан, осталась «проверка качества»); Thorium Helheim; Ragnarok Mod (WIP); Expanded Inventory и VFX+
 - Обновлены переводы модов Multiclass Armors; Additional Relics; IEoR (WIP); Calamity Simple Whips Addon и Cataclysm до своей последней версии
 - Значительные изменения в некоторых уже добавленных переводах
 Другие изменения:
-- Добавлена поддержка tRU для модов Armor Buffs; Crown Set Bonuses; Unofficial Redemption Bard, Thrower & Healer (WIP); Blood Moon Enemies Rework (будет); Infernal Arsenal; Thorium Helheim и Ragnarok Mod (будет)
+- Добавлена поддержка tRU для модов Armor Buffs; Crown Set Bonuses; Unofficial Redemption Bard, Thrower & Healer; Blood Moon Enemies Rework; Infernal Arsenal; Thorium Helheim и Ragnarok Mod (WIP)
 - Исправлен краш во время запуска игры с Calamity Bard & Healer и Call of Void одновременно

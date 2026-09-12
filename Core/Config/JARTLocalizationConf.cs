@@ -89,6 +89,11 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool CalamityBardHealerLocalization;
 
+    // Unofficial Redemption Bard, Thrower & Healer
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool RedemptionBardHealerLocalization;
+
     // Unofficial SOTS Bard, Thrower & Healer
     [ReloadRequired]
     [DefaultValue(true)]
