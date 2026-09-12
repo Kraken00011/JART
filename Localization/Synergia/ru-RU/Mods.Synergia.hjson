@@ -1,125 +1,125 @@
-// DamageClasses.ThrowingDamage.DisplayName: Throwing Damage
-// GolemDefeat: Underworld have grown stronger!
+// DamageClasses.ThrowingDamage.DisplayName: Метательный урон Throwing Damage
+// GolemDefeat: Преисподняя растёт всё сильнее! Underworld have grown stronger!
 
 Items: {
-	// OstaraHat.Tooltip: 11% Increased throwing damage and crit chance by 5%
-	// OstaraJacket.Tooltip: Throwing speed increased by 13%
-	// OstaraBoots.Tooltip: Jump height increased
+	// OstaraHat.Tooltip: Увеличивает метательный урон 11% и шанс критического попадания на 5% 11% Increased throwing damage and crit chance by 5%
+	// OstaraJacket.Tooltip: Увеличивает скорость метания на 13% Throwing speed increased by 13%
+	// OstaraBoots.Tooltip: Увеличивает высоту прыжка Jump height increased
 	/* WarlockHood.Tooltip:
 		'''
-		Increases your max. aura radius by 15% and amount of auras by 1
-		Increases your max. number of minions by 1
+		Увеличивает максимальный радиус ауры на 15% и максимальное количество аур на 1 Increases your max. aura radius by 15% and amount of auras by 1
+		Увеличивает максимальное количество миньонов на 1 Increases your max. number of minions by 1
 		''' */
 	/* WarlockRobe.Tooltip:
 		'''
-		Increases your max. aura radius by 20% when linked on the player
-		Increases your max. number of minions by 1
+		Увеличивает максимальный радиус ауры на 20%, если привязана к игроку Increases your max. aura radius by 20% when linked on the player
+		Увеличивает максимальное количество миньонов на 1 Increases your max. number of minions by 1
 		''' */
 	/* WarlockLeggings.Tooltip:
 		'''
-		Increases your max. aura radius by 10% 
-		Increases your max. number of minions by 1
+		Увеличивает максимальный радиус ауры на 10% Increases your max. aura radius by 10% 
+		Увеличивает максимальное количество миньонов на 1 Increases your max. number of minions by 1
 		''' */
 	/* AncientWarlockHood.Tooltip:
 		'''
-		Increases your max. aura radius by 15% and amount of auras by 1
-		Increases your max. number of minions by 1
+		Увеличивает максимальный радиус ауры на 15% и максимальное количество аур на 1 Increases your max. aura radius by 15% and amount of auras by 1
+		Увеличивает максимальное количество миньонов на 1 Increases your max. number of minions by 1
 		''' */
 	/* AncientWarlockRobe.Tooltip:
 		'''
-		Increases your max. aura radius by 20% when linked on the player
-		Increases your max. number of minions by 1
+		Увеличивает максимальный радиус ауры на 20%, если привязана к игроку Increases your max. aura radius by 20% when linked on the player
+		Увеличивает максимальное количество миньонов на 1 Increases your max. number of minions by 1
 		''' */
 	/* AncientWarlockLeggings.Tooltip:
 		'''
-		Increases your max aura radius by 10% 
-		Increases your max number of minions by 1
+		Увеличивает максимальный радиус ауры на 10% Increases your max aura radius by 10% 
+		Увеличивает максимальное количество миньонов на 1 Increases your max number of minions by 1
 		''' */
 	// SentinelHelmet.Tooltip: Increases throwing damage by 15% and crit chance by 5%
 	/* SentinelBreastplate.Tooltip:
 		'''
-		Increases throwing speed by 7%
-		Increases ranged damage by 7%
+		Увеличивает скорость метания на 7% Increases throwing speed by 7%
+		Увеличивает стрелковый урон на 7% Increases ranged damage by 7%
 		''' */
-	// SentinelLeggings.Tooltip: Increases running speed by 12%
-	// GreediestHead.Tooltip: Increases damage resistance by 13% and throwing damage by 20%
-	// GreediestBody.Tooltip: Increases damage resistance by 14% and crit. chance by 8
-	// GreediestLegs.Tooltip: Increases throwing speed by 9%
+	// SentinelLeggings.Tooltip: Увеличивает скорость бега на 12% Increases running speed by 12%
+	// GreediestHead.Tooltip: Увеличивает сопротивление к урону на 13% и метательный урон на 20% Increases damage resistance by 13% and throwing damage by 20%
+	// GreediestBody.Tooltip: Увеличивает сопротивление к урону на 14% и шанс критического попадания на 8% Increases damage resistance by 14% and crit. chance by 8
+	// GreediestLegs.Tooltip: Увеличивает скорость метания на 9% Increases throwing speed by 9%
 	/* EvilHead.Tooltip:
 		'''
-		Increases your max numbers of minions by 3
-		Increases minion damage by +20%
+		Увеличивает максимальное количество миньонов на 3 Increases your max numbers of minions by 3
+		Увеличивает урон призывателя на 20% Increases minion damage by +20%
 		''' */
 	/* SniperBody.Tooltip:
 		'''
-		Increases ranged crit chance and penetration by 20%
-		Increases ranged damage by +5% 
+		Увеличивает шанс критического попадания и пробивание на 20% Increases ranged crit chance and penetration by 20%
+		Увеличивает стрелковый урон на 5% Increases ranged damage by +5% 
 		''' */
-	// SniperHead.Tooltip: Increases ranged damage by 20% and increases ranged crit. chance by 20%
-	// SniperLegs.Tooltip: Increases ranged crit. chance by 15%
+	// SniperHead.Tooltip: Увеличивает стрелковый урон на 20% и шанс критического попадания на 20% Increases ranged damage by 20% and increases ranged crit. chance by 20%
+	// SniperLegs.Tooltip: Увеличивает шанс критического попадания Increases ranged crit. chance by 15%
 	/* EarthsplitterChestpiece.Tooltip:
 		'''
-		16% More throwing damage and 15% throwing crit chance 
-		Night Owl potion effect
+		Увеличивает метательный урон на 16% и шанс критического попадания на 15% 16% More throwing damage and 15% throwing crit chance 
+		Эффект зелья Night Owl potion effect
 		''' */
 	/* EarthsplitterHelm.Tooltip:
 		'''
-		Emits light. 
-		+18% Throwing speed
+		Обеспечивает светом в темноте Emits light. 
+		Увеличивает скорость метания на 18% +18% Throwing speed
 		''' */
 	/* EarthsplitterLeggings.Tooltip:
 		'''
-		+8% Throwing damage 
-		Jump height greatly increased
+		Увеличивает метательный урон на 8% +8% Throwing damage 
+		Значительно увеличивает высоту прыжка Jump height greatly increased
 		''' */
 	/* FleshCap.Tooltip:
 		'''
-		Increases your max. aura radius by 15% Aura radius 
-		Increases summon damage by 10% 
+		Увеличивает максимальный радиус ауры на 15% Increases your max. aura radius by 15% Aura radius 
+		Увеличивает урон призывателя на 10% Increases summon damage by 10% 
 		''' */
 	/* FleshWrappings.Tooltip:
 		'''
-		Inflicts 'Bleeding' for enemies inside the aura. 
-		Team members get buff 'Heartsick' inside aura.
-		Increases minion knockback by 9? Huh?
+		На врагов внутри ауры накладывается "Кровотечение" Inflicts 'Bleeding' for enemies inside the aura. 
+		На союзников вашей команды накладывается бафф "Изтаскованный" Team members get buff 'Heartsick' inside aura.
+		Увеличивает отталкивание миньонов на 9? Чего? Increases minion knockback by 9? Huh?
 		''' */
 	/* FleshPants.Tooltip:
 		'''
-		Increases amount of auras by 1
-		Increases your max aura radius by 15% when linked on the player
-		+2 Minion slot
+		Увеличивает максимальное количество аур на 1 Increases amount of auras by 1
+		Увеличивает максимальный радиус ауры на 15%, если она привязана к игроку Increases your max aura radius by 15% when linked on the player
+		Увеличивает максимальное количество миньонов на 2 +2 Minion slot
 		''' */
 	// ValhalliteHead.Tooltip: ""
 	/* AeroforceGuardia.Tooltip:
 		'''
-		+25% Aura radius and +16% summon damage
-		+1 Aura slot
+		Увеличивает радиус ауры на 25% и урон призывателя на 16% +25% Aura radius and +16% summon damage
+		Увеличивает максимальное количество аур на 1 +1 Aura slot
 		''' */
 	/* AeroforceProtector.Tooltip:
 		'''
-		Increases your max. aura radius by 13% when linked on the player 
-		Increases flight time by 30% 
-		Increases summon damage by 10%
+		Увеличивает максимальный радиус ауры на 13%, если она привязан к игроку Increases your max. aura radius by 13% when linked on the player 
+		Увеличивает время полёта на 30% Increases flight time by 30% 
+		Увеличивает урон призывателя на 10% Increases summon damage by 10%
 		''' */
 	/* AeroforceLeggings.Tooltip:
 		'''
-		Increases your max. aura radius by 13% when linked on the player 
-		Increases summon damage by +4%
+		Увеличивает максимальный радиус ауры на 13%, если привязана к игроку Increases your max. aura radius by 13% when linked on the player 
+		Увеличивает урон призывателя на 4% Increases summon damage by +4%
 		''' */
 	/* LivingWoodCrown.Tooltip:
 		'''
-		Increases your max. aura radios by 6%
-		Increases your max. numbers of minions by 1
+		Увеличивает максимальный радиус ауры на 6% Increases your max. aura radios by 6%
+		Увеличивает максимальное количество миньонов на 1 Increases your max. numbers of minions by 1
 		''' */
 	/* NightMageHat.Tooltip:
 		'''
-		Increases magic damage by +18% 
-		Reduces mana cost by 13% 
-		Increases magic crit. chance by 10%
+		Увеличивает магический урон на 18% Increases magic damage by +18% 
+		Уменьшает расход маны на 13% Reduces mana cost by 13% 
+		Увеличивает шанс магического критического попадания на 13% Increases magic crit. chance by 10%
 		''' */
 	/* NightMageCape.Tooltip:
 		'''
-		Increases magic damage by 8%
+		Увеличивает магический урон на 8% Increases magic damage by 8%
 		Increases magic attack speed by 9%
 		Increases magic crit. chance by 10%
 		''' */
