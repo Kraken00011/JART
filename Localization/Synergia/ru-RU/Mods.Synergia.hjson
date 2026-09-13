@@ -120,176 +120,176 @@ Items: {
 	/* NightMageCape.Tooltip:
 		'''
 		Увеличивает магический урон на 8% Increases magic damage by 8%
-		Increases magic attack speed by 9%
-		Increases magic crit. chance by 10%
+		Увеличивает скорость магии на 8% Increases magic attack speed by 9%
+		Увеличивает магический шанс критического попадания на 10% Increases magic crit. chance by 10%
 		''' */
-	// NightMagePants.Tooltip: +8% Magic damage
-	// BismuthumBreastplate.Tooltip: Damage is increased by 5%
-	// BismuthumLeggings.Tooltip: Movement speed is increased by 10%
-	// BerserksRing.Tooltip: Item use speed inreased by 30%, but damage decreased by 20%
-	// KillersHood.Tooltip: Magic critical strike chance is increased by 8%
-	// KillersJacket.Tooltip: Magic damage is increased by 10%
-	// RivetedHood.Tooltip: Ranged critical strike chance is increased by 8%
-	// RivetedJacket.Tooltip: Ranged damage is increased by 8%
-	// FeralHelmet.Tooltip: Throwing and ranged damage are increased by 5%
-	// FeralBreastplate.Tooltip: Throwing damage is increased by 7%
-	// FeralLeggings.Tooltip: Throwing critical strike chance is increased by 6%
-	// NomadsHood.Tooltip: Increases Ranged damage by 7%
+	// NightMagePants.Tooltip: Увеличивает магический урон на 8% +8% Magic damage
+	// BismuthumBreastplate.Tooltip: Увеличивает урон на 5% Damage is increased by 5%
+	// BismuthumLeggings.Tooltip: Увеличивает скорость передвижения на 10% Movement speed is increased by 10%
+	// BerserksRing.Tooltip: Увеличивает скорость атаки на 30%, но снижает урон на 20% Item use speed inreased by 30%, but damage decreased by 20%
+	// KillersHood.Tooltip: Увеличивает магический шанс критического попадания на 8% Magic critical strike chance is increased by 8%
+	// KillersJacket.Tooltip: Увеличивает магический урон на 10% Magic damage is increased by 10%
+	// RivetedHood.Tooltip: Увеличивает стрелковый шанс критического попадания на 8% Ranged critical strike chance is increased by 8%
+	// RivetedJacket.Tooltip: Увеличивает стрелковый урон на 8% Ranged damage is increased by 8%
+	// FeralHelmet.Tooltip: Увеличивает метательный и стрелковый урон на 5% Throwing and ranged damage are increased by 5%
+	// FeralBreastplate.Tooltip: Увеличивает метательный урон на 7%  Throwing damage is increased by 7%
+	// FeralLeggings.Tooltip: Увеличивает метательный шанс критического попадания на 6% Throwing critical strike chance is increased by 6%
+	// NomadsHood.Tooltip: Увеличивает стрелковый урон на 7% Increases Ranged damage by 7%
 	/* NomadsJacket.Tooltip:
 		'''
-		Increases ranged shoot speed by 11%
-		Increases critical strike damage by 10%
+		Увеличивает стрелковую скорость атаки на 11% Increases ranged shoot speed by 11%
+		Увеличивает шанс критического попадания на 10% Increases critical strike damage by 10%
 		''' */
 	/* NomadsBoots.Tooltip:
 		'''
-		Increases movement speed by 15%
-		Increases ranged damage by 7%
+		Увеличивает скорость передвижения на 15% Increases movement speed by 15%
+		Увеличивает стрелковый урон на 7% Increases ranged damage by 7%
 		''' */
 	/* BronzeMask.Tooltip:
 		'''
-		Damage is increased by 10%
-		No fall damage
+		Увеличивает урон на 10% Damage is increased by 10%
+		Даёт иммунитет к урону от падения No fall damage
 		''' */
 	/* BronzeBreastplate.Tooltip:
 		'''
-		Critical strike chance is increased by 8%
-		Immunity to knockback
+		Увеличивает шанс критического попадания на 8% Critical strike chance is increased by 8%
+		Даёт иммунитет к отбрасыванию Immunity to knockback
 		''' */
-	// OrcishHelmet.Tooltip: Damage is increased by 12%
+	// OrcishHelmet.Tooltip: Увеличивает урон на 12% Damage is increased by 12%
 	/* OrcishBreastplate.Tooltip:
 		'''
-		Critical strike chance is increased by 11%
-		Allows player to dash into the enemy
-		Double tap in a direction
+		Увеличивает шанс критического попадания на 11% Critical strike chance is increased by 11%
+		Даёт возможность совершать рывок во врага Allows player to dash into the enemy
+		Дважды нажмите кнопку передвижения, что совершить рывок Double tap in a direction
 		''' */
 	// PikemansLeggings.Tooltip: Melee critical strike chance is increased by 6%
 	/* PikemansBreastplate.Tooltip:
 		'''
-		Movement speed is decreased by 12%
-		Throwing damage is increased by 10%
+		Снижает скорость передвижения на 12% Movement speed is decreased by 12%
+		Увеличивает метательный урон на 10% Throwing damage is increased by 10%
 		''' */
 	/* WatersBreastplate.Tooltip:
 		'''
-		More wetness - more damage and health regeneration
-		Increases magic critical strike chance by 15%
-		Underwater mana cost increased by 40%
-		10% increased damage resistance
-		10% increased movement speed
-		Lose 40 mana when hit
-		Damn that's wet
+		Чем вы мокрее, тем больше увеличивает урон и регенерацию здоровья More wetness - more damage and health regeneration
+		Увеличивает магический шанс критического попадания на 15% Increases magic critical strike chance by 15%
+		Пока вы под водой, ваш расход маны увеличен на 40% Underwater mana cost increased by 40%
+		Увеличивает сопротивления к урону на 10% 10% increased damage resistance
+		Увеличивает скорость передвижения на 10% 10% increased movement speed
+		Вы теряете 40 маны при получении урона Lose 40 mana when hit
+		Чёрт возьми, а здесь мокро Damn that's wet
 		''' */
 	/* WatersHelmet.Tooltip:
 		'''
-		More wetness - higher critical strike chance
-		Increases magic damage by 10%
-		Increases mana regeneration by 8
+		Чем вы мокрее, тем больше шанс критического попадания More wetness - higher critical strike chance
+		Увеличивает магический урон на 10% Increases magic damage by 10%
+		Увеличивает восстановление маны на 8 Increases mana regeneration by 8
 		''' */
 	/* WatersLeggings.Tooltip:
 		'''
-		More wetness - higher movement speed
-		Increases magic damage by 10%
-		Increases magic weapons attack speed by 8%
-		Increases mana regeneration by 10
+		Чем вы мокрее, тем больше скорость передвижения More wetness - higher movement speed
+		Увеличивает магический урон на 10% Increases magic damage by 10%
+		Увеличивает магическую скорость на 8% Increases magic weapons attack speed by 8%
+		Увеличивает восстановление маны на 10 Increases mana regeneration by 10
 		''' */
-	// AriadnesTangle.Tooltip: Increased yoyo range
-	// MarbleMask.Tooltip: Increases ranged damage by 5%
-	// PendantOfBlood.Tooltip: Slightly increases endurance and regeneration
-	// DraculasCover.Tooltip: Lets you transform into a bat when you are a vimpire
+	// AriadnesTangle.Tooltip: Увеличивает дальность йо-йо Increased yoyo range
+	// MarbleMask.Tooltip: Увеличивает стрелковый урон на 5% Increases ranged damage by 5%
+	// PendantOfBlood.Tooltip: Немного увеличивает сопротивление к урону и регенерацию Slightly increases endurance and regeneration
+	// DraculasCover.Tooltip: Позволяет вам превращаться в мышь, когда вы являетесь вампиром Lets you transform into a bat when you are a vimpire
 	/* SignOfUndead.Tooltip:
 		'''
-		Increases maximum life by 140
-		Removes any regeneration except healing potions 
+		Увеличивает максимальное здоровье на 140 Increases maximum life by 140
+		Отключает любую регенерацию, кроме зелий здоровья Removes any regeneration except healing potions 
 		''' */
 	/* JadeHead.Tooltip:
 		'''
-		10% increased movement speed
-		Player have a chance to dodge attacks.
+		Увеличивает скорость передвижения на 10% 10% increased movement speed
+		Даёт шанс увернуться от любого урона Player have a chance to dodge attacks.
 		''' */
-	// JadeMask.Tooltip: 10% Increased damage
-	// JadeLegs.Tooltip: 10% increased movement speed and critical strike
-	// ScalyHelmet.Tooltip: Increases throwing and melee critical strike chance by 11%
-	// ScalyBreastplate.Tooltip: Increases throwing and melee damage by 11%
+	// JadeMask.Tooltip: Увеличивает урон на 10% 10% Increased damage
+	// JadeLegs.Tooltip: Увеличивает урон на и шанс критического попадания на 10% 10% increased movement speed and critical strike
+	// ScalyHelmet.Tooltip: Увеличивает метательный и ближний шанс критического попадания на 11% Increases throwing and melee critical strike chance by 11%
+	// ScalyBreastplate.Tooltip: Увеличивает метательный и ближний урон на 11% Increases throwing and melee damage by 11%
 
 	EverwoodJavelin: {
-		// DisplayName: Everwood Javelin
+		// DisplayName: Джавелин из вечной древесины Everwood Javelin
 		/* Tooltip:
 			'''
-			Each hit has a 20% chance to inflict the «{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» debuff for 1.5 seconds
-			The debuff stuns the enemy and deals 5 damage over time
-			It doesn’t stun bosses, but its duration is increased by 3 seconds and deals 5 more damage
-			'Contains a fragment of Everwood magic'
+			Каждый удар имеет шанс 20% наложить дебафф «{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» на 1,5 секунды Each hit has a 20% chance to inflict the «{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» debuff for 1.5 seconds
+			Этот дебафф оглушает врага и наносить 5 урона со временем The debuff stuns the enemy and deals 5 damage over time
+			Он не оглушает боссов, но при этом время действия увеличено на 3 секунды и наносит на 5 единиц больше урона It doesn’t stun bosses, but its duration is increased by 3 seconds and deals 5 more damage
+			'Содержит фрагмент магии вечной древесины Contains a fragment of Everwood magic'
 			''' */
 	}
 
 	Selection: {
 		// Tooltip: ""
-		// DisplayName: Troxinium Throwing Blade
+		// DisplayName: Троксиниевый метательный клинок Troxinium Throwing Blade
 	}
 
 	OculithShard: {
 		/* Tooltip:
 			'''
-			Every 5 throws, releases three Ocram Skulls and an Ocram Spear
-			The skulls weakly home in, deal around 100 damage, and inflict the «{$BuffName.ShadowFlame}» debuff
-			The spear deals triple damage
-			'Its tip festers with the rotted sinew of dimensions'
+			Каждые 5 метаний выпускает три черепа Окрама и его копьё Every 5 throws, releases three Ocram Skulls and an Ocram Spear
+			Черепы медленно наводяться, наносят 100 урона и накладывают дебафф «{$BuffName.ShadowFlame}» The skulls weakly home in, deal around 100 damage, and inflict the «{$BuffName.ShadowFlame}» debuff
+			Копьё наносит тройной урон The spear deals triple damage
+			'Его острие гноится от сгнивших жил измерений Its tip festers with the rotted sinew of dimensions'
 			''' */
 		// DisplayName: Voidpiercer
 	}
 
 	NaturalSelection: {
-		// DisplayName: Natural Selection
-		// Tooltip: Spawns up to 5 boomerangs
+		// DisplayName: Естественный отбор Natural Selection
+		// Tooltip: Выпускает до 5 бумерангов Spawns up to 5 boomerangs
 	}
 
 	Airflow: {
 		/* Tooltip:
 			'''
-			Spawns up to 2 boomerangs
-			Every 1.5 seconds, it generates 4 harpy feathers
-			Each feather deals around 20 damage on contact
-			A feather disappears after 8 seconds or upon hitting an enemy
-			'You feel the magic of celestial Harpies'
+			Выпускает до 2 бумерангов Spawns up to 2 boomerangs
+			Каждые 1.5 секунды выпускает 4 пера гарпии Every 1.5 seconds, it generates 4 harpy feathers
+			Каждое перо наносит 20 урон при контакте Each feather deals around 20 damage on contact
+			Перо пропадает через 8 секунд или после нанесения урона A feather disappears after 8 seconds or upon hitting an enemy
+			'Вы ощущаете магию небесных гарпий You feel the magic of celestial Harpies'
 			''' */
-		// DisplayName: Airflow
+		// DisplayName: Воздушный поток
 	}
 
 	BloodstainedGlove: {
 		/* Tooltip:
 			'''
-			Increases melee damage, attack speed, and armor penetration
-			Grants increased knockback and applies the Lacerated debuff on melee hits
-			Also enables automatic reuse and melee attack scaling
+			Увеличивает ближний урон, скорость атаки и пробивание брони Increases melee damage, attack speed, and armor penetration
+			Увеличивает отбрасывание и накладывает дебафф "Рана" при ударах оружием ближнего боя Grants increased knockback and applies the Lacerated debuff on melee hits
+			Даёт автоатаку и оружие ближнего боя (???) Also enables automatic reuse and melee attack scaling
 			''' */
-		// DisplayName: Bloodstained Glove
+		// DisplayName: Окровавленная рукавица Bloodstained Glove
 	}
 
 	OldTales: {
-		// Tooltip: Tales of travelers dying in this world.
-		// DisplayName: Old Tales
+		// Tooltip: Истории умерших исследователей этого мира Tales of travelers dying in this world.
+		// DisplayName: Старые истории Old Tales
 	}
 
 	DurataniumJavelin: {
 		// Tooltip: ""
-		// DisplayName: Duratanium Javelin
+		// DisplayName: Дюратаниевый джавелин Duratanium Javelin
 	}
 
 	CursedThrowerEmblem: {
-		// DisplayName: Cursed Throwing Emblem
+		// DisplayName: Проклятая эмблема метателя Cursed Throwing Emblem
 		/* Tooltip:
 			'''
-			Increases throwing damage by 20%
-			Decreases аll other damage by 40%
+			Увеличивает метательный урон на 20% Increases throwing damage by 20%
+			Снижает остальной урон на 40% Decreases аll other damage by 40%
 			''' */
 	}
 
 	SuperAuraStaff: {
-		// DisplayName: Super Aura Staff
+		// DisplayName: Посох супер ауры Super Aura Staff
 		// Tooltip: ""
 	}
 
 	AngryParasite: {
-		// Tooltip: Each hit has a 50% chance to inflict the «{$BuffName.Poisoned}» debuff for 1 second
+		// Tooltip: Каждая атака имеет шанс 50% наложить дебафф Each hit has a 50% chance to inflict the «{$BuffName.Poisoned}» debuff for 1 second
 		// DisplayName: Angry Parasite
 	}
 
