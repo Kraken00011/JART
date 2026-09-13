@@ -34,11 +34,6 @@ public class JARTLocalizationConf : ModConfig
 
     [Header("MediumMod")]
 
-    // 7 Useful Items from Minecraft
-    [ReloadRequired]
-    [DefaultValue(true)]
-    public bool SevenItemsFromMinecraftLocalization;
-
     // Calamity Simple Whips Addon
     [ReloadRequired]
     [DefaultValue(true)]
@@ -100,6 +95,11 @@ public class JARTLocalizationConf : ModConfig
     public bool SOTSBardHealerLocalization;
 
     [Header("SmallMod")]
+
+    // 7 Useful Items from Minecraft
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool SevenItemsFromMinecraftLocalization;
 
     // Abyssal Subworld
     [ReloadRequired]

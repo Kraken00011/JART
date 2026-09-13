@@ -1,10 +1,10 @@
 [b]Если вам понравился мод, пожалуйста, поставьте ему лайк, так вы поможете продвинуть его в массы[/b]
 [img]https://i.imgur.com/W2c5CX6.gif[/img]
 
-[i]У мода с недавних пор также есть [b]Discord-сервер[/b], заходите, если хотите как-либо помочь с разработкой мода, узнать планы переводов или просто пообщаться: https://discord.gg/YqYmEHwuHj (пожалуйста зайдите, мне очень скучно)[/spoiler][/i]
+[i]У мода с недавних пор также есть [b]Discord-сервер[/b], заходите, если хотите как-либо помочь с разработкой мода, узнать планы переводов или просто пообщаться: https://discord.gg/YqYmEHwuHj[/spoiler][/i]
 
 [b][h2]Немного про мод[/h2][/b]
-Just Another RU Translator (JART) - очередной мод-русификатор, переводящий самые разные моды, у которых этого самого перевода либо нет вовсе, либо он мне просто не понравился.
+Just Another RU Translator (JART) – очередной мод-русификатор, переводящий самые разные моды, у которых этого самого перевода либо нет вовсе, либо он мне просто не понравился.
 
 [h3]Крупные моды[/h3]
 [list]
@@ -57,6 +57,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Equipment Modifiers & Reforging (склонение предметов из пары модов)
 [*] Everware (помощь с официальным переводом)
 [*] Expanded Inventory
+[*] Experimental Infernum Extension
 [*] Extra Beginnings
 [*] Extra World Sizes
 [*] Fancy Whips
@@ -66,6 +67,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Homeward Crossmod Worldgen Fix
 [*] Hypnos Mod
 [*] Infernum Master Patch
+[*] InfiniteInteger's Mage Tweaks
 [*] Item Relics
 [*] Javyz' Music Mod
 [*] Masochist Mode EX
@@ -97,15 +99,18 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Ultimate Infinite Star
 [*] Unofficial Fargo's Souls Pets
 [*] Vanilla Calamity Mod Music
+[*] Vanity + Dyable Cursors API
+[*] VFX+
 [*] WADTU (What Ammo Does This Use)
 [*] Whip Accessories
+[*] WHummus' Calamity/Thorium Balancing
 [*] Wing Slot
 [*] Wrath of the Beams
 [*] Wrath of the Empress
 [*] You
 [/list]
 
-[h3]Мод также «обновляет» некоторые устаревшие или просто не понравившиеся мне встроенные переводы[/h3]
+[h3]Мод также «фиксит» некоторые устаревшие или просто не понравившиеся мне встроенные переводы[/h3]
 [list]
 [*] Calamity - Fargo's Souls DLC
 [*] Calamity: Hunt of the Old God
@@ -120,7 +125,7 @@ Just Another RU Translator (JART) - очередной мод-русификат
 [*] Совместимость с Project tRU (склонение префиксов по родам предметов, предосмотр бонусов комплектов и цветная маркировка урона).
 Рекомендую играть именно с ним, ведь свои переводы я делал опираясь на их стиль!
 [*] Дополнительные классовые теги для предметов из модов ([i]большинство из них появляются только с модом Thorium Class Tags Consistency![/i])
-[*] Добавление иконок баффов/дебаффов в описания пары модов ([i]Работает только с Calamity, ведь для реализации этого была использована система, добавляемая именно этим модом[/i])
+[*] Добавление иконок баффов/дебаффов в описания пары модов ([i]работает только с Calamity, ведь для реализации этого была использована система, добавляемая именно этим модом[/i])
 [*] Конфигурация, в которой вы можете отключить ненужные/не понравившиеся переводы и не только
 [/list]
 

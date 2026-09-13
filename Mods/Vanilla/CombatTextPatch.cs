@@ -22,7 +22,7 @@ public partial class CombatTextPatch : ModSystem
         {
             // Prime Rework
             "Laser Mode" => "Модуль лазера",
-            "Cannon Mode" => "Модуль пушки",
+            "Cannon Mode" => "Модуль ракетницы",
             "Saw Mode" => "Модуль пилы",
             "Hook Mode" => "Модуль крюка",
             "ENRAGE IS NEAR!" => "БОСС СКОРО ВОЙДЁТ В ЯРОСТЬ!",

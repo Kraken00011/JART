@@ -1,4 +1,4 @@
-Buffs: {
+/*Buffs: {
 	AntarcticCreativityBuff: {
 		DisplayName: Антарктическая креативность
 		Description: Мороз дарует вам невероятное вдохновение
@@ -13,7 +13,7 @@ Buffs: {
 
 	AntarcticExhaustionDebuff: {
 		DisplayName: Антарктическое изматывание
-		Description: Мороз пробирает до костей
+		Description: Мороз пробирает вас до костей
 	}
 
 	GuardianHealerBeamBuff: {
@@ -124,17 +124,17 @@ Tooltips: {
 }
 
 Compat: {
-	TechPoints: Increases your maximum technique points by
+	TechPoints: Увеличивает максимальное число очков техники на
 	Recharge: and recharge by
-	BasicDamage: basic damage
-	DupeDamage: of your rogue damage is duplicated
+	BasicDamage: ед. базового урона
+	DupeDamage: вашего разбойного урона наносится повторно
 	DupeCap: Duplication damage caps at
-	NoGuideStack: Effect does not stack with other Guides
-	Power: % Power
-	Smited: was smited.
-	Darkness: fell into darkness.
-	TurnedToAmmo: was converted into ammunition.
-	Recoil: could not handle the recoil.
+	NoGuideStack: Этот эффект не суммируется с эффектами других Effect does not stack with other Guides
+	Power: % Сила
+	Smited: был сражён.
+	Darkness: свалился во тьму.
+	TurnedToAmmo: был конвертирован в боеприпас.
+	Recoil: не выдержал отдачи.
 }
 
 Items: {
@@ -354,7 +354,7 @@ Items: {
 	}
 
 	StormFeather: {
-		DisplayName: Storm Feather
+		DisplayName: Громовое перо
 		Tooltip:
 			'''
 			Can be sold for a very good price to shops
@@ -363,7 +363,7 @@ Items: {
 	}
 
 	StrangeAlienMotherBoard: {
-		DisplayName: Strange Alien Motherboard
+		DisplayName: Подозрительная инопланетная матплата
 		Tooltip:
 			'''
 			The motherboard from the Star Scouter
@@ -387,13 +387,13 @@ Items: {
 	}
 
 	EmpoweredGranite: {
-		DisplayName: Empowered Granite
-		Tooltip: "'Granite block charged full of energy from the Granite Energy Storm'"
+		DisplayName: Усиленный гранит
+		Tooltip: "'Гранитный блок, напитавшийся энергией с Гранитного энергетического шторма'"
 	}
 
 	EnchantedMarble: {
-		DisplayName: Enchanted Marble
-		Tooltip: "'Special marble, imbued with ancient holy magic'"
+		DisplayName: Зачарованный мрамор
+		Tooltip: "'Особый мрамор, наполненный древней святой магией'"
 	}
 
 	StatigelHeadBard: {
@@ -415,7 +415,7 @@ Items: {
 	}
 
 	StatigelHeadHealer: {
-		DisplayName: Statigel Headpiece
+		DisplayName: Статигелевый головной убор
 		Tooltip:
 			'''
 			10% decreased non-radiant damage
@@ -1900,3 +1900,4 @@ DamageClasses: {
 }
 
 Tiles.MenuMusicBoxTile.MapEntry: Музыкальная шкатулка
+*/

@@ -1,0 +1,1151 @@
+Mods: {
+	BossNameDisplay: {
+		Shimmers: {
+			// Default (tu shimmer actual de bosses normales)
+			default: {
+				waves: {
+					0: {
+						color: "#FFFFFF"
+						speed: "1.2"
+						width: "0.25"
+						strength: "0.15000000000000002"
+						offset: "0"
+					}
+
+					1: {
+						color: "#FFFFFF"
+						speed: "1.2"
+						width: "0.25"
+						strength: "0.15000000000000002"
+						offset: "0.5"
+					}
+				}
+			}
+
+			// Superboss (el que ya tienes)
+			superboss: {
+				waves: {
+					0: {
+						color: "#FC03FF"
+						speed: "1.5"
+						width: "0.35"
+						strength: "0.4"
+						offset: "0"
+					}
+
+					1: {
+						color: "#FADF08"
+						speed: "1.5"
+						width: "0.35"
+						strength: "0.4"
+						offset: "0.5"
+					}
+				}
+			}
+
+			// NUEVO 1 (1 onda)
+			gold: {
+				waves: {
+					0: {
+						color: "#FFD700"
+						speed: "1.3"
+						width: "0.3"
+						strength: "0.35"
+						offset: "0"
+					}
+				}
+			}
+
+			// NUEVO 2 (1 onda)
+			blue: {
+				waves: {
+					0: {
+						color: "#00BFFF"
+						speed: "1"
+						width: "0.28"
+						strength: "0.3"
+						offset: "0"
+					}
+				}
+			}
+
+			// NUEVO 3 (2 ondas)
+			void: {
+				waves: {
+					0: {
+						color: "#7A00FF"
+						speed: "1.4"
+						width: "0.32"
+						strength: "0.45"
+						offset: "0"
+					}
+
+					1: {
+						color: "#FF00AA"
+						speed: "1.4"
+						width: "0.32"
+						strength: "0.45"
+						offset: "0.5"
+					}
+				}
+			}
+		}
+
+		ColorEffects: {
+			default.type: none
+
+			flashRed: {
+				type: pulse
+				color: "255,130,0"
+				duration: "2"
+				delay: "0.2"
+			}
+
+			flashRed2: {
+				type: pulse
+				color: "#FF23230"
+				duration: "2.5"
+				delay: "0.2"
+			}
+
+			flashRed3: {
+				type: dualPulse
+				color1: "#E6226A"
+				color2: "#C90000"
+				duration: "2.4"
+				delay: "0.3"
+			}
+
+			flashWhite: {
+				type: pulse
+				color: "#FFD6FF"
+				duration: "1.5"
+				delay: "0.2"
+			}
+
+			flashOlive: {
+				type: pulse
+				color: "#678E57"
+				duration: "2.3"
+				delay: "0.2"
+			}
+
+			flashGreen: {
+				type: pulse
+				color: "#00D812"
+				duration: "2.5"
+				delay: "0.2"
+			}
+
+			flashGreen2: {
+				type: pulse
+				color: "#ABFF0F"
+				duration: "2.4"
+				delay: "0.2"
+			}
+
+			flashCyan: {
+				type: pulse
+				color: "#9EFBFF"
+				duration: "1.5"
+				delay: "0.2"
+			}
+
+			flashMarble: {
+				type: pulse
+				color: "#FDEF8E"
+				duration: "1.5"
+				delay: "0.2"
+			}
+
+			flashFire: {
+				type: pulse
+				color: "#FEBC02"
+				duration: "1.3"
+				delay: "1.1"
+			}
+
+			flashYellow: {
+				type: pulse
+				color: "#FFE674"
+				duration: "1.3"
+				delay: "1.1"
+			}
+
+			flashBlack: {
+				type: pulse
+				color: "#0F0F0F"
+				duration: "2.4"
+				delay: "0.2"
+			}
+
+			flashPink: {
+				type: pulse
+				color: "#DD64D8"
+				duration: "2"
+				delay: "0.2"
+			}
+
+			dualFire: {
+				type: dualPulse
+				color1: "255,130,0"
+				color2: "14,230,230"
+				duration: "2.4"
+				delay: "0.5"
+			}
+
+			dualMech1: {
+				type: dualPulse
+				color1: "#FA6700"
+				color2: "#FA0000"
+				duration: "1.6"
+				delay: "0.7"
+			}
+
+			dualBR: {
+				type: dualPulse
+				color1: "#6BA8F2"
+				color2: "#D51F6E"
+				duration: "1.4"
+				delay: "0.5"
+			}
+
+			dualRP: {
+				type: dualPulse
+				color1: "#9F0C08"
+				color2: "#6F29B4"
+				duration: "1.4"
+				delay: "0.5"
+			}
+
+			dualBP: {
+				type: dualPulse
+				color1: "#3808E6"
+				color2: "#E60945"
+				duration: "1.8"
+				delay: "0"
+			}
+
+			dualLumi: {
+				type: dualPulse
+				color1: "#E0F4FF"
+				color2: "#87F220"
+				duration: "2.4"
+				delay: "0.3"
+			}
+
+			dualWY: {
+				type: dualPulse
+				color1: "#FFFFFF"
+				color2: "#13ECFF"
+				duration: "2.4"
+				delay: "0.2"
+			}
+
+			dualBLRE: {
+				type: dualPulse
+				color1: "#1E3CCE"
+				color2: "#F3012C"
+				duration: "2.4"
+				delay: "0.3"
+			}
+
+			dualYB: {
+				type: dualPulse
+				color1: "#FFD84B"
+				color2: "#6AFFFF"
+				duration: "2.4"
+				delay: "0.3"
+			}
+
+			dualRO: {
+				type: dualPulse
+				color1: "#DFB858"
+				color2: "#BA5724"
+				duration: "2.4"
+				delay: "0.3"
+			}
+
+			flashMix: {
+				type: dualPulse
+				color1: "#1644BC"
+				color2: "#FCD94D"
+				duration: "1.9"
+				delay: "0.2"
+			}
+
+			dualBrown: {
+				type: dualPulse
+				color1: "#3F3022"
+				color2: "#E5AB7B"
+				duration: "2.6"
+				delay: "0.2"
+			}
+
+			triplePurple: {
+				type: triplePulse
+				color1: "#3449E4"
+				color2: "#D114D8"
+				color3: "#E190E3"
+				duration: "2.1"
+				delay: "0.25"
+			}
+
+			tripleMix: {
+				type: triplePulse
+				color1: "#3BB329"
+				color2: "#FFC138"
+				color3: "#CE3A1E"
+				duration: "1.9"
+				delay: "0.25"
+			}
+
+			flashBlue: {
+				type: pulse
+				color: "19,75,163"
+				duration: "1.3"
+				delay: "0.2"
+			}
+
+			rainbow: {
+				type: rainbow
+				speed: "0.8"
+			}
+
+			goldPulse: {
+				type: pulse
+				color: "#FFBE67"
+				duration: "1.4"
+				delay: "0.2"
+			}
+
+			flashGoldy: {
+				type: pulse
+				color: "#DFDE4B"
+				duration: "2.7"
+				delay: "0.2"
+			}
+		}
+
+		TitleScale: {
+			MoonLord: "1.2"
+			Plantera: "1.3"
+			SupremeCalamitas: "1.4"
+			Providence: "1.3"
+			Yharon: "1.3"
+			DevourerofGodsHead: "1.27"
+			Goozma: "1.4"
+			PlaguebringerGoliath: "0.92"
+			ExoMechs: "1.2"
+			MarsBody: "1.2"
+			AbomBoss: "1.2"
+			CosmosChampion: "1.2"
+			MutantBoss: "1.4"
+			CruiserHead: "1.2"
+			Seth: "1.4"
+			ErebusHead: "1.4"
+			Nebuleus: "1.2"
+			Nebuleus2: "1.2"
+			WorldsEndEverlastingFallingWhale: "0.92"
+			TheSon: "1.2"
+			Okiku: "0.70"
+			BrokenOkiku: "0.70"
+			Attraidies: "1.2"
+			Gwyn: "1.2"
+			FireFiendMarilith: "1.2"
+			HellkiteDragonHead: "1.2"
+			Chaos: "1.2"
+			SeathTheScalelessHead: "1.2"
+			EarthFiend: "1.2"
+			WaterFiendKraken: "1.2"
+			Artorias: "1.2"
+			DarkCloud: "1.2"
+			DreamEater: "1.2"
+		}
+
+		SubtitleScale: {
+			MoonLord: "1.2"
+			Plantera: "1.1"
+			SupremeCalamitas: "1.3"
+			Providence: "1.2"
+			Yharon: "1.2"
+			DevourerofGodsHead: "1.3"
+			Goozma: "1.3"
+			PlaguebringerGoliath: "0.92"
+			ExoMechs: "1.1"
+			MarsBody: "1.1"
+			AbomBoss: "1.1"
+			CosmosChampion: "1.1"
+			MutantBoss: "1.3"
+			CruiserHead: "1.1"
+			Seth: "1.3"
+			ErebusHead: "1.3"
+			Nebuleus2: "1.1"
+			Nebuleus: "1.1"
+			WorldsEndEverlastingFallingWhale: "0.92"
+			TheSon: "1.1"
+			Attraidies: "1.1"
+			Gwyn: "1.1"
+			FireFiendMarilith: "1.1"
+			HellkiteDragonHead: "1.1"
+			Chaos: "1.1"
+			SeathTheScalelessHead: "1.1"
+			EarthFiend: "1.1"
+			WaterFiendKraken: "1.1"
+			Artorias: "1.1"
+			DarkCloud: "1.1"
+			DreamEater: "1.1"
+		}
+
+		ColorAssignments: {
+			QueenBee: flashRed
+			EmpressofLight: rainbow
+			LunaticCultist: dualFire
+			DukeFishron: flashBlue
+			DesertScourgeHead: dualBrown
+			CeaselessVoid: triplePurple
+			CursedCoffin: dualBP
+			SpiritChampion: flashRed
+			WillChampion: flashPink
+			Viscount: flashRed2
+			BuriedChampion: flashMarble
+			BoreanStriderPopped: flashCyan
+			FallenBeholder: flashRed
+			LichHeadless: dualRP
+			ForgottenOneReleased: flashMarble
+			ForgottenOneCracked: flashOlive
+			ForgottenOne: flashCyan
+			DreamEater: triplePurple
+			Apsychos: flashRed2
+			TheProphet: flashCyan
+			NihilityActeriophage: dualBR
+			SkeletronPrime: dualMech1
+			Scarabeus: goldPulse
+			TheSpirit: triplePurple
+			OneShot: flashCyan
+			Menace: flashMix
+			Mirage: tripleMix
+			IceDragon: flashCyan
+			Ultrum: flashGreen
+			MindFlayer: flashOlive
+			Glowmoth: dualLumi
+			PharaohsCurse: flashGoldy
+			NewPolaris: dualBLRE
+			Lux: flashGoldy
+			Keeper: flashPink
+			Gigapora: flashRed3
+			MACEProject: flashGreen
+			PZ: flashGreen
+			PZ_Kari: flashGreen
+			SpookFishron: dualRO
+			BigBone: flashGoldy
+			Cirno: flashCyan
+			SeijaKijin: dualBLRE
+			ToyosatomimiNoMiko: dualYB
+			UtsuhoReiuji: flashFire
+			WallofShadow: flashBlack
+			SlimeGod: flashYellow
+			TheOverwatcher: dualWY
+			AncientOolacileDemon: flashRed
+			JungleWyvernHead: flashGreen2
+			AncientDemon: flashRed
+			TheSorrow: flashCyan
+			TrueDeath: flashRed2
+			ShadowDragon: triplePurple
+			BrokenOkiku: flashGreen
+			Okiku: dualBLRE
+			Blight: flashCyan
+			AbysmalOolacileSorcerer: dualBLRE
+			WaterFiendKraken: flashCyan
+			WyvernMageShadow: flashRed
+			Witchking: flashYellow
+		}
+
+		ShimmerAssignments: {
+			EyeofCthulhu: singleBlue
+			BrainofCthulhu: dualSemiYellow
+			WallofFlesh: singleFlesh
+			QueenSlime: dualCyan
+			TheDestroyer: singleRed
+			TheTwins: dualGP
+			Plantera: dualPink
+			Golem: singleYellow
+			PerforatorHive: dualIchor
+			SlimeGodCore: singlePRed
+			AquaticScourgeHead: dualSBrown
+			BrimstoneElemental: dualOrange
+			Anahita: dualWhite
+			Leviathan: dualWhite
+			AstrumAureus: tripleBO
+			PlaguebringerGoliath: singleLime
+			RavagerBody: singlePBlue
+			ProfanedGuardians: singleLOrange
+			Dragonfolly: quadPink
+			StormWeaverHead: dualGPink
+			Polterghast: singleBBlue
+			OldDuke: singleAcid
+			DevourerofGodsHead: dualDPink
+			Yharon: Flame
+			ExoMechs: ExoPrism
+			Draedon: dualMix1
+			SupremeCalamitas: Calamitas
+			HiveMind: dualGreen
+			TheGrandThunderBird: singleCream
+			BuriedChampion: singleGray
+			Goozma: Radiant
+			CursedCoffin: quadDBlue
+			DeviBoss: dualRed
+			BanishedBaron: dualMix2
+			LifeChallenger: dualWhite2
+			TimberChampion: singleWhite
+			TerraChampion: singleLOrange
+			EarthChampion: dualYellow
+			NatureChampion: quadMix
+			LifeChampion: singlePink
+			SpiritChampion: quadPurple
+			MutantBoss: quadMut
+			StarScouter: singleGreen
+			Primordials: quadMix
+			DreamEater: dualWhite3
+			Luminaris: Luminary
+			Paraffin: singleDPink
+			Insurgent: necroGreen
+			Seth: quadMix2
+			ZephyrSquid: singleOPink
+			IceDragon: void
+			TrueDread: dualBRed
+			Xenanis: singleLPurple
+			Ignodium: singleLRed
+			ErebusHead: dualLGreen
+			Excavator: singleRed2
+			TheAdvisorHead: singleNBlue
+			SubspaceSerpentHead: dualMix3
+			Thorn: dualMix4
+			Erhan: dualMix5
+			Calavia: singleNBlue
+			KS3: singleCBlue
+			OmegaCleaver: singleRed2
+			OO: singleRed3
+			ProtectorVolt: singleYellow2
+			MACEProject: singleBlue2
+			Ukko: dualMix6
+			Akka: dualGreen
+			Nebuleus: dualWhite2
+			Nebuleus2: quadMix
+			RotGourd: dualRot
+			Moco: dualGreen
+			DaffodilEye: singleYellow3
+			OrroHeadP1: dualRed
+			OrroHead: singleRed2
+			BoroHead: singleRed2
+			LilyWhite: singleYellow3
+			EternityLarva: singleNBlue
+			HinaKagiyama: dualMix7
+			Sekibanki: singlePBlue
+			Seiran: dualMix8
+			MystiaLorelei: dualMix9
+			NitoriKawashiro: singleMidG
+			MedicineMelancholy: singleLPurple
+			MinamitsuMurasa: singleYellow3
+			AliceMargatroid: dualWhite2
+			BenbenTsukumo: quadPurple
+			YatsuhashiTsukumo: quadPurple
+			SakuyaIzayoi: singleScarlet
+			MayumiJoutouguu: singleYellow4
+			KaguyaHouraisan: singlePink2
+			KoishiKomeiji: singleThorn
+			TenshiHinanawi: quadMix2
+			GoblinChariot: dualWhite
+			BigDipper: dualBlue
+			PuppetOpera: dualWhite
+			MarquisMoonsquid: dualGreen
+			PriestessRod: singleYellow4
+			Diver: singleLPurple
+			TheMotherbrain: singleRed4
+			SlimeGod: dualWhite
+			TheLifebringerHead: quadMix9
+			TheMaterealizer: singleCBlue2
+			Trial_Pure: singleCBlue2
+			ScarabBelief: quadWY
+			WorldsEndEverlastingFallingWhale: quadMix10
+			Slogra: singleOrange
+			Gaibon: singleOrange
+			TheRage: singleLRed
+			WyvernMage: singleBlue2
+			MechaDragonHead: singleBlue2
+			TheHunter: singleAGreen
+			HeroofLumelia: singleOrange
+			SerrisX: dualRP2
+			SerrisHead: quadMix11
+			Death: singlePurple
+			DarkShogunMask: dualWhite3
+			Attraidies: quadMix2
+			HellkiteDragonHead: singleLOrange
+			Chaos: singleLPurple
+			FireFiendMarilith: dualYY
+			SeathTheScalelessHead: singleDBlue
+			EarthFiend: singleYellow4
+			WaterFiendKraken: dualBlue
+			Artorias: singlePurple2
+			DarkCloud: singleScarlet
+			OldHunterBoss: singleBone
+			Gwyn: dualYG
+			TurkortheUngrateful: singleChik
+			Ocram: singlePurple3
+			GraniteEnergyStorm: singleGBlue
+			MoonLord: dualGray
+		}
+
+		ShimmerCategories: {
+		}
+
+		BossAliases: {
+			ProfanedGuardianCommander: ProfanedGuardians
+			ProfanedGuardianDefender: ProfanedGuardians
+			ProfanedGuardianHealer: ProfanedGuardians
+			Retinazer: TheTwins
+			Spazmatism: TheTwins
+		}
+
+		BossNames: {
+			DevourerofGodsHead: ПОЖИРАТЕЛЬ БОГОВ
+			TheTwins: БЛИЗНЕЦЫ
+			MoonLord: ЛУННЫЙ ЛОРД
+			ProfanedGuardians: ОСКВЕРНЁННЫЕ СТРАЖИ
+			DesertScourgeHead: ПУСТЫННЫЙ БИЧ
+			NamelessDeityBoss: ?
+			FallenBeholder: КОЗНИКС
+			FallenBeholder2: КОЗНИКС
+			Lich: ЛИЧ
+			ForgottenOne: АБИССИОН
+			ForgottenOneCracked: АБИССИОН
+			ForgottenOneReleased: АБИССИОН
+			Primordials: ПЕРВОРОДНЫЕ
+			CursedCoffin: ПРОКЛЯТЫЕ САРКОФАГ
+			NihilityActeriophage: БЛИЗНЕЦЫ НЕБЫТИЯ
+			LunaticCultist: КУЛЬТИСТ-ЛУНАТИК
+			WallofFlesh: СТЕНА ПЛОТИ
+			BrimstoneElemental: СЕРНЫЙ ЭЛЕМЕНТАЛЬ
+			BrainofCthulhu: МОЗГ КТУЛХУ
+			StarScouter: ЗВЁЗДНЫЙ РАЗВЕДЧИК
+			DreamEater: ПОЖИРАТЕЛЬ СНОВ
+			Insurgent: ВОССТАВШИЙ
+			AbomBoss: МЕРЗОСТТЬ
+			PerforatorHive: УЛЕЙ ПЕРФОРАТОРОВ
+			HiveMind: РАЗУМ УЛЬЯ
+			SlimeGodCore: БОГ СЛИЗНЕЙ
+			AquaticScourgeHead: АКВАТИЧЕСКИЙ БИЧ
+			CalamitasClone: КЛОН КАЛАМИТАС
+			Leviathan: ЛЕВИАФАН
+			OldDuke: СТАРЫЙ ГЕРЦОГ
+			StormWeaverHead: ШТОРМОВОЙ ТКАЧ
+			CeaselessVoid: НЕСКОНЧАЕМАЯ ПУСТОТА
+			PrimordialWyrmHead: ПЕРВОЗДАННЫЙ ЗМИЙ
+			SupremeCalamitas: КАЛАМИТАС
+			Providence: ПРОВИДЕНС
+			Signus: СИГНУС
+			Yharon: ЯРОН
+			ExoMechs: ЭКЗО-МЕХАНИЗМЫ
+			PlaguebringerGoliath: ГОЛИАФ
+			AvatarOfEmptiness: ВОПЛОЩЕНИЕ ПУСТОТЫ
+			ZephyrSquid: ЗЕФИРНЫЙ КАЛЬМАР
+			MindFlayer: СВЕЖЕВАТЕЛЬ РАЗУМА
+			PZ: КАРИ ЙОХАНССОН
+			PZ_Kari: КАРИ ЙОХАНССОН
+			RotGourd: ГНИЛАЯ ТЫКВА
+			OrroHead: ОРРО И БОРО
+			BoroHead: ОРРО И БОРО
+			BigBone: ЧЕРЕПИЩЕ
+			FrankenGoblin: ФРАНК
+			BenbenTsukumo: БЕНБЕН И ЯЦУХАСИ
+			YatsuhashiTsukumo: БЕНБЕН И ЯЦУХАСИ
+			GoblinChariot: ГОБЛИНСКАЯ КОЛЕСНИЦА
+			BigDipper: БОЛЬШАЯ МЕДВЕДИЦА
+			PuppetOpera: КУКОЛЬНАЯ ОПЕРА
+			PriestessRod: ЖРИЦА СТЕРЖНЕЙ
+			Diver: ДАЙВЕР
+			Trial_Forest: ИСПЫТАНИЕ ЛЕСА
+			Trial_Pure: ИСПЫТАНИЕ НЕБА
+			Trial_Hallow: ИСПЫТАНИЕ ОСВЯЩЕНИЯ
+			Trial_Desert: ИСПЫТАНИЕ ПУСТЫНИ
+			Trial_Cave: ИСПЫТАНИЕ ПЕЩЕР
+			Trial_Jungle: ИСПЫТАНИЕ ДЖУНГЛЕЙ
+			Trial_Underworld: ИСПЫТАНИЕ ПРЕИСПОДНЕЙ
+			Trial_Snow: ИСПЫТАНИЕ СНЕГОВ
+			Trial_Corruption: ИСПЫТАНИЕ ИСКАЖЕНИЯ
+			Trial_Crimson: ИСПЫТАНИЕ БАГРЯНЦА
+			WorldsEndEverlastingFallingWhale: ВЕЧНОПАДАЮЩИЙ КИТ
+			AncientOolacileDemon: ДЕМОН ООЛАЦИЛЯ
+			Slogra: СЛОГРА И ГАЙБОН
+			Gaibon: СЛОГРА И ГАЙБОН
+			JungleWyvernHead: ВИВЕРНА ДЖУНГЛЕЙ
+			RedKnight: КРАСНЫЙ РЫЦАРЬ
+			AncientDemon: ОСКВЕРНЁННЫЙ ДЕМОН
+			MechaDragonHead: МАГ ВИВЕРН
+			WyvernMage: МАГ ВИВЕРН
+			DarkShogunMask: АТТАРАЙДИС
+			Okiku: СМЕРТНАЯ ИЛЛЮЗИЯ
+			BrokenOkiku: УЛУЧШЕННАЯ ИЛЛЮЗИЯ
+			ShadowDragon: ТЕНЕВОЙ ДРАКОН
+			AbysmalOolacileSorcerer: КОЛДУН ООЛАЦИЛЯ
+			FireFiendMarilith: МАРИЛИТ
+			SeathTheScalelessHead: СИТ
+			EarthFiend: КОРОЛЬ-ЛИЧ
+			WaterFiendKraken: КРАКЕН
+			Witchking: КОРОЛЬ-ЧАРОДЕЙ
+			OldHunterBoss: СТАРЫЙ ОХОТНИК
+			TurkortheUngrateful: ИНДЕЙКОР
+			EyeofCthulhu: ГЛАЗ КТУЛХУ
+		}
+
+		BossTitles: {
+			ExoMechs: СОВЕРШЕННЫЕ МЕХАНИЗМЫ
+			Yharon: ДРАКОН ВОЗРОЖДЕНИЯ
+			Signus: ПОСЛАННИК ПОЖИРАТЕЛЯ
+			Providence: ОСКВЕРНЁННАЯ БОГИНЯ
+			SupremeCalamitas: ВЫСШАЯ ВЕДЬМА
+			TheTwins: МЕХАНИЧЕСКИЕ НАБЛЮДАТЕЛИ
+			EyeofCthulhu: ДЕМОНИЧЕСКИЙ НАБЛЮДАТЕЛЬ
+			KingSlime: МОНАРХ ЖЕЛАТИНА
+			DesertScourgeHead: ИССУШЁННЫЙ ОБЖОРА
+			DevourerofGodsHead: ВЫСОКОМЕРНЫЙ
+			PerforatorHive: ВЫВОДКИ БАГРЯНЦА
+			Crabulon: ГРИБНОЙ ИСПОЛИН
+			HiveMind: ВОПЛОЩЕНИЕ ИСКАЖЕНИЯ
+			EaterofWorldsHead: НЕСКОНЧАЕМЫЙ ЧЕРВЬ
+			EaterofWorlds: НЕСКОНЧАЕМЫЙ ЧЕРВЬ
+			BrainofCthulhu: ВЫСШИЙ РАЗУМ БАГРЯНЦА
+			Deerclops: ЗИМНЕЕ ЧУДИЩЕ
+			QueenBee: МАТРИАРХ ПЧЕЛИНОГО УЛЬЯ
+			Skeletron: ПРОКЛЯТИЕ СТАРИКА
+			SkeletronHead: ПРОКЛЯТИЕ СТАРИКА
+			WallofFlesh: ВЕСТНИК КОНЦА
+			TheDestroyer: РАСКОПЩИК МИРА
+			SkeletronPrime: УСТРОЙСТВО УЖАСА
+			SlimeGodCore: СКЛИЗКИЙ ПЕРВОРОДНЫЙ
+			QueenSlime: ОСВЯЩЁННОЕ НАГРОМОЖДЕНИЕ
+			Cryogen: МОРОЗНАЯ ТЮРЬМА
+			AquaticScourgeHead: СТРАХ МОРЕЙ
+			BrimstoneElemental: ИМПЕРАТРИЦА АДСКОГО ОГНЯ
+			CalamitasClone: ТЕНЬ ВЕДЬМЫ
+			Leviathan: КОЛОССАЛЬНОЕ ЧУДИЩЕ
+			AstrumAureus: ЗВЕЗДОРОЖДЁННЫЙ ИСПОЛИН
+			AstrumDeusHead: ЗВЁЗДНЫЙ ТКАЧ
+			Anahita: ЗАБЫТОЕ БОЖЕСТВО
+			PlaguebringerGoliath: ПРЕДВЕСТНИЦА ЧУМЫ
+			RavagerBody: ДРЕВНИЙ РАЗРУШИТЕЛЬ
+			Plantera: СТРАЖ ПРИРОДЫ
+			Golem: ИДОЛ СОЛНЦА
+			EmpressofLight: СЕРДЦЕ БЛАГОДАТИ
+			LunaticCultist: АПОКАЛИПТИЧНЫЙ ФАНАТИК
+			ProfanedGuardians: ВЕЧНЫЕ СЛУГИ
+			Polterghast: ВИХРЬ ЗАБЛУДШИХ ДУШ
+			Dragonfolly: НЕЧЕСТИВЫЙ ПОТОМОК
+			OldDuke: СЕРНИСТЫЙ УЖАС
+			DukeFishron: УЖАС МОРЕЙ
+			StormWeaverHead: ВЕЧНЫЙ БУРЕВЕСТНИК
+			Draedon: ТВОРЕЦ
+			CeaselessVoid: НЕУПРАВЛЯЕМЫЙ ПОРТАЛ
+			PrimordialWyrmHead: ПЕРВЫЙ ЗМИЙ
+			MarsBody: УЛУЧШЕННЫЙ МЕХАНИЗМ
+			AvatarOfEmptiness: БОЖЕСТВО МЁРТВОЙ ВСЕЛЕННОЙ
+			TheGrandThunderBird: СТРАЖ ПУСТЫНИ
+			QueenJellyfish: ВЛАДЫКА БЕЗДНЫ
+			Viscount: ЦЕНИТЕЛЬ КРОВИ
+			GraniteEnergyStorm: ГНЕВНОЕ ЯДРО
+			BuriedChampion: ЗАБЫТЫЙ ВОИН
+			StarScouter: МИРОВОЙ НАБЛЮДАТЕЛЬ
+			BoreanStrider: МОРОЗНЫЙ ХИЩНИК
+			BoreanStriderPopped: ХИЩНАЯ РОДНЯ
+			FallenBeholder: ПАДШИЙ СОЗЕРЦАТЕЛЬ
+			FallenBeholder2: РАЗЪЯРЁННЫЙ СОЗЕРЦАТЕЛЬ
+			Lich: УЧЕНИК ОСКВЕРНИТЕЛЯ ЖИЗНИ
+			LichHeadless: СБРОСИВШИЙ ОКОВЫ
+			ForgottenOne: ЗАБЫТЫЙ
+			ForgottenOneCracked: ТРЕСНУВШИЙ ПАНЦИРЬ
+			ForgottenOneReleased: БЕСПАНЦИРНЫЙ
+			Primordials: ЭЛЕМЕНТАЛЬНОЕ ТРИО
+			DreamEater: ПОГЛОТИТЕЛЬ РЕАЛЬНОСТИ
+			TrojanSquirrel: ДЕРЕВЯННЫЙ МЕХАНИЗМ
+			CursedCoffin: ЛОВУШКА ДУШ
+			DeviBoss: НИМФА ДИКОВИН
+			BanishedBaron: ОТВЕРГНУТАЯ МАШИНА
+			LifeChallenger: ЛУЧЕЗАРНАЯ ЛГУНЬЯ
+			AbomBoss: СВЕРХЪЕСТЕСТВЕННЫЙ ХАОС
+			MutantBoss: ВСЕВЛАСТНЫЙ
+			PermafrostBoss: ЗАКЛЮЧЁННЫЙ ВО ЛЬДАХ
+			ShadowChampion: ВЕЧНЫЙ КОШМАР
+			EarthChampion: БУРЛЯЩЕЕ ЯДРО
+			LifeChampion: АНГЕЛЬСКАЯ СИЛА
+			NatureChampion: ШЕСТИГОЛОВАЯ ГИДРА
+			SpiritChampion: ПРИЗРАЧНЫЙ СТРАЖ
+			TerraChampion: ТЕКТОНИЧЕСКИЙ ПРОНЫРА
+			TimberChampion: СТРАЖ ЛЕСА
+			WillChampion: ЯРОСТЬ ИЗГНАННИКА
+			AcropolisMachine: ХРОНОСТРАЖ
+			Luminaris: КРЫЛАТЫЙ СВЕТОНОСЕЦ
+			TheProphet: ОРАКУЛ ЗАБВЕНИЯ
+			NihilityActeriophage: ПУСТОТНОЕ ДУО
+			CruiserHead: ХРАНИТЕЛЬ ПУСТОТЫ
+			Apsychos: НЕЧЕСТИВЫЙ ДЕМОН
+			Astrageldon: МУЛЬТИВСЕЛЕНСКИЙ ПОЖИРАТЕЛЬ
+			Goozma: БОЖЕСТВЕННОЕ СЛИЯНИЕ
+			Scarabeus: ДРЕВНЕЕ НАСЕКОМОЕ
+			TheSpirit: МЕЖИЗМЕРЕНЧЕСКИЙ БОЕЦ
+			OneShot: РАЗБОЙНИЧИЙ КОСМОПИРАТ
+			Menace: ТАИНСТВЕННЫЙ КОЛДУН
+			Paraffin: ОТВЕРГНУТАЯ СКУЛЬПТУРА
+			Mirage: АКТРИСА-ИСКАТЕЛЬНИЦА
+			Insurgent: СПЕКТРАЛЬНЫЙ ХРАНИТЕЛЬ
+			Seth: ОСВОБОЖДЁННАЯ
+			ZephyrSquid: УЖАС РИФФОВ
+			IceDragon: ДРАКОН МЕТЕЛИ
+			DreadBossP2: ЭССЕНЦИЯ КОШМАРА
+			TrueDread: КОШМАР НА ЯВУ
+			Xenanis: ЭФИРНЫЙ ПРОВОДНИК
+			Ultrum: СТРАЖ ПРИРОДЫ
+			Ignodium: СТРАЖ ПРЕИСПОДНЕЙ
+			MindFlayer: ХТОНИЧЕСКИЙ ГНЕВ
+			ErebusHead: ПЕРВОЗДАННАЯ ТЬМА
+			Glowmoth: СВЕТЯЩЕЕСЯ СОЗДАНИЕ
+			PutridPinkyPhase2: АРАХИСООДЕРЖИМЫЙ
+			PharaohsCurse: ЗАТОЧЁННЫЙ ДУХ
+			Excavator: МИРОКОП
+			TheAdvisorHead: ПОТУСТОРОННЯЯ МАШИНА
+			NewPolaris: МОРОЗНАЯ МАШИНА ВОЙНЫ
+			Lux: ВЫЗВОЛЕННЫЙ ДУХ
+			SubspaceSerpentHead: МЕЖИЗМЕРЕНЧЕСКИЙ ЗМИЙ
+			Keeper: ОКТАВИЯ ФОН ГЕЙЛОН
+			EaglecrestGolem: СТРАЖ ЛУГОВ КЛЮВОГОРЬЯ
+			SoI: ЗАРАЗНЫЙ НАРОСТ
+			Calavia: ВОИТЕЛЬНИЦА ЖЕЛЕЗНОГО ЦАРСТВА
+			FowlEmperor: НАПЫЩЕННЫЙ ПЕТУХ
+			SkullDigger: ПЕРВОЕ ТВОРЕНИЕ ХРАНИТЕЛЬНИЦЫ
+			JanitorBot: ОБЫЧНЫЙ УБОРЩИК
+			Stage3Scientist: КРИСТАЛЛИЧЕСКИЙ УЖАС
+			IrradiatedBehemoth: НЕСЧАСТНЫЙ УЧЁНЫЙ
+			KS3: ПРОТОТИП МУЛЬТИУМ
+			OmegaCleaver: ОМЕГА-ПРОТОТИП НОМЕР 1
+			Gigapora: ОМЕГА-ПРОТОТИП НОМЕР 2
+			OO: ОМЕГА-ПРОТОТИП НОМЕР 3
+			Blisterface: НЕСЧАСТНАЯ ЗОЛОТАЯ РЫБКА
+			ProtectorVolt: КОМАНДИР ОМЕГА-ПОДРАЗДЕЛЕНИЯ
+			MACEProject: НЕЗАВЕРШЁННАЯ МАШИНА ВОЙНЫ
+			PZ: НУЛЕВОЙ ПАЦИЕНТ
+			PZ_Kari: НУЛЕВОЙ ПАЦИЕНТ
+			Ukko: ДРЕВНИЙ БОГ ПОГОДЫ
+			Akka: ДРЕВНЯЯ БОГИНЯ ПРИРОДЫ
+			RotGourd: КОЛОССАЛЬНАЯ ГНИЮЩАЯ ОБОЛОЧКА
+			SpookySpirit: ТЫКВОСВЯЗАННЫЙ ДУХ
+			Moco: ЛЕТАЮЩИЙ ШНОБЕЛЬ
+			DaffodilEye: ЛЕНИВЫЙ ЦВЕТОК
+			OrroHead: ЗМЕИ УРОБОРОСА
+			BoroHead: ЗМЕИ УРОБОРОСА
+			OrroHeadP1: НЕУПРАВЛЯЕМЫЙ ЗМЕЙ
+			SpookFishron: ЗЛОВЕЩИЙ ТИРАН
+			BigBone: ПРОКЛЯТИЕ КАТАКОМБ
+			FrankenGoblin: МОНСТРУОЗНЫЙ ГОБЛИН
+			BanditBook: ЗАБЛУДШИЕ БАНДИТСКИЕ ДУШИ
+			StitchSpider: ПРОВАЛЬНЫЙ ЭКСПЕРИМЕНТ
+			EyeWizard: ПРЕДУСМОТРИТЕЛЬНЫЙ КЛОН
+			LilyWhite: ФЕЯ-ПРЕДВЕСТНИЦА ВЕСНЫ
+			Rumia: ЁКАЙ СУМЕРЕК
+			EternityLarva: БАБОЧКА-ФЕЯ БОЖЕСТВЕННОЙ ПРИРОДЫ
+			Nazrin: МЫШЬ-СОКРОВИЩНИЦА
+			Kisume: ЛЮДОЕД ОСЕННЕГО ДНЯ
+			HinaKagiyama: ТАЙНЫЙ БОГ НАГАСИ-БИНЫ
+			Sekibanki: ЁКАЙ РОКУРОБУКИ
+			Seiran: ЛУННЫЙ КРОЛИК
+			MystiaLorelei: ПОЮЩИЙ НОЧНОЙ ВОРОБЕЙ
+			NitoriKawashiro: ПРЕДПРИИМЧИВАЯ И СКУПАЯ КАППА
+			MedicineMelancholy: МАЛЕНЬКИЙ СЛАДКИЙ ЯД
+			Cirno: ФЕЯ ЛЬДОВ
+			MinamitsuMurasa: ПРИЗРАК КОРАБЛЯ
+			AliceMargatroid: СЕМИЦВЕТНЫЙ КУКЛОВОД
+			BenbenTsukumo: СЁСТРЫ ЦУКУМОГАМИ
+			YatsuhashiTsukumo: СЁСТРЫ ЦУКУМОГАМИ
+			SakuyaIzayoi: ГОРНИЧНАЯ АЛОЙ ДЬЯВОЛИЦЫ
+			SeijaKijin: ЁКАЙ АМАНОДЗЯКУ
+			MayumiJoutouguu: ХАНИВА-СТАРШИЙ ЕФРЕЙТОР
+			ToyosatomimiNoMiko: СЁТОКУ-ДАОСИТКА
+			KaguyaHouraisan: ИЗГНАННАЯ ПРИНЦЕССА ЛУНЫ
+			KoishiKomeiji: ЁКАЙ САТОРИ
+			UtsuhoReiuji: АДСКИЙ ВОРОН
+			TenshiHinanawi: ПОТУСТОРОННИЙ ЦЕЛЕСТИАЛ
+			GoblinChariot: СТРАННОЕ БОЕВОЕ СООРУЖЕНИЕ
+			BigDipper: ДРЕВНИЙ СПУТНИК
+			PuppetOpera: СМЕРТЕЛЬНАЯ ПЬЕСА
+			MarquisMoonsquid: ЧУДИЩЕ БЕЗДНЫ
+			PriestessRod: ВНЕЗЕМНАЯ ЛЕТЯГА
+			Diver: ПОТУСТОРОННИЙ ХИЩНИК
+			TheMotherbrain: МАШИННЫЙ РАЗУМ
+			WallofShadow: МЕСТО УТЕЧКИ
+			SlimeGod: САМО СОЛНЦЕ
+			TheOverwatcher: ВЛАДЫКА ВРЕМЕНИ
+			TheLifebringerHead: ПЕРВОРОДНЫЙ СТРАЖ ЖИЗНИ
+			TheMaterealizer: ВЛАДЫКА ВЫСШИХ МАТЕРИЙ
+			Trial_Forest: ДУХИ ПРОШЛОГО
+			Trial_Pure: "{$Trial_Forest}"
+			Trial_Hallow: "{$Trial_Forest}"
+			Trial_Desert: "{$Trial_Forest}"
+			Trial_Cave: "{$Trial_Forest}"
+			Trial_Jungle: "{$Trial_Forest}"
+			Trial_Underworld: "{$Trial_Forest}"
+			Trial_Snow: "{$Trial_Forest}"
+			Trial_Corruption: "{$Trial_Forest}"
+			Trial_Crimson: "{$Trial_Forest}"
+			ScarabBelief: СИГИЛ НЕБЫТИЯ
+			WorldsEndEverlastingFallingWhale: ПРЕДВЕСТНИК КОНЦА СВЕТА
+			TheSon: НАЧАЛО КОНЦА
+			Pinwheel: The Twinned Pyre
+			AncientOolacileDemon: ДРЕВНЕЕ ИНФЕРНО
+			Slogra: ПОТЕРЯННОЕ ИНФЕРНАЛЬНОЕ ДУО
+			Gaibon: ПОТЕРЯННОЕ ИНФЕРНАЛЬНОЕ ДУО
+			JungleWyvernHead: ДРЕВНЕЕ ИЗУМРУДНОЕ ПЛАМЯ
+			RedKnight: БАГРЯНЫЙ НАЛЁТЧИК
+			GreatRedKnight: АЛЫЙ ПРЕСЛЕДОВАТЕЛЬ
+			AncientDemon: ЗВЕРЬ ЗАБВЕНИЯ
+			TheRage: ОСВОБОЖДЁННОЕ ПЛАМЯ
+			MechaDragonHead: УЧИТЕЛЬ И УЧЕНИК
+			WyvernMage: УЧИТЕЛЬ И УЧЕНИК
+			TheSorrow: СТРАЖ МОРОЗНЫХ ГЛУБИН
+			TheHunter: КРЫЛАТЫЙ ВЫСШИЙ ХИЩНИК
+			HeroofLumelia: ПОСЛЕДНИЙ СТРАЖ
+			SerrisX: НЕИЗВЕСТНАЯ ФОРМА ЖИЗНИ
+			SerrisHead: СВЕРХБЫСТРЫЙ ЗМЕЙ
+			Death: РЕКВИЕМ ВЕЧНОСТИ
+			TrueDeath: ПОСЛЕДНИЙ СУДЬЯ
+			DarkShogunMask: ПСЕВДОИСТЯЗАТЕЛЬ РАЗУМА
+			ShadowDragon: УЧЕНИК АТТАРАЙДИС
+			Attraidies: КОРОЛЬ-ИСТЯЗАТЕЛЬ РАЗУМА
+			HellkiteDragonHead: МОНАРХ НЕБЕСНОГО ПЛАМЕНИ
+			Blight: НЕСТАБИЛЬНЫЙ МОРОЗ
+			Chaos: СОКРУШАЮЩИЙ ДЕМОН
+			AbysmalOolacileSorcerer: ЯХЩЕР БЕЗДНЫ
+			FireFiendMarilith: ИСЧАДИЕ ОГНЯ
+			SeathTheScalelessHead: БЕСЧЕШУЙНЫЙ ЗМИЙ
+			EarthFiend: ИСЧАДИЕ ЗЕМЛИ
+			WaterFiendKraken: ИСЧАДИЕ ВОДЫ
+			Witchking: ОСВЯЩЁННЫЙ ВЕСТНИК
+			Artorias: ИСКАЖЁННЫЙ РЫЦАРЬ
+			DarkCloud: ЗЛО ВО ПЛОТИ
+			WyvernMageShadow: СУЩНОСТЬ ЗЛА
+			OldHunterBoss: ВОССТАВШИЙ МАСТЕР РОГАТОК
+			Lepus: БЕДСТВЕННЫЙ КРОЛИК
+			TurkortheUngrateful: НЕБЛАГОДАРНЫЙ
+			Ocram: ЗАБЫТЫЙ ВРЕМЕНЕМ ВЛАСТЕЛИН
+		}
+
+		BossColors: {
+			HiveMind: "#634687"
+			Draedon: "#807B73"
+			StormWeaverHead: "#5989C7"
+			RavagerBody: "#A84955"
+			AstrumAureus: "#9E7E93"
+			Leviathan: "#288D79"
+			SlimeGodCore: "#6C436C"
+			PerforatorHive: "#8b0000"
+			Yharon: "#FF7800"
+			TheDestroyer: "#FFF9F9"
+			TheTwins: "#FFF9F9"
+			SkeletronPrime: "#FFF9F9"
+			DesertScourgeHead: "#A57D56"
+			SupremeCalamitas: "#DF2F00"
+			ProfanedGuardians: "#FADF08"
+			Crabulon: "#89C8DF"
+			AstrumDeusHead: "#52D6BF"
+			AquaticScourgeHead: "#298981"
+			BrimstoneElemental: "#FF0003"
+			CeaselessVoid: "#1B1123"
+			Dragonfolly: "#BE8F4C"
+			Polterghast: "#42D8E6"
+			OldDuke: "#6E5B49"
+			PrimordialWyrmHead: "#2E4D80"
+			PlaguebringerGoliath: "#294C20"
+			DevourerofGodsHead: "#30B8E5"
+			Anahita: "#5E82CC"
+			AvatarOfEmptiness: "#FFDBE1"
+			TheGrandThunderBird: "#49C3CC"
+			BuriedChampion: "#A59A52"
+			GraniteEnergyStorm: "#140F3D"
+			StarScouter: "#7D42AA"
+			Primordials: "#FAD669"
+			TheLich: "#5A0C08"
+			Lich: "#5A0C08"
+			LichHeadless: "#5A0C08"
+			TrojanSquirrel: "#936B55"
+			CursedCoffin: "#0049B8"
+			LifeChallenger: "#FFCD38"
+			CosmosChampion: "#8C4B8B"
+			AbomBoss: "#793E91"
+			MutantBoss: "#22DC97"
+			DeviBoss: "#E6A8E6"
+			PermafrostBoss: "#00D2FF"
+			ShadowChampion: "#6617D6"
+			EarthChampion: "#A3400E"
+			LifeChampion: "#E5D67F"
+			SpiritChampion: "#EAA424"
+			TimberChampion: "#AD9F7C"
+			WillChampion: "#BCA258"
+			AcropolisMachine: "#D15914"
+			TheProphet: "#FFDB9A"
+			Luminaris: "#82E7BC"
+			Apsychos: "#CE3902"
+			Goozma: "#F2F9BB"
+			Scarabeus: "#1B56B5"
+			Paraffin: "#F05419"
+			Insurgent: "#09593E"
+			ZephyrSquid: "#3745BC"
+			IceDragon: "#42849B"
+			Ignodium: "#F6782B"
+			Glowmoth: "#0F998F"
+			PutridPinkyPhase2: "#D58AB4"
+			PharaohsCurse: "#4E396D"
+			Excavator: "#F6B82B"
+			TheAdvisorHead: "#3D105C"
+			NewPolaris: "#898E8E"
+			SubspaceSerpentHead: "#63290D"
+			Thorn: "#64A200"
+			Erhan: "#E2CC00"
+			Keeper: "#6A56CE"
+			EaglecrestGolem: "#626262"
+			SoI: "#228B22"
+			Calavia: "#CEEAEA"
+			FowlEmperor: "#C49158"
+			SkullDigger: "#AAA8AD"
+			JanitorBot: "#E4E04B"
+			KS3: "#F9F9F9"
+			OmegaCleaver: "#383C3F"
+			Gigapora: "#3F5144"
+			OO: "#383C3F"
+			ProtectorVolt: "#1EA045"
+			MACEProject: "#F2F5FF"
+			PZ: "#228D2B"
+			PZ_Kari: "#228D2B"
+			Ukko: "#C69C5B"
+			Akka: "#A17F58"
+			Nebuleus: "#F0D2F2"
+			Nebuleus2: "#EB87DD"
+			RotGourd: "#D67D31"
+			Moco: "#938BCD"
+			DaffodilEye: "#799611"
+			OrroHeadP1: "#552B7C"
+			OrroHead: "#552B7C"
+			BoroHead: "#552B7C"
+			SpookFishron: "#5B4567"
+			FrankenGoblin: "#298134"
+			BanditBook: "#835D44"
+			StitchSpider: "#994E18"
+			LilyWhite: "#EC91D1"
+			Rumia: "#9FDFFF"
+			EternityLarva: "#59B200"
+			Nazrin: "#95A09A"
+			HinaKagiyama: "#2A6B5F"
+			Seiran: "#931A1F"
+			MystiaLorelei: "#522663"
+			NitoriKawashiro: "#8FC0E7"
+			MedicineMelancholy: "#C9183E"
+			Cirno: "#2AAFDD"
+			MinamitsuMurasa: "#A2BDC8"
+			AliceMargatroid: "#DCC83E"
+			BenbenTsukumo: "#B793FF"
+			YatsuhashiTsukumo: "#B793FF"
+			SakuyaIzayoi: "#C0CBD1"
+			SeijaKijin: "#D9DEDE"
+			MayumiJoutouguu: "#FFD86C"
+			ToyosatomimiNoMiko: "#D0B195"
+			KoishiKomeiji: "#7EB225"
+			UtsuhoReiuji: "#FFF8C3"
+			TenshiHinanawi: "#4674F2"
+			GoblinChariot: "#A97D5D"
+			BigDipper: "#DBDBD2"
+			PuppetOpera: "#AD8E4C"
+			MarquisMoonsquid: "#A9ACD8"
+			PriestessRod: "#E6FFFF"
+			TheMotherbrain: "#FFFFFF"
+			WallofShadow: "#FFFFFF"
+			SlimeGod: "#F28904"
+			TheLifebringerHead: "#91DB35"
+			TheMaterealizer: "#73CCDB"
+			Trial_Forest: "#1BCF5A"
+			Trial_Pure: "#E6FFFA"
+			Trial_Hallow: "#FFC4FA"
+			Trial_Desert: "#FFE07A"
+			Trial_Cave: "#7C6A6A"
+			Trial_Jungle: "#6BB600"
+			Trial_Underworld: "#CB4902"
+			Trial_Snow: "#89FFFF"
+			Trial_Corruption: "#7453A0"
+			Trial_Crimson: "#8b0000"
+			ScarabBelief: "#FFD84E"
+			WorldsEndEverlastingFallingWhale: "#3A6A8C"
+			TheSon: "#FFFFFF"
+			Pinwheel: "#BFA782"
+			Slogra: "#3C23AC"
+			Gaibon: "#3C23AC"
+			RedKnight: "#721537"
+			GreatRedKnight: "#721537"
+			TheRage: "#E6A54D"
+			MechaDragonHead: "#FFFFFF"
+			WyvernMage: "#FFFFFF"
+			TheHunter: "#8B8776"
+			HeroofLumelia: "#F7B900"
+			SerrisHead: "#93CFE1"
+			SerrisX: "#1C838C"
+			Death: "#524256"
+			DarkShogunMask: "#7751FF"
+			Okiku: "#8F2797"
+			BrokenOkiku: "#8F2797"
+			Attraidies: "#98E655"
+			HellkiteDragonHead: "#6A1700"
+			Blight: "#1EC4FF"
+			Chaos: "#DBA100"
+			AbysmalOolacileSorcerer: "#B48686"
+			FireFiendMarilith: "#FF3D85"
+			SeathTheScalelessHead: "#D5E0ED"
+			EarthFiend: "#950085"
+			WaterFiendKraken: "#8738FF"
+			Witchking: "#99989B"
+			Artorias: "#667CBA"
+			OldHunterBoss: "#164951"
+			Gwyn: "#908873"
+			Lepus: "#D0B2CA"
+			TurkortheUngrateful: "#B65B23"
+			Ocram: "#7E418E"
+		}
+
+		SuperBossWaveColors: {
+			AstrumDeusHead: "#FD644D"
+			PrimordialWyrmHead: "#7196D9"
+			Providence: "#FCD35B"
+			MarsBody: "#2CAF23"
+			AvatarOfEmptiness: "#CB0000"
+			CosmosChampion: "#E0CE42"
+			AbomBoss: "#E85451"
+			MutantBoss: "#BDFFFF"
+			CruiserHead: "#C63FDC"
+			Astrageldon: "#B53ED2"
+		}
+
+		Configs: {
+			BossNameDisplayConfig: {
+				EnableSuperBossShake: {
+					Tooltip: Включает тряску экрана во время проигрывания вступительных анимаций супербоссов.
+					Label: Эффект тряски экрана для вступлений супербоссов
+				}
+
+				Headers.TitleEffects: Эффекты вступлений
+				DisplayName: Конфигурация CBI
+			}
+
+			ClientConfig: {
+				DisplayName: Клиентская конфигурация
+
+				EnableSuperBossShake: {
+					Label: Эффект тряски экрана для вступлений супербоссов
+					Tooltip: Включает тряску экрана во время проигрывания вступительных анимаций супербоссов.
+				}
+			}
+		}
+	}
+}

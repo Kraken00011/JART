@@ -8,23 +8,25 @@
 - [Corruption Core Boss](https://steamcommunity.com/sharedfiles/filedetails/?id=3105633551)
 - [Infernal Eclipse of Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686)
 - [Mech Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2737642173)
+- [Thorium Helheim](https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963)
 
 </details>
 
 <details><summary><b>Средние моды</b></summary>
 
+- [Calamity Simple Whip Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3630305943)
 - [Enchanted Moons](https://steamcommunity.com/sharedfiles/filedetails/?id=3030483105)
 - [Evil Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3570726774)
 - [Fargo Rush Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3617791402)
-- [Homeward Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275)
+- [Homeward Ragnarok](https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275) (помощь с переводом)
 - [HP Awareness](https://steamcommunity.com/sharedfiles/filedetails/?id=2564503881)
 - [Jungle Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=2997692373)
 - [Ophioid - A Boss fight mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2564678900)
 - [Revengeance+](https://steamcommunity.com/sharedfiles/filedetails/?id=3427152309)
-- [Calamity Simple Whip Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3630305943)
 - [Spirit Classic Bosses Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3532311018)
-- [Unofficial SOTS Bard, Thrower and Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551)
 - [Unofficial Calamity Bard & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272)
+- [Unofficial Redemption Bard, Thrower & Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201)
+- [Unofficial SOTS Bard, Thrower and Healer](https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551)
 
 </details>
 
@@ -32,16 +34,19 @@
 
 - [7 Useful Items from Minecraft](https://steamcommunity.com/sharedfiles/filedetails/?id=3525255950)
 - [Abyssal Subworld](https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193)
+- [Accessory Hearts](https://steamcommunity.com/sharedfiles/filedetails/?id=3715418846)
 - [Armor and Accessory Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3642521814)
 - [Armor Buffs](https://steamcommunity.com/sharedfiles/filedetails/?id=3637995559)
 - [Armor Modifiers & Reforging](https://steamcommunity.com/sharedfiles/filedetails/?id=2603400287) (склонение брони)
 - [Better Zenith in Calamity](https://steamcommunity.com/sharedfiles/filedetails/?id=3024992349)
+- [Blood Moon Enemies Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3693243887)
 - [Boss Cursor](https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149)
 - [Calamity Crossmod Vulnerabilities](https://steamcommunity.com/sharedfiles/filedetails/?id=3351534238)
 - [Calamity Future Bosses Revived](https://steamcommunity.com/sharedfiles/filedetails/?id=3652044516)
 - [Calamity Overdrive](https://steamcommunity.com/sharedfiles/filedetails/?id=3748746256)
 - [Calamity Treads](https://steamcommunity.com/sharedfiles/filedetails/?id=3040406362)
 - [Celestial Shield](https://steamcommunity.com/sharedfiles/filedetails/?id=2832463123)
+- [Cinematic Boss Intros](https://steamcommunity.com/sharedfiles/filedetails/?id=3669657057)
 - [Clamity Music](https://steamcommunity.com/sharedfiles/filedetails/?id=3161277410)
 - [Cleffy: Musically sound Thorium Bards](https://steamcommunity.com/sharedfiles/filedetails/?id=3669506041)
 - [Community Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=3362195669)
@@ -52,7 +57,9 @@
 - [Extra Beginnings](https://steamcommunity.com/sharedfiles/filedetails/?id=3583751282)
 - [Extra World Sizes](https://steamcommunity.com/sharedfiles/filedetails/?id=3635922668)
 - [Everware](https://steamcommunity.com/sharedfiles/filedetails/?id=3667746751) (помощь с официальным переводом)
+- [Expanded Inventory](https://steamcommunity.com/sharedfiles/filedetails/?id=2925134686)
 - [Fancy Whips](https://steamcommunity.com/sharedfiles/filedetails/?id=3070430423)
+- [Fargo's Souls Mod Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=2906451681)
 - [Hollow Knight!](https://steamcommunity.com/sharedfiles/filedetails/?id=3614266835)
 - [Holospark Boots](https://steamcommunity.com/sharedfiles/filedetails/?id=3561388295)
 - [Homeward Crossmod Worldgen Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3690381987)
@@ -90,10 +97,12 @@
 - [Steam Achievement Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3021379176)
 - [Talisman of Friendship](https://steamcommunity.com/sharedfiles/filedetails/?id=2888895131)
 - [Thorium Class Tags Consistency](https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385)
+- [Thrower Unification](https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309) (встройка)
 - [Turtle Boulder & Friends](https://steamcommunity.com/sharedfiles/filedetails/?id=3208983365) (**ЧАСТИЧНО** обновлён до последней версии)
 - [Unofficial Fargo's Souls Pets](https://steamcommunity.com/sharedfiles/filedetails/?id=3485231803)
 - [Vanilla Calamity Mod Music](https://steamcommunity.com/sharedfiles/filedetails/?id=2816188633)
 - [Vanity + Dyable Cursors API](https://steamcommunity.com/sharedfiles/filedetails/?id=3594305382)
+- [VFX+](https://steamcommunity.com/sharedfiles/filedetails/?id=3628420060)
 - [WADTU (What Ammo Does This Use)](https://steamcommunity.com/sharedfiles/filedetails/?id=3088232292)
 - [Whip Accessories](https://steamcommunity.com/sharedfiles/filedetails/?id=2931940759)
 - [WHummus' Calamity/Thorium Balancing](https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528)
@@ -104,14 +113,13 @@
 
 </details>
 
-<details><summary><b>Также в моде есть <i>«фиксы»</i> уже имеющихся официальных локализаций</b></summary>
+<details><summary><b>Мод также «фиксит» некоторые официальные локализации</b></summary>
 
 - [Calamity - Fargo's Souls DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3044249615)
 - [Calamity: Hunt of the Old God](https://steamcommunity.com/sharedfiles/filedetails/?id=3241967932)
-- [Cataclysm Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450) (Бывший [Clamity Addon](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450))
+- [Cataclysm Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3028584450)
 - [Compact Mods (For TML)](https://steamcommunity.com/sharedfiles/filedetails/?id=3388949976)
 - [The Depths](https://steamcommunity.com/sharedfiles/filedetails/?id=2882567428)
-- [Thrower Unification](https://steamcommunity.com/sharedfiles/filedetails/?id=3535746309) (встройка)
 - [Tools Prefixes](https://steamcommunity.com/sharedfiles/filedetails/?id=3558996149)
 
 </details>
