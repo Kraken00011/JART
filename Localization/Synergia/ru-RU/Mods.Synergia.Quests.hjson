@@ -1,43 +1,39 @@
 Dwarf: {
 	// QuestName: Краденные воспоминания
-	// QuestDescription: Где-то в глубинах мерзлотной тундры находится дварфийская наковальня, наполовину зарытая в толще льда и времени. Выкованная в пору, когда дварфийские кузни всё ещё разгорались под . Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
-	// QuestStage: Собрать дварфийскую наковальню
+	// QuestDescription: Где-то в глубинах мерзлотной тундры находится дварфская наковальня, наполовину зарытая в толще льда и времени. Выкованная в пору, когда дварфийские кузни всё ещё разгорались под . Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
+	// QuestStage: Собрать дварфскую наковальню
 	// QuestProgress0: Спасибо за наковальню!
 	// QuestProgress1: Раньше дварфы постоянно копались в шахтах в поисках вальгалитовой руды. Во время этого они постоянно таскали с собой эти огромные наковальни, которые потом так и оставались стоять там, - тебе не затруднит притащить мне одну такую? А за это я дам тебе немного руды.
 	// QuestProgress2: Её довольно сложно найти, но если у тебя получится это сделать, будь уверен, я отблагодарю тебя по достоинству!
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать
-	/* QuestCompleted:
-		'''
-		Поверить не могу, что снова вижу её... Мой отец ковал на ней,
-		когда ещё был жив... Ай, неважно, вот твоя награда.
-		''' */
+	// QuestCompleted: Поверить не могу, что снова вижу её... Мой отец ковал на ней, когда ещё был жив... ай, неважно, вот твоя награда.
 	// QuestCompletedFalse: У тебя пока что нет наковальни.
 }
 
 Hunter: {
 	// QuestName: Шепчущий рогоз
-	// QuestDescription: Во влажных и тихих водах болот растёт драгоценное растение, известное как «шепчущий рогоз». Его узкий стебель покачивается даже в тех случаях, когда сам ветер затихает, как будто управляемый голосами, которые слышны только ему одному. Путники нередко рассказывают о том, что, как только солнце начинает светать, в болоте они начинают слышать лёгкое, едва заметное журчание. Может быть они пытаются рассказать нам какие-то тайны, известные лишь их стеблям? Одни верят в то, что это остатки заблудших душ, другие говорят, что это лишь болотники, притаившиеся в ожидании очередного недотёпы.
+	// QuestDescription: Во влажных и тихих водах болот растёт очень ценное растение – «шепчущий рогоз». Его узкий стебель покачивается даже тогда, когда сам ветер тих, как будто управляемый голосами, которые слышны только ему одному. Путники нередко рассказывают о том, что, как только солнце начинает светать, в болоте они начинают слышать лёгкое, едва заметное обычному уху журчание. Может быть они пытаются рассказать нам какие-то тайны, известные лишь им одним? Некоторые поговаривают, что это остатки заблудших душ, но другие говорят, что это лишь болотники, притаившиеся в ожидании очередного недотёпы.
 	// QuestStage: Собрать шепчущую трость
-	// QuestProgress0: Спасибо тебе, ты просто невероятен!
+	// QuestProgress0: Спасибо тебе, ты проделал невероятную работу!
 	// QuestProgress1: Я многое слышал о болотах. They say something down there sings when the moon is high. Bring me a Whispering Reed, if you dare.
 	// QuestProgress2: Всё ещё в поисках? Болота никогда просто так не выдают свои секреты. Вслушивайся в гул болот - именно он подскажет тебе, что ты близок.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать шепчущий рогоз
-	// QuestCompleted: Так ты нашёл его - шепчущий рогоз! Ты тоже слышал эти голоса, верно? Держи его при себе - он помнит лишь тех, кто его слушает.
+	// QuestCompleted: Так ты нашёл его – шепчущий рогоз! Ты тоже слышал эти голоса, верно? Держи его при себе - он помнит лишь тех, кто его слушает.
 	// QuestCompletedFalse: У тебя пока что нет шепчущего рогоза.
 }
 
 Artist: {
 	// QuestName: Красный хитин
-	// QuestDescription: Red Husk grows quietly in the depths of the caves, clinging to stone where little else survives. Its dry and crimson shell feels fragile, almost like it could crumble at a touch. It doesn’t seem fully dead, but not alive either, just something left behind. Miners tend to ignore it, aldthough some say it appears more often in places where the air feels heavier than usual.
+	// QuestDescription: Лаковый жук – носитель хитина, обитает где-то в глубинах пещер, спокойно перемещаясь по ним и привлекая довольно много внимания своим дивным хитином. Большинство людей бы просто проигнорировали его, из-за ненадобности, но так как заказчик – настоящий художник, то ему этот хитин крайне необходим для оживления своих картин его невероятно насыщенным алым цветом.
 	// QuestStage: Собрать красный хитин
 	// QuestProgress0: Спасибо тебе за красный хитин!
 	// QuestProgress1: Have you ever seen the color that bleeds between dusk and fire? They call it Red Husk. I need it - no, I ache for it. Bring me that hue from the deep caves.
 	// QuestProgress2: The canvas waits… empty. The color haunts my dreams. Did you find it? The Red Husk? Faster
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать красный хитин
-	// QuestCompleted: Ты просто посмотри на него - настоящий алый панцирь! С этим, мои картины наконец оживут. Ты дал мне нечто большее, чем простую расцветку... ты мне возможность оживить мои картины!
+	// QuestCompleted: Ты просто посмотри на него – настоящий алый хитин! С этим, мои картины наконец оживут. Ты дал мне нечто большее, чем простую расцветку... ты мне возможность оживить мои картины!
 	// QuestCompletedFalse: У тебя пока что нет красного хитина.
 }
 
@@ -46,11 +42,11 @@ Ninja: {
 	// QuestDescription: Обычная морковка. Сочная, хрустящая и проверенная временем. На вид невзрачная, но когда нужно, она всегда поможет!
 	// QuestStage: Собрать морковь
 	// QuestProgress0: Спасибо тебе тебе за морковь!
-	// QuestProgress1: После столь долгого заточения мне нужна... морковь. Звучит странно? Возможно. Но именно она придаёт моим рукам сил - поэтому она нужна мне.
+	// QuestProgress1: После столь долгого заточения мне нужна... морковь. Звучит странно? Возможно. Но именно она придаёт моим рукам сил – поэтому она нужна мне.
 	// QuestProgress2: Всё ещё с пустыми руками? Хм-м-м. Уловки у кролей конечно довольно скользкие, но не настолько как твои отговорки.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать морковь
-	// QuestCompleted: Мощь, скрытая в этом овоще - совершенная маскировка. Ты хорошо постарался, мой теневой дружище.
+	// QuestCompleted: Мощь, скрытая в этом овоще – совершенная маскировка. Ты хорошо постарался, мой теневой дружище.
 	// QuestCompletedFalse: У тебя пока что не морковки.
 }
 
@@ -63,13 +59,13 @@ Farmer: {
 	// QuestProgress2: Всё ещё не нашёл?
 	// QuestButton: Принять
 	// QuestButtonGive: Дать еды
-	// QuestCompleted: Огромное спасибо! Я мечтал об этом целых два дня. Ладно, вот - твоя награда.
+	// QuestCompleted: Огромное спасибо! Я мечтал об этом целых два дня. Ладно, вот – твоя награда.
 	// QuestCompletedFalse: У тебя всё ещё нет поесть.
 }
 
 Librarian: {
 	// QuestName: Древняя книжонка
-	// QuestDescription: Найдите потрёпанный фолиант, описывающий всё, что он испытал за этого время прямо между своих строк. Безумный библиотекарь говорил, что жители имперского города никогда не слышали о таком.
+	// QuestDescription: Найдите потрёпанный фолиант, который может описать всё, что он сам пережил за время своего существования прямо между своих строк. Безумный библиотекарь говорил, что жители имперского города никогда не слышали о таком.
 	// QuestStage: Старые заголовки, новые неприятности.
 	// QuestProgress0: Спасибо!
 	// QuestProgress1: Моим первым заданием для тебя будет найти потрёпанный фолиант. Я хочу проверить на нём свои навыки. А то кто знает, что у меня получится сотворить.
@@ -84,9 +80,9 @@ Dwarf2.QuestName: ""
 BaseButton: Задание
 
 HellDwarf: {
-	// QuestName: Заточённый огонь
+	// QuestName: Закованный огонь
 	// QuestDescription: Deep within the Underworld, even the fire feels like it's trying to escape from something. Bring a bottle of hot liquid to the one who watches the ruins.
-	// QuestStage: Собрать лаву в бутылке
+	// QuestStage: Собрать лаву в банке
 	// QuestProgress0: Спасибо тебе за эту бутылочку с ценной жидкостью. Она такая тёплая, но при этом не источающая никакого тепла.
 	// QuestProgress1: I can't even believe that I'm giving tasks to someone in such a terrible place though. I really need the bottled lava.
 	// QuestProgress2: Не можешь её найти? Не беда. Ошибки - вот что делает нас настоящими.
@@ -190,7 +186,7 @@ HellDwarfQuest_First: {
 DwarfQuest_Second: {
 	// QuestName: Шлем для изгоя
 	// QuestDescription: Retrieve the second relic from the bottom of the undivided chest.
-	// QuestStage: Собрать дварфийский шлем
+	// QuestStage: Собрать дварфский шлем
 	// QuestProgress0: Thanks for the Dwarven Helmet, creation which bleeds with iron.
 	// QuestProgress1: I've been trying to recreate something from that dwarf who abandoned us before everything became broken. I only have fragments of memories left.
 	// QuestProgress2: Hmm... Some secrets are meant to be buried forever, perhaps
@@ -214,8 +210,8 @@ ArtistQuest_Second: {
 }
 
 LibrarianQuest_Second: {
-	// QuestName: Бездонное зло
-	// QuestDescription: Give Bottomless Evil for Librarian
+	// QuestName: «Бездонное зло»
+	// QuestDescription: Отдать книгу «Бездонное зло» библиотекарю
 	// QuestStage: Collect Bottomless Evil
 	// QuestProgress0: Thanks for the Bottomless Evil!
 	// QuestProgress1: Next task, my son. Create a book hidden behind the souls of huge mechanical monsters
@@ -247,46 +243,46 @@ ArtistQuest_Three: {
 	// QuestProgress1: There are rumors that there are ruins of an ancient civilization in hell, I wonder if there is anything for creativity there? I want something which will burn my hands along with the canvas.
 	// QuestProgress2: I don't believe there's nothing
 	// QuestButton: Принять
-	// QuestButtonGive: Give the brush
+	// QuestButtonGive: Отдать кисть
 	// QuestCompleted: Wow. I really appreciate it and all things that you have done. Thank you for all the help, I think this was the last task, here you go
 	// QuestCompletedFalse: You don't have it yet
 }
 
 LibrarianQuest_Three: {
 	// QuestName: Монстр, которым он стал
-	// QuestDescription: Give the Time Continuum to the Librarian. Ancient relic that breaks everything.
-	// QuestStage: Collect the Time Continuum
-	// QuestProgress0: Thanks for the Time Continuum
+	// QuestDescription: Отдать библиотекарю книгу «Временной континуум» — древнюю реликвию, ломающую все законы физики.
+	// QuestStage: Собрать «Временной континуум»
+	// QuestProgress0: Благодарю за «Временной континуум»!
 	// QuestProgress1: The final challenge. Craft the everlasting book which help me to take over time. Let’s start
-	// QuestProgress2: Why are you staring at me? Let's take over the world together
+	// QuestProgress2: И чего ты так вытаращился? Давай же — поработим мир, вместе!
 	// QuestButton: Принять
-	// QuestButtonGive: Give the book
+	// QuestButtonGive: Отдать книгу
 	// QuestCompleted: The beginning of the end. You was the best person which i work with
-	// QuestCompletedFalse: You don't have an Time Continuum
+	// QuestCompletedFalse: У тебя ещё нет «Временного континуума», возвращайся, когда получишь его!
 }
 
 HellDwarfQuest_Three: {
 	// QuestName: Чешуя полубога
 	// QuestDescription: Give the Hellworm Scale to the dwarf. The Wyrm is the most hateful being in the most hateful place.
-	// QuestStage: Collect the Hellworm Scale
-	// QuestProgress0: Thanks for the Hellworm Scale!
+	// QuestStage: Собрать чешую черверлорда
+	// QuestProgress0: Спасибо за чешую черверлорда!
 	// QuestProgress1: A monstrous serpent made of lava and sinstone has been sighted near the old caves. Destroy it just like it once destroyed this place.
-	// QuestProgress2: I believe in you. It hides in a cave nearby - let me know when the beast is slain
+	// QuestProgress2: Я верю в тебя, малой. Оно выжидает в пещере поблизости. Дай знать, когда одолеешь это чудище.
 	// QuestButton: Принять
-	// QuestButtonGive: Give the remains back
+	// QuestButtonGive: Отдать останки
 	// QuestCompleted: Наконец-то... Я могу жить спокойно, спасибо тебе за всё, путник. I was scared that the same fate awaited me.
-	// QuestCompletedFalse: You don't have the Hellworm Scale
+	// QuestCompletedFalse: У тебя нет чешуи червелорда
 }
 
 ImperianConsul: {
 	// QuestName: Начальное оружие
-	// QuestDescription: Выберите своё начальное снаряжение у НИПа {0}
-	// QuestDescription2: Разделите свой успех с НИПом {0}
+	// QuestDescription: Сhoose a {0} starting weapon
+	// QuestDescription2: Share your successes {0}
 	// QuestStage: Найти себе начальное оружие
-	// QuestStage2: Вернуться к НИПу {0}
+	// QuestStage2: Go back to {0}
 	// QuestProgress0: А теперь удачи!
-	// QuestProgress1: Так как ты у нас новенький, я рекомендую сходить тебе к нашему местному I guess since you are new, you should go to the {0} and take some weapons!
-	// QuestProgress2: Are you ready to set out on a journey?
+	// QuestProgress1: I guess since you are new, you should go to the {0} and take some weapons!
+	// QuestProgress2: Готов начать своё дивное путешествие?
 	// QuestButton: Принять
 	// QuestButtonGive: Я готов
 	// QuestCompleted: Теперь ты по настоящему готов отправиться в свой путь.

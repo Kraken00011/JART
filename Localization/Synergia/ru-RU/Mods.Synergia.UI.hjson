@@ -1,27 +1,27 @@
 DwarfUI: {
-	// WeaponsSlotInfo: Вставьте оружие сюда Insert weapon here
-	// PriceSlotInfo: Вставьте Insert ([i:ValhallaMod/SinstoneMagma])
+	// WeaponsSlotInfo: Вставьте оружие сюда
+	// PriceSlotInfo: Вставить ([i:ValhallaMod/SinstoneMagma])
 	/* Info:
 		'''
-		Улучшите предметы тематики Преисподнии Upgrade Underworld items
-		с помощью магматического грехокамня with Magma Sinstone
+		Улучшите предметы преисподней
+		с помощью грехокаменной магмы
 		''' */
-	// IsGood: Предмет готов! Item is ready!
-	// IsNotGood: Предмет сломан! Item is broken!
+	// IsGood: Предмет готов!
+	// IsNotGood: Предмет сломался!
 }
 
-// DwarfChat.NoQuest: У меня нет заданий для тебя ещё. I don't have quests for you yet.
+// DwarfChat.NoQuest: У меня пока нет для тебя заданий.
 // BismuthBook.NoSupport: Synergia не поддерживает навыки!
 
 ChatsMsg: {
-	// tPacer: У вас включён мод {0}, пж, отключите его или выключите в конфигурации настройку «{1}»
-	// EmptyStruct: Кажется мир не содержит любые структуры из мода {0}, пожалуйста пересоздайте мир Seems like world doesn't contain any structures from the mod {0}, please recreate the world.
+	// tPacer: У вас включён мод {0}, пж, отключите его или выключите в конфигурации настройку «{1}».
+	// EmptyStruct: Кажется, мир не содержит структуры из {0}. Рекомендуем пересоздать мир во избежание столкновений с какими-либо ошибками во время игры.
 }
 
 LuceatUI: {
-	// Lake: Телепортироваться к сломанному мосту Teleport to the Collapsed Bridge
-	// Village: Телепортироваться в деревню Teleport to the Village
-	// Hell: Телепортироваться в логово зверя Teleport to the Beast Cave
+	// Lake: Телепортироваться к сломанному мосту
+	// Village: Телепортироваться в деревню
+	// Hell: Телепортироваться в логово зверя
 }
 
 ShopUI: {
@@ -29,8 +29,8 @@ ShopUI: {
 	// Custom: Стоимость продажи
 }
 
-// AchiveCount: Достижение Achivment {0}
-// OrcishChestInfo: Магическая сила друидов из Чащи, запрещает открыть этот сундук The magical druidic power from the backwoods prevents the chest from being opened
+// AchiveCount: {0} {^0:достижение;достижения;достижений}
+// OrcishChestInfo: Магическая сила друидов из Чащи не позволяет вам открыть этот сундук
 
 SummonUI: {
 	// Minion: Активно {0} из {1} миньонов
