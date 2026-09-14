@@ -298,8 +298,8 @@ Items: {
 	}
 
 	AngryParasite: {
-		// Tooltip: Каждая атака имеет шанс 50% наложить дебафф Each hit has a 50% chance to inflict the «{$BuffName.Poisoned}» debuff for 1 second
-		// DisplayName: Angry Parasite
+		// DisplayName: Гнусный паразит
+		// Tooltip: 50% шанс наложить «{$BuffName.Poisoned}» на 1 секунду
 	}
 
 	PathogenicAuraStaff: {
