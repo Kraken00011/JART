@@ -1,9 +1,9 @@
 StarBeamRye: {
-	DisplayName: Star Beam Rye
+	// DisplayName: Star Beam Rye
 	Tooltip:
 		'''
-		Increases Mana regeneration, even while using an item
-		Magic and Radiant weapons deal {0}x damage
-		{$Common.AlcoholWarning}
+		Мана восстанавливается даже во время использования предметов
+		Множитель урона магического и лучезарного оружия: {0}
+		Употребление более трёх различных алкогольных напитков может негативно сказаться на состоянии вашей печени
 		'''
 }

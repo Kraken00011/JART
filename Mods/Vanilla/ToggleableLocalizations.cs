@@ -467,6 +467,10 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\BloodMoonEnemiesRework\"))
 					continue;
 
+				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization ||*/ !ModLoader.HasMod("RagnarokMod"))
+				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
+					continue;
+
 				// Другое
 
 				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))

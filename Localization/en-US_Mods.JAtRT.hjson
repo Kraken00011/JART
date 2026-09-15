@@ -6,7 +6,7 @@ Configs: {
 			BigMod: "[c/DC143C:Крупные моды]"
 			MediumMod: "[c/7B68EE:Средние моды]"
 			SmallMod: "[c/00BFFF:Небольшие моды]"
-			Fix: "[c/00FA9A:«Исправления»]"
+			Fix: "[c/00FA9A:«Фиксы»]"
 		}
 
 		# Крупные моды
@@ -530,47 +530,47 @@ Configs: {
 
 		FargowiltasCrossmodFix: {
 			Label: "Calamity - Fargo's Souls DLC"
-			Tooltip: Включает «исправление» перевода мода Calamity - Fargo's Souls DLC.
+			Tooltip: Включает фикс перевода мода Calamity - Fargo's Souls DLC.
 		}
 
 		CalamityHuntFix: {
 			Label: "Calamity: Hunt of the Old God"
-			Tooltip: Включает «исправление» перевода мода Calamity: Hunt of the Old God.
+			Tooltip: Включает фикс перевода мода Calamity: Hunt of the Old God.
 		}
 
 		ClamityFix: {
 			Label: "Clamity Addon"
-			Tooltip: Включает «исправление» перевода мода Clamity Addon.
+			Tooltip: Включает фикс перевода мода Clamity Addon.
 		}
 
 		CompactModsFix: {
 			Label: "Compact Mods (For TML)"
-			Tooltip: Включает «исправление» перевода мода Compact Mods (For TML).
+			Tooltip: Включает фикс перевода мода Compact Mods (For TML).
 		}
 
 		DraedonExpansionFix: {
 			Label: "Draedon's Expansion"
-			Tooltip: Включает «исправление» перевода мода Draedon's Expansion.
+			Tooltip: Включает фикс перевода мода Draedon's Expansion.
 		}
 
 		ToolsPrefixesFix: {
 			Label: "Tools Prefixes"
-			Tooltip: Включает «исправление» перевода мода Tools Prefixes.
+			Tooltip: Включает фикс перевода мода Tools Prefixes.
 		}
 
 		FlinxHatFix: {
 			Label: "Flinx Ushanka"
-			Tooltip: Включает «исправление» перевода мода Flinx Ushanka.
+			Tooltip: Включает фикс перевода мода Flinx Ushanka.
 		}
 
 		InfernumLegendAndMasFix: {
 			Label: "Infernum difficulties and generation patch"
-			Tooltip: Включает «исправление» перевода мода Infernum difficulties and generation patch.
+			Tooltip: Включает фикс перевода мода Infernum difficulties and generation patch.
 		}
 
 		TheDepthsFix: {
 			Label: "The Depths"
-			Tooltip: Включает «исправление» перевода мода The Depths.
+			Tooltip: Включает фикс перевода мода The Depths.
 		}
 	}
 

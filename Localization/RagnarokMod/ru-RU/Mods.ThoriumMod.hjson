@@ -61,7 +61,7 @@ Buffs: {
 
 	GoldenScaleBuff: {
 		// DisplayName: Goldfish
-		Description: 
+		Description:
 			'''
 			У вас есть жабры и потрясающий вкус к деликатесам.
 			Но к сожалению возможности безопасно спускаться бездну у вас всё ещё нет.
@@ -123,20 +123,20 @@ Items: {
 	FlightMail: {
 		// DisplayName: Flight Mail
 		Tooltip:
-            '''
-            'Небо - это ваша игровая площадка'
-            Увеличивает разбойный урон на 10%
-            '''
+			'''
+			'Небо - это ваша игровая площадка'
+			Увеличивает разбойный урон на 10%
+			'''
 	}
 
 	FlightMask: {
 		// DisplayName: Flight Hat
 		Tooltip:
-            '''
-            'Небо - это ваша игровая площадка'
-            Увеличивает разбойный урон на 5%
-            Увеличивает шанс разбойного критического удара на 6%
-            '''
+			'''
+			'Небо - это ваша игровая площадка'
+			Увеличивает разбойный урон на 5%
+			Увеличивает шанс разбойного критического удара на 6%
+			'''
 	}
 
 	BronzeBreastplate: {
@@ -164,39 +164,39 @@ Items: {
 
 	DeepFreezeCoatingItem: {
 		// DisplayName: Deep Freeze Coating
-		Tooltip: Rogue attacks will have a chance to significantly hinder the hit enemies movement
+		Tooltip: Разбойные атаки могут значительно затруднить передвижение врагов
 	}
 
 	ExplosiveCoatingItem: {
 		// DisplayName: Explosive Coating
-		Tooltip: Rogue attacks will have a chance to burst, causing nearby enemies to melt
+		Tooltip: Разбойные атаки могут взрываться, заставляя ближайших врагов плавиться
 	}
 
 	GorgonCoatingItem: {
 		// DisplayName: Gorgon Coating
-		Tooltip: Rogue attacks will have a chance to petrify enemies
+		Tooltip: Разбойные атаки могут превратить врагов в камень
 	}
 
 	SporeCoatingItem: {
 		// DisplayName: Spore Coating
-		Tooltip: Rogue attacks will have a chance to infect enemies with mycelium
+		Tooltip: Разбойные атаки могут заразить врагов мицелием
 	}
 
 	ToxicCoatingItem: {
 		// DisplayName: Toxic Coating
-		Tooltip: Rogue attacks will have a chance to poison enemies
+		Tooltip: Разбойные атаки могут отравить врагов
 	}
 
 	PlagueLordFlask: {
 		// DisplayName: Plague Lord's Flask
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			10% increased rogue weapon speed
-			Using a rogue item has a 20% chance to unleash two Blight Daggers
-			Blight Daggers home in on enemies and apply a highly contagious disease
-			[c/FF0000:Projectile damage caps at 2000.]
+			Увеличивает разбойный урон на 10%
+			Увеличивает скорость разбойных снарядов на 10%
+			Увеличивает скорость разбойных атак на 10%
+			При использовании разбойного предмета с 20% шансом высвобождаются два чумных кинжала
+			Чумные кинжалы автоматически нацеливаются на врагов и заражают их болезнью
+			[c/FF0000:Максимальный урон снарядов: 2000.]
 			'''
 	}
 
@@ -204,9 +204,9 @@ Items: {
 		// DisplayName: Shinobi Sigil
 		Tooltip:
 			'''
-			6% increased rogue critical strike chance
-			Dealing two consecutive rogue attack critical strikes will discharge dark lightning and increase rogue attack speed briefly
-			[c/FF0000:Projectile damage caps at 500.]
+			Увеличивает шанс разбойного критического удара на 6%
+			Нанесение двух последовательных разбойных критических ударов вызывает разряд тёмной молнии и кратковременно увеличивает скорость разбойных атак
+			[c/FF0000:Максимальный урон снарядов: 500.]
 			'''
 	}
 
@@ -214,9 +214,9 @@ Items: {
 		// DisplayName: Tide Turner's Depth-Guard
 		Tooltip:
 			'''
-			15% increased melee & rogue damage
-			10% increased melee & rogue weapon speed
-			16% increased melee & rogue weapon critical strike chance
+			Увеличивает урон ближнего боя и разбойный урон на 15%
+			Увеличивает скорость атаки ближнего боя и скорость разбойных атак на 10%
+			Увеличивает шанс критического удара ближнего боя и шанс разбойного критического удара на 16%
 			'''
 	}
 
@@ -224,9 +224,9 @@ Items: {
 		// DisplayName: Tide Turner's Depth-Walkers
 		Tooltip:
 			'''
-			10% increased melee & rogue damage
-			20% increased melee knockback & rogue weapon velocity
-			30% increased movement speed
+			Увеличивает урон ближнего боя и разбойный урон на 10%
+			Увеличивает отбрасывание ближнего боя и скорость разбойных снарядов на 20%
+			Увеличивает скорость передвижения на 30%
 			'''
 	}
 
@@ -234,13 +234,13 @@ Items: {
 		// DisplayName: Tide Turner's Depth-Crown
 		Tooltip:
 			'''
-			'Unleash aquatic wrath upon your foes'
-			25% increased rogue damage
-			50% chance not to consume rogue items
-			Increases your maximum technique points by 2
-			Rogue damage briefly increases the damage the enemy takes by 10%
-			Produces a floating globule every 1 second
-			Every globule makes your next attack a mini-crit, if it does not crit
+			'Обрушьте водное неистовство на своих врагов'
+			Увеличивает разбойный урон на 25%
+			Даёт 50% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 2
+			Разбойный урон кратковременно увеличивает получаемый врагом урон на 10%
+			Создаёт парящий сгусток каждую секунду
+			Каждый сгусток делает вашу следующую атаку мини-критической, если она была не критической
 			'''
 	}
 
@@ -248,9 +248,9 @@ Items: {
 		// DisplayName: Lich's Carapace
 		Tooltip:
 			'''
-			'Embrace death...'
-			15% increased rogue damage
-			30% increased rogue weapon velocity
+			'Объятия смерти...'
+			Увеличивает разбойный урон на 15%
+			Увеличивает скорость разбойных снарядов на 30%
 			'''
 	}
 
@@ -258,10 +258,10 @@ Items: {
 		// DisplayName: Lich's Cowl
 		Tooltip:
 			'''
-			'Embrace death...'
-			10% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			'Объятия смерти...'
+			Увеличивает разбойный урон на 10%
+			Даёт 33% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 2
 			'''
 	}
 
@@ -269,9 +269,9 @@ Items: {
 		// DisplayName: Lich's Talons
 		Tooltip:
 			'''
-			'Embrace death...'
-			12.5% increased rogue damage
-			15% increased rogue critical strike chance
+			'Объятия смерти...'
+			Увеличивает разбойный урон на 12,5%
+			Увеличивает шанс разбойного критического удара на 15%
 			'''
 	}
 
@@ -279,23 +279,23 @@ Items: {
 		// DisplayName: Ancient Hallowed Guise
 		Tooltip:
 			'''
-			20% increased rogue damage
-			8% increased rogue weapon speed and critical strike chance
+			Увеличивает разбойный урон на 20%
+			Увеличивает скорость разбойных атак и шанс критического удара на 8%
 			'''
 	}
 
 	NinjaRack: {
 		// DisplayName: Ninja Rack
-		Tooltip: Increases various rogue stats when interacted with
+		Tooltip: Увеличивает различные разбойные способности при взаимодействии
 	}
 
 	SandStoneGreaves: {
 		// DisplayName: Sandstone Greaves
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			3% increased movement speed
-			5% increased rogue damage
+			'Окутан пустынными ветрами'
+			Увеличивает скорость передвижения на 3%
+			Увеличивает разбойный урон на 5%
 			'''
 	}
 
@@ -303,57 +303,57 @@ Items: {
 		// DisplayName: Sandstone Helmet
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			2% increased movement speed
-			5% increased rogue damage
+			'Окутан пустынными ветрами'
+			Увеличивает скорость передвижения на 2%
+			Увеличивает разбойный урон на 5%
 			'''
 	}
 
 	SandstoneIngot: {
 		// DisplayName: Sandstone Ingot
-		Tooltip: "'Dry and brittle, but it'll work'"
+		// Tooltip: "'Dry and brittle, but it'll work'"
 	}
 
 	SandStoneMail: {
 		// DisplayName: Sandstone Mail
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			5% increased movement speed
-			5% increased rogue damage
+			'Окутан пустынными ветрами'
+			Увеличивает скорость передвижения на 5%
+			Увеличивает разбойный урон на 5%
 			'''
 	}
 
 	AssassinPotion: {
 		// DisplayName: Assassin Potion
-		Tooltip: Your first rogue attack when out of combat will crit for x4 damage
+		Tooltip: Вне боя первая разбойная атака будет критической и нанесёт в 4 раза больше урона
 	}
 
 	BoneGrip: {
 		// DisplayName: Bone Grip
 		Tooltip:
 			'''
-			Picking up rogue ammunition has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			Поднятие разбойного предмета с 33% шансом создаёт его дубликат и увеличивает скорость разбойных атак
+			Этот эффект может сработать не более одного раза каждые полсекунды и не срабатывает в бою
 			'''
 	}
 
 	Canteen: {
 		// DisplayName: Canteen
-		Tooltip: Non-consumable rogue weapons will take 40% longer to exhaust you
+		Tooltip: Нерасходуемое разбойное оружие будет изматывать вас на 40% медленнее
 	}
 
 	CaptainsPoniard: {
 		// DisplayName: Captain's Poignard
-		Tooltip: Striking enemies that are close to you increases your rogue attack speed briefly
+		Tooltip: При попадании по врагам, находящимся в непосредственной близости от вас, кратковременно увеличивает скорость разбойных атак
 	}
 
 	FungusGuard: {
 		// DisplayName: Fungus Guard
 		Tooltip:
 			'''
-			12% increased rogue damage
-			5% increased rogue weapon speed
+			Увеличивает разбойный урон на 12%
+			Увеличивает скорость разбойных атак на 5%
 			'''
 	}
 
@@ -361,9 +361,9 @@ Items: {
 		// DisplayName: Fungus Cap
 		Tooltip:
 			'''
-			8% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			Увеличивает разбойный урон на 8%
+			Даёт 33% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 1
 			'''
 	}
 
@@ -371,8 +371,8 @@ Items: {
 		// DisplayName: Fungus Leggings
 		Tooltip:
 			'''
-			10% increased rogue damage
-			5% increased rogue weapon critical strike chance
+			Увеличивает разбойный урон на 10%
+			Увеличивает шанс разбойного критического удара на 5%
 			'''
 	}
 
@@ -380,9 +380,9 @@ Items: {
 		// DisplayName: Magneto Grip
 		Tooltip:
 			'''
-			Increases pickup range of rogue items on the ground
-			Picking up a rogue item has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			Увеличивает дальность подбора разбойных предметов с земли
+			Поднятие разбойного предмета с 33% шансом создаёт его дубликат и увеличивает скорость разбойных атак
+			Этот эффект может сработать не более одного раза каждые полсекунды и не срабатывает в бою
 			'''
 	}
 
@@ -390,17 +390,17 @@ Items: {
 		// DisplayName: Mermaid's Canteen
 		Tooltip:
 			'''
-			Non-consumable rogue weapons will take 60% longer to exhaust you
-			Non-consumable rogue weapons will deal up to 15% more damage the less exhausted you are
+			Нерасходуемое разбойное оружие будет изматывать вас на 60% медленнее
+			Чем меньше вы измотаны, тем больше урона оно наносит - вплоть до 15%
 			'''
 	}
 
 	NinjaEmblem: {
-		// DisplayName: Multiclasser's Emblem
+		DisplayName: Эмблема мультикласса
 		Tooltip:
 			'''
-			10% increased damage
-			2% increased critical strike chance
+			Увеличивает урон на 10%
+			Увеличивает шанс критического удара на 2%
 			'''
 	}
 
@@ -408,9 +408,9 @@ Items: {
 		// DisplayName: Olympic Torch
 		Tooltip:
 			'''
-			Rogue damage increases your movement speed by 1% up to 25%
-			Rogue damage increases your rogue attack speed by 0.4% up to 10%
-			These effects will fade after 3 seconds of not dealing rogue damage
+			Разбойный урон увеличивает скорость передвижения на 1% до максимума в 25%
+			Разбойный урон увеличивает скорость разбойных атак на 0,4% до максимума в 10%
+			Эти эффекты пропадут через 3 секунды, если не будет нанесён разбойный урон
 			'''
 	}
 
@@ -418,8 +418,8 @@ Items: {
 		// DisplayName: Padded Grip
 		Tooltip:
 			'''
-			Picking up a rogue item has a 25% chance to duplicate it
-			This effect can only trigger once every half-second while out of combat
+			Поднятие разбойного предмета с 25% шансом создаёт его дубликат
+			Этот эффект может сработать не более одного раза каждые полсекунды и не срабатывает в бою
 			'''
 	}
 
@@ -427,8 +427,8 @@ Items: {
 		// DisplayName: Pirate's Purse
 		Tooltip:
 			'''
-			Enemies killed by your rogue damage release a spread of damaging coins
-			Enemies damaged by the coins are gouged and drop more money on death
+			Враги, убитые разбойным уроном, выпускают шквал наносящих урон монет
+			На врагов, поражённых монетами, накладывается дебафф [cbuff:ThoriumMod/Gouge] и из них выпадает больше монет после смерти
 			'''
 	}
 
@@ -436,9 +436,9 @@ Items: {
 		// DisplayName: Plague Doctor's Garb
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon velocity
+			'Какую гадкую смесь вы могли бы приготовить?'
+			Увеличивает разбойный урон на 14%
+			Увеличивает скорость разбойных снарядов на 10%
 			'''
 	}
 
@@ -446,9 +446,9 @@ Items: {
 		// DisplayName: Plague Doctor's Leggings
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon critical strike chance
+			'Какую гадкую смесь вы могли бы приготовить?'
+			Увеличивает разбойный урон на 14%
+			Увеличивает шанс разбойного критического удара на 10%
 			'''
 	}
 
@@ -456,10 +456,10 @@ Items: {
 		// DisplayName: Plague Doctor's Mask
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			12% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			'Какую гадкую смесь вы могли бы приготовить?'
+			Увеличивает разбойный урон на 12%
+			Даёт 33% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 1
 			'''
 	}
 
@@ -467,10 +467,10 @@ Items: {
 		// DisplayName: Shade Master's Garb
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			15% increased rogue damage
-			10% increased rogue weapon speed
-			30% increased rogue weapon velocity
+			'Скройтесь во тьме и наносите точные удары'
+			Увеличивает разбойный урон на 15%
+			Увеличивает скорость разбойных атак на 10%
+			Увеличивает скорость разбойный снарядов на 30%
 			'''
 	}
 
@@ -478,10 +478,10 @@ Items: {
 		// DisplayName: Shade Master's Mask
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			15% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			'Скройтесь во тьме и наносите точные удары'
+			Увеличивает разбойный урон на 15%
+			Даёт 33% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 2
 			'''
 	}
 
@@ -489,10 +489,10 @@ Items: {
 		// DisplayName: Shade Master's Treads
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			12.5% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			15% increased movement speed
+			'Скройтесь во тьме и наносите точные удары'
+			Увеличивает разбойный урон на 12,5%
+			Увеличивает шанс разбойного критического удара на 20%
+			Увеличивает скорость передвижения на 15%
 			'''
 	}
 
@@ -500,39 +500,39 @@ Items: {
 		// DisplayName: Blank Technique Scroll
 		Tooltip:
 			'''
-			'Used in the crafting of unique technique abilities'
-			After activating a technique, deal rogue damage to charge technique points
-			Technique points decay over time if damage is not continually dealt
-			Press the '{$Keybinds.ThrowingTechnique.DisplayName}' key to use your active technique's ability
+			'Используется в создании уникальных техник'
+			После активации техники наносите разбойный урон, чтобы накопить очки техники
+			Очки техники постепенно исчезают с течением времени, если постоянно не наносить урон
+			Нажмите клавишу «{$Keybinds.ThrowingTechnique.DisplayName}», чтобы использовать способность активной техники
 			'''
 	}
 
 	ThiefsWallet: {
 		// DisplayName: Thief's Wallet
-		Tooltip: Enemies killed by your rogue damage drop up to 2 additional silver coins
+		Tooltip: Из врагов, убитых разбойными атаками, выпадает дополнительно до 2 серебряных монет
 	}
 
 	ThrowingGuide: {
 		DisplayName: Плут 101: руководство настоящего разбойника
-		Tooltip: 15% of your rogue damage is duplicated
+		Tooltip: Наносит дополнительный удар в размере 15% разбойного урона
 	}
 
 	ThrowingGuideVolume2: {
-		DisplayName: Rogue 101 : Volume II
+		DisplayName: Плут 101: том II
 		Tooltip:
 			'''
-			10% increased rogue damage
-			20% of your rogue damage is duplicated
+			Увеличивает разбойный урон на 10%
+			Наносит дополнительный удар в размере 20% разбойного урона
 			'''
 	}
 
 	ThrowingGuideVolume3: {
-		DisplayName: Rogue 101 : Volume III
+		DisplayName: Плут 101: том III
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			25% of your rogue damage is duplicated
+			Увеличивает разбойный урон на 10%
+			Увеличивает скорость разбойных снарядов урон на 10%
+			Наносит дополнительный удар в размере 25% разбойного урона
 			'''
 	}
 
@@ -540,14 +540,9 @@ Items: {
 		// DisplayName: White Dwarf Greaves
 		Tooltip:
 			'''
-			15% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			20% increased movement speed
-			'''
-		SetBonus:
-			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Увеличивает разбойный урон на 15%
+			Увеличивает шанс разбойного критического удара на 20%
+			Увеличивает скорость передвижения на 20%
 			'''
 	}
 
@@ -555,14 +550,9 @@ Items: {
 		// DisplayName: White Dwarf Guard
 		Tooltip:
 			'''
-			15% increased rogue damage
-			15% increased rogue weapon speed
-			30% increased rogue weapon velocity
-			'''
-		SetBonus:
-			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Увеличивает разбойный урон на 15%
+			Увеличивает скорость разбойных атак на 15%
+			Увеличивает скорость разбойных снарядов на 30%
 			'''
 	}
 
@@ -570,14 +560,14 @@ Items: {
 		// DisplayName: White Dwarf Mask
 		Tooltip:
 			'''
-			15% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			Увеличивает разбойный урон на 15%
+			Даёт 33% шанс не потратить разбойный предмет
+			Увеличивает максимальное число очков техники на 2
 			'''
 		SetBonus:
 			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Критические удары высвобождают из космоса изумрудные вспышки
+			Изумрудные вспышки наносят урон, разный 0,05% от максимального здоровья цели
 			'''
 	}
 
@@ -585,24 +575,24 @@ Items: {
 		// DisplayName: Wreath
 		Tooltip:
 			'''
-			10% increased rogue velocity
-			10% increased movement speed while holding a rogue item
+			Увеличивает скорость разбойных снарядов на 10%
+			Увеличивает скорость передвижения на 10% с разбойным предметом в руках
 			'''
 	}
 
 	DepthDiverHelmet: {
 		// DisplayName: Depth Diver's Helmet
-		Tooltip:
+		/* Tooltip:
 			'''
 			'Become a selfless protector'
 			Critical strike chance increased by 6%
-			'''
+			''' */
 		SetBonus:
 			'''
-			You and nearby allies gain {0}% increased damage, {1}% movement speed.
-			You and nearby allies can also breathe underwater while outside of the Abyss.
-			In the Abyss, You and your allies +10 defense and +20% movement speed instead.
-			You will also randomly get some oxygen back while in the Abyss.
+			Увеличивает вам и ближайшим союзникам урон на {0}%, скорость передвижения на {1}%
+			Позволяет вам и ближайшим союзникам дышать под водой за пределами бездны
+			В бездне вместо бонусов выше увеличивает вам и ближайшим союзникам защиту на 10 ед. и скорость передвижения на 20%
+			В бездне вы также периодически будете восстанавливать немного кислорода
 			'''
 	}
 
@@ -610,29 +600,29 @@ Items: {
 		// DisplayName: Naga-Skin Mask
 		Tooltip:
 			'''
-			'Garb of the original aquatic casters'
-			Maximum mana increased by 60.
-			Allows you to breathe underwater.
-			Does not work in the Abyss.
+			'Одеяние первородных аквамантов'
+			Увеличивает максимальный запас маны на 60 ед.
+			Позволяет дышать под водой
+			Не работает в бездне
 			'''
-		SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
+		// SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
 	}
 }
 
-Keybinds.ThrowingTechnique.DisplayName: Rogue Technique
+Keybinds.ThrowingTechnique.DisplayName: Разбойная техника
 
 ThrowerTechniques: {
-	UseToEnable: Sets your active technique on use | Deal rogue damage to build points
-	UseToDisable: Technique Active | Use again to disable | Deal rogue damage to build points
+	UseToEnable: Устанавливает активную технику при использовании | Наносите разбойный урон для накопления очков
+	UseToDisable: Техника активна | Нажмите повторно, чтобы отключить | Наносите разбойный урон для накопления очков
 
 	LastStand: {
 		// DisplayName: Last Stand
 		Description:
 			'''
-			Automatically triggers when you take fatal damage, granting you 8 seconds of invulnerability
-			While invulnerable, you gain {1}% rogue speed & damage but die at the end of the duration
+			Автоматически срабатывает при получении смертельного урона, давая вам {0} {^0:секунду;секунды;секунд} неуязвимости
+			Во время неуязвимости увеличивает скорость и урон разбойных атак на {1}%, но по истечении времени действия вы умираете
 			'''
 	}
 }
 
-Configs.ThoriumConfigClient.Headers.ThrowerOptions: Rogue Options
+Configs.ThoriumConfigClient.Headers.ThrowerOptions: Настройки разбойника
