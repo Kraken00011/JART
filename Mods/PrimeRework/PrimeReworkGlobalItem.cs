@@ -17,16 +17,20 @@ public class PrimeReworkGlobalItem : GlobalItem
             // Замена текста предосмотра для баффнутой брони
             if (TRuConfig.Instance.ArmorSetBonusPreview && tooltip.Name == "ArmorSetBonusInfo" && tooltip.Mod == "CalamityRuTranslate")
             {
-                if (item.type == ItemID.AdamantiteHeadgear && item.type == ItemID.AdamantiteHelmet && item.type == ItemID.AdamantiteMask)
+                if (item.type == ItemID.AdamantiteHeadgear || item.type == ItemID.AdamantiteHelmet || item.type == ItemID.AdamantiteMask)
                     tooltip.Text += "\n" + Language.GetTextValue("Mods.PrimeRework.ItemDescriptions.AdamantiteArmor");
 
-                if (item.type == ItemID.CobaltHelmet && item.type == ItemID.CobaltMask && && item.type == ItemID.CobaltNaginata)
-                    tooltip.Text += "\n" + Language.GetTextValue("Mods.PrimeRework.ItemDescriptions.CobaltArmor");
+                if (item.type == ItemID.CobaltHelmet || item.type == ItemID.CobaltMask || item.type == ItemID.CobaltNaginata)
+                {
+                    Player player = Main.LocalPlayer;
 
-                if (item.type == ItemID.HallowedHood && item.type == ItemID.AncientHallowedHood)
+                    tooltip.Text += "\n" + Language.GetTextValue("Mods.PrimeRework.ItemDescriptions.CobaltArmor", player.statLifeMax);
+                }
+
+                if (item.type == ItemID.HallowedHood || item.type == ItemID.AncientHallowedHood)
                     tooltip.Text += "\n" + Language.GetTextValue("Mods.PrimeRework.ItemDescriptions.HallowedSummonerArmor");
 
-                if (item.type == ItemID.MythrilHat && item.type == ItemID.MythrilHood && && item.type == ItemID.MythrilHelmet)
+                if (item.type == ItemID.MythrilHat || item.type == ItemID.MythrilHood || item.type == ItemID.MythrilHelmet)
                     tooltip.Text += "\n" + Language.GetTextValue("Mods.PrimeRework.ItemDescriptions.MythrilArmor");
             }
         }
