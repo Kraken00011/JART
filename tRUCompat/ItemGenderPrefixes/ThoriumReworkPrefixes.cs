@@ -42,8 +42,6 @@ internal class ThoriumReworkPrefixes : ModSystem
             "StriderMouthguardCosmetic",
             "ThoriumBludgeon",
             "ThoriumHeavyScythe",
-            "UndyingGaze",
-            "UndyingGazeCosmetic",
             "ValadiumHeavyScythe",
             "ZephyrsRuin"
         });
