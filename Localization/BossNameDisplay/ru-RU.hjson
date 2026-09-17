@@ -652,10 +652,10 @@ Mods: {
 			MindFlayer: СВЕЖЕВАТЕЛЬ РАЗУМА
 			PZ: КАРИ ЙОХАНССОН
 			PZ_Kari: КАРИ ЙОХАНССОН
-			RotGourd: ГНИЛАЯ ТЫКВА
-			OrroHead: ОРРО И БОРО
-			BoroHead: ОРРО И БОРО
-			BigBone: ЧЕРЕПИЩЕ
+			RotGourd: "{$Spooky.NPCs.RotGourd.DisplayName}"
+			OrroHead: "{$Spooky.NPCs.OrroHead.BossChecklistIntegration.EntryName}"
+			BoroHead: "{$Spooky.NPCs.BoroHead.BossChecklistIntegration.EntryName}"
+			BigBone: "{$Spooky.NPCs.BigBone.DisplayName}"
 			FrankenGoblin: ФРАНК
 			BenbenTsukumo: БЕНБЕН И ЯЦУХАСИ
 			YatsuhashiTsukumo: БЕНБЕН И ЯЦУХАСИ
@@ -794,11 +794,11 @@ Mods: {
 			TheSpirit: МЕЖИЗМЕРЕНЧЕСКИЙ БОЕЦ
 			OneShot: РАЗБОЙНИЧИЙ КОСМОПИРАТ
 			Menace: ТАИНСТВЕННЫЙ КОЛДУН
-			Paraffin: ОТВЕРГНУТАЯ СКУЛЬПТУРА
+			Paraffin: ОТВЕРГНУТОЕ ИЗВАЯНИЕ
 			Mirage: АКТРИСА-ИСКАТЕЛЬНИЦА
 			Insurgent: СПЕКТРАЛЬНЫЙ ХРАНИТЕЛЬ
 			Seth: ОСВОБОЖДЁННАЯ
-			ZephyrSquid: УЖАС РИФФОВ
+			ZephyrSquid: УЖАС РИФОВ
 			IceDragon: ДРАКОН МЕТЕЛИ
 			DreadBossP2: ЭССЕНЦИЯ КОШМАРА
 			TrueDread: КОШМАР НА ЯВУ
@@ -808,9 +808,9 @@ Mods: {
 			MindFlayer: ХТОНИЧЕСКИЙ ГНЕВ
 			ErebusHead: ПЕРВОЗДАННАЯ ТЬМА
 			Glowmoth: СВЕТЯЩЕЕСЯ СОЗДАНИЕ
-			PutridPinkyPhase2: АРАХИСООДЕРЖИМЫЙ
+			PutridPinkyPhase2: ОДЕРЖИМЫЙ АРАХИСОМ
 			PharaohsCurse: ЗАТОЧЁННЫЙ ДУХ
-			Excavator: МИРОКОП
+			Excavator: РАСКОПЩИК МИРОВ
 			TheAdvisorHead: ПОТУСТОРОННЯЯ МАШИНА
 			NewPolaris: МОРОЗНАЯ МАШИНА ВОЙНЫ
 			Lux: ВЫЗВОЛЕННЫЙ ДУХ

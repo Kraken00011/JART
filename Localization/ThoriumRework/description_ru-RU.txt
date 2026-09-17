@@ -1,0 +1,32 @@
+This mod now has a wiki, but it is incomplete, feel free to help: https://terrariamods.wiki.gg/wiki/Thorium_Crossmod/Thorium_Bosses_Reworked
+
+Alternate download (or if you wanna support me, just download it and delete the file after, you don't have to pay at all) https://www.curseforge.com/terraria/mods/thorium-bosses-rework
+
+МОД НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ
+А ещё, ПРЕДУПРЕЖДЕНИЕ ДЛЯ СВЕТОЧУВСТВИТЕЛЬНЫХ ЛЮДЕЙ! Отключите вспышки света и экранные эффекты в конфигурации мода!
+
+Reworks all of Thorium's boss fights, all can be toggled on or off respectively
+Also adds some minor Calamity and Fargo's Souls difficulty integration for the reworked bosses such as defense damage, boss rush integration, eternity mode debuffs and some AI and stats adjustments.
+
+This mod also reworks weapons that are on-tier or related to reworked bosses. (For instance: lodestone, valadium, illumite, unfathomable flesh, and dragon scale weapons)
+This is toggleable too in case you don't want it.
+
+This gives all bosses master mode drops like in Mech Bosses Rework and Jungle Bosses Rework. Master drops are also toggleable and can be moved down to expert via config.
+
+Multiplayer is fully supported!
+
+Другие фичи:
+- В моде есть некоторые штуки, сделанные специально для Bereft Souls. Если вы хотите активировать в своём модпаке, просто можете включить настройку «Переработки только для режима Вечность» и мод Fargo's Souls. Названные ранее «фичи» — это уникальные аксессуары для боссов Thorium (например крылья Зефира). Если вы играете без Fargo's, то эти аксессуары станут обычными украшениями.
+
+ВАЖНЫЕ ЗАМЕЧАНИЯ:
+- Этот мод также меняет класс звёздного мотива и магической арфы на класс барда (что можно отключить в конфигурации).
+- Если вы хотите, чтобы музыкальные инструменты из мода Calamity тоже стали симфоническими, можете прочекать мой другой мод — Unofficial Calamity Bard and Healer
+-If you keep randomly dying to Dream Eater/Dying Reality, read the description of the passive debuff (called "Terminal Lucidity") it inflicts. This is also noted in the Doom Sayer's coin.
+-If you are playing with Calamity, the Primordials are moved to post-DoG in progression and their drops now require Ascendant Spirit Essence to craft with the exception of Mjolnir as it is an expert mode exclusive. Some of the weaker weapons and armor sets are buffed to compensate with this shift in progression, but those that are already strong (like Reality Slasher) don't receive any buffs whatsoever. In addition, Auric bars now require one of each primordial essences to be crafted. (Can be toggled in the config)
+
+Известные баги: (по большей части визуальные)
+- Крик Виконта иногда не синхронизируется с его атакой.
+- Лазер Козникса имеет небольшую визуальную рассинхронизацию в мультиплеере.
+- Анимации появления Пожирателя снов (экранные трещины) иногда не воспроизводятся, из-за чего битва с ним может начаться неожиданно быстро.
+-Borean Strider will sometimes lose a few legs in multiplayer, but they will eventually respawn and re-sync with the boss. (The fight is works fine still).
+-Borean Strider is unaffected by the speed multiplier config. (Intended for now due to how many things break when you increase its speed, especially the animation of its legs.)

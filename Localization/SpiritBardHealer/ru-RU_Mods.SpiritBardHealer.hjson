@@ -1,4 +1,4 @@
-/*ItemDescriptions: {
+ItemDescriptions: {
 	ElectricGuitar:
 		'''
 		Каждое попадание цепной молнии восстанавливает 1 очко вдохновения
@@ -274,7 +274,7 @@ Items: {
 	}
 
 	Tashortinus: {
-		DisplayName: Tashortinus
+		DisplayName: "{$TerrariumParalyser.DisplayName}"
 		Tooltip:
 			'''
 			Throw a sharp talon at foes
@@ -289,7 +289,7 @@ Items: {
 			'''
 			15 ед. урона от метки призывателя
 			{$CommonItemTooltip.Whips}
-			Shoots an array of colorful lightning
+			Выпускает поток разноцветных молний
 			'''
 	}
 
@@ -299,11 +299,11 @@ Items: {
 	}
 
 	ThornBlow: {
-		DisplayName: Thorn Blow
+		DisplayName: Плющевой лук
 		Tooltip:
 			'''
-			Rapidly shoots out thorns when played
-			"Just be careful not to accidentally inhale them"
+			Стремительно выпускает самонаводящиеся колючки
+			'Just be careful not to accidentally inhale them'
 			'''
 	}
 
@@ -312,7 +312,7 @@ Items: {
 		Tooltip:
 			'''
 			Вызывает волну титанической энергии при полном заряде
-			Critical strikes will deal additional damage
+			Критические удары наносят дополнительный урон
 			'''
 	}
 
@@ -327,12 +327,12 @@ Items: {
 	}
 
 	ValadiumStunGun: {
-		DisplayName: Valadium Stun Gun
+		DisplayName: Валадиумовая оглу-пушка
 		Tooltip:
 			'''
 			6 ед. урона от метки призывателя
-			Your summons will focus struck enemies
-			Damage will blast enemies with interdimensional energy
+			{$CommonItemTooltip.Whips}
+			Атаки временно поражают врагов межпространственной энергией
 			'''
 	}
 
@@ -341,7 +341,7 @@ Items: {
 		Tooltip:
 			'''
 			22 ед. урона от метки призывателя
-			Your summons will focus struck enemies
+			{$CommonItemTooltip.Whips}
 			Shoots a continuous stream of flame that emits lightning from time to time
 			"And the ash came falling down on the city that we love..."
 			'''
@@ -402,22 +402,22 @@ Projectiles: {
 
 Buffs: {
 	SummonTag6: {
-		DisplayName: Summon Tag
+		DisplayName: Метка призывателя
 		Description: ""
 	}
 
 	SummonTag9: {
-		DisplayName: Summon Tag
+		DisplayName: Метка призывателя
 		Description: ""
 	}
 
 	SummonTag15: {
-		DisplayName: Summon Tag
+		DisplayName: Метка призывателя
 		Description: ""
 	}
 
 	SummonTag22: {
-		DisplayName: Summon Tag
+		DisplayName: Метка призывателя
 		Description: ""
 	}
 }
@@ -430,7 +430,7 @@ Configs: {
 			Label: Множитель урона метательного оружия
 			Tooltip:
 				'''
-				Увеличивает урон метательного оружия из этого мода под заданный множитель
+				Умножает урон метательного оружия из этого мода на указанное значение.
 				(Для лучшей работы этой настройки требуется перезайти в мир!)
 				'''
 		}
@@ -439,7 +439,7 @@ Configs: {
 			Label: Множитель урона симфонического оружия
 			Tooltip:
 				'''
-				Увеличивает урон симфонического оружия из этого мода под заданный множитель
+				Умножает урон симфонического оружия из этого мода на указанное значение.
 				(Для лучшей работы этой настройки требуется перезайти в мир!)
 				'''
 		}
@@ -448,7 +448,7 @@ Configs: {
 			Label: Множитель урона лучезарного оружия
 			Tooltip:
 				'''
-				Увеличивает урон лучезарного оружия из этого мода под заданный множитель
+				Умножает урон лучезарного оружия из этого мода на указанное значение.
 				(Для лучшей работы этой настройки требуется перезайти в мир!)
 				'''
 		}
@@ -457,8 +457,8 @@ Configs: {
 			Label: Множитель количества эссенций души
 			Tooltip:
 				'''
-				Увеличивает количество получаемых эссенций души с использованием лучезарного оружия из этого мода под заданный множитель
-				Максимальное количество эссенций души, которое можно получить: 5
+				Умножает количество получаемых эссенций души с использованием лучезарного оружия из этого мода на указанное значение.
+				Максимальное количество эссенций души, которое можно получить: 5.
 				(Для лучшей работы этой настройки требуется перезайти в мир!)
 				'''
 		}
@@ -467,11 +467,10 @@ Configs: {
 			Label: Множитель исцеления
 			Tooltip:
 				'''
-				Увеличивает количество исцеления лучезарных заклинаний из этого мода под заданный множитель
-				Значение 0 означает, что заклинания будут исцелять только 1 ед. здоровья
+				Умножает количество исцеления лучезарных заклинаний из этого мода на указанное значение.
+				Значение 0 означает, что заклинания будут исцелять только 1 ед. здоровья.
 				(Для лучшей работы этой настройки требуется перезайти в мир!)
 				'''
 		}
 	}
 }
-*/

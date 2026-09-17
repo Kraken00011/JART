@@ -789,7 +789,7 @@ ItemTooltip: {
 				'''
 		}
 
-		SHS: "{$SOTS.Items.ShatterHeartShield.Tooltip}"
+		SHS: "{$Mods.SOTS.Items.ShatterHeartShield.Tooltip}"
 		MoltenScale: Поджигает ближайших врагов
 		PlasmaGen:
 			'''

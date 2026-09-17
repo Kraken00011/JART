@@ -1,0 +1,24 @@
+[b]Thrower Unification[/b] — небольшой мод, объединяющий несколько классов метателя из разных в один общий
+Разработка этого мода ведётся под крылом команды [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686]Infernal Eclipse of Ragnarok[/url].
+
+На данный момент поддерживает такие классы как:
+[list]
+	[*] Метатель (Thorium или любой другой мод, использующий ванильного метателя в качестве класса)
+	[*] Разбойник (Calamity и его аддоны)
+	[*] Ревенант (кинетический/kinetic урон из Shadows of Abaddon)
+	[*] Охотник на кровь/Blood Hunter (Vitality)
+[/list]
+
+В моде также присутствуют кастомные скрытные удары для предметов, не из Calamity. В скором времени мы планируем увеличить их количество
+
+This mod is highly configurable. You can toggle only a specific class's merge, the tooltip overrides, class tags, if non-Calamity weapons have custom stealth strikes, and the color for Colored Damage Types support.
+If you are playing with any other mod that also merges throwers, it is recommended to turn off their thrower merge if possible.
+
+Примечание: мод сам по себе классы между собой не балансирует. Если вы хотите ощутить действительно сбалансированный игровой экспириенс при игре с теми же Calamity и Thorium одновременно, то мы крайне рекомендуем вам дополнительно установить мод [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3452171528]WHummus' Calamity/Thorium Balancing[/url]
+
+Страница вики со всем скрытными ударами: https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/Stealth_Strikes
+Discord-сервер: https://discord.gg/tc5nZdRvaU
+
+Кодеры: StarlightCat, Akira, WardrobeHummus
+Художники: Akira, Tyr
+Переводчики: Pudd1ng (китайский упрощённый), Kraken (русский)

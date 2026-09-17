@@ -1146,7 +1146,7 @@ Items: {
 	}
 
 	ZephyrsRuin: {
-		DisplayName: Зефирова погибель
+		DisplayName: Кара Зефира
 		Tooltip:
 			'''
 			Вонзается во врагов или, если промахнётся, в поверхность
@@ -1169,7 +1169,7 @@ Items: {
 	}
 
 	ZephyrWingsCosmetic: {
-		DisplayName: Зефировы крылья
+		DisplayName: Крылья Зефира
 		Tooltip:
 			'''
 			Позволяет летать и плавно парить

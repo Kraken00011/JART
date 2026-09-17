@@ -2,11 +2,10 @@ using System;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using JAtRT.Core.Config;
-using CalamityRuTranslate.Core.Config;
 
 internal class ThoriumReworkSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.ThoriumReworkLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.ThoriumReworkLocalization;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

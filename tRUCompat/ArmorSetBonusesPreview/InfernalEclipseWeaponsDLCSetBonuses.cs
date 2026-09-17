@@ -6,7 +6,7 @@ using CalamityRuTranslate.Core.Config;
 
 internal class InfernalEclipseWeaponsDLCSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.InfernalEclipseWeaponsDLCLocalization;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

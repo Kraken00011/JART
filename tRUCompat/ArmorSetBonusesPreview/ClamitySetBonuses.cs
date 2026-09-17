@@ -3,11 +3,10 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using CalamityMod;
 using JAtRT.Core.Config;
-using CalamityRuTranslate.Core.Config;
 
 internal class ClamitySetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.ClamityFix && TRuConfig.Instance.ArmorSetBonusPreview;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.ClamityFix;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);

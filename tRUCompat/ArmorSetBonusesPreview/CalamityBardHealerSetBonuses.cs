@@ -5,11 +5,10 @@ using CatalystMod;
 using Terraria.GameInput;
 using ThoriumMod;
 using JAtRT.Core.Config;
-using CalamityRuTranslate.Core.Config;
 
 internal class CalamityBardHealerSetBonuses : ModSystem
 {
-    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.CalamityBardHealerLocalization && TRuConfig.Instance.ArmorSetBonusPreview;
+    public override bool IsLoadingEnabled(Mod mod) => JARTLocalizationConf.Instance.CalamityBardHealerLocalization;
     public override void PostSetupContent()
     {
         ModLoader.TryGetMod("CalamityRuTranslate", out Mod tru);
