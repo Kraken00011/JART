@@ -4,7 +4,7 @@ Dwarf: {
 	// QuestStage: Собрать дварфскую наковальню
 	// QuestProgress0: Спасибо за наковальню!
 	// QuestProgress1: Раньше дварфы постоянно копались в шахтах в поисках вальгалитовой руды. Во время этого они постоянно таскали с собой эти огромные наковальни, которые потом так и оставались стоять там, - тебе не затруднит притащить мне одну такую? А за это я дам тебе немного руды.
-	// QuestProgress2: Её хер найдёшь, но если у тебя получится это сделать, будь уверен, я очень достояно тебя отблагодарю!
+	// QuestProgress2: Её хрен найдёшь, но если у тебя получится это сделать, будь уверен, я достойно тебя отблагодарю!
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать
 	// QuestCompleted: Поверить не могу, что снова вижу её... Мой отец ковал на ней, когда ещё был жив... ай, неважно, вот твоя награда.
@@ -17,7 +17,7 @@ Hunter: {
 	// QuestStage: Собрать шепчущую трость
 	// QuestProgress0: Спасибо тебе, ты проделал невероятную работу!
 	// QuestProgress1: Я многое слышал о болотах. They say something down there sings when the moon is high. Bring me a Whispering Reed, if you dare.
-	// QuestProgress2: Всё ещё в поисках? Болота никогда просто так не выдают свои секреты. Вслушивайся в гул болот - именно он подскажет тебе, что ты близок.
+	// QuestProgress2: Всё ещё в поисках? Болота никогда просто так не выдают свои секреты. Вслушивайся в гул болот — именно он подскажет тебе, что ты близок.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать шепчущий рогоз
 	// QuestCompleted: Так ты нашёл его – шепчущий рогоз! Ты наверняка тоже слышал эти голоса, верно? Держи его при себе — он помнит лишь тех, кто его слушает.
@@ -85,7 +85,7 @@ HellDwarf: {
 	// QuestStage: Собрать лаву в банке
 	// QuestProgress0: Спасибо тебе за эту бутылочку с ценной жидкостью. Она такая тёплая, но при этом не источающая никакого тепла.
 	// QuestProgress1: I can't even believe that I'm giving tasks to someone in such a terrible place though. I really need the bottled lava.
-	// QuestProgress2: Не можешь её найти? Не беда. Ошибки — вот что делает нас настоящими.
+	// QuestProgress2: Не можешь её найти? Не беда. Ошибки — вот что делает нас живыми.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать лаву в банке
 	// QuestCompleted: Exactly, thank you so much. Take these magma chunks. They don't breathe, so they won't lie or hurt you.
@@ -97,16 +97,16 @@ HunterQuest_Frist: {
 	// QuestDescription: Принесите череп Лотора охотнику. The horror that this druid brought in these lands cannot be described in words, even the hottest places are cursed by his presence.
 	// QuestStage: Собрать череп Лотора
 	// QuestProgress0: Большое тебе человеческое за его череп!
-	// QuestProgress1: Hi again. Have you ever heard something about the Druid who became a monster? I would like to see his skull on my wall. Bring this if you're not a weakling
-	// QuestProgress2: Don't think you can do it that easily.
+	// QuestProgress1: И снова здравствуй. Ты когда-нибудь слышал легенду о друиде, что стал настоящим чудовищем? Мне бы хотелось заполучить его череп в свою коллекцию. Я очень надеюсь, что у тебя получится принести его.
+	// QuestProgress2: Не надейся на лёгкий бой.
 	// QuestButton: Принять
-	// QuestButtonGive: Give the Skull
-	// QuestCompleted: So you beat it... Unbelievable I thought you were dead. Glad to see you, there is your reward. You said something about Orcish curse? I don't really care about it.
+	// QuestButtonGive: Отдать череп
+	// QuestCompleted: У тебя получилось... Поверить не могу, мне казалось, он убьёт тебя быстрее, чем ты его. Но я рад, что ошибался в этом. Вот — твоя награда.
 	// QuestCompletedFalse: У тебя пока-что не черепа Лотора.
 }
 
 DwarfQuest_Frist: {
-	// QuestName: Живой снеговик
+	// QuestName: Настоящий снеговик
 	// QuestDescription: Give the Soul of Ice to the Dwarf in the tundra.
 	// QuestStage: Complete the frost legion and collect Soul of Ice from the Cold Father - the final enemy.
 	// QuestProgress0: Thanks for the Soul of Ice!

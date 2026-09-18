@@ -11,6 +11,7 @@ GenericTooltips: {
 			Сверхчистое железное оружие со 100% шансом накладывает дебафф [cbuff:Redemption/PureChillDebuff]
 			'''
 		Xenomite.Bonus2: ", чтобы высвободить токсичный газ вокруг игрока, накладывающий дебафф [cbuff:Redemption/BileDebuff]"
+		HolyBonus: Наносит больше урона нежити и демонам; может наложить дебафф [cbuff:Redemption/HolyFireDebuff]
 	}
 }
 

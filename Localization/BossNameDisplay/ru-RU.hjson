@@ -610,7 +610,7 @@ Mods: {
 		BossNames: {
 			DevourerofGodsHead: ПОЖИРАТЕЛЬ БОГОВ
 			TheTwins: БЛИЗНЕЦЫ
-			MoonLord: ЛУННЫЙ ЛОРД
+			MoonLord: ЛУННЫЙ ЛОРД, ЖУТКИЕ ОСТАНКИ
 			ProfanedGuardians: ОСКВЕРНЁННЫЕ СТРАЖИ
 			DesertScourgeHead: ПУСТЫННЫЙ БИЧ
 			NamelessDeityBoss: ?
@@ -645,7 +645,7 @@ Mods: {
 			Providence: ПРОВИДЕНС
 			Signus: СИГНУС
 			Yharon: ЯРОН
-			ExoMechs: ЭКЗО-МЕХАНИЗМЫ
+			ExoMechs: СОВЕРШЕННЫЕ МАШИНЫ, ЭКЗО-МЕХАНИЗМЫ
 			PlaguebringerGoliath: ГОЛИАФ
 			AvatarOfEmptiness: ВОПЛОЩЕНИЕ ПУСТОТЫ
 			ZephyrSquid: ЗЕФИРНЫЙ КАЛЬМАР

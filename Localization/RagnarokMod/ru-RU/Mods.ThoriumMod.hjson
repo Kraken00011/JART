@@ -1,7 +1,7 @@
 Buffs: {
 	AssassinPotionBuff: {
 		// DisplayName: Assassin
-		Description: Вне битвы разбойные атаки наносят в 4 раза больше урона критических ударов
+		Description: Вне боя разбойные атаки наносят критические удары с четырёхкратным уроном
 	}
 
 	DeepFreezeCoatingBuff: {
