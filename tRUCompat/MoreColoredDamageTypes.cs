@@ -34,14 +34,6 @@ public class MoreColoredDamageTypes : GlobalItem
 
                     if (item.DamageType == mythicMelee || item.DamageType == mythicRanged || item.DamageType == mythicMagic || item.DamageType == mythicSummon)
                         tooltip.OverrideColor = new Color(0, 250, 154);
-
-                    if (ModContent.TryFind<DamageClass>("InfernalEclipseAPI/VoidRogue", out var voidRogue) && item.DamageType == voidRogue)
-                    {
-                        string[] parts = tooltip.Text.Split(' ');
-
-                        if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("разбойного урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ffb86c:разбойного] [c/7746d7:урона]";
-                    }
                 }
 
                 // SOTS

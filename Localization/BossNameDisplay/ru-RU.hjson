@@ -825,9 +825,9 @@ Mods: {
 			Stage3Scientist: КРИСТАЛЛИЧЕСКИЙ УЖАС
 			IrradiatedBehemoth: НЕСЧАСТНЫЙ УЧЁНЫЙ
 			KS3: ПРОТОТИП МУЛЬТИУМ
-			OmegaCleaver: ОМЕГА-ПРОТОТИП НОМЕР 1
-			Gigapora: ОМЕГА-ПРОТОТИП НОМЕР 2
-			OO: ОМЕГА-ПРОТОТИП НОМЕР 3
+			OmegaCleaver: ОМЕГА-ПРОТОТИП НОМЕР I
+			Gigapora: ОМЕГА-ПРОТОТИП НОМЕР II
+			OO: ОМЕГА-ПРОТОТИП НОМЕР III
 			Blisterface: НЕСЧАСТНАЯ ЗОЛОТАЯ РЫБКА
 			ProtectorVolt: КОМАНДИР ОМЕГА-ПОДРАЗДЕЛЕНИЯ
 			MACEProject: НЕЗАВЕРШЁННАЯ МАШИНА ВОЙНЫ
@@ -933,7 +933,7 @@ Mods: {
 			OldHunterBoss: ВОССТАВШИЙ МАСТЕР РОГАТОК
 			Lepus: БЕДСТВЕННЫЙ КРОЛИК
 			TurkortheUngrateful: НЕБЛАГОДАРНЫЙ
-			Ocram: ЗАБЫТЫЙ ВРЕМЕНЕМ ВЛАСТЕЛИН
+			Ocram: ПОЗАБЫТЫЙ ВРЕМЕНЕМ ВЛАСТЕЛИН
 		}
 
 		BossColors: {

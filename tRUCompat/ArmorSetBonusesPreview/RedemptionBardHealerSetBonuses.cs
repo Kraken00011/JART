@@ -18,8 +18,8 @@ internal class RedemptionBardHealerSetBonuses : ModSystem
                 string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") +
                                "[Особая способность]" +
                                Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") +
-                               Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.HardlightMask.Cowl");
-                
+                               Language.GetTextValue("Mods.RedemptionBardHealer.Items.HardlightMask.SetBonus");
+
                 return bonus;
             }));
 
@@ -28,8 +28,8 @@ internal class RedemptionBardHealerSetBonuses : ModSystem
                 string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") +
                                "[Особая способность]" +
                                Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") +
-                               Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.HardlightReticle.Cowl");
-                
+                               Language.GetTextValue("Mods.RedemptionBardHealer.Items.HardlightReticle.SetBonus");
+
                 return bonus;
             }));
 
@@ -38,8 +38,8 @@ internal class RedemptionBardHealerSetBonuses : ModSystem
                 string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") +
                                "[Особая способность]" +
                                Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") +
-                               Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.HardlightVisage.Cowl");
-                
+                               Language.GetTextValue("Mods.RedemptionBardHealer.Items.HardlightVisage.SetBonus");
+
                 return bonus;
             }));
         }

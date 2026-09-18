@@ -400,7 +400,7 @@ Items: {
 
 	DesertFeatherArrow: {
 		DisplayName: Стрела из пустынных перьев
-		Tooltip: 'When the feather was still on the vulture, it wasn't so fast '
+		Tooltip: "'When the feather was still on the vulture, it wasn't so fast'"
 	}
 
 	DesertFeather: {
@@ -459,8 +459,8 @@ Items: {
 		DisplayName: Стрела из вульфрумового металлолома
 		Tooltip:
 			'''
-			'Но этот металл слишком же тяжёлый, чтобы делать из него стрелы'
-			'А да ну-у-у-у на фиг'
+			'Но этот металл слишком же тяжёлый, чтобы делать из него стрелы
+			А да ну-у-у-у на фиг'
 			'''
 	}
 
@@ -475,12 +475,12 @@ Items: {
 	}
 
 	Chengying_Fumo: {
-		DisplayName: Chengying's Fumo
+		DisplayName: Фумо Чены
 		Tooltip: You should understand that darkness cannot be handled gently, we must use fire.
 		TooltipDay:
 			'''
-			'Тост за всех, кто пытался меня убить!'
-			'У вас ничего не вышло!'
+			'Тост за всех, кто пытался меня убить!
+			У вас ничего не вышло!'
 			'''
 	}
 

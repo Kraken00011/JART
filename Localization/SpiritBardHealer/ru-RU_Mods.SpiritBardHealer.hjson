@@ -195,7 +195,7 @@ Items: {
 			'''
 			В падении наносит больше урона
 			Разбрасывает несколько камней разные стороны при полном заряде
-			При попадании накладывает дебафф «{$Mods.ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон от всех источников на 10%
+			При попадании накладывает дебафф «{$ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон от всех источников на 10%
 			'Магнетически притягивается к черепушкам ваших врагов'
 			'''
 	}
@@ -274,7 +274,7 @@ Items: {
 	}
 
 	Tashortinus: {
-		DisplayName: "{$TerrariumParalyser.DisplayName}"
+		DisplayName: Tashortinus
 		Tooltip:
 			'''
 			Throw a sharp talon at foes
@@ -295,7 +295,7 @@ Items: {
 
 	TerrariumWorldShaker: {
 		DisplayName: Террариевый землетряс
-		Tooltip: Полностью заряженные атаки выпускают цветные кластеры взрывов
+		Tooltip: Выпускает цветные взрывные кластеры при полном заряде
 	}
 
 	ThornBlow: {
@@ -303,7 +303,7 @@ Items: {
 		Tooltip:
 			'''
 			Стремительно выпускает самонаводящиеся колючки
-			'Just be careful not to accidentally inhale them'
+			'Просто попробуй не вдыхать их'
 			'''
 	}
 
@@ -321,8 +321,8 @@ Items: {
 		Tooltip:
 			'''
 			Casts a homing beam that heals nearby allies
-			"One does not simply heal themselves by wounding others...
-			Unless it's blood transfusion, or any organ transplant really"
+			'One does not simply heal themselves by wounding others...
+			Unless it's blood transfusion, or any organ transplant really'
 			'''
 	}
 
@@ -343,7 +343,7 @@ Items: {
 			22 ед. урона от метки призывателя
 			{$CommonItemTooltip.Whips}
 			Shoots a continuous stream of flame that emits lightning from time to time
-			"And the ash came falling down on the city that we love..."
+			'And the ash came falling down on the city that we love...'
 			'''
 	}
 }
