@@ -303,7 +303,7 @@ Items: {
 	}
 
 	PathogenicAuraStaff: {
-		// DisplayName: Patoghenic Aura Staff
+		// DisplayName: Патогенный аурный посох
 		/* Tooltip:
 			'''
 			Summons an aura that deals damage to enemies
@@ -323,7 +323,7 @@ Items: {
 			Minion damage increases aura's range
 			Grants 'Regeneration' and 'Mana Regeneration' buffs
 			''' */
-		// DisplayName: Mercurium Aura Scythe
+		// DisplayName: Ртутная аурная коса
 	}
 
 	InfamousFlame: {
@@ -579,7 +579,7 @@ Items: {
 
 	CaesiumHeavyAnvil: {
 		// Tooltip: Where the jungle creatures forged their wrath.
-		// DisplayName: Caesium Heavy Anvil
+		// DisplayName: Тяжёлая цезиевая наковальня
 	}
 
 	DecayedScythe: {

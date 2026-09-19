@@ -26,8 +26,8 @@ ItemDescriptions: {
 	FrigidSetBonus:
 		'''
 		Дважды нажмите клавишу {0}, чтобы создать ледяную стену в точке курсора
-		При контакте со стеной даёт кратковременный эффект восстановления здоровья
-		Перезаряжается 8 секунд
+		При контакте со стеной ненадолго увеличивает скорость восстановления здоровья
+		Эта способность перезаряжается 8 секунд
 		'''
 	RogueHood: Увеличивает метательный урон на 5%
 	RoguePlate: Увеличивает шанс метательного критического удара на 5%
@@ -36,14 +36,14 @@ ItemDescriptions: {
 	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
 	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
 	WayfarerHead: Увеличивает скорость восстановления вдохновения и шанс выпадения нот на 5%
-	WayfarerBody: Увеличивает симфонический урон и скорость игры на 5%
+	WayfarerBody: Увеличивает симфонический урон и скорость игры на инструменте на 5%
 	WayfarerLegs: Увеличивает длительность симфонических усилений на 1 секунду
 	WayfarerSetBonus: Улучшает симфонические усиления, связанные с передвижением
 }
 
 Items: {
 	AntumbralTip: {
-		DisplayName: Антитеневой наконечник
+		DisplayName: Полутеневой наконечник
 		Tooltip:
 			'''
 			Вонзается в поражённых врагов
@@ -107,7 +107,7 @@ Items: {
 		Tooltip:
 			'''
 			Бросает криолитовый сюрикен-снежинку, которая вонзается в поражённых врагов
-			При попадании накладывает дебафф «{$Mods.SpiritMod.Buffs.CryoCrush.DisplayName}»
+			При попадании накладывает дебафф «{$SpiritMod.Buffs.CryoCrush.DisplayName}»
 			'Creeping chill? Creeping attrition.'
 			'''
 	}
@@ -134,7 +134,7 @@ Items: {
 	}
 
 	DuskSerenade: {
-		DisplayName: Dusk Serenade
+		DisplayName: Сумеречная серенада
 		Tooltip: Shoots dusk notes that creates homing lunates on bounce
 	}
 
@@ -193,7 +193,7 @@ Items: {
 		DisplayName: Магнетитовая мегабулава
 		Tooltip:
 			'''
-			В падении наносит больше урона
+			Наносит больше урона в падении
 			Разбрасывает несколько камней разные стороны при полном заряде
 			При попадании накладывает дебафф «{$ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон от всех источников на 10%
 			'Магнетически притягивается к черепушкам ваших врагов'
@@ -218,7 +218,7 @@ Items: {
 	}
 
 	ScarabSong: {
-		DisplayName: Scarab Song
+		DisplayName: Скарапесня
 		Tooltip:
 			'''
 			Creates a swarm of mini scarab spirits when played
@@ -311,7 +311,7 @@ Items: {
 		DisplayName: Титановый громитель
 		Tooltip:
 			'''
-			Вызывает волну титанической энергии при полном заряде
+			Высвобождает волну титанической энергии при полном заряде
 			Критические удары наносят дополнительный урон
 			'''
 	}
@@ -327,7 +327,7 @@ Items: {
 	}
 
 	ValadiumStunGun: {
-		DisplayName: Валадиумовая оглу-пушка
+		DisplayName: Валадиевая оглу-пушка
 		Tooltip:
 			'''
 			6 ед. урона от метки призывателя

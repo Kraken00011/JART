@@ -1,13 +1,13 @@
 Dwarf: {
 	// QuestName: Краденные воспоминания
-	// QuestDescription: Где-то в глубинах мерзлотной тундры находится дварфская наковальня, наполовину зарытая в толще льда и времени. Выкованная в пору, когда дварфийские кузни всё ещё разгорались под . Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
+	// QuestDescription: Где-то в глубинах мерзлотной тундры находится дварфская наковальня, наполовину зарытая в толще льда и времени. Выкованная в пору, когда дварфские кузни всё ещё разгорались под горными шахтами . Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
 	// QuestStage: Собрать дварфскую наковальню
 	// QuestProgress0: Спасибо за наковальню!
 	// QuestProgress1: Раньше дварфы постоянно копались в шахтах в поисках вальгалитовой руды. Во время этого они постоянно таскали с собой эти огромные наковальни, которые потом так и оставались стоять там, - тебе не затруднит притащить мне одну такую? А за это я дам тебе немного руды.
 	// QuestProgress2: Её хрен найдёшь, но если у тебя получится это сделать, будь уверен, я достойно тебя отблагодарю!
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать
-	// QuestCompleted: Поверить не могу, что снова вижу её... Мой отец ковал на ней, когда ещё был жив... ай, неважно, вот твоя награда.
+	// QuestCompleted: Поверить не могу, что снова вижу её... Мой отец ковал на ней, когда ещё был жив... Ай, неважно, вот твоя награда.
 	// QuestCompletedFalse: У тебя пока что нет наковальни.
 }
 
@@ -26,10 +26,10 @@ Hunter: {
 
 Artist: {
 	// QuestName: Красный хитин
-	// QuestDescription: Лаковый жук – носитель хитина, обитает где-то в глубинах пещер, спокойно перемещаясь по ним и привлекая довольно много внимания различных хищников своим дивным хитином. Большинство людей бы просто проигнорировали его, из-за ненадобности, но так как заказчик – настоящий художник, ему этот хитин крайне необходим для оживления своих картин его насыщенным красным цветом.
+	// QuestDescription: Лаковый жук — носитель хитина, обитает где-то в глубинах пещер, спокойно перемещаясь по ним и привлекая довольно много внимания различных хищников своим дивным хитином. Большинство людей бы просто проигнорировали его, из-за ненадобности, но так как заказчик – настоящий художник, ему этот хитин крайне необходим для оживления своих картин его насыщенным красным цветом.
 	// QuestStage: Собрать красный хитин
 	// QuestProgress0: Спасибо тебе за красный хитин!
-	// QuestProgress1: Когда-нибудь слышал о цвете, что Have you ever seen the color that bleeds between dusk and fire? They call it Red Husk. I need it - no, I ache for it. Bring me that hue from the deep caves.
+	// QuestProgress1: Когда-нибудь видел цвет, что переливается между сумерками и огнем? Они зовут его — красный хитин. Ты должен мне его принести, нет... Обязан его принести! Принеси мне его из глубин пещер.
 	// QuestProgress2: Моё полотно всё ещё ждёт его... хитин. Его невероятный цвет витает у меня во снах уже который день подряд. Ты нашёл его? Красный хитин? Так чего ж ты тогда всё ещё здесь?
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать красный хитин
@@ -134,12 +134,12 @@ ArtistQuest_Frist: {
 NinjaQuest_Frist: {
 	// QuestName: Удачный ниндзя
 	// QuestDescription: Ninja said that he's the most unlucky person in the whole world. Does he really think that one luchy potion helps him? Comic
-	// QuestStage: Collect Luck Potion
+	// QuestStage: Собрать зелье удачи
 	// QuestProgress0: Thanks for the Luck Potion!
 	// QuestProgress1: Want to try lucky potion for the first time. Maybe at least now I won't get hit by a slime.
 	// QuestProgress2: Still empty-handed? Hmph. You're very slow for a ninja.
 	// QuestButton: Принять
-	// QuestButtonGive: Give Potion
+	// QuestButtonGive: Отдать зелье
 	// QuestCompleted: Great work, thanks. I will try it. Take these clevers. You can use them for something
 	// QuestCompletedFalse: You don't have it yet
 }
@@ -178,7 +178,7 @@ HellDwarfQuest_First: {
 	// QuestProgress1: The bridge collapsed when escape stopped being necessary, and back then, there was no trace of lava below it. There is a locked chest at the bottom, left by those who thought they could hide their past. I need items from there
 	// QuestProgress2: You can't get it? Yeah, i know it’s hard, the ruins don't like to give up the things they have buried.
 	// QuestButton: Принять
-	// QuestButtonGive: Give Pandemonium
+	// QuestButtonGive: Отдать Пандемониум
 	// QuestCompleted: Impossible. I can't believe. I can't say I feel relief, but the silence here feels a bit lighter.
 	// QuestCompletedFalse: You don't have the Pandemonium. The lock remains unbroken yet
 }
@@ -198,28 +198,28 @@ DwarfQuest_Second: {
 
 ArtistQuest_Second: {
 	// QuestName: Королевские чернила
-	// QuestDescription: Give Royal Ink for Librarian
-	// QuestStage: Collect Royal Ink
+	// QuestDescription: Отдать королевские чернила художнику.
+	// QuestStage: Собрать королевские чернила.
 	// QuestProgress0: Thanks for the Royal Ink!
 	// QuestProgress1: Beneath the silent, sapphire waves, the Giant Squid drifts slow and deep. Its ink — a dream the ocean saves, a midnight bloom the stars still keep
 	// QuestProgress2: Bring me royal ink as soon as possible
 	// QuestButton: Принять
 	// QuestButtonGive: Give the ink
-	// QuestCompleted: OH MY GOD! You killed this peaceful creature for ink?... You are cruel. Take your reward and get out of my sight
+	// QuestCompleted: О БОЖЕ! ТЫ, ты убил это беззащитное животное ради этих чернил?.. Ты жесток! Забирай свою награду и вали отсюда!
 	// QuestCompletedFalse: You don't have an Royal Ink
 }
 
 LibrarianQuest_Second: {
 	// QuestName: «Бездонное зло»
-	// QuestDescription: Отдать книгу «Бездонное зло» библиотекарю
-	// QuestStage: Collect Bottomless Evil
+	// QuestDescription: Отдать библиотекарю книгу «Бездонное зло».
+	// QuestStage: Собрать книгу «Бездонное зло».
 	// QuestProgress0: Thanks for the Bottomless Evil!
 	// QuestProgress1: Next task, my son. Create a book hidden behind the souls of huge mechanical monsters
 	// QuestProgress2: Why are you staring at me? Destroy this evil creatures
 	// QuestButton: Принять
-	// QuestButtonGive: Give the bottomless
+	// QuestButtonGive: Отдать «Бездонное зло»
 	// QuestCompleted: Perfect. Down to the last minute detail. You deserve a reward
-	// QuestCompletedFalse: You don't have an Bottomless Evil
+	// QuestCompletedFalse: У тебя всё ещё нет «Бездонного зла», возвращайся, когда найдёшь его!
 }
 
 HellDwarfQuest_Second: {
@@ -250,28 +250,28 @@ ArtistQuest_Three: {
 
 LibrarianQuest_Three: {
 	// QuestName: Монстр, которым он стал
-	// QuestDescription: Отдать библиотекарю книгу «Временной континуум» — древнюю реликвию, ломающую все законы физики.
+	// QuestDescription: Отдать библиотекарю книгу «Временной континуум» — древнюю реликвию, ломающую все мыслимые и немыслимые законы.
 	// QuestStage: Собрать «Временной континуум»
-	// QuestProgress0: Благодарю за «Временной континуум»!
-	// QuestProgress1: The final challenge. Craft the everlasting book which help me to take over time. Let’s start
+	// QuestProgress0: Благодарю за континуум!
+	// QuestProgress1: Последнее испытание! Найди мне книжку, способную помочь мне завладеть самим временем!
 	// QuestProgress2: И чего ты так вытаращился? Давай же — поработим мир, вместе!
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать книгу
-	// QuestCompleted: The beginning of the end. You was the best person which i work with
+	// QuestCompleted: Это начало конца. Ты был лучшим из тех, с кем мне доводилось работать.
 	// QuestCompletedFalse: У тебя ещё нет «Временного континуума», возвращайся, когда получишь его!
 }
 
 HellDwarfQuest_Three: {
 	// QuestName: Чешуя полубога
-	// QuestDescription: Give the Hellworm Scale to the dwarf. The Wyrm is the most hateful being in the most hateful place.
-	// QuestStage: Собрать чешую черверлорда
-	// QuestProgress0: Спасибо за чешую черверлорда!
-	// QuestProgress1: A monstrous serpent made of lava and sinstone has been sighted near the old caves. Destroy it just like it once destroyed this place.
-	// QuestProgress2: Я верю в тебя, малой. Оно выжидает в пещере поблизости. Дай знать, когда одолеешь это чудище.
+	// QuestDescription: Принесите дварфу чешую Червелорда — самого злобного змея из самых злобных краёв.
+	// QuestStage: Собрать чешую Червелорда
+	// QuestProgress0: Спасибо за чешую Червелорда!
+	// QuestProgress1: Исполинских размеров змей, созданный из лавы грехокамня, был замечен где-то рядом со старыми пещерами. Уничтожь его также, как тот когда-то уничтожил это место.
+	// QuestProgress2: Я верю в тебя, малец. Оно выжидает в пещере поблизости. Дай знать, когда одолеешь это чудище.
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать останки
-	// QuestCompleted: Наконец-то... Я могу жить спокойно, спасибо тебе за всё, путник. I was scared that the same fate awaited me.
-	// QuestCompletedFalse: У тебя нет чешуи червелорда
+	// QuestCompleted: Наконец-то... Я могу жить спокойно, спасибо тебе за всё, путник. Я боялся, что и меня ждёт такая участь.
+	// QuestCompletedFalse: У тебя нет чешуи Червелорда.
 }
 
 ImperianConsul: {
