@@ -1,6 +1,7 @@
 v{ModVersion}
 Переводы:
-- Добавлены переводы Ragnarok Mod (WIP) и Spirit Classic Bard, Thrower & Healer (WIP)
-- По-стандарту внесены правки в кучу переводов
+- Добавлены переводы модов Ragnarok Mod (WIP) и Spirit Classic Bard, Thrower & Healer (WIP)
+- По стандарту внесены правки в кучу переводов
 Другие изменения:
-- нет
+- Исправлено неправильное отображение историй при игре с JART
+- Исправлена невозможность запуска мода без Project tRU

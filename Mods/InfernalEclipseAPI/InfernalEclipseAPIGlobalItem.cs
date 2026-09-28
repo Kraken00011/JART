@@ -12,12 +12,6 @@ public partial class InfernalEclipseAPIGlobalItem : GlobalItem
     {
         foreach (TooltipLine tooltip in tooltips)
         {
-            if (tooltip.Name == "CalamityMod:HoldShiftTooltip" && (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/SoltanBullyingSlip").Type || item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/MysteriousDiary").Type))
-                tooltip.Text = "";
-
-            if (tooltip.Name == "CalamityMod:HoldShiftExtensionIndicator" && (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/SoltanBullyingSlip").Type || item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/MysteriousDiary").Type))
-                tooltip.Text = "";
-
             if (ModLoader.HasMod("ThoriumMod"))
             {
                 if (item.type == ModContent.Find<ModItem>("ThoriumMod/LifeQuartzClaymore").Type)

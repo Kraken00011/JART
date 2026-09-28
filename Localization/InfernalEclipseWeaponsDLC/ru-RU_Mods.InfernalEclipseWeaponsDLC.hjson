@@ -2,7 +2,7 @@ UI.Cooldowns.ImagiknightHeraldryBuff: Мощь Imagiknight
 
 Items: {
 	TwoPaths: {
-		DisplayName: Две тропы
+		DisplayName: Два пути
 		Tooltip:
 			'''
 			Даёт 4 эссенции души при прямом попадании
@@ -39,7 +39,7 @@ Items: {
 	}
 
 	BirbSaxophone: {
-		DisplayName: Бёрбксофон
+		DisplayName: Зов Бёрба
 		Tooltip: "'Взовите к силе Бамблбёрба!'"
 	}
 
@@ -48,7 +48,7 @@ Items: {
 		Tooltip:
 			'''
 			'Лишь оболочка своей былой мощи, части которой были разбросаны по всему свету'
-			[c/010057:На миг вам кажется, что в кислотных пузырях вокруг виднеется проблеск надежды]
+			[c/010057:На миг вам кажется, что в кислотных пузырях вокруг проглядывается проблеск надежды]
 			'''
 	}
 
@@ -175,7 +175,7 @@ Items: {
 		Tooltip:
 			'''
 			Призывает акулонадо, швыряющее во врагов морские обломки
-			Одновременно может существовать только 1 акулонадо
+			Только 1 акулонадо может существовать одновременно
 			Нажмите ПКМ, чтобы атаковать тайфуном, тратя 2 очка вдохновения
 			'''
 	}
@@ -192,9 +192,9 @@ Items: {
 			Нажмите ЛКМ, чтобы взмахнуть мечом, восстанавливающим 5 ед. здоровья при попадании
 			Нажмите ПКМ, чтобы бросить меч, вонзающийся во врага при попадании
 			Когда меч вонзается, он начинает источать светлую и тёмную энергию
-			Светлая энергия самонаводится на ближайших союзников и исцеляет здоровье на величину, равную вашему бонусному исцелению
+			Светлая энергия самонаводится на ближайших союзников и исцеляет их здоровье на величину, равную вашему бонусному исцелению
 			Тёмная энергия самонаводится на ближайших врагов, нанося им урон
-			Одновременно можно бросить только 1 меч
+			Только 1 меч можно бросить одновременно
 			'''
 	}
 
@@ -202,8 +202,8 @@ Items: {
 		DisplayName: Кроводел мясника
 		Tooltip:
 			'''
-			Выпускает каскад из пуль одновременно с кровавой стрелой, которая имеет лёгкую самонаводку
-			Нажмите ПКМ, чтобы использовать 50 ед. здоровья и впасть в «кровавую ярость» на 10 секунд
+			Выпускает шквал из пуль одновременно с кровавой стрелой, которая имеет лёгкую самонаводку
+			Нажмите ПКМ, чтобы потратить 50 ед. здоровья и впасть в «кровавую ярость» на 10 секунд
 			«Кровавая ярость» увеличивает урон кроводела на 25%, а также даёт стрелам возможность накладывать дебафф [cbuff:CalamityMod/BurningBlood]
 			'''
 	}
@@ -215,7 +215,7 @@ Items: {
 
 	ListoftheDamned: {
 		DisplayName: Список проклятых
-		Tooltip: Выпускает каскад из 6 духов, со временем начинающих стремительно нестись вперёд, нанося удвоенный урон
+		Tooltip: Выпускает шквал из 6 духов, со временем начинающих стремительно нестись вперёд, нанося удвоенный урон
 	}
 
 	AirPodShawty: {
@@ -332,7 +332,7 @@ Items: {
 	}
 
 	MystickStaff: {
-		DisplayName: Посох мистики
+		DisplayName: Посох таинств
 		Tooltip:
 			'''
 			Выпускает сверхмощный сгусток, наполненный энергией всех известных стихий
@@ -344,18 +344,18 @@ Items: {
 			[cbuff:Poisoned], [cbuff:ShadowFlame], [cbuff:CursedInferno],
 			[cbuff:CalamityMod/Crumbling], [cbuff:CalamityMod/CrushDepth], [cbuff:CalamityMod/AstralInfectionDebuff],
 			[cbuff:CalamityMod/Plague], [cbuff:CalamityMod/BrimstoneFlames], [cbuff:Ichor], [cbuff:ThoriumMod/Stunned] и [cbuff:ThoriumMod/Charmed]
-			'Сколько ещё вам надо!?'
+			'Да сколько ещё вам надо!?'
 			'''
 	}
 
 	GloomSwitch: {
-		DisplayName: Мрачный свитч
+		DisplayName: Мрачный пулемёт
 		Tooltip:
 			'''
-			Скорострельный ПП с широким разбросом, стреляющий шаром проклятого инферно, накладывающий дебафф [cbuff:CursedInferno], каждые 20 выстрелов
+			Скорострельный ПП с широким разбросом, каждые 20 выстрелов выпускающий шар проклятого инферно, который накладывает дебафф [cbuff:CursedInferno]
 			Пока у вас есть более 10 ед. маны, каждый выстрел будет расходовать её на эту же величину, давая 0,33 секунды «мрачного порыва» и снижая разброс у следующего выстрела
 			«Мрачный порыв» увеличивает скорость передвижения на 25% во время ношения оружия в руках
-			Урон этого оружия снижается, когда на вас наложен дебафф [cbuff:ManaSickness]
+			Наносит пониженный урон пока на вас наложен дебафф [cbuff:ManaSickness]
 			'''
 	}
 
@@ -378,7 +378,7 @@ Items: {
 		Tooltip:
 			'''
 			Наполняет ваши атаки серной энергией для нанесения ударов ближнего боя с высоким уроном
-			Синергируется с катастрофическим длинным мечом, если тот находится в соседнем слоте справа от неё
+			Имеет синергию с катастрофическим длинным мечом, если тот находится в соседнем слоте справа от неё
 			'Катаклизм!'
 			'''
 	}
@@ -393,7 +393,7 @@ Items: {
 		Tooltip:
 			'''
 			Выстреливает в направлении курсора катастрофическим лучом серной энергии
-			Синергируется с катаклизмической перчаткой, если та находится в соседнем слоте справа от него
+			Имеет синергию с катаклизмической перчаткой, если та находится в соседнем слоте справа от него
 			'''
 	}
 
@@ -428,7 +428,7 @@ Items: {
 			Увеличивает шанс магического и лучезарного критического удара на 8%
 			Увеличивает скорость магических атак, исцеления и произнесения лучезарных заклинаний на 5%
 			Увеличивает сопротивление урону на 15%
-			Исцеляющие заклинания восстанавливают дополнительно 3 ед. здоровья
+			Увеличивает бонусное исцеление на 3 ед. здоровья
 			'''
 	}
 
@@ -480,7 +480,7 @@ Items: {
 			Увеличивает урон призывателя и симфонический урон на 20%
 			Увеличивает регенерацию здоровья на 2,5 ед./сек
 			Увеличивает шанс выпадения нот вдохновения на 10%
-			Симфонические усиления длятся на 3 секунды дольше
+			Увеличивает продолжительность симфонических усилений на 3 секунды
 			'''
 	}
 
@@ -496,9 +496,9 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Призывает 3 фантомных ноты, вращающихся вокруг вас
-			Эти ноты могут либо наносить урон призывателя, накладывая дебафф [cbuff:ThoriumMod/Tuned], либо отражать входящие снаряды
-			Этот эффект имеет 5 секунд перезарядки
+			Призывает 3 фантомных ноты, которые будут вращаться вокруг вас
+			Эти ноты могут либо наносить урон призывателя, накладывая дебафф [cbuff:ThoriumMod/Tuned], либо отражать летящие в вас снаряды
+			Эффект выше имеет 5 секунд перезарядки
 			'''
 		SetBonusExtra: Использование любого оружия, кроме симфонического, также будет сохранять наложенные усиления
 	}
@@ -515,9 +515,8 @@ Items: {
 		SetBonus:
 			'''
 			Увеличивает максимальный запас скрытности на 115 ед.
-			Прекращение передвижения вводит вас в невидимость,
-			улучшающую стрелковые навыки и заставляющую врагов реже выбирать вас в качестве цели
-			Даёт примитивный полёт, если на вас не надеты никакие крылья
+			Прекращение передвижения вводит вас в невидимость, улучшающую стрелковые навыки и заставляющую врагов реже выбирать вас в качестве цели
+			Даёт примитивный полёт, если на вас нет крыльев
 			'''
 	}
 
@@ -565,7 +564,7 @@ Items: {
 			Щёлкните по врагу, чтобы связать его цепями с игроком
 			Каждую секунду эти цепи наносят урон
 			Цепь может разрушиться, если вы отойдёте слишком далеко от врага, с которым связана эта цепь
-			Одновременно можно связать только 3 врагов
+			Только 3 врагов можно связать одновременно
 			'''
 	}
 
@@ -578,7 +577,7 @@ Items: {
 		DisplayName: Обсидиановый серп
 		Tooltip:
 			'''
-			Стреляет тёмным серпом
+			Стреляет теневым серпом
 			'Не искусственный интеллект, а простой придурок'
 			'''
 	}
@@ -587,8 +586,8 @@ Items: {
 		DisplayName: Звёздный скипетр
 		Tooltip:
 			'''
-			Призывает до 5 вращающихся вокруг игрока звёзд
-			Каждая призванная звезда постоянно атакует ближайшего игрока
+			Призывает до 5 звёзд, которые будут вращаться вокруг игрока
+			Каждая призванная звезда будет постоянно атаковать ближайшего врага
 			Боссы находятся в большем приоритете
 			'''
 	}
@@ -730,9 +729,9 @@ Items: {
 			'''
 			Вместо раскручивания коса взмахивает по диагонали
 			Имеет комбо из 3 взмахов:
-			    При каждом 1 взмахе коса стреляет 1 самонаводящимся огненным шаром и 2 лучами космической энергии
-			    При каждом 2 взмахе коса стреляет 1 лучом космической энергии и 2 самонаводящимися огненными шарами
-			    При каждом 3 взмахе коса прокручивается вокруг игрока
+			    Каждый 1 взмах коса стреляет 1 самонаводящимся огненным шаром и 2 лучами космической энергии
+			    Каждый 2 взмах коса стреляет 1 лучом космической энергии и 2 самонаводящимися огненными шарами
+			    Каждый 3 взмах коса раскручивается вокруг игрока
 			Во время раскручивания коса выпускает до 6 самонаводящихся огненных шаров и лучей космической энергии
 			Коса и огненные шары игнорируют 125 ед. защиты и накладывают дебафф [cbuff:CalamityMod/Dragonfire]
 			Лучи космической энергии игнорируют 75 ед. защиты и накладывают дебаффы [cbuff:CalamityMod/ElementalMix] и «Астральная зараза»
@@ -797,7 +796,7 @@ Items: {
 			Эти множители не суммируются с множителями [i:CalamityMod/WarbanneroftheRighteous] Боевого знамя праведных; если оба предмета надеты, будет использоваться наибольший из имеющихся множителей
 			Эффекты становятся более прозрачными и беззвучными, если отображение аксессуара отключено
 			Увеличивает всем союзникам регенерацию здоровья на {0} ед./сек, максимальный запас здоровья на {1}%, сопротивление урону на {2}%, защиту на {3} ед. и урон на {4}%
-			'Идея - простая частичка, прогрессивно ускоряющаяся соразмерно количеству прошедших сквозь неё умов
+			'Идея — простая частичка, прогрессивно ускоряющаяся соразмерно количеству прошедших сквозь неё умов
 			Если вам удастся собрать достаточное количество умов вместе, они смогут сделать названную идею неостановимой' -Imagiknight_Parad0xical
 			'''
 	}
@@ -922,10 +921,10 @@ ItemTooltip: {
 	TwoSideLore1: Они преодолели Рагнарёк, уничтожили Затмение, пережили муссон слизи,
 	TwoSideLore2: даже стояли на границе вечности, но лишь тогда Рен спросил их: «Какой путь вы изберёте?»
 	NeonRipperLore1: После поражения Голиаф Эрелиан решил переработать часть броневых пластин, что тот носил
-	NeonRipperLore2: Так он создал два оружия: Первым стала коса, способная поглощать ауру, подобно способности Ками
-	PBGBardALore2: Так он создал два оружия: Вторым стала гитара, выпускающая разноцветные микроволны
+	NeonRipperLore2: Так он создал два оружия: первым стала коса, способная поглощать ауру, подобно способности Ками
+	PBGBardALore2: Так он создал два оружия: вторым стала гитара, выпускающая разноцветные микроволны
 	SearingSpearTip: 150% базового урона
-	ArcticSpearTip: 115% базового урона
+	ArcticSpearTip: 100% базового урона
 	DoubleFlailLore:
 		'''
 		Каламитас и Пермафросту всегда удавалось хорошо работать в тандеме, как ученик с учителем, когда она ещё была юна
@@ -963,7 +962,7 @@ ItemTooltip: {
 		'''
 	EngineTheBigOneMode: БОЛЬШОЙ МАЛЫЙ
 	Playtester: - Предмет тестировщика -
-	Contributor: - Предмет участника -
+	Contributor: - Предмет контрибьютора -
 	Donor: - Предмет покровителя -
 	DedTo: - Посвящается {0} -
 
@@ -997,96 +996,96 @@ ItemTooltip: {
 }
 
 Projectiles: {
-	TwoPathsPro.DisplayName: "{$Items.TwoPaths.DisplayName}"
-	BlackExplosion.DisplayName: Чёрный взрыв
+	TwoPathsPro.DisplayName: Two Paths
+	BlackExplosion.DisplayName: Black Explosion
 
 	Magic: {
-		WhiteScythe.DisplayName: Белая коса
-		HealingLightningArc.DisplayName: Целебная дуга молнии
+		WhiteScythe.DisplayName: White Scythe
+		HealingLightningArc.DisplayName: Lightning Arc
 		DamagingLightningArc.DisplayName: Lightning Arc
 	}
 
-	TwoPathsPro2.DisplayName: "{$Items.TwoPaths.DisplayName}"
-	TheParallellPro.DisplayName: "{$Items.TheParallel.DisplayName}"
-	BellBalladEleum.DisplayName: Баллада о колокольчиках: Элеум
-	BellBalladHavoc.DisplayName: Баллада о колокольчиках: Хаос
-	BellBalladSunlight.DisplayName: Баллада о колокольчиках: Солнечный Свет
-	BellBalladSunlightLaser.DisplayName: Луч баллады о колокольчиках
-	BellBalladEleumBolt.DisplayName: Ледяной Снаряд баллады о колокольчиках
-	BellBalladHavocSlash.DisplayName: Адский Удар баллады о колокольчиках
-	SulfurSpirit.DisplayName: Сернистый Дух
-	DeepSeaDrawlPro.DisplayName: "{$Items.DeepSeaDrawl.DisplayName}"
-	HomingPlankton.DisplayName: Самонаводящийся Планктон
-	DeathsWhisperPro.DisplayName: "{$Items.DeathsWhisper.DisplayName}"
-	BrimstoneHarpPro.DisplayName: "{$Items.BrimstoneHarp.DisplayName}"
-	BirbSaxophonePro.DisplayName: Красное молниеносное перо
-	NecroticChorusPro.DisplayName: "{$Items.NecroticChoru.DisplayName}"
-	NecroticChorusWisp.DisplayName: Огонёк Некротического Хора
-	DeusFlutePro.DisplayName: "{$Items.DeusFlute.DisplayName}"
-	DeusFluteStar.DisplayName: Звезда Флейты звёздного ветра
-	CorrodedCanePro.DisplayName: Проржавевший Посох Про
-	CorrodedCaneShark.DisplayName: Серный Шаркрон
-	OcramKnifeProSickle.DisplayName: Серп Кинжала Окрама Про
-	OcramKnifeProBolt.DisplayName: Снаряд Кинжала Окрама Про
-	OcramKnifePro.DisplayName: "{$Items.OcramKnife.DisplayName}"
-	TheBlightProSickle.DisplayName: Серп Чумы Про
-	TheBlightProServantLaser.DisplayName: Луч Слуги Чумы Про
-	TheBlightProServant.DisplayName: Слуга Чумы Про
-	TheBlightProScythe.DisplayName: Коса Чумы Про
-	GrandThunderWhipProjectile.DisplayName: "{$Items.GrandThunderWhip.DisplayName}"
-	SulfurExplosionPro.DisplayName: Сернистый Взрыв
-	HydrogenSulfideProj.DisplayName: Сероводородный Снаряд
-	LegacyProBolt.DisplayName: Наследие Про: Снаряд
-	LegacyProSickle.DisplayName: Наследие Про: Серп
-	MiniScourge.DisplayName: Мини-Бич
-	DrawlEel.DisplayName: Угорь Бурчания
-	DrawlIsopod.DisplayName: Изопод Бурчания
-	DrawlStarfish.DisplayName: Морская Звезда Бурчания
-	DrawlStarfishShard.DisplayName: Осколок Морской Звезды Бурчания
-	OurSharknado.DisplayName: Наше Акулонадо
-	DarkEnergyProj.DisplayName: Снаряд Тёмной Энергии
-	ExecutionersSwordPro.DisplayName: Меч Палача снаряд
-	LightEnergyProj.DisplayName: Снаряд Светлой Энергии
-	LightSlashPro.DisplayName: Световой Удар снаряд
-	CryonicSpearTip.DisplayName: Крионический Наконечник
-	SuperShotgunStab.DisplayName: Удар Куроклинка
-	ExecutionersSwordSlashPro.DisplayName: Взмах Меча Палача снаряд
-	ExecutionersSwordLightEnergy.DisplayName: Светлая Энергия Меча Палача
-	ExecutionersSwordDarkEnergy.DisplayName: Тёмная Энергия Меча Палача
-	BloodShotFriendly.DisplayName: Кровавый Выстрел (дружественный)
-	NukePro.DisplayName: Ядерный снаряд
-	NukeMissile.DisplayName: Ядерная Ракета
-	ListoftheDamnedSoul_Orange.DisplayName: Душа из Списка Проклятых (оранжевая)
-	ListoftheDamnedSoul_Cyan.DisplayName: Душа из Списка Проклятых (сине-зелёная)
-	AirPod.DisplayName: Эйрпод
-	AirPodNote.DisplayName: Нота Эйрпода
-	BouncingHungry.DisplayName: Прыгучий прожора
-	HealingSoul.DisplayName: Исцеляющая Душа
-	DamagingSoul.DisplayName: Разрушительная Душа
-	ForeverHungryBlood.DisplayName: Кровь Вечно Голодного
-	AcidBelcherPro.DisplayName: Кислотный Изрыгатель Про
-	SandSlasherSandnado.DisplayName: Песчаный Смерч Песчаного Резака
-	SandSlasher_Projectile.DisplayName: Снаряд Песчаного Резака
-	DeepseaTrident_Projectile.DisplayName: Снаряд Глубоководного Трезубца
-	Nanodroid.DisplayName: Нанодроид
-	NeonRipperPro.DisplayName: Неоновый Разрушитель Про
-	InfrariffProjectile.DisplayName: Снаряд Инфрариффа
-	InfrariffLaser.DisplayName: Луч Инфрариффа
-	ColoredExplosion.DisplayName: Цветной Взрыв
-	Misc.BardPulseRiffleShot.DisplayName: Выстрел Импульсной Винтовки Барда
-	Staff_Projectile.DisplayName: Снаряд Посоха_
-	ArckaneStaffPro.DisplayName: Посох аркейна
-	MystickStaffPro.DisplayName: Мистический
-	HealerBrimstoneBarrage.DisplayName: Шквал Адского Пламени Целителя
-	SupremeCataclysmFist.DisplayName: Кулак Высшего Катаклизма
-	SupremeCatastropheSlash.DisplayName: Удар Высшего Катастрофа
-	SharknadoBolt.DisplayName: Снаряд Акулонадо
-	BarrenGardenHealingPro.DisplayName: Исцеляющий Снаряд Бесплодного Сада
-	BarrenGardenLotus.DisplayName: Лотос Бесплодного Сада
-	BarrenGardenPro.DisplayName: Бесплодный Сад
-	BarrenGardenProHoming.DisplayName: Самонаводящийся Снаряд Бесплодного Сада
-	MothwingDaggerPro.DisplayName: Кинжал Мотылькового Крыла Про
-	IlluminantBolt.DisplayName: Светящийся Снаряд
+	TwoPathsPro2.DisplayName: Two Paths
+	TheParallellPro.DisplayName: The Parallell
+	BellBalladEleum.DisplayName: Eleum Bell
+	BellBalladHavoc.DisplayName: Havoc Bell
+	BellBalladSunlight.DisplayName: Sunlight Bell
+	BellBalladSunlightLaser.DisplayName: Ballad Laser
+	BellBalladEleumBolt.DisplayName: Ballad Frost Bolt
+	BellBalladHavocSlash.DisplayName: Ballad Brimstone Slash
+	SulfurSpirit.DisplayName: Sulfur Spirit
+	DeepSeaDrawlPro.DisplayName: Deep Sea Drawl
+	HomingPlankton.DisplayName: Homing Plankton
+	DeathsWhisperPro.DisplayName: Death's Whisper
+	BrimstoneHarpPro.DisplayName: Brimstone Harp Skull
+	BirbSaxophonePro.DisplayName: Red Lightning Feather
+	NecroticChorusPro.DisplayName: Necrotic Chorus
+	NecroticChorusWisp.DisplayName: Chorus Wisp
+	DeusFlutePro.DisplayName: Deus Flute
+	DeusFluteStar.DisplayName: Deus Flute Star
+	CorrodedCanePro.DisplayName: Corroded Cane
+	CorrodedCaneShark.DisplayName: Sulphurous Sharkron
+	OcramKnifeProSickle.DisplayName: Ocram Knife Sickle
+	OcramKnifeProBolt.DisplayName: Ocram Knife Bolt
+	OcramKnifePro.DisplayName: Ocram Knife
+	TheBlightProSickle.DisplayName: Blight Sickle
+	TheBlightProServantLaser.DisplayName: Blight Servant Laser
+	TheBlightProServant.DisplayName: Blight Servant
+	TheBlightProScythe.DisplayName: The Blight
+	GrandThunderWhipProjectile.DisplayName: Grand Thunder Whip
+	SulfurExplosionPro.DisplayName: Sulfur Explosion
+	HydrogenSulfideProj.DisplayName: Hydrogen Sulfide
+	LegacyProBolt.DisplayName: Legacy Bolt
+	LegacyProSickle.DisplayName: Legacy Sickle
+	MiniScourge.DisplayName: Mini Scourge
+	DrawlEel.DisplayName: Eel
+	DrawlIsopod.DisplayName: Isopod
+	DrawlStarfish.DisplayName: Starfish
+	DrawlStarfishShard.DisplayName: Starfish Shard
+	OurSharknado.DisplayName: Sharknado
+	DarkEnergyProj.DisplayName: Dark Energy
+	ExecutionersSwordPro.DisplayName: Executioners Sword
+	LightEnergyProj.DisplayName: Light Energy
+	LightSlashPro.DisplayName: Light Slash
+	CryonicSpearTip.DisplayName: Cryonic Spear Tip
+	SuperShotgunStab.DisplayName: Super Shotgun Stab
+	ExecutionersSwordSlashPro.DisplayName: Executioners Sword
+	ExecutionersSwordLightEnergy.DisplayName: Light Energy
+	ExecutionersSwordDarkEnergy.DisplayName: Dark Energy
+	BloodShotFriendly.DisplayName: Blood Shot
+	NukePro.DisplayName: Nuke
+	NukeMissile.DisplayName: Nuke Missile
+	ListoftheDamnedSoul_Orange.DisplayName: Damned Soul
+	ListoftheDamnedSoul_Cyan.DisplayName: Damned Soul
+	AirPod.DisplayName: AirPod
+	AirPodNote.DisplayName: AirPod Note
+	BouncingHungry.DisplayName: Bouncing Hungry
+	HealingSoul.DisplayName: Healing Soul
+	DamagingSoul.DisplayName: Damaging Soul
+	ForeverHungryBlood.DisplayName: Blood
+	AcidBelcherPro.DisplayName: Acid Belcher
+	SandSlasherSandnado.DisplayName: Sandnado
+	SandSlasher_Projectile.DisplayName: Sand Slasher
+	DeepseaTrident_Projectile.DisplayName: Deepsea Trident
+	Nanodroid.DisplayName: Nanodroid
+	NeonRipperPro.DisplayName: Neon Ripper
+	InfrariffProjectile.DisplayName: Infrariff
+	InfrariffLaser.DisplayName: Infrariff Laser
+	ColoredExplosion.DisplayName: Explosion
+	Misc.BardPulseRiffleShot.DisplayName: Pulse Riffle Shot
+	Staff_Projectile.DisplayName: Staff_ Projectile
+	ArckaneStaffPro.DisplayName: Arckane Bolt
+	MystickStaffPro.DisplayName: Mystick Energy
+	HealerBrimstoneBarrage.DisplayName: Brimstone Barrage
+	SupremeCataclysmFist.DisplayName: Supreme Cataclysm Fist
+	SupremeCatastropheSlash.DisplayName: Supreme Catastrophe Slash
+	SharknadoBolt.DisplayName: Sharknado
+	BarrenGardenHealingPro.DisplayName: Barren Garden
+	BarrenGardenLotus.DisplayName: Garden Lotus
+	BarrenGardenPro.DisplayName: Barren Garden
+	BarrenGardenProHoming.DisplayName: Barren Garden
+	MothwingDaggerPro.DisplayName: Mothwing Dagger
+	IlluminantBolt.DisplayName: Illuminant Bolt
 	FroststeelPulse.DisplayName: Froststeel Pulse
 	LightChainProjectile.DisplayName: Light Chain
 	StarScepterBolt.DisplayName: Scepter Bolt
@@ -1118,37 +1117,41 @@ Projectiles: {
 	MiniaturizedRequiemEngineTheBigOnePro3.DisplayName: The Big One
 	NecrosingerNote.DisplayName: Necrosinger Note
 	MagicPurpleBouncyBall.DisplayName: Magic Purple Bouncy Ball
-	EclipseEclipse.DisplayName: Затмение
-	CatastrophicLongbladeHoldout.DisplayName: Катастрофический длинный меч
-	CatastrophicLongbladeHoldoutVoid.DisplayName: Катастрофический длинный меч
-	VoidBolt.DisplayName: Пустотный заряд
-	EclipsePulseDark.DisplayName: Тёмная волна
-	EclipsePulseLight.DisplayName: Святая волна
+	EclipseEclipse.DisplayName: Eclipse
+	CatastrophicLongbladeHoldout.DisplayName: Catastrophic Longblade
+	CatastrophicLongbladeHoldoutVoid.DisplayName: Catastrophic Longblade
+	VoidBolt.DisplayName: Void Bolt
+	EclipsePulseDark.DisplayName: Dark Pulse
+	EclipsePulseLight.DisplayName: Holy Pulse
 	BardPulseRiffleBoom.DisplayName: Pulse Riffle Boom
-	BrimstonePetalPro.DisplayName: Серный лепесток
-	SwordofaThousandTruthsSlashPro.DisplayName: Меч тысячи правд
-	SwordofaThousandTruthsHoldPro.DisplayName: Меч тысячи правд
-	SwordofaThousandTruthsPro.DisplayName: Меч тысячи правд
-	AbsoluteTVRemotePausePro.DisplayName: Пауза
+	BrimstonePetalPro.DisplayName: Brimstone Petal
+	SwordofaThousandTruthsSlashPro.DisplayName: Sword of a Thousand Truths
+	SwordofaThousandTruthsHoldPro.DisplayName: Sword of a Thousand Truths
+	SwordofaThousandTruthsPro.DisplayName: Sword of a Thousand Truths
+	AbsoluteTVRemotePausePro.DisplayName: Pause
 	PlanetShaperFireball.DisplayName: Planet Shaper Fireball
 	PlanetShaperPro.DisplayName: Planet Shaper
 	PlanetShaperStar.DisplayName: Planet Shaper Star
-	MetalPipe.DisplayName: Ауритовая труба
-	AbsoluteTVRemoteFastForwardPro.DisplayName: Аура быстрой перемотки
-	AbsoluteTVRemoteRewindPro.DisplayName: Аура отмотки
+	MetalPipe.DisplayName: Auric Pipe
+	AbsoluteTVRemoteFastForwardPro.DisplayName: Fast Forward Aura
+	AbsoluteTVRemoteRewindPro.DisplayName: Rewind Aura
 	CosmicPunch.DisplayName: Cosmic Gauntlet
-	Melee.GauntletofAnnihilationPunches.DisplayName: Космический улар
-	DivineAxeHoldout.DisplayName: Божественная секира
-	DivineExplosion.DisplayName: Божественный взрыв
-	DivineSunAura.DisplayName: Божественная аура
+	Melee.GauntletofAnnihilationPunches.DisplayName: Cosmic Punches
+	DivineAxeHoldout.DisplayName: Divine Axe
+	DivineExplosion.DisplayName: Divine Explosion
+	DivineSunAura.DisplayName: Divine Aura
 	DivineAxeSunAura.DisplayName: Divine Axe Sun Aura
 	ColdFlailCorePro.DisplayName: Cold Flail Core
 	HotFlailCorePro.DisplayName: Hot Flail Core
 	PerfectFlailCorePro.DisplayName: Perfect Flail Core
 	BlackHoleFlailCorePro.DisplayName: Black Hole Flail Core
-	HolyFlailCorePro.DisplayName: Святое цеп-ядро
-	HolyFlailFire.DisplayName: Святое пламя
-	TerraOrb.DisplayName: Терра-сфера
+	HolyFlailCorePro.DisplayName: Holy Flail Core
+	HolyFlailFire.DisplayName: Holy Fire
+	TerraOrb.DisplayName: Terra Orb
+	ArckaneStaffHoldout.DisplayName: Arckane Staff
+	ArckaneGemPro.DisplayName: Arckane Gem
+	ArckaneScythe1Pro.DisplayName: Arckane Scythe
+	ArckaneScythe2Pro.DisplayName: Arckane Scythe
 }
 
 Buffs: {
@@ -1191,7 +1194,7 @@ Buffs: {
 
 	PerfectFlailBuff: {
 		DisplayName: Фиолетовое совершенство
-		Description: Вы - совершенны.
+		Description: Вы — совершенны.
 		ItemTooltip: Увеличивает урон, сопротивление урону и скорость передвижения на 15%
 	}
 

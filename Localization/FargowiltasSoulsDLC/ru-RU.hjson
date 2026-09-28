@@ -2,7 +2,7 @@ Mods: {
 	FargowiltasSoulsDLC: {
 		Items: {
 			NekomiEnchantment: {
-				DisplayName: Усиление Некоми
+				DisplayName: Некоми-усиление
 				Tooltip: ""
 			}
 

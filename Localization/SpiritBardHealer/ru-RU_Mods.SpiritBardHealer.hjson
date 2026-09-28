@@ -53,7 +53,7 @@ Items: {
 	}
 
 	Apostaracas: {
-		DisplayName: Апостаракас
+		DisplayName: Пилигримокас
 		Tooltip:
 			'''
 			Play a maraca that attracts the attention of apostles
@@ -62,23 +62,23 @@ Items: {
 	}
 
 	AvianBeak: {
-		DisplayName: Ветровой клюв
+		DisplayName: Клюв ветров
 		Tooltip:
 			'''
-			Вместо вращения совершает взмахи косой
+			Вместо вращения совершает взмахи по диагонали
 			Creates turbulent wind in the direction it is swung
 			'Shwaaahaaahaaahaa'
 			'''
 	}
 
 	BolatilusShells: {
-		DisplayName: Bolatilus Shells
+		DisplayName: Раковины болатилуса
 		Tooltip:
 			'''
 			Hold <left> to spin a bolas made of volatile nautilus shells
 			Release <left> to throw the bolas, travelling further and dealing increased damage based on spin time
 			Explodes on impact when fully wound up
-			"She sells sea shells in the sea shore, only for you to make bolases of volatile nautilus shells"
+			'Раковины это от наутилуса, умывальника или из чьего-то уха — из всех можно сделать босалы'
 			'''
 	}
 
@@ -93,12 +93,12 @@ Items: {
 	}
 
 	CryoliteFridgerator: {
-		DisplayName: Криолитовый замораживатель
+		DisplayName: Криолитовый морозильщик
 		Tooltip:
 			'''
 			Shoots a cooling beam that heals allies
 			Does not trigger on-heal effects
-			'Ever felt the heat and got the thoughts of sleeping in your fridge?'
+			'Вы когда-нибудь чувствовали такую жару, что хотели спрятаться в морозилке?'
 			'''
 	}
 
@@ -113,7 +113,7 @@ Items: {
 	}
 
 	DawnPhantom: {
-		DisplayName: Проклятый призрак
+		DisplayName: Рассветный фантом
 		Tooltip:
 			'''
 			This scythe is swung directionally instead of spun

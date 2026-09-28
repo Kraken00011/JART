@@ -1,0 +1,1111 @@
+Buffs: {
+	AntyMinion: {
+		// DisplayName: Крылатый муравейка
+		// Description: Муравейка будет сражаться за вас
+	}
+
+	AntyPet: {
+		// DisplayName: Муравейка
+		// Description: "'Он любит тебя!'"
+	}
+
+	BeeMount: {
+		// DisplayName: Мехадрон
+		// Description: *BZZT*
+	}
+
+	CometBlast: {
+		// DisplayName: Пояс астероидов
+		/* Description:
+			'''
+			Вокруг вас кружат астероиды
+			Призывает 1 астероид за каждые 600 ед. нанесённого урона или после каждого использования метательного оружия
+			''' */
+	}
+
+	HallowPoison: {
+		// DisplayName: Освящённое отравление
+		// Description: Множитель урона - x0%
+	}
+
+	IncarnationPet: {
+		// DisplayName: Воплощение
+		// Description: Воплощение сражается за вас
+	}
+
+	MechaCreeper: {
+		// DisplayName: Мехапроныра
+		// Description: A Mechacreep to swarm around
+	}
+}
+
+Items: {
+	AntLeg: {
+		// DisplayName: Лапка муравьиного льва
+		// Tooltip: ""
+	}
+
+	AntlionEggSack: {
+		// Tooltip: Призывает крылатого муравейку сражаться за вас
+		// DisplayName: Кучка яиц муравьиных львов
+	}
+
+	AntlionFood: {
+		// DisplayName: Корм муравьиных львов
+		// Tooltip: Призывает кроху муравьиного льва следовать за вами
+	}
+
+	AntlionHeart: {
+		// DisplayName: Сердце муравьиного льва
+		/* Tooltip:
+			'''
+			55% урона призывателя
+			Увеличивает максимальное количество миньонов на 3
+			''' */
+	}
+
+	AntQueenBag: {
+		// DisplayName: Мешок с сокровищами (Королева муравьиных львов)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AdamantiteThrowMask: {
+		// DisplayName: Адамантитовая лицевая маска
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 15%
+			Увеличивает шанс метательного критического удара на 5%
+			''' */
+	}
+
+	AntlionChest: {
+		// DisplayName: Тело муравьиного льва
+		/* Tooltip:
+			'''
+			Увеличивает урон призывателя на 10%
+			Увеличивает максимальное количество миньонов на 1
+			''' */
+	}
+
+	AntlionHead: {
+		// DisplayName: Через муравьиного льва
+		/* Tooltip:
+			'''
+			Увеличивает урон призывателя на 5%
+			Увеличивает максимальное количество миньонов на 1
+			''' */
+	}
+
+	AntlionLegs: {
+		// DisplayName: Ноги муравьиного льва
+		/* Tooltip:
+			'''
+			Увеличивают скорость передвижения на 10%
+			Увеличивают отбрасывание миньонов на 15%
+			Увеличивают максимальное количество миньонов на 1
+			''' */
+	}
+
+	CobaltThrowMask: {
+		// DisplayName: Кобальтовая лицевая маска
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 8%
+			Увеличивает шанс метательного критического удара на 5%
+			''' */
+	}
+
+	CometChestplate: {
+		// DisplayName: Кометный нагрудник
+		// Tooltip: Увеличивает метательный урон на 15%
+	}
+
+	CometHelm: {
+		// DisplayName: Кометная лицевая маска
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 12%
+			Увеличивает шанс метательного критического удара на 15%
+			''' */
+	}
+
+	CometLeggings: {
+		// DisplayName: Кометные поножи
+		/* Tooltip:
+			'''
+			Увеличивают скорость передвижения на 13%
+			Увеличивают метательный урон на 6%
+			''' */
+	}
+
+	CometWings: {
+		// DisplayName: Кометные крылья
+		// Tooltip: Позволяют летать и плавно парить, а также значительно увеличивают манёвренность в воздухе
+	}
+
+	HallowedThrowMask: {
+		// DisplayName: Освящённая лицевая маска
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 17%
+			Увеличивает шанс метательного критического удара на 5%
+			''' */
+	}
+
+	JoyWings: {
+		// DisplayName: Крылья радости
+		/* Tooltip:
+			'''
+			Позволяют летать и плавно парить
+			'Какое невероятное буйство эмоций они вызывают во мне!'
+			''' */
+	}
+
+	KitteniteChest: {
+		// DisplayName: Мяунитовый нагрудник
+		// Tooltip: Увеличивает магический урон на 15%
+	}
+
+	KitteniteHeadGear: {
+		// DisplayName: Мяунитовый головной убор
+		/* Tooltip:
+			'''
+			Увеличивает максимальный запас маны на 60 ед.
+			Увеличивает магический урон на 10%
+			''' */
+	}
+
+	KitteniteLeggings: {
+		// DisplayName: Мяунитовые поножи
+		/* Tooltip:
+			'''
+			Увеличивает скорость передвижения на 10%
+			Увеличивает высоту прыжка
+			'Бросайтесь на врагов, словно кошка!'
+			''' */
+	}
+
+	MythrilThrowMask: {
+		// DisplayName: Мифриловая лицевая маска
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 10%
+			Увеличивает шанс метательного критического удара на 5%
+			''' */
+	}
+
+	OricalcumThrowMask: {
+		// DisplayName: Орихалковая лицевая маска
+		// Tooltip: Увеличивает метательный урон на 12%
+	}
+
+	PallidiumThrowMask: {
+		// DisplayName: Палладиевая лицевая маска
+		// Tooltip: Увеличивает метательный урон на 16%
+	}
+
+	PearlCrown: {
+		// DisplayName: Корона всеведения
+		/* Tooltip:
+			'''
+			Снижает расход маны на 12%
+			Увеличивает магический урон и урон призывателя на 15%
+			''' */
+	}
+
+	TitaniumThrowMask: {
+		// DisplayName: Титановая лицевая маска
+		// Tooltip: Увеличивает метательный урон на 20%
+	}
+
+	BagOfKnives: {
+		// DisplayName: Мешок клинков
+		/* Tooltip:
+			'''
+			Бросает от 2 до 3 дополнительных снарядов при использовании метательного оружия
+			Снижает метательный урон на 15%
+			''' */
+	}
+
+	BehemothBag: {
+		// DisplayName: Мешок с сокровищами (Грибной исполин)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	BlackCloth: {
+		// DisplayName: Мрачная ткань
+		// Tooltip: "'Вы чувствуете на себе взор зла, пока держите это'"
+	}
+
+	BlackHeartLocket: {
+		// DisplayName: Ожерелье мрачной пики
+		/* Tooltip:
+			'''
+			Увеличивает шанс критического удара на 15%
+			'Сердца были созданы, чтобы их сжигать'
+			''' */
+	}
+
+	BlackholeBag: {
+		// DisplayName: Мешок с сокровищами (Маршал пустоты)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	BlackholeBlade: {
+		// DisplayName: Рассекатель чёрных дыр
+		// Tooltip: "'Ничего не осталось'"
+	}
+
+	BlackholeBow: {
+		// DisplayName: Мрачная тетива
+		/* Tooltip:
+			'''
+			Стремительно выпускает стрелы прямиком из пустоты
+			60% шанс не потратить боеприпасы
+			''' */
+	}
+
+	BlackholeGauntlet: {
+		// DisplayName: Рукавица Маршала
+		// Tooltip: Выпускает массивную чёрную дыру, уничтожающую всех, кто посмеет приблизиться к ней
+	}
+
+	BlackholeGun: {
+		// DisplayName: Теневой бластер
+		/* Tooltip:
+			'''
+			Выпускает пули прямиком из пустоты
+			10% шанс не потратить боеприпасы
+			''' */
+	}
+
+	BlackholeKnives: {
+		// DisplayName: Ножи Маршала
+		/* Tooltip:
+			'''
+			Бросает шквал похищающих здоровье ножей
+			'Мрак не отступает'
+			''' */
+	}
+
+	BlackholeScythe: {
+		// DisplayName: Теневой казнитель
+		// Tooltip: "'Пустота зовёт'"
+	}
+
+	BlackholeShuriken: {
+		// DisplayName: Теневой сюрикен
+		/* Tooltip:
+			'''
+			50% повторно образоваться в ваших руках после броска
+			Fires additional spectral Shurikens with it
+			''' */
+	}
+
+	BlackholeSpiritStaff: {
+		// DisplayName: Посох воплощения
+		/* Tooltip:
+			'''
+			Призывает воплощение сражаться за вас
+			'Мрак будет сопротивляться'
+			''' */
+	}
+
+	BlackholeToken: {
+		// DisplayName: Материя Маршала
+		/* Tooltip:
+			'''
+			Фрагмент чёрной дыры
+			'The power this tiny ball emanates is mindblowing'
+			''' */
+	}
+
+	BlackholeWand: {
+		// DisplayName: Скипетр материи
+		/* Tooltip:
+			'''
+			Fires a stream of dark matter
+			'The darkness burns with an unbearable hatred'
+			''' */
+	}
+
+	BlackPowder: {
+		// DisplayName: Dark Powder
+		// Tooltip: "'You feel a dark essence emanating from this'"
+	}
+
+	BladderBomb: {
+		// DisplayName: Bladder Bomb
+		// Tooltip: Filled with Ichor
+	}
+
+	CatGun: {
+		// DisplayName: Kitten Blaster
+		/* Tooltip:
+			'''
+			Fires an additional cat head occasionally
+			10% chance not to consume ammo
+			''' */
+	}
+
+	CatsEye: {
+		// DisplayName: Cat's Eye
+		// Tooltip: Fires rays of light
+	}
+
+	ClampulaBag: {
+		// DisplayName: Treasure Bag (Clampula)
+		// Tooltip: Right click to open
+	}
+
+	ClampulaPearl: {
+		// DisplayName: Жемчужина всеведения
+		// Tooltip: ""
+	}
+
+	CometFragment: {
+		// DisplayName: Фрагмент кометы
+		// Tooltip: "'The edge of space resides in this fragment'"
+	}
+
+	CorrGothEye: {
+		// DisplayName: Corgoth Eye
+		// Tooltip: ""
+	}
+
+	CorrgothNecklace: {
+		// DisplayName: Corgoth Necklace
+		/* Tooltip:
+			'''
+			+3 defense
+			For every other player wearing this, all players get +2 defense
+			''' */
+	}
+
+	COSGothNecklace: {
+		// DisplayName: Slimey Corgoth Necklace
+		/* Tooltip:
+			'''
+			+3% critical strike chance and defense
+			For every other player wearing this, all players get +1 defense and critical strike chance
+			''' */
+	}
+
+	CrimGothEye: {
+		// DisplayName: Crimgoth Eye
+		// Tooltip: ""
+	}
+
+	CrimgothNecklace: {
+		// DisplayName: Crimgoth Necklace
+		/* Tooltip:
+			'''
+			+3 armor penetration
+			For every other player wearing this, all players get +2 armor penetration
+			''' */
+	}
+
+	CRSGothNecklace: {
+		// DisplayName: Slimey Crimgoth Necklace
+		/* Tooltip:
+			'''
+			+3% critical strike chance and armor piercing
+			For every other player wearing this, all players get +1 armor piercing and critical strike chance
+			''' */
+	}
+
+	CursedLick: {
+		// DisplayName: Lick of Flame
+		// Tooltip: Fires a steam of cursed flames
+	}
+
+	DirtYoyo: {
+		// DisplayName: Dirt Yoyo
+		// Tooltip: Toggles Vanilla Yoyos to be melee or thrown damage
+	}
+
+	EnchantedIce: {
+		// DisplayName: Enchanted Ice
+		// Tooltip: "'It freezes all of your being while touching it'"
+	}
+
+	EnchantedSeeds: {
+		// DisplayName: Enchanted Seeds
+		// Tooltip: "'The seed of a demon'"
+	}
+
+	EyeOfClampula: {
+		// DisplayName: Omniscient Fang
+		/* Tooltip:
+			'''
+			Decreased mana usage as HP gets lower
+			25% mana cost at 0 HP, 100% mana cost at full health
+			'Attack with the rage of Clampula'
+			''' */
+	}
+
+	FishronLung: {
+		// DisplayName: Лёгкое Рыброна
+		// Tooltip: "'It shudders uncontrollably'"
+	}
+
+	FullRestore: {
+		// DisplayName: Full Restore
+		// Tooltip: ""
+	}
+
+	FungalBall: {
+		// DisplayName: Fungal Ball
+		// Tooltip: Summons the Behemoth
+	}
+
+	GimmimickBag: {
+		// DisplayName: Treasure Bag (Gimmimick)
+		// Tooltip: Right click to open
+	}
+
+	GoblinBag: {
+		// DisplayName: Treasure Bag (Goblin King)
+		// Tooltip: Right click to open
+	}
+
+	GoldenClam: {
+		// DisplayName: Golden Clam
+		// Tooltip: Summons Clampula
+	}
+
+	GrasperBag: {
+		// DisplayName: Treasure Bag (Grasper)
+		// Tooltip: Right click to open
+	}
+
+	GrasperPendant: {
+		// DisplayName: Grasper Pendant
+		/* Tooltip:
+			'''
+			Emits a trail of Cursed Flames behind you
+			10% increased damage
+			''' */
+	}
+
+	HallowedStaff: {
+		// DisplayName: Hallowed Staff
+		// Tooltip: Fires a stream of hallowed power
+	}
+
+	HarpyNecklace: {
+		// DisplayName: Hippy Harpy Necklace
+		/* Tooltip:
+			'''
+			Makes harpies passive while equipped
+			'Even the harpies know it's gross'
+			''' */
+	}
+
+	HeartLocket: {
+		// DisplayName: Heart Locket
+		/* Tooltip:
+			'''
+			5% increased damage, melee speed and projectile velocity
+			10% increased critical strike chance
+			'Hearts are made to be burned'
+			''' */
+	}
+
+	IceFireSkull: {
+		// DisplayName: Frostflame Skull
+		/* Tooltip:
+			'''
+			25% increased magic damage
+			0% magic critical strike chance
+			''' */
+	}
+
+	IceRoar: {
+		// DisplayName: Tome of Freezefang
+		// Tooltip: Summons the spirit of Freezefang
+	}
+
+	IceStaff: {
+		// DisplayName: Frost Staff
+		// Tooltip: Fires a spread of ice at your enemies
+	}
+
+	IceWispOrb: {
+		// DisplayName: Wisp Orb
+		// Tooltip: "'It's cold to the touch'"
+	}
+
+	IchorBlasterBag: {
+		// DisplayName: Treasure Bag (Ichor Blaster)
+		// Tooltip: Right click to open
+	}
+
+	IchorCrystal: {
+		// DisplayName: Ichor Crystal
+		/* Tooltip:
+			'''
+			All enemies have 10 less defense
+			Immunity to the Ichor debuff
+			''' */
+	}
+
+	IchorGland: {
+		// DisplayName: Ichor Gland
+		/* Tooltip:
+			'''
+			Produces Ichor
+			Place in front of a crimson altar with 5 Ichor..
+			'It feels rubbery and gross'
+			''' */
+	}
+
+	IlluminantCap: {
+		// DisplayName: Illuminant Cap
+		// Tooltip: "'It seems to be changing colors'"
+	}
+
+	ImplordBag: {
+		// DisplayName: Мешок с сокровищами (Владыка бесов)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	InfinityHealthPotion: {
+		// DisplayName: Бесконечное лечебное зелье
+		// Tooltip: Не расходуется
+	}
+
+	Junk: {
+		// DisplayName: Хлам
+		// Tooltip: ""
+	}
+
+	JunkLauncher: {
+		// DisplayName: Хламомёт
+		// Tooltip: Выпускает мусор, созданный на яхщеровой печи
+	}
+
+	JunkPrime: {
+		// DisplayName: Большой хлам
+		// Tooltip: ""
+	}
+
+	ChlorophyteKunai: {
+		// DisplayName: Хлорофитовый кунай
+		// Tooltip: Может отскакивать от поверхностей и пронзать врагов до 1 раза
+	}
+
+	GoldKunai: {
+		// DisplayName: Золотой кунай
+		// Tooltip: ""
+	}
+
+	HallowedKunai: {
+		// DisplayName: Освящённый кунай
+		// Tooltip: Пронзает до 5 врагов
+	}
+
+	MythrilKunai: {
+		// DisplayName: Мифриловый кунай
+		// Tooltip: ""
+	}
+
+	NinjasKunai: {
+		// DisplayName: Костяной кунай
+		/* Tooltip:
+			'''
+			Лишь величайшие используют его
+			Может отскакивать от поверхностей до 1 раза
+			Не расходуется
+			''' */
+	}
+
+	OricalcumKunai: {
+		// DisplayName: Орихалковый кунай
+		// Tooltip: ""
+	}
+
+	PlatinumKunai: {
+		// DisplayName: Платиновый кунай
+		// Tooltip: ""
+	}
+
+	SpitterKunai: {
+		// DisplayName: Vilespit Kunai
+		// Tooltip: ""
+	}
+
+	KunaiEmblem: {
+		// DisplayName: Эмблема куная
+		/* Tooltip:
+			'''
+			Даёт 35% не потратить метательный предмет
+			Worn by only the greatest
+			''' */
+	}
+
+	LavaStaff: {
+		// DisplayName: Flame Staff
+		// Tooltip: Fires a spread of magma chunks at your enemies
+	}
+
+	LavaWispOrb: {
+		// DisplayName: Wisp Orb
+		// Tooltip: "'It's hot to the touch'"
+	}
+
+	LeechNecklace: {
+		// DisplayName: Lifesteal Necklace
+		/* Tooltip:
+			'''
+			Natural regeneration is reduced to 12.5%
+			Steal 1% life of all damage dealt
+			''' */
+	}
+
+	LunarNinjaGear: {
+		// DisplayName: Снаряжение лунного ниндзя
+		/* Tooltip:
+			'''
+			Увеличивает метательный урон на 15%
+			Метательный ножи и кунаи отскакивают от врагов при попадании по ним
+			Выпускает 4 дополнительных снаряда во время использования ножей или кунаев
+			Даёт 50% не потратить метательный предмет
+			Позволяет взбираться по стенам и совершать рывок
+			Даёт шанс уклониться от атаки
+			Увеличивает скорость передвижения на 75%
+			Увеличивает высоту прыжка
+			'Дар богов'
+			''' */
+	}
+
+	MamaBag: {
+		// DisplayName: Мешок с сокровищами (Матерь плевунов)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MartianSignal: {
+		// DisplayName: Martian Signal
+		// Tooltip: Attracts an Alien Invasion
+	}
+
+	MeteorBlade: {
+		// DisplayName: Asteroid Slash
+		/* Tooltip:
+			'''
+			Fires a swiping blade of pure Asteroid
+			Infinite
+			''' */
+	}
+
+	MeteorFire: {
+		// DisplayName: Comet
+		/* Tooltip:
+			'''
+			Pierces enemies 5 times
+			Bounces 5 times
+			''' */
+	}
+
+	MimicKey: {
+		// DisplayName: Gimimmick Key
+		/* Tooltip:
+			'''
+			Place in an empty chest to summon the Gimimmick
+			'Do mimics even have keyholes?'
+			''' */
+	}
+
+	MoneyShot: {
+		// DisplayName: Money Shot
+		/* Tooltip:
+			'''
+			Fires paper dollars
+			'M-M-M-Money shot!'
+			''' */
+	}
+
+	MotherBrain: {
+		// DisplayName: Mother Brain
+		// Tooltip: Spawns spitters to spit vile spit at enemies
+	}
+
+	MushroomPopper: {
+		// DisplayName: Mushroom Popper
+		/* Tooltip:
+			'''
+			Launches 3 mushrooms that explode into spore clouds on impace
+			Uses mushrooms for ammo
+			''' */
+	}
+
+	NinjaEmblem: {
+		// DisplayName: Ninja Emblem
+		// Tooltip: 15% increased thrown damage
+	}
+
+	PearlStaff: {
+		// DisplayName: Pearl Staff
+		// Tooltip: Fires a barrage of pearls
+	}
+
+	PurrBlade: {
+		// DisplayName: Purrblade
+		// Tooltip: ""
+	}
+
+	PurrStone: {
+		// DisplayName: Kittenite
+		// Tooltip: "'It faintly eminates a soft purring sound'"
+	}
+
+	RedCross: {
+		// DisplayName: Red Cross
+		// Tooltip: Infinite
+	}
+
+	RefinedMushroom: {
+		// DisplayName: Refined Glowing Mushroom
+		// Tooltip: ""
+	}
+
+	RoughFlesh: {
+		// DisplayName: Rough Flesh
+		// Tooltip: ""
+	}
+
+	SandyLion: {
+		// DisplayName: Sandylion
+		// Tooltip: Summons the Antlion Queen
+	}
+
+	ShadowEmblem: {
+		// DisplayName: Emblem of the Marshall
+		/* Tooltip:
+			'''
+			Increased defense as HP gets lower
+			100 additional defense at 0 HP, 0 additional defense at full health
+			''' */
+	}
+
+	ShizokoCharm: {
+		// DisplayName: Shinobi Charm
+		/* Tooltip:
+			'''
+			40% increased thrown damage
+			Worn by only the greatest
+			''' */
+	}
+
+	ShizokoPack: {
+		// DisplayName: Shizoko Pack
+		/* Tooltip:
+			'''
+			25% increased thrown damage
+			Thrown knives / kunai bounce off enemies
+			Fire 2-3 Additional projectiles when using thrown weapons
+			Worn by only the greatest
+			''' */
+	}
+
+	SiliconeCoat: {
+		// DisplayName: Silicone Coat
+		// Tooltip: Thrown knives / kunais bounce off of enemies
+	}
+
+	SilverHeartLocket: {
+		// DisplayName: Silver Heart Locket
+		/* Tooltip:
+			'''
+			5% increased damage
+			10% increased melee speed and projectile velocity
+			'Hearts were made to burn'
+			''' */
+	}
+
+	SkullIdol: {
+		// DisplayName: Skull Idol
+		// Tooltip: Enables the suspicious looking man to spawn in your world for a short time
+	}
+
+	SlimeGothEye: {
+		// DisplayName: Slimegoth Eye
+		// Tooltip: ""
+	}
+
+	SlimegothNecklace: {
+		// DisplayName: Slimegoth Necklace
+		/* Tooltip:
+			'''
+			+2% critical strike chance
+			For every other player wearing this, all players get +1% critical strike chance
+			''' */
+	}
+
+	SlimeLauncher: {
+		// DisplayName: Slime Staff
+		// Tooltip: Fires balls of slime
+	}
+
+	SlimeRain: {
+		// DisplayName: Slimey Rainstick
+		// Tooltip: Starts the Slime Rain
+	}
+
+	SpitterGland: {
+		// DisplayName: Spitter Fang
+		// Tooltip: ""
+	}
+
+	SpitterGun: {
+		// DisplayName: Vilespit Handgun
+		// Tooltip: 20% chance not to consume ammo
+	}
+
+	SpitterHamaxe: {
+		// DisplayName: Vilespit Hamaxe
+		// Tooltip: ""
+	}
+
+	SpitterPickaxe: {
+		// DisplayName: Vilespit Pickaxe
+		// Tooltip: ""
+	}
+
+	SpitterSpawner: {
+		// DisplayName: Spitter Bait
+		// Tooltip: Summons the Mama Spitter
+	}
+
+	SpitterStaff: {
+		// DisplayName: Vilespit Staff
+		// Tooltip: Fires a stream of vile spit
+	}
+
+	SpitterSword: {
+		// DisplayName: Vilespit Spewer
+		// Tooltip: ""
+	}
+
+	TheGimick: {
+		// DisplayName: The Gimick
+		/* Tooltip:
+			'''
+			Creates measurable lines on screen for block placement
+			'Let's start a trend!
+			''' */
+	}
+
+	TheSnout: {
+		// DisplayName: The Snout
+		// Tooltip: Fires wads of Ichor
+	}
+
+	TrendyHeart: {
+		// DisplayName: Trendy Heart
+		// Tooltip: Увеличивает максимальный запас здоровья на 100 ед.
+	}
+
+	AntlionQueenTrophy: {
+		// DisplayName: Antlion Queen Trophy
+		// Tooltip: ""
+	}
+
+	BehemothTrophy: {
+		// DisplayName: Трофей Грибного исполина
+		// Tooltip: ""
+	}
+
+	ClampulaTrophy: {
+		// DisplayName: Clampula Trophy
+		// Tooltip: ""
+	}
+
+	GimmimickTrophy: {
+		// DisplayName: Gimimmick Trophy
+		// Tooltip: ""
+	}
+
+	GoblinKingTrophy: {
+		// DisplayName: Goblin King Trophy
+		// Tooltip: ""
+	}
+
+	GrasperTrophy: {
+		// DisplayName: Grasper Trophy
+		// Tooltip: ""
+	}
+
+	IchorBlasterTrophy: {
+		// DisplayName: Ichor Blaster Trophy
+		// Tooltip: ""
+	}
+
+	SpitterTrophy: {
+		// DisplayName: Mother Spitter Trophy
+		// Tooltip: ""
+	}
+
+	VoidMarshallTrophy: {
+		// DisplayName: Void Marshall Trophy
+		// Tooltip: ""
+	}
+
+	VoidPowerCore: {
+		// DisplayName: Martian Power Core
+		// Tooltip: "'You feel a dark force consuming you'"
+	}
+
+	VoidSpawner: {
+		// DisplayName: Эмблема черепа
+		/* Tooltip:
+			'''
+			Реликвия из далёкого прошлого
+			It's able to be reactivated, it's just missing a few ingredients..
+			''' */
+	}
+
+	WormBag: {
+		// DisplayName: Мешок путешественника
+		/* Tooltip:
+			'''
+			Right click for goodies!
+			You shouldn't have this!
+			''' */
+	}
+
+	WormEye: {
+		// DisplayName: Worm Eye
+		/* Tooltip:
+			'''
+			Creates a weird slime
+			Place in front of a demon altar with 5 rotton chunks..
+			'It feels rubbery and gross'
+			''' */
+	}
+
+	ZombieLeg: {
+		// DisplayName: Zombie Leg
+		// Tooltip: '''"BLARGRGHH"'''
+	}
+}
+
+NPCs: {
+	// AntlionEggBearer.DisplayName: Королева муравьиных львов
+	// AntyBaby.DisplayName: Муравейка
+	// AntyFlybaby.DisplayName: Крылатый муравейка
+	// BigZombie.DisplayName: Zombie Brute
+	// Clampula.DisplayName: Clampula
+	// Corrgoth.DisplayName: Corrgoth
+	// Crimgoth.DisplayName: Crimgoth
+	// FleshyZombie.DisplayName: Zombie
+	// Gimimmick.DisplayName: Gimimmick
+	// GoblinKing.DisplayName: Goblin King
+	// GrasperBody.DisplayName: Grasper
+	// GrasperHead.DisplayName: Grasper
+	// GrasperTail.DisplayName: Grasper
+	// HippyHarpy.DisplayName: Hippy Harpy
+	// IceWisp.DisplayName: Frost Wisp
+
+	IchorBlaster: {
+		// DisplayName: Ихороплёв
+		// BossChecklistIntegration.EntryName: Ихороплёв или Grasper
+	}
+
+	// IchorBlasterHand.DisplayName: Ichor Blaster Tentacle
+	// Implord.DisplayName: Imp Lord
+	// KunaiMaster.DisplayName: Kunai Master
+	// KunaiNovice.DisplayName: Kunai Novice
+	// LavaWisp.DisplayName: Fire Wisp
+	// LizardGolem.DisplayName: Lihzahrd Golem
+	// MamaSpitter.DisplayName: Mother Spitter
+	// MushroomBehemoth.DisplayName: Behemoth
+	// MushroomWall.DisplayName: Fungus Wall
+	// Shogeye.DisplayName: Eye
+	// Slimegoth.DisplayName: Slimegoth
+	// SlimeSpitter.DisplayName: Slime Sentry
+	// Spitty.DisplayName: Spitty
+	// Tunneler.DisplayName: Tunneler
+	// TheVoidMarshall.DisplayName: The Void Marshall
+	// VoidCultist.DisplayName: Void Cultist
+
+	VoidMan: {
+		// DisplayName: ""
+
+		TownNPCMood: {
+			// Content: I am content.
+			// NoHome: I hate not having a home.
+			// FarFromHome: I am too far from home.
+			// LoveSpace: I love having so much space.
+			// DislikeCrowded: I dislike how crowded I am.
+			// HateCrowded: I hate how crowded I am.
+			// LikeNPC_Princess: I like {NPCName}.
+			// Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	// VoidScythe.DisplayName: Blackhole Scythe
+	// VoidsWrath.DisplayName: Incarnation
+}
+
+Projectiles: {
+	// AntyMinion.DisplayName: Anty
+	// AntyPet.DisplayName: Anty
+	// Asteroid.DisplayName: Asteroid
+	// BigComet.DisplayName: Meteor
+	// BlackArrow.DisplayName: Void Arrow
+	// BlackBullet.DisplayName: Blackhole Bullet
+	// Blackhole.DisplayName: Black hole
+	// BlackholeScythe.DisplayName: Blackhole Execution
+	// BlackLaser.DisplayName: Blackhole Slasher
+	// BlackShuriken.DisplayName: Blackhole Shuriken
+	// BlackShurikenShadow.DisplayName: Blackhole Shuriken
+	// BladderBomb.DisplayName: Bladder Bomb
+	// CatLaser.DisplayName: Kitty Laser
+	// CAtomic.DisplayName: Celestial Atomic
+	// ClamPearl.DisplayName: Pearl
+	// CLaser.DisplayName: Celestial Laser
+	// EmporerKnive.DisplayName: Marshall Knives
+	// FreezeHeadFriendly.DisplayName: Spirit of Freezefang
+	// FriendSpitty.DisplayName: Spitty
+	// HallowedPro.DisplayName: Hallow
+	// HEAtomic.DisplayName: Fireball
+	// IchorBall.DisplayName: Ichor Blast
+	// IncarnationPet.DisplayName: Incarnation
+	// Junk.DisplayName: Junk
+	// KittenBullet.DisplayName: Kitten Blaster
+	// ChlorophyteKunai.DisplayName: Chlorophyte Kunai
+	// CometKunai.DisplayName: Comet Kunai
+	// ExpertKunai.DisplayName: Bone Kunai
+	// GoldKunai.DisplayName: Gold Kunai
+	// HallowedKunai.DisplayName: Hallowed Kunai
+	// MythrilKunai.DisplayName: Mythril Kunai
+	// NinjasKunai.DisplayName: Bone Kunai
+	// NoviceKunai.DisplayName: Vilespit Kunai
+	// OricalcumKunai.DisplayName: Orichalcum Kunai
+	// PlatinumKunai.DisplayName: Platinum Kunai
+	// SpitterKunai.DisplayName: Vilespit Kunai
+	// MeteorBlade.DisplayName: Asteorid Blade
+	// MimicSword.DisplayName: Gimimmick Vomit
+	// MoneyShot.DisplayName: Money Shot
+	// MushPop.DisplayName: Mushroom Pop
+	// MushPopGlow.DisplayName: Mushroom Pop
+	// MushPopIllum.DisplayName: Mushroom Pop
+	// MushPopReg.DisplayName: Mushroom Pop
+	// MushPopVicious.DisplayName: Mushroom Pop
+	// MushPopVile.DisplayName: Mushroom Pop
+	// PurrBlade.DisplayName: Purrblade
+	// SAtomic.DisplayName: Shadowflame Atomic
+	// SlimeBall.DisplayName: Slimeball
+	// SlimeSpit.DisplayName: Slimeball
+	// SpitterSpit.DisplayName: Vile spit
+	// VoidBlade.DisplayName: Blackhole blade
+	// VoidBladeFriendly.DisplayName: Blackhole blade
+	// WormTooth.DisplayName: Star Nebulae
+	// Kunai.DisplayName: Kunai
+}
+
+Tiles: {
+	// BossTrophy.MapEntry: Трофей
+	// KittyStone.MapEntry: Мяунит
+}

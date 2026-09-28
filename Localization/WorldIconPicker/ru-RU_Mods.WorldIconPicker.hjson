@@ -1,0 +1,95 @@
+UI: {
+	// Title: Select World Icon
+	// Confirm: Confirm
+	// Cancel: Cancel
+	// Reset: Reset
+	// AddLayer: Add custom icon
+	// ToggleBadge: Click to toggle
+
+	Section: {
+		// Base: Base Icon
+		// Variant: Variant
+		// Effect: Effect
+		// Border: Border
+		// Badge: Badge
+		// ModBadge: Mod Icons Badge
+	}
+}
+
+PlayerUI: {
+	// Title: Select Player Icon
+	// Section.Preview: Preview
+}
+
+Layers: {
+	base: {
+		// default.DisplayName: Default (Auto)
+		// tree.DisplayName: World Tree
+		// everything.DisplayName: Zenith (Get Fixed Boi)
+		// secret.DisplayName: Secret
+		// skyblock.DisplayName: Skyblock
+		// corruption_crimson.DisplayName: Drunk World
+		// seed_ftw.DisplayName: For the Worthy
+		// seed_notthebees.DisplayName: Not the Bees
+		// seed_anniversary.DisplayName: Anniversary
+		// seed_dontstarve.DisplayName: Don't Starve
+		// seed_remix.DisplayName: Remix
+		// seed_traps.DisplayName: No Traps
+	}
+
+	variant: {
+		// default.DisplayName: Default
+		// corruption.DisplayName: Corruption
+		// crimson.DisplayName: Crimson
+		// hallow_corruption.DisplayName: Hallow + Corruption
+		// hallow_crimson.DisplayName: Hallow + Crimson
+	}
+
+	border: {
+		// none.DisplayName: None
+		// completion.DisplayName: Completion
+		// platinum.DisplayName: Platinum
+		// blue.DisplayName: Blue
+		// green.DisplayName: Green
+		// pink.DisplayName: Pink
+		// red.DisplayName: Red
+		// white.DisplayName: White
+		// yellow.DisplayName: Yellow
+		// calamity.DisplayName: Calamity
+		// homeward_journey.DisplayName: Homeward Journey
+		// spirit.DisplayName: Spirit
+	}
+
+	effect: {
+		// none.DisplayName: None
+		// flip_vertical.DisplayName: Flip Vertical
+		// gold.DisplayName: Gold
+		// hologram.DisplayName: Hologram
+		// rainbow.DisplayName: Rainbow
+		// retro.DisplayName: Retro Scan
+		// magma.DisplayName: Molten Core
+		// neon.DisplayName: Neon Tube
+		// void.DisplayName: Void Nebula
+		// ghost.DisplayName: Wraith
+	}
+
+	badge: {
+		// none.DisplayName: None
+		// classic.DisplayName: Classic
+		// corruption.DisplayName: Corruption
+		// crimson.DisplayName: Crimson
+		// expert.DisplayName: Expert
+		// flag_blue.DisplayName: Blue Flag
+		// flag_green.DisplayName: Green Flag
+		// flag_pink.DisplayName: Pink Flag
+		// flag_red.DisplayName: Red Flag
+		// flag_white.DisplayName: White Flag
+		// flag_yellow.DisplayName: Yellow Flag
+		// journey.DisplayName: Journey
+		// large_world.DisplayName: Large World
+		// master.DisplayName: Master
+		// medium_world.DisplayName: Medium World
+		// small_world.DisplayName: Small World
+		// star.DisplayName: Star
+	}
+}
