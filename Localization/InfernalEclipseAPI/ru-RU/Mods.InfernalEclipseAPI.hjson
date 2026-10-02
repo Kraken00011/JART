@@ -3,6 +3,7 @@ UI: {
 		ManaSteal: Оставшееся количество краж маны
 		TerminalLucidity: Терминальное ясновидение
 		LucidRetaliation: Возмездное ясновидение
+		// ParadisePower: Paradise Cooldown
 	}
 
 	TitleLinks: {
@@ -572,6 +573,7 @@ ItemTooltip: {
 		cat: StarlightCat
 		Arkangel: Arkangel
 		Minesky: Mineskye
+		Bomber: Bomberr
 	}
 
 	MergedCraftingTreeTooltip: {
@@ -615,10 +617,10 @@ ItemTooltip: {
 
 		SealedContract: {
 			OrigTooltip1: Увеличивает максимальный запас здоровья на 60 ед.
-			OrigTooltip2: Исцеляющие заклинания восстанавливают дополнительно 5 ед. здоровья
+			OrigTooltip2: Увеличивает бонусное исцеление на 5 ед. здоровья
 		}
 
-		ContractNerf: Исцеляющие заклинания восстанавливают дополнительно 2 ед. здоровья
+		ContractNerf: Увеличивает бонусное исцеление на 2 ед. здоровья
 		Tuner1:
 			'''
 			Эффекты предмета зависят от отображения аксессуара
@@ -988,30 +990,30 @@ ItemTooltip: {
 		'''
 	NamelessRelic: Ты прошёл испытание.
 	NoxusRelic: Э-э-э-м... ты не должен был это увидеть
-	/* DeviRelic:
+	DeviRelic:
 		'''
 		The youngest of the three siblings.
 		Quite chaotic, especially this early in the game, however, you overcame her with confidence.
 		Enjoy the loot upgrades and power boost while you can...
-		''' */
-	/* AbomRelic:
+		'''
+	AbomRelic:
 		'''
 		The second of the three siblings.
 		It has been a while since you fought their sister, but this battle was extreme step up from that.
 		Are you brave enough to challenge the oldest sibling?
-		''' */
-	/* MutantRelic:
+		'''
+	MutantRelic:
 		'''
 		The oldest of the three siblings, as well as the strongest.
 		You have beat what is known as one of the hardest modded bosses, and with all of eternity in your hands surely nothing will stop you now.
 		What will you seek out now?
-		''' */
-	/* EridanusRelic:
+		'''
+	EridanusRelic:
 		'''
 		Your almost to the finish line.
 		The godseeker's army is all that stands in between you and eternity.
 		Make the fullest of your new crafting station...
-		''' */
+		'''
 	AstralCommunicatorInfernum1: Призывает Астрагельдона при использовании в астральной инфекции
 	AstralCommunicatorInfernum2: Голод космического слизня не утолился...
 }
@@ -2530,13 +2532,62 @@ Items: {
 	}
 
 	ChestLockIcon: {
-		// DisplayName: Chest Lock Icon
-		// Tooltip: ""
+		DisplayName: Chest Lock Icon
+		Tooltip: ""
 	}
 
 	HoverItemDummy: {
-		// DisplayName: Hover Item Dummy
-		// Tooltip: ""
+		DisplayName: Hover Item Dummy
+		Tooltip: ""
+	}
+
+	FiendsmithsRequiem: {
+		DisplayName: Реквием Fiendsmith
+		Tooltip:
+			'''
+			Summons Fiendsmith's Requiem to attack with your other summon weapons
+			Only one of each of the fiends can be active at once
+			'''
+		Tremendae: Using this weapon for a second time summons Rex Tremendae which will fire bullets at nearby foes
+		Paradise:
+			'''
+			Using this weapon for a third time unlocks the Paradise ability
+			While Paradise is unlocked, Right Click to cause Requiem to release homing laser bolts
+			The Right Click has a cooldown of 18 seconds
+			'''
+
+		Progression: {
+			Ravager:
+				'''
+				Defeat The Fortress of Flesh to gain more power...
+				No extra power has been gained...
+				'''
+			Deus:
+				'''
+				With the defeat of Ravager, this weapon now deals extra damage
+				Defeat the star weaver to gain more power...
+				'''
+			Dragonfolly:
+				'''
+				With the defeat of Astrum Deus, you can now summon Rex Tremendae in addition to Requiem
+				Defeat the false offspring to gain more power...
+				'''
+			Providence:
+				'''
+				With the defeat of Dragonfolly, you can now unlock the Paradise ability
+				Defeat the Profaned Goddess to gain more power...
+				'''
+			Polterghast:
+				'''
+				With the defeat of Providence, Requiem's chainsaws now inflict [cbuff:CalamityMod/Laceration]
+				Defeat the wrathful coalescence to gain more power...
+				'''
+			Full:
+				'''
+				The Fiendsmith's Requiem is fully awakend, and all abilities have been further buffed!
+				The weapon's maximum power is unleashed!
+				'''
+		}
 	}
 }
 
@@ -2591,6 +2642,10 @@ Projectiles: {
 	BlixerArm.DisplayName: Рука Бликсера
 	BlixerHand.DisplayName: Ладонь Бликсера
 	BlixerCannonPro.DisplayName: Пуля Бликсера
+	// FiendsmithsRequiemPro.DisplayName: Fiendsmith's Requiem
+	// FiendsmithChainsaw.DisplayName: Fiendsmith's Chainsaw
+	// FiendsmithsTremendae.DisplayName: Fiendsmith's Tremendae
+	// FiendsmithsParadise.DisplayName: Fiendsmith's Paradise
 }
 
 DiaryTooltip:
@@ -3461,6 +3516,11 @@ Buffs: {
 	FreezingAura: {
 		DisplayName: Замораживающая аура
 		Description: ""
+	}
+
+	FiendsmithsRequiemBuff: {
+		DisplayName: Fiendsmith's Requiem
+		Description: The Fiendsmith's fiends are helping you fight!
 	}
 }
 

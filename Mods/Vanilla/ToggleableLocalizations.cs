@@ -471,16 +471,6 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
 					continue;
 
-				// Другое
-
-				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
-				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
-					continue;
-
-				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("FargowiltasSouls"))
-					&& modpath.Contains(@"JAtRT\Localization\CBUFFS(Cal+Fargos)\"))
-					continue;
-
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
 

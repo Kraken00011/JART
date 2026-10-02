@@ -298,7 +298,7 @@ Items: {
 		/* Tooltip:
 			'''
 			50% повторно образоваться в ваших руках после броска
-			Fires additional spectral Shurikens with it
+			Бросает несколько дополнительных спектральных сюрикенов
 			''' */
 	}
 
@@ -316,7 +316,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Фрагмент чёрной дыры
-			'The power this tiny ball emanates is mindblowing'
+			'Энергия, которую источает эта крошечная сфера, просто поражает воображение'
 			''' */
 	}
 
@@ -324,13 +324,13 @@ Items: {
 		// DisplayName: Скипетр материи
 		/* Tooltip:
 			'''
-			Fires a stream of dark matter
-			'The darkness burns with an unbearable hatred'
+			Выпускает поток тёмной материи
+			'Мрак пылает с неимоверной ненавистью'
 			''' */
 	}
 
 	BlackPowder: {
-		// DisplayName: Dark Powder
+		// DisplayName: Тёмный порох
 		// Tooltip: "'You feel a dark essence emanating from this'"
 	}
 
@@ -340,11 +340,11 @@ Items: {
 	}
 
 	CatGun: {
-		// DisplayName: Kitten Blaster
+		// DisplayName: Котострел
 		/* Tooltip:
 			'''
 			Fires an additional cat head occasionally
-			10% chance not to consume ammo
+			10% шанс не потратить боеприпасы
 			''' */
 	}
 
