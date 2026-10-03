@@ -15,7 +15,7 @@ Configs: {
 		}
 
 		SkeletronPrime: {
-			Label: Скелетрон прайм
+			Label: Скелетрон Прайм
 			Tooltip: ""
 		}
 
@@ -175,7 +175,7 @@ Configs: {
 		}
 
 		UndergroundHallow: {
-			Label: Подземное Освящение
+			Label: Освящённое подземелье
 			Tooltip: ""
 		}
 
@@ -195,7 +195,7 @@ Configs: {
 		}
 
 		DukeFishron: {
-			Label: Герцог рыброн
+			Label: Герцог Рыброн
 			Tooltip: ""
 		}
 
@@ -205,12 +205,12 @@ Configs: {
 		}
 
 		UndergroundCorruption: {
-			Label: Подземное Искажение
+			Label: Искажённое подземелье
 			Tooltip: ""
 		}
 
 		UndergroundCrimson: {
-			Label: Подземный Багрянец
+			Label: Багряное подземелье
 			Tooltip: ""
 		}
 

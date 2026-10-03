@@ -1,0 +1,73 @@
+Buffs.FlaskofMercury.Description: Ближние атаки, а также хлысты накладывают дебафф [cbuff:TheDepths/MercuryBoiling]
+
+Items: {
+	AquaGlove.Tooltip:
+		'''
+		Атаки ближнего боя накладывают дебафф [cbuff:TheDepths/FreezingWater]
+		Увеличивает отбрасывание ближнего боя
+		Увеличивает урон и скорость атаки ближнего боя на 12%
+		Включает автоатаку для оружия ближнего боя
+		'''
+	AquaStone.Tooltip: Атаки ближнего боя накладывают дебафф [cbuff:TheDepths/FreezingWater]
+	CrystalShield.Tooltip:
+		'''
+		Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
+		Максимальный бонус к сопротивлению урону: 50%
+		Даёт 25% шанс отразить большинство вражеских снарядов
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		'''
+	CrystalSkull.Tooltip: Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+	CrystalWaterWalkingBoots.Tooltip:
+		'''
+		Даёт возможность ходить по воде и мёду
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		'''
+	SanctusShield.Tooltip:
+		'''
+		Чем дольше вы не получаете урона - тем меньше его нанесут вам вражеские снаряды
+		Максимальный бонус к сопротивлению урону: 50%
+		Даёт 25% шанс отразить большинство вражеских снарядов
+		Даёт невосприимчивость к большинству дебаффов, включая [cbuff:TheDepths/MercuryPoisoning]
+		'''
+	SilverSlippers.Tooltip:
+		'''
+		Даёт возможность ходить по воде и мёду, а также лаве и ртути
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		Даёт 4 секунды невосприимчивости к ртути
+		'''
+	FlaskofMercury.Tooltip: Ближние атаки, а также хлысты накладывают дебафф [cbuff:TheDepths/MercuryBoiling]
+	CrystalHorseshoe.Tooltip:
+		'''
+		Защищает от урона при падении
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		'''
+	SilverCharm.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		Даёт 4 секунды невосприимчивости к ртути
+		'''
+	AzuriteRose.Tooltip:
+		'''
+		Даёт 4 секунды невосприимчивости к ртути
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		Снижает урон от дебаффов, связанных с ртутью
+		'''
+	CryingSkull.Tooltip:
+		'''
+		Даёт 4 секунды невосприимчивости к ртути
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		'''
+	CrystalRose.Tooltip:
+		'''
+		Даёт невосприимчивость к дебаффу [cbuff:TheDepths/MercuryPoisoning]
+		Снижает урон от дебаффов, связанных с ртутью
+		'''
+	AquaQuiver.Tooltip:
+		'''
+		Увеличивает урон от стрел на 10%
+		Значительно увеличивает скорость стрел
+		Даёт 20% шанс не потратить стрелу
+		Деревянные стрелы накладывают дебафф [cbuff:TheDepths/FreezingWater]
+		'ЗАМОРОЗИТЬ!'
+		'''
+}

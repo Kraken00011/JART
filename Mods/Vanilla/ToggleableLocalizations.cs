@@ -30,7 +30,9 @@ public class ToggleableLocalizations : OnPatcher
 
 	private List<(string key, string value)> Translation(LoadTranslationsDelegate orig, TmodFile tModFile, GameCulture culture)
 	{
-		if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian))
+		if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian)
+			|| tModFile == null
+			|| tModFile.Name != nameof(JAtRT))
 			return orig.Invoke(tModFile, culture);
 
 		if (tModFile == null)
@@ -467,8 +469,18 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\BloodMoonEnemiesRework\"))
 					continue;
 
-				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization ||*/ !ModLoader.HasMod("RagnarokMod"))
+				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization || */!ModLoader.HasMod("RagnarokMod"))
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
+					continue;
+				
+				// Другое
+
+				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
+				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
+					continue;
+
+				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("FargowiltasSouls"))
+					&& modpath.Contains(@"JAtRT\Localization\CBUFFS(Cal+Fargos)\"))
 					continue;
 
 				using Stream stream = tModFile.GetStream(translationFile);
@@ -561,6 +573,7 @@ public class ToggleableLocalizations : OnPatcher
 
 			return flattened;
 		}
+
 		catch (Exception e)
 		{
 			e.Data["mod"] = tModFile.Name;

@@ -330,13 +330,13 @@ Items: {
 	}
 
 	BlackPowder: {
-		// DisplayName: Тёмный порох
+		// DisplayName: Тёмная пыль
 		// Tooltip: "'You feel a dark essence emanating from this'"
 	}
 
 	BladderBomb: {
 		// DisplayName: Bladder Bomb
-		// Tooltip: Filled with Ichor
+		// Tooltip: Наполнена ихором
 	}
 
 	CatGun: {
@@ -354,8 +354,8 @@ Items: {
 	}
 
 	ClampulaBag: {
-		// DisplayName: Treasure Bag (Clampula)
-		// Tooltip: Right click to open
+		// DisplayName: Мешок с сокровищами (Clampula)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	ClampulaPearl: {
@@ -461,12 +461,12 @@ Items: {
 
 	GimmimickBag: {
 		// DisplayName: Treasure Bag (Gimmimick)
-		// Tooltip: Right click to open
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GoblinBag: {
 		// DisplayName: Treasure Bag (Goblin King)
-		// Tooltip: Right click to open
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GoldenClam: {
@@ -927,7 +927,7 @@ Items: {
 	}
 
 	GoblinKingTrophy: {
-		// DisplayName: Goblin King Trophy
+		// DisplayName: Трофей Короля гоблинов
 		// Tooltip: ""
 	}
 
@@ -937,7 +937,7 @@ Items: {
 	}
 
 	IchorBlasterTrophy: {
-		// DisplayName: Ichor Blaster Trophy
+		// DisplayName: Трофей Ихороплёва
 		// Tooltip: ""
 	}
 
@@ -947,12 +947,12 @@ Items: {
 	}
 
 	VoidMarshallTrophy: {
-		// DisplayName: Void Marshall Trophy
+		// DisplayName: Трофей Маршала пустоты
 		// Tooltip: ""
 	}
 
 	VoidPowerCore: {
-		// DisplayName: Martian Power Core
+		// DisplayName: Марсианское энергоядро
 		// Tooltip: "'You feel a dark force consuming you'"
 	}
 
@@ -961,7 +961,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Реликвия из далёкого прошлого
-			It's able to be reactivated, it's just missing a few ingredients..
+			Её можно повторно активировать, просто для этого нужно собрать немного дополнительных материалов..
 			''' */
 	}
 
@@ -985,8 +985,8 @@ Items: {
 	}
 
 	ZombieLeg: {
-		// DisplayName: Zombie Leg
-		// Tooltip: '''"BLARGRGHH"'''
+		// DisplayName: Нога зомби
+		// Tooltip: "'BLARGRGHH'"
 	}
 }
 
@@ -1013,7 +1013,7 @@ NPCs: {
 	}
 
 	// IchorBlasterHand.DisplayName: Ichor Blaster Tentacle
-	// Implord.DisplayName: Imp Lord
+	// Implord.DisplayName: Владыка бесов
 	// KunaiMaster.DisplayName: Kunai Master
 	// KunaiNovice.DisplayName: Kunai Novice
 	// LavaWisp.DisplayName: Fire Wisp
@@ -1026,8 +1026,8 @@ NPCs: {
 	// SlimeSpitter.DisplayName: Slime Sentry
 	// Spitty.DisplayName: Spitty
 	// Tunneler.DisplayName: Tunneler
-	// TheVoidMarshall.DisplayName: The Void Marshall
-	// VoidCultist.DisplayName: Void Cultist
+	// TheVoidMarshall.DisplayName: Маршал пустоты
+	// VoidCultist.DisplayName: Культист пустоты
 
 	VoidMan: {
 		// DisplayName: ""
@@ -1045,7 +1045,7 @@ NPCs: {
 	}
 
 	// VoidScythe.DisplayName: Blackhole Scythe
-	// VoidsWrath.DisplayName: Incarnation
+	// VoidsWrath.DisplayName: Воплощение
 }
 
 Projectiles: {

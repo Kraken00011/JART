@@ -1,0 +1,67 @@
+{
+    ArmorSetBonus: {
+        Frost:
+            '''
+            Ближние и стрелковые атаки накладывают дебафф [cbuff:Frostburn]
+            Увеличивает урон ближнего боя и стрелковый урон на 10%
+            '''
+        HuntressTier2:
+            '''
+            Увеличивает максимальное количество стражей на 1
+            Взрывные ловушки перезаряжаются быстрее и накладывают дебафф [cbuff:Oiled]
+            Подожгите врагов, подверженных дебаффу [cbuff:Oiled], чтобы нанести дополнительный урон
+            '''
+        Molten:
+            '''
+            Увеличивает урон ближнего боя на 10%
+            Даёт невосприимчивость к дебаффу [cbuff:OnFire]
+            '''
+        Snow: Даёт невосприимчивость к дебаффам [cbuff:Frozen] и [cbuff:Chilled]
+    }
+
+    ItemTooltip: {
+        AdhesiveBandage: Даёт невосприимчивость к дебаффу [cbuff:Bleeding]
+        ArmorBracing: Даёт невосприимчивость к дебаффам [cbuff:Weak] и [cbuff:BrokenArmor]
+        ArmorPolish: Даёт невосприимчивость к дебаффу [cbuff:BrokenArmor]
+        BeeKeeper:
+            '''
+            При нанесении ударов по врагу призывает пчёл-убийц
+            Имеет небольшой шанс наложить дебафф [cbuff:Confused]
+            '''
+        Bezoar: Даёт невосприимчивость к дебаффу [cbuff:Poisoned]
+        BladeofGrass: Шанс наложить на врагов дебафф [cbuff:Poisoned]
+        Blindfold: Даёт невосприимчивость к дебаффу [cbuff:Darkness]
+        BrainOfConfusion:
+            '''
+            Даёт шанс создать иллюзию и уклониться от атаки
+            Временно увеличивает шанс критического удара после уклонения
+            После получения удара может наложить на ближайших врагов дебафф [cbuff:Confused]
+            '''
+        CountercurseMantra: Даёт невосприимчивость к дебаффам [cbuff:Silenced] и [cbuff:Cursed]
+        DaoofPow:
+            '''
+            Может наложить на врага дебафф [cbuff:Confused]
+            'Познай своё внутреннее равновесие'
+            '''
+        FastClock: Даёт невосприимчивость к дебаффу [cbuff:Slow]
+        MagmaStone: Атаки ближнего боя накладывают дебафф [cbuff:OnFire3]
+        MedicatedBandage: Даёт невосприимчивость к дебаффам [cbuff:Poisoned] и [cbuff:Bleeding]
+        Megaphone: Даёт невосприимчивость к дебаффу [cbuff:Silenced]
+        NanoBullet: Накладывает дебафф [cbuff:Confused] и отскакивает от блоков
+        Nazar: Даёт невосприимчивость к дебаффу [cbuff:Cursed]
+        PocketMirror: Даёт невосприимчивость к дебаффу [cbuff:Stoned]
+        PoisonDart: Накладывает на врагов дебафф [cbuff:Poisoned]
+        ReflectiveShades: Даёт невосприимчивость к дебаффам [cbuff:Darkness] и [cbuff:Stoned]
+        ShadowFlameKnife: Накладывает на врагов дебафф [cbuff:ShadowFlame] при ударе
+        ShimmerCloak:
+            '''
+            Даёт невосприимчивость к дебаффу [cbuff:Shimmer]
+            Удерживайте {$Key.DOWN}, чтобы войти в фазовое состояние при погружении в мерцание
+            '''
+        ThePlan: Даёт невосприимчивость к дебаффам [cbuff:Slow] и [cbuff:Confused]
+        TrifoldMap: Даёт невосприимчивость к дебаффу [cbuff:Confused]
+        VenomArrow: Накладывает дебафф [cbuff:Venom]
+        VenomBullet: Накладывает дебафф [cbuff:Venom]
+        Vitamins: Даёт невосприимчивость к дебаффу [cbuff:Weak]
+    }
+}

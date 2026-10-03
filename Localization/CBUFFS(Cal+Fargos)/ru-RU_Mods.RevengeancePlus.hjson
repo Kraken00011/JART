@@ -1,0 +1,484 @@
+AIChanges: {
+    Lepus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Пасхальные зайцы двигаются быстрее
+		-Враги из маленьких яиц вылупляются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Маленькие яйца невозможно уничтожить
+		-Враги из маленьких яиц вылупляются ещё быстрее
+		-Враги из больших яиц вылупляются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Во время ускоренного падения создаёт 2 падающих клинка
+		-Во время слабых прыжков создаёт 4 падающих клинка
+		-Во время заряженной атаки выбрасывает пару взрывных яиц
+		-Лепус теперь иногда может остановиться и рыгнуть
+		-Пасхальные зайцы при попадании накладывают дебафф [cbuff:FargowiltasSouls/GuiltyBuff]
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/StunnedBuff], либо [cbuff:FargowiltasSouls/RottingBuff], либо [cbuff:FargowiltasSouls/DefenselessBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Количество падающих клинков во время ускоренного падения увеличивается до 4
+		-Количество падающих клинков во время слабых прыжков увеличивается до 5
+		-Выстрелы взрывными яйцами теперь значительно быстрее
+		'''
+    Turkor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Рывки и атаки снарядами имеют свои альтернативные варианты
+		-Ножи летят чуть дальше обычного
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Иногда одновременно совершает и атаки ближнего, и дальнего боя
+		-Ножи летят куда дальше обычного
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Время от времени тело создаёт ножевые спирали
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/GuiltyBuff], либо [cbuff:FargowiltasSouls/RottingBuff], либо [cbuff:FargowiltasSouls/StunnedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		-Ножевые спирали появляются только на уровне здоровья ниже 75%
+		'''
+    Thorn:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Колючие шары сопровождаются зарядом колючек
+		-Пиявочные лозы призываются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Колючие шары взрываются на большое количество колючек
+		-Пиявочные лозы призываются ещё быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Колючие шары недолго преследуют игрока
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/InfestedBuff] и [cbuff:FargowiltasSouls/RottingBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+    Erhan:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-В 1 фазе стреляет самонаводящимся светом во время атаки дождём из световых лучей
+		-В 1 фазе создаёт в 2 раза больше световых мечей
+		-Во 2 фазе метает копья даже во время атаки Библией
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Эрхан не устаёт
+		-Входит в более поздние фазы куда раньше
+		-В 1 фазе метает копья даже во время атаки Библией
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения Calamity выключены
+		-Большинство атак накладывают дебафф [cbuff:FargowiltasSouls/SmiteBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения Calamity снова включены
+		'''
+    Keeper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Большинство атак накладывают дебафф [cbuff:calamityMod/BurningBlood]
+		-Кровавые волны двигаются быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Во 2 фазе черепа выстреливают одновременно при некоторых атаках
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-В 1 фазе рывки сопровождаются зарядом кровавых волн
+		-Во 2 фазе рывки оставляют след из ускоряющихся клешней
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/RottingBuff], [cbuff:FargowiltasSouls/LethargicBuff], [cbuff:FargowiltasSouls/BerserkedBuff] или [cbuff:ShadowFlame]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+    KingSlayer:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Дроны-ракеты атакуют быстрее
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Дроны-ракеты атакуют ещё быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/TheLightningRod] и [cbuff:FargowiltasSouls/NanoInjectionBuff]
+		-Световые гранаты могут обездвижить игрока
+		-Изменения для Calamity отключены
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+    Gigapora:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Гигалуч стреляет стеной из лазеров, подобно Танатосу
+
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Защитный модуль предугадывает движения игрока
+		-Лазеры Гигасверла целятся в сторону игрока, если тот слишком далеко
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Все атаки накладывают дебаффы [cbuff:FargowiltasSouls/TheLightningRod] и [cbuff:FargowiltasSouls/NanoInjectionBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		-Уменьшает предсказуемость защитного модуля
+		'''
+	OmegaObliterator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Все атаки накладывают дебаффы [cbuff:FargowiltasSouls/TheLightningRod] и [cbuff:FargowiltasSouls/NanoInjectionBuff]
+		-Обездвиживающий луч может ошеломить игрока
+		'''
+    PatientZero:
+		'''
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Большинство атак накладывают дебафф [cbuff:CalamityMod/Irradiated]
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебафф [cbuff:FargowiltasSouls/RottingBuff]
+		'''
+	Nebuleus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Некоторые пронзающие атаки туманности дублируются
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Пронзающие атаки туманности дублируются ещё чаще
+		-Атака цепями космоса пропускается
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Атака цепями космоса заменены звездным шквалом
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/SmiteBuff] и [cbuff:FargowiltasSouls/PurifiedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены (кроме замены цепей космоса)
+		'''
+	PutridPinky:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Интервалы между шквалами лазеров сокращаются
+		-Атака лазерным лучом сопровождается стрельбой двойными спиралями
+		-После совершения невидимой атаки делает пару быстрых рывков
+		-Стреляет самонаводящимися снарядами во время атаки крутящимися крюками
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Скорость атак увеличивается
+		-Интервалы между шквалами лазеров сокращаются ещё сильнее
+		-Дальность рывка стала значительно больше
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Первая фаза имеет уникальный набор атак, являющихся ослабленными версиями атак 2 фазы
+		-Стреляет гигантским гелевым сгустком, разделяющимся на 6 меньших сгустков, после стреляет лазерным лучом
+		-После невидимой атаки зависает за игроком, после чего выстреливает самонаводящимися сгустками вместе с одиночными спиралями
+		-Большинство атак накладывают дебафф [cbuff:FargowiltasSouls/LethargicBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены (кроме увеличения скорости атак)
+		-Гигантские гелевые сгустки имеют небольшую самонаводку и разделяются на 8 частей, вместо 6-и
+		-Совершает рывки после одиночной спиральной атаки, вместо невидимости
+		-Двойные спирали разлетаются куда быстрее
+		'''
+	PharaohsCurse:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-В 1 фазе стреляет снарядами даже во время атаки щупальцами
+		-После спиральной атаки раскручивается вокруг игрока и стреляет в него
+		-После атаки руками стреляет залпом красных снарядов
+		-Большинство атак накладывают дебафф [cbuff:Cursed]
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-В 1 фазе стреляет большим количеством снарядов во время атаки щупальцами
+		-Стреляет снарядом шести проклятий,ы после чего совершает рывок
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены (кроме того, что атаки накладывают дебафф [cbuff:Cursed])
+		-Берёт некоторые атаки у Проклятого саркофага (ударные волны и костяные кресты)
+		-Большинство атак накладывают дебафф [cbuff:FargowiltasSouls/RottingBuff] или [cbuff:Cursed]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		-Ослаблена залповая атака (ибо она начинается во время стрельбы костяными крестами)
+		-Проклятые руки немного исцеляют босса, как у Чемпиона души
+		'''
+	Advisor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Ракеты летят дальше и разворачиваются быстрее
+		-Аналитик будет получать сниженный урон, если находится прямо над игроком
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Снаряды молний начнут лететь быстрее, но их время существования сокращается
+		-Фиолетовые сферы будут разделяться на 16 снарядов, вместо 8
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Стреляет большим количеством спиральных лучей, но их время существования сокращается
+		-Во время спиральной атаки стреляет несколькими электросферами
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/SmiteBuff], либо [cbuff:FargowiltasSouls/TheLightningRod]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		-Перед началом спиральной атакой стреляет большим количеством электросфер
+		'''
+	Excavator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/FusedBuff], [cbuff:FargowiltasSouls/TheLightningRod] или [cbuff:FargowiltasSouls/DefenselessBuff]
+		'''
+	Polaris:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/LethargicBuff] или [cbuff:FargowiltasSouls/DefenselessBuff]
+		-Лазерные лучи накладывают дебаффы [cbuff:FargowiltasSouls/SmiteBuff] и [cbuff:FargowiltasSouls/DefenselessBuff]
+		'''
+	Lux:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Количество снарядов во время крестовой атаки лазерами увеличено
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Количество снарядов во время крестовой атаки лазерами увеличено ещё сильнее
+		-Количество снарядов во время телепортирующей атаки с выбросом шаров увеличено
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Заимствует пару атак у Света жизни (световое поле)
+		-Вторая стена снарядов формируется во время атакой лазерными стенами
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/SmiteBuff], либо [cbuff:FargowiltasSouls/PurifiedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	SubspaceSerpent:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Во время кольцевой атаки стреляет красными и зелёными пеллетами
+		-Каждый рывок стреляет отложенным залпом красных пеллет
+		-Во 2 фазе во время погони за игроком стреляет красными пеллетами
+		-Красные пеллеты и фаерболы во 2 фазе накладывают дебафф [cbuff:CalamityMod/BrimstoneFlames]
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Во время кольцевой атаки стреляет большим количеством пеллет
+		-В 1 фазе во время погони за игроком стреляет зелёными пеллетами
+		-Залп красными пеллетами совершается с меньшей задержкой
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Кольцевая атака фаерболами происходит до рывка дождя пламени 2-й фазы
+		-Совершает атаку огненным дыханием каждый рывок дождя пламени
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/SmiteBuff], либо [cbuff:FargowiltasSouls/TheLightningRod], либо [cbuff:FargowiltasSouls/FusedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	RotGourd:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Выпускает споры после приземления от высокого прыжка
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-После поднятия мушками выпускает множество спор
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Создаёт ударные волны во время приземления
+		-Большинство атак накладывают либо дебафф [cbuff:FargowiltasSouls/RottingBuff], либо [cbuff:FargowiltasSouls/InfestedBuff], либо [cbuff:Dazed]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	SpookySpirit:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Совершает рывок 1 дополнительный раз
+		-Интервал между рывками уменьшен
+		-Телепортации проходят быстрее
+		-Глазной луч накладывает дебафф [cbuff:CalamityMod/Irradiated]
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Совершает рывок 2 дополнительных раза вместо 1
+		-Интервал между рывками уменьшен ещё сильнее
+		-Телепортации проходят гораздо быстрее
+		-Количество жёлтых глазоболтов увеличено
+		-Атаки в целом становятся быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Глазаряды накладывают дебафф [cbuff:FargowiltasSouls/SmiteBuff]
+		-Продолжает стрелять глазарядами даже во время атаки глазолучом
+		-Во время рывка выстреливает залпом из кос
+		-Во время дождя из черепов стреляет наведёнными в сторону игрока косами
+		-Во 2-й фазе испускает огни во время преследования игрока
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		-Увеличено количество снарядов для атак режима Вечность
+		'''
+	Moco:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Длительность дебаффа [cbuff:OgreSpit] увеличивается
+		-Дальность рывков увеличивается
+		-Может совершить рывок 1 дополнительный раз
+		-Начинает стрелять гигантской козявкой два раза
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Длительность дебаффа [cbuff:OgreSpit] увеличивается ещё сильнее
+		-Дальность рывка увеличивается ещё сильнее
+		-Может совершить рывок 2 дополнительных раза вместо 1
+		-Начинает стрелять гигантской козявкой три раза
+		-Атаки в целом становятся быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Во время рывка оставляет за собой след падающих соплей
+		-Каждая сопля начинает накладывать дебафф [cbuff:FargowiltasSouls/LethargicBuff] и [cbuff:FargowiltasSouls/InfestedBuff]
+		-Гигантские козявки начинают накладывать дебафф [cbuff:FargowiltasSouls/DefenselessBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	Daffodil:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Все шиповые атаки начинают накладывать дебафф [cbuff:FargowiltasSouls/InfestedBuff]
+		-Цветки начинают накладывать дебафф [cbuff:FargowiltasSouls/InfestedBuff]
+		-Мухи начинают накладывать дебафф [cbuff:FargowiltasSouls/RottingBuff]
+		-Сметающий лазер начинают накладывать дебафф [cbuff:FargowiltasSouls/FusedBuff]
+		'''
+	OrroBoro:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-До удлинённого рывка оба совершают плевковую атаку с определённым разбросом
+		-Все плевковые атаки и кровавые сгустки Орро начинают накладывать дебафф [cbuff:CalamityMod/BrainRot]
+		-Столбы плоти и кровавые сгустки Боро начинают накладывать дебафф [cbuff:CalamityMod/BurningBlood]
+		-Во время ярости Боро сплёвывает залп из 3-х ударов во время рывка
+		-Во время ярости вскоре после совершения рывка Орро создаёт несколько бомб
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Снаряды, выплюнутые до совершения удлинённого рывка летят гораздо быстрее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Глазные плевки начинают накладывать дебаффы [cbuff:FargowiltasSouls/LethargicBuff] и [cbuff:FargowiltasSouls/DefenselessBuff]
+		-Кровавые сгустки и столбы плоти начинают накладывать дебаффы [cbuff:FargowiltasSouls/RottingBuff]
+		-Во время удлинённого рывка Боро оставляет за собой след из пиявок
+		-Орро создаёт стены ленточных червей во время удлинённого рывка
+		-Боро выпускает самонаводящиеся зубы во время атаки языком
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	BigBone:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Стреляет самонаводящимися цветками во время взращивания прыгучих цветков
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Стреляет цветками гораздо быстрее и чаще
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Огненные атаки накладывают дебафф [cbuff:FargowiltasSouls/FusedBuff]
+		-Споровые атаки и атаки колючками накладывают дебафф [cbuff:FargowiltasSouls/InfestedBuff]
+		-Цветковые и костяные атаки накладывают дебафф [cbuff:FargowiltasSouls/RottingBuff]
+		-Бритвенные атаки накладывают дебаффы [cbuff:FargowiltasSouls/InfestedBuff] и [cbuff:FargowiltasSouls/DefenselessBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	BigDipper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Дальность рывка увеличена
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Дальность рывка увеличена ещё сильнее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Стреляет кольцом снарядов пока одиночный лазерный луч активен
+		-Стреляет разбросом из снарядов пока двойной лазерный луч активен
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/SmiteBuff] и [cbuff:FargowiltasSouls/TheLightningRod]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Увеличено количество снарядов у кольца снарядов
+		-Изменения для Calamity снова включены
+		'''
+	GoblinChariot:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Количество снарядов во время дождя ядер увеличено
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Колесница совершает атаку гигантским шаром, как только встанет над игроком
+		-Количество снарядов во время дождя ядер увеличено ещё сильнее
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Большинство атак накладывают дебаффы [cbuff:FargowiltasSouls/DefenselessBuff], [cbuff:FargowiltasSoulsStunnedBuff] и [cbuff:FargowiltasSouls/FusedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	Motherbrain:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Сетковая атака проныр используется дважды
+		-Спираль из проныр используется 1 дополнительный раз
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Спираль из проныр используется 2 дополнительных раза вместо 1-го
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Проныры накладывают дебаффы [cbuff:FargowiltasSouls/TheLightningRod] и [cbuff:FargowiltasSouls/DefenselessBuff]
+		-Голограммы Линки накладывают дебаффы режима Вечности, точно такие же, как скопированные ими существа
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	Motherbrain:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Сетковая атака проныр используется дважды
+		-Спираль из проныр используется 1 дополнительный раз
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Спираль из проныр используется 2 дополнительных раза вместо 1-го
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Проныры накладывают дебаффы [cbuff:FargowiltasSouls/TheLightningRod] и [cbuff:FargowiltasSouls/DefenselessBuff]
+		-Голограммы Линки накладывают дебаффы режима Вечности, точно такие же, как скопированные ими существа
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+	ScarabBelief:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Лучевая атака сопровождается световыми лучами, летящими по случайной траектории
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Световые лучи, летящие по случайной траектории выстреливаются разбросом из 3-х
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Изменения для Calamity отключены
+		-Все атаки накладывают дебаффы [cbuff:FargowiltasSouls/SmiteBuff] и [cbuff:FargowiltasSouls/PurifiedBuff]
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Изменения для Calamity снова включены
+		'''
+}
