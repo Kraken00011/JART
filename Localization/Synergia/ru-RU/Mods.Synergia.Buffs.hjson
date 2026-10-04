@@ -73,10 +73,10 @@ ProdigyBuff: {
 
 HotEggBuff: {
 	// DisplayName: Горячее яйцо Hot Egg
-	// Description: ФФФФ, АЙ! Какое же это яйцо горячее OOOf this egg really hot...
+	// Description: ФФФФ, АЙ! Какое же это яйцо горячее 
 }
 
 ReincarnationBuff: {
-	// DisplayName: Reincarnation Buff
-	// Description: Increase damage dealt by 20%
+	// DisplayName: Бафф реинкорнации Reincarnation Buff
+	// Description: Увеличивает наносимый урон на 20% 
 }
