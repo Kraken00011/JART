@@ -1,4 +1,4 @@
-ItemDescriptions.InfrasonicTunerExtras:
+/*ItemDescriptions.InfrasonicTunerExtras:
 	'''
 	Дополнительно призывает тёмного духа, стреляющего проклятыми нотами во врагов
 	Проклятые ноты усиливаются от бонусов струнных и духовых инструментов
@@ -26,3 +26,4 @@ Items: {
 		Жёлтый накладывает [cbuff:Ichor], розовый - [cbuff:ThoriumMod/IlluminatedNPC], а фиолетовый - [cbuff:ThoriumMod/LightCurse]
 		'''
 }
+*/

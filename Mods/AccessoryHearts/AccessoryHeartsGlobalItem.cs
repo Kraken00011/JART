@@ -47,7 +47,7 @@ public partial class AccessoryHeartsGlobalItem : GlobalItem
                         tooltip.Text = "Сердце было использовано. Похоже вам всё-таки не хватило силы воли...";
 
                     if (tooltip.Text == "Your virtue is truly remarkable")
-                        tooltip.Text = "Ваша сила воли действительно поражает.";
+                        tooltip.Text = "Ваша сила воли действительно впечатляет.";
                 }
             }
         }

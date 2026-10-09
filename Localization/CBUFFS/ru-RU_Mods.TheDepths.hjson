@@ -1,4 +1,4 @@
-Buffs.FlaskofMercury.Description: Ближние атаки, а также хлысты накладывают дебафф [cbuff:TheDepths/MercuryBoiling]
+/*Buffs.FlaskofMercury.Description: Ближние атаки, а также хлысты накладывают дебафф [cbuff:TheDepths/MercuryBoiling]
 
 Items: {
 	AquaGlove.Tooltip:
@@ -71,3 +71,4 @@ Items: {
 		'ЗАМОРОЗИТЬ!'
 		'''
 }
+*/

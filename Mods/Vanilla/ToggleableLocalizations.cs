@@ -469,19 +469,23 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\BloodMoonEnemiesRework\"))
 					continue;
 
+				if ((!JARTLocalizationConf.Instance.TheDepthsFix || !ModLoader.HasMod("TheDepths"))
+				&& modpath.Contains(@"JAtRT\Localization\TheDepths\"))
+					continue;
+
 				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization || */!ModLoader.HasMod("RagnarokMod"))
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
 					continue;
 				
 				// Другое
 
-				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
+				/*if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
 				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
 					continue;
 
 				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("FargowiltasSouls"))
 					&& modpath.Contains(@"JAtRT\Localization\CBUFFS(Cal+Fargos)\"))
-					continue;
+					continue;*/
 
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);

@@ -1,4 +1,4 @@
-CommonItemTooltip: {
+/*CommonItemTooltip: {
 	EquipPerksTipCorrupt:
 		'''
 		Способности:
@@ -48,3 +48,4 @@ Items: {
 		'Мастер теней, владыка ужаса'
 		'''
 }
+*/

@@ -1,4 +1,4 @@
-Items: {
+/*Items: {
 	VoidspaceEmblem.Tooltip:
 		'''
 		Увеличивает пустотный и магический урон на 10%
@@ -245,3 +245,4 @@ Items: {
 }
 
 ExperimentalInjectionTextList.2: Первый удар будет накладывать дебафф [cbuff:Poisoned] и красть здоровье врага
+*/

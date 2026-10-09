@@ -63,7 +63,7 @@ FadingHellEffect_Base: {
 
 CurseOfDemise: {
 	// DisplayName: Проклятье погибели
-	// Description: Вы обречены на смерть
+	// Description: Вы обречены
 }
 
 ProdigyBuff: {
@@ -72,11 +72,11 @@ ProdigyBuff: {
 }
 
 HotEggBuff: {
-	// DisplayName: Горячее яйцо Hot Egg
-	// Description: ФФФФ, АЙ! Какое же это яйцо горячее 
+	// DisplayName: Горячее яйцо
+	// Description: Ф-Ф-Ф-Ф, АЙ! И с чего это вдруг это яйцо такое горячее?!
 }
 
 ReincarnationBuff: {
-	// DisplayName: Бафф реинкорнации Reincarnation Buff
-	// Description: Увеличивает наносимый урон на 20% 
+	// DisplayName: Реинкарнация
+	// Description: Урон увеличен на 20% 
 }

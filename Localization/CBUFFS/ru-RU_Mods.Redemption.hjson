@@ -1,4 +1,4 @@
-GenericTooltips: {
+/*GenericTooltips: {
 	Bonuses.ClashBonus: При точном выборе момента может парировать вражеские рубящие атаки, давая бафф [cbuff:ParryDamageBuff]
 
 	RodOfHarmonyLine: Накладывает дебафф [cbuff:ChaosState] во время битвы с боссами из Redemption
@@ -127,3 +127,4 @@ Items: {
 		Даёт невосприимчивость к дебаффу [cbuff:Webbed]
 		'''
 }
+*/

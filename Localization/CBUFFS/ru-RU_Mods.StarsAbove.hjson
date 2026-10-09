@@ -1,4 +1,4 @@
-StellarArray.Abilities: {
+/*StellarArray.Abilities: {
 	UmbralEntropy.Description: Все атаки накладывают дебафф [cbuff:StarsAbove/Starblight] при критическом ударе. Вы получаете эффект кражи здоровья от врагов, на которых наложен дебафф [cbuff:StarsAbove/Starblight]. Исцеление ограничено 5 единицами здоровья в секунду.
 	KeyOfChronology.Description: Если вы получаете более 200 урона за один удар, вы исцеляетесь на эту величину и получаете неуязвимость на 5 секунд. Кроме того, все ближайшие обычные враги получают дебафф [cbuff:StarsAbove/Stun] на 5 секунд. Перезарядка 2 минуты.
 }
@@ -1064,3 +1064,4 @@ Configs.StarsAboveServersideConfig.DisableManaSicknessChange: {
 		Следует отметить, что это сделает не магическое оружие, расходующее ману, слишком сильным.
 		'''
 }
+*/

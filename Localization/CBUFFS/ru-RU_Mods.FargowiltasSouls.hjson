@@ -1,4 +1,4 @@
-WizardEffects: {
+/*WizardEffects: {
 	CrystalAssassin: Снижает время перезарядки рывка, а также время перезарядки баффа [cbuff:FargowiltasSouls/FirstStrikeBuff] до 5 секунд
 	Lead: Увеличивает урон от дебаффа [cbuff:FargowiltasSouls/LeadPoisonBuff] и сопротивление постепенному урону на 60%
 	Palladium: Бафф [cbuff:RapidHealing] всегда длится 5 секунд и увеличивает урон сфер
@@ -277,7 +277,7 @@ Items: {
 			[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
 			[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
 			[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
-			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы увеличить дальность обзора
 			'Слияние тысяч мелких врагов'
 			'''
 		VanityTooltip:
@@ -286,7 +286,7 @@ Items: {
 			[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
 			[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
 			[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
-			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+			[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы увеличить дальность обзора
 			'''
 	}
 
@@ -308,7 +308,7 @@ Items: {
 		[i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
 		[i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
 		[i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
-		[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+		[i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы увеличить дальность обзора
 		'Слияние тысяч мелких врагов'
 		'''
 
@@ -773,3 +773,4 @@ ActiveSkills.FrigidGemstoneKeyEffect.Tooltip:
 	Призывает блок льда в указанную позицию курсора
 	В хардмоде накладывает дебафф [cbuff:Frostburn]
 	'''
+	*/

@@ -1,4 +1,4 @@
-RecipeGroups: {
+/*RecipeGroups: {
 	FoodT2: Еда с баффом [cbuff:WellFed2]
 	FoodT3: Еда с баффом [cbuff:WellFed3]
 }
@@ -19,3 +19,4 @@ Items: {
 		Когда вы находитесь поблизости, значительно увеличивает удачу и даёт бафф [cbuff:SugarRush]
 		'''
 }
+*/

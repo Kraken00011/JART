@@ -113,7 +113,7 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
                     tooltip.Text = "+1 ед. к скорости регенерации здоровья";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Scoped").Type)
-                    tooltip.Text = "Нажмите ПКМ, чтобы отдалить\nЧем дольше вы отдаляете перед выстрелом, тем сильнее увеличивается урон, точность и скорость снаряда";
+                    tooltip.Text = "Нажмите ПКМ, чтобы увеличить дальность обзора\nЧем дольше вы отдаляете перед выстрелом, тем сильнее увеличивается урон, точность и скорость снаряда";
 
                 if (item.prefix == ModContent.Find<ModPrefix>("PinnacleReforges/Sentient").Type)
                 {

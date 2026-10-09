@@ -1,4 +1,4 @@
-Items: {
+/*Items: {
 	ArmorMeltingArrow.Tooltip:
 		'''
 		Игнорирует часть вражеской защиты
@@ -15,3 +15,4 @@ Items: {
 		При попадании накладывает дебафф [cbuff:CursedInferno]
 		'''
 }
+*/

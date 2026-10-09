@@ -41,7 +41,7 @@ ItemDescriptions: {
 	WayfarerSetBonus: Улучшает симфонические усиления, связанные с передвижением
 }
 
-Items: {
+/*Items: {
 	AntumbralTip: {
 		DisplayName: Полутеневой наконечник
 		Tooltip:
@@ -473,4 +473,4 @@ Configs: {
 				'''
 		}
 	}
-}
+}*/

@@ -1,4 +1,4 @@
-Buffs.YoyoProtectionDebuff.Description: На данный момент нельзя получить бафф [cbuff:ThoriumMod/YoyoProtectionBuff]
+/*Buffs.YoyoProtectionDebuff.Description: На данный момент нельзя получить бафф [cbuff:ThoriumMod/YoyoProtectionBuff]
 
 Items: {
 	GoblinWarSpear.Tooltip: Может наложить на врагов дебафф [cbuff:ThoriumMod/Gouge], наносящий дополнительный урон
@@ -343,3 +343,4 @@ ThrowerTechniques.CobraBite.Description:
 	Разбрасывает токсичные клыки, накладывающие дебафф [cbuff:Venom] на поражённых врагов
 	Гарантированно наносит критический удар врагам, находящимся под воздействием дебаффа [cbuff:Poisoned] или [cbuff:Venom]
 	'''
+	*/

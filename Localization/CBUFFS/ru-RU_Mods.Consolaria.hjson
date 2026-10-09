@@ -1,4 +1,4 @@
-Items: {
+/*Items: {
 	HeartArrow.Tooltip:
 		'''
 		Может наложить дебафф [cbuff:Consolaria/Stunned] на поражённого врага
@@ -20,4 +20,4 @@ Items: {
 		Нанесение метательного урона с 10% шансом может наложить дебафф [cbuff:Poisoned]
 		Ближайшие враги получают больше урона от дебаффов [cbuff:Poisoned] и [cbuff:Venom]
 		'''
-}
+}*/

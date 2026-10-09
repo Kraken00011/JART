@@ -1,4 +1,4 @@
-{
+/*{
     ArmorSetBonus: {
         Frost:
             '''
@@ -65,3 +65,4 @@
         Vitamins: Даёт невосприимчивость к дебаффу [cbuff:Weak]
     }
 }
+*/

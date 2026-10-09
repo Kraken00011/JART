@@ -570,11 +570,7 @@ public class JARTClientCfg : ModConfig
     [DefaultValue(true)]
     public bool ExtraClassTags;
 
-    [ReloadRequired]
-    [DefaultValue(true)]
-    public bool CBuffsForOtherMods;
-
-    [ReloadRequired]
-    [DefaultValue(true)]
-    public bool CheckModCompatibility;
+    /*[ReloadRequired]
+    [DefaultValue(false)]
+    public bool CBuffsForOtherMods;*/
 }
