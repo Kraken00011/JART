@@ -46,7 +46,7 @@ public class BossNameDisplayModSystem : ModSystem
         {
             var asm = bossNameDisplay.GetType().Assembly;
             var systemType = asm.GetType("BossNameDisplay.BossTitleSystem");
-            var fontField = systemType.GetField("BossTitleFont", BindingFlags.Public | BindingFlags.Static);
+            var fontField = systemType.GetField("RussianBossTitleFont", BindingFlags.Public | BindingFlags.Static);
             var myFont = ModContent.Request<SpriteFont>(
                 "JAtRT/Assets/Fonts/BossTitle",
                 AssetRequestMode.ImmediateLoad

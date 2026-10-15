@@ -11,28 +11,17 @@ Config: {
 		// HoverUITooltip: Позволяет вам изменять расположение элементов пользовательского интерфейса.
 		// ActiveSummonUI: Интерфейс призывателя
 		/* ActiveSummonUITooltip:
-				'''
-				Отключите, если вам по каким-либо причинам мешает этот интерфейс.
-				По умолчанию включено.
-				'''*/
+			'''
+			Отключите, если вам по каким-либо причинам мешает этот интерфейс.
+			По умолчанию включено.
+			'''*/
 		// SummonUI: Интерфейс призывателя
-		// NewFont: Уникальный шрифт
+		// NewFont: Новый игровой шрифт
 		/* NewFontTooltip:
 			'''
-			Изменяет стандартный игровой шрифт на новый. 
+			Изменяет стандартный игровой шрифт на новый.
 			Учитывайте, что это изменение коснётся как меню, так и внутриигровой мир.
 			'''*/
-	}
-
-	SynegiaConfig: {
-		// OcramHardModeAI: Enable Hard Mode AI
-		// MakesOcramAI: Makes Ocram's AI more challenging
-		// OcramWildAI: Enable Bacterium Prime hard AI
-		// MakesOcramAI2: Makes Bacterium Prime completely broken. Default Bacterium Prime without ai get 3 more new attacks. Why do you need that?
-		// PapuanHardAI: Enable Papuan Wizard Hard AI
-		// MakesPapuanAI: Makes Papuan Wizard significantly stronger with teleport and projectile attacks.
-		// NewRecipe: Includes new recipes
-		// NewRecipeTooltip: Synergia uses a complex recipe system. The tPackBuilder mod also changes them, but they will be simpler. Therefore, use only this mod or uncheck the box and use tPackBuilder.
 	}
 
 	SynergiaConfig: {
@@ -87,8 +76,8 @@ Config: {
 	}
 
 	UnconsumableConfig: {
-		// EnableUnconsumableSummons: Нерасходуемые предметы призыва
-		// EnableUnconsumableSummonsTooltip: Делает все расходуемые предметы призыва боссов нерасходуемыми.
+		// EnableUnconsumableSummons: Нерасходуемые призывалки
+		// EnableUnconsumableSummonsTooltip: Делает все расходуемые призывалки боссов нерасходуемыми.
 	}
 }
 
