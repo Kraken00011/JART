@@ -34,7 +34,7 @@ SetBonus: {
 	OnyxRobeMagic:
 		'''
 		Увеличивает защиту на 3 ед.
-		Увеличивает максимальный запас маны на 100
+		Увеличивает максимальный запас маны на 100 ед.
 		'''
 	PetrifiedWoodHelmet: Увеличивает сопротивление урону на 10%
 }
@@ -429,7 +429,7 @@ Items: {
 		Tooltip:
 			'''
 			Снижает расход маны на 22%
-			Увеличивает максимальный запас маны на 60
+			Увеличивает максимальный запас маны на 60 ед.
 			'''
 	}
 
@@ -450,57 +450,57 @@ Items: {
 
 	AchromaBanner: {
 		DisplayName: Знамя ахромы
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Archroma.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.Archroma.DisplayName}"
 	}
 
 	AlbinoBatBanner: {
 		DisplayName: Знамя летучей мыши-альбиноса
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.AlbinoBat.DisplayName}"
 	}
 
 	CrystalKingBanner: {
 		DisplayName: Знамя кристального короля
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.CrystalKing.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.CrystalKing.DisplayName}"
 	}
 
 	FerroslimeBanner: {
 		DisplayName: Знамя желейного слизня
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Ferroslime.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.Ferroslime.DisplayName}"
 	}
 
 	GeomancerBanner: {
 		DisplayName: Знамя геоманта
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Geomancer.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.Geomancer.DisplayName}"
 	}
 
 	GoldBatBanner: {
 		DisplayName: Знамя золотой летучей мыши
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.GoldBat.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.GoldBat.DisplayName}"
 	}
 
 	KingCoalBanner: {
 		DisplayName: Знамя угольного короля
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.KingCoal.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.KingCoal.DisplayName}"
 	}
 
 	SapphireSerpentBanner: {
 		DisplayName: Знамя сапфирового змея
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.DepthsWorm.DisplayName}"
 	}
 
 	ShadeBanner: {
 		DisplayName: Знамя тени
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Shade.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.Shade.DisplayName}"
 	}
 
 	ShadowBatBanner: {
 		DisplayName: Знамя теневой летучей мыши
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowBat.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.ShadowBat.DisplayName}"
 	}
 
 	ShadowSlimeBanner: {
 		DisplayName: Знамя теневого слизня
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}"
+		Tooltip: "{$common.Banner2} {$NPCs.ShadowSlime.DisplayName}"
 	}
 
 	CrystalSkinPotion: {
@@ -510,7 +510,7 @@ Items: {
 
 	FlaskofMercury: {
 		DisplayName: Флакон с ртутью
-		Tooltip: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
+		Tooltip: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
 	}
 
 	LargeOnyx: {
@@ -1231,7 +1231,7 @@ Items: {
 
 	PhantomFirecart: {
 		DisplayName: Пламенетка геоманта
-		Tooltip: Во время езды даёт 4 секунды невосприимчивости к ртути
+		Tooltip: Даёт 4 секунды невосприимчивости к ртути
 	}
 
 	QuartzCandelabra: {
@@ -1411,7 +1411,7 @@ Items: {
 
 	ImPurrSonation: {
 		DisplayName: Картина «Я-мур-лычу»
-		Tooltip: "'Л. Кейк & В. Сефи'"
+		Tooltip: "'Л. Кейк и В. Сефи'"
 	}
 
 	MusiciansBestFriend: {
@@ -1421,7 +1421,7 @@ Items: {
 
 	ChaosCat: {
 		DisplayName: Картина «Кот хаоса»
-		Tooltip: "'Л. Кейк & Б. Кэт'"
+		Tooltip: "'Л. Кейк и Б. Кэт'"
 	}
 
 	DONOTDRINK: {
@@ -1430,12 +1430,12 @@ Items: {
 	}
 
 	LivingFogDye: {
-		DisplayName: Краситель живого тумана
+		DisplayName: Живой туманный краситель
 		Tooltip: ""
 	}
 
 	IntenseShadowDye: {
-		DisplayName: Краситель интенсивной тени
+		DisplayName: Насыщенный теневой краситель
 		Tooltip: ""
 	}
 
@@ -1494,7 +1494,7 @@ Items: {
 		DisplayName: Поплавок ртутного мха
 		Tooltip:
 			'''
-			Увеличивает навык рыбной ловли на 10
+			Увеличивает навык рыбной ловли на 10 ед.
 			Ваш поплавок теперь светится
 			'''
 	}
@@ -1540,9 +1540,9 @@ Items: {
 			'''
 			Увеличивает урон от стрел на 10%
 			Значительно увеличивает скорость стрел
-			Даёт 20% шанс не потратить стрелу
-			Деревянные стрелы накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
-			'ЗАМОРОЗИТЬ!'
+			Даёт 20% шанс не потратить стрелы
+			Обычные стрелы будут накладывать дебафф «{$Buffs.FreezingWater.DisplayName}»
+			'ОБМОРОЗИТЬ!'
 			'''
 	}
 
@@ -1949,7 +1949,7 @@ Projectiles: {
 	QuartzChunk.DisplayName: Кварц
 	RubyBolt.DisplayName: Рубиновый заряд
 	SapphireShovelProj.DisplayName: Заряд воды
-	SapphireSpit.DisplayName: "{$Mods.TheDepths.Projectiles.SapphireShovelProj.DisplayName}"
+	SapphireSpit.DisplayName: "{$Projectiles.SapphireShovelProj.DisplayName}"
 	Shaderang.DisplayName: Тенеранг
 	ShadowBall.DisplayName: Большой теневой шар
 	ShadowBall2.DisplayName: Теневой шар
@@ -2072,25 +2072,25 @@ Achievements: {
 	HeartBreaker: {
 		Name: Сокрушитель сердец
 		Description: Одержать победу над Чазм и её сланцевой гиганткой - создательницей глубин и правительницей геомантов.
-		FriendlyName: "{$Mods.TheDepths.Achievements.HeartBreaker.Name}"
+		FriendlyName: "{$Achievements.HeartBreaker.Name}"
 	}
 
 	PickaxeOfPoison: {
 		Name: Едкая кирка
 		Description: Смастерить ртутную кирку, используя самую ядовитую жидкость.
-		FriendlyName: "{$Mods.TheDepths.Achievements.PickaxeOfPoison.Name}"
+		FriendlyName: "{$Achievements.PickaxeOfPoison.Name}"
 	}
 
 	MysteriesOfTheDark: {
 		Name: Тайны тьмы
 		Description: Копать глубже, пока не достигнешь глубин этого мира.
-		FriendlyName: "{$Mods.TheDepths.Achievements.MysteriesOfTheDark.Name}"
+		FriendlyName: "{$Achievements.MysteriesOfTheDark.Name}"
 	}
 
 	MercuryAngler: {
 		Name: Ртутный рыбак
 		Description: Бросить приманку в водоём с ртутью, получив окутанную ей же добычу.
-		FriendlyName: "{$Mods.TheDepths.Achievements.MercuryAngler.Name}"
+		FriendlyName: "{$Achievements.MercuryAngler.Name}"
 	}
 }
 
