@@ -35,6 +35,9 @@ public partial class InfernalEclipseAPIGlobalItem : GlobalItem
         }
 
         if (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/SoltanBullyingSlip").Type)
-            ItemHelper.ReplaceTooltip(tooltips, "InfernalEclipseAPI", "ItemInfo", afterName: "Tooltip0");
+            ItemHelper.ReplaceTooltip(tooltips, mod: "InfernalEclipseAPI", name: "ItemInfo", afterName: "Tooltip0");
+        
+        if (item.type == ModContent.Find<ModItem>("InfernalEclipseAPI/ExoSights").Type)
+            ItemHelper.ReplaceTooltip(tooltips, mod: "InfernalEclipseAPI", name: "Tooltip", nameMode: MatchMode.EndsWith, afterName: "Tooltip0");
     }
 }

@@ -343,48 +343,48 @@ public class ToggleableLocalizations : OnPatcher
 				// v1.3.2.0
 
 				if ((!JARTLocalizationConf.Instance.ShroomariaLocalization || !ModLoader.HasMod("Shroomaria"))
-				&& (modpath == @"JAtRT\Localization\Shroomaria\ru-RU_Mods.Shroomaria.hjson"
-				|| modpath == @"JAtRT\Localization\CBUFFS\ru-RU_Mods.Shroomaria.hjson"))
+				&& (modpath.Contains(@"JAtRT\Localization\Shroomaria\")
+				|| modpath == @"JAtRT\Localization\JBUFFS\ru-RU_Mods.Shroomaria.hjson"))
 					continue;
 
-				if (!JARTLocalizationConf.Instance.InfernumMasterPatchLocalization
-				&& modpath == @"JAtRT\Localization\InfernumMasterPatch\ru-RU_Mods.InfernumMasterPatch.hjson")
+				if ((!JARTLocalizationConf.Instance.InfernumMasterPatchLocalization || !ModLoader.HasMod("InfernumMasterPatch"))
+				&& modpath.Contains(@"JAtRT\Localization\InfernumMasterPatch\"))
 					continue;
 
-				if (!JARTLocalizationConf.Instance.CalamitySimpleWhipAddonLocalization
-				&& modpath == @"JAtRT\Localization\CalamitySimpleWhipAddon\ru-RU.hjson")
+				if ((!JARTLocalizationConf.Instance.CalamitySimpleWhipAddonLocalization || !ModLoader.HasMod("CalamitySimpleWhipAddon"))
+				&& modpath.Contains(@"JAtRT\Localization\CalamitySimpleWhipAddon\"))
 					continue;
 
-				if (!JARTLocalizationConf.Instance.SWBADTsLocalization
-				&& modpath == @"JAtRT\Localization\SWBADTs\ru-RU_Mods.SWBADTs.hjson")
+				if ((!JARTLocalizationConf.Instance.SWBADTsLocalization || !ModLoader.HasMod("SWBADTs"))
+				&& modpath.Contains(@"JAtRT\Localization\SWBADTs\"))
 					continue;
 
-				if (!JARTLocalizationConf.Instance.FlinxHatFix
-				&& modpath == @"JAtRT\Localization\FlinxHat\ru-RU_Mods.FlinxHat.hjson")
+				if ((!JARTLocalizationConf.Instance.InfernumLegendAndMasFix || !ModLoader.HasMod("InfernumLegendAndMas"))
+				&& modpath.Contains(@"JAtRT\Localization\InfernumLegendAndMas\"))
 					continue;
 
-				if (!JARTLocalizationConf.Instance.InfernumLegendAndMasFix
-				&& modpath == @"JAtRT\Localization\InfernumLegendAndMas\ru-RU.hjson")
+				if ((!JARTLocalizationConf.Instance.FlinxHatFix || !ModLoader.HasMod("FlinxHat"))
+				&& (modpath.Contains(@"JAtRT\Localization\FlinxHat\")
+				|| modpath == @"JAtRT\Localization\JBUFFS\ru-RU_Mods.FlinxHat.hjson"))
 					continue;
-
 				// 1.4.0.0
 
-				if (Skip(JARTLocalizationConf.Instance.MunchiesAuricSoulsAddonLocalization, "MunchiesAuricSoulsAddon",
-				modpath, @"JAtRT\Localization\MunchiesAuricSoulsAddon\ru-RU_Mods.MunchiesAuricSoulsAddon.hjson"))
+				if ((!JARTLocalizationConf.Instance.MunchiesAuricSoulsAddonLocalization || !ModLoader.HasMod("MunchiesAuricSoulsAddon"))
+				&& modpath.Contains(@"JAtRT\Localization\MunchiesAuricSoulsAddon\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.FutureBossesLocalization, "FutureBosses",
-				modpath, @"JAtRT\Localization\FutureBosses\ru-RU_Mods.FutureBosses.hjson"))
+				if ((!JARTLocalizationConf.Instance.FutureBossesLocalization || !ModLoader.HasMod("FutureBosses"))
+				&& modpath.Contains(@"JAtRT\Localization\FutureBosses\"))
 					continue;
 
-				if (Skip(JARTLocalizationConf.Instance.ExtraBeginningsLocalization, "ExtraBeginnings",
-				modpath, @"JAtRT\Localization\ExtraBeginnings\ru-RU_Mods.ExtraBeginnings.hjson"))
+				if ((!JARTLocalizationConf.Instance.ExtraBeginningsLocalization || !ModLoader.HasMod("ExtraBeginnings"))
+				&& modpath.Contains(@"JAtRT\Localization\ExtraBeginnings\"))
 					continue;
 
 				// 1.4.1.0
 
-				if (Skip(JARTLocalizationConf.Instance.HomewardWorldGenFixLocalization, "HomewardWorldGenFix",
-				modpath, @"JAtRT\Localization\HomewardWorldGenFix\ru-RU_Mods.HomewardWorldGenFix.hjson"))
+				if ((!JARTLocalizationConf.Instance.HomewardWorldGenFixLocalization || !ModLoader.HasMod("HomewardWorldGenFix"))
+				&& modpath.Contains(@"JAtRT\Localization\HomewardWorldGenFix\"))
 					continue;
 
 				// 1.5.0.0
@@ -476,16 +476,12 @@ public class ToggleableLocalizations : OnPatcher
 				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization || */!ModLoader.HasMod("RagnarokMod"))
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
 					continue;
-				
+
 				// Другое
 
-				/*if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate"))
-				&& modpath.Contains(@"JAtRT\Localization\CBUFFS\"))
+				if ((!JARTClientCfg.Instance.CoolerBuffs || !ModLoader.HasMod("CalamityRuTranslate"))
+				&& modpath.Contains(@"JAtRT\Localization\JBUFFS\"))
 					continue;
-
-				if ((!JARTClientCfg.Instance.CBuffsForOtherMods || !ModLoader.HasMod("CalamityMod") || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("FargowiltasSouls"))
-					&& modpath.Contains(@"JAtRT\Localization\CBUFFS(Cal+Fargos)\"))
-					continue;*/
 
 				using Stream stream = tModFile.GetStream(translationFile);
 				using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);

@@ -30,7 +30,7 @@ Configs: {
 			Label: Thorium Helheim
 			Tooltip: Включает перевод мода Thorium Helheim.
 		}
-		
+
 		# Средние моды
 
 		SevenItemsFromMinecraftLocalization: {
@@ -102,7 +102,7 @@ Configs: {
 			Label: "Unofficial Redemption Bard, Thrower & Healer"
 			Tooltip: Включает перевод мода Unofficial Redemption Bard, Thrower & Healer.
 		}
-		
+
 		# Мелкие моды
 
 		HomewardSubworldLocalization: {
@@ -506,6 +506,7 @@ Configs: {
 		}
 
 		// 1.6
+
 		ThrowerUnificationLocalization: {
 			Label: "Thrower Unification"
 			Tooltip: Включает перевод мода Thrower Unification.
@@ -579,20 +580,21 @@ Configs: {
 		Headers.Misc: Разное
 
 		ExtraClassTags: {
-			Label: "Дополнительные теги классов"
+			Label: Дополнительные теги классов
 			Tooltip:
 				'''
 				Включает дополнительные теги классов, появляющиеся над описанием предмета.
-				[c/DAA520:Для отображения тегов требуется включить Thorium Class Tags Consistency!]
+				[c/DAA520:Для работы требует Thorium Class Tags Consistency!]
 				'''
 		}
 
-		CBuffsForOtherMods: {
-			Label: "Иконки баффов/дебаффов"
+		CoolerBuffs: {
+			Label: Иконки баффов/дебаффов
 			Tooltip:
 				'''
-				Внедряет систему иконок баффов/дебаффов, добавляемую Calamity, в описания предметов из пары других модов, не связанных с Calamity.
-				[c/DAA520:Для работы требует Calamity Mod и Project tRU.]
+				Внедряет систему иконок баффов/дебаффов и цветной маркировки их названий, схожую с Calamity, в описания предметов из ваниллы и пары модов.
+				Имеется поддержка Calamity.
+				[c/DAA520:Для работы требует Project tRU.]
 				'''
 		}
 	}

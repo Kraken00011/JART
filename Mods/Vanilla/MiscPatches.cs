@@ -68,6 +68,32 @@ public partial class MiscPatches : GlobalItem
                 if (tooltip.Text == Language.GetTextValue("Mods.ThoriumClassTagsConsistency.Misc.SummonerClass"))
                     tooltip.Text = Language.GetTextValue("Mods.JAtRT.Tags.Class.Summoner");
             }
+
+            // Unofficial Calamity Bard & Healer
+            if (ModLoader.HasMod("CalamityBardHealer"))
+            {
+                bool rogueThrowerMerge = true;
+
+                if (ModLoader.TryGetMod("CalamityBardHealer", out var calBard))
+                {
+                    var configType = calBard.Code.GetType("BalanceConfig");
+                    if (configType != null)
+                    {
+                        var instanceProp = configType.GetField("Instance", BindingFlags.Static | BindingFlags.Public);
+                        var instance = instanceProp?.GetValue(null);
+
+                        rogueThrowerMerge = (bool)(configType.GetField("rogueThrowerMerge")?.GetValue(instance) ?? true);
+                    }
+                }
+
+                if (rogueThrowerMerge && item.defense <= 0 && !item.accessory && item.DamageType == ModContent.Find<DamageClass>("CalamityMod/RogueDamageClass"))
+                {
+                    tooltips.RemoveAll(l => l.Text == "-Метатель-");
+
+                    if (tooltip.Text.Contains("-Rogue"))
+                        tooltip.Text = "-Разбойник-";
+                }
+            }
         }
 
         // Ещё один патч тегов для Thorium Class Tags, меняющий их местоположение в описании
@@ -75,7 +101,7 @@ public partial class MiscPatches : GlobalItem
         {
             if (item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom || item.type == ItemID.FlaskofCursedFlames ||
             item.type == ItemID.FlaskofFire || item.type == ItemID.FlaskofGold || item.type == ItemID.FlaskofIchor || item.type == ItemID.FlaskofNanites)
-                ItemHelper.ReplaceTooltip(tooltips, "ThoriumClassTagsConsistency", "ClassTag", afterName: "ItemName");
+                ItemHelper.ReplaceTooltip(tooltips, mod: "ThoriumClassTagsConsistency", name: "ClassTag", afterName: "ItemName");
         }
 
         // Патч тегов для Calamity
@@ -91,32 +117,12 @@ public partial class MiscPatches : GlobalItem
             }
         }
 
-        // Unofficial Calamity Bard & Healer
-        if (ModLoader.HasMod("CalamityBardHealer"))
+        ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "VoidTag", afterName: "ItemName");
+
+        if (JARTClientCfg.Instance.CoolerBuffs)
         {
-            bool rogueThrowerMerge = true;
-
-            if (ModLoader.TryGetMod("CalamityBardHealer", out var calamityBard))
-            {
-                var configType = calamityBard.Code.GetType("BalanceConfig");
-                if (configType != null)
-                {
-                    var instanceProp = configType.GetField("Instance", BindingFlags.Static | BindingFlags.Public);
-                    var instance = instanceProp?.GetValue(null);
-
-                    rogueThrowerMerge = (bool)(configType.GetField("rogueThrowerMerge")?.GetValue(instance) ?? true);
-                }
-            }
-
-            if (rogueThrowerMerge && item.defense <= 0 && !item.accessory && item.DamageType == ModContent.Find<DamageClass>("CalamityMod/RogueDamageClass"))
-            {
-                tooltips.RemoveAll(l => l.Text == "-Метатель-");
-
-                ItemHelper.TranslateTooltip(tooltips, l => l.Text == "-Rogue Class-", tooltip =>
-                    tooltip.Text = tooltip.Text.Replace("-Rogue Class-", "-Разбойник-"));
-            }
+            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffHint", afterMod: "Terraria");
+            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffExpand", nameMode: MatchMode.StartsWith, afterMod: "Terraria");
         }
-
-        ItemHelper.ReplaceTooltip(tooltips, "JAtRT", "VoidTag", afterName: "ItemName");
     }
 }

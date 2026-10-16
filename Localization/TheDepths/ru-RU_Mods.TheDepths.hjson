@@ -224,7 +224,7 @@ Buffs: {
 
 	FlaskofMercury: {
 		DisplayName: Смазанное оружие: ртуть
-		Description: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
+		Description: Атаки хлыстов и оружия ближнего боя будут накладывать дебафф «{$Buffs.MercuryBoiling.DisplayName}»
 	}
 
 	FreezingWater: {
@@ -306,7 +306,7 @@ Items: {
 		DisplayName: Аква-перчатка
 		Tooltip:
 			'''
-			Атаки ближнего боя накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
+			Атаки ближнего боя будут накладывать дебафф «{$Buffs.FreezingWater.DisplayName}»
 			Увеличивает отбрасывание ближнего боя
 			Увеличивает урон и скорость атаки ближнего боя на 12%
 			Включает автоатаку для оружия ближнего боя
@@ -315,7 +315,7 @@ Items: {
 
 	AquaStone: {
 		DisplayName: Аква-камень
-		Tooltip: Атаки ближнего боя накладывают дебафф «{$Buffs.FreezingWater.DisplayName}»
+		Tooltip: Атаки ближнего боя будут накладывать дебафф «{$Buffs.FreezingWater.DisplayName}»
 	}
 
 	CrystalShield: {
@@ -338,8 +338,8 @@ Items: {
 		DisplayName: Кристальные ботинки-водоходы
 		Tooltip:
 			'''
-			Даёт возможность ходить по воде и мёду
-			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
+			Дают возможность ходить по воде и мёду
+			Дают невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
 			'''
 	}
 
@@ -368,9 +368,9 @@ Items: {
 		DisplayName: Серебряные тапочки
 		Tooltip:
 			'''
-			Даёт возможность ходить по воде и мёду, а также лаве и ртути
-			Даёт невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
-			Даёт 4 секунды невосприимчивости к ртути
+			Дают возможность ходить по воде и мёду, а также лаве и ртути
+			Дают невосприимчивость к дебаффу «{$Buffs.MercuryPoisoning.DisplayName}»
+			Дают 4 секунды невосприимчивости к ртути
 			'''
 	}
 
@@ -401,7 +401,7 @@ Items: {
 
 	GeodeLeggings: {
 		DisplayName: Жеодовые поножи
-		Tooltip: Увеличивает максимальное количество миньонов на 1
+		Tooltip: Увеличивают максимальное количество миньонов на 1
 	}
 
 	Geode: {
@@ -416,7 +416,7 @@ Items: {
 
 	MercuryGreaves: {
 		DisplayName: Ртутные поножи
-		Tooltip: Увеличивает скорость передвижения на 10%
+		Tooltip: Увеличивают скорость передвижения на 10%
 	}
 
 	MercuryHelmet: {
@@ -510,7 +510,7 @@ Items: {
 
 	FlaskofMercury: {
 		DisplayName: Флакон с ртутью
-		Tooltip: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$Buffs.MercuryBoiling.DisplayName}»
+		Tooltip: Атаки хлыстов и оружия ближнего боя будут накладывать дебафф «{$Buffs.MercuryBoiling.DisplayName}»
 	}
 
 	LargeOnyx: {
@@ -742,7 +742,7 @@ Items: {
 
 	LivingShadowStaff: {
 		DisplayName: Посох живой тени
-		Tooltip: Вызывает силуэт, сражающийся за вас
+		Tooltip: Призывает силуэт сражаться за вас
 	}
 
 	MercuryHamaxe: {
@@ -787,7 +787,7 @@ Items: {
 
 	SapphireShovel: {
 		DisplayName: Сапфировая лопата
-		Tooltip: При попадании по врагу кратковременно обездвиживает его
+		Tooltip: При попадании по врагу ненадолго оглушает его
 	}
 
 	ShadeBlade: {

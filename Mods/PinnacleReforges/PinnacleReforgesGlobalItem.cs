@@ -144,6 +144,6 @@ public partial class PinnacleReforgesGlobalItem : GlobalItem
             }
         }
 
-        ItemHelper.ReplaceTooltip(tooltips, "PinnacleReforges", "PrefixExtra", afterMod: "Terraria");
+        ItemHelper.ReplaceTooltip(tooltips, mod: "PinnacleReforges", name: "PrefixExtra", afterMod: "Terraria");
     }
 }

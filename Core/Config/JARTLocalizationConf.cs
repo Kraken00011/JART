@@ -570,7 +570,7 @@ public class JARTClientCfg : ModConfig
     [DefaultValue(true)]
     public bool ExtraClassTags;
 
-    /*[ReloadRequired]
-    [DefaultValue(false)]
-    public bool CBuffsForOtherMods;*/
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool CoolerBuffs;
 }
