@@ -1492,12 +1492,12 @@ Configs: {
 
 		bird: {
 			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Великая громовая птица"
-			Tooltip: Включает/Выключает переработку Великой громовой птицы.
+			Tooltip: Включает переработку Великой громовой птицы.
 		}
 
 		jelly: {
 			Label: "[i:ThoriumMod/QueenJellyfishMask]Королева медуз"
-			Tooltip: Включает/Выключает переработку Королевы медуз.
+			Tooltip: Включает переработку Королевы медуз.
 		}
 
 		qjLagReduction: {
@@ -1513,42 +1513,42 @@ Configs: {
 
 		bat: {
 			Label: "[i:ThoriumMod/ViscountMask]Виконт"
-			Tooltip: Включает/Выключает переработку Виконта.
+			Tooltip: Включает переработку Виконта.
 		}
 
 		champ: {
 			Label: "[i:ThoriumMod/BuriedChampionMask]Погребённый воитель"
-			Tooltip: Включает/Выключает переработку Погребённого воителя.
+			Tooltip: Включает переработку Погребённого воителя.
 		}
 
 		ges: {
 			Label: "[i:ThoriumMod/GraniteEnergyStormMask]Гранитный энергетический шторм"
-			Tooltip: Включает/Выключает переработку Гранитного энергетического шторма.
+			Tooltip: Включает переработку Гранитного энергетического шторма.
 		}
 
 		scout: {
 			Label: "[i:ThoriumMod/StarScouterMask]Звёздный разведчик"
-			Tooltip: Включает/Выключает переработку Звёздного разведчика.
+			Tooltip: Включает переработку Звёздного разведчика.
 		}
 
 		coznix: {
 			Label: "[i:ThoriumMod/FallenBeholderMask]Козникс"
-			Tooltip: Включает/Выключает переработку Падшего Созерцателя.
+			Tooltip: Включает переработку Падшего Созерцателя.
 		}
 
 		strider: {
 			Label: "[i:ThoriumMod/BoreanStriderMask]Борейский шагатель"
-			Tooltip: Включает/Выключает переработку Борейского шагателя.
+			Tooltip: Включает переработку Борейского шагателя.
 		}
 
 		lich: {
 			Label: "[i:ThoriumMod/LichMask]Лич"
-			Tooltip: Включает/Выключает переработку Лича.
+			Tooltip: Включает переработку Лича.
 		}
 
 		abyssion: {
 			Label: "[i:ThoriumMod/ForgottenOneMask]Абссион"
-			Tooltip: Включает/Выключает переработку Забытого.
+			Tooltip: Включает переработку Забытого.
 		}
 
 		requireAbyssion: {
@@ -1562,7 +1562,7 @@ Configs: {
 
 		rag: {
 			Label: "[i:ThoriumMod/TheOmegaCore]Рагнарёк"
-			Tooltip: Включает/Выключает переработку Первородных и Пожирателя снов.
+			Tooltip: Включает переработку Первородных и Пожирателя снов.
 		}
 
 		terminalLucidity: {
@@ -1604,7 +1604,7 @@ Configs: {
 
 		oldContract: {
 			Label: Старое поведение подписанного договора/договора палача
-			Tooltip: Включает/Выключает старый функционал подписанного договора/договора палача.
+			Tooltip: Включает старый функционал подписанного договора/договора палача.
 		}
 
 		ThoriumArmor: {

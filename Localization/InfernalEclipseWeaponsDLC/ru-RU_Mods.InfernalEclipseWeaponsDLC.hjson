@@ -1226,12 +1226,12 @@ Configs: {
 
 		AIGenedWeapons: {
 			Label: Оружие, идеи которого были сгенерированы ИИ
-			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сгенерированы ИИ в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
+			Tooltip: Включает возможность получения предметов, идеи для которых были сгенерированы ИИ в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
 		}
 
 		GitGudWeapon: {
 			Label: Оружие, идеи которого были сделаны GitGudWO
-			Tooltip: Включает/Выключает возможность получения предметов, идеи для которых были сделаны GitGudWO в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
+			Tooltip: Включает возможность получения предметов, идеи для которых были сделаны GitGudWO в видео за авторством Verveine «Which AI Makes the Best Terraria Weapons?».
 		}
 
 		EnableScreenEffects: {

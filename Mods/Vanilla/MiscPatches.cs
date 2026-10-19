@@ -76,7 +76,7 @@ public partial class MiscPatches : GlobalItem
 
                 if (ModLoader.TryGetMod("CalamityBardHealer", out var calBard))
                 {
-                    var configType = calBard.Code.GetType("BalanceConfig");
+                    var configType = calBard.Code?.GetType("BalanceConfig");
                     if (configType != null)
                     {
                         var instanceProp = configType.GetField("Instance", BindingFlags.Static | BindingFlags.Public);

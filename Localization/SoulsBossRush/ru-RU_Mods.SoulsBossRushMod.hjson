@@ -55,7 +55,7 @@ Configs: {
 
 		EnergizedVariants: {
 			Label: "[i:Fargowiltas/Overloader] Перегрузка"
-			Tooltip: Включает/Выключает перегрузку для боссов из Босс-раша.
+			Tooltip: Включает перегрузку для боссов из Босс-раша.
 		}
 	}
 }
