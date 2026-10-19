@@ -1,0 +1,257 @@
+Terraria: {
+	CursedInferno: {
+		ItemTooltipPlayer: 12 ед. урона в секунду
+		ItemTooltipEnemy: 24 ед. урона в секунду
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.CursedInferno.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.CursedInferno.ItemTooltipEnemy}"
+	}
+
+	Ichor: {
+		ItemTooltipPlayer: -15 ед. защиты
+		ItemTooltipEnemy: -15 ед. защиты
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Ichor.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Ichor.ItemTooltipEnemy}"
+	}
+
+	OnFire: {
+		ItemTooltipPlayer: 4 ед. урона в секунду
+		ItemTooltipEnemy: 4 ед. урона в секунду
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.OnFire.ItemTooltipEnemy}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.OnFire.ItemTooltipEnemy}"
+	}
+
+	OnFire3: {
+		ItemTooltipPlayer: 4 ед. урона в секунду
+		ItemTooltipEnemy: 15 ед. урона в секунду
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.OnFire.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.OnFire3.ItemTooltipEnemy}"
+	}
+
+	Midas: {
+		ItemTooltipPlayer: ""
+		ItemTooltipEnemy: Увеличивает количество выпадающих с цели монет
+	}
+
+	Poisoned: {
+		ItemTooltipPlayer: 2 ед. урона в секунду
+		ItemTooltipEnemy: 6 ед. урона в секунду
+		ItemTooltipPlayerCalamity: Истощение - 2 ед. урона в секунду
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Poisoned.ItemTooltipEnemy}"
+	}
+
+	Venom: {
+		ItemTooltipPlayer: 15 ед. урона в секунду
+		ItemTooltipEnemy: 30 ед. урона в секунду
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Venom.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Venom.ItemTooltipEnemy}"
+	}
+
+	ShadowFlame: {
+		ItemTooltipEnemy: 15 ед. урона в секунду
+		ItemTooltipPlayerCalamity: Жар - 15 ед. урона в секунду
+		ItemTooltipEnemyCalamity: Жар - 20 ед. урона в секунду
+	}
+
+	Bleeding: {
+		ItemTooltipPlayer: Не позволяет восстанавливать здоровье
+		ItemTooltipEnemy: 12 ед. урона в секунду
+	}
+
+	Frostburn: {
+		ItemTooltipPlayer: 8 ед. урона в секунду
+		ItemTooltipEnemy: 8 ед. урона в секунду
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Frostburn.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Frostburn.ItemTooltipEnemy}"
+	}
+
+	Frostburn2: {
+		ItemTooltipPlayer: 8 ед. урона в секунду
+		ItemTooltipEnemy: 25 ед. урона в секунду
+	}
+
+	Confused: {
+		ItemTooltipPlayer: Изменяет управление движением на противоположное
+		ItemTooltipEnemy: Изменяет управление движением на противоположное
+	}
+
+	Wet: {
+		ItemTooltipPlayer: Даёт невосприимчивость к некоторым огненным дебаффам, а также снимает их, если они уже были наложены
+		ItemTooltipEnemy: Даёт невосприимчивость к некоторым огненным дебаффам и [jbuff:Stinky], а также снимает их, если они уже были наложены
+		ItemTooltipPlayerCalamity:
+			'''
+			{ItemTooltipPlayer}
+			{$Terraria.Buffs.Wet.ItemTooltipPlayer}
+			'''
+		ItemTooltipEnemyCalamity:
+			'''
+			{ItemTooltipPlayer}
+			{$Terraria.Buffs.Wet.ItemTooltipEnemy}
+			'''
+	}
+
+	Slimed: {
+		ItemTooltipPlayer: Усиливает урон от огненных дебаффов
+		ItemTooltipEnemy: Усиливает урон от огненных дебаффов
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Slimed.ItemTooltipEnemy}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Slimed.ItemTooltipEnemy}"
+	}
+
+	BetsysCurse.ItemTooltipEnemy: -40 ед. защиты
+	WitheredArmor.ItemTooltipPlayer: Снижает защиту в 2 раза
+	WitheredWeapon.ItemTooltipPlayer: Снижает урон в 2 раза
+
+	ChaosState: {
+		ItemTooltipPlayer: Отнимает 1/7 от общего запаса здоровья при использовании жезла раздора
+		ItemTooltipPlayerCalamity: Не позволяет использовать жезл раздора
+	}
+
+	PotionSickness.ItemTooltipPlayer: Не позволяет использовать лечебные зелья
+	ManaSickness.ItemTooltipPlayer: Снижает магический урон
+	Rabies.ItemTooltipPlayer:
+		'''
+		Увеличивает урон на 20%
+		Снижает регенерацию здоровья в 2 раза
+		Периодически накладывает случайный дебафф из перечня
+		'''
+
+	Electrified: {
+		ItemTooltipPlayer:
+			'''
+			4 ед. урона в секунду
+			Наносит 5 больше урона в движении
+			'''
+		ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Electrified.ItemTooltipPlayer}"
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Electrified.ItemTooltipEnemy}"
+	}
+
+	Burning: {
+		ItemTooltipPlayer:
+			'''
+			30 ед. урона в секунду
+			Снижает скорость передвижения в 2 раза
+			'''
+		ItemTooltipPlayerCalamity:
+			'''
+			Жар - 30 ед. урона в секунду
+			Снижает скорость передвижения в 2 раза
+			'''
+	}
+
+	Oiled: {
+		ItemTooltipEnemy:
+			'''
+			25 ед. урона в секунду
+			Наносит урон только в сочетании с другим огненным дебаффом
+			'''
+		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Oiled.ItemTooltipEnemy}"
+	}
+
+	Shimmer: {
+		ItemTooltipPlayer:
+			'''
+			Сковывает движения
+			Игрок будет проваливаться сквозь твёрдые блоки пока не достигнет безблочной области
+			'''
+		ItemTooltipEnemy: Делает врага невидимым
+	}
+
+	BrokenArmor: {
+		ItemTooltipPlayer: Снижает защиту в 2 раза
+		ItemTooltipEnemy: -20 ед. защиты
+	}
+
+	Darkness.ItemTooltipPlayer: Снижает видимость
+	Blackout.ItemTooltipPlayer: Значительно снижает видимость
+	Chilled.ItemTooltipPlayer:
+		'''
+		Снижает скорость передвижения
+		Отключает бег
+		'''
+	Obstructed.ItemTooltipPlayer: Значительно снижает видимость
+	Silenced.ItemTooltipPlayer: Не позволяет использовать любые предметы, расходующие ману
+	Cursed.ItemTooltipPlayer: Не позволяет использовать любые предметы
+	NoBuilding.ItemTooltipPlayer: Не позволяет размещать или разрушать блоки
+	Slow.ItemTooltipPlayer: 
+        '''
+        Снижает горизонтальную скорость передвижения на 50%
+        Не позволяет бегать
+        '''
+	OgreSpit.ItemTooltipPlayer: Значительно снижает скорость передвижения
+	Frozen.ItemTooltipPlayer:
+		'''
+		Сковывает движения
+		Не позволяет использовать любые предметы
+		'''
+	Webbed.ItemTooltipPlayer:
+		'''
+		Сковывает движения и останавливает игрока на месте
+		Не позволяет использовать любые предметы
+		'''
+	Stoned.ItemTooltipPlayer:
+		'''
+		Сковывает движения
+		Не позволяет использовать любые предметы
+		Даёт восприимчивость к урону при падении, даже при использовании аксессуаров, нейтрализующих его
+		'''
+	WindPushed.ItemTooltipPlayer: Толкает игрока в направлении ветра
+	VortexDebuff.ItemTooltipPlayer: Толкает игрока вверх-вниз
+	Suffocation.ItemTooltipPlayer:
+        '''
+        20 ед. урона в секунду
+        Не позволяет восстанавливать здоровье
+        '''
+	Weak.ItemTooltipPlayer: Снижает защиту на 4 ед., урон и скорость атаки ближнего боя на 5,1%, а также скорость передвижения на 10%
+
+	Honey: {
+		ItemTooltipPlayer:
+			'''
+			Увеличивает скорость регенерации здоровья на 1 ед./сек
+			Ускоряет естественную регенерацию здоровья на 300%
+			'''
+        ItemTooltipPlayerCalamity: "{$Terraria.Buffs.Honey.ItemTooltipPlayer}"
+	}
+
+	Sunflower.ItemTooltipPlayer:
+		'''
+		Увеличивает скорость передвижения на 10%
+		Снижает частоту появления врагов на 17%
+		'''
+	AmmoBox.ItemTooltipPlayer: Даёт 20% шанс не потратить боеприпасы
+	Bewitched.ItemTooltipPlayer: Увеличивает максимальное количество миньонов на 1
+	Clairvoyance.ItemTooltipPlayer:
+		'''
+		Увеличивает максимальный запас маны на 20 ед., магический урон на 5% и шанс магического критического удара на 2%
+		Снижает расход маны на 2%
+		'''
+	Sharpened.ItemTooltipPlayer: Увеличивает пробивание брони ближнего боя на 12 ед.
+	WarTable.ItemTooltipPlayer: Увеличивает максимальное количество стражей на 1
+	SugarRush.ItemTooltipPlayer: Увеличивает скорость передвижения и добычи на 20%
+
+	Swiftness: {
+		ItemTooltipPlayer: Увеличивает скорость передвижения на 25%
+		ItemTooltipPlayerCalamity: Увеличивает скорость передвижения на 15%
+	}
+
+	Ironskin.ItemTooltipPlayer: Увеличивает защиту на 8 ед.
+	Hunter.ItemTooltipPlayer: Подсвечивает местоположение врагов на экране
+	NightOwl.ItemTooltipPlayer: Повышает видимость
+	Lifeforce.ItemTooltipPlayer: Увеличивает максимальный запас здоровья на 20 ед. за каждые 100 ед. общего здоровья
+	Lucky.ItemTooltipPlayer: Увеличивает удачу
+	Featherfall.ItemTooltipPlayer: Замедляет скорость падения
+	WellFed.ItemTooltipPlayer: Немного увеличивает большинство характеристик
+	WellFed2.ItemTooltipPlayer: Умеренно увеличивает большинство характеристик
+	WellFed3.ItemTooltipPlayer: Значительно увеличивает большинство характеристик
+	RapidHealing.ItemTooltipPlayer: Увеличивает скорость регенерации здоровья на 2 ед./сек
+	Spelunker.ItemTooltipPlayer: Подсвечивает местоположение сокровищ на экране
+	Regeneration.ItemTooltipPlayer: Увеличивает скорость регенерации здоровья на 2 ед./сек
+	Builder.ItemTooltipPlayer: Увеличивает скорость размещения блоков на 25% и дальность на 1 ед.
+	Mining.ItemTooltipPlayer: Увеличивает скорость добычи на 25%
+	ObsidianSkin.ItemTooltipPlayer: Даёт невосприимчивость к лаве и дебаффам [jbuffplr:OnFire] и [jbuffplr:Burning]
+	Rage.ItemTooltipPlayer: Увеличивает шанс критического удара на 10%
+	Wrath.ItemTooltipPlayer: Увеличивает урон на 10%
+	Shine.ItemTooltipPlayer: Даёт ауру света
+	Sonar.ItemTooltipPlayer: Отображает название улова, находящегося на крючке
+	Crate.ItemTooltipPlayer: Увеличивает шанс выловить ящик на 15%
+	Fishing.ItemTooltipPlayer: Увеличивает навык рыбной ловли на 15 ед.
+	ParryDamageBuff.ItemTooltipPlayer: Увеличивает урон от следующей атаки на 400%
+}

@@ -53,7 +53,7 @@ Items: {
 		DisplayName: Запретный плод Армагеддона
 		Tooltip:
 			'''
-			Включает/Выключает Армагеддон, его можно включить на любом уровне сложности
+			Включает Армагеддон, его можно включить на любом уровне сложности
 			While active, any hit while a boss is alive will instantly kill you
 			If you defeat a boss for the first time with this mode active, they will drop 5 extra treasure bags
 			These extra bags will drop even if you are not in Expert Mode

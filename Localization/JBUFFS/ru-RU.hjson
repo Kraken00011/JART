@@ -1,0 +1,96 @@
+{
+    ArmorSetBonus: {
+        Frost:
+            '''
+            Ближние и стрелковые атаки накладывают дебафф [jbuff:Frostburn2]
+            Увеличивает урон ближнего боя и стрелковый урон на 10%
+            '''
+        HuntressTier2:
+            '''
+            Увеличивает максимальное количество стражей на 1
+            Взрывные ловушки перезаряжаются быстрее и накладывают дебафф [jbuff:Oiled]
+            Подожгите врагов, подверженных дебаффу [jbuff:Oiled], чтобы нанести дополнительный урон
+            '''
+        Molten:
+            '''
+            Увеличивает урон ближнего боя на 10%
+            Даёт невосприимчивость к дебаффу [jbuffplr:OnFire]
+            '''
+        Snow: Даёт невосприимчивость к дебаффам [jbuffplr:Frozen] и [jbuffplr:Chilled]
+    }
+
+    BuffDescription: {
+        WeaponImbueCursedFlames: Атаки ближнего боя накладывают дебафф [jbuff:CursedInferno]
+        WeaponImbueFire: Атаки ближнего боя накладывают дебафф [jbuff:OnFire]
+        WeaponImbueGold: Атаки ближнего боя накладывают дебафф [jbuff:Midas]
+        WeaponImbueIchor: Атаки ближнего боя накладывают дебафф [jbuff:Ichor]
+        WeaponImbueNanites: Атаки ближнего боя накладывают дебафф [jbuff:Confused]
+        WeaponImbuePoison: Атаки ближнего боя накладывают дебафф [jbuff:Poisoned]
+        WeaponImbueVenom: Атаки ближнего боя накладывают дебафф [jbuff:Venom]
+    }
+
+    ItemTooltip: {
+        AdhesiveBandage: Даёт невосприимчивость к дебаффу [jbuffplr:Bleeding]
+        ArmorBracing: Даёт невосприимчивость к дебаффам [jbuffplr:Weak] и [jbuffplr:BrokenArmor]
+        ArmorPolish: Даёт невосприимчивость к дебаффу [jbuffplr:BrokenArmor]
+        BeeKeeper:
+            '''
+            При нанесении ударов по врагу призывает пчёл-убийц
+            Имеет небольшой шанс наложить дебафф [jbuff:Confused]
+            '''
+        Bezoar: Даёт невосприимчивость к дебаффу [jbuffplr:Poisoned]
+        BladeofGrass: Шанс наложить на врагов дебафф [jbuff:Poisoned]
+        Blindfold: Даёт невосприимчивость к дебаффу [jbuffplr:Darkness]
+        BrainOfConfusion:
+            '''
+            Даёт шанс создать иллюзию и уклониться от атаки
+            Временно увеличивает шанс критического удара после уклонения
+            После получения удара может наложить на ближайших врагов дебафф [jbuff:Confused]
+            '''
+        CountercurseMantra: Даёт невосприимчивость к дебаффам [jbuffplr:Silenced] и [jbuffplr:Cursed]
+        DaoofPow:
+            '''
+            Может наложить на врага дебафф [jbuff:Confused]
+            'Познай своё внутреннее равновесие'
+            '''
+        FastClock: Даёт невосприимчивость к дебаффу [jbuffplr:Slow]
+        FireGauntlet:
+            '''
+            Увеличивает отбрасывание ближнего боя, а также атаки ближнего боя накладывают дебафф [jbuff:OnFire3]
+            Увеличивает урон и скорость атаки ближнего боя на 12%
+            Включает автоатаку для оружия ближнего боя
+            Увеличивает размер оружия ближнего боя
+            '''
+        FlaskofCursedFlames: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:CursedInferno]
+        FlaskofFire: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:OnFire]
+        FlaskofGold: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Midas]
+        FlaskofIchor: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Ichor]
+        FlaskofNanites: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Confused]
+        FlaskofPoison: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Poisoned]
+        FlaskofVenom: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Venom]
+        MagmaStone: Атаки ближнего боя накладывают дебафф [jbuff:OnFire3]
+        MedicatedBandage: Даёт невосприимчивость к дебаффам [jbuffplr:Poisoned] и [jbuffplr:Bleeding] [jbuffplr:ObsidianSkin]
+        Megaphone: Даёт невосприимчивость к дебаффу [jbuffplr:Silenced]
+        NanoBullet: Накладывает дебафф [jbuff:Confused] и отскакивает от блоков
+        Nazar: Даёт невосприимчивость к дебаффу [jbuffplr:Cursed]
+        PocketMirror: Даёт невосприимчивость к дебаффу [jbuffplr:Stoned]
+        PoisonDart: Накладывает на врагов дебафф [jbuff:Poisoned]
+        ReflectiveShades: Даёт невосприимчивость к дебаффам [jbuffplr:Darkness] и [jbuffplr:Stoned]
+        RodofDiscord:
+            '''
+            Телепортирует вас в точку курсора
+            Вызывает [jbuffplr:ChaosState]
+            '''
+        ShadowFlameKnife: Накладывает на врагов дебафф [jbuff:ShadowFlame] при ударе
+        ShimmerCloak:
+            '''
+            Даёт невосприимчивость к дебаффу [jbuffplr:Shimmer]
+            Удерживайте {$Key.DOWN}, чтобы войти в фазовое состояние при погружении в мерцание
+            '''
+        ThePlan: Даёт невосприимчивость к дебаффам [jbuffplr:Slow] и [jbuffplr:Confused]
+        TrifoldMap: Даёт невосприимчивость к дебаффу [jbuffplr:Confused]
+        VenomArrow: Накладывает дебафф [jbuff:Venom]
+        VenomBullet: Накладывает дебафф [jbuff:Venom]
+        Vitamins: Даёт невосприимчивость к дебаффу [jbuffplr:Weak]
+    }
+}
