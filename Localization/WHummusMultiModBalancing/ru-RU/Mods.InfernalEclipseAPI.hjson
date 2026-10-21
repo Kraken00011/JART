@@ -53,7 +53,7 @@ ItemTooltip: {
 
 		BagOfAmmoConsume: {
 			ElementalQuiver: Даёт 20% шанс не использовать стрелы
-			ReplaceTooltip: Даёт 20% шанс не потратить боеприпасы
+			ReplaceTooltip: Даёт 20% шанс не израсходовать боеприпасы
 		}
 
 		BagOfAmmoOther:
