@@ -1,5 +1,5 @@
 v{ModVersion}
 Переводы:
-- По стандарту внесены правки в переводы
+- Нет
 Другие изменения:
-- Исправлен краш при игре с Munchies Crossmod Addon
+- Исправлен краш при игре с Munchies Crossmod Addon и HWJ
