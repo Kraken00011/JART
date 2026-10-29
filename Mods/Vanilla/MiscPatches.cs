@@ -47,6 +47,16 @@ public partial class MiscPatches : GlobalItem
                     tooltip.Text = tooltip.Text.Replace("% basic damage", "% базового урона");
                     tooltip.Text = tooltip.Text.Replace("basic damage", "ед. базового урона");
                 }
+
+                if (tooltip.Name == "ScytheSoulCharge")
+                {
+                    string[] parts = tooltip.Text.Split(' ');
+                    string scytheSoulCharge = parts[1];
+                    if (int.TryParse(scytheSoulCharge, out int value))
+                    {
+                        tooltip.Text = Language.GetTextValue("Mods.JAtRT.ModCompat.Thorium.ScytheSoulCharge", scytheSoulCharge);
+                    }
+                }
             }
 
             // ??? (При включении какого-то из модов у реликвий добавился этот текст в строке Master и я решил его перевести)

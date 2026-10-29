@@ -343,14 +343,14 @@ Items: {
 		// DisplayName: Котострел
 		/* Tooltip:
 			'''
-			Fires an additional cat head occasionally
+			Периодически дополнительно выпускает голову кота, наносящую урон
 			10% шанс не потратить боеприпасы
 			''' */
 	}
 
 	CatsEye: {
-		// DisplayName: Cat's Eye
-		// Tooltip: Fires rays of light
+		// DisplayName: Кошачий глаз
+		// Tooltip: Выпускает луч света
 	}
 
 	ClampulaBag: {
@@ -383,7 +383,7 @@ Items: {
 	}
 
 	COSGothNecklace: {
-		// DisplayName: Slimey Corgoth Necklace
+		// DisplayName: Slimy Corgoth Necklace
 		/* Tooltip:
 			'''
 			+3% critical strike chance and defense
@@ -415,22 +415,22 @@ Items: {
 	}
 
 	CursedLick: {
-		// DisplayName: Lick of Flame
-		// Tooltip: Fires a steam of cursed flames
+		// DisplayName: Язык пламени
+		// Tooltip: Выпускает поток проклятого пламени
 	}
 
 	DirtYoyo: {
-		// DisplayName: Dirt Yoyo
-		// Tooltip: Toggles Vanilla Yoyos to be melee or thrown damage
+		// DisplayName: Грязевое йо-йо
+		// Tooltip: При использовании ванильный йо-йо начнут наносить метательный урон
 	}
 
 	EnchantedIce: {
-		// DisplayName: Enchanted Ice
+		// DisplayName: Зачарованный лёд
 		// Tooltip: "'It freezes all of your being while touching it'"
 	}
 
 	EnchantedSeeds: {
-		// DisplayName: Enchanted Seeds
+		// DisplayName: Зачарованные семена
 		// Tooltip: "'The seed of a demon'"
 	}
 
@@ -460,12 +460,12 @@ Items: {
 	}
 
 	GimmimickBag: {
-		// DisplayName: Treasure Bag (Gimmimick)
+		// DisplayName: Мешок с сокровищами (Gimmimick)
 		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GoblinBag: {
-		// DisplayName: Treasure Bag (Goblin King)
+		// DisplayName: Мешок с сокровищами (Goblin King)
 		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -475,8 +475,8 @@ Items: {
 	}
 
 	GrasperBag: {
-		// DisplayName: Treasure Bag (Grasper)
-		// Tooltip: Right click to open
+		// DisplayName: Мешок с сокровищами (Grasper)
+		// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GrasperPendant: {
@@ -484,7 +484,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Emits a trail of Cursed Flames behind you
-			10% increased damage
+			Увеличивает урон на 10%
 			''' */
 	}
 

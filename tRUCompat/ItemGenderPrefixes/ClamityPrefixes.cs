@@ -22,7 +22,8 @@ internal class ClamityPrefixes : ModSystem
                 "DepthsEchoRifle",
                 "WitheredBoneBow",
                 "StarfishFromTheDepth",
-                "PlagueStation"
+                "PlagueStation",
+                "BlightedSpyglass"
             });
 
             tru.Call("AddNeuterItems", clamity, new string[]
