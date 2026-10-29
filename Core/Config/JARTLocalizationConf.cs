@@ -27,6 +27,11 @@ public class JARTLocalizationConf : ModConfig
     [DefaultValue(true)]
     public bool PrimeReworkLocalization;
 
+    // Ragnarok Mod
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool RagnarokModLocalization;
+
     // Thorium Helheim
     [ReloadRequired]
     [DefaultValue(true)]

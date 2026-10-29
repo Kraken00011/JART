@@ -40,6 +40,6 @@ Infernal Arsenal - мод, заполняющий слабые места игр
 Особые благодарности посвящаются [url=https://steamcommunity.com/id/skitter5]Feldy[/url], [url=https://steamcommunity.com/id/taco_con_kvass]TacoConKvass[/url], [url=https://steamcommunity.com/profiles/76561199098100065/myworkshopfiles/?appid=1281930]KainSett[/url] и [url=https://steamcommunity.com/profiles/76561198041992238] Verveine[/url] за помощь с созданием пары предметов для этого мода; [url=https://steamcommunity.com/profiles/76561199125907379]N0t_UNowen[/url] за предоставление кода тяжёлых и бросаемых кос, а также Pil за созданием пары спрайтов в моде!
 
 Перевод на упрощённый китайский был выполнен [url=https://steamcommunity.com/id/426875391]Pudd1ng[/url].
-Перевод на русский был выполнен [url=https://steamcommunity.com/profiles/76561199198456364]Kraken[/url] совместно с Htoya23.
+Перевод на русский был выполнен [url=https://steamcommunity.com/profiles/76561199198456364]Kraken_[/url] совместно с Htoya23.
 
 [b]Создано командой Infernal Eclipse of Ragnarok[/b]

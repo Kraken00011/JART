@@ -57,7 +57,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("стрелкового урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/50fa7b:стрелкового] [c/7746d7:урона]";
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/50fa7b:стрелкового урона]";
                     }
 
                     if (item.DamageType == voidMagic)
@@ -65,7 +65,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("магического урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/bd93f9:магического] [c/7746d7:урона]";
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/bd93f9:магического урона]";
                     }
 
                     if (item.DamageType == voidSummon)
@@ -95,7 +95,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("метательного урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ffb86c:метательного] [c/7746d7:урона]";
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ffb86c:метательного урона]";
                     }
 
                     if (item.DamageType == voidRadiant)
@@ -103,7 +103,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("лучезарного урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:лучезарного] [c/7746d7:урона]";
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:лучезарного урона]";
                     }
 
                     if (item.DamageType == voidSymphonic)
@@ -111,7 +111,7 @@ public class MoreColoredDamageTypes : GlobalItem
                         string[] parts = tooltip.Text.Split(' ');
 
                         if (tooltip.Text.Contains("пустотного и") && tooltip.Text.Contains("симфонического урона"))
-                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:симфонического] [c/7746d7:урона]";
+                            tooltip.Text = $"[c/7746d7:{parts[0]} ед. пустотного и] [c/ff8af8:симфонического урона]";
                     }
                 }
 
