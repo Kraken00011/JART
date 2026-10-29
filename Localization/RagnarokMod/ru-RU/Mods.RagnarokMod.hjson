@@ -1,14 +1,14 @@
-/*Buffs: {
+Buffs: {
 	AntarcticCreativityBuff: {
 		DisplayName: Антарктическая креативность
 		Description: Мороз дарует вам невероятное вдохновение
-		ItemTooltip: +15% inspiration regeneration rate and +10% increased symphonic playing speed
+		ItemTooltip: Увеличивает скорость восстановления вдохновения на 15% и игры на инструменте на 10%
 	}
 
 	AntarcticReinforcementBuff: {
 		DisplayName: Антарктические укрепления
-		Description: Мороз защищает вас
-		ItemTooltip: +8 ед. защиты и +2 ед. бонусного исцеления
+		Description: Мороз окутывает вас
+		ItemTooltip: Увеличивает защиту на 8 ед. и бонусное исцеление на 2 ед.
 	}
 
 	AntarcticExhaustionDebuff: {
@@ -17,328 +17,337 @@
 	}
 
 	GuardianHealerBeamBuff: {
-		DisplayName: Guardian Healer's Blessing
-		Description: You are under a profane blessing
-		ItemTooltip: +10% damage reduction and +5 hp/s life regen
+		DisplayName: Благословение стража-целительницы
+		Description: На вас действует осквернённое благословение
+		ItemTooltip: Увеличивает сопротивление урону на 10% и скорость регенерации здоровья на 5 ед./сек
 	}
 
 	ElementalScytheCooldown: {
-		DisplayName: Elemental Reaper Cooldown
-		Description: Elemental Reaper is on cooldown!
+		DisplayName: Перезарядка элементального жнеца
+		Description: Элементальный жнец перезаряжается!
 	}
 
 	ScytheAirBuff: {
-		DisplayName: Blessing of the Air
-		Description: You always have a tailwind
-		ItemTooltip: +20% movement speed and wing time
+		DisplayName: Благословение воздуха
+		Description: Ветер подталкивает вас
+		ItemTooltip: Увеличивает скорость передвижения и время полёта на 20%
 	}
 
 	ScytheBrimstoneBuff: {
-		DisplayName: Blessing of the Brimstone
-		Description: Your enemies erupt into accursed flames
+		DisplayName: Благословение серы
+		Description: Ваши враги вспыхивают серным пламенем
 		ItemTooltip: При попадании накладывает дебафф [cbuff:CalamityMod/BrimstoneFlames]
 	}
 
 	ScytheEarthBuff: {
-		DisplayName: Blessing of the Earth
-		Description: The earth protects you
-		ItemTooltip: +10 defense
+		DisplayName: Благословение Земли
+		Description: Земля защищает вас
+		ItemTooltip: Увеличивает защиту на 10 ед.
 	}
 
 	ScytheOasisBuff: {
-		DisplayName: Blessing of the Oasis
-		Description: You feel rejuvenated from the desert oasis
-		ItemTooltip: +15 hp/s life regen
+		DisplayName: Благословение оазиса
+		Description: Оазис омолаживает вас
+		ItemTooltip: Увеличивает скорость регенерации здоровья на 15 ед./сек
 	}
 
 	ScytheSandBuff: {
-		DisplayName: Blessing of the Sand
-		Description: The sands strengthen you
-		ItemTooltip: +5% attack damage
+		DisplayName: Благословение песков
+		Description: Пески усиливают вас
+		ItemTooltip: Увеличивает урон на 5%
 	}
 
 	ScytheWaterBuff: {
-		DisplayName: Blessing of the Water
-		Description: The water guides your hand
-		ItemTooltip: +5% all attack speed
+		DisplayName: Благословение вод
+		Description: Вода направляет ваши руки
+		ItemTooltip: Увеличивает скорость атаки на 5%
 	}
 
 	AuricSurge: {
-		DisplayName: Auric Surge
-		Description: You are being smited from within.
+		DisplayName: Ауритовый всплеск
+		Description: Вас поразила сила извне
 	}
 
 	KellyPetBuff: {
-		DisplayName: Kelly!
-		Description: Kelly will follow you.
+		DisplayName: Келли!
+		Description: Келли следует за вами
 	}
 
 	NightfallenDebuff: {
-		DisplayName: Nightfallen
-		Description: The darkness consumes.
+		DisplayName: Сумрак
+		Description: Тьма поглощает вас
 		ItemTooltip:
 			'''
-			Typeless - 100 DPS
-			+10% damage taken from all sources
+			Бесклассовый - 100 ед. урона в секунду
+			Увеличивает получаемый урон от всех источников на 10%
 			'''
 	}
 
 	LeviathanHeartBubble: {
-		DisplayName: Leviathan Bubble
-		Description: The Leviathan's Bubble grants you +5% damage reduction
-		ItemTooltip: +5% damage reduction
+		DisplayName: Пузырь Левиафан
+		Description: Пузырь Левиафан увеличивает ваше сопротивление урону на 5%
+		ItemTooltip: Увеличивает сопротивление урону на 5%
 	}
 
 	LeviathanHeartBubbleCorrupted: {
-		DisplayName: Corrupted Leviathan Bubble
-		Description:
+		DisplayName: Искажённый пузырь Левиафан
+		Description: Искажённый пузырь Левиафан увеличивает ваш урон на 10%, но одновременно снижает сопротивление урону на 5%
+		ItemTooltip:
 			'''
-			The Corrupted Leviathan's Bubble grants you +10% damage
-			But you take 5% more damage
+			Увеличивает урон на 10%
+			Увеличивает получаемый урон от всех источников на 5%
 			'''
-		ItemTooltip: +10% attack damage, +5% damage taken from all sources
 	}
 }
 
 Tooltips: {
 	WhiteDwarfSetBonus:
 		'''
-		Rogue attacks have a 5% chance unleash an ivory flare from the cosmos for 1.75x damage
-		The flare's damage is based on non-crit damage, but itself can crit
+		Разбойные атаки будут с 5% высвобождать изумрудные вспышки из космоса, наносящие в 1,75 больше урона атаки
+		Изумрудные вспышки наносят урон, равный урону атаки без критического удара
+		При этом сами изумрудные вспышки могут наносить критические удары
 		'''
 
 	LeviathanHeart: {
 		NormalTooltip:
 			'''
-			Healing spells heal 25% more hp
-			Healing spells apply [rbuff:RagnarokMod/LeviathanHeartBubble] to their target.
+			Увеличивает бонусное исцеление на 25%
+			Исцеляющие заклинания будут давать бафф [rbuff:RagnarokMod/LeviathanHeartBubble] задетым игрокам
 			'''
 		CorruptTooltip:
 			'''
-			The Leviathan's Bubble reacts to your dark energy!
-			All health costs are reduced by 1
-			Spending health grants you [rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]
-			10% increased radiant attack speed
+			Пузыри Левиафан резонируют с тёмной энергией!
+			Снижает расход здоровья на 1 ед.
+			Использование здоровья на лучезарные заклинания будет давать бафф [rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]
+			Увеличивает скорость лучезарных атак на 10%
 			'''
 	}
 }
 
 Compat: {
 	TechPoints: Увеличивает максимальное число очков техники на
-	Recharge: and recharge by
+	Recharge: и перезарядку на
 	BasicDamage: ед. базового урона
-	DupeDamage: вашего разбойного урона наносится повторно
-	DupeCap: Duplication damage caps at
-	NoGuideStack: Этот эффект не суммируется с эффектами других Effect does not stack with other Guides
+	DupeDamage: вашего разбойного урона будет наноситься повторно
+	DupeCap: "Максимальное количество повторно нанесённого урона:"
+	NoGuideStack: Этот эффект не суммируется с эффектами других руководств
 	Power: % Сила
-	Smited: был сражён.
+	Smited: был поражён.
 	Darkness: свалился во тьму.
-	TurnedToAmmo: был конвертирован в боеприпас.
+	TurnedToAmmo: был превращён в боеприпас.
 	Recoil: не выдержал отдачи.
 }
 
 Items: {
 	DrumStick: {
-		DisplayName: Drum Stick
-		Tooltip: "'Your enemies are your drums!'"
+		DisplayName: Барабанная палочка
+		Tooltip: "'Ваши враги теперь будут ещё и вашими барабанами!'"
 	}
 
 	AerospecBard: {
-		DisplayName: Aerospec Shovel Hat
+		DisplayName: Аэрофазовая выгнутая шляпа
 		Tooltip:
 			'''
-			5% increased playing and inspiration regeneration speed
-			+2 seconds to empowerment duration
+			Увеличивает скорость игры на инструменте и восстановления вдохновения на 5%
+			Увеличивает длительность симфонических усилений на 2 секунды
 			'''
 		SetBonus:
 			'''
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall
-			Allows you to fall more quickly and disables fall damage
-			6% increased symphonic damage
-			7% increased movement speed
+			Получение более 25 ед. урона за удар вызывает шквал самонаводящихся перьев
+			Позволяет быстрее падать и защищает от урона при падении
+			Увеличивает симфонический урон на 6%
+			Увеличивает скорость передвижения на 7%
 			'''
 	}
 
 	AerospecHealer: {
-		DisplayName: Aerospec Hood
+		DisplayName: Аэрофазовый капюшон
 		Tooltip:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			+20 maximum mana
+			Снижает весь урон, кроме лучезарного, на 10%
+			Увеличивает лучезарный урон на 10%
+			Увеличивает максимальный запас маны на 20 ед.
 			'''
 		SetBonus:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall
-			Allows you to fall more quickly and disables fall damage
-			Healing spells heal an additional 2 life
-			10% increased movement speed
+			Снижает весь урон, кроме лучезарного, на 10%
+			Увеличивает лучезарный урон на 10%
+			Получение более 25 ед. урона за удар вызывает шквал самонаводящихся перьев
+			Позволяет быстрее падать и защищает от урона при падении
+			Увеличивает бонусное исцеление на 2 ед. здоровья
+			Увеличивает скорость передвижения на 10%
 			'''
 	}
 
 	AuricTeslaFrilledHelmet: {
-		DisplayName: Auric Tesla Frilled Helmet
-		DisplayNameEclipse: Primordial Tesla Frilled Helmet
+		DisplayName: Ауритовый воротниковый тесла-шлем
+		DisplayNameEclipse: Первородный воротниковый тесла-шлем
 		Tooltip:
 			'''
-			20% increased symphonic damage, critical strike chance, and wind instrument homing speed
-			5% increased movement speed
-			30% increased inspiration regeneration
-			+15 max inspiration
-			+2 string instrument projectile bounces
+			Увеличивает симфонический урон, шанс симфонического критического удара и скорость самонаведения духовых инструментов на 20%
+			Увеличивает скорость передвижения на 5%
+			Увеличивает скорость восстановления вдохновения на 30%
+			Увеличивает максимальный запас вдохновения на 15 очков
+			Снаряды струнных инструментов будут отскакивать 2 дополнительных раза
 			'''
 		SetBonus:
 			'''
-			Bloodflare, God Slayer, and Rhapsodist armor effects
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will trigger both Rhapsodist armor abilities
+			Бонусы от комплектов брони барда: кровавой вспышки, богоубийцы и рапсода
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» активирует обе способности брони рапсода
 			'''
-		SetBonusHelheim: Tarragon, Bloodflare, and God Slayer armor effects
+		SetBonusHelheim: Бонусы от комплектов брони барда: эстрагоновой, кровавой вспышки и богоубийцы
 	}
 
 	AuricTeslaHealerHead: {
-		DisplayName: Auric Tesla Irradiant Visage
-		DisplayNameEclipse: Primordial Tesla Irradiant Visage
+		DisplayName: Ауритовый озаряющий тесла-визор
+		DisplayNameEclipse: Первородный озаряющий тесла-визор
 		Tooltip:
 			'''
-			Corrupts your radiant powers
-			100% increased radiant damage but 80% decreased non-radiant damage
-			25% increased radiant critical strike chance
-			5% increased movement speed
-			25% decreased mana usage
-			Healing spells heal an additional 10 life
-			+100 maximum mana
+			Усиливает некоторые лучезарные атаки тёмной энергией
+			Увеличивает лучезарный урон на 100%
+			Снижает весь урон, кроме лучезарного, на 80%
+			Увеличивает шанс лучезарного критического удара на 25%
+			Увеличивает скорость передвижения на 5%
+			Снижает расход маны на 25%
+			Увеличивает бонусное исцеление на 10 ед. здоровья
+			Увеличивает максимальный запас маны на 100 ед.
 			'''
-		ToggleTooltip: "[c/aaaaaa:Shift-Right Click this item in your inventory to toggle] [c/CC44FF:corrupted radiant powers]"
+		ToggleTooltip: "[c/aaaaaa:Нажмите Shift+ПКМ по этому предмету в инвентаре, чтобы переключить] [c/CC44FF:усиление тёмной энергией]"
 		SetBonus:
 			'''
-			Bloodflare, Silva, and Dreamweaver armor effects
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will trigger both Dreamweaver armor abilities
-			50% increased radiant damage
+			Бонусы от комплектов брони целителя: кровавой вспышки, Сильвы и ткача сновидений
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» активирует обе способности брони ткача сновидений
+			Увеличивает лучезарный урон на 50%
 			'''
 		SetBonusHelheim:
 			'''
-			Tarragon, Bloodflare, and Silva armor effects
-			50% increased radiant damage
+			Бонусы от комплектов брони целителя: эстрагоновой, кровавой вспышки и Сильвы
+			Увеличивает лучезарный урон на 50%
 			'''
 	}
 
 	BlazingDrumBeat: {
-		DisplayName: Emblazoned Drum Stick
+		DisplayName: Изысканная барабанная палочка
 		Tooltip:
 			'''
-			Successfully timing hits will steadily increase its damage and empowerment level
-			Mistiming hits will decrease these bonuses greatly and cost 9 inspiration
-			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
-			Chaining two or more successes will let out a large flaming slash
-			Flaming slashes inflict all enemies in range with [cbuff:CalamityMod/HolyFlames]
+			Удары в такт постепенно увеличивают урон и уровень усиления
+			Удары не в такт значительно снижают эти бонусы и расходуют 9 ед. вдохновения
+			Бонусы сохраняются при смене оружия, но постепенно ослабевают, пока это оружие не выбрано
+			Выполнение более 2 последовательных ударов в такт высвобождает массивный язык пламени
+			Язык пламени накладывает на всех в радиусе поражения дебафф [cbuff:CalamityMod/HolyFlames]
 			'''
 	}
 
 	BloodflareHeadBard: {
-		DisplayName: Bloodflare Spiked Helmet
+		DisplayName: Обшипованный шлем кровавой вспышки
 		Tooltip:
 			'''
-			20% increased symphonic damage and 12% increased symphonic critical strike chance
-			+15% increased inspiration regeneration and +6 maximum inspiration
-			+15% chance for inspiration notes to drop from enemies
+			Увеличивает симфонический урон и шанс симфонического критического удара на 20%
+			Увеличивает скорость восстановления вдохновения на 15%
+			Увеличивает максимальный запас вдохновения на 6 очков
+			Увеличивает шанс выпадения нот вдохновения на 15%
 			'''
 		SetBonus:
 			'''
-			Doing symphonic damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
-			Upon reaching 100 points: 20% increased symphonic damage and strike chance, 25% increased movement speed
-			Empowerments will be prolonged for an additional 3 seconds and 10% faster inspiration regen
-			Pressing the 'Armor Ability' key will consume 20 points to replenish 10 inspiration
-			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
-			Your points are also reset when a boss is spawned
+			Симфонические атаки будут накладывать дебафф [cbuff:CalamityMod/BurningBlood]
+			Вы будете накапливать очки кровожадности, по 2 очка за каждого поражённого симфоническим уроном врага (не чаще трёх раз в секунду)
+			При достижении 100 очков увеличивает симфонический урон и шанс симфонического критического удара на 20%, а также скорость передвижения на 25%
+			В дополнение увеличивает длительность усилений на 3 секунды и скорость восстановления вдохновения на 10%
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» потратит 20 очков кровожадности и взамен восстановит 10 вдохновения
+			При получении урона у вас заберётся 25 очков
+			Очки также будут стремительно пропадать, если не наносить урон более 5 секунд
+			Ваши очки обнуляются во время появления босса
 			'''
 	}
 
 	BloodflareHeadHealer: {
-		DisplayName: Bloodflare Grim Visage
+		DisplayName: Мрачный лик кровавой вспышки
 		Tooltip:
 			'''
-			20% reduced mana usage
-			70% decreased non-radiant damage and 50% increased radiant damage
-			20% increased radiant critical strike chance
-			Healing spells will heal for an additional 7 life
-			+60 maximum mana
+			Снижает расход маны на 20%
+			Снижает весь урон, кроме лучезарного, на 70%
+			Увеличивает лучезарный урон на 50%
+			Увеличивает шанс лучезарного критического удара на 20%
+			Увеличивает бонусное исцеление на 7 ед. здоровья
+			Увеличивает максимальный запас маны на 60 ед.
 			'''
 		SetBonus:
 			'''
-			Doing radiant damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
-			Upon reaching 100 points: 20% increased radiant damage and strike chance, 20% increased movement speed
-			and your healing spells will heal for an additional 3 health
-			Additionally you get healed for a small fraction of your dealt damage
-			Pressing the 'Armor Ability' key will consume 20 points to replenish 25 + bonus heal life 
-			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
-			Your points are also reset when a boss is spawned
+			Лучезарные атаки будут накладывать дебафф [cbuff:CalamityMod/BurningBlood]
+			Вы будете накапливать очки кровожадности, по 2 очка за каждого поражённого лучезарным уроном врага (не чаще трёх раз в секунду)
+			При достижении 100 очков увеличивает лучезарный урон и шанс лучезарного критического удара на 20%, а также скорость передвижения на 20%
+			В дополнение увеличивает бонусное исцеление на 3 ед. здоровья, а также исцеляет вас на величину, равную небольшой части нанесённого урона
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» потратит 20 очков кровожадности и взамен восстановит здоровье на величину, равную 25 ед. + значение вашего бонусного исцеления
+			При получении урона у вас заберётся 25 очков
+			Очки также будут стремительно пропадать, если не наносить урон более 5 секунд
+			Ваши очки обнуляются во время появления босса
 			'''
 	}
 
 	CalamityBell: {
-		DisplayName: Calamity Bell
-		Tooltip: Shoots homing brimstone fireblasts that inflict [cbuff:CalamityMod/BrimstoneFlames] on hit
+		DisplayName: Бедственный колокол
+		Tooltip: Выпускает самонаводящийся шар серного пламени, накладывающий дебафф [cbuff:CalamityMod/BrimstoneFlames]
 	}
 
-	CelestialManaCost: 20% decreased mana cost
+	CelestialManaCost: Снижает расход маны на 20%
 
 	DaedalusHeadBard: {
-		DisplayName: Daedalus Headgear
+		DisplayName: Головной убор Дедала
 		Tooltip:
 			'''
-			12% increased symphonic damage and 5% increased symphonic critical strike chance
-			+2 max inspiration
+			Увеличивает симфонический урон на 12%
+			Увеличивает шанс симфонического критического удара на 5%
+			Увеличивает максимальный запас вдохновения на 2
 			'''
 		SetBonus:
 			'''
-			+10% increased inspiration regeneration speed
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will grant you [rbuff:RagnarokMod/AntarcticCreativityBuff] for 15 seconds.
-			Costs 12 inspiration
+			Увеличивает скорость восстановления вдохновения на 10%
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» даст вам бафф [rbuff:RagnarokMod/AntarcticCreativityBuff] на 15 секунд
+			Использование способности расходует 12 очков вдохновения
 			'''
 	}
 
 	DaedalusHeadHealer: {
-		DisplayName: Daedalus Visage
+		DisplayName: Личина Дедала
 		Tooltip:
 			'''
-			10% reduced mana usage
-			15% decreased non-radiant damage
-			15% increased radiant damage and 7% increased radiant critical strike chance
-			+40 maximum mana
+			Снижает расход маны на 10%
+			Снижает весь урон, кроме лучезарного, на 15%
+			Увеличивает лучезарный урон на 15%
+			Увеличивает шанс лучезарного критического удара на 7%
+			Увеличивает максимальный запас маны на 40 ед.
 			'''
 		SetBonus:
 			'''
-			Healing spells heal an additional 3 life
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will shield you for 50 life and grants you [rbuff:RagnarokMod/AntarcticReinforcementBuff] for 15 seconds
-			Costs 100 mana
+			Увеличивает бонусное исцеление на 3 ед. здоровья
+			Нажатие клавиши «{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}» даст вам 50 ед. жизненного щита и бафф [rbuff:RagnarokMod/AntarcticReinforcementBuff] на 15 секунд
+			Использование способности расходует 100 ед. маны
 			'''
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: God Slayer Tricorn Helm
+		DisplayName: Треуголка богоубийцы
 		Tooltip:
 			'''
-			25% increased symphonic damage and 15% increased symphonic critical strike chance
-			15% increased inspiration regeneration
-			+7 max inspiration
-			+15% chance for inspiration notes to drop from enemies
+			Увеличивает симфонический урон на 25%
+			Увеличивает шанс симфонического критического удара на 15%
+			Увеличивает скорость восстановления вдохновения на 15%
+			Увеличивает максимальный запас вдохновения на 7 очков
+			Увеличивает шанс выпадения нот вдохновения на 15%
 			'''
-		SetBonus: While you are holding an instrument you will apply random empowerments
+		SetBonus: Периодически накладывает на вас случайные усиления, пока вы держите в руках любой симфонический инструмент
 	}
 
 	SilvaHeadHealer: {
-		DisplayName: Silva Wreathed Helmet
+		DisplayName: Венцовый шлем Сильвы
 		Tooltip:
 			'''
-			25% reduced mana usage
-			70% decreased non-radiant damage and 55% increased radiant damage
-			20% increased radiant critical strike chance
-			Healing spells will heal for an additional 9 life
-			+80 maximum mana
+			Снижает расход маны на 25%
+			Снижает весь урон, кроме лучезарного, на 70%
+			Увеличивает лучезарный урон на 55%
+			Увеличивает шанс лучезарного критического удара на 20%
+			Увеличивает бонусное исцеление на 9 ед. здоровья
+			Увеличивает максимальный запас маны на 80 ед.
 			'''
 		SetBonus:
 			'''
@@ -346,10 +355,10 @@ Items: {
 			Healed allies will be granted 50 more maximum health
 			Occasionally you will be blessed by heals or life shields
 			Will trigger more frequently on low health
-			+3 HP/s life regen
-			5% increased max run speed and acceleration
-			Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
-			This effect has a 5 minute cooldown, which does not decrement if any bosses or events are active
+			Увеличивает скорость регенерации здоровья на 3 ед./сек
+			Увеличивает максимальную скорость и ускорение бега на 5%
+			Получение смертельного урона воскресит вас и сделает неуязвимым ко всему урону на 5 секунд
+			Перезарядка эффекта занимает 5 минут, но её отсчёт приостанавливается во время битв с боссами и событий
 			'''
 	}
 
@@ -357,8 +366,8 @@ Items: {
 		DisplayName: Громовое перо
 		Tooltip:
 			'''
-			Can be sold for a very good price to shops
-			'A small feather fallen from the Grand Thunder Bird, it crackles with lightning'
+			Можно продать за очень неплохую цену
+			'Небольшое перо, оставленное Великой громовой птицей. Из него так и хлещут молнии'
 			'''
 	}
 
@@ -366,8 +375,8 @@ Items: {
 		DisplayName: Подозрительная инопланетная матплата
 		Tooltip:
 			'''
-			The motherboard from the Star Scouter
-			'This technology is beyond your knowledge'
+			Материнская плата, вырванная из Звёздного разведчика
+			'Эта технология выходит за пределы нашего понимания'
 			'''
 	}
 
@@ -388,16 +397,16 @@ Items: {
 
 	EmpoweredGranite: {
 		DisplayName: Усиленный гранит
-		Tooltip: "'Гранитный блок, напитавшийся энергией с Гранитного энергетического шторма'"
+		Tooltip: "'Гранитный блок, напитавшийся энергией Гранитного энергетического шторма'"
 	}
 
 	EnchantedMarble: {
 		DisplayName: Зачарованный мрамор
-		Tooltip: "'Особый мрамор, наполненный древней святой магией'"
+		Tooltip: "'Особый мрамор, напитанный древней божественной магией'"
 	}
 
 	StatigelHeadBard: {
-		DisplayName: Statigel Hat
+		DisplayName: Статигелевая шляпа
 		Tooltip:
 			'''
 			10% increased symphonic damage
@@ -434,8 +443,8 @@ Items: {
 	}
 
 	StriderFang: {
-		DisplayName: Strider Fang
-		Tooltip: "'An icy fang straight from the Borean Strider's mouth'"
+		DisplayName: Клык шагателя
+		Tooltip: "'Ледяной клык, вырванный прямо из пасти Борейского шагателя'"
 	}
 
 	TarragonCowl: {
@@ -488,49 +497,49 @@ Items: {
 	}
 
 	NightfallenHelmet: {
-		DisplayName: Nightfallen Helmet
+		DisplayName: Сумрачный шлем
 		Tooltip:
 			'''
-			Corrupts your radiant powers
-			33% decreased non-radiant damage
-			33% increased radiant damage
-			16% increased radiant critical strike chance
-			25% decreased mana cost
-			Maximum mana increased by 60
+			Усиливает некоторые лучезарные атаки тёмной энергией
+			Снижает весь урон, кроме лучезарного, на 33%
+			Увеличивает лучезарный урон на 33%
+			Увеличивает шанс лучезарного критического удара на 16%
+			Снижает расход маны на 25%
+			Увеличивает максимальный запас маны на 60 ед.
 			'''
 		SetBonus:
 			'''
-			Healing spells will heal an additional 4 life
-			All attacks inflict [rbuff:RagnarokMod/NightfallenDebuff]
+			Увеличивает бонусное исцеление на 4 ед. здоровья
+			Все атаки будут накладывать дебафф [rbuff:RagnarokMod/NightfallenDebuff]
 			'''
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: Nightfallen Breastplate
+		DisplayName: Сумрачный нагрудник
 		Tooltip:
 			'''
-			25% decreased non-radiant damage
-			25% increased radiant damage
-			16% increased radiant critical strike chance
-			20% decreased mana cost
+			Снижает весь урон, кроме лучезарного, на 25%
+			Увеличивает лучезарный урон на 25%
+			Увеличивает шанс лучезарного критического удара на 16%
+			Снижает расход маны на 20%
 			'''
 	}
 
 	NightfallenGreaves: {
-		DisplayName: Nightfallen Greaves
+		DisplayName: Сумрачные поножи
 		Tooltip:
 			'''
-			20% decreased non-radiant damage
-			20% increased radiant damage
-			12% increased radiant critical strike chance
-			20% decreased mana cost
-			20% increased movement speed
+			Снижают весь урон, кроме лучезарного, на 20%
+			Увеличивают лучезарный урон на 20%
+			Увеличивают шанс лучезарного критического удара на 12%
+			Снижают расход маны на 20%
+			Увеличивают скорость передвижения на 20%
 			'''
 	}
 
 	VictideHeadBard: {
 		DisplayName: Victide Hatanemone
-		Tooltip: 5% increased symphonic damage
+		Tooltip: Увеличивает симфонический урон на 5%
 		SetBonus:
 			'''
 			Enemies are less likely to target you
@@ -539,7 +548,7 @@ Items: {
 	}
 
 	EquivalentExchange: {
-		DisplayName: Equivalent Exchange
+		DisplayName: Равноценный обмен
 		Tooltip:
 			'''
 			Fires a life stealing bolt
@@ -550,7 +559,7 @@ Items: {
 	}
 
 	ProfanedScythe: {
-		DisplayName: Profaned Scythe
+		DisplayName: Осквернённая коса
 		Tooltip:
 			'''
 			A holy inferno of a scythe
@@ -560,12 +569,12 @@ Items: {
 	}
 
 	MarbleScythe: {
-		DisplayName: Marble Scythe
+		DisplayName: Мраморная коса
 		Tooltip: The magic marble imbues the scythe head with extra radiance
 	}
 
 	ScoriaDualscythe: {
-		DisplayName: Scoria Dualscythe
+		DisplayName: Пламенная двойная коса
 		Tooltip:
 			'''
 			The scoria allows you to spin the scythe much faster by constantly expelling steam
@@ -574,13 +583,13 @@ Items: {
 			'''
 	}
 
-	InspirationEssence.DisplayName: Inspiration Essence
+	InspirationEssence.DisplayName: Эссенция вдохновения
 
 	AstralRipper: {
-		DisplayName: Astral Ripper
+		DisplayName: Астральный жнец
 		Tooltip:
 			'''
-			Spinning this scythe creates stars that orbit you. 
+			Spinning this scythe creates stars that orbit you.
 			After completing a full circle, they pulsate once before exploding.
 			Holding <right> will start charging the scythe.
 			While charging, stars will begin to rapidly fall towards your cursor.
@@ -591,37 +600,37 @@ Items: {
 	}
 
 	RadioMic: {
-		DisplayName: Radio Mic
+		DisplayName: Радиомикрофон
 		Tooltip:
 			'''
 			Sing a song that creates a spread of shadowflame sound waves
 			The central sound wave will instead be cursed
 			The cursed sound will summon a tendril to attack the first enemy hit
-			'The microphone of a famous demon'
+			'Микрофон одного знаменитого демона'
 			'''
 	}
 
 	CorrosiveFlux: {
-		DisplayName: Corrosive Flux
+		DisplayName: Коррозионный поток
 		Tooltip: Fires 3 toxic bubbles
 	}
 
 	WindReaver: {
-		DisplayName: Wind Reaver
+		DisplayName: Ветробой
 		Tooltip: Releases an occasional wind slice when spun
 	}
 
 	TrueSquirrelScarf: {
-		DisplayName: True Squirrel Scarf
+		DisplayName: Истинный беличий шарф
 		Tooltip:
 			'''
-			The true, original form of the squirrel scarf.
-			Grants +999 Sentry Slots
+			Истинная форма беличьего шарфа.
+			Увеличивает максимальное количество стражей на 999
 			'''
 	}
 
 	Prisma: {
-		DisplayName: Prisma
+		DisplayName: Призма
 		Tooltip: Fire a holy water sea star that shatters into 5 spikes
 	}
 
@@ -635,66 +644,66 @@ Items: {
 	}
 
 	QueenJelly: {
-		DisplayName: Queen Jelly
+		DisplayName: Королевское желе
 		Tooltip:
 			'''
-			Restores 100 life
-			Medium improvements to all stats
-			'A delicious jellyfish jelly
-			One could say it makes the tastiest sandwich in the sea'
+			Восстанавливает 100 ед. здоровья
+			{$CommonItemTooltip.MediumStats}
+			'Великолепное медузное желе
+			Можно даже сказать, что именно из него получается самый вкусный бургер во всём море'
 			'''
 	}
 
 	Steampipes: {
-		DisplayName: Steampipes
-		Tooltip: Steam-Powered Bagpipes!
+		DisplayName: Паропровод
+		Tooltip: "'Волынка, работающая на пару!'"
 	}
 
 	ElysianSong: {
-		DisplayName: Elysian Song
+		DisplayName: Элизийская песнь
 		Tooltip: "'So close to an angel's trumpet, yet so far...'"
 	}
 
 	ExecutionerMark05: {
-		DisplayName: The Executioner: Mark 05
+		DisplayName: Казнитель обр. №05
 		Tooltip:
 			'''
 			It starts slow, but will continuously build speed
 			Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
-			'The core of XM-05 Thanatos rebuilt as a scythe'
+			'Ядро Танатоса, пересобранное в качестве косы'
 			'''
 	}
 
 	JellySlicer: {
-		DisplayName: Jelly Slicer
+		DisplayName: Желейный рассекатель
 		Tooltip: Shoots a fan of bouncing slime projectiles when swung
 	}
 
 	Splattercannon: {
-		DisplayName: Splattercannon
+		DisplayName: Брызгомёт
 		Tooltip:
 			'''
-			Press <right> to add 8 rounds into the chamber
-			Can hold a maximum of 64 rounds in the chamber
-			Press <left> to release all rounds at once
-			Will always have 8 rounds in the chamber
-			Spews blood orbs upon enemy hits
-			Picking up these blood orbs reduces the duration of [rbuff:PotionSickness]
-			'BLOOD IS FUEL'
+			Нажмите ПКМ, чтобы зарядить ещё 8 патронов в патронник
+			Патронник может вместить в себя до 64 патронов
+			Нажмите ЛКМ, чтобы выпустить все накопленные пули одновременно
+			Патронник всегда заряжен минимум на 8 патронов
+			При попадании по врагу пули выпускают подбираемые кровавые сферы
+			Подбор кровавых сфер сокращает время действия дебаффа [cbuff:PotionSickness]
+			'КРОВЬ — ТОПЛИВО'
 			'''
 	}
 
 	ProfanedBell: {
-		DisplayName: Profaned Bell
+		DisplayName: Осквернённый колокол
 		Tooltip:
 			'''
-			Shoots holy flame blasts
-			Hit enemies are afflicted with [cbuff:CalamityMod/HolyFlames] for 3 seconds
+			Выпускает шары святого огня
+			При попадании накладывает дебафф [cbuff:CalamityMod/HolyFlames] на 3 секунды
 			'''
 	}
 
 	AuricDamru: {
-		DisplayName: Auric Damru
+		DisplayName: Ауритовый дамру
 		Tooltip:
 			'''
 			Play the bongos, dealing damage to all nearby enemies
@@ -709,7 +718,7 @@ Items: {
 	}
 
 	EldritchShellFragment: {
-		DisplayName: Eldritch Shell Fragment
+		DisplayName: Хтонический фрагмент панциря
 		Tooltip:
 			'''
 			Fetches quite a fortune on the market
@@ -718,38 +727,38 @@ Items: {
 	}
 
 	SigilOfACruelWorld: {
-		DisplayName: Sigil of a Cruel World
+		DisplayName: Скрижаль жестокого мира
 		Tooltip:
 			'''
-			Increases symphonic damage by 15%
-			Increases symphonic playing speed by 8%
-			Increases inspiration regeneration rate by 8%
-			Increases maximum inspiration by 3
+			Увеличивает симфонический урон на 15%
+			Увеличивает скорость игры на инструменте на 8%
+			Увеличивает скорость восстановления вдохновения на 8%
+			Увеличивает максимальный запас вдохновения на 3 очка
 			'''
 	}
 
 	UniversalHeadset: {
-		DisplayName: Universal Headset
+		DisplayName: Вселенские наушники
 		Tooltip:
 			'''
-			Increases symphonic damage by 20%
-			Increases symphonic critical strike chance by 7%
-			Increases symphonic playing speed by 10%
-			Increases inspiration regeneration rate by 10%
-			Increases maximum inspiration by 5
+			Увеличивает симфонический урон на 20%
+			Увеличивает шанс симфонического критического удара на 7%
+			Увеличивает скорость игры на инструменте и восстановления вдохновения на 10%
+			Увеличивает максимальный запас вдохновения на 5 очков
 			Each unique empowerment you have increases movement speed by 2% and playing speed by 1%
 			'''
 	}
 
 	GoldenBatDroppings: {
-		DisplayName: Golden Bat Droppings
+		DisplayName: Останки золотой летучей мыши
 		Tooltip:
 			'''
-			+25% coins from enemies (50% while in rage mode)
+			Увеличивает количество выпадающих с врагов монет на 25%
+			Этот шанс увеличивается до 50% в режиме ярости
 			Increases damage based on held coins (coinslots only)
-			This bonus is increased by 50% while in adrenaline mode.
+			This bonus is increased by 50% while in adrenaline mode
 			You will lose 25% of your coins permanently upon death (50% on death or master mode)
-			"You're not greedy, you're just batshit crazy!"
+			'У этой мыши должно быть отлично развиты её летучие мышьцы, раз у неё получилось оставить такое'
 			'''
 	}
 
@@ -759,7 +768,7 @@ Items: {
 	}
 
 	CosmicInjector: {
-		DisplayName: Cosmic Injector
+		DisplayName: Космическая инъекция
 		Tooltip:
 			'''
 			Rapid fires both healing and damaging needles
@@ -769,7 +778,7 @@ Items: {
 	}
 
 	Korobeiniki: {
-		DisplayName: Korobeiniki
+		DisplayName: Коробейники
 		Tooltip:
 			'''
 			Causes Tetriminos to fall from the sky
@@ -778,12 +787,12 @@ Items: {
 	}
 
 	GraspofVoid: {
-		DisplayName: Grasp of Void
+		DisplayName: Ветвь пустоты
 		Tooltip: Fires a shard of void essence, inflicting [rbuff:ShadowFlame] on hit
 	}
 
 	PhantasmalEdge: {
-		DisplayName: Phantasmal Edge
+		DisplayName: Призрачная грань
 		Tooltip:
 			'''
 			Spinning this scythe creates many miniature fireballs that follow as you continue to spin the scythe
@@ -795,12 +804,12 @@ Items: {
 	}
 
 	GodSlayersReap: {
-		DisplayName: God Slayer's Reap
+		DisplayName: Жнец богоубийцы
 		Tooltip:
 			'''
 			Creates a small hologram resembling the Devourer of Gods at the very edge of your scythe spin
 			This hologram will grow in damage over time to a cap and inflict [cbuff:CalamityMod/GodSlayerInferno] on hit
-			Stopping use of the scythe while a hologram is active will release it to attack the nearest enemy 
+			Stopping use of the scythe while a hologram is active will release it to attack the nearest enemy
 			The released hologram will deal increased damage and inflict [cbuff:CalamityMod/WhisperingDeath]
 			'''
 	}
@@ -823,7 +832,7 @@ Items: {
 	}
 
 	ElementalReaper: {
-		DisplayName: Elemental Reaper
+		DisplayName: Элементальный жнец
 		Tooltip:
 			'''
 			Spinning this scythe creates homing projectiles that inflict [rbuff:CalamityMod/ElementalMix]
@@ -838,7 +847,7 @@ Items: {
 	}
 
 	BrimScythe: {
-		DisplayName: Brimscythe
+		DisplayName: Серокоса
 		Tooltip:
 			'''
 			While spinning, you are surrounded in a circle of Brimstone Flames that deals constant damage
@@ -853,7 +862,7 @@ Items: {
 	}
 
 	UnbreakableCombatUkulele: {
-		DisplayName: Unbreakable Combat Ukulele
+		DisplayName: Несокрушимое боевое укулеле
 		Tooltip:
 			'''
 			Press <left> to play the ukulele
@@ -863,7 +872,7 @@ Items: {
 	}
 
 	NightmareFreezer: {
-		DisplayName: Nightmare Freezer
+		DisplayName: Кошмарный обморозитель
 		Tooltip:
 			'''
 			Spinning the scythe periodically releases a barrage of chilling darts
@@ -872,73 +881,73 @@ Items: {
 	}
 
 	DragonForce: {
-		DisplayName: Dragon Force
+		DisplayName: Драконья сила
 		Tooltip:
 			'''
 			Consumes inspiration rapidly as you channel an inferno to your cursor
-			Press <right> to play the [c/FF4500:Roar of the Jungle Dragon] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/FF4500:«Roar of the Jungle Dragon»]!
 			While the riff is active, the inferno this weapon unleases is amplified
 			'''
 	}
 
 	Lamentation: {
-		DisplayName: Lamentation
-		Tooltip: Shoots homing brimstone gigablasts that inflict [cbuff:CalamityMod/BrimstoneFlames] on hit
+		DisplayName: Горе
+		Tooltip: Выпускает гигашар серного пламени, накладывающий дебафф [cbuff:CalamityMod/BrimstoneFlames]
 	}
 
 	Virusprayer: {
-		DisplayName: Virusprayer
-		Tooltip: Shoots a barrage of acid bubbles
+		DisplayName: Вируспылитель
+		Tooltip: Выпускает шквал ядовитых пузырей
 	}
 
 	IntergelacticRobohelm: {
-		DisplayName: Intergelactic Robohelm
+		DisplayName: Межгелектический мехашлем
 		Tooltip:
 			'''
-			Increases symphonic damage, critical strike chance, and playing speed by 20%
-			Increases inspiration regen by 15%
-			Increases max inspiration by 6
-			Increases empowerment duration by 3 seconds
-			Reduces damage taken by 12%
+			Увеличивает симфонический урон, шанс симфонического критического удара и скорость игры на инструменте на 20%
+			Увеличивает скорость восстановления вдохновения на 15%
+			Увеличивает максимальный запас вдохновения на 6 очков
+			Увеличивает длительность симфонических усилений на 3 секунды
+			Увеличивает сопротивление урону на 12%
 			'''
 	}
 
 	IntergelacticRamhelm: {
-		DisplayName: Intergelactic Ramhelm
+		DisplayName: Межгелектический рогатый шлем
 		Tooltip:
 			'''
-			Decreases non-radiant damage by 40%
-			Increases radiant damage by 30%
-			Increases radiant critical strike chance and attack speed by 15%
-			10% decreased mana usage
-			+60 maximum mana
-			Your healing spells will heal for an additional 5 life
+			Снижает весь урон, кроме лучезарного, на 40%
+			Увеличивает лучезарный урон на 30%
+			Увеличивает шанс лучезарного критического удара и скорость лучезарных атак 15%
+			Снижает расход маны на 10%
+			Увеличивает максимальный запас маны на 60 ед.
+			Увеличивает бонусное исцеление на 5 ед. здоровья
 			'''
 	}
 
 	KellyPet: {
-		DisplayName: Wand of Anarchi
+		DisplayName: Жезл Анахрхи
 		Tooltip:
 			'''
-			Summons Kelly to follow you
-			'Donor Item by HayWire799'
-			'Sprites by Zenovia'
+			Призывает Келли
+			'Предмет покровителя для HayWire799'
+			'Спрайты были нарисованы Zenovia'
 			'''
 	}
 
 	LeviathanHeart: {
-		DisplayName: Leviathan Heart
+		DisplayName: Сердце Левиафан
 		Tooltip: ""
 	}
 
 	SirenScale: {
-		DisplayName: Siren Scale
+		DisplayName: Чешуя сирены
 		Tooltip:
 			'''
-			The Siren sings along with your enchanting tune.
-			Symphonic damage increased by 15%
-			Inspiration regen rate increased by 20%
-			Anahita will sing along with your string instruments, firing additional water projectiles
+			Увеличивает симфонический урон на 15%
+			Увеличивает скорость восстановления вдохновения на 20%
+			Анахита будет петь параллельно тому, как вы атакуете, выпуская дополнительные снаряды
+			'Сирена подпевает вашей чарующей мелодии'
 			'''
 	}
 
@@ -947,24 +956,23 @@ Items: {
 		Tooltip:
 			'''
 			Sends out bouncing sound waves that appear to be made out of sand
-			Press <right> to play the [c/34C9EB:Guardian of the Former Seas] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/34C9EB:«Guardian of the Former Seas»]!
 			While the riff is active, attacks from this guitar are twice as large and deal 25% more damage
 			Time your attacks during the riff to reduce the cooldown
 			'''
 	}
 
 	AuricGreatscythe: {
-		DisplayName: Auric Greatscythe
+		DisplayName: Ауритовая двуручная коса
 		Tooltip:
 			'''
-			This scythe charges up the longer you spin it,
-			accelerating to unbelievable speeds
-			Press <right> to hurl a bolt of lightning
+			Чем дольше вы вращаете эту косу, тем быстрее она становится, в конце-концов доходя до немыслимых скоростей
+			Нажмите ПКМ, чтобы швырнуть заряд молнии Press <right> to hurl a bolt of lightning
 			'''
 	}
 
 	IrradiantInfinity: {
-		DisplayName: Irradiant Infinity
+		DisplayName: Озаряющая бесконечность
 		Tooltip:
 			'''
 			Press <left> to fire an [c/FF5555:Irradiant Red] orb with massive knockback
@@ -975,23 +983,23 @@ Items: {
 	}
 
 	PrimalTerror: {
-		DisplayName: Primal Terror
+		DisplayName: Первобытный ужас
 		Tooltip: Keep me favorited ;P
-		HasAwoken: The Primordial Wyrm has awoken!
+		HasAwoken: Первозданный змий пробуждается!
 	}
 
 	DevourerOfSines: {
-		DisplayName: Devourer of Sines
+		DisplayName: Пожиратель волн
 		Tooltip:
 			'''
 			Channel this weapon to create a massive sine wave
-			Press <right> to play the [c/501eb4:Universal Collapse] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/501eb4:«Universal Collapse»]!
 			While the riff is active, all players in range have unlimited flight
 			'''
 	}
 
 	Ectambourine: {
-		DisplayName: Ectambourine
+		DisplayName: Эктобубен
 		Tooltip:
 			'''
 			Throw an endless amount of ghostly tambourines
@@ -1005,7 +1013,7 @@ Items: {
 			'''
 			Whistles out a cursed burst of noise
 			Has a chance to shoot vile spit
-			Press <right> to play the [c/50477e:Filthy Mind] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/50477e:«Filthy Mind»]!
 			While the riff is active, infected pustules spawn around you
 			Infected pustules will spew cursed fire at the nearest enemy
 			'''
@@ -1016,7 +1024,7 @@ Items: {
 		Tooltip:
 			'''
 			Sends out bloody shockwaves
-			Press <right> to play the [c/AA1111:Blood Coagulant] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/AA1111:«Blood Coagulant»]!
 			While the riff is active, all players in range have life steal
 			Time your attacks during the riff to reduce the cooldown
 			Missed timings during the riff do not reduce the cooldown, but also do not reduce your damage
@@ -1024,17 +1032,17 @@ Items: {
 	}
 
 	SquirrelScarf: {
-		DisplayName: Squirrel Scarf
+		DisplayName: Беличий шарф
 		Tooltip:
 			'''
-			Increases your max number of sentries by 1
-			'As fluffy as a squirrel's tail'
+			Увеличивает максимальное количество стражей на 1
+			'Такой пушистый, прямо как хвост у белки'
 			'''
 	}
 
 	RiffTester: {
-		DisplayName: Riff Tester
-		Tooltip: Clears Riff Cooldowns. Use Responsibly.
+		DisplayName: Тестировщик риффов
+		Tooltip: Сбрасывает перезарядки у риффов. Использовать только на свой страх и риск.
 	}
 
 	StellarRiff: {
@@ -1043,7 +1051,7 @@ Items: {
 			'''
 			Sends out homing stars, that split into homing shards
 			Playing success will increase the number of shards
-			Press <right> to play the [c/00FFC8:Interstellar Stomper] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/00FFC8:«Interstellar Stomper»]!
 			While the riff is active, stars rain down from above
 			Homings shard count is doubled while the riff is active
 			Time your attacks during the riff to reduce the cooldown
@@ -1051,29 +1059,29 @@ Items: {
 	}
 
 	ToxicWaves: {
-		DisplayName: Toxic Waves
+		DisplayName: Едкие волны
 		Tooltip:
 			'''
 			Launches floating toxic clouds that inflict [cbuff:CalamityMod/SulphuricPoisoning] and [cbuff:CalamityMod/Irradiated] on hit
 			The clouds will pierce through enemies based on your additional string weapon bounces
-			Press <right> to play the [c/37C300:Toxic Wisdom] riff!
+			Нажмите ПКМ, чтобы проиграть рифф [c/37C300:«Toxic Wisdom»]!
 			While the riff is active, a sulphurous vortex summons acid sharkrons from above
 			Time your attacks during the riff to reduce the cooldown
 			'''
 	}
 
 	FateoftheGods: {
-		DisplayName: Fate of the Gods
+		DisplayName: Участь божья
 		Tooltip:
 			'''
 			Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!
 			The confines of this painting is not enough to fit the entire team
-			[c/999999:Hold Left Shift to see a list of past and current developers]
+			[c/999999:Удерживайте Shift для просмотра списка бывших и текущих разработчиков]
 			'''
-		Donors: Donors
-		Artists: Artists
-		Programmers: Programmers
-		OtherDevelopers: Other Developers
+		Donors: Покровители
+		Artists: Художники
+		Programmers: Программисты
+		OtherDevelopers: Другие разработчики
 	}
 
 	ProfanityFilter: {
@@ -1090,31 +1098,31 @@ Items: {
 	}
 
 	RedglassMonocle: {
-		DisplayName: Redglass Monocle
+		DisplayName: Красностекольный монокль
 		Tooltip:
 			'''
-			Once worn by an infamous underworld star
-			25% increased symphonic damage
-			Flat Damage empowerment is twice as effective on you
-			While worn, Radio Mic gets the following bonuses:
-			Inspiration cost reduced by 2
-			Increases the Damage empowerment level by 1
-			Inflicts [rbuff:ThoriumMod/Charmed] for 5 seconds
+			Когда-то его носила одна из главных звёзд преисподней
+			Увеличивает симфонический урон на 25%
+			Увеличивает эффективность усиления «{$ThoriumMod.Empowerments.FlatDamage.DisplayName}» в 2 раза
+			Пока надет, даёт радиомикрофону следующие бонусы:
+			 Снижение расхода вдохновения на 2 очка
+			 Увеличение уровня усиления «{$ThoriumMod.Empowerments.Damage.DisplayName}» на 1
+			При попадании накладывает дебафф [rbuff:ThoriumMod/Charmed] на 5 секунд
 			'''
 	}
 
 	RelicOfConvergenceOverride: {
 		Tooltip:
 			'''
-			Creates a profaned crystal at the cursor that channels a healing aura before shattering
-			All players within the area of effect are healed for {0} + 4x healing bonus HP
-			Allies gain 50% extra healing
-			Holding out the crystal decreases defense and increases incoming damage
-			[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
-			[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
-			[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]
+			Создаёт в точке курсора осквернённый кристалл, который испускает исцеляющую ауру, а затем разбивается
+			Все игроки в области действия восстанавливают здоровье на величину, равную {0} ед. + количество вашего бонусного исцеления, умноженное на 4
+			Все члены команды получают на 50% больше лечения
+			Когда вы держите кристалл в руках, снижается урон всех миньонов и стражей, ваша защита, а также увеличивается получаемый вами урон
+			[c/FF8C00:Я никогда прежде не знала доброты. Ни сверстники, ни семья не проявляли ко мне сострадания]
+			[c/FF8C00:Я мечтала о ком-то, кому могла бы довериться. О ком-то, чьё присутствие развеяло бы мои тревоги]
+			[c/FF8C00:И когда при нашей встрече я увидела Её лучезарную улыбку, я поняла - я наконец нашла то, что искала]
 			'''
-		DisplayName: Relic of Convergence
+		DisplayName: Реликвия сближения
 	}
 
 	CorroslimeBass: {
@@ -1148,15 +1156,15 @@ Items: {
 			Press <right> to return the waves
 			Returning waves will ignore tiles
 			'''
-		DisplayName: Wulfrum Guitar
+		DisplayName: Вульфрумовая гитара
 	}
 
 	MenuMusicBox: {
-		DisplayName: Music Box (Ragnarok Title)
-		Tooltip: Plays 'Menu Theme' by CrafterDaemon
+		DisplayName: Музыкальная шкатулка (Заглавная тема Ragnarok)
+		Tooltip: Проигрывает «Menu Theme» за авторством CrafterDaemon
 	}
 
-	InspirationSingularity.DisplayName: Inspiration Singularity
+	InspirationSingularity.DisplayName: Сингулярность вдохновения
 
 	Asterion: {
 		DisplayName: Asterion
@@ -1172,46 +1180,46 @@ Items: {
 	}
 
 	FungalCastanets: {
-		DisplayName: Fungal Castanets
+		DisplayName: Грибные кастаньеты
 		Tooltip:
 			'''
 			Alternating castanet clicks spray lingering fungal spores
-			Press <right> to play the [c/00FFFF:1NF3S+@+!0N Riff!]
+			Нажмите ПКМ, чтобы проиграть рифф [c/00FFFF:«1NF3S+@+!0N»!]
 			During the riff, your castanets become Crabulon's claws while spores rain from above
 			'Sounds like crab claws!'
 			'''
 	}
 
 	CantStopWontStop: {
-		DisplayName: Cant Stop Wont Stop
-		Tooltip: This is the song that never ends...!
+		DisplayName: «Cant Stop Wont Stop»
+		Tooltip: И песня больше не утихнет...!
 	}
 
 	GlacialHarvester: {
-		DisplayName: Glacial Harvester
+		DisplayName: Ледниковый косец
 		Tooltip:
 			'''
 			Hold <left> to spin the scythe
 			Press <right> to slam the scythe, sending out a massive wave of ice
-			Inflicts [rbuff:Frostburn]
+			При попадании накладывает дебафф [cbuff:Frostburn]
 			'''
-		Cooldown: Glacial Slam is on cooldown
+		Cooldown: Ледниковый удар перезаряжается
 	}
 
 	Aphelion: {
-		DisplayName: Aphelion
+		DisplayName: Афелий
 		Tooltip:
 			'''
-			Hold <left> to spin the scythe, pulling nearby enemies into its vortex
-			Spin long enough to summon two orbiting [c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s]
-			When both are active, press <right> to collapse their orbit into a supernova
-			Inflicts [rbuff:CalamityMod/MiracleBlight] on hit
-			[c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s] inflict [rbuff:CalamityMod/Dragonfire], [rbuff:CalamityMod/GodSlayerInferno], and [rbuff:CalamityMod/Daybroken] on contact
+			Удерживайте ЛКМ, чтобы раскрутить косу, попутно притягивая врагов в образованный вихрь
+			Раскручивание косы в течение достаточного количества времени призовёт 2 вращающие вокруг вас [c/DDEEFF:З][c/D2E3FA:в][c/C7D8F5:ё][c/BCCDEF:з][c/B2C2EA:д][c/A7B7E5:н][c/9CACE0:ы][c/8697D5:е] [c/7B8CD0:м][c/7181CB:а][c/6676C5:т][c/5B6BC0:е][c/5060BB:р][c/4556B5:и][c/3A4CB0:и]
+			Нажмите ПКМ, пока материи активны, чтобы столкнуть их друг с другом и вызвать сверхновую
+			При попадании накладывает дебафф [cbuff:CalamityMod/MiracleBlight]
+			[c/DDEEFF:З][c/D2E3FA:в][c/C7D8F5:ё][c/BCCDEF:з][c/B2C2EA:д][c/A7B7E5:н][c/9CACE0:ы][c/8697D5:е] [c/7B8CD0:м][c/7181CB:а][c/6676C5:т][c/5B6BC0:е][c/5060BB:р][c/4556B5:и][c/3A4CB0:и] накладывают дебаффы [cbuff:CalamityMod/Dragonfire], [cbuff:CalamityMod/GodSlayerInferno] и [cbuff:CalamityMod/Daybroken]
 			'''
 	}
 
 	Thaumonomicon: {
-		DisplayName: Thaumonomicon
+		DisplayName: Таумономикон
 		Tooltip: ""
 	}
 }
@@ -1516,7 +1524,7 @@ Configs: {
 	}
 
 	UIConfig: {
-		DisplayName: UI Config
+		DisplayName: Конфигурация интерфейса
 
 		Headers: {
 			UITweaks: UI Tweaks Header
@@ -1535,11 +1543,11 @@ Configs: {
 	}
 
 	ModCompatConfig: {
-		DisplayName: Mod Compatibility Config
-		Headers.ModCompat: Mod Compat
+		DisplayName: Конфигурация совместимости
+		Headers.ModCompat: Совместимость модов
 
 		item_deduplication_mode: {
-			Label: Calamity Bard & Healer item deduplication
+			Label: Дублирование предметов из Calamity Bard & Healer
 			Tooltip: Select which item recipes of duplicate items are loaded. Off enables both mod versions.
 		}
 	}
@@ -1548,73 +1556,82 @@ Configs: {
 		Tooltip: ""
 
 		Off: {
-			Label: Off
+			Label: ВЫКЛ
 			Tooltip: ""
 		}
 
 		Ragnarok: {
-			Label: Ragnarok Mod
+			Label: Ragnarok
 			Tooltip: ""
 		}
 
 		CalamityBardHealer: {
-			Label: Calamity Bard Healer
+			Label: Calamity Bard & Healer
 			Tooltip: ""
 		}
 	}
 
 	BossConfig: {
-		DisplayName: Boss Config
-		Headers.BossChanges: Boss Changes
+		DisplayName: Конфигурация боссов
+		Headers.BossChanges: Изменения боссов
 
 		bird: {
-			Label: Grand Thunderbird AI
-			Tooltip: Select which AI rework should be used. Off for default behaviour.
+			Label: ИИ Великой громовой птицы
+			Tooltip:
+				'''
+				Позволяет выбрать, ИИ из какого мода будет использовать этот босс.
+				Отключите, чтобы играть без изменённого ИИ.
+				Автоматически выбирает Ragnarok, если у вас не включены другие моды, перерабатывающие боссов Thorium.
+				'''
 		}
 
 		jelly: {
-			Label: Queen Jellyfish AI
-			Tooltip: Select which AI rework should be used. Off for default behaviour.
+			Label: ИИ Королевы медуз
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		bossstatstweak: {
-			Label: Boss Stat Tweak
+			Label: Изменение характеристик боссов
 			Tooltip: Select if Thorium bosses receive stat tweaks (attack damage, health, defense, damage reduction) for Calamity scaling.
 		}
 
 		bossrush: {
-			Label: Thorium Boss Rush
-			Tooltip: Select which boss rush mode should be used. Off disables boss rush.
+			Label: Босс-раш
+			Tooltip:
+				'''
+				Позволяет выбрать, из какого мода будет использоваться порядок боссов Thorium в Босс-раше Calamity.
+				Отключите, чтобы убрать боссов Thorium из Босс-раша в принципе.
+				'''
 		}
 
 		viscount: {
-			Label: Viscount AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Виконта
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		granite: {
-			Label: Granite Energy Storm AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Гранитного энергетического шторма
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		champion: {
-			Label: Buried Champion AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Погребённого воителя
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		scouter: {
-			Label: Star Scouter AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Звёздного разведчика
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		strider: {
-			Label: Borean Strider AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Борейского шагателя
+			Tooltip: "{$bird.Tooltip}"
 		}
 
 		beholder: {
-			Label: Fallen Beholder AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: ИИ Падшего Созерцателя
+			Tooltip: "{$bird.Tooltip}"
 		}
 	}
 
@@ -1622,7 +1639,7 @@ Configs: {
 		Tooltip: ""
 
 		Off: {
-			Label: Off
+			Label: ОТКЛ
 			Tooltip: ""
 		}
 
@@ -1632,12 +1649,12 @@ Configs: {
 		}
 
 		ThoriumBossRework: {
-			Label: Thorium Boss Rework
+			Label: Thorium Helheim
 			Tooltip: ""
 		}
 
 		Auto: {
-			Label: Auto
+			Label: Автоматически
 			Tooltip: ""
 		}
 	}
@@ -1786,8 +1803,8 @@ Configs: {
 		}
 
 		MasterToggle: {
-			Label: Master Toggle
-			Tooltip: Disables/Enables all options below.
+			Label: Общий выключатель
+			Tooltip: Включает все настройки ниже.
 		}
 
 		RadMage: {
@@ -1797,7 +1814,7 @@ Configs: {
 				Healer just felt like an extension of mage.
 				So we fixed that.
 				By replacing Mage with Healer.
-				All magic is healing if you believe hard enough. 
+				All magic is healing if you believe hard enough.
 				Or hit hard enough.
 				'''
 		}
@@ -1809,7 +1826,7 @@ Configs: {
 				Summoner had some unfortunate progression gaps.
 				So we fixed that.
 				By giving all of Melee to Summoner.
-				Your minions now respect you. 
+				Your minions now respect you.
 				Your sword does not.
 				'''
 		}
@@ -1820,23 +1837,23 @@ Configs: {
 				'''
 				Rogue is taking back its roots.
 				By absorbing Ranger.
-				They were always the same person. 
+				They were always the same person.
 				One just had better shoes.
 				'''
 		}
 
 		ObBard: {
-			Label: Obnoxious Bard
-			Tooltip: Makes your riffs... less riffin
+			Label: Надоедливый бард
+			Tooltip: Делает ваши риффы... менее риффовыми.
 		}
 
 		OwnRiffWeight: {
-			Label: Own Riff Weight
+			Label: Собственный вес риффа
 			Tooltip: ""
 		}
 
 		RiffWeights: {
-			Label: Riff Weights
+			Label: Вес риффа
 			Tooltip: ""
 		}
 	}
@@ -1900,4 +1917,3 @@ DamageClasses: {
 }
 
 Tiles.MenuMusicBoxTile.MapEntry: Музыкальная шкатулка
-*/

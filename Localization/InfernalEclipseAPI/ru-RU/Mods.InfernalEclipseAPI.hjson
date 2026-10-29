@@ -159,7 +159,7 @@ TimeFreezePrevention: {
 }
 
 ItemBalance: {
-	Modified: "[s:InfernalEclipseAPI/IEoRIcon] Этот предмет был изменён модом Infernal Eclipse of Ragnarok"
+	Modified: "[s:InfernalEclipseAPI/IEoRIcon] Этот предмет был изменён Infernal Eclipse of Ragnarok"
 	Modified2: Удерживайте {0} для просмотра изменений в характеристиках
 	DamageUpGeneric: "    Урон увеличен на [c/00A36C:{0}%]"
 	DamageDownGeneric: "    Урон снижен на [c/FF0000:{0}%]"
@@ -197,9 +197,9 @@ ItemTooltip: {
 	EclipseFang: Усиление оружия всегда активно
 	ScytheThrow: Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
 	ThorsHammerPro: При попадании накладывает дебафф [cbuff:Electrified] на 3 секунды
-	BountifulHarvest: Стреляет пронзающими жалами в чередующейся последовательности
-	TwoAlchs: Считается за 2 единицы алкоголя для дебаффа [cbuff:CalamityMod/AlcoholPoisoning]
-	HornScale: Количество восстанавливаемого здоровья зависит от вашего этапа игры
+	BountifulHarvest: Выпускает пронзающие жала в чередующейся последовательности
+	TwoAlchs: Считается за 2 ед. алкоголя для дебаффа [cbuff:CalamityMod/AlcoholPoisoning]
+	HornScale: Количество восстанавливаемого здоровья зависит от вашего текущего этапа игры
 
 	GrapeBeer: {
 		Orig: Снижает урон критических ударов на 75%
@@ -212,7 +212,7 @@ ItemTooltip: {
 	Wiesnbrau:
 		'''
 		Накладывает дебафф [cbuff:PotionSickness]
-		{$Mods.CalamityMod.Common.AlcoholWarning}
+		{$CalamityMod.Common.AlcoholWarning}
 		'''
 
 	SoulAnchor: {
@@ -249,7 +249,7 @@ ItemTooltip: {
 	SandstonePortalDeviceInfoMP: Призывает Обездоленного вассала после активации врат в затерянный колизей <- на данный момент не используется модом
 	GoldenBatRework:
 		'''
-		Увеличивает количество выпадаемых с врагов монет на 30%
+		Увеличивает количество выпадающих с врагов монет на 30%
 		Вы постоянно получаете монеты с течением времени
 		'Ты не жадный... ты просто тронутый!'
 		'''
@@ -1901,7 +1901,7 @@ Items: {
 	RingofTix: {
 		DisplayName: Обожжённое кольцо Тикс
 		Tooltip: ""
-		SOTSTooltip: Нажмите ПКМ по предмету, когда он находится в избранном, чтобы инвентировать эффект выбранного самоцвета
+		SOTSTooltip: Нажмите ПКМ по предмету, когда он находится в избранном, чтобы инвертировать эффект выбранного самоцвета
 		G0: Объединяет добываемые и ближайшие блоки в единую цепь, позволяющую добывать до 50 блоков за раз
 		G1: Убийство врага даёт случайный 30-секундный бафф
 		G2: Создаёт монеты при восполнении пустоты
@@ -1956,15 +1956,15 @@ Items: {
 		NormalTooltip:
 			'''
 			Увеличивает урон на 18%, а также дополнительно урон от стрел на 5%
-			Увеличивает скорость передвижения на 10% и шанс критического удара на 4
+			Увеличивает скорость передвижения на 10% и шанс критического удара на 4%
 			Увеличивает весь урон на 4 ед. и пробивание брони на 5 ед.
-			Критические удары стрел кратковременно накладывают дебафф [cbuff:ShadowFlame]
+			Критические удары стрел будут кратковременно накладывать дебафф [cbuff:ShadowFlame]
 			Увеличивает регенерацию здоровья на 3,5 ед./сек и максимальное количество миньонов на 2
-			Увеличивает отбрасывание миньонов и количество выпадаемых с врагов монет
+			Увеличивает отбрасывание миньонов и количество выпадающих с врагов монет
 			Даёт различные бонусы в зависимости от текущего времени суток:
-			Днём увеличивает регенерацию здоровья на 2 ед./сек
-			Ночью увеличивает защиту на 20 ед.
-			Во время затмения увеличивает регенерацию здоровья на 1 ед./сек и защиту на 10 ед.
+			 Днём увеличивает регенерацию здоровья на 2 ед./сек
+			 Ночью увеличивает защиту на 20 ед.
+			 Во время затмения увеличивает регенерацию здоровья на 1 ед./сек и защиту на 10 ед.
 			Увеличивает максимальное время полёта на 20%
 			'''
 		VervCaveTooltip: Позволяет собирать исцеляющие сферы с убитых врагов
@@ -2530,65 +2530,6 @@ Items: {
 			Можно использовать только 1 раз
 			'''
 	}
-
-	ChestLockIcon: {
-		DisplayName: Chest Lock Icon
-		Tooltip: ""
-	}
-
-	HoverItemDummy: {
-		DisplayName: Hover Item Dummy
-		Tooltip: ""
-	}
-
-	FiendsmithsRequiem: {
-		DisplayName: Реквием Fiendsmith
-		Tooltip:
-			'''
-			Summons Fiendsmith's Requiem to attack with your other summon weapons
-			Only one of each of the fiends can be active at once
-			'''
-		Tremendae: Using this weapon for a second time summons Rex Tremendae which will fire bullets at nearby foes
-		Paradise:
-			'''
-			Using this weapon for a third time unlocks the Paradise ability
-			While Paradise is unlocked, Right Click to cause Requiem to release homing laser bolts
-			The Right Click has a cooldown of 18 seconds
-			'''
-
-		Progression: {
-			Ravager:
-				'''
-				Defeat The Fortress of Flesh to gain more power...
-				No extra power has been gained...
-				'''
-			Deus:
-				'''
-				With the defeat of Ravager, this weapon now deals extra damage
-				Defeat the star weaver to gain more power...
-				'''
-			Dragonfolly:
-				'''
-				With the defeat of Astrum Deus, you can now summon Rex Tremendae in addition to Requiem
-				Defeat the false offspring to gain more power...
-				'''
-			Providence:
-				'''
-				With the defeat of Dragonfolly, you can now unlock the Paradise ability
-				Defeat the Profaned Goddess to gain more power...
-				'''
-			Polterghast:
-				'''
-				With the defeat of Providence, Requiem's chainsaws now inflict [cbuff:CalamityMod/Laceration]
-				Defeat the wrathful coalescence to gain more power...
-				'''
-			Full:
-				'''
-				The Fiendsmith's Requiem is fully awakend, and all abilities have been further buffed!
-				The weapon's maximum power is unleashed!
-				'''
-		}
-	}
 }
 
 Projectiles: {
@@ -2642,10 +2583,6 @@ Projectiles: {
 	BlixerArm.DisplayName: Рука Бликсера
 	BlixerHand.DisplayName: Ладонь Бликсера
 	BlixerCannonPro.DisplayName: Пуля Бликсера
-	// FiendsmithsRequiemPro.DisplayName: Fiendsmith's Requiem
-	// FiendsmithChainsaw.DisplayName: Fiendsmith's Chainsaw
-	// FiendsmithsTremendae.DisplayName: Fiendsmith's Tremendae
-	// FiendsmithsParadise.DisplayName: Fiendsmith's Paradise
 }
 
 DiaryTooltip:
@@ -2990,16 +2927,6 @@ Configs: {
 			Label: Рагнарёк-тема Гранитного энергетического шторма
 			Tooltip: Включает проигрывание трека «Stonewarden» за авторством во время битвы с Гранитным энергетическим штормом в режиме Рагнарёк.
 		}
-
-		WarMachineBossInBossRush: {
-			Label: Вульфрумовый корабль-носитель в Босс-раше
-			Tooltip: Добавляет Вульфрумовый корабль-носитель в Босс-раш.
-		}
-
-		MothershipMusic: {
-			Label: Трек Вульфрумового корабля-носителя
-			Tooltip: Позволяет переключать темы, проигрывающиеся при битве с Вульфрумовым кораблём-носителем.
-		}
 	}
 
 	Difficulty: {
@@ -3070,30 +2997,6 @@ Configs: {
 		}
 	}
 
-	MothershipSong: {
-		Tooltip: ""
-
-		Vanilla: {
-			Label: Ванилла
-			Tooltip: При битве с кораблём-носителем будет проигрываться трек «Boss 1».
-		}
-
-		WarMachine: {
-			Label: War Machine
-			Tooltip: При битве с кораблём-носителем будет проигрываться оригинальная тема босса.
-		}
-
-		Thorium: {
-			Label: Thorium
-			Tooltip: При битве с кораблём-носителем будет проигрываться трек «Stronger Foe».
-		}
-
-		Infernum: {
-			Label: Infernum
-			Tooltip: При битве с кораблём-носителем будет проигрываться трек «Misanthropic Encounters».
-		}
-	}
-
 	HomewardConfig: {
 		DisplayName: Конфигурация Homeward
 
@@ -3154,7 +3057,7 @@ InfernumIntegration: {
 	BossRushIntroText5:
 		'''
 		БОСС-РАШ - 5 РАНГ
-		АПОФЕОЗ СУМАСШЕСТВИЯ
+		АПОФЕОЗ БЕЗРАССУДСТВА
 		'''
 	BossRushIntroText6:
 		'''
@@ -3485,7 +3388,7 @@ Buffs: {
 	HotHands2: {
 		DisplayName: Обжигающие руки
 		Description: Всё что, вы держите в руках... Вы скорее всего захотите перестать держать
-		ItemTooltip: 
+		ItemTooltip:
 			'''
 			Увеличивает скорость передвижения на 2% и скорость хлыстов на 1% за каждый стак
 			Может суммироваться вплоть до 10 стаков
@@ -3550,11 +3453,6 @@ Buffs: {
 	FreezingAura: {
 		DisplayName: Замораживающая аура
 		Description: ""
-	}
-
-	FiendsmithsRequiemBuff: {
-		DisplayName: Fiendsmith's Requiem
-		Description: The Fiendsmith's fiends are helping you fight!
 	}
 }
 

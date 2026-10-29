@@ -167,11 +167,11 @@ SharpAmethyst: {
 }
 
 BlightedSpyglass: {
-	DisplayName: Сгнивший бинокль
+	DisplayName: Ржавая подзорная труба
 	Tooltip:
 		'''
 		Увеличивает максимальное количество стражей на 1
-		Атаки стражей накладывают дебафф [cbuff:CalamityMod/BrimstoneFlames]
+		Атаки стражей будут накладывать дебафф [cbuff:CalamityMod/BrimstoneFlames]
 		'''
 }
 

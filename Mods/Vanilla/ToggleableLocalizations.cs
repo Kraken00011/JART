@@ -473,7 +473,7 @@ public class ToggleableLocalizations : OnPatcher
 				&& modpath.Contains(@"JAtRT\Localization\TheDepths\"))
 					continue;
 
-				if ((/*!JARTLocalizationConf.Instance.RagnarokModLocalization || */!ModLoader.HasMod("RagnarokMod"))
+				if ((!JARTLocalizationConf.Instance.RagnarokModLocalization || !ModLoader.HasMod("RagnarokMod"))
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
 					continue;
 
