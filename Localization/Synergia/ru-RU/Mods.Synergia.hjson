@@ -50,7 +50,7 @@ Items: {
 	/* EvilHead.Tooltip:
 		'''
 		Увеличивает максимальное количество миньонов на 3
-		Увеличивает урон призывателя на 20% Increases minion damage by +20%
+		Увеличивает урон призывателя на 20%
 		''' */
 	/* SniperBody.Tooltip:
 		'''
@@ -306,22 +306,22 @@ Items: {
 		// DisplayName: Патогенный аурный посох
 		/* Tooltip:
 			'''
-			Summons an aura that deals damage to enemies
-			Minion damage increases aura's range			 
+			Призывает ауру, наносящую урон врагам Summons an aura that deals damage to enemies
+			Чем выше урон призывателя, тем больше радиус ауры Minion damage increases aura's range			 
 			''' */
 	}
 
 	NaquadahJavelin: {
-		// DisplayName: Naquadah Javelin
+		// DisplayName: Наквадовое метательное копьё Naquadah Javelin
 		// Tooltip: ""
 	}
 
 	MercuriumAuraScythe: {
 		/* Tooltip:
 			'''
-			Summons an aura that deals damage to enemies
-			Minion damage increases aura's range
-			Grants 'Regeneration' and 'Mana Regeneration' buffs
+			Призывает ауру, наносящую урон врагам Summons an aura that deals damage to enemies
+			Чем выше урон призываетеля, тем больше радиус ауры Minion damage increases aura's range
+			Внутри ауры игроки получают баффы: "Регенарация" и "Восстановление маны" Grants 'Regeneration' and 'Mana Regeneration' buffs
 			''' */
 		// DisplayName: Ртутная аурная коса
 	}
@@ -329,28 +329,28 @@ Items: {
 	InfamousFlame: {
 		/* Tooltip:
 			'''
-			This flame isn't famous, right?
-			Throwing axe that deal fire damage
+			Это пламя не настолько крутое, да? This flame isn't famous, right?
+			Метательный топор, наносящий огненный урон Throwing axe that deal fire damage
 			''' */
-		// DisplayName: Infamous Flame
+		// DisplayName: Позорное пламя Infamous Flame
 	}
 
 	VerdurousStaff: {
 		/* Tooltip:
 			'''
-			Summons an aura that deals damage to enemies
-			Minion damage increases aura's range
-			Inside the aura players get 'Regeneration', 'Mana Regeneration' and 'Moon's Resilence'
+			Призывает ауру, наносящую урон врагам Summons an aura that deals damage to enemies
+			Чем выше урон призывателя, тем выше радиус ауры Minion damage increases aura's range
+			Внутри ауры игроки получают баффы: "Регенерация", "Восстановление маны", "Упорство луны" Inside the aura players get 'Regeneration', 'Mana Regeneration' and 'Moon's Resilence'
 			Personification of nature
 			''' */
-		// DisplayName: Verdurous Staff
+		// DisplayName: Заросший посох Verdurous Staff
 	}
 
 	AllotropicAuraStaff: {
-		// DisplayName: Allotropic Aura Staff
+		// DisplayName: Посох аллотропной ауры Allotropic Aura Staff
 		/* Tooltip:
 			'''
-			Summons an aura that deals damage to enemies
+			 Summons an aura that deals damage to enemies
 			Minion damage increases aura's range
 			Versatile aura that cycles between three modes:
 			Attack Mode – Damages nearby enemies and occasionally fires homing and chaotic energy orbs.
