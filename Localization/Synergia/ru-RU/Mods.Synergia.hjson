@@ -183,7 +183,7 @@ Items: {
 		Увеличивает сопротивление урону на 10%
 		Увеличивает скорость передвижения на 10%
 		При получении урона использует 40 ед. маны
-		'Чёрт, какой же он мокрый'
+		«Чёрт, какой же он мокрый»
 		''' */
 	/* WatersHelmet.Tooltip:
 		'''
@@ -222,10 +222,10 @@ Items: {
 		// DisplayName: Метательное копьё из вечной древесины
 		/* Tooltip:
 			'''
-			20% шанс наложить дебафф «{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» на 1,5 секунды
+			20% шанс наложить дебафф «{$Buffs.EverwoodJavelinDebuff.DisplayName}» на 1,5 секунды
 			Этот дебафф оглушает врагов и наносит 5 ед. урона
-			«{$Mods.Synergia.Buffs.EverwoodJavelinDebuff.DisplayName}» не оглушает боссов, но действует на 3 секунды дольше и наносит 10 ед. урона вместо 5
-			'Содержит частичку магии вечной древесины'
+			«{$Buffs.EverwoodJavelinDebuff.DisplayName}» не оглушает боссов, но действует на 3 секунды дольше и наносит 10 ед. урона вместо 5
+			«Содержит частичку магии вечной древесины»
 			''' */
 	}
 
@@ -241,7 +241,7 @@ Items: {
 			Каждые 5 бросков выпускает 3 самонаводящихся черепа и копьё Окрама
 			Черепа наносят 100 ед. урона и накладывают дебафф «{$BuffName.ShadowFlame}»
 			Копьё наносит в 3 раза больше урона атаки
-			'Его острие гноится от сгнивших жил измерений'
+			«Его острие гноится от сгнивших жил измерений»
 			''' */
 	}
 
@@ -258,7 +258,7 @@ Items: {
 			Заряженные 5 последовательными выстрелами атаки будут дополнительно выпускать 4 пера гарпии в разные стороны
 			Каждое перо наносит 20 ед. урона
 			Перо исчезает по истечении 8 секунд или при попадании по врагу
-			'Вы ощущаете силу магии внеземных гарпий'
+			«Вы ощущаете силу магии внеземных гарпий»
 			''' */
 	}
 
@@ -275,7 +275,7 @@ Items: {
 
 	OldTales: {
 		// DisplayName: Старинные сказки
-		// Tooltip: "'Истории о сгинувших путниках этого мира'"
+		// Tooltip: «Истории о сгинувших путниках этого мира»
 	}
 
 	DurataniumJavelin: {
@@ -539,12 +539,12 @@ Items: {
 			Summons an aura that deals damage to enemies
 			Minion damage increases aura's range
 			Versatile aura that cycles between two modes:
-			Support mode - all Sinlord Weapons get stronger
+			Support mode — all Sinlord Weapons get stronger
 			Menace always shoots 4 projectiles instead of 2 or 3.
 			Pyroclast shoots fire balls.
 			Impact is always charged.
 			Cleavage deals 15% more damage while empowered.
-			Attack mode - always crit damage for the enemies inside.
+			Attack mode — always crit damage for the enemies inside.
 			Press [Selected Button] to switch aura modes.
 			''' */
 		// DisplayName: Hellgate Aura Scythe
@@ -651,8 +651,8 @@ Items: {
 		// DisplayName: Innos
 		/* Tooltip:
 			'''
-			Left click to throw Pyrokar - long and powerful rapier
-			Right click to throw Serpentes - two sharp daggers
+			Left click to throw Pyrokar — long and powerful rapier
+			Right click to throw Serpentes — two sharp daggers
 			''' */
 	}
 
@@ -664,8 +664,8 @@ Items: {
 			Icreases throwing damage by 8%
 			After death player have +10% throwing speed for one minute
 			Above the player's head appear two gems:
-			When tourmaline phase - + regeneration buff
-			When zircon phase - +10 defense
+			When tourmaline phase — + regeneration buff
+			When zircon phase — +10 defense
 			''' */
 	}
 
@@ -752,7 +752,7 @@ Items: {
 		// DisplayName: Belphegor
 		/* Tooltip:
 			'''
-			'Obey me, Belphegor.' 
+			«Obey me, Belphegor» 
 			Shoots high velocity, chaotic arrows
 			Each arrow explodes on small damaging flames. 
 			Every third shot spawns a Enferous Runes
@@ -917,7 +917,7 @@ Items: {
 	}
 
 	ThunderSigil: {
-		// Tooltip: It illuminates and shoots - very simple.
+		// Tooltip: It illuminates and shoots — very simple.
 		// DisplayName: Thunder Sigil
 	}
 
@@ -1109,7 +1109,7 @@ Items: {
 		// DisplayName: Malebolge
 		/* Tooltip:
 			'''
-			"There is no greater sorrow than to recall happiness in times of misery." 
+			«There is no greater sorrow than to recall happiness in times of misery." 
 			Enormous blade, forged to cut down sinners in the craters of volcanoes.
 			Each hit creates explosion that deal damage. 
 			After successful combo summons meteors.
@@ -1119,7 +1119,7 @@ Items: {
 	Echelonis: {
 		/* Tooltip:
 			'''
-			"The inhuman i've turned into"
+			«The inhuman i've turned into»
 			Summons a Prodigal Seraph to fight for you
 			''' */
 		// DisplayName: Echelonis
@@ -1139,9 +1139,9 @@ Items: {
 		// DisplayName: Rhabdomyolysis
 		/* Tooltip:
 			'''
-			"From the remnants of flesh"
+			«From the remnants of flesh»
 			Summons a 3 knifes that always attacking you
-			The less hp you have - the more vampirism and damage you get
+			The less hp you have — the more vampirism and damage you get
 			''' */
 	}
 
@@ -1181,7 +1181,7 @@ Items: {
 
 	Hades: {
 		// Tooltip: There is no shelter from the storm that sleeps inside this weapon.
-		// DisplayName: Hades
+		// DisplayName: Аид
 	}
 
 	Anaconda: {
@@ -1191,9 +1191,9 @@ Items: {
 
 	TheMossWitchCrystal: {
 		// Tooltip: ""
-		// DisplayName: Moss Witch Amulet
-		// Passive: Immunity to Swamp Water and «{$BuffName.Poisoned}»
-		// Active: Clears the player from debuffs
+		// DisplayName: Амулет ведьмы мхов
+		// Passive: Даёт невосприимчивость к болотной тине и дебаффу «{$BuffName.Poisoned}»
+		// Active: Снимает с игрока все дебаффы
 	}
 
 	StickyPad: {

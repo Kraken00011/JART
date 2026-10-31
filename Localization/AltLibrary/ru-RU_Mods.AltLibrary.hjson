@@ -80,7 +80,7 @@
 		}
 
 		OreHelpTextBase: Try combining a Hellforge with some {0} ore. I bet you could make some really powerful stuff with that!
-		HallowBunnyCageTooltip: "'Я клянусь, ты за это поплатишься!'"
+		HallowBunnyCageTooltip: "«Я клянусь, ты за это поплатишься!»"
 
 		AltOreName: {
 			RandomCopper: Случайный вариант меди
@@ -188,9 +188,9 @@
 		}
 
 		DryadSpecialText: {
-			WorldStatusGoodEvil: "Мир {0} - на {1}% свят и на {2}% заражён."
-			WorldStatusGood: "Мир {0} - на {1}% свят."
-			WorldStatusEvil: "Мир {0} - на {1}% заражён."
+			WorldStatusGoodEvil: "Мир {0} — на {1}% свят и на {2}% заражён."
+			WorldStatusGood: "Мир {0} — на {1}% свят."
+			WorldStatusEvil: "Мир {0} — на {1}% заражён."
 			WorldStatusCorrupt: искажение
 			WorldStatusCrimson: багрянец
 			WorldStatusHallow: освящение
@@ -208,7 +208,7 @@
 		}
 
 		Common: {
-			DevTooltip: 'Отлично подходит для подражания внешности разработчиков!'
+			DevTooltip: «Отлично подходит для подражания внешности разработчиков!»
 			FormerDevTooltip: Отлично подходит для подражания внешности бывших разработчиков Alternatives Library!
 			FoxTooltip: Отлично подходит для подражания внешности Katastrophenmacheren!
 		}

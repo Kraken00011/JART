@@ -41,7 +41,11 @@ internal class InfernalEclipseWeaponsDLCPrefixes : ModSystem
 
             tru.Call("AddNeuterItems", infernal, new string[]
             {
-                "ImagiknightHeraldry"
+                "ImagiknightHeraldry",
+                "DoubleFlail",
+                "PerfectPurple",
+                "BlackHoleFlail",
+                "HolyFlail"
             });
 
             tru.Call("AddPluralItems", infernal, new string[]
