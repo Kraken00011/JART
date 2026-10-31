@@ -17,7 +17,7 @@ Ninja: {
 		// Rain2: The summer rain is always so warm and soothing...
 		// Thunderstorm1: I always wanted to become as fast as the lightning. I must train harder!
 		// Thunderstorm2: Do you hear that? Raiden is furious.
-		// Wind1: Death is like the wind - always by my side.
+		// Wind1: Death is like the wind — always by my side.
 		// Windy31: Follow the wind, but watch your back.
 		// Graveyard1: This place smells like a battlefield...
 		// Graveyard2: The death takes on guise of the crow.
@@ -36,7 +36,7 @@ Ninja: {
 		// LikeNPC: Both I and {NPCName} share love for a good drink. Though he certainly lacks a sophistication to really get into sake.
 		// DislikeNPC: How dares {NPCName} make fun of my ninjutsu? Firearms will never replace a cold steel!
 		// Content: I feel inner peace.
-		// LikeNPC_Princess: I showed her highness, {NPCName} - sama, my manga collection and it made her so excited! I feel flattered!
+		// LikeNPC_Princess: I showed her highness, {NPCName} — sama, my manga collection and it made her so excited! I feel flattered!
 		// Princess_LovesNPC: "{NPCName} такая классная, а ещё мне очень нравятся её комиксы!"
 	}
 
@@ -55,8 +55,8 @@ Ninja: {
 Vanilla: {
 	Guide: {
 		// Ninja1: Я надеюсь тебе не мешает мой братец? Может быть он и выглядит странно, но на самом деле он очень классный парень!
-		// Ninja2: Хочешь расскажу тебе кое-что по секрету? На самом деле {N} - не его настоящее имя. Он просто взял своё настоящее имя и сделал его более... «японским»?
-		// Ninja3: Что я, что {N} - мы оба должны были стать гидами. Но затем он наткнулся на какие-то случайные журналы с мангой...
+		// Ninja2: Хочешь расскажу тебе кое-что по секрету? На самом деле {N} — не его настоящее имя. Он просто взял своё настоящее имя и сделал его более... «японским»?
+		// Ninja3: Что я, что {N} — мы оба должны были стать гидами. Но затем он наткнулся на какие-то случайные журналы с мангой...
 		// Ninja4: Я так рад снова увидеть свое братца! Мне уже не терпится услышать его умопомрачительные истории о своих странствиях!
 	}
 }

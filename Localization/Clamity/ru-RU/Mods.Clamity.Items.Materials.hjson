@@ -1,16 +1,16 @@
 HuskOfCalamity: {
 	DisplayName: Бедственный панцирь
-	Tooltip: "'Останки адского моллюска'"
+	Tooltip: «Останки адского моллюска»
 }
 
 ClamitousPearl: {
 	DisplayName: Жемчужина Каламидии
-	Tooltip: "'Настал час моллюска!'"
+	Tooltip: «Настал час моллюска!»
 }
 
 EnchantedMetal: {
 	DisplayName: Зачарованный металл
-	Tooltip: "'Металл, наполненный силами души самого мира Террарии'"
+	Tooltip: «Металл, наполненный силами души самого мира Террарии»
 }
 
 MetalFeather: {
@@ -25,10 +25,10 @@ RarePlanteraFruit: {
 
 CoralskinFoolfish: {
 	DisplayName: Коралочешуйчатая рыба-болван
-	Tooltip: "'Камуфляж - один из лучших способов защиты в природе'"
+	Tooltip: «Камуфляж — один из лучших способов защиты в природе»
 }
 
 EndobsidianBar: {
 	DisplayName: Эндообсидиановый слиток
-	Tooltip: A weird material that is both cold on touch but warm at the same time
+	Tooltip: «Странный материал, вроде и холодный на ощупь, а вроде и немного тёплый»
 }

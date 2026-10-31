@@ -71,7 +71,7 @@ Items: {
 
 	Scythe: {
 		DisplayName: Коса
-		Tooltip: "'Если забыть свои страхи, можно и обезуметь...'"
+		Tooltip: «Если забыть свои страхи, можно и обезуметь...»
 	}
 
 	Icemourne: {
@@ -79,13 +79,13 @@ Items: {
 		Tooltip:
 			'''
 			Стреляет ледяными сгустками энергии
-			'Как клинок рвёт плоть, так и разум должен душу калечить.'
+			«Как клинок рвёт плоть, так и разум должен душу калечить»
 			'''
 	}
 
 	SoulScythe: {
 		DisplayName: Коса душ
-		Tooltip: "'MAKA CHOP!'"
+		Tooltip: «MAKA CHOP!»
 	}
 
 	LesserRestorationPotion: {

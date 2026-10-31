@@ -2206,7 +2206,7 @@ NPCs: {
 		//Death Count stuffs
 		DeathCountButton: Количество смертей + Покровители
 		DeathCount: Ты умирал {0} {^0:раз;раза}.
-		Death10000: Поздравляю! Теперь ты - самый большой лузер в истории Террарии! Кто-же под номером 2? Ещё б я знала.
+		Death10000: Поздравляю! Теперь ты — самый большой лузер в истории Террарии! Кто-же под номером 2? Ещё б я знала.
 		Death5000: I'm not sure what to say this time. That you're bad and should feel bad? That much was known already.
 		Death2500: Bless your heart. I could dodge better than you even if I were drunk high.
 		Death1000: It is said the average Terrarian has a lifespan of 2 minutes or less. ...Well, not really, but I feel like you'd be part of that statistic.

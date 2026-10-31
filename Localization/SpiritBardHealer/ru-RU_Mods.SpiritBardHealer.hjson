@@ -2,7 +2,7 @@ ItemDescriptions: {
 	ElectricGuitar:
 		'''
 		Каждое попадание цепной молнии восстанавливает 1 очко вдохновения
-		'Зажигай, детка, зажигай!'
+		«Зажигай, детка, зажигай!»
 		'''
 	Ukelele: Попадание цепной молнии может с определённым шансом восстановить 1 очко вдохновения
 	TerrariumParticleSprinters: Значительно увеличивает манёвренность в воздухе
@@ -38,7 +38,7 @@ ItemDescriptions: {
 	WayfarerHead: Увеличивает скорость восстановления вдохновения и шанс выпадения нот на 5%
 	WayfarerBody: Увеличивает симфонический урон и скорость игры на инструменте на 5%
 	WayfarerLegs: Увеличивает длительность симфонических усилений на 1 секунду
-	WayfarerSetBonus: Улучшает симфонические усиления, связанные с передвижением
+	WayfarerSetBonus: Улучшает симфонические усиления, нацеленные на улучшение передвижения
 }
 
 /*Items: {
@@ -67,7 +67,7 @@ ItemDescriptions: {
 			'''
 			Вместо вращения совершает взмахи по диагонали
 			Creates turbulent wind in the direction it is swung
-			'Shwaaahaaahaaahaa'
+			«Shwaaahaaahaaahaa»
 			'''
 	}
 
@@ -78,7 +78,7 @@ ItemDescriptions: {
 			Hold <left> to spin a bolas made of volatile nautilus shells
 			Release <left> to throw the bolas, travelling further and dealing increased damage based on spin time
 			Explodes on impact when fully wound up
-			'Раковины это от наутилуса, умывальника или из чьего-то уха — из всех можно сделать босалы'
+			«Раковины это от наутилуса, умывальника или из чьего-то уха — из всех можно сделать босалы»
 			'''
 	}
 
@@ -88,7 +88,7 @@ ItemDescriptions: {
 			'''
 			Shoots a small, piercing star that bounces on any hit
 			Upon bouncing at least once, the star will fall down
-			'Sometimes, all you need is to float alone in space'
+			«Sometimes, all you need is to float alone in space»
 			'''
 	}
 
@@ -98,7 +98,7 @@ ItemDescriptions: {
 			'''
 			Shoots a cooling beam that heals allies
 			Does not trigger on-heal effects
-			'Вы когда-нибудь чувствовали такую жару, что хотели спрятаться в морозилке?'
+			«Вы когда-нибудь чувствовали такую жару, что хотели спрятаться в морозилке?»
 			'''
 	}
 
@@ -108,7 +108,7 @@ ItemDescriptions: {
 			'''
 			Бросает криолитовый сюрикен-снежинку, которая вонзается в поражённых врагов
 			При попадании накладывает дебафф «{$SpiritMod.Buffs.CryoCrush.DisplayName}»
-			'Creeping chill? Creeping attrition.'
+			«Creeping chill? Creeping attrition.»
 			'''
 	}
 
@@ -129,7 +129,7 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Explodes after a short duration, releasing malicious energy
-			Malicious energy inflict 'Surging Anguish', slowly depleting enemy life
+			Malicious energy inflict «Surging Anguish», slowly depleting enemy life
 			'''
 	}
 
@@ -196,7 +196,7 @@ ItemDescriptions: {
 			Наносит больше урона в падении
 			Разбрасывает несколько камней разные стороны при полном заряде
 			При попадании накладывает дебафф «{$ThoriumMod.Buffs.Sundered.DisplayName}», увеличивающий получаемый врагами урон от всех источников на 10%
-			'Магнетически притягивается к черепушкам ваших врагов'
+			«Магнетически притягивается к черепушкам ваших врагов»
 			'''
 	}
 
@@ -213,7 +213,7 @@ ItemDescriptions: {
 			When the bubble pops, the jellyfish are released and homes into enemies
 			Successfully timing hits increase the amount of jellyfish inside the bubbles
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Let's keep this a moon jelly secret, shall we?"
+			«Let's keep this a moon jelly secret, shall we?»
 			'''
 	}
 
@@ -222,7 +222,7 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Creates a swarm of mini scarab spirits when played
-			"To the cockroaches under my bed, this one's for you!"
+			«To the cockroaches under my bed, this one's for you!»
 			'''
 	}
 
@@ -231,8 +231,8 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Shoots a blood shockwave that collapses then explodes
-			Shockwaves inflict 'Surging Anguish', slowly depleting enemy life
-			'Would it go like AHHHH or RAARGGHHHH?'
+			Shockwaves inflict «Surging Anguish», slowly depleting enemy life
+			«Would it go like AHHHH or RAARGGHHHH?»
 			'''
 	}
 
@@ -241,7 +241,7 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Causes a duplicate of itself to fall from the skies on hit
-			'Загадай желание'
+			«Загадай желание»
 			'''
 	}
 
@@ -260,7 +260,7 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Отскакивает от врага к врагу, оглушая их в процессе
-			'Voltaic Stun Sweeper!'
+			«Voltaic Stun Sweeper!»
 			'''
 	}
 
@@ -279,7 +279,7 @@ ItemDescriptions: {
 			'''
 			Throw a sharp talon at foes
 			Critical hits causes your next attack to throw three talons
-			'Also doubles as a back scratcher'
+			«Also doubles as a back scratcher»
 			'''
 	}
 
@@ -303,7 +303,7 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Стремительно выпускает самонаводящиеся колючки
-			'Просто попробуй не вдыхать их'
+			«Просто попробуй не вдыхать их»
 			'''
 	}
 
@@ -321,8 +321,8 @@ ItemDescriptions: {
 		Tooltip:
 			'''
 			Casts a homing beam that heals nearby allies
-			'One does not simply heal themselves by wounding others...
-			Unless it's blood transfusion, or any organ transplant really'
+			«One does not simply heal themselves by wounding others...
+			Unless it's blood transfusion, or any organ transplant really»
 			'''
 	}
 
@@ -343,7 +343,7 @@ ItemDescriptions: {
 			22 ед. урона от метки призывателя
 			{$CommonItemTooltip.Whips}
 			Shoots a continuous stream of flame that emits lightning from time to time
-			'And the ash came falling down on the city that we love...'
+			«And the ash came falling down on the city that we love...»
 			'''
 	}
 }

@@ -86,7 +86,7 @@ Items: {
 
 	ChromaticMass: {
 		DisplayName: Хроматическая масса
-		Tooltip: "'На ощупь как холодная плазма'"
+		Tooltip: «На ощупь как холодная плазма»
 	}
 
 	ShatteredHeartOfDarkness: {

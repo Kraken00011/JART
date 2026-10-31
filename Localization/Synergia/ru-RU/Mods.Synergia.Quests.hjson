@@ -3,7 +3,7 @@ Dwarf: {
 	// QuestDescription: Где-то в глубинах мерзлотной тундры находится дварфская наковальня, наполовину зарытая в толще льда и времени. Выкованная в пору, когда дварфские кузни всё ещё разгорались под горными шахтами . Forged in an age when dwarven forges still burned bright beneath the mountains, it hums faintly with forgotten power.
 	// QuestStage: Собрать дварфскую наковальню
 	// QuestProgress0: Спасибо за наковальню!
-	// QuestProgress1: Раньше дварфы постоянно копались в шахтах в поисках вальгалитовой руды. Во время этого они постоянно таскали с собой эти огромные наковальни, которые потом так и оставались стоять там, - тебе не затруднит притащить мне одну такую? А за это я дам тебе немного руды.
+	// QuestProgress1: Раньше дварфы постоянно копались в шахтах в поисках вальгалитовой руды. Во время этого они постоянно таскали с собой эти огромные наковальни, которые потом так и оставались стоять там, — тебе не затруднит притащить мне одну такую? А за это я дам тебе немного руды.
 	// QuestProgress2: Её хрен найдёшь, но если у тебя получится это сделать, будь уверен, я достойно тебя отблагодарю!
 	// QuestButton: Принять
 	// QuestButtonGive: Отдать
@@ -108,7 +108,7 @@ HunterQuest_Frist: {
 DwarfQuest_Frist: {
 	// QuestName: Настоящий снеговик
 	// QuestDescription: Give the Soul of Ice to the Dwarf in the tundra.
-	// QuestStage: Complete the frost legion and collect Soul of Ice from the Cold Father - the final enemy.
+	// QuestStage: Complete the frost legion and collect Soul of Ice from the Cold Father — the final enemy.
 	// QuestProgress0: Thanks for the Soul of Ice!
 	// QuestProgress1: Do you know something about the Frost Legion? These are the good snowmen of the past who were swallowed by the darkness and united with the souls of dead ice creatures, kill their leader and bring soul to ME
 	// QuestProgress2: Be prepared. They attack in droves.
