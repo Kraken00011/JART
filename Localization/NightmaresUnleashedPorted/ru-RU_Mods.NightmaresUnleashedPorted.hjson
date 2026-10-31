@@ -6,7 +6,7 @@ Buffs: {
 
 	AntyPet: {
 		// DisplayName: Муравейка
-		// Description: "'Он любит тебя!'"
+		// Description: «Он любит тебя!»
 	}
 
 	BeeMount: {
@@ -25,7 +25,7 @@ Buffs: {
 
 	HallowPoison: {
 		// DisplayName: Освящённое отравление
-		// Description: Множитель урона - x0%
+		// Description: Множитель урона — x0%
 	}
 
 	IncarnationPet: {
@@ -157,7 +157,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Позволяют летать и плавно парить
-			'Какое невероятное буйство эмоций они вызывают во мне!'
+			«Какое невероятное буйство эмоций они вызывают во мне!»
 			''' */
 	}
 
@@ -181,7 +181,7 @@ Items: {
 			'''
 			Увеличивает скорость передвижения на 10%
 			Увеличивает высоту прыжка
-			'Бросайтесь на врагов, словно кошка!'
+			«Бросайтесь на врагов, словно кошка!»
 			''' */
 	}
 
@@ -234,7 +234,7 @@ Items: {
 
 	BlackCloth: {
 		// DisplayName: Мрачная ткань
-		// Tooltip: "'Вы чувствуете на себе взор зла, пока держите это'"
+		// Tooltip: «Вы чувствуете на себе взор зла, пока держите это»
 	}
 
 	BlackHeartLocket: {
@@ -242,7 +242,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Увеличивает шанс критического удара на 15%
-			'Сердца были созданы, чтобы их сжигать'
+			«Сердца были созданы, чтобы их сжигать»
 			''' */
 	}
 
@@ -253,7 +253,7 @@ Items: {
 
 	BlackholeBlade: {
 		// DisplayName: Рассекатель чёрных дыр
-		// Tooltip: "'Ничего не осталось'"
+		// Tooltip: «Ничего не осталось»
 	}
 
 	BlackholeBow: {
@@ -284,13 +284,13 @@ Items: {
 		/* Tooltip:
 			'''
 			Бросает шквал похищающих здоровье ножей
-			'Мрак не отступает'
+			«Мрак не отступает»
 			''' */
 	}
 
 	BlackholeScythe: {
 		// DisplayName: Теневой казнитель
-		// Tooltip: "'Пустота зовёт'"
+		// Tooltip: «Пустота зовёт»
 	}
 
 	BlackholeShuriken: {
@@ -307,7 +307,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Призывает воплощение сражаться за вас
-			'Мрак будет сопротивляться'
+			«Мрак будет сопротивляться»
 			''' */
 	}
 
@@ -316,7 +316,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Фрагмент чёрной дыры
-			'Энергия, которую источает эта крошечная сфера, просто поражает воображение'
+			«Энергия, которую источает эта крошечная сфера, просто поражает воображение»
 			''' */
 	}
 
@@ -325,13 +325,13 @@ Items: {
 		/* Tooltip:
 			'''
 			Выпускает поток тёмной материи
-			'Мрак пылает с неимоверной ненавистью'
+			«Мрак пылает с неимоверной ненавистью»
 			''' */
 	}
 
 	BlackPowder: {
 		// DisplayName: Тёмная пыль
-		// Tooltip: "'You feel a dark essence emanating from this'"
+		// Tooltip: «You feel a dark essence emanating from this»
 	}
 
 	BladderBomb: {
@@ -365,7 +365,7 @@ Items: {
 
 	CometFragment: {
 		// DisplayName: Фрагмент кометы
-		// Tooltip: "'The edge of space resides in this fragment'"
+		// Tooltip: «The edge of space resides in this fragment»
 	}
 
 	CorrGothEye: {
@@ -426,12 +426,12 @@ Items: {
 
 	EnchantedIce: {
 		// DisplayName: Зачарованный лёд
-		// Tooltip: "'It freezes all of your being while touching it'"
+		// Tooltip: «It freezes all of your being while touching it»
 	}
 
 	EnchantedSeeds: {
 		// DisplayName: Зачарованные семена
-		// Tooltip: "'The seed of a demon'"
+		// Tooltip: «The seed of a demon»
 	}
 
 	EyeOfClampula: {
@@ -440,13 +440,13 @@ Items: {
 			'''
 			Decreased mana usage as HP gets lower
 			25% mana cost at 0 HP, 100% mana cost at full health
-			'Attack with the rage of Clampula'
+			«Attack with the rage of Clampula»
 			''' */
 	}
 
 	FishronLung: {
 		// DisplayName: Лёгкое Рыброна
-		// Tooltip: "'It shudders uncontrollably'"
+		// Tooltip: «It shudders uncontrollably»
 	}
 
 	FullRestore: {
@@ -498,7 +498,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Makes harpies passive while equipped
-			'Even the harpies know it's gross'
+			«Even the harpies know it's gross»
 			''' */
 	}
 
@@ -508,7 +508,7 @@ Items: {
 			'''
 			5% increased damage, melee speed and projectile velocity
 			10% increased critical strike chance
-			'Hearts are made to be burned'
+			«Hearts are made to be burned»
 			''' */
 	}
 
@@ -533,7 +533,7 @@ Items: {
 
 	IceWispOrb: {
 		// DisplayName: Wisp Orb
-		// Tooltip: "'It's cold to the touch'"
+		// Tooltip: «It's cold to the touch»
 	}
 
 	IchorBlasterBag: {
@@ -556,13 +556,13 @@ Items: {
 			'''
 			Produces Ichor
 			Place in front of a crimson altar with 5 Ichor..
-			'It feels rubbery and gross'
+			«It feels rubbery and gross»
 			''' */
 	}
 
 	IlluminantCap: {
 		// DisplayName: Illuminant Cap
-		// Tooltip: "'It seems to be changing colors'"
+		// Tooltip: «It seems to be changing colors»
 	}
 
 	ImplordBag: {
@@ -651,7 +651,7 @@ Items: {
 
 	LavaWispOrb: {
 		// DisplayName: Wisp Orb
-		// Tooltip: "'It's hot to the touch'"
+		// Tooltip: «It's hot to the touch»
 	}
 
 	LeechNecklace: {
@@ -675,7 +675,7 @@ Items: {
 			Даёт шанс уклониться от атаки
 			Увеличивает скорость передвижения на 75%
 			Увеличивает высоту прыжка
-			'Дар богов'
+			«Дар богов»
 			''' */
 	}
 
@@ -712,7 +712,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Place in an empty chest to summon the Gimimmick
-			'Do mimics even have keyholes?'
+			«Do mimics even have keyholes?»
 			''' */
 	}
 
@@ -721,7 +721,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Fires paper dollars
-			'M-M-M-Money shot!'
+			«M-M-M-Money shot!»
 			''' */
 	}
 
@@ -756,7 +756,7 @@ Items: {
 
 	PurrStone: {
 		// DisplayName: Kittenite
-		// Tooltip: "'It faintly eminates a soft purring sound'"
+		// Tooltip: «It faintly eminates a soft purring sound»
 	}
 
 	RedCross: {
@@ -819,7 +819,7 @@ Items: {
 			'''
 			5% increased damage
 			10% increased melee speed and projectile velocity
-			'Hearts were made to burn'
+			«Hearts were made to burn»
 			''' */
 	}
 
@@ -892,7 +892,7 @@ Items: {
 		/* Tooltip:
 			'''
 			Creates measurable lines on screen for block placement
-			'Let's start a trend!
+			«Хайпанём немножечко?»
 			''' */
 	}
 
@@ -953,7 +953,7 @@ Items: {
 
 	VoidPowerCore: {
 		// DisplayName: Марсианское энергоядро
-		// Tooltip: "'You feel a dark force consuming you'"
+		// Tooltip: «You feel a dark force consuming you»
 	}
 
 	VoidSpawner: {
@@ -980,13 +980,13 @@ Items: {
 			'''
 			Creates a weird slime
 			Place in front of a demon altar with 5 rotton chunks..
-			'It feels rubbery and gross'
+			«It feels rubbery and gross»
 			''' */
 	}
 
 	ZombieLeg: {
 		// DisplayName: Нога зомби
-		// Tooltip: "'BLARGRGHH'"
+		// Tooltip: "'BLARGRGHH»
 	}
 }
 

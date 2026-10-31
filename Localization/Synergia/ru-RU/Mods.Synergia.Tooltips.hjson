@@ -188,7 +188,7 @@ Accessories: {
 				Increases movement speed
 				Increases jump height
 				Negates fall damage
-				"Heroes don't look down"
+				«Heroes don't look down»
 				''' */
 			/* Level3:
 				'''
@@ -197,7 +197,7 @@ Accessories: {
 				Increases jump height
 				Negates fall damage
 				Has a 30% chance to dodge attacks while dashing
-				"Heroes don't look down"
+				«Heroes don't look down»
 				''' */
 			/* Level4:
 				'''
@@ -208,7 +208,7 @@ Accessories: {
 				Negates fall damage
 				Has a 50% chance to dodge attacks while dashing
 				Increases life regeneration while running
-				"Heroes don't look down"
+				«Heroes don't look down»
 				''' */
 			/* Level5:
 				'''
@@ -219,7 +219,7 @@ Accessories: {
 				Negates fall damage
 				Has a 70% chance to dodge attacks while dashing
 				Greatly increases life regeneration while running
-				"Heroes don't look down"
+				«Heroes don't look down»
 				''' */
 		}
 	}

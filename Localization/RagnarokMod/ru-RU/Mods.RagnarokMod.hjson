@@ -78,7 +78,7 @@ Buffs: {
 		Description: Тьма поглощает вас
 		ItemTooltip:
 			'''
-			Бесклассовый - 100 ед. урона в секунду
+			Бесклассовый — 100 ед. урона в секунду
 			Увеличивает получаемый урон от всех источников на 10%
 			'''
 	}
@@ -141,7 +141,7 @@ Compat: {
 Items: {
 	DrumStick: {
 		DisplayName: Барабанная палочка
-		Tooltip: "'Ваши враги теперь будут ещё и вашими барабанами!'"
+		Tooltip: «Ваши враги теперь будут ещё и вашими барабанами!»
 	}
 
 	AerospecBard: {
@@ -367,7 +367,7 @@ Items: {
 		Tooltip:
 			'''
 			Можно продать за очень неплохую цену
-			'Небольшое перо, оставленное Великой громовой птицей. Из него так и хлещут молнии'
+			«Небольшое перо, оставленное Великой громовой птицей. Из него так и хлещут молнии»
 			'''
 	}
 
@@ -376,7 +376,7 @@ Items: {
 		Tooltip:
 			'''
 			Материнская плата, вырванная из Звёздного разведчика
-			'Эта технология выходит за пределы нашего понимания'
+			«Эта технология выходит за грань нашего понимания»
 			'''
 	}
 
@@ -397,12 +397,12 @@ Items: {
 
 	EmpoweredGranite: {
 		DisplayName: Усиленный гранит
-		Tooltip: "'Гранитный блок, напитавшийся энергией Гранитного энергетического шторма'"
+		Tooltip: «Гранитный блок, напитавшийся энергией Гранитного энергетического шторма»
 	}
 
 	EnchantedMarble: {
 		DisplayName: Зачарованный мрамор
-		Tooltip: "'Особый мрамор, напитанный древней божественной магией'"
+		Tooltip: «Особый мрамор, напитанный древней божественной магией»
 	}
 
 	StatigelHeadBard: {
@@ -444,7 +444,7 @@ Items: {
 
 	StriderFang: {
 		DisplayName: Клык шагателя
-		Tooltip: "'Ледяной клык, вырванный прямо из пасти Борейского шагателя'"
+		Tooltip: «Ледяной клык, вырванный прямо из пасти Борейского шагателя»
 	}
 
 	TarragonCowl: {
@@ -553,8 +553,8 @@ Items: {
 			'''
 			Fires a life stealing bolt
 			Press <right> to fire fast moving healing bolts instead
-			'You must follow the law of equivalent exchange'
-			'You can only get out equal to what you put in'
+			«You must follow the law of equivalent exchange»
+			«You can only get out equal to what you put in»
 			'''
 	}
 
@@ -606,7 +606,7 @@ Items: {
 			Sing a song that creates a spread of shadowflame sound waves
 			The central sound wave will instead be cursed
 			The cursed sound will summon a tendril to attack the first enemy hit
-			'Микрофон одного знаменитого демона'
+			«Микрофон одного знаменитого демона»
 			'''
 	}
 
@@ -639,7 +639,7 @@ Items: {
 		Tooltip:
 			'''
 			Can be sold for a very good price to shops
-			'They say beauty is in the eye of the beholder... I don't think they meant that literally'
+			«They say beauty is in the eye of the beholder... I don't think they meant that literally»
 			'''
 	}
 
@@ -649,19 +649,19 @@ Items: {
 			'''
 			Восстанавливает 100 ед. здоровья
 			{$CommonItemTooltip.MediumStats}
-			'Великолепное медузное желе
-			Можно даже сказать, что именно из него получается самый вкусный бургер во всём море'
+			«Великолепное медузное желе
+			Можно даже сказать, что именно из него получается самый вкусный бургер во всём море»
 			'''
 	}
 
 	Steampipes: {
 		DisplayName: Паропровод
-		Tooltip: "'Волынка, работающая на пару!'"
+		Tooltip: «Волынка, работающая на пару!»
 	}
 
 	ElysianSong: {
 		DisplayName: Элизийская песнь
-		Tooltip: "'So close to an angel's trumpet, yet so far...'"
+		Tooltip: «So close to an angel's trumpet, yet so far...»
 	}
 
 	ExecutionerMark05: {
@@ -670,7 +670,7 @@ Items: {
 			'''
 			It starts slow, but will continuously build speed
 			Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
-			'Ядро Танатоса, пересобранное в качестве косы'
+			«Ядро Танатоса, пересобранное в качестве косы»
 			'''
 	}
 
@@ -689,7 +689,7 @@ Items: {
 			Патронник всегда заряжен минимум на 8 патронов
 			При попадании по врагу пули выпускают подбираемые кровавые сферы
 			Подбор кровавых сфер сокращает время действия дебаффа [cbuff:PotionSickness]
-			'КРОВЬ — ТОПЛИВО'
+			«КРОВЬ — ТОПЛИВО»
 			'''
 	}
 
@@ -722,7 +722,7 @@ Items: {
 		Tooltip:
 			'''
 			Fetches quite a fortune on the market
-			'An enchanted shard from the prison of an ancient god'
+			«An enchanted shard from the prison of an ancient god»
 			'''
 	}
 
@@ -758,7 +758,7 @@ Items: {
 			Increases damage based on held coins (coinslots only)
 			This bonus is increased by 50% while in adrenaline mode
 			You will lose 25% of your coins permanently upon death (50% on death or master mode)
-			'У этой мыши должно быть отлично развиты её летучие мышьцы, раз у неё получилось оставить такое'
+			«У этой мыши должно быть отлично развиты её летучие мышцы, раз у неё получилось оставить такое»
 			'''
 	}
 
@@ -782,7 +782,7 @@ Items: {
 		Tooltip:
 			'''
 			Causes Tetriminos to fall from the sky
-			'A non-descript game console'
+			«A non-descript game console»
 			'''
 	}
 
@@ -867,7 +867,7 @@ Items: {
 			'''
 			Press <left> to play the ukulele
 			Press <right> to throw the ukulele
-			'Does not make for a good apology'
+			«Does not make for a good apology»
 			'''
 	}
 
@@ -876,7 +876,7 @@ Items: {
 		Tooltip:
 			'''
 			Spinning the scythe periodically releases a barrage of chilling darts
-			'Found somewhere between Halloween and Christmas... you could make a movie about that!'
+			«Found somewhere between Halloween and Christmas... you could make a movie about that!»
 			'''
 	}
 
@@ -930,8 +930,8 @@ Items: {
 		Tooltip:
 			'''
 			Призывает Келли
-			'Предмет покровителя для HayWire799'
-			'Спрайты были нарисованы Zenovia'
+			«Предмет покровителя HayWire799»
+			«Спрайты были нарисованы Zenovia»
 			'''
 	}
 
@@ -947,7 +947,7 @@ Items: {
 			Увеличивает симфонический урон на 15%
 			Увеличивает скорость восстановления вдохновения на 20%
 			Анахита будет петь параллельно тому, как вы атакуете, выпуская дополнительные снаряды
-			'Сирена подпевает вашей чарующей мелодии'
+			«Сирена подпевает вашей чарующей мелодии»
 			'''
 	}
 
@@ -1036,7 +1036,7 @@ Items: {
 		Tooltip:
 			'''
 			Увеличивает максимальное количество стражей на 1
-			'Такой пушистый, прямо как хвост у белки'
+			«Такой пушистый, прямо как хвост у белки»
 			'''
 	}
 
@@ -1120,7 +1120,7 @@ Items: {
 			Когда вы держите кристалл в руках, снижается урон всех миньонов и стражей, ваша защита, а также увеличивается получаемый вами урон
 			[c/FF8C00:Я никогда прежде не знала доброты. Ни сверстники, ни семья не проявляли ко мне сострадания]
 			[c/FF8C00:Я мечтала о ком-то, кому могла бы довериться. О ком-то, чьё присутствие развеяло бы мои тревоги]
-			[c/FF8C00:И когда при нашей встрече я увидела Её лучезарную улыбку, я поняла - я наконец нашла то, что искала]
+			[c/FF8C00:И когда при нашей встрече я увидела Её лучезарную улыбку, я поняла — я наконец нашла то, что искала]
 			'''
 		DisplayName: Реликвия сближения
 	}
@@ -1175,7 +1175,7 @@ Items: {
 			Press <right> with enough Starbursts to create Asterion
 			Asterion consumes Starburts quickly, but releases constant stellar pulses
 			These pulses heal you and allies in range, and inflict [cbuff:CalamityMod/Voidfrost] on enemies
-			'As loyal as a hound'
+			«As loyal as a hound»
 			'''
 	}
 
@@ -1186,7 +1186,7 @@ Items: {
 			Alternating castanet clicks spray lingering fungal spores
 			Нажмите ПКМ, чтобы проиграть рифф [c/00FFFF:«1NF3S+@+!0N»!]
 			During the riff, your castanets become Crabulon's claws while spores rain from above
-			'Sounds like crab claws!'
+			«Sounds like crab claws!»
 			'''
 	}
 
@@ -1709,7 +1709,7 @@ Configs: {
 			Tooltip:
 				'''
 				Type in a mod sound path for the custom missed timing sound you would like to use.
-				For example, 'RagnarokMod/Sounds/bonk'.
+				For example, «RagnarokMod/Sounds/bonk».
 				Must have a corresponding .ogg file in the mod's Sounds folder, otherwise it might cause crashes or just not work.
 				Does not do anything unless the Miss Sound Preset is set to Custom.
 				'''

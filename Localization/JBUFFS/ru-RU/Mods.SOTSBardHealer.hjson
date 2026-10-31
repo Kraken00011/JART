@@ -23,6 +23,6 @@ Items: {
 		'''
 		Стреляет 3 зарядами сверхгромкого шума, самонаводящегося во врагов
 		Выстреливаемые заряды имеют три расцветки, каждый цвет накладывает свой дебафф
-		Жёлтый накладывает [jbuff:Ichor], розовый - [jbuff:ThoriumMod/IlluminatedNPC], а фиолетовый - [jbuff:ThoriumMod/LightCurse]
+		Жёлтый накладывает [jbuff:Ichor], розовый — [jbuff:ThoriumMod/IlluminatedNPC], а фиолетовый — [jbuff:ThoriumMod/LightCurse]
 		'''
 }

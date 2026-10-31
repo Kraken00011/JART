@@ -59,7 +59,7 @@ Items: {
 		Прикосновение к полностью сформировавшимся цветам даёт бафф [jbuffplr:Honey] и вызывает появление роя пчёл
 		Враги, касающиеся цветов, также вызывают появление роя пчёл
 		[i:HiveBackpack] Даёт эффекты от предмета «{$ItemName.HiveBackpack}»
-		'Согласно всем известным законам авиации, пчела - не вертолёт'
+		'Согласно всем известным законам авиации, пчела — не вертолёт'
 		'''
 	CobaltEnchant.Tooltip:
 		'''
@@ -747,7 +747,7 @@ Items: {
 		Даёт эффекты от баффов [jbuffplr:Sonar] и [jbuffplr:Crate]
 		Даёт эффекты от предметов «{$ItemName.AnglerTackleBag}», «{$ItemName.VolatileGelatin}» и «{$ItemName.SporeSac}»
 		Даёт эффекты от предметов «{$ItemName.BalloonHorseshoeSharkron}» и «{$ItemName.ArcticDivingGear}»
-		'Я - гроза рыб'
+		'Я — гроза рыб'
 		'''
 	RabiesShot.Tooltip: Исцеляет от дебаффа [jbuffplr:Rabies]
 	RabiesVaccine.Tooltip: Навсегда даёт невосприимчивость к дебаффу [jbuffplr:Rabies]

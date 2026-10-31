@@ -20,7 +20,7 @@ WarCleave: {
 
 ExoBaguetteBuff: {
 	DisplayName: Экзо-багет
-	Description: "[c/04c000:'Экзо-бонжур' ~WitherTaco]"
+	Description: "[c/04c000:«Экзо-бонжур» ~WitherTaco]"
 }
 
 BrimChairBuff: {
