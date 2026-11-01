@@ -51,7 +51,7 @@
         DaoofPow:
             '''
             Может наложить на врага дебафф [jbuff:Confused]
-            'Познай своё внутреннее равновесие'
+            «Познай своё внутреннее равновесие»
             '''
         FastClock: Даёт невосприимчивость к дебаффу [jbuffplr:Slow]
         FireGauntlet:
@@ -69,7 +69,7 @@
         FlaskofPoison: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Poisoned]
         FlaskofVenom: Атаки хлыстов и оружия ближнего боя накладывают дебафф [jbuff:Venom]
         MagmaStone: Атаки ближнего боя накладывают дебафф [jbuff:OnFire3]
-        MedicatedBandage: Даёт невосприимчивость к дебаффам [jbuffplr:Poisoned] и [jbuffplr:Bleeding] [jbuffplr:ObsidianSkin]
+        MedicatedBandage: Даёт невосприимчивость к дебаффам [jbuffplr:Poisoned] и [jbuffplr:Bleeding]
         Megaphone: Даёт невосприимчивость к дебаффу [jbuffplr:Silenced]
         NanoBullet: Накладывает дебафф [jbuff:Confused] и отскакивает от блоков
         Nazar: Даёт невосприимчивость к дебаффу [jbuffplr:Cursed]

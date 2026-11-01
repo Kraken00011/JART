@@ -29,13 +29,13 @@ Terraria: {
 
 	Midas: {
 		ItemTooltipPlayer: ""
-		ItemTooltipEnemy: Увеличивает количество выпадающих с цели монет
+		ItemTooltipEnemy: Увеличивает количество выпадающих с врага монет на 35-50%
 	}
 
 	Poisoned: {
 		ItemTooltipPlayer: 2 ед. урона в секунду
 		ItemTooltipEnemy: 6 ед. урона в секунду
-		ItemTooltipPlayerCalamity: Истощение - 2 ед. урона в секунду
+		ItemTooltipPlayerCalamity: Истощение — 2 ед. урона в секунду
 		ItemTooltipEnemyCalamity: "{$Terraria.Buffs.Poisoned.ItemTooltipEnemy}"
 	}
 
@@ -48,12 +48,12 @@ Terraria: {
 
 	ShadowFlame: {
 		ItemTooltipEnemy: 15 ед. урона в секунду
-		ItemTooltipPlayerCalamity: Жар - 15 ед. урона в секунду
-		ItemTooltipEnemyCalamity: Жар - 20 ед. урона в секунду
+		ItemTooltipPlayerCalamity: Жар — 15 ед. урона в секунду
+		ItemTooltipEnemyCalamity: Жар — 20 ед. урона в секунду
 	}
 
 	Bleeding: {
-		ItemTooltipPlayer: Не позволяет восстанавливать здоровье
+		ItemTooltipPlayer: Отключает регенерацию здоровья
 		ItemTooltipEnemy: 12 ед. урона в секунду
 	}
 
@@ -79,12 +79,12 @@ Terraria: {
 		ItemTooltipEnemy: Даёт невосприимчивость к некоторым огненным дебаффам и [jbuff:Stinky], а также снимает их, если они уже были наложены
 		ItemTooltipPlayerCalamity:
 			'''
-			{ItemTooltipPlayer}
+			{$ItemTooltipPlayer}
 			{$Terraria.Buffs.Wet.ItemTooltipPlayer}
 			'''
 		ItemTooltipEnemyCalamity:
 			'''
-			{ItemTooltipPlayer}
+			{$ItemTooltipPlayer}
 			{$Terraria.Buffs.Wet.ItemTooltipEnemy}
 			'''
 	}
@@ -132,7 +132,7 @@ Terraria: {
 			'''
 		ItemTooltipPlayerCalamity:
 			'''
-			Жар - 30 ед. урона в секунду
+			Жар — 30 ед. урона в секунду
 			Снижает скорость передвижения в 2 раза
 			'''
 	}
@@ -193,12 +193,12 @@ Terraria: {
 		Не позволяет использовать любые предметы
 		Даёт восприимчивость к урону при падении, даже при использовании аксессуаров, нейтрализующих его
 		'''
-	WindPushed.ItemTooltipPlayer: Толкает игрока в направлении ветра
-	VortexDebuff.ItemTooltipPlayer: Толкает игрока вверх-вниз
+	WindPushed.ItemTooltipPlayer: Толкает игрока в направлении движения ветра
+	VortexDebuff.ItemTooltipPlayer: Постоянно толкает игрока вверх-вниз
 	Suffocation.ItemTooltipPlayer:
         '''
         20 ед. урона в секунду
-        Не позволяет восстанавливать здоровье
+        Отключает регенерацию здоровья
         '''
 	Weak.ItemTooltipPlayer: Снижает защиту на 4 ед., урон и скорость атаки ближнего боя на 5,1%, а также скорость передвижения на 10%
 
@@ -254,4 +254,84 @@ Terraria: {
 	Crate.ItemTooltipPlayer: Увеличивает шанс выловить ящик на 15%
 	Fishing.ItemTooltipPlayer: Увеличивает навык рыбной ловли на 15 ед.
 	ParryDamageBuff.ItemTooltipPlayer: Увеличивает урон от следующей атаки на 400%
+	MagicPower.ItemTooltipPlayer: Увеличивает магический урон на 20%
+	ManaRegeneration: Увеличивает скорость восстановления маны во время передвижения
+
+	Daybreak: {
+		ItemTooltipEnemy: 100 ед. урона в секунду
+		ItemTooltipPlayer: 100 ед. урона в секунду
+		ItemTooltipEnemyCalamity: Жар — 100 ед. урона в секунду
+		ItemTooltipPlayerCalamity: Жар — 100 ед. урона в секунду
+	}
+
+	Celled.ItemTooltipEnemy: 20 ед. урона в секунду
+
+	Items: {
+		MagmaStone.OnFire3: ""
+	}
+}
+
+CalamityMod.AlcoholPoisoning.ItemTooltipPlayer: Снижает скорость регенерации здоровья на 1,5 ед./сек за каждую ед. выпитого алкоголя
+
+BlueMoon: {
+	LunarEmpowermentBuff: {
+		ItemTooltipPlayer:
+			'''
+			Немного увеличивает удачу
+			Увеличивает удачу чуть сильнее в Хардмоде
+			'''
+	}
+
+	BountifulHarvestBuff: {
+		ItemTooltipPlayer:
+			'''
+			Увеличивает количество выпадающих с врагов монет в 1,5 раза
+			Увеличивает количество выпадающих с врагов монет в 2 раза в Хардмоде
+			'''
+	}
+
+	FloralBlessingBuff: {
+		ItemTooltipPlayer:
+			'''
+			Увеличивает скорость регенерации здоровья на 2 ед./сек
+			Увеличивает скорость регенерации здоровья на 3 ед./сек в Хардмоде
+			'''
+		ItemTooltipPlayerIEoR:
+			'''
+			Увеличивает скорость регенерации здоровья на 1 ед./сек
+			Увеличивает скорость регенерации здоровья на 2 ед./сек в Хардмоде
+			'''
+	}
+
+	MintyFreshnessBuff: {
+		ItemTooltipPlayer: Увеличивает весь урон и скорость передвижения на 20%
+		ItemTooltipPlayerIEoR: Увеличивает урон и скорость передвижения на 7%
+	}
+
+	MoonsRingBuff.ItemTooltipPlayer: Даёт эффекты от баффов [jbuffplr:BlueMoon/LunarEmpowermentBuff], [jbuffplr:BlueMoon/BountifulHarvestBuff], [jbuffplr:BlueMoon/FloralBlessingBuff] и [jbuffplr:BlueMoon/MintyFreshnessBuff]
+}
+
+InfernalEclipseWeaponsDLC: {
+	Items: {
+		DukeSynth.Poisoned: Газовые облака
+		TwoPaths.LightCurse: Белые косы
+
+		PocketConcert: {
+			ShadowFlame: Фиолетовые ноты
+			Ichor: Жёлтые ноты
+			Electrified: Синие ноты
+			Plague: Зелёные ноты
+			BrimstoneFlames: Красные ноты
+		}
+
+		SulphuricShanty: Газовые облака
+
+		ListoftheDamned: {
+			Frostburn: Зелёные духи
+			OnFire3: Оранжевые духи
+		}
+
+		DeepseaTrident.Wet: Водные потоки
+		TheBlight.CursedInferno: При прямом попадании
+	}
 }

@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Terraria.ID;
 
-namespace JAtRT.Core.BuffModules
+namespace JAtRT.Core.ChatTags.BuffTags
 {
     public class VanillaBuffs : BuffInfoModule
     {
@@ -83,6 +83,8 @@ namespace JAtRT.Core.BuffModules
             BuffInfoRegistry.Register(BuffID.Crate, new Color(186, 85, 211));
             BuffInfoRegistry.Register(BuffID.Fishing, new Color(186, 85, 211));
             BuffInfoRegistry.Register(BuffID.ParryDamageBuff, new Color(186, 85, 211));
+            BuffInfoRegistry.Register(BuffID.MagicPower, new Color(186, 85, 211));
+            BuffInfoRegistry.Register(BuffID.ManaRegeneration, new Color(186, 85, 211));
 
             // предметы)
             BuffInfoRegistry.RegisterItem(ItemID.IceBoomerang).Enemy(BuffID.Frostburn);
@@ -113,7 +115,7 @@ namespace JAtRT.Core.BuffModules
             BuffInfoRegistry.RegisterItem(ItemID.DD2PhoenixBow).Enemy(BuffID.OnFire3);
             BuffInfoRegistry.RegisterItem(ItemID.InfernoFork).Enemy(BuffID.OnFire3);
             BuffInfoRegistry.RegisterItem(ItemID.ButchersChainsaw).Enemy(BuffID.OnFire3);
-            BuffInfoRegistry.RegisterItem(ItemID.DD2SquireDemonSword).Enemy(BuffID.OnFire3);
+            BuffInfoRegistry.RegisterItem(ItemID.DD2SquireDemonSword).Enemy(BuffID.OnFire3, BuffID.ParryDamageBuff);
             BuffInfoRegistry.RegisterItem(ItemID.DD2FlameburstTowerT2Popper).Enemy(BuffID.OnFire3);
             BuffInfoRegistry.RegisterItem(ItemID.DD2FlameburstTowerT3Popper).Enemy(BuffID.OnFire3);
             BuffInfoRegistry.RegisterItem(ItemID.FireWhip).Enemy(BuffID.OnFire3);
@@ -156,6 +158,7 @@ namespace JAtRT.Core.BuffModules
             BuffInfoRegistry.RegisterItem(ItemID.Sunflower).Player(BuffID.Sunflower);
             BuffInfoRegistry.RegisterItem(ItemID.AnkhCharm).Player(BuffID.Weak, BuffID.BrokenArmor, BuffID.Poisoned, BuffID.Bleeding, BuffID.Slow, BuffID.Confused, BuffID.Silenced, BuffID.Cursed, BuffID.Darkness, BuffID.Stoned);
             BuffInfoRegistry.RegisterItem(ItemID.AnkhShield).Player(BuffID.Weak, BuffID.BrokenArmor, BuffID.Poisoned, BuffID.Bleeding, BuffID.Slow, BuffID.Confused, BuffID.Silenced, BuffID.Cursed, BuffID.Darkness, BuffID.Stoned);
+            BuffInfoRegistry.RegisterItem(ItemID.BouncingShield).Player(BuffID.ParryDamageBuff);
         }
     }
 }

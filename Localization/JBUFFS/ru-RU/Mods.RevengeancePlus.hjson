@@ -16,8 +16,8 @@ AIChanges: {
 		-Во время слабых прыжков создаёт 4 падающих клинка
 		-Во время заряженной атаки выбрасывает пару взрывных яиц
 		-Лепус теперь иногда может остановиться и рыгнуть
-		-Пасхальные зайцы при попадании накладывают дебафф [jbuff:FargowiltasSouls/GuiltyBuff]
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/StunnedBuff], либо [jbuff:FargowiltasSouls/RottingBuff], либо [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Пасхальные зайцы при попадании накладывают дебафф [jbuff:FargowiltasSouls/GuiltyBuff:Виновный]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/StunnedBuff:Оглушённый], либо [jbuff:FargowiltasSouls/RottingBuff:Гниение], либо [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения Calamity снова включены
@@ -38,7 +38,7 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения Calamity выключены
 		-Время от времени тело создаёт ножевые спирали
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/GuiltyBuff], либо [jbuff:FargowiltasSouls/RottingBuff], либо [jbuff:FargowiltasSouls/StunnedBuff]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/GuiltyBuff:Виновный], либо [jbuff:FargowiltasSouls/RottingBuff:Гниение], либо [jbuff:FargowiltasSouls/StunnedBuff:Оглушённый]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения Calamity снова включены
@@ -57,7 +57,7 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения Calamity выключены
 		-Колючие шары недолго преследуют игрока
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/InfestedBuff] и [jbuff:FargowiltasSouls/RottingBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/InfestedBuff:Заражённый] и [jbuff:FargowiltasSouls/RottingBuff:Гниение]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения Calamity снова включены
@@ -76,7 +76,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения Calamity выключены
-		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/SmiteBuff]
+		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/SmiteBuff:Кара]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения Calamity снова включены
@@ -84,7 +84,7 @@ AIChanges: {
     Keeper:
 		'''
 		{$Mods.RevengeancePlus.Modes.Revengeance}
-		-Большинство атак накладывают дебафф [jbuff:CalamityMod/BurningBlood]
+		-Большинство атак накладывают дебафф [jbuff:CalamityMod/BurningBlood:Пылающая кровь]
 		-Кровавые волны двигаются быстрее
 
 		{$Mods.RevengeancePlus.Modes.Death}
@@ -94,7 +94,7 @@ AIChanges: {
 		-Изменения для Calamity отключены
 		-В 1 фазе рывки сопровождаются зарядом кровавых волн
 		-Во 2 фазе рывки оставляют след из ускоряющихся клешней
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/RottingBuff], [jbuff:FargowiltasSouls/LethargicBuff], [jbuff:FargowiltasSouls/BerserkedBuff] или [jbuff:ShadowFlame]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/RottingBuff:Гниение], [jbuff:FargowiltasSouls/LethargicBuff:Летаргия], [jbuff:FargowiltasSouls/BerserkedBuff:Разъярённый] или [jbuff:ShadowFlame]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -108,7 +108,7 @@ AIChanges: {
 		-Дроны-ракеты атакуют ещё быстрее
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod] и [jbuff:FargowiltasSouls/NanoInjectionBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] и [jbuff:FargowiltasSouls/NanoInjectionBuff:Наноинъекция]
 		-Световые гранаты могут обездвижить игрока
 		-Изменения для Calamity отключены
 
@@ -126,7 +126,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod] и [jbuff:FargowiltasSouls/NanoInjectionBuff]
+		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] и [jbuff:FargowiltasSouls/NanoInjectionBuff:Наноинъекция]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -135,16 +135,16 @@ AIChanges: {
 	OmegaObliterator:
 		'''
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod] и [jbuff:FargowiltasSouls/NanoInjectionBuff]
+		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] и [jbuff:FargowiltasSouls/NanoInjectionBuff:Наноинъекция]
 		-Обездвиживающий луч может ошеломить игрока
 		'''
     PatientZero:
 		'''
 		{$Mods.RevengeancePlus.Modes.Death}
-		-Большинство атак накладывают дебафф [jbuff:CalamityMod/Irradiated]
+		-Большинство атак накладывают дебафф [jbuff:CalamityMod/Irradiated:Облучённый]
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff]
+		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff:Гниение]
 		'''
 	Nebuleus:
 		'''
@@ -158,7 +158,7 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
 		-Атака цепями космоса заменены звездным шквалом
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff] и [jbuff:FargowiltasSouls/PurifiedBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff:Кара] и [jbuff:FargowiltasSouls/PurifiedBuff:Очищенный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены (кроме замены цепей космоса)
@@ -181,7 +181,7 @@ AIChanges: {
 		-Первая фаза имеет уникальный набор атак, являющихся ослабленными версиями атак 2 фазы
 		-Стреляет гигантским гелевым сгустком, разделяющимся на 6 меньших сгустков, после стреляет лазерным лучом
 		-После невидимой атаки зависает за игроком, после чего выстреливает самонаводящимися сгустками вместе с одиночными спиралями
-		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/LethargicBuff]
+		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/LethargicBuff:Летаргия]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены (кроме увеличения скорости атак)
@@ -204,7 +204,7 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены (кроме того, что атаки накладывают дебафф [jbuff:Cursed])
 		-Берёт некоторые атаки у Проклятого саркофага (ударные волны и костяные кресты)
-		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff] или [jbuff:Cursed]
+		-Большинство атак накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff:Гниение] или [jbuff:Cursed]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -225,7 +225,7 @@ AIChanges: {
 		-Изменения для Calamity отключены
 		-Стреляет большим количеством спиральных лучей, но их время существования сокращается
 		-Во время спиральной атаки стреляет несколькими электросферами
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff], либо [jbuff:FargowiltasSouls/TheLightningRod]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff:Кара], либо [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -234,13 +234,13 @@ AIChanges: {
 	Excavator:
 		'''
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/FusedBuff], [jbuff:FargowiltasSouls/TheLightningRod] или [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/FusedBuff:Запал], [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] или [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 		'''
 	Polaris:
 		'''
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/LethargicBuff] или [jbuff:FargowiltasSouls/DefenselessBuff]
-		-Лазерные лучи накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff] и [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/LethargicBuff:Летаргия] или [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
+		-Лазерные лучи накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff:Кара] и [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 		'''
 	Lux:
 		'''
@@ -255,7 +255,7 @@ AIChanges: {
 		-Изменения для Calamity отключены
 		-Заимствует пару атак у Света жизни (световое поле)
 		-Вторая стена снарядов формируется во время атакой лазерными стенами
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff], либо [jbuff:FargowiltasSouls/PurifiedBuff]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff:Кара], либо [jbuff:FargowiltasSouls/PurifiedBuff:Очищенный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -266,7 +266,7 @@ AIChanges: {
 		-Во время кольцевой атаки стреляет красными и зелёными пеллетами
 		-Каждый рывок стреляет отложенным залпом красных пеллет
 		-Во 2 фазе во время погони за игроком стреляет красными пеллетами
-		-Красные пеллеты и фаерболы во 2 фазе накладывают дебафф [jbuff:CalamityMod/BrimstoneFlames]
+		-Красные пеллеты и фаерболы во 2 фазе накладывают дебафф [jbuff:CalamityMod/BrimstoneFlames:Серные огни]
 
 		{$Mods.RevengeancePlus.Modes.Death}
 		-Во время кольцевой атаки стреляет большим количеством пеллет
@@ -277,7 +277,7 @@ AIChanges: {
 		-Изменения для Calamity отключены
 		-Кольцевая атака фаерболами происходит до рывка дождя пламени 2-й фазы
 		-Совершает атаку огненным дыханием каждый рывок дождя пламени
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff], либо [jbuff:FargowiltasSouls/TheLightningRod], либо [jbuff:FargowiltasSouls/FusedBuff]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/SmiteBuff:Кара], либо [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод], либо [jbuff:FargowiltasSouls/FusedBuff:Запал]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -293,7 +293,7 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
 		-Создаёт ударные волны во время приземления
-		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/RottingBuff], либо [jbuff:FargowiltasSouls/InfestedBuff], либо [jbuff:Dazed]
+		-Большинство атак накладывают либо дебафф [jbuff:FargowiltasSouls/RottingBuff:Гниение], либо [jbuff:FargowiltasSouls/InfestedBuff:Заражённый], либо [jbuff:Dazed]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -304,7 +304,7 @@ AIChanges: {
 		-Совершает рывок 1 дополнительный раз
 		-Интервал между рывками уменьшен
 		-Телепортации проходят быстрее
-		-Глазной луч накладывает дебафф [jbuff:CalamityMod/Irradiated]
+		-Глазной луч накладывает дебафф [jbuff:CalamityMod/Irradiated:Облучённый]
 
 		{$Mods.RevengeancePlus.Modes.Death}
 		-Совершает рывок 2 дополнительных раза вместо 1
@@ -315,7 +315,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Глазаряды накладывают дебафф [jbuff:FargowiltasSouls/SmiteBuff]
+		-Глазаряды накладывают дебафф [jbuff:FargowiltasSouls/SmiteBuff:Кара]
 		-Продолжает стрелять глазарядами даже во время атаки глазолучом
 		-Во время рывка выстреливает залпом из кос
 		-Во время дождя из черепов стреляет наведёнными в сторону игрока косами
@@ -343,8 +343,8 @@ AIChanges: {
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
 		-Во время рывка оставляет за собой след падающих соплей
-		-Каждая сопля начинает накладывать дебафф [jbuff:FargowiltasSouls/LethargicBuff] и [jbuff:FargowiltasSouls/InfestedBuff]
-		-Гигантские козявки начинают накладывать дебафф [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Каждая сопля начинает накладывать дебафф [jbuff:FargowiltasSouls/LethargicBuff:Летаргия] и [jbuff:FargowiltasSouls/InfestedBuff:Заражённый]
+		-Гигантские козявки начинают накладывать дебафф [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -352,17 +352,17 @@ AIChanges: {
 	Daffodil:
 		'''
 		{$Mods.RevengeancePlus.Modes.Eternity}
-		-Все шиповые атаки начинают накладывать дебафф [jbuff:FargowiltasSouls/InfestedBuff]
-		-Цветки начинают накладывать дебафф [jbuff:FargowiltasSouls/InfestedBuff]
-		-Мухи начинают накладывать дебафф [jbuff:FargowiltasSouls/RottingBuff]
-		-Сметающий лазер начинают накладывать дебафф [jbuff:FargowiltasSouls/FusedBuff]
+		-Все шиповые атаки начинают накладывать дебафф [jbuff:FargowiltasSouls/InfestedBuff:Заражённый]
+		-Цветки начинают накладывать дебафф [jbuff:FargowiltasSouls/InfestedBuff:Заражённый]
+		-Мухи начинают накладывать дебафф [jbuff:FargowiltasSouls/RottingBuff:Гниение]
+		-Сметающий лазер начинают накладывать дебафф [jbuff:FargowiltasSouls/FusedBuff:Запал]
 		'''
 	OrroBoro:
 		'''
 		{$Mods.RevengeancePlus.Modes.Revengeance}
 		-До удлинённого рывка оба совершают плевковую атаку с определённым разбросом
-		-Все плевковые атаки и кровавые сгустки Орро начинают накладывать дебафф [jbuff:CalamityMod/BrainRot]
-		-Столбы плоти и кровавые сгустки Боро начинают накладывать дебафф [jbuff:CalamityMod/BurningBlood]
+		-Все плевковые атаки и кровавые сгустки Орро начинают накладывать дебафф [jbuff:CalamityMod/BrainRot:Гниение мозга]
+		-Столбы плоти и кровавые сгустки Боро начинают накладывать дебафф [jbuff:CalamityMod/BurningBlood:Пылающая кровь]
 		-Во время ярости Боро сплёвывает залп из 3-х ударов во время рывка
 		-Во время ярости вскоре после совершения рывка Орро создаёт несколько бомб
 
@@ -371,8 +371,8 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Глазные плевки начинают накладывать дебаффы [jbuff:FargowiltasSouls/LethargicBuff] и [jbuff:FargowiltasSouls/DefenselessBuff]
-		-Кровавые сгустки и столбы плоти начинают накладывать дебаффы [jbuff:FargowiltasSouls/RottingBuff]
+		-Глазные плевки начинают накладывать дебаффы [jbuff:FargowiltasSouls/LethargicBuff:Летаргия] и [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
+		-Кровавые сгустки и столбы плоти начинают накладывать дебаффы [jbuff:FargowiltasSouls/RottingBuff:Гниение]
 		-Во время удлинённого рывка Боро оставляет за собой след из пиявок
 		-Орро создаёт стены ленточных червей во время удлинённого рывка
 		-Боро выпускает самонаводящиеся зубы во время атаки языком
@@ -390,10 +390,10 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Огненные атаки накладывают дебафф [jbuff:FargowiltasSouls/FusedBuff]
-		-Споровые атаки и атаки колючками накладывают дебафф [jbuff:FargowiltasSouls/InfestedBuff]
-		-Цветковые и костяные атаки накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff]
-		-Бритвенные атаки накладывают дебаффы [jbuff:FargowiltasSouls/InfestedBuff] и [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Огненные атаки накладывают дебафф [jbuff:FargowiltasSouls/FusedBuff:Запал]
+		-Споровые атаки и атаки колючками накладывают дебафф [jbuff:FargowiltasSouls/InfestedBuff:Заражённый]
+		-Цветковые и костяные атаки накладывают дебафф [jbuff:FargowiltasSouls/RottingBuff:Гниение]
+		-Бритвенные атаки накладывают дебаффы [jbuff:FargowiltasSouls/InfestedBuff:Заражённый] и [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -410,7 +410,7 @@ AIChanges: {
 		-Изменения для Calamity отключены
 		-Стреляет кольцом снарядов пока одиночный лазерный луч активен
 		-Стреляет разбросом из снарядов пока двойной лазерный луч активен
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff] и [jbuff:FargowiltasSouls/TheLightningRod]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff:Кара] и [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Увеличено количество снарядов у кольца снарядов
@@ -427,7 +427,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/DefenselessBuff], [jbuff:FargowiltasSoulsStunnedBuff] и [jbuff:FargowiltasSouls/FusedBuff]
+		-Большинство атак накладывают дебаффы [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный], [jbuff:FargowiltasSouls/StunnedBuff:Оглушённый] и [jbuff:FargowiltasSouls/FusedBuff:Запал]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены
@@ -443,7 +443,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Проныры накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod] и [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Проныры накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] и [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 		-Голограммы Линки накладывают дебаффы режима Вечности, точно такие же, как скопированные ими существа
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
@@ -460,7 +460,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Проныры накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod] и [jbuff:FargowiltasSouls/DefenselessBuff]
+		-Проныры накладывают дебаффы [jbuff:FargowiltasSouls/TheLightningRod:Громоотвод] и [jbuff:FargowiltasSouls/DefenselessBuff:Беззащитный]
 		-Голограммы Линки накладывают дебаффы режима Вечности, точно такие же, как скопированные ими существа
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
@@ -476,7 +476,7 @@ AIChanges: {
 
 		{$Mods.RevengeancePlus.Modes.Eternity}
 		-Изменения для Calamity отключены
-		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff] и [jbuff:FargowiltasSouls/PurifiedBuff]
+		-Все атаки накладывают дебаффы [jbuff:FargowiltasSouls/SmiteBuff:Кара] и [jbuff:FargowiltasSouls/PurifiedBuff:Очищенный]
 
 		{$Mods.RevengeancePlus.Modes.EterniDeath}
 		-Изменения для Calamity снова включены

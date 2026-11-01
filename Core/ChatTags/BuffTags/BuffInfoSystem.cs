@@ -12,7 +12,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.UI.Chat;
 
-namespace JAtRT.Core
+namespace JAtRT.Core.ChatTags.BuffTags
 {
     public enum BuffSide
     {
@@ -65,10 +65,11 @@ namespace JAtRT.Core
         public static readonly Dictionary<string, string> ModSuffixAliases = new()
         {
             ["CalamityMod"] = "Calamity",
+            ["InfernalEclipseAPI"] = "IEoR",
         };
 
         // если установлено несколько модов с вариантами — выигрывает тот, что выше в списке.
-        public static readonly List<string> ModPriority = new() { "CalamityMod" };
+        public static readonly List<string> ModPriority = new() { "InfernalEclipseAPI", "CalamityMod" };
 
         public static string FullName(int buffId)
         {
@@ -270,6 +271,18 @@ namespace JAtRT.Core
             return null;
         }
 
+        /// Возвращает дополнительную информацию о баффе в контексте конкретного предмета.
+        /// Ключ: Mods.JAtRT.BuffInfo.Items.{itemMod}.{itemName}.{buffName}
+        public static string ResolveItemExtraInfo(string itemMod, string itemName, int buffId)
+        {
+            string buffName = buffId < BuffID.Count
+                ? BuffID.Search.GetName(buffId)
+                : BuffLoader.GetBuff(buffId).Name;
+
+            string key = $"Mods.JAtRT.BuffInfo.{itemMod}.Items.{itemName}.{buffName}";
+            return HasText(key) ? Language.GetTextValue(key) : null;
+        }
+
         private static IEnumerable<string> InstalledSuffixes()
         {
             var names = ModLoader.Mods.Select(m => m.Name).ToList();
@@ -335,8 +348,6 @@ namespace JAtRT.Core
 
         public BuffSnippet(int buffId, BuffSide side, bool showSide, string customName = null) : base("")
         {
-            // customName == null      -> нет второго двоеточия: обычное название
-            // customName пустой/пробелы -> двоеточие есть, но текста нет: название скрыто
             HideName = customName != null && string.IsNullOrWhiteSpace(customName);
             CustomName = string.IsNullOrWhiteSpace(customName) ? null : customName.Trim();
             BuffId = buffId;
@@ -352,7 +363,6 @@ namespace JAtRT.Core
                 ? ""
                 : BuffInfoRegistry.NameOpen + (CustomName ?? Lang.GetBuffName(BuffId)) + BuffInfoRegistry.NameClose;
 
-        // Только иконка: отступ IconGapMultiplier с обеих сторон иконки (слева — только в этом режиме).
         private float LeftPad(DynamicSpriteFont font) => HideName ? IconGap(font) : 0f;
 
         private string SideText => ShowSide ? (HideName ? "" : " ") + BuffInfoRegistry.SideLabel(Side) : "";
@@ -462,7 +472,6 @@ namespace JAtRT.Core
         {
             var buffs = new List<(int id, BuffSide side)>();
 
-            // Баффы из тегов в тексте тултипа
             foreach (var line in tooltips)
             {
                 if (!line.Text.Contains("[jbuff"))
@@ -472,7 +481,6 @@ namespace JAtRT.Core
                         buffs.Add((bs.BuffId, bs.Side));
             }
 
-            // Баффы, зарегистрированные для предмета в коде (без тега)
             foreach (var reg in BuffInfoRegistry.GetItemBuffs(item))
                 if (!buffs.Contains(reg))
                     buffs.Add(reg);
@@ -487,9 +495,16 @@ namespace JAtRT.Core
             if (described.Count == 0)
                 return;
 
+            string itemMod = item.ModItem != null
+                ? item.ModItem.Mod.Name
+                : (item.type > ItemID.None && item.type < ItemID.Count ? "Terraria" : null);
+            string itemName = item.ModItem != null
+                ? item.ModItem.Name
+                : (item.type > ItemID.None && item.type < ItemID.Count ? ItemID.Search.GetName(item.type) : null);
+
             if (!PlayerInput.Triggers.Current.SmartCursor)
             {
-                tooltips.Add(new TooltipLine(Mod, "BuffHint", $"Удерживайте {GetKeyName()} для просмотра информации о дебаффах")
+                tooltips.Add(new TooltipLine(Mod, "BuffHint", $"Удерживайте {GetKeyName()} для просмотра информации о баффах и дебаффах")
                 {
                     OverrideColor = new Color(170, 170, 170)
                 });
@@ -504,7 +519,13 @@ namespace JAtRT.Core
             foreach (var (id, side, text) in described)
             {
                 string tag = side == BuffSide.Player ? "jbuffplr" : "jbuff";
-                tooltips.Add(new TooltipLine(Mod, $"BuffExpand{id}_{side}", $"[{tag}/side:{id}]\n{text}"));
+
+                string extraInfo = (itemMod != null && itemName != null)
+                    ? BuffInfoRegistry.ResolveItemExtraInfo(itemMod, itemName, id)
+                    : null;
+                string extraPart = extraInfo != null ? $" - {extraInfo}" : "";
+
+                tooltips.Add(new TooltipLine(Mod, $"BuffExpand{id}_{side}", $"[{tag}/side:{id}]{extraPart}\n{text}"));
             }
         }
 

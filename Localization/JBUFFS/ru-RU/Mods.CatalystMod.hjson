@@ -1,4 +1,4 @@
-/*Items: {
+Items: {
 	IntergelacticBreastplate.Tooltip: Даёт невосприимчивость к дебаффу [jbuffplr:CalamityMod/AstralInfectionDebuff] и дебаффам, снижающим защиту
 	ExaltedHorizon.Tooltip:
 		'''
@@ -51,4 +51,3 @@ Buffs.InterstellarCorruption.Description:
 	Вас окружает искривлённая пространственная энергия
 	Мгновенная смерть при активном дебаффе [jbuffplr:ChaosState]
 	'''
-	*/

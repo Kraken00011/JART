@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using JAtRT.Common.Utilities;
 using JAtRT.Core.Config;
@@ -131,8 +132,13 @@ public partial class MiscPatches : GlobalItem
 
         if (JARTClientCfg.Instance.CoolerBuffs)
         {
-            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffHint", afterMod: "Terraria");
-            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffExpand", nameMode: MatchMode.StartsWith, afterMod: "Terraria");
+            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffHint", afterName: "Tooltip", afterNameMode: MatchMode.StartsWith);
+            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffExpand", nameMode: MatchMode.StartsWith, afterName: "Tooltip", afterNameMode: MatchMode.StartsWith);
+
+            if (ModLoader.HasMod("CalamityMod") && tooltips.Any(t => t.Mod == "JAtRT" && t.Name == "BuffHint"))
+            {
+                tooltips.RemoveAll((TooltipLine t) => t.Name.EndsWith("AltExpandTooltip"));
+            }
         }
     }
 }

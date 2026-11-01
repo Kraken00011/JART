@@ -1,12 +1,10 @@
-using System;
-using System.Collections.Generic;
 using System.Reflection;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.ModLoader;
-using Terraria.UI.Chat;
+using Terraria.ID;
+using Terraria;
 
-namespace JAtRT.Core.BuffModules
+namespace JAtRT.Core.ChatTags.BuffTags
 {
     public static class CalamityColors
     {
@@ -44,9 +42,12 @@ namespace JAtRT.Core.BuffModules
         {
             BuffInfoRegistry.RegisterColorProvider("CalamityMod", CalamityColors.TypeColor);
 
-            // BuffInfoRegistry.Register("CalamityMod", "Plague", new Color(80, 200, 80)).IgnoreCalamityColor();
+            // Баффчеги
+            BuffInfoRegistry.Register("CalamityMod", "AlcoholPoisoning");
 
-            // BuffInfoRegistry.RegisterItem("CalamityMod", "Murasama").Enemy("CalamityMod", "Plague");
+            // Предметики
+            BuffInfoRegistry.RegisterItem("CalamityMod", "SupremeHealingPotion").Player(BuffID.PotionSickness);
+            BuffInfoRegistry.RegisterItem("CalamityMod", "OmegaHealingPotion").Player(BuffID.PotionSickness);
         }
     }
 }

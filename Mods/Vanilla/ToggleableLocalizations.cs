@@ -51,11 +51,11 @@ public class ToggleableLocalizations : OnPatcher
 			var entries = tModFile.Where(entry => Path.GetExtension(entry.Name) == ".hjson").ToList();
 			var orderedEntries = entries.OrderBy(e =>
 			{
-				if (e.Name.Contains("Localization/CBUFFS/")) return 2;
-				if (e.Name.Contains("Localization/CBUFFS(Cal+Fargos)/")) return 3;
-				if (e.Name.Contains("Localization/RagnarokMod/")) return 4;
-				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 5;
-				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 6;
+				if (e.Name.Contains("Localization/RagnarokMod/")) return 2;
+				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 3;
+				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 4;
+				if (e.Name.Contains("Localization/JBUFFS/")) return 5;
+				if (e.Name.Contains("Localization/JBUFFS(IEoR)/")) return 6;
 				return 1;
 			});
 
@@ -481,6 +481,10 @@ public class ToggleableLocalizations : OnPatcher
 
 				if ((!JARTClientCfg.Instance.CoolerBuffs || !ModLoader.HasMod("CalamityRuTranslate"))
 				&& modpath.Contains(@"JAtRT\Localization\JBUFFS\"))
+					continue;
+
+				if ((!JARTClientCfg.Instance.CoolerBuffs || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("InfernalEclipseAPI"))
+				&& modpath.Contains(@"JAtRT\Localization\JBUFFS(IEoR)\"))
 					continue;
 
 				using Stream stream = tModFile.GetStream(translationFile);
