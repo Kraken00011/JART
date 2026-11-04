@@ -128,11 +128,5 @@ public partial class MiscPatches : GlobalItem
         }
 
         ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "VoidTag", afterName: "ItemName");
-
-        if (JARTClientCfg.Instance.CoolerBuffs)
-        {
-            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffHint", afterMod: "Terraria");
-            ItemHelper.ReplaceTooltip(tooltips, mod: "JAtRT", name: "BuffExpand", nameMode: MatchMode.StartsWith, afterMod: "Terraria");
-        }
     }
 }
