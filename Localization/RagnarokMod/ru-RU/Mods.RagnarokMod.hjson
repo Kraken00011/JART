@@ -36,7 +36,7 @@ Buffs: {
 	ScytheBrimstoneBuff: {
 		DisplayName: Благословение серы
 		Description: Ваши враги вспыхивают серным пламенем
-		ItemTooltip: При попадании накладывает дебафф [cbuff:CalamityMod/BrimstoneFlames]
+		ItemTooltip: Атаки будут накладывать дебафф [cbuff:CalamityMod/BrimstoneFlames]
 	}
 
 	ScytheEarthBuff: {
@@ -91,7 +91,7 @@ Buffs: {
 
 	LeviathanHeartBubbleCorrupted: {
 		DisplayName: Искажённый пузырь Левиафан
-		Description: Искажённый пузырь Левиафан увеличивает ваш урон на 10%, но одновременно снижает сопротивление урону на 5%
+		Description: Искажённый пузырь Левиафан увеличивает ваш урон на 10%, но вместе с этим снижает сопротивление урону на 5%
 		ItemTooltip:
 			'''
 			Увеличивает урон на 10%
@@ -409,8 +409,8 @@ Items: {
 		DisplayName: Статигелевая шляпа
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			7% increased symphonic critical strike chance
+			Увеличивает симфонический урон на 10%
+			Увеличивает шанс симфонического критического удара на 7%
 			'''
 		SetBonus:
 			'''
@@ -419,7 +419,7 @@ Items: {
 			12% increased jump speed
 			+10% inspiration note drop chance
 			+5% inspiration regeneration rate
-			Symphonic empowerments last 2 seconds longer
+			Увеличивает длительность симфонических усилений на 2 секунды
 			'''
 	}
 
@@ -460,9 +460,9 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			A Guardian healer will assist you in healing your allies
-			Heals ally life equal to your bonus healing + 5 health
-			and grants them [rbuff:RagnarokMod/GuardianHealerBeamBuff] for 20 seconds
+			Призывает Стража-целительницу помогать в битвах, исцеляя ваших союзников
+			Количество исцеляемого здоровья равно величине вашего бонусного исцеления + 5 ед. здоровья
+			Исцеление союзника будет давать ему бафф [rbuff:RagnarokMod/GuardianHealerBeamBuff] на 20 секунд
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
@@ -556,10 +556,10 @@ Items: {
 		DisplayName: Равноценный обмен
 		Tooltip:
 			'''
-			Fires a life stealing bolt
-			Press <right> to fire fast moving healing bolts instead
-			«You must follow the law of equivalent exchange»
-			«You can only get out equal to what you put in»
+			Выпускает похищающий здоровье заряд
+			Нажмите ПКМ, чтобы выпустить стремительный исцеляющий заряд
+			«Вы обязаны следовать правилу равноценного обмена, которое гласит:
+			„Чтобы что-то получить, нужно отдать взамен нечто равноценное“»
 			'''
 	}
 
@@ -567,9 +567,9 @@ Items: {
 		DisplayName: Осквернённая коса
 		Tooltip:
 			'''
-			A holy inferno of a scythe
-			Press <right> to throw the scythe in a returning arc
-			The scythe deals 20% more damage when thrown and flings molten blobs during flight
+			Святое инферно, скрывающееся под видом косы
+			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
+			В броске коса наносит на 20% больше урона и выбрасывает в разные стороны раскалённые сгустки
 			'''
 	}
 
@@ -583,8 +583,8 @@ Items: {
 		Tooltip:
 			'''
 			The scoria allows you to spin the scythe much faster by constantly expelling steam
-			Press <right> to throw the scythe, which will curve on it's way back
-			The scythe deals 20% more damage when thrown
+			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
+			В броске коса наносит на 20% больше урона
 			'''
 	}
 
@@ -594,13 +594,13 @@ Items: {
 		DisplayName: Астральный жнец
 		Tooltip:
 			'''
-			Spinning this scythe creates stars that orbit you.
-			After completing a full circle, they pulsate once before exploding.
-			Holding <right> will start charging the scythe.
-			While charging, stars will begin to rapidly fall towards your cursor.
-			Release the charge to swing the scythe in a massive arc.
-			Landing the swing causes a large group of stars to crash down on the target.
-			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff].
+			Spinning this scythe creates stars that orbit you
+			After completing a full circle, they pulsate once before exploding
+			Holding <right> will start charging the scythe
+			While charging, stars will begin to rapidly fall towards your cursor
+			Release the charge to swing the scythe in a massive arc
+			Landing the swing causes a large group of stars to crash down on the target
+			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 			'''
 	}
 
@@ -666,22 +666,23 @@ Items: {
 
 	ElysianSong: {
 		DisplayName: Элизийская песнь
-		Tooltip: «So close to an angel's trumpet, yet so far...»
+		Tooltip: «Так близка к ангельской трубе, и всё равно слишком далека...»
 	}
 
 	ExecutionerMark05: {
 		DisplayName: Казнитель, обр. №05
 		Tooltip:
 			'''
-			Нажмите ЛКМ, чтобы начать постепенно раскручивать косу It starts slow, but will continuously build speed
-			Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
+			Нажмите ЛКМ, чтобы раскручивать косу, постепенно увеличивая её скорость
+			При достижении максимальной скорости вращения коса вырывается из ваших рук и бросается в направлении ближайшего к курсору врага
+			При попадании по врагу коса вызывает массивный взрыв Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
 			«Ядро Танатоса, пересобранное в качестве косы»
 			'''
 	}
 
 	JellySlicer: {
 		DisplayName: Желейный рассекатель
-		Tooltip: Shoots a fan of bouncing slime projectiles when swung
+		Tooltip: Во время вращения разбрасывает прыгучие слизневые сгустки в направлении курсора
 	}
 
 	Splattercannon: {
