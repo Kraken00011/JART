@@ -551,7 +551,7 @@ ItemTooltip: {
 	Disabled: "[ОТКЛЮЧЕНО] "
 	DisabledTooltip: На данный момент этот предмет отключён и не должен использоваться в текущей версии Infernal Eclipse of Ragnarok.
 	DauntlessBuff: +2% к лучезарному урону
-	DedTo: — Посвящается {0} —
+	DedTo: — Посвящено: {0} —
 
 	Dedicated: {
 		Akira: Akira
@@ -692,7 +692,7 @@ ItemTooltip: {
 		TwoSentry: Увеличивает максимальное количество стражей на 2
 		ThreeSentry: Увеличивает максимальное количество стражей на 3
 		Murky: Каждая шестая магическая атака не расходует ману и возвращает вам затраченную на неё ману
-		Hungering: Даёт эффекты от предмета «{$Mods.ThoriumMod.Items.HungeringBlossom.DisplayName}», если отображение аксессуара отключено
+		Hungering: Даёт эффекты от предмета «{$ThoriumMod.Items.HungeringBlossom.DisplayName}», если отображение аксессуара отключено
 		SlagsplitterCooldown: Этот эффект имеет полторы секунды перезарядки
 		Grace:
 			'''
@@ -724,7 +724,7 @@ ItemTooltip: {
 			Даёт дополнительные кадры неуязвимости в зависимости от недостающего здоровья
 			Этот эффект усиливается, начиная с 10 кадров при полном здоровье и заканчивая 40 кадрами, если у вас осталось меньше чем 25% здоровья
 			'''
-		Mantle: Каждые 10 секунд снимает один из наносящих урон дебаффов
+		Mantle: Рассеивает с вас один наносящий урон дебафф каждые 10 секунд
 		TerraDefend: Когда здоровье ниже 25%, значительно ускоряет регенерацию здоровья и увеличивает защиту
 
 		TerrariumDefender: {
@@ -737,12 +737,12 @@ ItemTooltip: {
 		ScytheSummon: Наносит сниженный урон, если активны какие-либо миньоны
 		ScytheSummonOn: Наносит сниженный урон, пока активны какие-либо миньоны
 		OneirophobiaSummon: Удерживайте ПКМ, чтобы призвать осознанный инструмент сражаться за вас
-		SoulEssence: Регулярно даёт эссенции души
+		SoulEssence: Постоянно даёт эссенции души
 		Magneto: Увеличивает дальность подбора метательных предметов с земли
 		Bone:
 			'''
-			Поднятие разбойного предмета с 33% шансом создаёт его дубликат и увеличивает скорость разбойных атак
-			Этот эффект может сработать не более одного раза каждые полсекунды и не срабатывает в бою
+			Поднятие разбойного предмета с 33% шансом создаст его дубликат и увеличит скорость разбойных атак
+			Этот эффект может сработать не более одного раза каждые полсекунды и не работает в бою
 			'''
 		Bone2:
 			'''
@@ -2531,51 +2531,41 @@ Items: {
 			'''
 	}
 
-	ChestLockIcon: {
-		DisplayName: Chest Lock Icon
-		Tooltip: ""
-	}
-
-	HoverItemDummy: {
-		DisplayName: Hover Item Dummy
-		Tooltip: ""
-	}
-
 	FiendsmithsRequiem: {
-		// DisplayName: Реквием бесокова
+		DisplayName: Реквием Извергского кузнеца
 		Tooltip:
 			'''
-			Summons Fiendsmith's Requiem to attack with your other summon weapons
-			Only one Requiem can be active at once
+			Призывает Реквием Извергского кузнеца сражаться за вас, атакуя всякий раз, когда вы используете предмет
+			Только 1 реквием может быть призван одновременно
 			'''
 		Tremendae:
 			'''
-			Using this weapon for a second time summons Rex Tremendae which will fire bullets at nearby foes
-			Tremendae will fire bullets from your inventory, or High Velocity bullets if you have none
-			Converts normal bullets into High Velocity bullets
+			Использование этого оружия во 2 раз призовёт Rex Tremendae, который будет обстреливать ближайших врагов
+			Rex Tremendae будет расходовать пули из вашего инвентаря, или же выпускать высокоскоростные, если у вас их нет
+			Превращает обычные пули в высокоскоростные
 			'''
 		Paradise:
 			'''
-			Using this weapon for a third time unlocks the Paradise ability
-			While Paradise is unlocked, Right Click to cause Requiem to release homing laser bolts
-			The Right Click has a cooldown of 18 seconds
+			Использование этого оружия в 3 раз открывает способность «Paradise»
+			Нажмите ПКМ с открытой способностью, чтобы заставить Реквием выпустить несколько самонаводящихся лазерных зарядов
+			После использования способность будет перезаряжаться 18 секунд
 			'''
 
 		Progression: {
 			Ravager:
 				'''
-				Defeat The Fortress of Flesh to gain more power...
-				No extra power has been gained...
+				Одолейте крепость из плоти для обретения большей силы...
+				Дополнительная сила ещё не была обретена...
 				'''
 			Deus:
 				'''
-				With the defeat of Ravager, this weapon now deals extra damage
-				Defeat the star weaver to gain more power...
+				С победой над Разрушителем оружие начало наносить больший урон
+				Одолейте звёздного ткача для обретения большей силы...
 				'''
 			Dragonfolly:
 				'''
-				With the defeat of Astrum Deus, you can now summon Rex Tremendae in addition to Requiem
-				Defeat the false offspring to gain more power...
+				С победой над Аструм Деусом, у оружия появилась возможность призывать Rex Tremendae в дополнение к Реквиему
+				Одолейте фальшивого отпрыска для обретения большей силы...
 				'''
 			Providence:
 				'''

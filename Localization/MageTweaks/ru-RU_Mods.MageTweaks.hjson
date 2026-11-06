@@ -1,5 +1,5 @@
 ReworkedManaFlowerTooltip: Призывает звезду маны {^0:каждую;каждые} {0} {^0:секунду;секунды;секунд}
-AutoManaPotionTooltip: Автоматически используется при необходимости
+AutoManaPotionTooltip: При необходимости автоматически используется
 ManaRegenerationBandTooltip: Увеличивает скорость восстановления маны
 ManaRegenPotionIsUselessTooltip:
 	'''

@@ -36,7 +36,7 @@ Buffs: {
 	ScytheBrimstoneBuff: {
 		DisplayName: Благословение серы
 		Description: Ваши враги вспыхивают серным пламенем
-		ItemTooltip: При попадании накладывает дебафф [cbuff:CalamityMod/BrimstoneFlames]
+		ItemTooltip: Атаки будут накладывать дебафф [cbuff:CalamityMod/BrimstoneFlames]
 	}
 
 	ScytheEarthBuff: {
@@ -91,7 +91,7 @@ Buffs: {
 
 	LeviathanHeartBubbleCorrupted: {
 		DisplayName: Искажённый пузырь Левиафан
-		Description: Искажённый пузырь Левиафан увеличивает ваш урон на 10%, но одновременно снижает сопротивление урону на 5%
+		Description: Искажённый пузырь Левиафан увеличивает ваш урон на 10%, но вместе с этим снижает сопротивление урону на 5%
 		ItemTooltip:
 			'''
 			Увеличивает урон на 10%
@@ -351,10 +351,10 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Your healing spells will increase the life recovery and life recovery rate of your allies
-			Healed allies will be granted 50 more maximum health
-			Occasionally you will be blessed by heals or life shields
-			Will trigger more frequently on low health
+			Произнесение исцеляющих заклинаний будет увеличивать скорость регенерации здоровья ваших союзников
+			Исцелённые союзники будут получать дополнительные 50 ед. жизненного щита
+			Периодически благословляет вас исцелением или жизненным щитом
+			Частота благословений увеличивается при низком показателе здоровья
 			Увеличивает скорость регенерации здоровья на 3 ед./сек
 			Увеличивает максимальную скорость и ускорение бега на 5%
 			Получение смертельного урона воскресит вас и сделает неуязвимым ко всему урону на 5 секунд
@@ -366,7 +366,7 @@ Items: {
 		DisplayName: Громовое перо
 		Tooltip:
 			'''
-			Можно продать за очень неплохую цену
+			Можно продать за очень неплохую сумму
 			«Небольшое перо, оставленное Великой громовой птицей. Из него так и хлещут молнии»
 			'''
 	}
@@ -376,7 +376,7 @@ Items: {
 		Tooltip:
 			'''
 			Материнская плата, вырванная из Звёздного разведчика
-			«Эта технология выходит за грань нашего понимания»
+			«Эта технология находится за гранью нашего понимания»
 			'''
 	}
 
@@ -387,7 +387,7 @@ Items: {
 
 	AnahitasArpeggioOverride: {
 		DisplayName: "{$CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
-		Tooltip: Casts slow-moving treble clefs that confuse enemies
+		Tooltip: "{$CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.TooltipNormal}"
 	}
 
 	FaceMelterOverride: {
@@ -409,8 +409,8 @@ Items: {
 		DisplayName: Статигелевая шляпа
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			7% increased symphonic critical strike chance
+			Увеличивает симфонический урон на 10%
+			Увеличивает шанс симфонического критического удара на 7%
 			'''
 		SetBonus:
 			'''
@@ -419,7 +419,7 @@ Items: {
 			12% increased jump speed
 			+10% inspiration note drop chance
 			+5% inspiration regeneration rate
-			Symphonic empowerments last 2 seconds longer
+			Увеличивает длительность симфонических усилений на 2 секунды
 			'''
 	}
 
@@ -448,7 +448,7 @@ Items: {
 	}
 
 	TarragonCowl: {
-		DisplayName: Tarragon Cowl
+		DisplayName: Эстрагоновый клобук
 		Tooltip:
 			'''
 			5% increased damage reduction
@@ -460,39 +460,44 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			A Guardian healer will assist you in healing your allies
-			Heals ally life equal to your bonus healing + 5 health
-			and grants them [rbuff:RagnarokMod/GuardianHealerBeamBuff] for 20 seconds
+			Призывает Стража-целительницу помогать в битвах, исцеляя ваших союзников
+			Количество исцеляемого здоровья равно величине вашего бонусного исцеления + 5 ед. здоровья
+			Исцеление союзника будет давать ему бафф [rbuff:RagnarokMod/GuardianHealerBeamBuff] на 20 секунд
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
 	TarragonShroud: {
-		DisplayName: Tarragon Shroud
+		DisplayName: Эстрагоновая пелена
 		Tooltip:
 			'''
-			5% increased damage reduction
-			20% increased symphonic damage and 15% increased critical symphonic strike chance
-			15% increased playing speed
-			Greatly increased inspiration regen
-			+15% chance for inspiration notes to drop from enemies
-			+4 maximum inspiration
+			Увеличивает сопротивление урону на 5%
+			Увеличивает симфонический урон на 20%
+			Увеличивает шанс симфонического критического удара на 15%
+			Увеличивает скорость игры на инструменте на 15%
+			Значительно увеличивает скорость восстановления вдохновения
+			Увеличивает шанс выпадения нот вдохновения на 15%
+			Увеличивает максимальный запас вдохновения на 4 очка
 			'''
 		SetBonus:
 			'''
-			Symphonic critical strikes cause a random active empowerment to increase by one level
-			Your empowerments last 50% longer
+			Нанесение симфонического критического удара будет увеличивать уровень случайного наложенного усиления на 1
+			Увеличивает длительность накладываемых усилений на 50%
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
 	VictideHeadHealer: {
-		DisplayName: Victide Sponge Hood
-		Tooltip: 5% increased radiant damage but 5% decreased non-radiant damage
+		DisplayName: Влаговпитывающий капюшон прилива
+		Tooltip:
+			'''
+			Увеличивает лучезарный урон на 5%
+			Снижает весь урон, кроме лучезарного, на 5%
+			'''
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased radiant but 10% decreased non-radiant damage while submerged in liquid
+			Враги будут реже выбирать вас в качестве цели
+			При погружении в жидкость увеличивает скорость регенерации здоровья на 3 ед. и лучезарный урон на 10%, но снижает любой урон, кроме лучезарного, на те же 10%
 			'''
 	}
 
@@ -538,12 +543,12 @@ Items: {
 	}
 
 	VictideHeadBard: {
-		DisplayName: Victide Hatanemone
+		DisplayName: Шапка-анемона прилива
 		Tooltip: Увеличивает симфонический урон на 5%
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased symphonic damage while submerged in liquid
+			Враги будут реже выбирать вас в качестве цели
+			При погружении в жидкость увеличивает скорость регенерации здоровья на 3 ед. и симфонический урон на 10%
 			'''
 	}
 
@@ -551,10 +556,10 @@ Items: {
 		DisplayName: Равноценный обмен
 		Tooltip:
 			'''
-			Fires a life stealing bolt
-			Press <right> to fire fast moving healing bolts instead
-			«You must follow the law of equivalent exchange»
-			«You can only get out equal to what you put in»
+			Выпускает похищающий здоровье заряд
+			Нажмите ПКМ, чтобы выпустить стремительный исцеляющий заряд
+			«Вы обязаны следовать правилу равноценного обмена, которое гласит:
+			„Чтобы что-то получить, нужно отдать взамен нечто равноценное“»
 			'''
 	}
 
@@ -562,15 +567,15 @@ Items: {
 		DisplayName: Осквернённая коса
 		Tooltip:
 			'''
-			A holy inferno of a scythe
-			Press <right> to throw the scythe in a returning arc
-			The scythe deals 20% more damage when thrown and flings molten blobs during flight
+			Святое инферно, скрывающееся под видом косы
+			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
+			В броске коса наносит на 20% больше урона и выбрасывает в разные стороны раскалённые сгустки
 			'''
 	}
 
 	MarbleScythe: {
 		DisplayName: Мраморная коса
-		Tooltip: The magic marble imbues the scythe head with extra radiance
+		Tooltip: Волшебный мрамор напитывает лезвие косы дополнительной лучезарностью
 	}
 
 	ScoriaDualscythe: {
@@ -578,8 +583,8 @@ Items: {
 		Tooltip:
 			'''
 			The scoria allows you to spin the scythe much faster by constantly expelling steam
-			Press <right> to throw the scythe, which will curve on it's way back
-			The scythe deals 20% more damage when thrown
+			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
+			В броске коса наносит на 20% больше урона
 			'''
 	}
 
@@ -589,13 +594,13 @@ Items: {
 		DisplayName: Астральный жнец
 		Tooltip:
 			'''
-			Spinning this scythe creates stars that orbit you.
-			After completing a full circle, they pulsate once before exploding.
-			Holding <right> will start charging the scythe.
-			While charging, stars will begin to rapidly fall towards your cursor.
-			Release the charge to swing the scythe in a massive arc.
-			Landing the swing causes a large group of stars to crash down on the target.
-			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff].
+			Spinning this scythe creates stars that orbit you
+			After completing a full circle, they pulsate once before exploding
+			Holding <right> will start charging the scythe
+			While charging, stars will begin to rapidly fall towards your cursor
+			Release the charge to swing the scythe in a massive arc
+			Landing the swing causes a large group of stars to crash down on the target
+			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 			'''
 	}
 
@@ -661,22 +666,23 @@ Items: {
 
 	ElysianSong: {
 		DisplayName: Элизийская песнь
-		Tooltip: «So close to an angel's trumpet, yet so far...»
+		Tooltip: «Так близка к ангельской трубе, и всё равно слишком далека...»
 	}
 
 	ExecutionerMark05: {
-		DisplayName: Казнитель обр. №05
+		DisplayName: Казнитель, обр. №05
 		Tooltip:
 			'''
-			It starts slow, but will continuously build speed
-			Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
+			Нажмите ЛКМ, чтобы раскручивать косу, постепенно увеличивая её скорость
+			При достижении максимальной скорости вращения коса вырывается из ваших рук и бросается в направлении ближайшего к курсору врага
+			При попадании по врагу коса вызывает массивный взрыв Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
 			«Ядро Танатоса, пересобранное в качестве косы»
 			'''
 	}
 
 	JellySlicer: {
 		DisplayName: Желейный рассекатель
-		Tooltip: Shoots a fan of bouncing slime projectiles when swung
+		Tooltip: Во время вращения разбрасывает прыгучие слизневые сгустки в направлении курсора
 	}
 
 	Splattercannon: {
@@ -772,7 +778,7 @@ Items: {
 		Tooltip:
 			'''
 			Rapid fires both healing and damaging needles
-			Inflicts [cbuff:CalamityMod/GodSlayerInferno] on hit
+			При попадании накладывает дебафф [cbuff:CalamityMod/GodSlayerInferno]
 			Uses Syringes as ammo
 			'''
 	}
@@ -835,8 +841,8 @@ Items: {
 		DisplayName: Элементальный жнец
 		Tooltip:
 			'''
-			Spinning this scythe creates homing projectiles that inflict [rbuff:CalamityMod/ElementalMix]
-			Press <right> to grant you and all allies one of the following Elemental Blessings for 10 seconds:
+			Во время вращения выпускает самонаводящиеся снаряды, накладывающие дебафф [rbuff:CalamityMod/ElementalMix]
+			Нажмите ПКМ, чтобы дать себе и своим союзникам 1 названных ниже элеменатльных усилений на 10 секунд:
 			[rbuff:RagnarokMod/ScytheAirBuff]
 			[rbuff:RagnarokMod/ScytheBrimstoneBuff]
 			[rbuff:RagnarokMod/ScytheEarthBuff]
@@ -984,7 +990,7 @@ Items: {
 
 	PrimalTerror: {
 		DisplayName: Первобытный ужас
-		Tooltip: Keep me favorited ;P
+		Tooltip: Держи меня в «Избранном» ;P
 		HasAwoken: Первозданный змий пробуждается!
 	}
 
@@ -992,7 +998,7 @@ Items: {
 		DisplayName: Пожиратель волн
 		Tooltip:
 			'''
-			Channel this weapon to create a massive sine wave
+			Удерживайте ЛКМ, чтобы вызвать массивную синусоидную волную
 			Нажмите ПКМ, чтобы проиграть рифф [c/501eb4:«Universal Collapse»]!
 			While the riff is active, all players in range have unlimited flight
 			'''
@@ -1132,11 +1138,11 @@ Items: {
 			Press <right> to split balls into {0} smaller balls
 			This process can be done {1} times
 			'''
-		DisplayName: Corroslime Bass
+		DisplayName: Бас-гитара искослизня
 	}
 
 	CrimslimeOboe: {
-		DisplayName: Crimslime Oboe
+		DisplayName: Гобой багрослизня
 		Tooltip:
 			'''
 			Shoots sticky crimslime darts
@@ -1145,7 +1151,7 @@ Items: {
 	}
 
 	StringsofOblivion: {
-		DisplayName: Stringsof Oblivion
+		DisplayName: Strings of Oblivion
 		Tooltip: ""
 	}
 
