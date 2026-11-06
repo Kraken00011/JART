@@ -716,8 +716,8 @@ ItemTooltip: {
 		COTS:
 			'''
 			Со временем увеличивает сопротивление урону вплоть до 15%
-			При получении урона этот бонус снижается до -10%
-            Пока бонус превышает 0%, вы получаете до 2 единиц восполнения здоровья и блокируете атаки, наносящие урон
+            При получении урона этот бонус снижается до -10%
+            Пока бонус превышает 0%, вы получаете до 2 ед. восполнения здоровья и блокируете атаки, наносящие урон
 			'''
 		DA:
 			'''
@@ -2180,7 +2180,7 @@ Items: {
 			.454 Кассул превращает мушкетные пули в метеоритные
 			Пули накладывают дебафф [cbuff:CalamityMod/Laceration] и при попадании вырывают кровавые сферы из врагов
 			Поднятие кровавых сфер сокращает длительность дебаффа [cbuff:PotionSickness]
-			[c/7C0A02:«Сам Иисус проронит слезу от такого...»]
+			[c/7C0A02:«Сам Иисус всплакнёт от такого...»]
 			[c/aaaaaa:Нажмите Shift+ПКМ по этому предмету в инвентаре, чтобы переключить эффект] [i:EndlessMusketPouch] [c/aaaaaa:смены боеприпасов]
 			'''
 	}
@@ -2530,6 +2530,70 @@ Items: {
 			Можно использовать только 1 раз
 			'''
 	}
+
+	ChestLockIcon: {
+		DisplayName: Chest Lock Icon
+		Tooltip: ""
+	}
+
+	HoverItemDummy: {
+		DisplayName: Hover Item Dummy
+		Tooltip: ""
+	}
+
+	FiendsmithsRequiem: {
+		// DisplayName: Реквием бесокова
+		Tooltip:
+			'''
+			Summons Fiendsmith's Requiem to attack with your other summon weapons
+			Only one Requiem can be active at once
+			'''
+		Tremendae:
+			'''
+			Using this weapon for a second time summons Rex Tremendae which will fire bullets at nearby foes
+			Tremendae will fire bullets from your inventory, or High Velocity bullets if you have none
+			Converts normal bullets into High Velocity bullets
+			'''
+		Paradise:
+			'''
+			Using this weapon for a third time unlocks the Paradise ability
+			While Paradise is unlocked, Right Click to cause Requiem to release homing laser bolts
+			The Right Click has a cooldown of 18 seconds
+			'''
+
+		Progression: {
+			Ravager:
+				'''
+				Defeat The Fortress of Flesh to gain more power...
+				No extra power has been gained...
+				'''
+			Deus:
+				'''
+				With the defeat of Ravager, this weapon now deals extra damage
+				Defeat the star weaver to gain more power...
+				'''
+			Dragonfolly:
+				'''
+				With the defeat of Astrum Deus, you can now summon Rex Tremendae in addition to Requiem
+				Defeat the false offspring to gain more power...
+				'''
+			Providence:
+				'''
+				With the defeat of Dragonfolly, you can now unlock the Paradise ability
+				Defeat the Profaned Goddess to gain more power...
+				'''
+			Polterghast:
+				'''
+				With the defeat of Providence, Requiem's chainsaws now inflict [cbuff:CalamityMod/Laceration]
+				Defeat the wrathful coalescence to gain more power...
+				'''
+			Full:
+				'''
+				The Fiendsmith's Requiem is fully awakend, and all abilities have been further buffed!
+				The weapon's maximum power is unleashed!
+				'''
+		}
+	}
 }
 
 Projectiles: {
@@ -2583,6 +2647,10 @@ Projectiles: {
 	BlixerArm.DisplayName: Рука Бликсера
 	BlixerHand.DisplayName: Ладонь Бликсера
 	BlixerCannonPro.DisplayName: Пуля Бликсера
+	FiendsmithsRequiemPro.DisplayName: Fiendsmith's Requiem
+	FiendsmithChainsaw.DisplayName: Fiendsmith's Chainsaw
+	FiendsmithsTremendae.DisplayName: Fiendsmith's Tremendae
+	FiendsmithsParadise.DisplayName: Fiendsmith's Paradise
 }
 
 DiaryTooltip:
@@ -3453,6 +3521,11 @@ Buffs: {
 	FreezingAura: {
 		DisplayName: Замораживающая аура
 		Description: ""
+	}
+
+	FiendsmithsRequiemBuff: {
+		DisplayName: Fiendsmith's Requiem
+		Description: The Fiendsmith's fiends are helping you fight!
 	}
 }
 
