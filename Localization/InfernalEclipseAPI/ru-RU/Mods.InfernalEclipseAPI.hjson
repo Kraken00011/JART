@@ -2180,7 +2180,7 @@ Items: {
 			.454 Кассул превращает мушкетные пули в метеоритные
 			Пули накладывают дебафф [cbuff:CalamityMod/Laceration] и при попадании вырывают кровавые сферы из врагов
 			Поднятие кровавых сфер сокращает длительность дебаффа [cbuff:PotionSickness]
-			[c/7C0A02:«Сам Иисус проронит слезу от такого...»]
+			[c/7C0A02:«Сам Иисус всплакнёт от такого...»]
 			[c/aaaaaa:Нажмите Shift+ПКМ по этому предмету в инвентаре, чтобы переключить эффект] [i:EndlessMusketPouch] [c/aaaaaa:смены боеприпасов]
 			'''
 	}
@@ -2637,6 +2637,10 @@ Projectiles: {
 	BlixerArm.DisplayName: Рука Бликсера
 	BlixerHand.DisplayName: Ладонь Бликсера
 	BlixerCannonPro.DisplayName: Пуля Бликсера
+	FiendsmithsRequiemPro.DisplayName: Fiendsmith's Requiem
+	FiendsmithChainsaw.DisplayName: Fiendsmith's Chainsaw
+	FiendsmithsTremendae.DisplayName: Fiendsmith's Tremendae
+	FiendsmithsParadise.DisplayName: Fiendsmith's Paradise
 }
 
 DiaryTooltip:
@@ -3507,6 +3511,11 @@ Buffs: {
 	FreezingAura: {
 		DisplayName: Замораживающая аура
 		Description: ""
+	}
+
+	FiendsmithsRequiemBuff: {
+		DisplayName: Fiendsmith's Requiem
+		Description: The Fiendsmith's fiends are helping you fight!
 	}
 }
 
