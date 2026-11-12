@@ -414,11 +414,11 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
-			12% increased jump speed
-			+10% inspiration note drop chance
-			+5% inspiration regeneration rate
+			При получении более 100 ед. урона единовременно увеличивает длительность временной неуязвимости
+			Даёт дополнительный прыжок и увеличивает высоту прыжка
+			Увеличивает скорость прыжка на 12%
+			Увеличивает шанс выпадения нот вдохновения на 10%
+			Увеличивает скорость восстановления вдохновения на 5%
 			Увеличивает длительность симфонических усилений на 2 секунды
 			'''
 	}
@@ -427,18 +427,18 @@ Items: {
 		DisplayName: Статигелевый головной убор
 		Tooltip:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			7% increased radiant critical strike chance
+			Снижает весь урон, кроме лучезарного, на 10%
+			Увеличивает лучезарный урон на 10%
+			Увеличивает шанс лучезарного критического удара на 7%
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
-			12% increased jump speed
-			Healing spells heal an additional 2 life
-			Maximum mana increased by 20
-			5% decreased mana usage
+			При получении более 100 ед. урона единовременно увеличивает длительность временной неуязвимости
+			Даёт дополнительный прыжок и увеличивает высоту прыжка
+			Увеличивает скорость прыжка на 12%
+			Увеличивает бонусное исцеление на 2 ед. здоровья
+			Увеличивает максимальный запас маны на 20 ед.
+			Снижает расход маны на 5%
 			'''
 	}
 
@@ -451,12 +451,13 @@ Items: {
 		DisplayName: Эстрагоновый клобук
 		Tooltip:
 			'''
-			5% increased damage reduction
-			60% decreased non-radiant damage
-			40% increased radiant damage and 15% increased critical radiant strike chance
-			Bonus healing increased by 7
-			Maximum mana increased by 60
-			Mana usage reduced by 20%
+			Увеличивает сопротивление урону на 5%
+			Снижает весь урон, кроме лучезарного, на 60%
+			Увеличивает лучезарный урон на 40%
+			Увеличивает шанс лучезарного критического удара на 15%
+			Увеличивает бонусное исцеление на 7 ед. здоровья
+			Увеличивает максимальный запас маны на 60 ед.
+			Снижает расход маны на 20%
 			'''
 		SetBonus:
 			'''
@@ -569,7 +570,7 @@ Items: {
 			'''
 			Святое инферно, скрывающееся под видом косы
 			Нажмите ПКМ, чтобы бросить косу, которая затем вернётся обратно бумерангом
-			В броске коса наносит на 20% больше урона и выбрасывает в разные стороны раскалённые сгустки
+			В броске коса наносит на 20% больше урона и разбрасывает раскалённые сгустки в разные стороны
 			'''
 	}
 
@@ -600,7 +601,7 @@ Items: {
 			While charging, stars will begin to rapidly fall towards your cursor
 			Release the charge to swing the scythe in a massive arc
 			Landing the swing causes a large group of stars to crash down on the target
-			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff]
+			При попадании накладывает дебафф [cbuff:CalamityMod/AstralInfectionDebuff]
 			'''
 	}
 
@@ -608,16 +609,16 @@ Items: {
 		DisplayName: Радиомикрофон
 		Tooltip:
 			'''
-			Sing a song that creates a spread of shadowflame sound waves
-			The central sound wave will instead be cursed
-			The cursed sound will summon a tendril to attack the first enemy hit
+			Проигрывает песню, выпускающую веер звуковых волн теневого пламени
+			Центральная звуковая волна будет проклятой, а не пламенной
+			Проклятая волна будет выпускать щупальца, атакующие первого поражённого атакой врага
 			«Микрофон одного знаменитого демона»
 			'''
 	}
 
 	CorrosiveFlux: {
-		DisplayName: Коррозионный поток
-		Tooltip: Fires 3 toxic bubbles
+		DisplayName: Едкий поток
+		Tooltip: Выпускает 3 ядовитых пузырька
 	}
 
 	WindReaver: {
@@ -629,22 +630,22 @@ Items: {
 		DisplayName: Истинный беличий шарф
 		Tooltip:
 			'''
-			Истинная форма беличьего шарфа.
+			Ультимативная форма беличьего шарфа.
 			Увеличивает максимальное количество стражей на 999
 			'''
 	}
 
 	Prisma: {
 		DisplayName: Призма
-		Tooltip: Fire a holy water sea star that shatters into 5 spikes
+		Tooltip: Выпускает морскую звезду, наполненную святой водой, которая при столкновении разлетается на 5 осколков, наносящих урон
 	}
 
 	VoidseerPearl: {
-		DisplayName: Voidseer Pearl
+		DisplayName: Жемчужна пустотного провидца
 		Tooltip:
 			'''
-			Can be sold for a very good price to shops
-			«They say beauty is in the eye of the beholder... I don't think they meant that literally»
+			Можно продать за очень неплохую сумму
+			«Говорят, красота — в глазе Созерцателя... Но не думаю, что это нужно было воспринимать буквально»
 			'''
 	}
 
@@ -655,7 +656,7 @@ Items: {
 			Восстанавливает 100 ед. здоровья
 			{$CommonItemTooltip.MediumStats}
 			«Великолепное медузное желе
-			Можно даже сказать, что именно из него получается самый вкусный бургер во всём море»
+			Кто-то наверно даже скажет, что из него модно приготовить самый вкусный бургер на всём морском дне»
 			'''
 	}
 
@@ -727,8 +728,8 @@ Items: {
 		DisplayName: Хтонический фрагмент панциря
 		Tooltip:
 			'''
-			Fetches quite a fortune on the market
-			«An enchanted shard from the prison of an ancient god»
+			За такую вещицу торговцы вас с руками оторвут
+			«Зачарованный осколок оков древнего божества»
 			'''
 	}
 
@@ -751,25 +752,25 @@ Items: {
 			Увеличивает шанс симфонического критического удара на 7%
 			Увеличивает скорость игры на инструменте и восстановления вдохновения на 10%
 			Увеличивает максимальный запас вдохновения на 5 очков
-			Each unique empowerment you have increases movement speed by 2% and playing speed by 1%
+			Каждое уникальное усиление увеличивает скорость передвижения на 2% и игры на инструменте на 1%
 			'''
 	}
 
 	GoldenBatDroppings: {
-		DisplayName: Останки золотой летучей мыши
+		DisplayName: Droppings золотой летучей мыши
 		Tooltip:
 			'''
 			Увеличивает количество выпадающих с врагов монет на 25%
-			Этот шанс увеличивается до 50% в режиме ярости
-			Increases damage based on held coins (coinslots only)
-			This bonus is increased by 50% while in adrenaline mode
-			You will lose 25% of your coins permanently upon death (50% on death or master mode)
+			Этот бонус увеличивается до 50% в режиме ярости
+			Увеличивает урон в зависимости от количества и качества монет, находящихся в инвентаре (только в слотах для монет)
+			Этот бонус увеличивается до 50% в режиме адреналина
+			При смерти навсегда отнимает 25% от вашего запаса монет (50% на сложности Мастер или в режиме Смерть)
 			«У этой мыши должно быть отлично развиты её летучие мышцы, раз у неё получилось оставить такое»
 			'''
 	}
 
 	VerdurantBloom: {
-		DisplayName: Verdurant Bloom
+		DisplayName: Зеленеющий росток Verdurant Bloom
 		Tooltip: Fire a spread of various flower petals
 	}
 
@@ -784,17 +785,17 @@ Items: {
 	}
 
 	Korobeiniki: {
-		DisplayName: Коробейники
+		DisplayName: Коробушка
 		Tooltip:
 			'''
-			Causes Tetriminos to fall from the sky
-			«A non-descript game console»
+			Призывает постепенно опускающееся вниз Тетримино
+			«Ничем не примечательная игровая консоль»
 			'''
 	}
 
 	GraspofVoid: {
 		DisplayName: Ветвь пустоты
-		Tooltip: Fires a shard of void essence, inflicting [rbuff:ShadowFlame] on hit
+		Tooltip: Fires a shard of void essence, inflicting [cbuff:ShadowFlame] on hit
 	}
 
 	PhantasmalEdge: {
@@ -881,8 +882,8 @@ Items: {
 		DisplayName: Кошмарный обморозитель
 		Tooltip:
 			'''
-			Spinning the scythe periodically releases a barrage of chilling darts
-			«Found somewhere between Halloween and Christmas... you could make a movie about that!»
+			Во время вращения периодически высвобождает Spinning the scythe periodically releases a barrage of chilling darts
+			«Найден где-то между Хэллоуином и Рождеством... Возможно из такого получится отличный фильм! you could make a movie about that!»
 			'''
 	}
 
@@ -932,7 +933,7 @@ Items: {
 	}
 
 	KellyPet: {
-		DisplayName: Жезл Анахрхи
+		DisplayName: Жезл Анархи
 		Tooltip:
 			'''
 			Призывает Келли
@@ -998,7 +999,7 @@ Items: {
 		DisplayName: Пожиратель волн
 		Tooltip:
 			'''
-			Удерживайте ЛКМ, чтобы вызвать массивную синусоидную волную
+			Удерживайте ЛКМ, чтобы вызвать массивную кривую волную
 			Нажмите ПКМ, чтобы проиграть рифф [c/501eb4:«Universal Collapse»]!
 			While the riff is active, all players in range have unlimited flight
 			'''

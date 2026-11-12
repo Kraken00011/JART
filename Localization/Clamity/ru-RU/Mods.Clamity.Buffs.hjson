@@ -35,7 +35,7 @@ PlagueChairBuff: {
 
 PlanterrorStaffBuff: {
 	DisplayName: Гантера
-	Description: Welcome To The Jungle!
+	Description: «Welcome To The Jungle!»
 }
 
 HeavyMetalTrashCanBuff: {
@@ -49,6 +49,6 @@ TitanScalePotionBuff: {
 }
 
 GlacialRevenge: {
-	DisplayName: Ледниковая месть
+	DisplayName: Ледниковое возмездие
 	Description: ""
 }
