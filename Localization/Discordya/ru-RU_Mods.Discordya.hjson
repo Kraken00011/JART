@@ -45,7 +45,7 @@ Config: {
 
 Generic: {
 	MainMenu: В главном меню
-	MainMenuState: "Загруженных модов: {0}"
+	MainMenuState: "Загружено модов: {0}"
 	Fighting: В битве
 	In: ""
 	Day: День
