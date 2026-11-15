@@ -54,8 +54,6 @@ public class ToggleableLocalizations : OnPatcher
 				if (e.Name.Contains("Localization/RagnarokMod/")) return 2;
 				if (e.Name.Contains("Localization/WHummusMultiModBalancing/")) return 3;
 				if (e.Name.Contains("Localization/InfernalEclipseAPI/")) return 4;
-				if (e.Name.Contains("Localization/JBUFFS/")) return 5;
-				if (e.Name.Contains("Localization/JBUFFS(IEoR)/")) return 6;
 				return 1;
 			});
 
@@ -116,8 +114,7 @@ public class ToggleableLocalizations : OnPatcher
 
 				// Evil Bosses Rework
 				if ((!JARTLocalizationConf.Instance.EvilBossesReworkLocalization || !ModLoader.HasMod("EvilBossesRework"))
-				&& (modpath.Contains(@"JAtRT\Localization\EvilBossesRework\")
-				|| modpath == @"JAtRT\Localization\CBUFFS\ru-RU_Mods.EvilBossesRework.hjson"))
+				&& modpath.Contains(@"JAtRT\Localization\EvilBossesRework\"))
 					continue;
 
 				// More Pylons
@@ -475,16 +472,6 @@ public class ToggleableLocalizations : OnPatcher
 
 				if ((!JARTLocalizationConf.Instance.RagnarokModLocalization || !ModLoader.HasMod("RagnarokMod"))
 				&& modpath.Contains(@"JAtRT\Localization\RagnarokMod\"))
-					continue;
-
-				// Другое
-
-				if ((!JARTClientCfg.Instance.CoolerBuffs || !ModLoader.HasMod("CalamityRuTranslate"))
-				&& modpath.Contains(@"JAtRT\Localization\JBUFFS\"))
-					continue;
-
-				if ((!JARTClientCfg.Instance.CoolerBuffs || !ModLoader.HasMod("CalamityRuTranslate") || !ModLoader.HasMod("InfernalEclipseAPI"))
-				&& modpath.Contains(@"JAtRT\Localization\JBUFFS(IEoR)\"))
 					continue;
 
 				using Stream stream = tModFile.GetStream(translationFile);
