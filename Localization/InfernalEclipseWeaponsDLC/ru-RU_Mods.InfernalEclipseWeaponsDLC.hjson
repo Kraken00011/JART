@@ -907,6 +907,170 @@ Items: {
 			Этот эффект перезаряжается в течение 15 секунд после получения урона
 			'''
 	}
+
+	RGBMurasama: {
+		DisplayName: Мурасама с RGB-подцветкой
+		Tooltip:
+			'''
+			A high-frequency blade that can cleanly slice through even the mightiest foe
+			Every third swing deals immense damage
+			Prove your worth by slaying The Devourer of Gods to unsheath this sword
+			«И на это я потратил свои три тысячи долларов.»
+			'''
+	}
+
+	EvilPumpkin: {
+		DisplayName: Evil Pumpkin Staff
+		Tooltip: Summons a regrowing evil pumpkin minion that explodes on enemy contact
+	}
+
+	JollyTune: {
+		DisplayName: Jolly Tune
+		Tooltip:
+			'''
+			Summons music notes that will begin to orbit around you
+			Upon summoning the 8th, the music notes will be fired out before homing onto foes
+			Successfully timing hits will steadily increase its damage and empowerment level
+			Mistiming these hits will decrease these bonuses greatly and cost 10 inspiration
+			These bonuses will stay between weapon swaps, but gradually fade when not your active weapon
+			'''
+	}
+
+	PrismaGorgon: {
+		DisplayName: Prisma Gorgon
+		Tooltip:
+			'''
+			Requires a spool-up of 7 shots before optimal fire rate is achieved
+			Hitting 20 cumulative shots on an enemy will stack an void shot
+			<right> while firing to shoot a void shot which explodes on collision and will petrify enemies
+			Only 20 void shots can be stored at a time
+			«Adorned with void hardened prisma crystal, it is prized for its beauty and enhanced mechanics»
+			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			'''
+	}
+
+	Deoxyribonunoboko: {
+		DisplayName: Дезоксирибонуклеинунобуко
+		Tooltip:
+			'''
+			{$CommonItemTooltip.Whips}
+			{$CommonItemTooltip.SummonTagDamage}
+			{1}% шанс критического удара от метки призывателя
+			Hitting with the tip of the whip deals 1.5x damage
+			Hitting with the green crystals on the whip inflicts Venom
+			Hitting with the orange crystals on the whip breaks armor
+			Hitting with the blue crystals on the whip increases the tag damage to 20 and lifesteals
+			'''
+	}
+
+	AbyssalAnchor: {
+		DisplayName: Якорь бездны
+		Tooltip:
+			'''
+			<left> to perform a 5-swing combo that ends with throwing the anchor
+			Each swing of the anchor flings an abyss creature that homes into the nearest target
+			Hold <right> to charge up a thrown attack for a maximum of 1.2 seconds
+			On release of <right> the the anchor will be thrown
+			Harpoons will be fired alongside it based on how long it was charged
+			'''
+	}
+
+	HollowbrookMonolith: {
+		DisplayName: Hollowbrook Monolith
+		Tooltip:
+			'''
+			Summons a Castle Hollowbrook that has three stages
+			Each stage increases its radius and costs a sentry slot
+			The base stage causes enemies within its radius to take 7 additional summon tag damage
+			The base stage also allows players within its radius to reroll critical strikes with an higher chance to crit
+			Its second stage allows minions to break enemies armor within its radius
+			Its second stage also causes enemies to drop Hearts, Stars, and Notes when critically hit within its radius
+			In its third stage, it will shoot a cannon after a player critically strikes 10 times within its radius
+			When the cannon is shot, players within the radius will be granted a random buff and enemies will be granted a random debuff
+			The cannon deals summon damage and has the same stats as a cannon ball
+			'''
+	}
+
+	MarniteHoverboots: {
+		DisplayName: Мранитовые антигравитационные ботинки
+		Tooltip:
+			'''
+			Увеличивает скорость передвижения на 5%
+			Позволяет носителю очень быстро бегать
+			Allows you to walk and jump on air briefly after leaving the ground
+			'''
+	}
+
+	MarniteRepulsionShieldMK2: {
+		DisplayName: Мранитовый репульсионный щит, обр. №2
+		Tooltip:
+			'''
+			Enemies behiid you are struck by high-knockback hardlight quills
+			Launches attackers away from you with javelins
+			Увеличивает сопротивление урону на 8%
+			[c/FFF191:Скажем нет ударам в спину!.. Да и ударам спереди тоже!]
+			'''
+	}
+
+	D20: {
+		DisplayName: 20-гранник
+		Tooltip:
+			'''
+			Бросает 20-гранный кубик, выдающий различные эффекты в зависимости от того, какой результат выпадет
+			1: Полная лажа
+			2-19: Обычный снаряд с масштабирующимся уроном, скоростью и самонаводкой
+			20: Сильный снаряд, наносящий гарантированный критический удар вместе с вызовом массивного взрыва
+			Урон этого оружия зависит от выпавшего при броске числа: чем больше число, тем больше урон (от 25% до 200% от урона атаки)
+			Выпадающий результат зависит от удачи игрока
+			При скрытном ударе бросает более выгодный кубик (он совершает 2 броска и выдаёт эффект от наилучшего из них)
+			«How do you want to do this?»
+			'''
+	}
+
+	VeryVeryStrangeSkull: {
+		DisplayName: Очень-очень подозрительный череп
+		Tooltip: Summons a void skull to shoot laser beam bursts at enemies, which cause damage over time
+	}
+
+	VeryVeryStrangeSkullVoid: {
+		DisplayName: "{$Items.VeryVeryStrangeSkull.DisplayName}"
+		Tooltip:
+			'''
+			Summons a void skull to shoot laser beam bursts at enemies, which cause damage over time
+			Each shot consumes 4 void
+			'''
+	}
+
+	ShadowDiamondRing: {
+		DisplayName: Кольцо с тёмным алмазом
+		Tooltip: Увеличивает урон критических ударов на 4 ед.
+	}
+
+	SuspiciousLookingEgg: {
+		DisplayName: Подозрительно выглядящее яйцо
+		Tooltip:
+			'''
+			Занимает 1 слот миньонов
+			Throws an moth egg that hatches into a Cercropia Moth on impact
+			Eggs can be thrown even when summon slots are maxed out
+			Ваши миньоны будут сосредотачиваться на атакуемых яйцами врагах
+			'''
+	}
+
+	LightMatterSheath: {
+		DisplayName: Light Matter Sheath
+		Tooltip: Sword strikes cause a massive white explosion with this attack if held and not used for 3 seconds
+	}
+
+	EmptySheath: {
+		DisplayName: Empty Sheath?
+		Tooltip:
+			'''
+			{$ThoriumMod.Common.Tooltips.Sheath}
+			Uses all your remaining void on a sheath strike, with its power increasing on how much void was expended
+			Additionally your weapon releases cataclysm lightning that inflicts radiation
+			'''
+	}
 }
 
 ItemTooltip: {
