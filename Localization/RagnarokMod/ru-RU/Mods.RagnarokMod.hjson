@@ -595,12 +595,12 @@ Items: {
 		DisplayName: Астральный жнец
 		Tooltip:
 			'''
-			Spinning this scythe creates stars that orbit you
-			After completing a full circle, they pulsate once before exploding
-			Holding <right> will start charging the scythe
-			While charging, stars will begin to rapidly fall towards your cursor
-			Release the charge to swing the scythe in a massive arc
-			Landing the swing causes a large group of stars to crash down on the target
+			Во время вращения создаёт звёзды, которые будут кружить вокруг вас и наносить врагам урон
+			После завершения полного круга звёзды отлетают на небольшое расстояние после чего возвращаются и взрываются
+			Удерживайте ПКМ, чтобы зарядить косу
+			Во время зарядки с неба постепенно начинают падать звёзды в точку курсора
+			Отпустите ПКМ, чтобы совершить мощный взмах косой
+			Попадание этим взмахом по врагу вызывает одновременное падение целого скопления звёзд
 			При попадании накладывает дебафф [cbuff:CalamityMod/AstralInfectionDebuff]
 			'''
 	}
@@ -610,8 +610,8 @@ Items: {
 		Tooltip:
 			'''
 			Проигрывает песню, выпускающую веер звуковых волн теневого пламени
-			Центральная звуковая волна будет проклятой, а не пламенной
-			Проклятая волна будет выпускать щупальца, атакующие первого поражённого атакой врага
+			Центральные звуковые выпущенные волны будут проклятыми, а не пламенными
+			Проклятые волны будут выпускать щупальца, атакующие первого атакованного врага
 			«Микрофон одного знаменитого демона»
 			'''
 	}
@@ -623,7 +623,7 @@ Items: {
 
 	WindReaver: {
 		DisplayName: Ветробой
-		Tooltip: Releases an occasional wind slice when spun
+		Tooltip: Во время вращения периодически высвобождает воздушную волну в направлении курсора
 	}
 
 	TrueSquirrelScarf: {
@@ -637,7 +637,7 @@ Items: {
 
 	Prisma: {
 		DisplayName: Призма
-		Tooltip: Выпускает морскую звезду, наполненную святой водой, которая при столкновении разлетается на 5 осколков, наносящих урон
+		Tooltip: Выпускает морскую звезду, наполненную святой водой, которая при попадании по врагу разлетается на 5 осколков, наносящих урон
 	}
 
 	VoidseerPearl: {
@@ -671,7 +671,7 @@ Items: {
 	}
 
 	ExecutionerMark05: {
-		DisplayName: Казнитель, обр. №05
+		DisplayName: Палач, обр. №05
 		Tooltip:
 			'''
 			Нажмите ЛКМ, чтобы раскручивать косу, постепенно увеличивая её скорость
@@ -713,9 +713,9 @@ Items: {
 		DisplayName: Ауритовый дамру
 		Tooltip:
 			'''
-			Play the bongos, dealing damage to all nearby enemies
-			Press <right> to shoot a Flare Bomb
-			Flare Bombs afflict enemies with [cbuff:CalamityMod/Dragonfire] for 3 seconds
+			Нажмите ЛКМ, чтобы ударить по бонго, нанеся урон всем врагам в радиусе досягаемости
+			Нажмите ПКМ, чтобы выпустить бомбу-вспышку
+			Бомбы-вспышки накладывают дебафф [cbuff:CalamityMod/Dragonfire] на 3 секунды
 			'''
 	}
 
@@ -788,7 +788,7 @@ Items: {
 		DisplayName: Коробушка
 		Tooltip:
 			'''
-			Призывает постепенно опускающееся вниз Тетримино
+			Призывает стремительно падающие Тетримино
 			«Ничем не примечательная игровая консоль»
 			'''
 	}
@@ -822,7 +822,7 @@ Items: {
 	}
 
 	LucentGemini: {
-		DisplayName: Lucent Gemini
+		DisplayName: Сверкающие близнецы
 		Tooltip:
 			'''
 			Spinning this scythe surrounds you with an ethereal moonlight pulse
@@ -834,8 +834,8 @@ Items: {
 	}
 
 	Arpeggiator: {
-		DisplayName: Arpeggiator
-		Tooltip: Rapid-fires projectiles in an arpeggio pattern
+		DisplayName: Арпеджиатор
+		Tooltip: Стремительно выпускает снаряды в последовательности, напоминающей арпеджио
 	}
 
 	ElementalReaper: {
@@ -1001,7 +1001,7 @@ Items: {
 			'''
 			Удерживайте ЛКМ, чтобы вызвать массивную кривую волную
 			Нажмите ПКМ, чтобы проиграть рифф [c/501eb4:«Universal Collapse»]!
-			While the riff is active, all players in range have unlimited flight
+			Пока рифф активен все игроки в радиусе его действия получают бесконечный полёт
 			'''
 	}
 
@@ -1009,8 +1009,8 @@ Items: {
 		DisplayName: Эктобубен
 		Tooltip:
 			'''
-			Throw an endless amount of ghostly tambourines
-			Press <right> to jingle the thrown tambourines, damaging nearby enemies
+			Бросает нескончаемое количество призрачных бубнов
+			Нажмите ПКМ, чтобы встряхнуть брошенные бубны, нанеся дополнительный урон врагам поблизости
 			'''
 	}
 
