@@ -369,8 +369,8 @@ Items: {
 	}
 
 	CataclysmicGauntletVoid: {
-		DisplayName: "{$Items.CataclysmicGauntlet.DisplayName}"
-		Tooltip: "{$Items.CataclysmicGauntlet.Tooltip}"
+		DisplayName: "{$CataclysmicGauntlet.DisplayName}"
+		Tooltip: "{$CataclysmicGauntlet.Tooltip}"
 	}
 
 	CataclysmicGauntlet: {
@@ -384,8 +384,8 @@ Items: {
 	}
 
 	CatastrophicLongbladeVoid: {
-		DisplayName: "{$Items.CatastrophicLongblade.DisplayName}"
-		Tooltip: "{$Items.CatastrophicLongblade.Tooltip}"
+		DisplayName: "{$CatastrophicLongblade.DisplayName}"
+		Tooltip: "{$CatastrophicLongblade.Tooltip}"
 	}
 
 	CatastrophicLongblade: {
@@ -669,8 +669,8 @@ Items: {
 	}
 
 	ThunderboltActionSniperVoid: {
-		DisplayName: "{$Items.ThunderboltActionSniper.DisplayName}"
-		Tooltip: "{$Items.ThunderboltActionSniper.Tooltip}"
+		DisplayName: "{$ThunderboltActionSniper.DisplayName}"
+		Tooltip: "{$ThunderboltActionSniper.Tooltip}"
 	}
 
 	ThunderboltActionSniper: {
@@ -754,8 +754,8 @@ Items: {
 	}
 
 	GauntletofAnnihilationVoid: {
-		DisplayName: "{$Items.GauntletofAnnihilation.DisplayName}"
-		Tooltip: "{$Items.GauntletofAnnihilation.Tooltip}"
+		DisplayName: "{$GauntletofAnnihilation.DisplayName}"
+		Tooltip: "{$GauntletofAnnihilation.Tooltip}"
 	}
 
 	GauntletofAnnihilation: {
@@ -944,8 +944,8 @@ Items: {
 			Hitting 20 cumulative shots on an enemy will stack an void shot
 			<right> while firing to shoot a void shot which explodes on collision and will petrify enemies
 			Only 20 void shots can be stored at a time
-			«Adorned with void hardened prisma crystal, it is prized for its beauty and enhanced mechanics»
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			«Adorned with void hardened prisma crystal, it is prized for its beauty and enhanced mechanics»
 			'''
 	}
 
@@ -1022,22 +1022,22 @@ Items: {
 			20: Сильный снаряд, наносящий гарантированный критический удар вместе с вызовом массивного взрыва
 			Урон этого оружия зависит от выпавшего при броске числа: чем больше число, тем больше урон (от 25% до 200% от урона атаки)
 			Выпадающий результат зависит от удачи игрока
-			При скрытном ударе бросает более выгодный кубик (он совершает 2 броска и выдаёт эффект от наилучшего из них)
+			При скрытном ударе бросает более выгодный кубик, совершающий 2 броска в одном и выдающий эффект от наилучшего из них
 			«How do you want to do this?»
 			'''
 	}
 
 	VeryVeryStrangeSkull: {
 		DisplayName: Очень-очень подозрительный череп
-		Tooltip: Summons a void skull to shoot laser beam bursts at enemies, which cause damage over time
+		Tooltip: Призывает пустотный череп, стреляющий лазерными лучами, наносящими постепенный урон, в ближайших врагов
 	}
 
 	VeryVeryStrangeSkullVoid: {
-		DisplayName: "{$Items.VeryVeryStrangeSkull.DisplayName}"
+		DisplayName: "{$VeryVeryStrangeSkull.DisplayName}"
 		Tooltip:
 			'''
-			Summons a void skull to shoot laser beam bursts at enemies, which cause damage over time
-			Each shot consumes 4 void
+			{$VeryVeryStrangeSkull.Tooltip}
+			Каждый выстрел черепа расходует 4 ед. пустоты
 			'''
 	}
 
@@ -1058,7 +1058,7 @@ Items: {
 	}
 
 	LightMatterSheath: {
-		DisplayName: Light Matter Sheath
+		DisplayName: Ножны светлой материи
 		Tooltip: Sword strikes cause a massive white explosion with this attack if held and not used for 3 seconds
 	}
 
